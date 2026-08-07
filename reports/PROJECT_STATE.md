@@ -1,21 +1,21 @@
 # 📌 PROJECT_STATE.md — Kaggle Agriculture 2026
 
-> **🏆 VERIFIED CHAMPION BASELINE**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py) (**Rank #1 Champion**)  
-> **🥈 SECOND-PLACE BASELINE**: [`baseline/kaitofukami-v18.py`](file:///D:/kaggriculture/baseline/kaitofukami-v18.py) (V4.1 Base Engine, **Rank #2**, 1722.7 Rating)  
-> **🥉 THIRD-PLACE BASELINE**: [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py) (V8.2 Baseline, **Rank #3**)  
-> **🧪 ACTIVE KAGGLE SUBMISSION**: `submission.py` (**Ref: 55329352**, Status: PENDING / Evaluating)  
-> **3-Way Tournament Results**: **V8.3 (80.0% Win Rate vs V4.1)** | **V8.3 (100.0% Sweep vs V8.2)**  
+> **🏆 UNDISPUTED MASTER CHAMPION**: [`baseline/kaitofukami-v18.py`](file:///D:/kaggriculture/baseline/kaitofukami-v18.py) (V4.1 Base Engine, **1714.4 Kaggle Rating** 🥇)  
+> **🥈 EXPERIMENTAL SUBMISSION**: [`baseline/submission_v83_standalone.py`](file:///D:/kaggriculture/baseline/submission_v83_standalone.py) (V8.3 Opponent Ranker, **816.8 Kaggle Rating**)  
+> **🥉 LOCAL CONTROL BASELINE**: [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py) (V8.2 Baseline)  
+> **Live Kaggle Leaderboard Status**: **V4.1 (1714.4 Rating)** outscored V8.3 (816.8 Rating) by **+897.6 Elo Points**!  
 > **Repository Location**: `https://github.com/Tamizharuvi2006/Kaggriculture.git`  
 > **Last Updated**: August 7, 2026  
 
 ---
 
-## 🔒 Active Kaggle Submission Protocol
+## 🏆 Verified Kaggle Live Leaderboard Results
 
-- **LIVE KAGGLE SUBMISSION**: `submission.py` uploaded to Kaggle Competition Portal (**Submission Ref: 55329352**).
-- **SAFE BACKUP BASELINE**: `baseline/submission_v82_cows13.py` retained as safe baseline backup.
-- **PROVEN LEADERBOARD BOT**: `baseline/kaitofukami-v18.py` (V4.1 Base Engine, 1722.7 Rating).
-- **EVALUATION PROTOCOL**: Awaiting Kaggle live 1v1 matchmaking evaluation games to confirm if V8.3 TrueSkill rating > 1722.7.
+| Agent Submission | Version Tag | Strategy Architecture | Kaggle Leaderboard Rating | Live Match Performance | Official Status |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **`submission.py` (Ref: 55249106)** | **V4.1** | Unconstrained Closed-Loop Engine | **1714.4 Rating** 🥇 | $150k+ Avg Wealth vs Top Bots | **UNDISPUTED MASTER CHAMPION** |
+| **`submission.py` (Ref: 55329352)** | **V8.3** | Cows=13 + Opponent Ranker | **816.8 Rating** | ~$60k–$70k Wealth vs Top Bots | Experimental Branch |
+| **`submission.py` (Ref: 55247715)** | Hybrid | Hybrid Farming Agent | **421.9 Rating** | Low-tier baseline | Deprecated |
 
 ---
 
