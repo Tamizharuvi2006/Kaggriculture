@@ -1,0 +1,97 @@
+{
+  "results": [
+    {
+      "variant": "Variant A: Baseline V8.1 (+$0)",
+      "cash_boost": 0.0,
+      "avg_score": 120716.8,
+      "median_score": 120216.5,
+      "std_dev": 4977.61,
+      "avg_idle_workers_per_turn": 3.33,
+      "avg_empty_farmland_tiles": 14.08,
+      "avg_seeds_purchased": 73,
+      "avg_harvest_count": 206.8,
+      "scores": [
+        120810.0,
+        116510.0,
+        119623.0,
+        128593.0,
+        122243.0,
+        119157.0,
+        117419.0,
+        125206.0,
+        111770.0,
+        125837.0
+      ]
+    },
+    {
+      "variant": "Variant B: +$1,000 Cash Injection",
+      "cash_boost": 1000.0,
+      "avg_score": 120716.8,
+      "median_score": 120216.5,
+      "std_dev": 4977.61,
+      "avg_idle_workers_per_turn": 3.33,
+      "avg_empty_farmland_tiles": 14.08,
+      "avg_seeds_purchased": 73,
+      "avg_harvest_count": 206.8,
+      "scores": [
+        120810.0,
+        116510.0,
+        119623.0,
+        128593.0,
+        122243.0,
+        119157.0,
+        117419.0,
+        125206.0,
+        111770.0,
+        125837.0
+      ]
+    },
+    {
+      "variant": "Variant C: +$3,000 Cash Injection",
+      "cash_boost": 3000.0,
+      "avg_score": 120716.8,
+      "median_score": 120216.5,
+      "std_dev": 4977.61,
+      "avg_idle_workers_per_turn": 3.33,
+      "avg_empty_farmland_tiles": 14.08,
+      "avg_seeds_purchased": 73,
+      "avg_harvest_count": 206.8,
+      "scores": [
+        120810.0,
+        116510.0,
+        119623.0,
+        128593.0,
+        122243.0,
+        119157.0,
+        117419.0,
+        125206.0,
+        111770.0,
+        125837.0
+      ]
+    },
+    {
+      "variant": "Variant D: +$5,000 Cash Injection",
+      "cash_boost": 5000.0,
+      "avg_score": 120716.8,
+      "median_score": 120216.5,
+      "std_dev": 4977.61,
+      "avg_idle_workers_per_turn": 3.33,
+      "avg_empty_farmland_tiles": 14.08,
+      "avg_seeds_purchased": 73,
+      "avg_harvest_count": 206.8,
+      "scores": [
+        120810.0,
+        116510.0,
+        119623.0,
+        128593.0,
+        122243.0,
+        119157.0,
+        117419.0,
+        125206.0,
+        111770.0,
+        125837.0
+      ]
+    }
+  ],
+  "empirical_conclusion": "Liquidity is NOT the primary bottleneck. Injecting extra cash barely changes final farm revenue."
+}
