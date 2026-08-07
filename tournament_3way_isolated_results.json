@@ -1,0 +1,36 @@
+{
+  "m1_v41_vs_v82": {
+    "matchup": "V41_vs_V82",
+    "type_a": "V41",
+    "type_b": "V82",
+    "a_wins": 69,
+    "b_wins": 31,
+    "ties": 0,
+    "mean_a": 88881.53,
+    "mean_b": 85502.81,
+    "victory_margin": 3378.72
+  },
+  "m2_v41_vs_v83": {
+    "matchup": "V41_vs_V83",
+    "type_a": "V41",
+    "type_b": "V83",
+    "a_wins": 20,
+    "b_wins": 80,
+    "ties": 0,
+    "mean_a": 82677.96,
+    "mean_b": 91604.39,
+    "victory_margin": -8926.43
+  },
+  "m3_v82_vs_v83": {
+    "matchup": "V82_vs_V83",
+    "type_a": "V82",
+    "type_b": "V83",
+    "a_wins": 0,
+    "b_wins": 100,
+    "ties": 0,
+    "mean_a": 71514.97,
+    "mean_b": 84644.89,
+    "victory_margin": -13129.92
+  },
+  "total_elapsed_seconds": 619.2
+}

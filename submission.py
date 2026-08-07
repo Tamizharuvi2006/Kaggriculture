@@ -4496,7 +4496,7 @@ def agent(obs, configuration=None):
             return (10, idx)
         item = ord_item[1] if len(ord_item) > 1 else ""
         if item == "MILK" and milk_p >= 230.0:
-            return (0, idx)  # Top priority sell
+            return (0, idx)
         elif item == "MELON":
             return (1, idx)
         elif item == "STRAWBERRY":

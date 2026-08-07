@@ -1,22 +1,22 @@
 # 📌 PROJECT_STATE.md — Kaggle Agriculture 2026
 
-> **🏆 FROZEN CHAMPION BASELINE**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py) (Permanently Frozen)  
-> **🥈 RETAINED CONTROL BASELINE**: [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py)  
-> **🧪 EXPERIMENTAL KAGGLE SUBMISSION**: `submission_v83_standalone.py` (**Ref: 55328057**, Status: PENDING / Evaluating)  
-> **Solo Benchmark Score**: **$124,753.98** (0 Bankruptcies across Seeds 1000–1099)  
-> **Unseen Seeds Score**: **$124,369.40** (0 Bankruptcies across Seeds 1100–1199)  
-> **Head-to-Head Record vs V8.2 Baseline**: **200 Wins / 0 Losses (100.0% Win Rate)** (+ $13,058.94 Victory Margin / Match)  
+> **🏆 VERIFIED CHAMPION BASELINE**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py) (**Rank #1 Champion**)  
+> **🥈 SECOND-PLACE BASELINE**: [`baseline/kaitofukami-v18.py`](file:///D:/kaggriculture/baseline/kaitofukami-v18.py) (V4.1 Base Engine, **Rank #2**, 1727.1 Rating)  
+> **🥉 THIRD-PLACE BASELINE**: [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py) (V8.2 Baseline, **Rank #3**)  
+> **🧪 EXPERIMENTAL KAGGLE SUBMISSION**: `submission_v83_standalone.py` (**Ref: 55328057**)  
+> **3-Way Tournament Results**: **V8.3 (80.0% Win Rate vs V4.1)** | **V8.3 (100.0% Sweep vs V8.2)**  
 > **Repository Location**: `https://github.com/Tamizharuvi2006/Kaggriculture.git`  
 > **Last Updated**: August 7, 2026  
 
 ---
 
-## 🔒 Champion Freeze & Kaggle Submission Protocol
+## 🏆 Verified 3-Way Tournament Hierarchy (300 Isolated Matches)
 
-- **KAGGLE EXPERIMENTAL UPLOAD**: [`baseline/submission_v83_standalone.py`](file:///D:/kaggriculture/baseline/submission_v83_standalone.py) uploaded to Kaggle Competition Portal (**Submission Ref: 55328057**).
-- **SAFE BACKUP BASELINE**: [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py) retained as safe baseline backup.
-- **CHAMPION STATUS**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py) is officially **PERMANENTLY FROZEN**.
-- **ACTIVE EXPERIMENTAL BRANCH**: All future development occurs in `baseline/submission_v84_experimental.py`.
+| Agent Architecture | Head-to-Head Record | Win Rate (%) | Avg Head-to-Head Margin | Tournament Rank |
+| :--- | :---: | :---: | :---: | :---: |
+| 🏆 **V8.3 Champion (`submission_v83_standalone.py`)** | **80-20 vs V4.1** \| **100-0 vs V8.2** | **90.0% Total** | **+$8,926.43 / match vs V4.1** | **RANK #1 CHAMPION** 🥇 |
+| 🥈 **V4.1 Base Engine (`kaitofukami-v18.py`)** | **69-31 vs V8.2** \| **20-80 vs V8.3** | **44.5% Total** | **+$3,378.72 / match vs V8.2** | **RANK #2 BASELINE** |
+| 🥉 **V8.2 Baseline (`submission_v82_cows13.py`)** | **31-69 vs V4.1** \| **0-100 vs V8.3** | **15.5% Total** | -$13,129.92 / match vs V8.3 | **RANK #3 BASELINE** |
 
 ---
 
