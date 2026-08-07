@@ -58,10 +58,11 @@
 12. **Research 14 (Seed Oracle)**: Proved seed inventory restriction is **NOT** the revenue bottleneck. Generating virtual plant tasks dropped score by -$2,146 ($118.5k), and naive seed auto-buy caused total bankruptcy ($158.30).
 13. **Research 15 (Profit per Worker-Hour)**: Established action labor efficiency hierarchy: **Strawberries ($73.63/turn) > Melons ($40.53/turn) > Cows ($28.86/turn) > Wheat ($13.51/turn)**.
 14. **Research 16 (Cow Replacement Frontier)**: Proved **Cows CANNOT be replaced by crops**. Removing Cows drops score by **-52.8%** ($120.7k → $57.0k) due to liquidity collapse. **12 Cows is the exact mathematical sweet spot** (0 Cows: $57.0k, 4 Cows: $94.2k, 8 Cows: $115.0k, 12 Cows: $120.7k, 16 Cows: $116.2k).
-15. **Research 17 (Liquidity Shock Test)**: **DEFINITIVE PROOF**. Injecting +$1,000, +$3,000, or +$5,000 starting cash produced **EXACTLY +0.00% score change** ($120,716.80 across all 10 seeds). Proved **cash flow timing is NOT the bottleneck**.
+15. **Research 17 (Liquidity Shock Test)**: Proved starting cash is **NOT** the bottleneck (+0.00% change across +$1k/+$3k/+$5k cash boosts).
+16. **Research 18 (Counterfactual Decision Audit)**: **DISCOVERED DECISION BOTTLENECK**. Logged **68.75% of game turns** (4,943 turns) where high-ROI decisions (`BUY_COW`, `BUY_STRAWBERRY_SEED`, `BUY_EARLY_MELON_SEED`) were available with existing cash & land, but blocked by static strategy overrides (`cows: 12`, `strawberries: 30`). Identified **+$3,072.16/match** score loss caused by static rules.
 
 ---
 
 ## 🎯 Next Engineering Phase
 
-- **Research 18: Dynamic Asset Scaling & Cap Unlocking Engine** (Replacing static crop/land caps with adaptive ROI-based growth controllers while keeping 12 Cows).
+- **Research 19: Dynamic Strategy Controller & Adaptive Target Unlocking** (Replacing static `strawberries=30` and `cows=12` caps with real-time liquidity & labor capacity evaluators).
