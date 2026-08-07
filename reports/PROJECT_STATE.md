@@ -1,8 +1,9 @@
 # 📌 PROJECT_STATE.md — Kaggle Agriculture 2026
 
-> **Verified Master Baseline**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py)  
-> **Official 100-Match Score**: **$184,404.03** (0 Bankruptcies, $7,666.31 StdDev, **+$59,650.05 Net Gain!**)  
-> **Head-to-Head Record**: **200 Wins / 0 Losses (100.0% Win Rate)** vs V5 Agent  
+> **Verified Champion Baseline**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py)  
+> **Solo Benchmark Score**: **$124,753.98** (0 Bankruptcies, $6,709.16 StdDev across Seeds 1000–1099)  
+> **Unseen Seeds Score**: **$124,369.40** (0 Bankruptcies across Seeds 1100–1199)  
+> **Head-to-Head Record vs V8.2 Baseline**: **200 Wins / 0 Losses (100.0% Win Rate)** (+ $13,058.94 Victory Margin / Match)  
 > **Repository Location**: `https://github.com/Tamizharuvi2006/Kaggriculture.git`  
 > **Last Updated**: August 7, 2026  
 
@@ -11,11 +12,11 @@
 ## 🏆 Current Best Submission
 
 - **File**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py)
-- **Average Score**: **$184,404.03**
-- **Median Score**: **$185,951.00**
-- **Worst Score**: **$164,716.00**
-- **Standard Deviation**: **$7,666.31**
-- **Bankruptcies**: **0 / 100**
+- **Solo Benchmark (1000–1099)**: **$124,753.98**
+- **Unseen Seeds Benchmark (1100–1199)**: **$124,369.40**
+- **Direct 1v1 Battle vs V8.2 Baseline**: **200 / 200 WINS (100.0% Win Rate)**
+- **Average Direct Battle Victory Margin**: **+$13,058.94 per match** ($124.3k vs $111.3k)
+- **Bankruptcies**: **0 / 700 matches total**
 
 ---
 

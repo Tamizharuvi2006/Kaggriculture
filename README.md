@@ -1,18 +1,19 @@
 # 🌾 Kaggle Agriculture Autonomous AI Agent 2026
 
 > **Current Master Baseline**: `baseline/submission_v83.py` (V8.3 Opponent Supply-Aware Ranker)  
-> **Official 100-Match Score**: **$184,404.03** (Seeds 1000–1099, 0 Bankruptcies, $7,666.31 StdDev)  
-> **Head-to-Head Win Rate**: **200 / 200 Wins (100.0% Sweep Victory)** vs V5 Agent  
+> **Official Solo Score**: **$124,753.98** (Seeds 1000–1099, 0 Bankruptcies, $6,709.16 StdDev)  
+> **Unseen Seeds Score**: **$124,369.40** (Seeds 1100–1199, 0 Bankruptcies)  
+> **Head-to-Head Win Rate vs V8.2**: **200 / 200 Wins (100.0% Sweep Victory)** (+$13,058.94 Margin / Match)  
 > **Repository**: `https://github.com/Tamizharuvi2006/Kaggriculture.git`
 
 ---
 
 ## 🏆 Master Submission Status
 
-| Submission Entrypoint | Version Tag | Strategy Config | 100-Match Mean ($) | 100-Match Median ($) | Worst Score ($) | Bankruptcies | Status |
+| Submission Entrypoint | Version Tag | Strategy Config | Solo 100-Match Mean ($) | Unseen Seeds Mean ($) | Head-to-Head Win Rate vs V8.2 | H2H Victory Margin ($) | Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py) | **V8.3** | Cows=13 + Opponent Ranker | **$184,404.03** | **$185,951.00** | **$164,716.00** | **0 / 100** | **MASTER BASELINE** 🥇 |
-| [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py) | **V8.2** | Cows=13 Control | **$124,753.98** | **$125,877.50** | **$106,552.00** | **0 / 100** | **RETAINED BASELINE** |
+| [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py) | **V8.3** | Cows=13 + Opponent Ranker | **$124,753.98** | **$124,369.40** | **200 / 200 (100.0%)** | **+$13,058.94 / match** | **CHAMPION BASELINE** 🥇 |
+| [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py) | **V8.2** | Cows=13 Control | **$124,753.98** | **$124,369.40** | **0 / 200 (0.0%)** | Baseline Control | **RETAINED BASELINE** |
 | [`baseline/submission_v81_cows12.py`](file:///D:/kaggriculture/baseline/submission_v81_cows12.py) | **V8.1** | Cows=12 Control | **$118,378.43** | **$120,400.00** | **$0.00** | **3 / 100** | **DEPRECATED** |
 
 ---

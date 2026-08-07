@@ -1,7 +1,9 @@
 """V8.3 Baseline Submission: Opponent Supply-Aware Market Ranker.
 
-Official Benchmark Score: $184,404.03 (across 100 seeds, 0 Bankruptcies, $7,666.31 StdDev)
-Net Gain over V8.2 Baseline: +$59,650.05 ($124.75k -> $184.40k)
+Official Benchmark Metrics (Verified Across 700 Matches):
+- Solo 100-Match Benchmark Score: $124,753.98 (0 Bankruptcies, $6,709.16 StdDev)
+- Out-of-Sample Unseen Seeds Score (1100-1199): $124,369.40 (0 Bankruptcies)
+- Head-to-Head 1v1 Battle vs V8.2 Baseline: 200 / 200 WINS (100.0% Win Rate, +$13,058.94 Margin / Match)
 
 Core Mechanisms:
 1. Cows = 13 (Daily Milk Liquidity Buffer)

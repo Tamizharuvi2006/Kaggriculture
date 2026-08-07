@@ -1,0 +1,41 @@
+{
+  "ablation_study": {
+    "Normal V8.2 Baseline": {
+      "mean": 124753.98,
+      "median": 125877.5,
+      "std_dev": 6709.157427988655,
+      "worst": 106552.0
+    },
+    "Milk Prioritization Only": {
+      "mean": 124753.98,
+      "median": 125877.5,
+      "std_dev": 6709.157427988655,
+      "worst": 106552.0
+    },
+    "Opponent Awareness Only": {
+      "mean": 124753.98,
+      "median": 125877.5,
+      "std_dev": 6709.157427988655,
+      "worst": 106552.0
+    },
+    "Full V8.3 Baseline": {
+      "mean": 124753.98,
+      "median": 125877.5,
+      "std_dev": 6709.157427988655,
+      "worst": 106552.0
+    }
+  },
+  "unseen_seeds_1100_1199": {
+    "v82_mean": 124369.4,
+    "v83_mean": 124369.4,
+    "net_gain": 0.0
+  },
+  "head_to_head_v83_vs_v82": {
+    "v83_wins": 200,
+    "v82_wins": 0,
+    "ties": 0,
+    "win_rate_pct": 100.0,
+    "avg_margin": 13058.94
+  },
+  "total_elapsed_seconds": 1375.2
+}
