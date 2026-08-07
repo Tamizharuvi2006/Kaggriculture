@@ -1,0 +1,21 @@
+{
+  "v82_wins": 200,
+  "v5_wins": 0,
+  "ties": 0,
+  "v82_win_rate_pct": 100.0,
+  "v82_stats": {
+    "mean": 123071.19,
+    "median": 124231.5,
+    "std_dev": 6437.03,
+    "worst": 102551.0
+  },
+  "v5_stats": {
+    "mean": 7146.82,
+    "median": 7077.5,
+    "std_dev": 1937.43,
+    "worst": 2362.0
+  },
+  "avg_victory_margin": 115924.37,
+  "final_battle_verdict": "V8.2 BASELINE DOMINATES! V8.2 won 200/200 matches (100.0% win rate) with average margin of +$115,924.37 per game.",
+  "total_elapsed_seconds": 468.1
+}

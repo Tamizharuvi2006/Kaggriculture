@@ -1,0 +1,219 @@
+{
+  "daily_roi": {
+    "1": {
+      "STRAWBERRY": 2.09,
+      "MELON": 1.01,
+      "CARROT": 0.5,
+      "WHEAT": 0.6,
+      "COW": 7.09
+    },
+    "2": {
+      "STRAWBERRY": 2.16,
+      "MELON": 1.04,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": 7.06
+    },
+    "3": {
+      "STRAWBERRY": 2.24,
+      "MELON": 1.08,
+      "CARROT": 0.5,
+      "WHEAT": 0.59,
+      "COW": 7.03
+    },
+    "4": {
+      "STRAWBERRY": 2.07,
+      "MELON": 1.12,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": 6.99
+    },
+    "5": {
+      "STRAWBERRY": 2.15,
+      "MELON": 1.17,
+      "CARROT": 0.5,
+      "WHEAT": 0.59,
+      "COW": 6.95
+    },
+    "6": {
+      "STRAWBERRY": 2.24,
+      "MELON": 0.97,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": 6.91
+    },
+    "7": {
+      "STRAWBERRY": 2.05,
+      "MELON": 1.01,
+      "CARROT": 0.5,
+      "WHEAT": 0.59,
+      "COW": 6.86
+    },
+    "8": {
+      "STRAWBERRY": 2.14,
+      "MELON": 1.06,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": 6.81
+    },
+    "9": {
+      "STRAWBERRY": 2.24,
+      "MELON": 1.11,
+      "CARROT": 0.49,
+      "WHEAT": 0.59,
+      "COW": 6.76
+    },
+    "10": {
+      "STRAWBERRY": 2.02,
+      "MELON": 1.17,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": 6.7
+    },
+    "11": {
+      "STRAWBERRY": 2.13,
+      "MELON": 0.92,
+      "CARROT": 0.49,
+      "WHEAT": 0.59,
+      "COW": 6.64
+    },
+    "12": {
+      "STRAWBERRY": 2.24,
+      "MELON": 0.97,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": 6.56
+    },
+    "13": {
+      "STRAWBERRY": 1.98,
+      "MELON": 1.03,
+      "CARROT": 0.49,
+      "WHEAT": 0.58,
+      "COW": 6.48
+    },
+    "14": {
+      "STRAWBERRY": 2.1,
+      "MELON": 1.09,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": 6.39
+    },
+    "15": {
+      "STRAWBERRY": 2.24,
+      "MELON": 1.17,
+      "CARROT": 0.48,
+      "WHEAT": 0.58,
+      "COW": 6.28
+    },
+    "16": {
+      "STRAWBERRY": 1.92,
+      "MELON": 0.83,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": 6.17
+    },
+    "17": {
+      "STRAWBERRY": 2.07,
+      "MELON": 0.9,
+      "CARROT": 0.48,
+      "WHEAT": 0.57,
+      "COW": 6.03
+    },
+    "18": {
+      "STRAWBERRY": 2.24,
+      "MELON": 0.97,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": 5.87
+    },
+    "19": {
+      "STRAWBERRY": 1.84,
+      "MELON": 1.06,
+      "CARROT": 0.47,
+      "WHEAT": 0.56,
+      "COW": 5.68
+    },
+    "20": {
+      "STRAWBERRY": 2.02,
+      "MELON": 1.17,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": 5.45
+    },
+    "21": {
+      "STRAWBERRY": 2.24,
+      "MELON": 0.65,
+      "CARROT": 0.46,
+      "WHEAT": 0.55,
+      "COW": 5.17
+    },
+    "22": {
+      "STRAWBERRY": 1.68,
+      "MELON": 0.73,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": 4.83
+    },
+    "23": {
+      "STRAWBERRY": 1.92,
+      "MELON": 0.83,
+      "CARROT": 0.44,
+      "WHEAT": 0.53,
+      "COW": 4.38
+    },
+    "24": {
+      "STRAWBERRY": 2.24,
+      "MELON": 0.97,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": 3.78
+    },
+    "25": {
+      "STRAWBERRY": 1.35,
+      "MELON": 1.17,
+      "CARROT": 0.41,
+      "WHEAT": 0.49,
+      "COW": 2.95
+    },
+    "26": {
+      "STRAWBERRY": 1.68,
+      "MELON": -1.04,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": 1.7
+    },
+    "27": {
+      "STRAWBERRY": 2.24,
+      "MELON": -1.39,
+      "CARROT": 0.35,
+      "WHEAT": 0.41,
+      "COW": -0.38
+    },
+    "28": {
+      "STRAWBERRY": -1.04,
+      "MELON": -2.08,
+      "CARROT": 0.52,
+      "WHEAT": 0.62,
+      "COW": -4.55
+    },
+    "29": {
+      "STRAWBERRY": -2.08,
+      "MELON": -4.17,
+      "CARROT": -0.62,
+      "WHEAT": -0.42,
+      "COW": -17.05
+    },
+    "30": {
+      "STRAWBERRY": -50.0,
+      "MELON": -100.0,
+      "CARROT": -15.0,
+      "WHEAT": -10.0,
+      "COW": -600.0
+    }
+  },
+  "cutoffs": {
+    "STRAWBERRY": 27,
+    "MELON": 25,
+    "COW": 26
+  }
+}

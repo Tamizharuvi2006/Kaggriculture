@@ -1,0 +1,50 @@
+{
+  "mean_score": 124753.98,
+  "top_10_avg_score": 134390.5,
+  "bottom_10_avg_score": 111240.0,
+  "market_stats": {
+    "MILK": {
+      "mean_price": 230.48,
+      "std_dev_price": 38.02,
+      "top_10_avg_price": 243.15,
+      "bottom_10_avg_price": 219.02,
+      "price_delta": 24.12
+    },
+    "STRAWBERRY": {
+      "mean_price": 211.61,
+      "std_dev_price": 49.22,
+      "top_10_avg_price": 223.05,
+      "bottom_10_avg_price": 199.35,
+      "price_delta": 23.7
+    },
+    "MELON": {
+      "mean_price": 240.0,
+      "std_dev_price": 28.69,
+      "top_10_avg_price": 243.2,
+      "bottom_10_avg_price": 238.11,
+      "price_delta": 5.08
+    },
+    "WHEAT": {
+      "mean_price": 39.65,
+      "std_dev_price": 8.27,
+      "top_10_avg_price": 40.1,
+      "bottom_10_avg_price": 39.0,
+      "price_delta": 1.1
+    },
+    "CARROT": {
+      "mean_price": 39.87,
+      "std_dev_price": 1.73,
+      "top_10_avg_price": 39.85,
+      "bottom_10_avg_price": 40.03,
+      "price_delta": -0.18
+    },
+    "FERTILIZER": {
+      "mean_price": 89.85,
+      "std_dev_price": 7.69,
+      "top_10_avg_price": 89.91,
+      "bottom_10_avg_price": 89.84,
+      "price_delta": 0.07
+    }
+  },
+  "total_elapsed_seconds": 134.0
+}
