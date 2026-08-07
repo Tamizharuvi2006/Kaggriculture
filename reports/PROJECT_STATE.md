@@ -1,22 +1,21 @@
 # 📌 PROJECT_STATE.md — Kaggle Agriculture 2026
 
 > **🏆 VERIFIED CHAMPION BASELINE**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py) (**Rank #1 Champion**)  
-> **🥈 SECOND-PLACE BASELINE**: [`baseline/kaitofukami-v18.py`](file:///D:/kaggriculture/baseline/kaitofukami-v18.py) (V4.1 Base Engine, **Rank #2**, 1727.1 Rating)  
+> **🥈 SECOND-PLACE BASELINE**: [`baseline/kaitofukami-v18.py`](file:///D:/kaggriculture/baseline/kaitofukami-v18.py) (V4.1 Base Engine, **Rank #2**, 1722.7 Rating)  
 > **🥉 THIRD-PLACE BASELINE**: [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py) (V8.2 Baseline, **Rank #3**)  
-> **🧪 EXPERIMENTAL KAGGLE SUBMISSION**: `submission_v83_standalone.py` (**Ref: 55328057**)  
+> **🧪 ACTIVE KAGGLE SUBMISSION**: `submission.py` (**Ref: 55329352**, Status: PENDING / Evaluating)  
 > **3-Way Tournament Results**: **V8.3 (80.0% Win Rate vs V4.1)** | **V8.3 (100.0% Sweep vs V8.2)**  
 > **Repository Location**: `https://github.com/Tamizharuvi2006/Kaggriculture.git`  
 > **Last Updated**: August 7, 2026  
 
 ---
 
-## 🏆 Verified 3-Way Tournament Hierarchy (300 Isolated Matches)
+## 🔒 Active Kaggle Submission Protocol
 
-| Agent Architecture | Head-to-Head Record | Win Rate (%) | Avg Head-to-Head Margin | Tournament Rank |
-| :--- | :---: | :---: | :---: | :---: |
-| 🏆 **V8.3 Champion (`submission_v83_standalone.py`)** | **80-20 vs V4.1** \| **100-0 vs V8.2** | **90.0% Total** | **+$8,926.43 / match vs V4.1** | **RANK #1 CHAMPION** 🥇 |
-| 🥈 **V4.1 Base Engine (`kaitofukami-v18.py`)** | **69-31 vs V8.2** \| **20-80 vs V8.3** | **44.5% Total** | **+$3,378.72 / match vs V8.2** | **RANK #2 BASELINE** |
-| 🥉 **V8.2 Baseline (`submission_v82_cows13.py`)** | **31-69 vs V4.1** \| **0-100 vs V8.3** | **15.5% Total** | -$13,129.92 / match vs V8.3 | **RANK #3 BASELINE** |
+- **LIVE KAGGLE SUBMISSION**: `submission.py` uploaded to Kaggle Competition Portal (**Submission Ref: 55329352**).
+- **SAFE BACKUP BASELINE**: `baseline/submission_v82_cows13.py` retained as safe baseline backup.
+- **PROVEN LEADERBOARD BOT**: `baseline/kaitofukami-v18.py` (V4.1 Base Engine, 1722.7 Rating).
+- **EVALUATION PROTOCOL**: Awaiting Kaggle live 1v1 matchmaking evaluation games to confirm if V8.3 TrueSkill rating > 1722.7.
 
 ---
 
