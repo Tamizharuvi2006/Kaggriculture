@@ -1,6 +1,7 @@
 # 📌 PROJECT_STATE.md — Kaggle Agriculture 2026
 
 > **Current Verified Best Score**: **$121,973.63** (Official 100-Match Baseline across Seeds 1000–1099)  
+> **Repository Location**: `https://github.com/Tamizharuvi2006/Kaggriculture.git`  
 > **Last Updated**: August 7, 2026  
 
 ---
@@ -19,6 +20,25 @@
 - **Master Reports**:
   - [`reports/REPORT.md`](file:///D:/kaggle_agriculture_clean/reports/REPORT.md)
   - [`reports/PROJECT_STATE.md`](file:///D:/kaggle_agriculture_clean/reports/PROJECT_STATE.md)
+- **Task Backlog**:
+  - [`TODO.md`](file:///D:/kaggle_agriculture_clean/TODO.md)
+
+---
+
+## 🧠 Known Conclusions
+
+1. **SE Expansion Hurts Performance**: Unlocking Quadrant 4 (SE) without task scheduler rewrites drops score from **$122.0k → $108.0k**.
+2. **Infinite-Speed Oracle Gives +0.00% Score Change**: Instant movement oracle yields a **perfect +0.00% score change** ($120,716.80 vs $120,716.80).
+3. **Transit is NOT the Bottleneck**: Physical movement speed is not what limits farm revenue.
+4. **Worker Scheduling is the Primary Bottleneck**: V18's centralized scheduler fails to generate and dispatch high-value work orders, leaving **3.33 workers idle every step** across **10 empty farmland tiles**.
+
+---
+
+## ❓ Open Questions
+
+1. **Why are 3.33 workers idle every step?**
+2. **Why do 10 unlocked tiles sit completely unused?**
+3. **Which profitable tasks are missing from the work generator?**
 
 ---
 
@@ -37,25 +57,6 @@
 
 ---
 
-## 💡 The Ultimate Bottleneck Verdict
+## 🎯 Next Experiment
 
-> **PRIMARY BOTTLENECK = TASK GENERATION & WORK SCHEDULING**
-
-- Movement speed has **zero impact (+0.00%)** on final score.
-- Workers are walking and sitting idle (3.33 workers idle/step across 10 empty tiles) because V18's centralized scheduler **fails to generate and dispatch high-value work orders**.
-
----
-
-## ❌ Failed Ideas & Negative Results
-
-- **Movement Speed / Pathfinding Optimization**: Instant movement yields +0.00% improvement.
-- **Naive SE Expansion**: Unlocking SE without task scheduler rewrite drops score from **$122.0k → $108.0k**.
-- **Skewed Sheep Herds**: Sheep-heavy builds drop score to $38.0k (bankruptcy).
-
----
-
-## 🎯 Next Three Experiments to Execute
-
-1. **Autonomous Dynamic Task Dispatcher**: Replace static `_assign_actions()` queue with real-time value-density task generation (assigning idle workers to plant/harvest high-ROI crops dynamically).
-2. **Dynamic Crop Target Scaling**: Allow crop planner to scale strawberries beyond 30 tiles dynamically based on available worker bandwidth.
-3. **96-Tile SE Expansion with Dynamic Work Allocation**: Unlock SE on Day 11+ and dispatch dynamic task queues across all 96 tiles (Target: 140k–200k).
+- **Research 13: Task Scheduler & Work Generator Audit** (Defined in [`TODO.md`](file:///D:/kaggle_agriculture_clean/TODO.md)).
