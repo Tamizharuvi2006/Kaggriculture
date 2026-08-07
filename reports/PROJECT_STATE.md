@@ -19,64 +19,42 @@
 
 ---
 
-## ✅ Proven Improvements
+## ✅ Proven Facts (Empirical Benchmark Proof)
 
-1. **Cow Frontier Optimization (`Cows = 13`)**:
-   - `Cows = 12` ($118,378.43) → `Cows = 13` (**$124,753.98**), net gain of **+$6,375.55**.
-   - *Conclusion*: 13 cows is the exact mathematical local optimum of the static herd configuration space.
-
-2. **Milk-Driven Economy**:
-   - **Milk Revenue Share**: **34.49%** of total farm cash flow.
-   - **`corr(score, milk_rev_share)`**: **`+0.796`**
-   - *Conclusion*: Daily steady milk liquidity is the single strongest economic stabilizer and revenue driver.
-
-3. **Immediate Selling Policy**:
-   - Immediate Sell (**$124,753.98**) vs Hold +1 Day (**$60,891.12**), net loss of **-$63,862.86 (-51.2% drop)**.
-   - *Conclusion*: Immediate liquidity is mandatory; holding crop inventory starves working capital.
+1. **`submission_v82_cows13.py` achieves $124,753.98** on the official 100-seed benchmark.
+2. **Herd size 13 > 12** by **+$6,375.55** ($118,378 → $124,754).
+3. **Immediate selling massively outperforms inventory holding** (holding strawberries +1 day dropped score by -$63.86k to $60.89k).
+4. **Herd sizes 14–16 are worse than 13** in the tested static setup (-$3.8k to -$8.5k regression).
+5. **Scheduler omissions exist** (145,843 omission events logged across 100 matches).
+6. **V8.2 Baseline defeated the tested V5 implementation 200–0** in direct head-to-head competition ($123.07k vs $7.15k avg score).
+7. **Milk revenue share has a strong positive correlation (`+0.796`)** with final match score.
 
 ---
 
-## ❌ Dead Research Directions (Proven Rejected)
+## ⚠️ Strong Hypotheses (High Likelihood)
 
-The following 13 strategy branches have been experimentally tested and rejected across >2,500 game simulations:
-
-- ❌ **Land Expansion (SE Quadrant)**: -$14.0k drop ($108.0k)
-- ❌ **Instant Movement Oracle**: +0.00% change
-- ❌ **Starting Cash Injections**: +0.00% change
-- ❌ **Unlimited Seeds**: -$2.14k drop ($118.5k) / bankruptcy
-- ❌ **Feed Reordering / Priority**: -$1.86k regression ($122.8k)
-- ❌ **Fertilizer Deferral**: -$6.87k regression ($117.8k)
-- ❌ **Dropping SELL Orders**: 100% Bankruptcy ($0.00)
-- ❌ **Herd Sizes > 13 (Cows 14–16)**: -$3.8k to -$8.5k regression
-- ❌ **Scheduler Un-gating**: -$7.99k regression ($116.7k)
-- ❌ **Late-Game Planting**: Un-matured crop traps
-- ❌ **Inventory Holding**: -$63.86k collapse ($60.89k)
-- ❌ **Speculative Sell Windows**: Delayed working capital
-- ❌ **Naive Opponent Forecasting**: Over-fitting speculative plans
+1. **Milk Revenue as Score Predictor**:
+   - *Milk revenue share is the strongest predictor of score discovered so far* (`corr = +0.796`).
+2. **Spatial Layout Sensitivity**:
+   - *The tested 4x4 layout sensitivity shows spatial arrangement matters significantly* (increasing strawberries from 30 to 31 inside the existing layout caused 100/100 bankruptcies due to pasture coordinate disruption).
+3. **Cattle Fleet Optimum**:
+   - *13 cows is the best configuration among the herd sizes and static policies tested*.
 
 ---
 
-## ⚠️ Important Discoveries
+## ❌ Softened Negative Findings (Tested Implementations)
 
-1. **Scheduler Omissions Exist, But 99.5% Are Harmless**:
-   - 145,843 omission events logged (max streak: 136 consecutive steps).
-   - However, **99.5% of omissions are unplanted Wheat seeds** intentionally ignored by the crop plan. Only 0.5% (732 steps) involved high-ROI seeds.
-
-2. **Spatial Constraints Matter (Layout Sensitivity)**:
-   - 30 Strawberries → 31 Strawberries caused **100 / 100 Bankruptcies** ($613.91 score) due to spatial pasture tile map disruption.
-   - The 4x4 spatial layout for 30 Strawberries + 13 Cows is tightly packed.
-
-3. **Stable Liquidity Dominates Complex Planning**:
-   - Head-to-Head Battle: **V8.2 (200 wins / 100.0%)** vs **V5 Agent (0 wins / 0.0%)**.
-   - Average score: **$123,071.19** vs **$7,146.82** (Victory margin: **+$115,924.37 per match**).
+- **The tested V5 forecasting architecture failed catastrophically** in 1v1 battle due to cash-flow lockup.
+- **Simple inventory holding strategies are harmful** due to compound working capital starvation.
+- **Naive scheduler un-gating caused late-crop traps** by planting crops that did not mature before Day 30.
 
 ---
 
-## 🚫 Things to Stop Researching
+## 🚫 Exhausted Research Areas (Stop List)
 
 Do **NOT** spend further effort on:
-- Changing cow count by ±1
-- Changing strawberry cap by ±1
+- Changing cow count by ±1 within existing layout
+- Changing strawberry cap by ±1 within existing layout
 - Delaying sales / holding inventory
 - Market-slot ordering tricks
 - Naive scheduler un-gating
@@ -85,10 +63,10 @@ Do **NOT** spend further effort on:
 
 ---
 
-## 🔍 Remaining Open Questions
+## 🔍 The 3 Worthwhile Directions Remaining
 
-Only four fundamental questions remain for future exploration:
-1. **Is there a fundamentally superior 2D spatial farm layout?**
-2. **Can opponent behavior be exploited without delaying liquidity?**
-3. **Can milk production efficiency be increased without changing tile geometry?**
-4. **Is there an undiscovered macro-strategy completely decoupled from the cattle economy?**
+Only three major unexplored directions remain for future research:
+
+1. **Spatial Layout Search**: Use an automated optimizer to search for alternative 2D farm tile layouts.
+2. **Opponent Supply Forecasting**: Predict market supply and price curves without delaying immediate sales.
+3. **Decoupled Macro-Strategy**: Search for alternative macro-strategies completely decoupled from the cattle economy.
