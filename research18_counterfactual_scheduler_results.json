@@ -1,0 +1,126 @@
+{
+  "total_turns_evaluated": 7190,
+  "suboptimal_turns_count": 4943,
+  "suboptimal_turns_percentage": 68.75,
+  "top_10_missed_opportunities": [
+    {
+      "opportunity": "BUY_ADDITIONAL_COW",
+      "count": 2040,
+      "pct_of_suboptimal": 41.27
+    },
+    {
+      "opportunity": "BUY_EXTRA_STRAWBERRY_SEED",
+      "count": 1906,
+      "pct_of_suboptimal": 38.56
+    },
+    {
+      "opportunity": "BUY_EARLY_MELON_SEED",
+      "count": 997,
+      "pct_of_suboptimal": 20.17
+    }
+  ],
+  "estimated_total_score_loss": 1536080.0,
+  "avg_estimated_lost_score_per_match": 3072.16,
+  "sample_missed_opportunity_logs": [
+    {
+      "seed": 1000,
+      "day": 1,
+      "hour": 0,
+      "cash": 746.0,
+      "chosen_action": "HIRE HIRE",
+      "missed_opportunity": "BUY_EARLY_MELON_SEED",
+      "estimated_50turn_lost_profit": 200.0,
+      "reason": "Static melon day cap blocked purchasing Melon seed on Day 1"
+    },
+    {
+      "seed": 1000,
+      "day": 1,
+      "hour": 1,
+      "cash": 739.0,
+      "chosen_action": "CONTINUE_BASELINE",
+      "missed_opportunity": "BUY_EARLY_MELON_SEED",
+      "estimated_50turn_lost_profit": 200.0,
+      "reason": "Static melon day cap blocked purchasing Melon seed on Day 1"
+    },
+    {
+      "seed": 1000,
+      "day": 1,
+      "hour": 2,
+      "cash": 739.0,
+      "chosen_action": "CONTINUE_BASELINE",
+      "missed_opportunity": "BUY_EARLY_MELON_SEED",
+      "estimated_50turn_lost_profit": 200.0,
+      "reason": "Static melon day cap blocked purchasing Melon seed on Day 1"
+    },
+    {
+      "seed": 1000,
+      "day": 1,
+      "hour": 3,
+      "cash": 739.0,
+      "chosen_action": "BUY_PRODUCT",
+      "missed_opportunity": "BUY_EARLY_MELON_SEED",
+      "estimated_50turn_lost_profit": 200.0,
+      "reason": "Static melon day cap blocked purchasing Melon seed on Day 1"
+    },
+    {
+      "seed": 1000,
+      "day": 1,
+      "hour": 4,
+      "cash": 711.0,
+      "chosen_action": "CONTINUE_BASELINE",
+      "missed_opportunity": "BUY_EARLY_MELON_SEED",
+      "estimated_50turn_lost_profit": 200.0,
+      "reason": "Static melon day cap blocked purchasing Melon seed on Day 1"
+    },
+    {
+      "seed": 1000,
+      "day": 1,
+      "hour": 5,
+      "cash": 711.0,
+      "chosen_action": "BUY_PRODUCT",
+      "missed_opportunity": "BUY_EARLY_MELON_SEED",
+      "estimated_50turn_lost_profit": 200.0,
+      "reason": "Static melon day cap blocked purchasing Melon seed on Day 1"
+    },
+    {
+      "seed": 1000,
+      "day": 1,
+      "hour": 6,
+      "cash": 683.0,
+      "chosen_action": "CONTINUE_BASELINE",
+      "missed_opportunity": "BUY_EARLY_MELON_SEED",
+      "estimated_50turn_lost_profit": 200.0,
+      "reason": "Static melon day cap blocked purchasing Melon seed on Day 1"
+    },
+    {
+      "seed": 1000,
+      "day": 1,
+      "hour": 7,
+      "cash": 683.0,
+      "chosen_action": "CONTINUE_BASELINE",
+      "missed_opportunity": "BUY_EARLY_MELON_SEED",
+      "estimated_50turn_lost_profit": 200.0,
+      "reason": "Static melon day cap blocked purchasing Melon seed on Day 1"
+    },
+    {
+      "seed": 1000,
+      "day": 1,
+      "hour": 8,
+      "cash": 683.0,
+      "chosen_action": "CONTINUE_BASELINE",
+      "missed_opportunity": "BUY_EARLY_MELON_SEED",
+      "estimated_50turn_lost_profit": 200.0,
+      "reason": "Static melon day cap blocked purchasing Melon seed on Day 1"
+    },
+    {
+      "seed": 1000,
+      "day": 1,
+      "hour": 9,
+      "cash": 683.0,
+      "chosen_action": "CONTINUE_BASELINE",
+      "missed_opportunity": "BUY_EARLY_MELON_SEED",
+      "estimated_50turn_lost_profit": 200.0,
+      "reason": "Static melon day cap blocked purchasing Melon seed on Day 1"
+    }
+  ]
+}
