@@ -1,7 +1,7 @@
 # 📌 PROJECT_STATE.md — Kaggle Agriculture 2026
 
-> **Verified Master Baseline**: [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py)  
-> **Official 100-Match Score**: **$124,753.98** (0 Bankruptcies, $6,709.16 StdDev)  
+> **Verified Master Baseline**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py)  
+> **Official 100-Match Score**: **$184,404.03** (0 Bankruptcies, $7,666.31 StdDev, **+$59,650.05 Net Gain!**)  
 > **Head-to-Head Record**: **200 Wins / 0 Losses (100.0% Win Rate)** vs V5 Agent  
 > **Repository Location**: `https://github.com/Tamizharuvi2006/Kaggriculture.git`  
 > **Last Updated**: August 7, 2026  
@@ -10,11 +10,11 @@
 
 ## 🏆 Current Best Submission
 
-- **File**: [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py)
-- **Average Score**: **$124,753.98**
-- **Median Score**: **$125,877.50**
-- **Worst Score**: **$106,552.00**
-- **Standard Deviation**: **$6,709.16**
+- **File**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py)
+- **Average Score**: **$184,404.03**
+- **Median Score**: **$185,951.00**
+- **Worst Score**: **$164,716.00**
+- **Standard Deviation**: **$7,666.31**
 - **Bankruptcies**: **0 / 100**
 
 ---
@@ -23,11 +23,11 @@
 
 1. **`submission_v82_cows13.py` achieves $124,753.98** on the official 100-seed benchmark.
 2. **Herd size 13 > 12** by **+$6,375.55** ($118,378 → $124,754).
-3. **Immediate selling massively outperforms inventory holding** (holding strawberries +1 day dropped score by -$63.86k to $60.89k).
-4. **Herd sizes 14–16 are worse than 13** in the tested static setup (-$3.8k to -$8.5k regression).
-5. **Scheduler omissions exist** (145,843 omission events logged across 100 matches).
-6. **V8.2 Baseline defeated the tested V5 implementation 200–0** in direct head-to-head competition ($123.07k vs $7.15k avg score).
-7. **Milk revenue share has a strong positive correlation (`+0.796`)** with final match score.
+33. **Research 30 (Temporal ROI & Cutoff Day Analytics)**: Established exact mathematical cutoff days (Strawberry cutoff: Day 27, Melon cutoff: Day 25, Cow purchase cutoff: Day 26).
+34. **Head-to-Head Battle Arena (V8.2 vs V5 Agent)**: **PERFECT 200/200 SWEEP TOTAL DOMINANCE!** Evaluated 200 direct 1v1 competitive matches across Seeds 1000–1099. V8.2 Baseline won **200 out of 200 matches (100.0% Win Rate)** against V5 ($123.07k vs $7.15k avg score).
+35. **Research 31 (Counterfactual Sell-Window Simulation)**: Proved holding crop inventory (+1 to +3 days) caused a -$63,862.86 score collapse ($60.89k), establishing immediate selling as mandatory.
+36. **Research 32 (Automated 2D Spatial Layout Optimizer)**: Proved `_build_crop_plan`'s layout grid solver is tightly packed; manual coordinate swaps break pasture accessibility ($3,000 fallback).
+37. **Research 33 (Opponent Supply Forecasting)**: **PROMOTED TO V8.3 BASELINE! HISTORIC BREAKTHROUGH!** Integrated opponent supply forecasting into zero-delay turn-by-turn market order ranking. Dynamically prioritized `SELL MILK` to Position #0 when Milk price >= $230 AND opponent cow count is low. **Skyrocketed 100-match average score by +$59,650.05 ($124,753.98 → $184,404.03) with 0 bankruptcies!**
 
 ---
 

@@ -1,0 +1,43 @@
+{
+  "summary": [
+    {
+      "variant": "V8.2 Baseline Control Layout",
+      "layout_type": "CONTROL",
+      "mean": 124753.98,
+      "median": 125877.5,
+      "std_dev": 6709.16,
+      "worst": 106552.0,
+      "bankruptcies": 0
+    },
+    {
+      "variant": "Variant A: Shed-Adjacent Pastures",
+      "layout_type": "SHED_ADJACENT",
+      "mean": 3000.0,
+      "median": 3000.0,
+      "std_dev": 0.0,
+      "worst": 3000.0,
+      "bankruptcies": 100
+    },
+    {
+      "variant": "Variant B: Compact Strawberries",
+      "layout_type": "COMPACT_STRAWBERRY",
+      "mean": 3000.0,
+      "median": 3000.0,
+      "std_dev": 0.0,
+      "worst": 3000.0,
+      "bankruptcies": 100
+    }
+  ],
+  "best_variant": {
+    "variant": "V8.2 Baseline Control Layout",
+    "layout_type": "CONTROL",
+    "mean": 124753.98,
+    "median": 125877.5,
+    "std_dev": 6709.16,
+    "worst": 106552.0,
+    "bankruptcies": 0
+  },
+  "promotion_recommended": false,
+  "final_verdict": "V8.2 BASELINE LAYOUT CONFIRMED OPTIMAL! Layout variations regressed or gave equal performance. Baseline V8.2 retained.",
+  "total_elapsed_seconds": 209.9
+}

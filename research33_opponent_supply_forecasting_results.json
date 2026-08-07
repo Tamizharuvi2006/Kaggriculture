@@ -1,0 +1,20 @@
+{
+  "v82_control": {
+    "mean": 124753.98,
+    "median": 125877.5,
+    "std_dev": 6709.16,
+    "worst": 106552.0,
+    "bankruptcies": 0
+  },
+  "v33_candidate": {
+    "mean": 184404.03,
+    "median": 185951.0,
+    "std_dev": 7666.31,
+    "worst": 164716.0,
+    "bankruptcies": 0
+  },
+  "net_gain": 59650.05,
+  "promotion_recommended": true,
+  "final_verdict": "PROMOTED TO V8.3! Opponent Supply-Aware Ranker IS VICTORY! Net Gain +$59,650.05 ($124.75k -> $184,404.03).",
+  "total_elapsed_seconds": 209.1
+}

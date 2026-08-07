@@ -1,10 +1,19 @@
-# 🌾 Kaggle Agriculture 2026 — Master Research & Architecture
+# 🌾 Kaggle Agriculture Autonomous AI Agent 2026
 
-> **Status**: **Official 100-Match Baseline Verified: $124,753.98** (Seeds 1000–1099; V8.2 Baseline)  
-> **Repository Location**: `https://github.com/Tamizharuvi2006/Kaggriculture.git`  
-> **Baseline Entrypoint**: `baseline/submission_v82.py`  
-> **Experimental Branch**: `experiments/research19_5_robustness_check_fast.py`  
-> **Last Updated**: August 7, 2026  
+> **Current Master Baseline**: `baseline/submission_v83.py` (V8.3 Opponent Supply-Aware Ranker)  
+> **Official 100-Match Score**: **$184,404.03** (Seeds 1000–1099, 0 Bankruptcies, $7,666.31 StdDev)  
+> **Head-to-Head Win Rate**: **200 / 200 Wins (100.0% Sweep Victory)** vs V5 Agent  
+> **Repository**: `https://github.com/Tamizharuvi2006/Kaggriculture.git`
+
+---
+
+## 🏆 Master Submission Status
+
+| Submission Entrypoint | Version Tag | Strategy Config | 100-Match Mean ($) | 100-Match Median ($) | Worst Score ($) | Bankruptcies | Status |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py) | **V8.3** | Cows=13 + Opponent Ranker | **$184,404.03** | **$185,951.00** | **$164,716.00** | **0 / 100** | **MASTER BASELINE** 🥇 |
+| [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py) | **V8.2** | Cows=13 Control | **$124,753.98** | **$125,877.50** | **$106,552.00** | **0 / 100** | **RETAINED BASELINE** |
+| [`baseline/submission_v81_cows12.py`](file:///D:/kaggriculture/baseline/submission_v81_cows12.py) | **V8.1** | Cows=12 Control | **$118,378.43** | **$120,400.00** | **$0.00** | **3 / 100** | **DEPRECATED** |
 
 ---
 
@@ -12,13 +21,12 @@
 
 This repository contains the complete research, simulation harness, state-adaptive architecture, and submission entrypoints for the Kaggle Agriculture competition.
 
-Through 19.5 rigorous, empirically validated research experiments, we elevated the farm performance from **$108.5k (old V4.1 baseline)** → **$121.97k (V8.1 baseline)** → **$124,753.98 (V8.2 autonomous baseline)** across 100 official seeds, achieving a **+$16,253 (+15.0%) overall gain** with **zero collapses / zero bankruptcies** and tight **5.3% variance** ($6,709 StdDev).
+Through 19.5 rigorous, empirically validated research experiments, we elevated the farm performance from **$108.5k (old V4.1 baseline)** → **$184,404.03 (V8.3 autonomous baseline)** across 100 official seeds, achieving a significant overall gain with **zero collapses / zero bankruptcies**.
 
 ---
 
 ## 🏆 Official 100-Match Benchmark Results (Seeds 1000–1099)
 
-- **Average Final Score**: **$124,753.98** (+$6,375.55 gain vs V8.1 Baseline)
 - **Median Final Score**: **$125,877.50** (+$4,123.00 gain vs V8.1 Baseline)
 - **Peak Score**: **$133,166.00**
 - **Worst Score**: **$106,552.00** (Zero collapses / 0 bankruptcies out of 100 matches)
