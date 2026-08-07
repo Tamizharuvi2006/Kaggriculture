@@ -1,0 +1,13 @@
+{
+  "total_saturated_turns": 900,
+  "strictly_optimal_turns": 800,
+  "optimal_percentage": 88.89,
+  "better_cash_turns": 100,
+  "better_cash_percentage": 11.11,
+  "avg_gain_per_missed_opportunity": 225.0,
+  "total_short_term_cash_delta": 22500.0,
+  "top_missed_patterns": {
+    "BUY_ANIMAL_COW": 100
+  },
+  "total_elapsed_seconds": 52.5
+}

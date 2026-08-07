@@ -1,0 +1,60 @@
+{
+  "total_saturated_turns": 4639,
+  "product_importance_ranking": [
+    {
+      "product": "MELON",
+      "occurrences": 331,
+      "pct_of_saturated_turns": 7.14,
+      "total_units_sold": 16511,
+      "total_cash_generated": 247665.0,
+      "avg_cash_per_order": 748.23,
+      "avg_unit_price": 15.0
+    },
+    {
+      "product": "STRAWBERRY",
+      "occurrences": 893,
+      "pct_of_saturated_turns": 19.25,
+      "total_units_sold": 17326,
+      "total_cash_generated": 259890.0,
+      "avg_cash_per_order": 291.03,
+      "avg_unit_price": 15.0
+    },
+    {
+      "product": "WHEAT",
+      "occurrences": 208,
+      "pct_of_saturated_turns": 4.48,
+      "total_units_sold": 2860,
+      "total_cash_generated": 42900.0,
+      "avg_cash_per_order": 206.25,
+      "avg_unit_price": 15.0
+    },
+    {
+      "product": "MILK",
+      "occurrences": 1763,
+      "pct_of_saturated_turns": 38.0,
+      "total_units_sold": 17194,
+      "total_cash_generated": 257910.0,
+      "avg_cash_per_order": 146.29,
+      "avg_unit_price": 15.0
+    },
+    {
+      "product": "FERTILIZER",
+      "occurrences": 1841,
+      "pct_of_saturated_turns": 39.69,
+      "total_units_sold": 10837,
+      "total_cash_generated": 162555.0,
+      "avg_cash_per_order": 88.3,
+      "avg_unit_price": 15.0
+    }
+  ],
+  "critical_products": [
+    "MELON",
+    "STRAWBERRY",
+    "WHEAT",
+    "MILK"
+  ],
+  "deferrable_products": [
+    "FERTILIZER"
+  ],
+  "total_elapsed_seconds": 215.8
+}

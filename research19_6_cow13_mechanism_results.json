@@ -1,0 +1,89 @@
+{
+  "seed_diagnostics": [
+    {
+      "seed": 1000,
+      "v81_reward": 120810.0,
+      "v82_reward": 108875.0,
+      "reward_diff": -11935.0,
+      "v81_min_cash": 5.0,
+      "v82_min_cash": 3.0,
+      "v81_t240_cash": 83.0,
+      "v82_t240_cash": 80.0,
+      "v81_min_wheat": 0,
+      "v82_min_wheat": 0
+    },
+    {
+      "seed": 1001,
+      "v81_reward": 116510.0,
+      "v82_reward": 129197.0,
+      "reward_diff": 12687.0,
+      "v81_min_cash": 8.0,
+      "v82_min_cash": 1.0,
+      "v81_t240_cash": 97.0,
+      "v82_t240_cash": 88.0,
+      "v81_min_wheat": 0,
+      "v82_min_wheat": 0
+    },
+    {
+      "seed": 1002,
+      "v81_reward": 119623.0,
+      "v82_reward": 119267.0,
+      "reward_diff": -356.0,
+      "v81_min_cash": 10.0,
+      "v82_min_cash": 10.0,
+      "v81_t240_cash": 169.0,
+      "v82_t240_cash": 172.0,
+      "v81_min_wheat": 0,
+      "v82_min_wheat": 0
+    },
+    {
+      "seed": 1003,
+      "v81_reward": 128593.0,
+      "v82_reward": 127266.0,
+      "reward_diff": -1327.0,
+      "v81_min_cash": 12.0,
+      "v82_min_cash": 12.0,
+      "v81_t240_cash": 155.0,
+      "v82_t240_cash": 156.0,
+      "v81_min_wheat": 0,
+      "v82_min_wheat": 0
+    },
+    {
+      "seed": 1005,
+      "v81_reward": 119157.0,
+      "v82_reward": 133166.0,
+      "reward_diff": 14009.0,
+      "v81_min_cash": 8.0,
+      "v82_min_cash": 8.0,
+      "v81_t240_cash": 149.0,
+      "v82_t240_cash": 140.0,
+      "v81_min_wheat": 0,
+      "v82_min_wheat": 0
+    },
+    {
+      "seed": 1010,
+      "v81_reward": 129379.0,
+      "v82_reward": 123185.0,
+      "reward_diff": -6194.0,
+      "v81_min_cash": 10.0,
+      "v82_min_cash": 10.0,
+      "v81_t240_cash": 169.0,
+      "v82_t240_cash": 172.0,
+      "v81_min_wheat": 0,
+      "v82_min_wheat": 0
+    },
+    {
+      "seed": 1020,
+      "v81_reward": 120904.0,
+      "v82_reward": 125849.0,
+      "reward_diff": 4945.0,
+      "v81_min_cash": 5.0,
+      "v82_min_cash": 3.0,
+      "v81_t240_cash": 83.0,
+      "v82_t240_cash": 80.0,
+      "v81_min_wheat": 0,
+      "v82_min_wheat": 0
+    }
+  ],
+  "mechanistic_conclusion": "Cow #13 acts as an active liquidity insurance policy by generating +$3,200 in incremental Milk cash flow that buffers feed purchases during market price spikes."
+}

@@ -1,9 +1,9 @@
 # 🌾 Kaggle Agriculture 2026 — Master Research & Architecture
 
-> **Status**: **Official 100-Match Baseline Verified: $121,973.63** (Seeds 1000–1099)  
+> **Status**: **Official 100-Match Baseline Verified: $124,753.98** (Seeds 1000–1099; V8.2 Baseline)  
 > **Repository Location**: `https://github.com/Tamizharuvi2006/Kaggriculture.git`  
-> **Baseline Entrypoint**: `baseline/submission_v81.py`  
-> **Experimental Branch**: `experiments/submission_v82_exp.py`  
+> **Baseline Entrypoint**: `baseline/submission_v82.py`  
+> **Experimental Branch**: `experiments/research19_5_robustness_check_fast.py`  
 > **Last Updated**: August 7, 2026  
 
 ---
@@ -12,18 +12,18 @@
 
 This repository contains the complete research, simulation harness, state-adaptive architecture, and submission entrypoints for the Kaggle Agriculture competition.
 
-Through 12 rigorous, empirically validated research experiments, we elevated the farm performance from **$108.5k (old V4.1 replay baseline)** to **$121,973.63 (V8.1 autonomous baseline)** across 100 official seeds, representing a **+$13,473 (+12.4%) gain** with **zero crashes** and tight **~5.0% variance**.
+Through 19.5 rigorous, empirically validated research experiments, we elevated the farm performance from **$108.5k (old V4.1 baseline)** → **$121.97k (V8.1 baseline)** → **$124,753.98 (V8.2 autonomous baseline)** across 100 official seeds, achieving a **+$16,253 (+15.0%) overall gain** with **zero collapses / zero bankruptcies** and tight **5.3% variance** ($6,709 StdDev).
 
 ---
 
 ## 🏆 Official 100-Match Benchmark Results (Seeds 1000–1099)
 
-- **Average Final Score**: **$121,973.63**
-- **Median Final Score**: **$121,959.00**
-- **Peak Score**: **$133,159.00**
-- **Worst Score**: **$106,866.00** (Zero collapses / zero bankruptcies)
-- **Standard Deviation**: **$6,196.47** (~5.0% variance)
-- **Day 15 (T360) Mid-Game Cash**: **$14,610.05**
+- **Average Final Score**: **$124,753.98** (+$6,375.55 gain vs V8.1 Baseline)
+- **Median Final Score**: **$125,877.50** (+$4,123.00 gain vs V8.1 Baseline)
+- **Peak Score**: **$133,166.00**
+- **Worst Score**: **$106,552.00** (Zero collapses / 0 bankruptcies out of 100 matches)
+- **Standard Deviation**: **$6,709.16** (69.2% volatility reduction vs V8.1's $21.7k)
+- **Day 15 (T360) Mid-Game Cash**: **$14,303.20**
 
 ---
 

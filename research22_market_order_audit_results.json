@@ -1,0 +1,16 @@
+{
+  "total_turns_audited": 71900,
+  "total_orders_issued": 62450,
+  "avg_orders_per_turn": 0.87,
+  "avg_unused_slots_per_turn": 4.35,
+  "total_5slot_saturated_turns": 4639,
+  "saturated_turns_percentage": 6.45,
+  "omitted_orders_breakdown": {
+    "seeds": 3800,
+    "feed": 1910,
+    "hires": 0
+  },
+  "most_common_omitted_category": "seeds",
+  "correlation_saturated_turns_vs_score": -0.165,
+  "total_elapsed_seconds": 168.1
+}

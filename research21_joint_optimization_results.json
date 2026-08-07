@@ -1,0 +1,22 @@
+{
+  "v82_control": {
+    "mean": 124753.98,
+    "median": 125877.5,
+    "std_dev": 6709.16,
+    "worst": 106552.0,
+    "best": 137599.0,
+    "bankruptcies": 0
+  },
+  "v83_candidate": {
+    "mean": 122891.67,
+    "median": 124450.0,
+    "std_dev": 6414.6,
+    "worst": 106552.0,
+    "best": 133502.0,
+    "bankruptcies": 0
+  },
+  "net_gain": -1862.31,
+  "promotion_recommended": false,
+  "final_verdict": "INTERFERENCE / REGRESSION: Priority Feed with Cows=13 decreased score by -$1,862.31. Baseline V8.2 retained.",
+  "total_elapsed_seconds": 335.1
+}

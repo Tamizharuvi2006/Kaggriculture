@@ -1,0 +1,22 @@
+{
+  "v82_control": {
+    "mean": 124753.98,
+    "median": 125877.5,
+    "std_dev": 6709.16,
+    "worst": 106552.0,
+    "best": 137599.0,
+    "bankruptcies": 0
+  },
+  "v23c_candidate": {
+    "mean": 117884.15,
+    "median": 117961.5,
+    "std_dev": 5952.45,
+    "worst": 105029.0,
+    "best": 130654.0,
+    "bankruptcies": 0
+  },
+  "net_gain": -6869.83,
+  "promotion_recommended": false,
+  "final_verdict": "NEUTRAL / REGRESSION (-$6,869.83): Deferring fertilizer sales reduced liquidity. Baseline V8.2 retained.",
+  "total_elapsed_seconds": 231.7
+}

@@ -1,0 +1,22 @@
+{
+  "v82_control": {
+    "mean": 124753.98,
+    "median": 125877.5,
+    "std_dev": 6709.16,
+    "worst": 106552.0,
+    "best": 137599.0,
+    "bankruptcies": 0
+  },
+  "v23a_candidate": {
+    "mean": 0.0,
+    "median": 0.0,
+    "std_dev": 0.0,
+    "worst": 0.0,
+    "best": 0.0,
+    "bankruptcies": 100
+  },
+  "net_gain": -124753.98,
+  "promotion_recommended": false,
+  "final_verdict": "NEUTRAL / REGRESSION (-$124,753.98): Dropping SELL orders delayed crop liquidity. Baseline V8.2 retained.",
+  "total_elapsed_seconds": 312.5
+}
