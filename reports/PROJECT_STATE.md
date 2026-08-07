@@ -1,7 +1,9 @@
 # 📌 PROJECT_STATE.md — Kaggle Agriculture 2026
 
-> **Verified Champion Baseline**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py)  
-> **Solo Benchmark Score**: **$124,753.98** (0 Bankruptcies, $6,709.16 StdDev across Seeds 1000–1099)  
+> **🏆 FROZEN CHAMPION BASELINE**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py) (Permanently Frozen)  
+> **🥈 RETAINED CONTROL BASELINE**: [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py)  
+> **🧪 EXPERIMENTAL BRANCH**: `baseline/submission_v84_experimental.py`  
+> **Solo Benchmark Score**: **$124,753.98** (0 Bankruptcies across Seeds 1000–1099)  
 > **Unseen Seeds Score**: **$124,369.40** (0 Bankruptcies across Seeds 1100–1199)  
 > **Head-to-Head Record vs V8.2 Baseline**: **200 Wins / 0 Losses (100.0% Win Rate)** (+ $13,058.94 Victory Margin / Match)  
 > **Repository Location**: `https://github.com/Tamizharuvi2006/Kaggriculture.git`  
@@ -9,14 +11,11 @@
 
 ---
 
-## 🏆 Current Best Submission
+## 🔒 Champion Freeze Note
 
-- **File**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py)
-- **Solo Benchmark (1000–1099)**: **$124,753.98**
-- **Unseen Seeds Benchmark (1100–1199)**: **$124,369.40**
-- **Direct 1v1 Battle vs V8.2 Baseline**: **200 / 200 WINS (100.0% Win Rate)**
-- **Average Direct Battle Victory Margin**: **+$13,058.94 per match** ($124.3k vs $111.3k)
-- **Bankruptcies**: **0 / 700 matches total**
+- **CHAMPION STATUS**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py) is officially **PERMANENTLY FROZEN**. No direct logic modifications allowed.
+- **RETAINED CONTROL**: [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py) retained as baseline benchmark control.
+- **ACTIVE EXPERIMENTAL BRANCH**: All new experimental work occurs in `baseline/submission_v84_experimental.py`.
 
 ---
 
