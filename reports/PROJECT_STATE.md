@@ -2,7 +2,7 @@
 
 > **🏆 FROZEN CHAMPION BASELINE**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py) (Permanently Frozen)  
 > **🥈 RETAINED CONTROL BASELINE**: [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py)  
-> **🧪 EXPERIMENTAL BRANCH**: `baseline/submission_v84_experimental.py`  
+> **🧪 EXPERIMENTAL KAGGLE SUBMISSION**: `submission_v83_standalone.py` (**Ref: 55328057**, Status: PENDING / Evaluating)  
 > **Solo Benchmark Score**: **$124,753.98** (0 Bankruptcies across Seeds 1000–1099)  
 > **Unseen Seeds Score**: **$124,369.40** (0 Bankruptcies across Seeds 1100–1199)  
 > **Head-to-Head Record vs V8.2 Baseline**: **200 Wins / 0 Losses (100.0% Win Rate)** (+ $13,058.94 Victory Margin / Match)  
@@ -11,11 +11,12 @@
 
 ---
 
-## 🔒 Champion Freeze Note
+## 🔒 Champion Freeze & Kaggle Submission Protocol
 
-- **CHAMPION STATUS**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py) is officially **PERMANENTLY FROZEN**. No direct logic modifications allowed.
-- **RETAINED CONTROL**: [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py) retained as baseline benchmark control.
-- **ACTIVE EXPERIMENTAL BRANCH**: All new experimental work occurs in `baseline/submission_v84_experimental.py`.
+- **KAGGLE EXPERIMENTAL UPLOAD**: [`baseline/submission_v83_standalone.py`](file:///D:/kaggriculture/baseline/submission_v83_standalone.py) uploaded to Kaggle Competition Portal (**Submission Ref: 55328057**).
+- **SAFE BACKUP BASELINE**: [`baseline/submission_v82_cows13.py`](file:///D:/kaggriculture/baseline/submission_v82_cows13.py) retained as safe baseline backup.
+- **CHAMPION STATUS**: [`baseline/submission_v83.py`](file:///D:/kaggriculture/baseline/submission_v83.py) is officially **PERMANENTLY FROZEN**.
+- **ACTIVE EXPERIMENTAL BRANCH**: All future development occurs in `baseline/submission_v84_experimental.py`.
 
 ---
 
