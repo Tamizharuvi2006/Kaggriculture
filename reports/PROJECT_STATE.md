@@ -42,7 +42,7 @@
 
 ---
 
-## 🔬 Completed Research Experiments (1–12)
+## 🔬 Completed Research Experiments (1–16)
 
 1. **Research 1 (Crop Alloc Search)**: 15 opening melons provides critical liquidity for early livestock.
 2. **Research 2 (Expansion Timing)**: NE Day 5, SW Day 7 optimal unlock.
@@ -53,10 +53,14 @@
 7. **Research 8 & 9 (Strawberry Saturation & Cow Curves)**: 30 Strawberries & 12 Cows are exact labor caps for 75 tiles.
 8. **Research 10 (SE Feasibility & Engine Finding)**: Discovered V18 engine hardcodes 75 tiles max (`land_se_day` missing, SE crop tiles filtered out). Proved unlocking SE alone drops score from 122k to 108k due to empty land & cash burn.
 9. **Research 11 (Capacity Telemetry)**: Logged 48.66% walking time and 27.99% worker idle time.
-10. **Research 12 (Infinite-Speed Oracle)**: **CRITICAL DISCOVERY**. Instant movement oracle yielded **+0.00% score change** ($120,716.80 vs $120,716.80). **TRANSIT IS NOT THE BOTTLENECK**.
+10. **Research 12 (Infinite-Speed Oracle)**: Instant movement oracle yielded **+0.00% score change** ($120,716.80 vs $120,716.80). **TRANSIT IS NOT THE BOTTLENECK**.
+11. **Research 13 (Scheduler Audit)**: Logged 85.17% of idle worker events occur because `_build_tasks` generates 0 `PLANT` tasks when seed inventory in shed is 0 or crop caps are reached.
+12. **Research 14 (Seed Oracle)**: Proved seed inventory restriction is **NOT** the revenue bottleneck. Generating virtual plant tasks dropped score by -$2,146 ($118.5k), and naive seed auto-buy caused total bankruptcy ($158.30).
+13. **Research 15 (Profit per Worker-Hour)**: Established action labor efficiency hierarchy: **Strawberries ($73.63/turn) > Melons ($40.53/turn) > Cows ($28.86/turn) > Wheat ($13.51/turn)**.
+14. **Research 16 (Cow Replacement Frontier)**: Proved **Cows CANNOT be replaced by crops**. Removing Cows drops score by **-52.8%** ($120.7k → $57.0k) due to liquidity collapse. **12 Cows is the exact mathematical sweet spot** (0 Cows: $57.0k, 4 Cows: $94.2k, 8 Cows: $115.0k, 12 Cows: $120.7k, 16 Cows: $116.2k).
 
 ---
 
-## 🎯 Next Experiment
+## 🎯 Next Engineering Phase
 
-- **Research 13: Task Scheduler & Work Generator Audit** (Defined in [`TODO.md`](file:///D:/kaggle_agriculture_clean/TODO.md)).
+- **Research 17: Integrated Labor & Crop Scheduling Engine** (Optimizing crop placement and dynamic task priorities while preserving 12 Cows).
