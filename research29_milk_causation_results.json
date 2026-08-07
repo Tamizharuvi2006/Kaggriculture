@@ -1,0 +1,10 @@
+{
+  "mean_score": 124753.98,
+  "mean_milk_price": 230.48,
+  "mean_milk_sold": 222.27,
+  "mean_milk_rev_share": 34.49,
+  "corr_score_vs_milk_price": 0.533,
+  "corr_score_vs_milk_volume": 0.58,
+  "corr_score_vs_milk_rev_share": 0.796,
+  "total_elapsed_seconds": 126.1
+}

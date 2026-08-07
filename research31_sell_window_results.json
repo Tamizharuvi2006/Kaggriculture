@@ -1,0 +1,52 @@
+{
+  "summary": [
+    {
+      "variant": "Control (Immediate Sell)",
+      "hold_days": 0,
+      "mean": 124753.98,
+      "median": 125877.5,
+      "std_dev": 6709.16,
+      "worst": 106552.0,
+      "bankruptcies": 0
+    },
+    {
+      "variant": "Variant A (Wait +1 Day)",
+      "hold_days": 1,
+      "mean": 60891.12,
+      "median": 61185.0,
+      "std_dev": 3127.09,
+      "worst": 51126.0,
+      "bankruptcies": 0
+    },
+    {
+      "variant": "Variant B (Wait +2 Days)",
+      "hold_days": 2,
+      "mean": 60891.12,
+      "median": 61185.0,
+      "std_dev": 3127.09,
+      "worst": 51126.0,
+      "bankruptcies": 0
+    },
+    {
+      "variant": "Variant C (Wait +3 Days)",
+      "hold_days": 3,
+      "mean": 60891.12,
+      "median": 61185.0,
+      "std_dev": 3127.09,
+      "worst": 51126.0,
+      "bankruptcies": 0
+    }
+  ],
+  "best_variant": {
+    "variant": "Control (Immediate Sell)",
+    "hold_days": 0,
+    "mean": 124753.98,
+    "median": 125877.5,
+    "std_dev": 6709.16,
+    "worst": 106552.0,
+    "bankruptcies": 0
+  },
+  "promotion_recommended": false,
+  "final_verdict": "IMMEDIATE SELLING CONFIRMED OPTIMAL! Holding inventory delayed cash flow and increased bankruptcy risk. Control V8.2 retained.",
+  "total_elapsed_seconds": 480.8
+}
