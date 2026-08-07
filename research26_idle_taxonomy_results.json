@@ -1,0 +1,23 @@
+{
+  "total_worker_steps": 856295,
+  "total_idle_steps": 221034,
+  "idle_percentage": 25.81,
+  "taxonomy_breakdown": {
+    "NO_SEEDS_AVAILABLE": 5626,
+    "NO_PROFITABLE_TASK": 0,
+    "WAITING_FOR_GROWTH": 69565,
+    "MARKET_BLOCKED": 0,
+    "TRAVEL": 0,
+    "SCHEDULER_OMISSION": 145843
+  },
+  "taxonomy_correlations": {
+    "NO_SEEDS_AVAILABLE": 0.26952664301065576,
+    "NO_PROFITABLE_TASK": 0.0,
+    "WAITING_FOR_GROWTH": -0.30305738927263626,
+    "MARKET_BLOCKED": 0.0,
+    "TRAVEL": 0.0,
+    "SCHEDULER_OMISSION": 0.2709682114584818
+  },
+  "primary_idle_cause": "SCHEDULER_OMISSION",
+  "total_elapsed_seconds": 149.4
+}

@@ -1,0 +1,22 @@
+{
+  "v82_control": {
+    "mean": 124753.98,
+    "median": 125877.5,
+    "std_dev": 6709.16,
+    "worst": 106552.0,
+    "best": 137599.0,
+    "bankruptcies": 0
+  },
+  "v27b_candidate": {
+    "mean": 116759.35,
+    "median": 116943.5,
+    "std_dev": 5332.75,
+    "worst": 101059.0,
+    "best": 127465.0,
+    "bankruptcies": 0
+  },
+  "net_gain": -7994.63,
+  "promotion_recommended": false,
+  "final_verdict": "NEUTRAL / REGRESSION (-$7,994.63): Extra planting tasks caused minor labor congestion. Baseline V8.2 retained.",
+  "total_elapsed_seconds": 327.1
+}

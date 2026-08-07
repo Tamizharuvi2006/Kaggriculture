@@ -1,0 +1,22 @@
+{
+  "v82_control": {
+    "mean": 124753.98,
+    "median": 125877.5,
+    "std_dev": 6709.16,
+    "worst": 106552.0,
+    "best": 137599.0,
+    "bankruptcies": 0
+  },
+  "v28_candidate": {
+    "mean": 613.91,
+    "median": 624.5,
+    "std_dev": 119.56,
+    "worst": 375.0,
+    "best": 829.0,
+    "bankruptcies": 100
+  },
+  "net_gain": -124140.07,
+  "promotion_recommended": false,
+  "final_verdict": "NEUTRAL / REGRESSION (-$124,140.07): Controlled Injection caused minor labor distraction. Baseline V8.2 retained.",
+  "total_elapsed_seconds": 245.4
+}

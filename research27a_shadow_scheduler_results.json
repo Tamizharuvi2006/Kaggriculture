@@ -1,0 +1,17 @@
+{
+  "total_omissions": 145843,
+  "total_streaks_recorded": 41870,
+  "avg_streak_length": 3.48,
+  "median_streak_length": 1.0,
+  "max_streak_length": 136,
+  "profitable_omissions_count": 732,
+  "profitable_omissions_percentage": 0.5,
+  "crop_idle_breakdown": {
+    "STRAWBERRY": 2244,
+    "MELON": 1836,
+    "WHEAT": 752675,
+    "CARROT": 0,
+    "TOMATO": 0
+  },
+  "total_elapsed_seconds": 158.7
+}
