@@ -1,0 +1,15 @@
+{
+  "Variant A: Baseline V8.1": {
+    "avg_score": 120716.8,
+    "median_score": 120216.5,
+    "best_score": 128593.0,
+    "worst_score": 111770.0
+  },
+  "Variant B: Instant Movement Oracle": {
+    "avg_score": 120716.8,
+    "median_score": 120216.5,
+    "best_score": 128593.0,
+    "worst_score": 111770.0
+  },
+  "verdict": "TRANSIT IS NOT THE BOTTLENECK (<5% gain). Primary bottleneck is TASK SCHEDULING & WORK ALLOCATION!"
+}
