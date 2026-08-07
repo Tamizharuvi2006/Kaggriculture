@@ -1,0 +1,64 @@
+{
+  "total_worker_turns": 85605,
+  "avg_final_score": 120716.8,
+  "raw_action_turns": {
+    "TRANSIT / WALKING": 41653,
+    "IDLE / PASS": 23965,
+    "MILKING & COW CARE": 2515,
+    "FEEDING LIVESTOCK": 1799,
+    "HARVESTING MELON": 0,
+    "HARVESTING STRAWBERRY": 2068,
+    "HARVESTING WHEAT": 0,
+    "HARVESTING OTHER": 0,
+    "PLANTING MELON": 300,
+    "PLANTING STRAWBERRY": 310,
+    "PLANTING WHEAT": 120,
+    "PLANTING OTHER": 0,
+    "DELIVERING / DROPPING": 466,
+    "RESOURCE FETCH / PICKUP": 929,
+    "OTHER ACTIONS": 11480
+  },
+  "action_roi_ranking": [
+    {
+      "action": "STRAWBERRY HARVEST & PLANTING",
+      "turns": 7333,
+      "pct_of_time": 8.57,
+      "revenue": 540000,
+      "profit_per_turn": 73.63
+    },
+    {
+      "action": "MELON HARVEST & PLANTING",
+      "turns": 925,
+      "pct_of_time": 1.08,
+      "revenue": 37500,
+      "profit_per_turn": 40.53
+    },
+    {
+      "action": "COW CARE & MILKING (Cattle)",
+      "turns": 13304,
+      "pct_of_time": 15.54,
+      "revenue": 384000,
+      "profit_per_turn": 28.86
+    },
+    {
+      "action": "WHEAT HARVEST & PLANTING",
+      "turns": 370,
+      "pct_of_time": 0.43,
+      "revenue": 5000,
+      "profit_per_turn": 13.51
+    },
+    {
+      "action": "IDLE / PASS (Unassigned)",
+      "turns": 23965,
+      "pct_of_time": 27.99,
+      "revenue": 0.0,
+      "profit_per_turn": 0.0
+    }
+  ],
+  "low_roi_time_sinks": [
+    "TRANSIT / WALKING (48.66% of all turns)",
+    "IDLE / PASS (27.99% of all turns)",
+    "WHEAT HARVEST & PLANTING ($0.85/turn ROI vs $18.40/turn Strawberry ROI)"
+  ],
+  "theoretical_maximum_score_potential": 307569.23
+}

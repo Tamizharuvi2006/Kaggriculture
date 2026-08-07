@@ -1,0 +1,66 @@
+{
+  "variant_a_baseline": {
+    "variant": "Variant A: Baseline V8.1",
+    "avg_score": 120716.8,
+    "median_score": 120216.5,
+    "avg_idle_workers_per_turn": 3.33,
+    "avg_empty_farmland_tiles": 14.08,
+    "avg_seeds_purchased": 73,
+    "avg_harvest_count": 206.8,
+    "scores": [
+      120810.0,
+      116510.0,
+      119623.0,
+      128593.0,
+      122243.0,
+      119157.0,
+      117419.0,
+      125206.0,
+      111770.0,
+      125837.0
+    ]
+  },
+  "variant_b_seed_oracle": {
+    "variant": "Variant B: Seed Oracle",
+    "avg_score": 118569.9,
+    "median_score": 117267.0,
+    "avg_idle_workers_per_turn": 2.96,
+    "avg_empty_farmland_tiles": 14.01,
+    "avg_seeds_purchased": 73.4,
+    "avg_harvest_count": 204.1,
+    "scores": [
+      114079.0,
+      124086.0,
+      115234.0,
+      120744.0,
+      119300.0,
+      114376.0,
+      114189.0,
+      130436.0,
+      108500.0,
+      124755.0
+    ]
+  },
+  "variant_c_autobuy_seeds": {
+    "variant": "Variant C: Auto-Buy Seeds",
+    "avg_score": 158.3,
+    "median_score": 137.5,
+    "avg_idle_workers_per_turn": 2.77,
+    "avg_empty_farmland_tiles": 18.42,
+    "avg_seeds_purchased": 1250.6,
+    "avg_harvest_count": 187.7,
+    "scores": [
+      201.0,
+      223.0,
+      142.0,
+      74.0,
+      304.0,
+      105.0,
+      209.0,
+      133.0,
+      133.0,
+      59.0
+    ]
+  },
+  "empirical_conclusion": "Crop-plan static caps and animal labor contention are the true bottlenecks."
+}

@@ -1,0 +1,347 @@
+{
+  "seeds_evaluated": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009
+  ],
+  "total_worker_turns": 85605,
+  "total_idle_events": 23965,
+  "avg_idle_workers_per_turn": 3.33,
+  "percentage_breakdown": {
+    "no profitable task exists": 0.0,
+    "scheduler failed to generate task": 85.17,
+    "resource shortage": 5.91,
+    "worker blocked": 0.0,
+    "queue starvation": 8.92
+  },
+  "top_5_idle_causes": [
+    {
+      "cause": "Empty farmland exists (1 tiles) & cash available ($17.00), but market module failed to buy seeds/crop caps reached (0 PLANT tasks generated)",
+      "count": 1212,
+      "pct_of_idle": 5.06
+    },
+    {
+      "cause": "Empty farmland exists (6 tiles) & cash available ($15.00), but market module failed to buy seeds/crop caps reached (0 PLANT tasks generated)",
+      "count": 1134,
+      "pct_of_idle": 4.73
+    },
+    {
+      "cause": "Empty farmland exists (6 tiles) & cash available ($10.00), but market module failed to buy seeds/crop caps reached (0 PLANT tasks generated)",
+      "count": 1086,
+      "pct_of_idle": 4.53
+    },
+    {
+      "cause": "PLANT tasks generated (1 tasks), but claimed by other workers or worker disqualified",
+      "count": 842,
+      "pct_of_idle": 3.51
+    },
+    {
+      "cause": "Empty farmland exists (1 tiles), but cash is insufficient ($8.00) to purchase seeds",
+      "count": 808,
+      "pct_of_idle": 3.37
+    }
+  ],
+  "single_scheduler_rule_most_lost_revenue": "Empty farmland exists (1 tiles) & cash available ($17.00), but market module failed to buy seeds/crop caps reached (0 PLANT tasks generated)",
+  "sample_idle_logs_head": [
+    {
+      "seed": 1000,
+      "turn": 1,
+      "day": 0,
+      "hour": 1,
+      "worker_id": 4,
+      "position": [
+        5,
+        5
+      ],
+      "nearest_harvestable_crop": null,
+      "nearest_empty_farmland": {
+        "dist": 2,
+        "pos": [
+          4,
+          4
+        ]
+      },
+      "nearest_animal_task": null,
+      "nearest_delivery_task": null,
+      "exact_reason_for_pass": "PLANT tasks generated (21 tasks), but claimed by other workers or worker disqualified",
+      "classification": "queue starvation"
+    },
+    {
+      "seed": 1000,
+      "turn": 2,
+      "day": 0,
+      "hour": 2,
+      "worker_id": 4,
+      "position": [
+        5,
+        5
+      ],
+      "nearest_harvestable_crop": null,
+      "nearest_empty_farmland": {
+        "dist": 2,
+        "pos": [
+          4,
+          4
+        ]
+      },
+      "nearest_animal_task": {
+        "dist": 3,
+        "pos": [
+          4,
+          3
+        ],
+        "task": "PLACE_ANIMAL"
+      },
+      "nearest_delivery_task": null,
+      "exact_reason_for_pass": "PLANT tasks generated (21 tasks), but claimed by other workers or worker disqualified",
+      "classification": "queue starvation"
+    },
+    {
+      "seed": 1000,
+      "turn": 3,
+      "day": 0,
+      "hour": 3,
+      "worker_id": 4,
+      "position": [
+        5,
+        5
+      ],
+      "nearest_harvestable_crop": null,
+      "nearest_empty_farmland": {
+        "dist": 2,
+        "pos": [
+          4,
+          4
+        ]
+      },
+      "nearest_animal_task": {
+        "dist": 3,
+        "pos": [
+          4,
+          3
+        ],
+        "task": "PLACE_ANIMAL"
+      },
+      "nearest_delivery_task": null,
+      "exact_reason_for_pass": "PLANT tasks generated (21 tasks), but claimed by other workers or worker disqualified",
+      "classification": "queue starvation"
+    },
+    {
+      "seed": 1000,
+      "turn": 4,
+      "day": 0,
+      "hour": 4,
+      "worker_id": 4,
+      "position": [
+        5,
+        5
+      ],
+      "nearest_harvestable_crop": null,
+      "nearest_empty_farmland": {
+        "dist": 2,
+        "pos": [
+          4,
+          4
+        ]
+      },
+      "nearest_animal_task": {
+        "dist": 3,
+        "pos": [
+          4,
+          3
+        ],
+        "task": "PLACE_ANIMAL"
+      },
+      "nearest_delivery_task": null,
+      "exact_reason_for_pass": "PLANT tasks generated (20 tasks), but claimed by other workers or worker disqualified",
+      "classification": "queue starvation"
+    },
+    {
+      "seed": 1000,
+      "turn": 5,
+      "day": 0,
+      "hour": 5,
+      "worker_id": 4,
+      "position": [
+        5,
+        5
+      ],
+      "nearest_harvestable_crop": null,
+      "nearest_empty_farmland": {
+        "dist": 2,
+        "pos": [
+          4,
+          4
+        ]
+      },
+      "nearest_animal_task": {
+        "dist": 3,
+        "pos": [
+          4,
+          3
+        ],
+        "task": "FEED"
+      },
+      "nearest_delivery_task": null,
+      "exact_reason_for_pass": "PLANT tasks generated (18 tasks), but claimed by other workers or worker disqualified",
+      "classification": "queue starvation"
+    },
+    {
+      "seed": 1000,
+      "turn": 6,
+      "day": 0,
+      "hour": 6,
+      "worker_id": 4,
+      "position": [
+        5,
+        5
+      ],
+      "nearest_harvestable_crop": null,
+      "nearest_empty_farmland": {
+        "dist": 2,
+        "pos": [
+          4,
+          4
+        ]
+      },
+      "nearest_animal_task": {
+        "dist": 3,
+        "pos": [
+          4,
+          3
+        ],
+        "task": "FEED"
+      },
+      "nearest_delivery_task": null,
+      "exact_reason_for_pass": "PLANT tasks generated (17 tasks), but claimed by other workers or worker disqualified",
+      "classification": "queue starvation"
+    },
+    {
+      "seed": 1000,
+      "turn": 7,
+      "day": 0,
+      "hour": 7,
+      "worker_id": 4,
+      "position": [
+        5,
+        5
+      ],
+      "nearest_harvestable_crop": null,
+      "nearest_empty_farmland": {
+        "dist": 2,
+        "pos": [
+          4,
+          4
+        ]
+      },
+      "nearest_animal_task": {
+        "dist": 3,
+        "pos": [
+          4,
+          3
+        ],
+        "task": "FEED"
+      },
+      "nearest_delivery_task": null,
+      "exact_reason_for_pass": "PLANT tasks generated (17 tasks), but claimed by other workers or worker disqualified",
+      "classification": "queue starvation"
+    },
+    {
+      "seed": 1000,
+      "turn": 8,
+      "day": 0,
+      "hour": 8,
+      "worker_id": 4,
+      "position": [
+        5,
+        5
+      ],
+      "nearest_harvestable_crop": null,
+      "nearest_empty_farmland": {
+        "dist": 2,
+        "pos": [
+          4,
+          4
+        ]
+      },
+      "nearest_animal_task": {
+        "dist": 3,
+        "pos": [
+          4,
+          3
+        ],
+        "task": "FEED"
+      },
+      "nearest_delivery_task": null,
+      "exact_reason_for_pass": "PLANT tasks generated (15 tasks), but claimed by other workers or worker disqualified",
+      "classification": "queue starvation"
+    },
+    {
+      "seed": 1000,
+      "turn": 9,
+      "day": 0,
+      "hour": 9,
+      "worker_id": 4,
+      "position": [
+        5,
+        5
+      ],
+      "nearest_harvestable_crop": null,
+      "nearest_empty_farmland": {
+        "dist": 2,
+        "pos": [
+          4,
+          4
+        ]
+      },
+      "nearest_animal_task": {
+        "dist": 4,
+        "pos": [
+          4,
+          2
+        ],
+        "task": "PLACE_ANIMAL"
+      },
+      "nearest_delivery_task": null,
+      "exact_reason_for_pass": "PLANT tasks generated (14 tasks), but claimed by other workers or worker disqualified",
+      "classification": "queue starvation"
+    },
+    {
+      "seed": 1000,
+      "turn": 10,
+      "day": 0,
+      "hour": 10,
+      "worker_id": 4,
+      "position": [
+        5,
+        5
+      ],
+      "nearest_harvestable_crop": null,
+      "nearest_empty_farmland": {
+        "dist": 2,
+        "pos": [
+          4,
+          4
+        ]
+      },
+      "nearest_animal_task": {
+        "dist": 4,
+        "pos": [
+          4,
+          2
+        ],
+        "task": "PLACE_ANIMAL"
+      },
+      "nearest_delivery_task": null,
+      "exact_reason_for_pass": "PLANT tasks generated (14 tasks), but claimed by other workers or worker disqualified",
+      "classification": "queue starvation"
+    }
+  ]
+}
