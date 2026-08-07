@@ -58,9 +58,10 @@
 12. **Research 14 (Seed Oracle)**: Proved seed inventory restriction is **NOT** the revenue bottleneck. Generating virtual plant tasks dropped score by -$2,146 ($118.5k), and naive seed auto-buy caused total bankruptcy ($158.30).
 13. **Research 15 (Profit per Worker-Hour)**: Established action labor efficiency hierarchy: **Strawberries ($73.63/turn) > Melons ($40.53/turn) > Cows ($28.86/turn) > Wheat ($13.51/turn)**.
 14. **Research 16 (Cow Replacement Frontier)**: Proved **Cows CANNOT be replaced by crops**. Removing Cows drops score by **-52.8%** ($120.7k → $57.0k) due to liquidity collapse. **12 Cows is the exact mathematical sweet spot** (0 Cows: $57.0k, 4 Cows: $94.2k, 8 Cows: $115.0k, 12 Cows: $120.7k, 16 Cows: $116.2k).
+15. **Research 17 (Liquidity Shock Test)**: **DEFINITIVE PROOF**. Injecting +$1,000, +$3,000, or +$5,000 starting cash produced **EXACTLY +0.00% score change** ($120,716.80 across all 10 seeds). Proved **cash flow timing is NOT the bottleneck**.
 
 ---
 
 ## 🎯 Next Engineering Phase
 
-- **Research 17: Integrated Labor & Crop Scheduling Engine** (Optimizing crop placement and dynamic task priorities while preserving 12 Cows).
+- **Research 18: Dynamic Asset Scaling & Cap Unlocking Engine** (Replacing static crop/land caps with adaptive ROI-based growth controllers while keeping 12 Cows).
