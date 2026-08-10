@@ -1,0 +1,52 @@
+[
+  {
+    "variant": "C1",
+    "name": "Control (10 Melons + 8 Cows)",
+    "win_rate": 100.0,
+    "avg_d8": 723.38,
+    "avg_d15": 8802.6,
+    "avg_final": 96686.78,
+    "avg_v41": 80666.88,
+    "margin": 16019.9
+  },
+  {
+    "variant": "C2",
+    "name": "Conditional Cow 9-10 Expansion",
+    "win_rate": 100.0,
+    "avg_d8": 723.38,
+    "avg_d15": 8802.6,
+    "avg_final": 96686.78,
+    "avg_v41": 80666.88,
+    "margin": 16019.9
+  },
+  {
+    "variant": "C3",
+    "name": "Day-12 SW/SE Land Unlock",
+    "win_rate": 97.0,
+    "avg_d8": 723.38,
+    "avg_d15": 8728.1,
+    "avg_final": 92568.35,
+    "avg_v41": 81223.54,
+    "margin": 11344.81
+  },
+  {
+    "variant": "C4",
+    "name": "Day 12-20 Strawberry Crops",
+    "win_rate": 100.0,
+    "avg_d8": 723.38,
+    "avg_d15": 8802.6,
+    "avg_final": 96686.78,
+    "avg_v41": 80666.88,
+    "margin": 16019.9
+  },
+  {
+    "variant": "C5",
+    "name": "Combined Smart Reinvestment",
+    "win_rate": 97.0,
+    "avg_d8": 723.38,
+    "avg_d15": 8728.1,
+    "avg_final": 92568.35,
+    "avg_v41": 81223.54,
+    "margin": 11344.81
+  }
+]

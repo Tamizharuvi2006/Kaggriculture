@@ -1,0 +1,150 @@
+{
+  "total_matches": 20,
+  "win_rate": 90.0,
+  "avg_lplus": 95188.45,
+  "avg_opp": 82765.2,
+  "avg_margin": 12423.25,
+  "min_floor": 82917.0,
+  "raw_records": [
+    {
+      "seed": 4000,
+      "lplus_wealth": 86874.0,
+      "opp_wealth": 68585.0,
+      "margin": 18289.0,
+      "won": true
+    },
+    {
+      "seed": 4001,
+      "lplus_wealth": 96473.0,
+      "opp_wealth": 75345.0,
+      "margin": 21128.0,
+      "won": true
+    },
+    {
+      "seed": 4002,
+      "lplus_wealth": 100408.0,
+      "opp_wealth": 91421.0,
+      "margin": 8987.0,
+      "won": true
+    },
+    {
+      "seed": 4003,
+      "lplus_wealth": 90740.0,
+      "opp_wealth": 81250.0,
+      "margin": 9490.0,
+      "won": true
+    },
+    {
+      "seed": 4004,
+      "lplus_wealth": 89436.0,
+      "opp_wealth": 64888.0,
+      "margin": 24548.0,
+      "won": true
+    },
+    {
+      "seed": 4005,
+      "lplus_wealth": 83853.0,
+      "opp_wealth": 71169.0,
+      "margin": 12684.0,
+      "won": true
+    },
+    {
+      "seed": 4006,
+      "lplus_wealth": 102668.0,
+      "opp_wealth": 82870.0,
+      "margin": 19798.0,
+      "won": true
+    },
+    {
+      "seed": 4007,
+      "lplus_wealth": 93037.0,
+      "opp_wealth": 86351.0,
+      "margin": 6686.0,
+      "won": true
+    },
+    {
+      "seed": 4008,
+      "lplus_wealth": 99122.0,
+      "opp_wealth": 74146.0,
+      "margin": 24976.0,
+      "won": true
+    },
+    {
+      "seed": 4009,
+      "lplus_wealth": 87648.0,
+      "opp_wealth": 74737.0,
+      "margin": 12911.0,
+      "won": true
+    },
+    {
+      "seed": 4010,
+      "lplus_wealth": 100127.0,
+      "opp_wealth": 98114.0,
+      "margin": 2013.0,
+      "won": true
+    },
+    {
+      "seed": 4011,
+      "lplus_wealth": 103111.0,
+      "opp_wealth": 90637.0,
+      "margin": 12474.0,
+      "won": true
+    },
+    {
+      "seed": 4012,
+      "lplus_wealth": 82917.0,
+      "opp_wealth": 83253.0,
+      "margin": -336.0,
+      "won": false
+    },
+    {
+      "seed": 4013,
+      "lplus_wealth": 100164.0,
+      "opp_wealth": 92105.0,
+      "margin": 8059.0,
+      "won": true
+    },
+    {
+      "seed": 4014,
+      "lplus_wealth": 96758.0,
+      "opp_wealth": 98977.0,
+      "margin": -2219.0,
+      "won": false
+    },
+    {
+      "seed": 4015,
+      "lplus_wealth": 100438.0,
+      "opp_wealth": 80479.0,
+      "margin": 19959.0,
+      "won": true
+    },
+    {
+      "seed": 4016,
+      "lplus_wealth": 104525.0,
+      "opp_wealth": 87799.0,
+      "margin": 16726.0,
+      "won": true
+    },
+    {
+      "seed": 4017,
+      "lplus_wealth": 87789.0,
+      "opp_wealth": 81441.0,
+      "margin": 6348.0,
+      "won": true
+    },
+    {
+      "seed": 4018,
+      "lplus_wealth": 97930.0,
+      "opp_wealth": 90647.0,
+      "margin": 7283.0,
+      "won": true
+    },
+    {
+      "seed": 4019,
+      "lplus_wealth": 99751.0,
+      "opp_wealth": 81090.0,
+      "margin": 18661.0,
+      "won": true
+    }
+  ]
+}

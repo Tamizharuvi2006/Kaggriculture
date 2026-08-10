@@ -1,0 +1,30 @@
+[
+  {
+    "archetype": "Cattle_Rusher",
+    "win_rate": 30.0,
+    "avg_v41": 84133.8,
+    "avg_opp": 88018.4,
+    "margin": -3884.6
+  },
+  {
+    "archetype": "Crop_Expansionist",
+    "win_rate": 70.0,
+    "avg_v41": 79701.6,
+    "avg_opp": 79561.6,
+    "margin": 140.0
+  },
+  {
+    "archetype": "Market_Manipulator",
+    "win_rate": 30.0,
+    "avg_v41": 77277.7,
+    "avg_opp": 77159.8,
+    "margin": 117.9
+  },
+  {
+    "archetype": "Capital_Turtle",
+    "win_rate": 30.0,
+    "avg_v41": 84978.4,
+    "avg_opp": 89848.4,
+    "margin": -4870.0
+  }
+]

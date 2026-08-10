@@ -1,0 +1,34 @@
+[
+  {
+    "variant": "Control",
+    "win_rate": 100.0,
+    "avg_d20": 14434.5,
+    "avg_final": 96649.6,
+    "avg_v41": 81306.9,
+    "margin": 15342.7
+  },
+  {
+    "variant": "V3-A",
+    "win_rate": 30.0,
+    "avg_d20": 868.3,
+    "avg_final": 76192.8,
+    "avg_v41": 83067.1,
+    "margin": -6874.3
+  },
+  {
+    "variant": "V3-B",
+    "win_rate": 20.0,
+    "avg_d20": 837.0,
+    "avg_final": 75577.3,
+    "avg_v41": 83218.4,
+    "margin": -7641.1
+  },
+  {
+    "variant": "V3-C",
+    "win_rate": 30.0,
+    "avg_d20": 868.3,
+    "avg_final": 76192.8,
+    "avg_v41": 83067.1,
+    "margin": -6874.3
+  }
+]

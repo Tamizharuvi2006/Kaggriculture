@@ -1,0 +1,20 @@
+[
+  {
+    "variant": "VarA",
+    "name": "Current V4.2 (Un-guarded Milk Ranker)",
+    "win_rate": 100.0,
+    "avg_final": 96686.78,
+    "avg_v41": 80666.88,
+    "margin": 16019.9,
+    "worst_case": 79846.0
+  },
+  {
+    "variant": "VarB",
+    "name": "V4.2 + Surgical Milk-Ranker Guard",
+    "win_rate": 100.0,
+    "avg_final": 96686.78,
+    "avg_v41": 80666.88,
+    "margin": 16019.9,
+    "worst_case": 79846.0
+  }
+]

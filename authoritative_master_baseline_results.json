@@ -1,0 +1,38 @@
+[
+  {
+    "config": "Config1",
+    "name": "V4.1 Ground Truth (15 Melons, Ranker OFF)",
+    "win_rate": 27.0,
+    "avg_final": 80544.42,
+    "avg_v41": 79828.7,
+    "margin": 715.72,
+    "worst_case": 66835.0
+  },
+  {
+    "config": "Config2",
+    "name": "V4.1 + 10-Melon Opening Only",
+    "win_rate": 80.0,
+    "avg_final": 90399.59,
+    "avg_v41": 85438.32,
+    "margin": 4961.27,
+    "worst_case": 68240.0
+  },
+  {
+    "config": "Config3",
+    "name": "V4.1 + Milk Ranker Only",
+    "win_rate": 99.0,
+    "avg_final": 86615.33,
+    "avg_v41": 74128.24,
+    "margin": 12487.09,
+    "worst_case": 75889.0
+  },
+  {
+    "config": "Config4",
+    "name": "V4.2 Combined (10 Melons + Milk Ranker)",
+    "win_rate": 100.0,
+    "avg_final": 96686.78,
+    "avg_v41": 80666.88,
+    "margin": 16019.9,
+    "worst_case": 79846.0
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "avg_final_money_v84": 92073.4,
+  "avg_final_money_v41": 85966.2,
+  "avg_unsold_inventory_val": 0.0,
+  "avg_milk_inventory_d30": 0,
+  "cow_fleet_trajectory": {
+    "d15": 8,
+    "d20": 8,
+    "d25": 8,
+    "d30": 8
+  }
+}

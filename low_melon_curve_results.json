@@ -1,0 +1,38 @@
+[
+  {
+    "melon_count": 7,
+    "win_rate": 97.0,
+    "avg_d8": 869.16,
+    "avg_d15": 5034.14,
+    "avg_final": 91564.88,
+    "avg_v41": 80965.27,
+    "margin": 10599.6
+  },
+  {
+    "melon_count": 8,
+    "win_rate": 99.5,
+    "avg_d8": 758.29,
+    "avg_d15": 5793.51,
+    "avg_final": 91642.04,
+    "avg_v41": 78704.43,
+    "margin": 12937.61
+  },
+  {
+    "melon_count": 9,
+    "win_rate": 97.0,
+    "avg_d8": 814.74,
+    "avg_d15": 7511.88,
+    "avg_final": 91228.1,
+    "avg_v41": 81372.02,
+    "margin": 9856.07
+  },
+  {
+    "melon_count": 10,
+    "win_rate": 100.0,
+    "avg_d8": 724.13,
+    "avg_d15": 8779.76,
+    "avg_final": 96151.02,
+    "avg_v41": 80114.01,
+    "margin": 16037.01
+  }
+]

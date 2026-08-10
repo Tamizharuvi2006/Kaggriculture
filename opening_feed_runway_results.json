@@ -1,0 +1,35 @@
+[
+  {
+    "variant": "V42",
+    "melons": "10",
+    "runway": "Altered Runway (10 Wheat Seeds)",
+    "ranker": "ON",
+    "win_rate": 100.0,
+    "avg_m8": 0,
+    "avg_final": 96686.78,
+    "avg_v41": 80666.88,
+    "margin": 16019.9
+  },
+  {
+    "variant": "ExpA",
+    "melons": "10",
+    "runway": "Forced V4.1 Runway (6 W-Seed/2 Prod)",
+    "ranker": "OFF",
+    "win_rate": 80.0,
+    "avg_m8": 0,
+    "avg_final": 90399.59,
+    "avg_v41": 85438.32,
+    "margin": 4961.27
+  },
+  {
+    "variant": "ExpB",
+    "melons": "10",
+    "runway": "Forced V4.1 Runway (6 W-Seed/2 Prod)",
+    "ranker": "ON",
+    "win_rate": 100.0,
+    "avg_m8": 0,
+    "avg_final": 96686.78,
+    "avg_v41": 80666.88,
+    "margin": 16019.9
+  }
+]

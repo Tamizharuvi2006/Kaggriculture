@@ -4449,24 +4449,19 @@ def agent(obs):
 
 
 # ==============================================================================
-# V8.3 CHAMPION AGENT ENTRYPOINT (Self-Contained Kaggle Competition Build)
+# V8.4 EXPERIMENTAL MASTER ENTRYPOINT (V4.1 Dynamic Engine + Opponent Supply Ranker)
 # ==============================================================================
 
 configure_strategy({
     "use_fixed_schedule": False,
-    "opening_melons": 15,
-    "strawberries": 30,
-    "cows": 13,
-    "sheep": 0,
-    "land_ne_day": 5,
-    "land_sw_day": 7,
+    "v13_market_adaptation": True,
 })
 
 _v18_base_agent = agent
 
 
 def agent(obs, configuration=None):
-    """V8.3 Agent Entrypoint with Opponent Supply-Aware Market Ranking."""
+    """V8.4 Dynamic Agent Entrypoint."""
     action_dict = _v18_base_agent(obs)
     market_orders = action_dict.get("market", [])
 

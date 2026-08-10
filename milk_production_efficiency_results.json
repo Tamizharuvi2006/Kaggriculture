@@ -1,0 +1,37 @@
+[
+  {
+    "seed": 1000,
+    "total_milk_sold": 80,
+    "total_milk_revenue": 23877.0,
+    "avg_milk_price": 293.96666666666664,
+    "rev_per_cow": 2984.625
+  },
+  {
+    "seed": 1001,
+    "total_milk_sold": 97,
+    "total_milk_revenue": 22023.0,
+    "avg_milk_price": 226.40555555555557,
+    "rev_per_cow": 2752.875
+  },
+  {
+    "seed": 1002,
+    "total_milk_sold": 93,
+    "total_milk_revenue": 21989.0,
+    "avg_milk_price": 234.75555555555556,
+    "rev_per_cow": 2748.625
+  },
+  {
+    "seed": 1003,
+    "total_milk_sold": 108,
+    "total_milk_revenue": 31945.0,
+    "avg_milk_price": 291.89166666666665,
+    "rev_per_cow": 3993.125
+  },
+  {
+    "seed": 1004,
+    "total_milk_sold": 93,
+    "total_milk_revenue": 22137.0,
+    "avg_milk_price": 238.03055555555557,
+    "rev_per_cow": 2767.125
+  }
+]

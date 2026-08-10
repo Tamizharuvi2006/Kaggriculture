@@ -1,0 +1,5012 @@
+{
+  "Control": {
+    "1002": {
+      "variant_code": "Control",
+      "seed": 1002,
+      "d25_cash": 51552.0,
+      "d28_cash": 69902.0,
+      "final_cash": 87925.0,
+      "final_v41": 72562.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "variant_code": "Control",
+      "seed": 1005,
+      "d25_cash": 54369.0,
+      "d28_cash": 74998.0,
+      "final_cash": 94570.0,
+      "final_v41": 79573.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "variant_code": "Control",
+      "seed": 1003,
+      "d25_cash": 56268.0,
+      "d28_cash": 82643.0,
+      "final_cash": 104031.0,
+      "final_v41": 88300.0,
+      "win": true,
+      "error": null
+    },
+    "1001": {
+      "variant_code": "Control",
+      "seed": 1001,
+      "d25_cash": 49570.0,
+      "d28_cash": 68084.0,
+      "final_cash": 87448.0,
+      "final_v41": 79191.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "variant_code": "Control",
+      "seed": 1009,
+      "d25_cash": 55124.0,
+      "d28_cash": 75846.0,
+      "final_cash": 95405.0,
+      "final_v41": 77204.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "variant_code": "Control",
+      "seed": 1010,
+      "d25_cash": 55891.0,
+      "d28_cash": 80523.0,
+      "final_cash": 100951.0,
+      "final_v41": 85550.0,
+      "win": true,
+      "error": null
+    },
+    "1008": {
+      "variant_code": "Control",
+      "seed": 1008,
+      "d25_cash": 63521.0,
+      "d28_cash": 86960.0,
+      "final_cash": 107228.0,
+      "final_v41": 84937.0,
+      "win": true,
+      "error": null
+    },
+    "1007": {
+      "variant_code": "Control",
+      "seed": 1007,
+      "d25_cash": 58681.0,
+      "d28_cash": 80780.0,
+      "final_cash": 103323.0,
+      "final_v41": 92403.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "variant_code": "Control",
+      "seed": 1004,
+      "d25_cash": 54076.0,
+      "d28_cash": 74612.0,
+      "final_cash": 94037.0,
+      "final_v41": 78971.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "variant_code": "Control",
+      "seed": 1011,
+      "d25_cash": 53893.0,
+      "d28_cash": 73776.0,
+      "final_cash": 94906.0,
+      "final_v41": 89114.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "variant_code": "Control",
+      "seed": 1006,
+      "d25_cash": 56090.0,
+      "d28_cash": 79307.0,
+      "final_cash": 100977.0,
+      "final_v41": 81704.0,
+      "win": true,
+      "error": null
+    },
+    "1000": {
+      "variant_code": "Control",
+      "seed": 1000,
+      "d25_cash": 52103.0,
+      "d28_cash": 72294.0,
+      "final_cash": 91552.0,
+      "final_v41": 78224.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "variant_code": "Control",
+      "seed": 1012,
+      "d25_cash": 55770.0,
+      "d28_cash": 80248.0,
+      "final_cash": 100672.0,
+      "final_v41": 85198.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "variant_code": "Control",
+      "seed": 1016,
+      "d25_cash": 58518.0,
+      "d28_cash": 79172.0,
+      "final_cash": 98523.0,
+      "final_v41": 76113.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "variant_code": "Control",
+      "seed": 1013,
+      "d25_cash": 61599.0,
+      "d28_cash": 83715.0,
+      "final_cash": 103089.0,
+      "final_v41": 83877.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "variant_code": "Control",
+      "seed": 1018,
+      "d25_cash": 48740.0,
+      "d28_cash": 67505.0,
+      "final_cash": 89587.0,
+      "final_v41": 74660.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "variant_code": "Control",
+      "seed": 1021,
+      "d25_cash": 55879.0,
+      "d28_cash": 77991.0,
+      "final_cash": 98508.0,
+      "final_v41": 74654.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "variant_code": "Control",
+      "seed": 1014,
+      "d25_cash": 56693.0,
+      "d28_cash": 80316.0,
+      "final_cash": 102200.0,
+      "final_v41": 82659.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "variant_code": "Control",
+      "seed": 1015,
+      "d25_cash": 54194.0,
+      "d28_cash": 74196.0,
+      "final_cash": 95170.0,
+      "final_v41": 81530.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "variant_code": "Control",
+      "seed": 1019,
+      "d25_cash": 52619.0,
+      "d28_cash": 71171.0,
+      "final_cash": 90138.0,
+      "final_v41": 72041.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "variant_code": "Control",
+      "seed": 1017,
+      "d25_cash": 60656.0,
+      "d28_cash": 83936.0,
+      "final_cash": 104303.0,
+      "final_v41": 82211.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "variant_code": "Control",
+      "seed": 1023,
+      "d25_cash": 55522.0,
+      "d28_cash": 75330.0,
+      "final_cash": 93718.0,
+      "final_v41": 72762.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "variant_code": "Control",
+      "seed": 1022,
+      "d25_cash": 61971.0,
+      "d28_cash": 84052.0,
+      "final_cash": 103501.0,
+      "final_v41": 84031.0,
+      "win": true,
+      "error": null
+    },
+    "1020": {
+      "variant_code": "Control",
+      "seed": 1020,
+      "d25_cash": 53145.0,
+      "d28_cash": 73301.0,
+      "final_cash": 92536.0,
+      "final_v41": 77621.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "variant_code": "Control",
+      "seed": 1025,
+      "d25_cash": 56670.0,
+      "d28_cash": 78106.0,
+      "final_cash": 100105.0,
+      "final_v41": 87911.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "variant_code": "Control",
+      "seed": 1027,
+      "d25_cash": 54444.0,
+      "d28_cash": 77072.0,
+      "final_cash": 98320.0,
+      "final_v41": 79099.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "variant_code": "Control",
+      "seed": 1028,
+      "d25_cash": 54023.0,
+      "d28_cash": 71992.0,
+      "final_cash": 91289.0,
+      "final_v41": 75581.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "variant_code": "Control",
+      "seed": 1024,
+      "d25_cash": 56484.0,
+      "d28_cash": 75109.0,
+      "final_cash": 94980.0,
+      "final_v41": 72637.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "variant_code": "Control",
+      "seed": 1030,
+      "d25_cash": 59543.0,
+      "d28_cash": 84850.0,
+      "final_cash": 105862.0,
+      "final_v41": 84835.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "variant_code": "Control",
+      "seed": 1026,
+      "d25_cash": 55266.0,
+      "d28_cash": 75411.0,
+      "final_cash": 96668.0,
+      "final_v41": 90351.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "variant_code": "Control",
+      "seed": 1032,
+      "d25_cash": 61001.0,
+      "d28_cash": 81804.0,
+      "final_cash": 103391.0,
+      "final_v41": 80780.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "variant_code": "Control",
+      "seed": 1029,
+      "d25_cash": 57707.0,
+      "d28_cash": 83244.0,
+      "final_cash": 104279.0,
+      "final_v41": 84700.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "variant_code": "Control",
+      "seed": 1031,
+      "d25_cash": 55111.0,
+      "d28_cash": 77834.0,
+      "final_cash": 99102.0,
+      "final_v41": 79257.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "variant_code": "Control",
+      "seed": 1033,
+      "d25_cash": 59676.0,
+      "d28_cash": 80446.0,
+      "final_cash": 101016.0,
+      "final_v41": 86524.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "variant_code": "Control",
+      "seed": 1034,
+      "d25_cash": 59572.0,
+      "d28_cash": 79596.0,
+      "final_cash": 101210.0,
+      "final_v41": 78321.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "variant_code": "Control",
+      "seed": 1035,
+      "d25_cash": 53821.0,
+      "d28_cash": 74122.0,
+      "final_cash": 93498.0,
+      "final_v41": 78429.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "variant_code": "Control",
+      "seed": 1036,
+      "d25_cash": 55888.0,
+      "d28_cash": 80224.0,
+      "final_cash": 100713.0,
+      "final_v41": 84822.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "variant_code": "Control",
+      "seed": 1039,
+      "d25_cash": 53313.0,
+      "d28_cash": 74024.0,
+      "final_cash": 93933.0,
+      "final_v41": 74147.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "variant_code": "Control",
+      "seed": 1037,
+      "d25_cash": 56220.0,
+      "d28_cash": 81373.0,
+      "final_cash": 102107.0,
+      "final_v41": 86749.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "variant_code": "Control",
+      "seed": 1040,
+      "d25_cash": 54706.0,
+      "d28_cash": 76929.0,
+      "final_cash": 97985.0,
+      "final_v41": 78829.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "variant_code": "Control",
+      "seed": 1038,
+      "d25_cash": 60255.0,
+      "d28_cash": 79542.0,
+      "final_cash": 100148.0,
+      "final_v41": 72552.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "variant_code": "Control",
+      "seed": 1042,
+      "d25_cash": 52989.0,
+      "d28_cash": 75799.0,
+      "final_cash": 93605.0,
+      "final_v41": 80631.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "variant_code": "Control",
+      "seed": 1041,
+      "d25_cash": 54838.0,
+      "d28_cash": 76266.0,
+      "final_cash": 96220.0,
+      "final_v41": 81138.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "variant_code": "Control",
+      "seed": 1045,
+      "d25_cash": 49450.0,
+      "d28_cash": 68295.0,
+      "final_cash": 87843.0,
+      "final_v41": 84400.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "variant_code": "Control",
+      "seed": 1044,
+      "d25_cash": 53513.0,
+      "d28_cash": 73626.0,
+      "final_cash": 91587.0,
+      "final_v41": 70318.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "variant_code": "Control",
+      "seed": 1043,
+      "d25_cash": 55217.0,
+      "d28_cash": 78132.0,
+      "final_cash": 99433.0,
+      "final_v41": 79792.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "variant_code": "Control",
+      "seed": 1047,
+      "d25_cash": 57730.0,
+      "d28_cash": 82199.0,
+      "final_cash": 102743.0,
+      "final_v41": 82272.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "variant_code": "Control",
+      "seed": 1046,
+      "d25_cash": 51729.0,
+      "d28_cash": 70549.0,
+      "final_cash": 88880.0,
+      "final_v41": 73820.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "variant_code": "Control",
+      "seed": 1049,
+      "d25_cash": 49160.0,
+      "d28_cash": 67263.0,
+      "final_cash": 86361.0,
+      "final_v41": 78103.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "variant_code": "Control",
+      "seed": 1048,
+      "d25_cash": 54973.0,
+      "d28_cash": 79304.0,
+      "final_cash": 99596.0,
+      "final_v41": 84294.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "variant_code": "Control",
+      "seed": 1050,
+      "d25_cash": 52315.0,
+      "d28_cash": 72072.0,
+      "final_cash": 92588.0,
+      "final_v41": 84095.0,
+      "win": true,
+      "error": null
+    },
+    "1051": {
+      "variant_code": "Control",
+      "seed": 1051,
+      "d25_cash": 41671.0,
+      "d28_cash": 61255.0,
+      "final_cash": 80134.0,
+      "final_v41": 75892.0,
+      "win": true,
+      "error": null
+    },
+    "1052": {
+      "variant_code": "Control",
+      "seed": 1052,
+      "d25_cash": 55076.0,
+      "d28_cash": 76038.0,
+      "final_cash": 94922.0,
+      "final_v41": 82682.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "variant_code": "Control",
+      "seed": 1055,
+      "d25_cash": 58175.0,
+      "d28_cash": 79827.0,
+      "final_cash": 99311.0,
+      "final_v41": 87365.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "variant_code": "Control",
+      "seed": 1054,
+      "d25_cash": 55785.0,
+      "d28_cash": 77560.0,
+      "final_cash": 97786.0,
+      "final_v41": 75811.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "variant_code": "Control",
+      "seed": 1056,
+      "d25_cash": 57217.0,
+      "d28_cash": 80169.0,
+      "final_cash": 99830.0,
+      "final_v41": 78688.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "variant_code": "Control",
+      "seed": 1053,
+      "d25_cash": 55925.0,
+      "d28_cash": 77698.0,
+      "final_cash": 97962.0,
+      "final_v41": 82800.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "variant_code": "Control",
+      "seed": 1057,
+      "d25_cash": 47967.0,
+      "d28_cash": 64656.0,
+      "final_cash": 82850.0,
+      "final_v41": 73935.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "variant_code": "Control",
+      "seed": 1058,
+      "d25_cash": 53523.0,
+      "d28_cash": 74036.0,
+      "final_cash": 94458.0,
+      "final_v41": 72876.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "variant_code": "Control",
+      "seed": 1059,
+      "d25_cash": 61266.0,
+      "d28_cash": 82233.0,
+      "final_cash": 103913.0,
+      "final_v41": 81041.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "variant_code": "Control",
+      "seed": 1061,
+      "d25_cash": 54480.0,
+      "d28_cash": 73766.0,
+      "final_cash": 94502.0,
+      "final_v41": 88433.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "variant_code": "Control",
+      "seed": 1062,
+      "d25_cash": 54285.0,
+      "d28_cash": 75164.0,
+      "final_cash": 97258.0,
+      "final_v41": 91611.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "variant_code": "Control",
+      "seed": 1060,
+      "d25_cash": 56413.0,
+      "d28_cash": 81018.0,
+      "final_cash": 101582.0,
+      "final_v41": 85901.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "variant_code": "Control",
+      "seed": 1063,
+      "d25_cash": 54347.0,
+      "d28_cash": 73951.0,
+      "final_cash": 94980.0,
+      "final_v41": 79385.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "variant_code": "Control",
+      "seed": 1067,
+      "d25_cash": 59445.0,
+      "d28_cash": 80954.0,
+      "final_cash": 101836.0,
+      "final_v41": 88694.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "variant_code": "Control",
+      "seed": 1068,
+      "d25_cash": 59966.0,
+      "d28_cash": 86421.0,
+      "final_cash": 107829.0,
+      "final_v41": 86760.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "variant_code": "Control",
+      "seed": 1064,
+      "d25_cash": 54370.0,
+      "d28_cash": 73786.0,
+      "final_cash": 94488.0,
+      "final_v41": 88367.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "variant_code": "Control",
+      "seed": 1065,
+      "d25_cash": 56050.0,
+      "d28_cash": 78136.0,
+      "final_cash": 98634.0,
+      "final_v41": 76969.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "variant_code": "Control",
+      "seed": 1066,
+      "d25_cash": 53621.0,
+      "d28_cash": 71178.0,
+      "final_cash": 89899.0,
+      "final_v41": 73078.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "variant_code": "Control",
+      "seed": 1069,
+      "d25_cash": 51716.0,
+      "d28_cash": 71899.0,
+      "final_cash": 89749.0,
+      "final_v41": 69940.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "variant_code": "Control",
+      "seed": 1071,
+      "d25_cash": 47626.0,
+      "d28_cash": 62959.0,
+      "final_cash": 79846.0,
+      "final_v41": 68735.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "variant_code": "Control",
+      "seed": 1070,
+      "d25_cash": 56561.0,
+      "d28_cash": 79931.0,
+      "final_cash": 101334.0,
+      "final_v41": 87313.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "variant_code": "Control",
+      "seed": 1072,
+      "d25_cash": 56415.0,
+      "d28_cash": 79242.0,
+      "final_cash": 100547.0,
+      "final_v41": 81793.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "variant_code": "Control",
+      "seed": 1073,
+      "d25_cash": 55461.0,
+      "d28_cash": 79910.0,
+      "final_cash": 100309.0,
+      "final_v41": 84724.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "variant_code": "Control",
+      "seed": 1074,
+      "d25_cash": 56898.0,
+      "d28_cash": 83004.0,
+      "final_cash": 104262.0,
+      "final_v41": 88441.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "variant_code": "Control",
+      "seed": 1076,
+      "d25_cash": 62516.0,
+      "d28_cash": 85298.0,
+      "final_cash": 105094.0,
+      "final_v41": 85886.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "variant_code": "Control",
+      "seed": 1075,
+      "d25_cash": 56075.0,
+      "d28_cash": 76438.0,
+      "final_cash": 95066.0,
+      "final_v41": 74242.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "variant_code": "Control",
+      "seed": 1079,
+      "d25_cash": 55629.0,
+      "d28_cash": 76422.0,
+      "final_cash": 95079.0,
+      "final_v41": 72430.0,
+      "win": true,
+      "error": null
+    },
+    "1078": {
+      "variant_code": "Control",
+      "seed": 1078,
+      "d25_cash": 58451.0,
+      "d28_cash": 81811.0,
+      "final_cash": 103124.0,
+      "final_v41": 88069.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "variant_code": "Control",
+      "seed": 1077,
+      "d25_cash": 51582.0,
+      "d28_cash": 72724.0,
+      "final_cash": 91433.0,
+      "final_v41": 76615.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "variant_code": "Control",
+      "seed": 1080,
+      "d25_cash": 53637.0,
+      "d28_cash": 75657.0,
+      "final_cash": 96637.0,
+      "final_v41": 77984.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "variant_code": "Control",
+      "seed": 1083,
+      "d25_cash": 55540.0,
+      "d28_cash": 74996.0,
+      "final_cash": 95443.0,
+      "final_v41": 79659.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "variant_code": "Control",
+      "seed": 1081,
+      "d25_cash": 51728.0,
+      "d28_cash": 70927.0,
+      "final_cash": 89548.0,
+      "final_v41": 74601.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "variant_code": "Control",
+      "seed": 1082,
+      "d25_cash": 56450.0,
+      "d28_cash": 76507.0,
+      "final_cash": 95172.0,
+      "final_v41": 73732.0,
+      "win": true,
+      "error": null
+    },
+    "1084": {
+      "variant_code": "Control",
+      "seed": 1084,
+      "d25_cash": 56152.0,
+      "d28_cash": 82128.0,
+      "final_cash": 102358.0,
+      "final_v41": 85704.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "variant_code": "Control",
+      "seed": 1086,
+      "d25_cash": 52411.0,
+      "d28_cash": 72817.0,
+      "final_cash": 93152.0,
+      "final_v41": 75547.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "variant_code": "Control",
+      "seed": 1085,
+      "d25_cash": 56618.0,
+      "d28_cash": 77390.0,
+      "final_cash": 98961.0,
+      "final_v41": 84639.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "variant_code": "Control",
+      "seed": 1087,
+      "d25_cash": 56403.0,
+      "d28_cash": 79772.0,
+      "final_cash": 101671.0,
+      "final_v41": 82763.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "variant_code": "Control",
+      "seed": 1088,
+      "d25_cash": 50801.0,
+      "d28_cash": 70615.0,
+      "final_cash": 91083.0,
+      "final_v41": 81766.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "variant_code": "Control",
+      "seed": 1090,
+      "d25_cash": 57178.0,
+      "d28_cash": 78991.0,
+      "final_cash": 101542.0,
+      "final_v41": 95426.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "variant_code": "Control",
+      "seed": 1089,
+      "d25_cash": 54497.0,
+      "d28_cash": 76837.0,
+      "final_cash": 98010.0,
+      "final_v41": 79107.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "variant_code": "Control",
+      "seed": 1093,
+      "d25_cash": 55200.0,
+      "d28_cash": 76306.0,
+      "final_cash": 96901.0,
+      "final_v41": 74362.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "variant_code": "Control",
+      "seed": 1092,
+      "d25_cash": 53779.0,
+      "d28_cash": 73913.0,
+      "final_cash": 95720.0,
+      "final_v41": 88817.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "variant_code": "Control",
+      "seed": 1091,
+      "d25_cash": 53908.0,
+      "d28_cash": 73635.0,
+      "final_cash": 93709.0,
+      "final_v41": 75310.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "variant_code": "Control",
+      "seed": 1094,
+      "d25_cash": 58469.0,
+      "d28_cash": 82790.0,
+      "final_cash": 103287.0,
+      "final_v41": 85080.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "variant_code": "Control",
+      "seed": 1095,
+      "d25_cash": 43821.0,
+      "d28_cash": 66055.0,
+      "final_cash": 86737.0,
+      "final_v41": 74048.0,
+      "win": true,
+      "error": null
+    },
+    "1096": {
+      "variant_code": "Control",
+      "seed": 1096,
+      "d25_cash": 46877.0,
+      "d28_cash": 63326.0,
+      "final_cash": 81335.0,
+      "final_v41": 72549.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "variant_code": "Control",
+      "seed": 1097,
+      "d25_cash": 57492.0,
+      "d28_cash": 79076.0,
+      "final_cash": 101222.0,
+      "final_v41": 81757.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "variant_code": "Control",
+      "seed": 1098,
+      "d25_cash": 55554.0,
+      "d28_cash": 76521.0,
+      "final_cash": 97014.0,
+      "final_v41": 78276.0,
+      "win": true,
+      "error": null
+    },
+    "1099": {
+      "variant_code": "Control",
+      "seed": 1099,
+      "d25_cash": 54073.0,
+      "d28_cash": 72863.0,
+      "final_cash": 93399.0,
+      "final_v41": 87608.0,
+      "win": true,
+      "error": null
+    }
+  },
+  "VarA": {
+    "1001": {
+      "variant_code": "VarA",
+      "seed": 1001,
+      "d25_cash": 49570.0,
+      "d28_cash": 68084.0,
+      "final_cash": 87448.0,
+      "final_v41": 79191.0,
+      "win": true,
+      "error": null
+    },
+    "1000": {
+      "variant_code": "VarA",
+      "seed": 1000,
+      "d25_cash": 52103.0,
+      "d28_cash": 72294.0,
+      "final_cash": 91552.0,
+      "final_v41": 78224.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "variant_code": "VarA",
+      "seed": 1002,
+      "d25_cash": 51552.0,
+      "d28_cash": 69902.0,
+      "final_cash": 87925.0,
+      "final_v41": 72562.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "variant_code": "VarA",
+      "seed": 1003,
+      "d25_cash": 56268.0,
+      "d28_cash": 82643.0,
+      "final_cash": 104031.0,
+      "final_v41": 88300.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "variant_code": "VarA",
+      "seed": 1005,
+      "d25_cash": 54369.0,
+      "d28_cash": 74998.0,
+      "final_cash": 94570.0,
+      "final_v41": 79573.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "variant_code": "VarA",
+      "seed": 1004,
+      "d25_cash": 54076.0,
+      "d28_cash": 74612.0,
+      "final_cash": 94037.0,
+      "final_v41": 78971.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "variant_code": "VarA",
+      "seed": 1006,
+      "d25_cash": 56090.0,
+      "d28_cash": 79307.0,
+      "final_cash": 100977.0,
+      "final_v41": 81704.0,
+      "win": true,
+      "error": null
+    },
+    "1007": {
+      "variant_code": "VarA",
+      "seed": 1007,
+      "d25_cash": 58681.0,
+      "d28_cash": 80780.0,
+      "final_cash": 103323.0,
+      "final_v41": 92403.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "variant_code": "VarA",
+      "seed": 1009,
+      "d25_cash": 55124.0,
+      "d28_cash": 75846.0,
+      "final_cash": 95405.0,
+      "final_v41": 77204.0,
+      "win": true,
+      "error": null
+    },
+    "1008": {
+      "variant_code": "VarA",
+      "seed": 1008,
+      "d25_cash": 63521.0,
+      "d28_cash": 86960.0,
+      "final_cash": 107228.0,
+      "final_v41": 84937.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "variant_code": "VarA",
+      "seed": 1010,
+      "d25_cash": 55891.0,
+      "d28_cash": 80523.0,
+      "final_cash": 100951.0,
+      "final_v41": 85550.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "variant_code": "VarA",
+      "seed": 1012,
+      "d25_cash": 55770.0,
+      "d28_cash": 80248.0,
+      "final_cash": 100672.0,
+      "final_v41": 85198.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "variant_code": "VarA",
+      "seed": 1011,
+      "d25_cash": 53893.0,
+      "d28_cash": 73776.0,
+      "final_cash": 94906.0,
+      "final_v41": 89114.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "variant_code": "VarA",
+      "seed": 1013,
+      "d25_cash": 61599.0,
+      "d28_cash": 83715.0,
+      "final_cash": 103089.0,
+      "final_v41": 83877.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "variant_code": "VarA",
+      "seed": 1016,
+      "d25_cash": 58518.0,
+      "d28_cash": 79172.0,
+      "final_cash": 98523.0,
+      "final_v41": 76113.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "variant_code": "VarA",
+      "seed": 1015,
+      "d25_cash": 54194.0,
+      "d28_cash": 74196.0,
+      "final_cash": 95170.0,
+      "final_v41": 81530.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "variant_code": "VarA",
+      "seed": 1014,
+      "d25_cash": 56693.0,
+      "d28_cash": 80316.0,
+      "final_cash": 102200.0,
+      "final_v41": 82659.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "variant_code": "VarA",
+      "seed": 1017,
+      "d25_cash": 60656.0,
+      "d28_cash": 83936.0,
+      "final_cash": 104303.0,
+      "final_v41": 82211.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "variant_code": "VarA",
+      "seed": 1018,
+      "d25_cash": 48740.0,
+      "d28_cash": 67505.0,
+      "final_cash": 89587.0,
+      "final_v41": 74660.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "variant_code": "VarA",
+      "seed": 1019,
+      "d25_cash": 52619.0,
+      "d28_cash": 71171.0,
+      "final_cash": 90138.0,
+      "final_v41": 72041.0,
+      "win": true,
+      "error": null
+    },
+    "1020": {
+      "variant_code": "VarA",
+      "seed": 1020,
+      "d25_cash": 53145.0,
+      "d28_cash": 73301.0,
+      "final_cash": 92536.0,
+      "final_v41": 77621.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "variant_code": "VarA",
+      "seed": 1021,
+      "d25_cash": 55879.0,
+      "d28_cash": 77991.0,
+      "final_cash": 98508.0,
+      "final_v41": 74654.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "variant_code": "VarA",
+      "seed": 1022,
+      "d25_cash": 61971.0,
+      "d28_cash": 84052.0,
+      "final_cash": 103501.0,
+      "final_v41": 84031.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "variant_code": "VarA",
+      "seed": 1025,
+      "d25_cash": 56670.0,
+      "d28_cash": 78106.0,
+      "final_cash": 100105.0,
+      "final_v41": 87911.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "variant_code": "VarA",
+      "seed": 1024,
+      "d25_cash": 56484.0,
+      "d28_cash": 75109.0,
+      "final_cash": 94980.0,
+      "final_v41": 72637.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "variant_code": "VarA",
+      "seed": 1023,
+      "d25_cash": 55522.0,
+      "d28_cash": 75330.0,
+      "final_cash": 93718.0,
+      "final_v41": 72762.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "variant_code": "VarA",
+      "seed": 1026,
+      "d25_cash": 55266.0,
+      "d28_cash": 75411.0,
+      "final_cash": 96668.0,
+      "final_v41": 90351.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "variant_code": "VarA",
+      "seed": 1028,
+      "d25_cash": 54023.0,
+      "d28_cash": 71992.0,
+      "final_cash": 91289.0,
+      "final_v41": 75581.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "variant_code": "VarA",
+      "seed": 1027,
+      "d25_cash": 54444.0,
+      "d28_cash": 77072.0,
+      "final_cash": 98320.0,
+      "final_v41": 79099.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "variant_code": "VarA",
+      "seed": 1029,
+      "d25_cash": 57707.0,
+      "d28_cash": 83244.0,
+      "final_cash": 104279.0,
+      "final_v41": 84700.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "variant_code": "VarA",
+      "seed": 1031,
+      "d25_cash": 55111.0,
+      "d28_cash": 77834.0,
+      "final_cash": 99102.0,
+      "final_v41": 79257.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "variant_code": "VarA",
+      "seed": 1030,
+      "d25_cash": 59543.0,
+      "d28_cash": 84850.0,
+      "final_cash": 105862.0,
+      "final_v41": 84835.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "variant_code": "VarA",
+      "seed": 1032,
+      "d25_cash": 61001.0,
+      "d28_cash": 81804.0,
+      "final_cash": 103391.0,
+      "final_v41": 80780.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "variant_code": "VarA",
+      "seed": 1033,
+      "d25_cash": 59676.0,
+      "d28_cash": 80446.0,
+      "final_cash": 101016.0,
+      "final_v41": 86524.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "variant_code": "VarA",
+      "seed": 1034,
+      "d25_cash": 59572.0,
+      "d28_cash": 79596.0,
+      "final_cash": 101210.0,
+      "final_v41": 78321.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "variant_code": "VarA",
+      "seed": 1035,
+      "d25_cash": 53821.0,
+      "d28_cash": 74122.0,
+      "final_cash": 93498.0,
+      "final_v41": 78429.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "variant_code": "VarA",
+      "seed": 1037,
+      "d25_cash": 56220.0,
+      "d28_cash": 81373.0,
+      "final_cash": 102107.0,
+      "final_v41": 86749.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "variant_code": "VarA",
+      "seed": 1036,
+      "d25_cash": 55888.0,
+      "d28_cash": 80224.0,
+      "final_cash": 100713.0,
+      "final_v41": 84822.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "variant_code": "VarA",
+      "seed": 1040,
+      "d25_cash": 54706.0,
+      "d28_cash": 76929.0,
+      "final_cash": 97985.0,
+      "final_v41": 78829.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "variant_code": "VarA",
+      "seed": 1038,
+      "d25_cash": 60255.0,
+      "d28_cash": 79542.0,
+      "final_cash": 100148.0,
+      "final_v41": 72552.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "variant_code": "VarA",
+      "seed": 1041,
+      "d25_cash": 54838.0,
+      "d28_cash": 76266.0,
+      "final_cash": 96220.0,
+      "final_v41": 81138.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "variant_code": "VarA",
+      "seed": 1039,
+      "d25_cash": 53313.0,
+      "d28_cash": 74024.0,
+      "final_cash": 93933.0,
+      "final_v41": 74147.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "variant_code": "VarA",
+      "seed": 1043,
+      "d25_cash": 55217.0,
+      "d28_cash": 78132.0,
+      "final_cash": 99433.0,
+      "final_v41": 79792.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "variant_code": "VarA",
+      "seed": 1042,
+      "d25_cash": 52989.0,
+      "d28_cash": 75799.0,
+      "final_cash": 93605.0,
+      "final_v41": 80631.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "variant_code": "VarA",
+      "seed": 1044,
+      "d25_cash": 53513.0,
+      "d28_cash": 73626.0,
+      "final_cash": 91587.0,
+      "final_v41": 70318.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "variant_code": "VarA",
+      "seed": 1045,
+      "d25_cash": 49450.0,
+      "d28_cash": 68295.0,
+      "final_cash": 87843.0,
+      "final_v41": 84400.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "variant_code": "VarA",
+      "seed": 1046,
+      "d25_cash": 51729.0,
+      "d28_cash": 70549.0,
+      "final_cash": 88880.0,
+      "final_v41": 73820.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "variant_code": "VarA",
+      "seed": 1048,
+      "d25_cash": 54973.0,
+      "d28_cash": 79304.0,
+      "final_cash": 99596.0,
+      "final_v41": 84294.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "variant_code": "VarA",
+      "seed": 1047,
+      "d25_cash": 57730.0,
+      "d28_cash": 82199.0,
+      "final_cash": 102743.0,
+      "final_v41": 82272.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "variant_code": "VarA",
+      "seed": 1049,
+      "d25_cash": 49160.0,
+      "d28_cash": 67263.0,
+      "final_cash": 86361.0,
+      "final_v41": 78103.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "variant_code": "VarA",
+      "seed": 1050,
+      "d25_cash": 52315.0,
+      "d28_cash": 72072.0,
+      "final_cash": 92588.0,
+      "final_v41": 84095.0,
+      "win": true,
+      "error": null
+    },
+    "1052": {
+      "variant_code": "VarA",
+      "seed": 1052,
+      "d25_cash": 55076.0,
+      "d28_cash": 76038.0,
+      "final_cash": 94922.0,
+      "final_v41": 82682.0,
+      "win": true,
+      "error": null
+    },
+    "1051": {
+      "variant_code": "VarA",
+      "seed": 1051,
+      "d25_cash": 41671.0,
+      "d28_cash": 61255.0,
+      "final_cash": 80134.0,
+      "final_v41": 75892.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "variant_code": "VarA",
+      "seed": 1053,
+      "d25_cash": 55925.0,
+      "d28_cash": 77698.0,
+      "final_cash": 97962.0,
+      "final_v41": 82800.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "variant_code": "VarA",
+      "seed": 1055,
+      "d25_cash": 58175.0,
+      "d28_cash": 79827.0,
+      "final_cash": 99311.0,
+      "final_v41": 87365.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "variant_code": "VarA",
+      "seed": 1054,
+      "d25_cash": 55785.0,
+      "d28_cash": 77560.0,
+      "final_cash": 97786.0,
+      "final_v41": 75811.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "variant_code": "VarA",
+      "seed": 1056,
+      "d25_cash": 57217.0,
+      "d28_cash": 80169.0,
+      "final_cash": 99830.0,
+      "final_v41": 78688.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "variant_code": "VarA",
+      "seed": 1057,
+      "d25_cash": 47967.0,
+      "d28_cash": 64656.0,
+      "final_cash": 82850.0,
+      "final_v41": 73935.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "variant_code": "VarA",
+      "seed": 1058,
+      "d25_cash": 53523.0,
+      "d28_cash": 74036.0,
+      "final_cash": 94458.0,
+      "final_v41": 72876.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "variant_code": "VarA",
+      "seed": 1059,
+      "d25_cash": 61266.0,
+      "d28_cash": 82233.0,
+      "final_cash": 103913.0,
+      "final_v41": 81041.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "variant_code": "VarA",
+      "seed": 1061,
+      "d25_cash": 54480.0,
+      "d28_cash": 73766.0,
+      "final_cash": 94502.0,
+      "final_v41": 88433.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "variant_code": "VarA",
+      "seed": 1060,
+      "d25_cash": 56413.0,
+      "d28_cash": 81018.0,
+      "final_cash": 101582.0,
+      "final_v41": 85901.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "variant_code": "VarA",
+      "seed": 1063,
+      "d25_cash": 54347.0,
+      "d28_cash": 73951.0,
+      "final_cash": 94980.0,
+      "final_v41": 79385.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "variant_code": "VarA",
+      "seed": 1062,
+      "d25_cash": 54285.0,
+      "d28_cash": 75164.0,
+      "final_cash": 97258.0,
+      "final_v41": 91611.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "variant_code": "VarA",
+      "seed": 1064,
+      "d25_cash": 54370.0,
+      "d28_cash": 73786.0,
+      "final_cash": 94488.0,
+      "final_v41": 88367.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "variant_code": "VarA",
+      "seed": 1065,
+      "d25_cash": 56050.0,
+      "d28_cash": 78136.0,
+      "final_cash": 98634.0,
+      "final_v41": 76969.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "variant_code": "VarA",
+      "seed": 1066,
+      "d25_cash": 53621.0,
+      "d28_cash": 71178.0,
+      "final_cash": 89899.0,
+      "final_v41": 73078.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "variant_code": "VarA",
+      "seed": 1067,
+      "d25_cash": 59445.0,
+      "d28_cash": 80954.0,
+      "final_cash": 101836.0,
+      "final_v41": 88694.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "variant_code": "VarA",
+      "seed": 1068,
+      "d25_cash": 59966.0,
+      "d28_cash": 86421.0,
+      "final_cash": 107829.0,
+      "final_v41": 86760.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "variant_code": "VarA",
+      "seed": 1069,
+      "d25_cash": 51716.0,
+      "d28_cash": 71899.0,
+      "final_cash": 89749.0,
+      "final_v41": 69940.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "variant_code": "VarA",
+      "seed": 1070,
+      "d25_cash": 56561.0,
+      "d28_cash": 79931.0,
+      "final_cash": 101334.0,
+      "final_v41": 87313.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "variant_code": "VarA",
+      "seed": 1073,
+      "d25_cash": 55461.0,
+      "d28_cash": 79910.0,
+      "final_cash": 100309.0,
+      "final_v41": 84724.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "variant_code": "VarA",
+      "seed": 1071,
+      "d25_cash": 47626.0,
+      "d28_cash": 62959.0,
+      "final_cash": 79846.0,
+      "final_v41": 68735.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "variant_code": "VarA",
+      "seed": 1072,
+      "d25_cash": 56415.0,
+      "d28_cash": 79242.0,
+      "final_cash": 100547.0,
+      "final_v41": 81793.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "variant_code": "VarA",
+      "seed": 1074,
+      "d25_cash": 56898.0,
+      "d28_cash": 83004.0,
+      "final_cash": 104262.0,
+      "final_v41": 88441.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "variant_code": "VarA",
+      "seed": 1075,
+      "d25_cash": 56075.0,
+      "d28_cash": 76438.0,
+      "final_cash": 95066.0,
+      "final_v41": 74242.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "variant_code": "VarA",
+      "seed": 1076,
+      "d25_cash": 62516.0,
+      "d28_cash": 85298.0,
+      "final_cash": 105094.0,
+      "final_v41": 85886.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "variant_code": "VarA",
+      "seed": 1077,
+      "d25_cash": 51582.0,
+      "d28_cash": 72724.0,
+      "final_cash": 91433.0,
+      "final_v41": 76615.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "variant_code": "VarA",
+      "seed": 1079,
+      "d25_cash": 55629.0,
+      "d28_cash": 76422.0,
+      "final_cash": 95079.0,
+      "final_v41": 72430.0,
+      "win": true,
+      "error": null
+    },
+    "1078": {
+      "variant_code": "VarA",
+      "seed": 1078,
+      "d25_cash": 58451.0,
+      "d28_cash": 81811.0,
+      "final_cash": 103124.0,
+      "final_v41": 88069.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "variant_code": "VarA",
+      "seed": 1080,
+      "d25_cash": 53637.0,
+      "d28_cash": 75657.0,
+      "final_cash": 96637.0,
+      "final_v41": 77984.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "variant_code": "VarA",
+      "seed": 1081,
+      "d25_cash": 51728.0,
+      "d28_cash": 70927.0,
+      "final_cash": 89548.0,
+      "final_v41": 74601.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "variant_code": "VarA",
+      "seed": 1082,
+      "d25_cash": 56450.0,
+      "d28_cash": 76507.0,
+      "final_cash": 95172.0,
+      "final_v41": 73732.0,
+      "win": true,
+      "error": null
+    },
+    "1084": {
+      "variant_code": "VarA",
+      "seed": 1084,
+      "d25_cash": 56152.0,
+      "d28_cash": 82128.0,
+      "final_cash": 102358.0,
+      "final_v41": 85704.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "variant_code": "VarA",
+      "seed": 1083,
+      "d25_cash": 55540.0,
+      "d28_cash": 74996.0,
+      "final_cash": 95443.0,
+      "final_v41": 79659.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "variant_code": "VarA",
+      "seed": 1085,
+      "d25_cash": 56618.0,
+      "d28_cash": 77390.0,
+      "final_cash": 98961.0,
+      "final_v41": 84639.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "variant_code": "VarA",
+      "seed": 1086,
+      "d25_cash": 52411.0,
+      "d28_cash": 72817.0,
+      "final_cash": 93152.0,
+      "final_v41": 75547.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "variant_code": "VarA",
+      "seed": 1087,
+      "d25_cash": 56403.0,
+      "d28_cash": 79772.0,
+      "final_cash": 101671.0,
+      "final_v41": 82763.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "variant_code": "VarA",
+      "seed": 1088,
+      "d25_cash": 50801.0,
+      "d28_cash": 70615.0,
+      "final_cash": 91083.0,
+      "final_v41": 81766.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "variant_code": "VarA",
+      "seed": 1089,
+      "d25_cash": 54497.0,
+      "d28_cash": 76837.0,
+      "final_cash": 98010.0,
+      "final_v41": 79107.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "variant_code": "VarA",
+      "seed": 1090,
+      "d25_cash": 57178.0,
+      "d28_cash": 78991.0,
+      "final_cash": 101542.0,
+      "final_v41": 95426.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "variant_code": "VarA",
+      "seed": 1091,
+      "d25_cash": 53908.0,
+      "d28_cash": 73635.0,
+      "final_cash": 93709.0,
+      "final_v41": 75310.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "variant_code": "VarA",
+      "seed": 1092,
+      "d25_cash": 53779.0,
+      "d28_cash": 73913.0,
+      "final_cash": 95720.0,
+      "final_v41": 88817.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "variant_code": "VarA",
+      "seed": 1093,
+      "d25_cash": 55200.0,
+      "d28_cash": 76306.0,
+      "final_cash": 96901.0,
+      "final_v41": 74362.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "variant_code": "VarA",
+      "seed": 1094,
+      "d25_cash": 58469.0,
+      "d28_cash": 82790.0,
+      "final_cash": 103287.0,
+      "final_v41": 85080.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "variant_code": "VarA",
+      "seed": 1095,
+      "d25_cash": 43821.0,
+      "d28_cash": 66055.0,
+      "final_cash": 86737.0,
+      "final_v41": 74048.0,
+      "win": true,
+      "error": null
+    },
+    "1096": {
+      "variant_code": "VarA",
+      "seed": 1096,
+      "d25_cash": 46877.0,
+      "d28_cash": 63326.0,
+      "final_cash": 81335.0,
+      "final_v41": 72549.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "variant_code": "VarA",
+      "seed": 1097,
+      "d25_cash": 57492.0,
+      "d28_cash": 79076.0,
+      "final_cash": 101222.0,
+      "final_v41": 81757.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "variant_code": "VarA",
+      "seed": 1098,
+      "d25_cash": 55554.0,
+      "d28_cash": 76521.0,
+      "final_cash": 97014.0,
+      "final_v41": 78276.0,
+      "win": true,
+      "error": null
+    },
+    "1099": {
+      "variant_code": "VarA",
+      "seed": 1099,
+      "d25_cash": 54073.0,
+      "d28_cash": 72863.0,
+      "final_cash": 93399.0,
+      "final_v41": 87608.0,
+      "win": true,
+      "error": null
+    }
+  },
+  "VarB": {
+    "1000": {
+      "variant_code": "VarB",
+      "seed": 1000,
+      "d25_cash": 52103.0,
+      "d28_cash": 72294.0,
+      "final_cash": 91552.0,
+      "final_v41": 78224.0,
+      "win": true,
+      "error": null
+    },
+    "1001": {
+      "variant_code": "VarB",
+      "seed": 1001,
+      "d25_cash": 49570.0,
+      "d28_cash": 68084.0,
+      "final_cash": 87448.0,
+      "final_v41": 79191.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "variant_code": "VarB",
+      "seed": 1003,
+      "d25_cash": 56268.0,
+      "d28_cash": 82643.0,
+      "final_cash": 104031.0,
+      "final_v41": 88300.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "variant_code": "VarB",
+      "seed": 1002,
+      "d25_cash": 51552.0,
+      "d28_cash": 69902.0,
+      "final_cash": 87925.0,
+      "final_v41": 72562.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "variant_code": "VarB",
+      "seed": 1004,
+      "d25_cash": 54076.0,
+      "d28_cash": 74612.0,
+      "final_cash": 94037.0,
+      "final_v41": 78971.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "variant_code": "VarB",
+      "seed": 1005,
+      "d25_cash": 54369.0,
+      "d28_cash": 74998.0,
+      "final_cash": 94570.0,
+      "final_v41": 79573.0,
+      "win": true,
+      "error": null
+    },
+    "1007": {
+      "variant_code": "VarB",
+      "seed": 1007,
+      "d25_cash": 58681.0,
+      "d28_cash": 80780.0,
+      "final_cash": 103323.0,
+      "final_v41": 92403.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "variant_code": "VarB",
+      "seed": 1006,
+      "d25_cash": 56090.0,
+      "d28_cash": 79307.0,
+      "final_cash": 100977.0,
+      "final_v41": 81704.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "variant_code": "VarB",
+      "seed": 1009,
+      "d25_cash": 55124.0,
+      "d28_cash": 75846.0,
+      "final_cash": 95405.0,
+      "final_v41": 77204.0,
+      "win": true,
+      "error": null
+    },
+    "1008": {
+      "variant_code": "VarB",
+      "seed": 1008,
+      "d25_cash": 63521.0,
+      "d28_cash": 86960.0,
+      "final_cash": 107228.0,
+      "final_v41": 84937.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "variant_code": "VarB",
+      "seed": 1011,
+      "d25_cash": 53893.0,
+      "d28_cash": 73776.0,
+      "final_cash": 94906.0,
+      "final_v41": 89114.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "variant_code": "VarB",
+      "seed": 1010,
+      "d25_cash": 55891.0,
+      "d28_cash": 80523.0,
+      "final_cash": 100951.0,
+      "final_v41": 85550.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "variant_code": "VarB",
+      "seed": 1012,
+      "d25_cash": 55770.0,
+      "d28_cash": 80248.0,
+      "final_cash": 100672.0,
+      "final_v41": 85198.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "variant_code": "VarB",
+      "seed": 1013,
+      "d25_cash": 61599.0,
+      "d28_cash": 83715.0,
+      "final_cash": 103089.0,
+      "final_v41": 83877.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "variant_code": "VarB",
+      "seed": 1015,
+      "d25_cash": 54194.0,
+      "d28_cash": 74196.0,
+      "final_cash": 95170.0,
+      "final_v41": 81530.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "variant_code": "VarB",
+      "seed": 1014,
+      "d25_cash": 56693.0,
+      "d28_cash": 80316.0,
+      "final_cash": 102200.0,
+      "final_v41": 82659.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "variant_code": "VarB",
+      "seed": 1016,
+      "d25_cash": 58518.0,
+      "d28_cash": 79172.0,
+      "final_cash": 98523.0,
+      "final_v41": 76113.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "variant_code": "VarB",
+      "seed": 1018,
+      "d25_cash": 48740.0,
+      "d28_cash": 67505.0,
+      "final_cash": 89587.0,
+      "final_v41": 74660.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "variant_code": "VarB",
+      "seed": 1017,
+      "d25_cash": 60656.0,
+      "d28_cash": 83936.0,
+      "final_cash": 104303.0,
+      "final_v41": 82211.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "variant_code": "VarB",
+      "seed": 1019,
+      "d25_cash": 52619.0,
+      "d28_cash": 71171.0,
+      "final_cash": 90138.0,
+      "final_v41": 72041.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "variant_code": "VarB",
+      "seed": 1021,
+      "d25_cash": 55879.0,
+      "d28_cash": 77991.0,
+      "final_cash": 98508.0,
+      "final_v41": 74654.0,
+      "win": true,
+      "error": null
+    },
+    "1020": {
+      "variant_code": "VarB",
+      "seed": 1020,
+      "d25_cash": 53145.0,
+      "d28_cash": 73301.0,
+      "final_cash": 92536.0,
+      "final_v41": 77621.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "variant_code": "VarB",
+      "seed": 1022,
+      "d25_cash": 61971.0,
+      "d28_cash": 84052.0,
+      "final_cash": 103501.0,
+      "final_v41": 84031.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "variant_code": "VarB",
+      "seed": 1023,
+      "d25_cash": 55522.0,
+      "d28_cash": 75330.0,
+      "final_cash": 93718.0,
+      "final_v41": 72762.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "variant_code": "VarB",
+      "seed": 1024,
+      "d25_cash": 56484.0,
+      "d28_cash": 75109.0,
+      "final_cash": 94980.0,
+      "final_v41": 72637.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "variant_code": "VarB",
+      "seed": 1025,
+      "d25_cash": 56670.0,
+      "d28_cash": 78106.0,
+      "final_cash": 100105.0,
+      "final_v41": 87911.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "variant_code": "VarB",
+      "seed": 1026,
+      "d25_cash": 55266.0,
+      "d28_cash": 75411.0,
+      "final_cash": 96668.0,
+      "final_v41": 90351.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "variant_code": "VarB",
+      "seed": 1027,
+      "d25_cash": 54444.0,
+      "d28_cash": 77072.0,
+      "final_cash": 98320.0,
+      "final_v41": 79099.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "variant_code": "VarB",
+      "seed": 1028,
+      "d25_cash": 54023.0,
+      "d28_cash": 71992.0,
+      "final_cash": 91289.0,
+      "final_v41": 75581.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "variant_code": "VarB",
+      "seed": 1029,
+      "d25_cash": 57707.0,
+      "d28_cash": 83244.0,
+      "final_cash": 104279.0,
+      "final_v41": 84700.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "variant_code": "VarB",
+      "seed": 1030,
+      "d25_cash": 59543.0,
+      "d28_cash": 84850.0,
+      "final_cash": 105862.0,
+      "final_v41": 84835.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "variant_code": "VarB",
+      "seed": 1031,
+      "d25_cash": 55111.0,
+      "d28_cash": 77834.0,
+      "final_cash": 99102.0,
+      "final_v41": 79257.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "variant_code": "VarB",
+      "seed": 1032,
+      "d25_cash": 61001.0,
+      "d28_cash": 81804.0,
+      "final_cash": 103391.0,
+      "final_v41": 80780.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "variant_code": "VarB",
+      "seed": 1033,
+      "d25_cash": 59676.0,
+      "d28_cash": 80446.0,
+      "final_cash": 101016.0,
+      "final_v41": 86524.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "variant_code": "VarB",
+      "seed": 1034,
+      "d25_cash": 59572.0,
+      "d28_cash": 79596.0,
+      "final_cash": 101210.0,
+      "final_v41": 78321.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "variant_code": "VarB",
+      "seed": 1037,
+      "d25_cash": 56220.0,
+      "d28_cash": 81373.0,
+      "final_cash": 102107.0,
+      "final_v41": 86749.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "variant_code": "VarB",
+      "seed": 1035,
+      "d25_cash": 53821.0,
+      "d28_cash": 74122.0,
+      "final_cash": 93498.0,
+      "final_v41": 78429.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "variant_code": "VarB",
+      "seed": 1036,
+      "d25_cash": 55888.0,
+      "d28_cash": 80224.0,
+      "final_cash": 100713.0,
+      "final_v41": 84822.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "variant_code": "VarB",
+      "seed": 1038,
+      "d25_cash": 60255.0,
+      "d28_cash": 79542.0,
+      "final_cash": 100148.0,
+      "final_v41": 72552.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "variant_code": "VarB",
+      "seed": 1039,
+      "d25_cash": 53313.0,
+      "d28_cash": 74024.0,
+      "final_cash": 93933.0,
+      "final_v41": 74147.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "variant_code": "VarB",
+      "seed": 1040,
+      "d25_cash": 54706.0,
+      "d28_cash": 76929.0,
+      "final_cash": 97985.0,
+      "final_v41": 78829.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "variant_code": "VarB",
+      "seed": 1041,
+      "d25_cash": 54838.0,
+      "d28_cash": 76266.0,
+      "final_cash": 96220.0,
+      "final_v41": 81138.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "variant_code": "VarB",
+      "seed": 1042,
+      "d25_cash": 52989.0,
+      "d28_cash": 75799.0,
+      "final_cash": 93605.0,
+      "final_v41": 80631.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "variant_code": "VarB",
+      "seed": 1043,
+      "d25_cash": 55217.0,
+      "d28_cash": 78132.0,
+      "final_cash": 99433.0,
+      "final_v41": 79792.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "variant_code": "VarB",
+      "seed": 1044,
+      "d25_cash": 53513.0,
+      "d28_cash": 73626.0,
+      "final_cash": 91587.0,
+      "final_v41": 70318.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "variant_code": "VarB",
+      "seed": 1045,
+      "d25_cash": 49450.0,
+      "d28_cash": 68295.0,
+      "final_cash": 87843.0,
+      "final_v41": 84400.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "variant_code": "VarB",
+      "seed": 1049,
+      "d25_cash": 49160.0,
+      "d28_cash": 67263.0,
+      "final_cash": 86361.0,
+      "final_v41": 78103.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "variant_code": "VarB",
+      "seed": 1048,
+      "d25_cash": 54973.0,
+      "d28_cash": 79304.0,
+      "final_cash": 99596.0,
+      "final_v41": 84294.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "variant_code": "VarB",
+      "seed": 1046,
+      "d25_cash": 51729.0,
+      "d28_cash": 70549.0,
+      "final_cash": 88880.0,
+      "final_v41": 73820.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "variant_code": "VarB",
+      "seed": 1047,
+      "d25_cash": 57730.0,
+      "d28_cash": 82199.0,
+      "final_cash": 102743.0,
+      "final_v41": 82272.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "variant_code": "VarB",
+      "seed": 1050,
+      "d25_cash": 52315.0,
+      "d28_cash": 72072.0,
+      "final_cash": 92588.0,
+      "final_v41": 84095.0,
+      "win": true,
+      "error": null
+    },
+    "1051": {
+      "variant_code": "VarB",
+      "seed": 1051,
+      "d25_cash": 41671.0,
+      "d28_cash": 61255.0,
+      "final_cash": 80134.0,
+      "final_v41": 75892.0,
+      "win": true,
+      "error": null
+    },
+    "1052": {
+      "variant_code": "VarB",
+      "seed": 1052,
+      "d25_cash": 55076.0,
+      "d28_cash": 76038.0,
+      "final_cash": 94922.0,
+      "final_v41": 82682.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "variant_code": "VarB",
+      "seed": 1053,
+      "d25_cash": 55925.0,
+      "d28_cash": 77698.0,
+      "final_cash": 97962.0,
+      "final_v41": 82800.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "variant_code": "VarB",
+      "seed": 1055,
+      "d25_cash": 58175.0,
+      "d28_cash": 79827.0,
+      "final_cash": 99311.0,
+      "final_v41": 87365.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "variant_code": "VarB",
+      "seed": 1054,
+      "d25_cash": 55785.0,
+      "d28_cash": 77560.0,
+      "final_cash": 97786.0,
+      "final_v41": 75811.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "variant_code": "VarB",
+      "seed": 1057,
+      "d25_cash": 47967.0,
+      "d28_cash": 64656.0,
+      "final_cash": 82850.0,
+      "final_v41": 73935.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "variant_code": "VarB",
+      "seed": 1056,
+      "d25_cash": 57217.0,
+      "d28_cash": 80169.0,
+      "final_cash": 99830.0,
+      "final_v41": 78688.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "variant_code": "VarB",
+      "seed": 1060,
+      "d25_cash": 56413.0,
+      "d28_cash": 81018.0,
+      "final_cash": 101582.0,
+      "final_v41": 85901.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "variant_code": "VarB",
+      "seed": 1059,
+      "d25_cash": 61266.0,
+      "d28_cash": 82233.0,
+      "final_cash": 103913.0,
+      "final_v41": 81041.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "variant_code": "VarB",
+      "seed": 1061,
+      "d25_cash": 54480.0,
+      "d28_cash": 73766.0,
+      "final_cash": 94502.0,
+      "final_v41": 88433.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "variant_code": "VarB",
+      "seed": 1058,
+      "d25_cash": 53523.0,
+      "d28_cash": 74036.0,
+      "final_cash": 94458.0,
+      "final_v41": 72876.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "variant_code": "VarB",
+      "seed": 1062,
+      "d25_cash": 54285.0,
+      "d28_cash": 75164.0,
+      "final_cash": 97258.0,
+      "final_v41": 91611.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "variant_code": "VarB",
+      "seed": 1063,
+      "d25_cash": 54347.0,
+      "d28_cash": 73951.0,
+      "final_cash": 94980.0,
+      "final_v41": 79385.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "variant_code": "VarB",
+      "seed": 1064,
+      "d25_cash": 54370.0,
+      "d28_cash": 73786.0,
+      "final_cash": 94488.0,
+      "final_v41": 88367.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "variant_code": "VarB",
+      "seed": 1066,
+      "d25_cash": 53621.0,
+      "d28_cash": 71178.0,
+      "final_cash": 89899.0,
+      "final_v41": 73078.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "variant_code": "VarB",
+      "seed": 1065,
+      "d25_cash": 56050.0,
+      "d28_cash": 78136.0,
+      "final_cash": 98634.0,
+      "final_v41": 76969.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "variant_code": "VarB",
+      "seed": 1067,
+      "d25_cash": 59445.0,
+      "d28_cash": 80954.0,
+      "final_cash": 101836.0,
+      "final_v41": 88694.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "variant_code": "VarB",
+      "seed": 1069,
+      "d25_cash": 51716.0,
+      "d28_cash": 71899.0,
+      "final_cash": 89749.0,
+      "final_v41": 69940.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "variant_code": "VarB",
+      "seed": 1068,
+      "d25_cash": 59966.0,
+      "d28_cash": 86421.0,
+      "final_cash": 107829.0,
+      "final_v41": 86760.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "variant_code": "VarB",
+      "seed": 1071,
+      "d25_cash": 47626.0,
+      "d28_cash": 62959.0,
+      "final_cash": 79846.0,
+      "final_v41": 68735.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "variant_code": "VarB",
+      "seed": 1073,
+      "d25_cash": 55461.0,
+      "d28_cash": 79910.0,
+      "final_cash": 100309.0,
+      "final_v41": 84724.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "variant_code": "VarB",
+      "seed": 1070,
+      "d25_cash": 56561.0,
+      "d28_cash": 79931.0,
+      "final_cash": 101334.0,
+      "final_v41": 87313.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "variant_code": "VarB",
+      "seed": 1072,
+      "d25_cash": 56415.0,
+      "d28_cash": 79242.0,
+      "final_cash": 100547.0,
+      "final_v41": 81793.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "variant_code": "VarB",
+      "seed": 1074,
+      "d25_cash": 56898.0,
+      "d28_cash": 83004.0,
+      "final_cash": 104262.0,
+      "final_v41": 88441.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "variant_code": "VarB",
+      "seed": 1075,
+      "d25_cash": 56075.0,
+      "d28_cash": 76438.0,
+      "final_cash": 95066.0,
+      "final_v41": 74242.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "variant_code": "VarB",
+      "seed": 1076,
+      "d25_cash": 62516.0,
+      "d28_cash": 85298.0,
+      "final_cash": 105094.0,
+      "final_v41": 85886.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "variant_code": "VarB",
+      "seed": 1077,
+      "d25_cash": 51582.0,
+      "d28_cash": 72724.0,
+      "final_cash": 91433.0,
+      "final_v41": 76615.0,
+      "win": true,
+      "error": null
+    },
+    "1078": {
+      "variant_code": "VarB",
+      "seed": 1078,
+      "d25_cash": 58451.0,
+      "d28_cash": 81811.0,
+      "final_cash": 103124.0,
+      "final_v41": 88069.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "variant_code": "VarB",
+      "seed": 1080,
+      "d25_cash": 53637.0,
+      "d28_cash": 75657.0,
+      "final_cash": 96637.0,
+      "final_v41": 77984.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "variant_code": "VarB",
+      "seed": 1079,
+      "d25_cash": 55629.0,
+      "d28_cash": 76422.0,
+      "final_cash": 95079.0,
+      "final_v41": 72430.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "variant_code": "VarB",
+      "seed": 1081,
+      "d25_cash": 51728.0,
+      "d28_cash": 70927.0,
+      "final_cash": 89548.0,
+      "final_v41": 74601.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "variant_code": "VarB",
+      "seed": 1082,
+      "d25_cash": 56450.0,
+      "d28_cash": 76507.0,
+      "final_cash": 95172.0,
+      "final_v41": 73732.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "variant_code": "VarB",
+      "seed": 1085,
+      "d25_cash": 56618.0,
+      "d28_cash": 77390.0,
+      "final_cash": 98961.0,
+      "final_v41": 84639.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "variant_code": "VarB",
+      "seed": 1083,
+      "d25_cash": 55540.0,
+      "d28_cash": 74996.0,
+      "final_cash": 95443.0,
+      "final_v41": 79659.0,
+      "win": true,
+      "error": null
+    },
+    "1084": {
+      "variant_code": "VarB",
+      "seed": 1084,
+      "d25_cash": 56152.0,
+      "d28_cash": 82128.0,
+      "final_cash": 102358.0,
+      "final_v41": 85704.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "variant_code": "VarB",
+      "seed": 1086,
+      "d25_cash": 52411.0,
+      "d28_cash": 72817.0,
+      "final_cash": 93152.0,
+      "final_v41": 75547.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "variant_code": "VarB",
+      "seed": 1087,
+      "d25_cash": 56403.0,
+      "d28_cash": 79772.0,
+      "final_cash": 101671.0,
+      "final_v41": 82763.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "variant_code": "VarB",
+      "seed": 1088,
+      "d25_cash": 50801.0,
+      "d28_cash": 70615.0,
+      "final_cash": 91083.0,
+      "final_v41": 81766.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "variant_code": "VarB",
+      "seed": 1090,
+      "d25_cash": 57178.0,
+      "d28_cash": 78991.0,
+      "final_cash": 101542.0,
+      "final_v41": 95426.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "variant_code": "VarB",
+      "seed": 1089,
+      "d25_cash": 54497.0,
+      "d28_cash": 76837.0,
+      "final_cash": 98010.0,
+      "final_v41": 79107.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "variant_code": "VarB",
+      "seed": 1091,
+      "d25_cash": 53908.0,
+      "d28_cash": 73635.0,
+      "final_cash": 93709.0,
+      "final_v41": 75310.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "variant_code": "VarB",
+      "seed": 1092,
+      "d25_cash": 53779.0,
+      "d28_cash": 73913.0,
+      "final_cash": 95720.0,
+      "final_v41": 88817.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "variant_code": "VarB",
+      "seed": 1093,
+      "d25_cash": 55200.0,
+      "d28_cash": 76306.0,
+      "final_cash": 96901.0,
+      "final_v41": 74362.0,
+      "win": true,
+      "error": null
+    },
+    "1096": {
+      "variant_code": "VarB",
+      "seed": 1096,
+      "d25_cash": 46877.0,
+      "d28_cash": 63326.0,
+      "final_cash": 81335.0,
+      "final_v41": 72549.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "variant_code": "VarB",
+      "seed": 1094,
+      "d25_cash": 58469.0,
+      "d28_cash": 82790.0,
+      "final_cash": 103287.0,
+      "final_v41": 85080.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "variant_code": "VarB",
+      "seed": 1097,
+      "d25_cash": 57492.0,
+      "d28_cash": 79076.0,
+      "final_cash": 101222.0,
+      "final_v41": 81757.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "variant_code": "VarB",
+      "seed": 1095,
+      "d25_cash": 43821.0,
+      "d28_cash": 66055.0,
+      "final_cash": 86737.0,
+      "final_v41": 74048.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "variant_code": "VarB",
+      "seed": 1098,
+      "d25_cash": 55554.0,
+      "d28_cash": 76521.0,
+      "final_cash": 97014.0,
+      "final_v41": 78276.0,
+      "win": true,
+      "error": null
+    },
+    "1099": {
+      "variant_code": "VarB",
+      "seed": 1099,
+      "d25_cash": 54073.0,
+      "d28_cash": 72863.0,
+      "final_cash": 93399.0,
+      "final_v41": 87608.0,
+      "win": true,
+      "error": null
+    }
+  },
+  "VarC": {
+    "1000": {
+      "variant_code": "VarC",
+      "seed": 1000,
+      "d25_cash": 52103.0,
+      "d28_cash": 72294.0,
+      "final_cash": 91552.0,
+      "final_v41": 78224.0,
+      "win": true,
+      "error": null
+    },
+    "1001": {
+      "variant_code": "VarC",
+      "seed": 1001,
+      "d25_cash": 49570.0,
+      "d28_cash": 68084.0,
+      "final_cash": 87448.0,
+      "final_v41": 79191.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "variant_code": "VarC",
+      "seed": 1002,
+      "d25_cash": 51552.0,
+      "d28_cash": 69902.0,
+      "final_cash": 87925.0,
+      "final_v41": 72562.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "variant_code": "VarC",
+      "seed": 1003,
+      "d25_cash": 56268.0,
+      "d28_cash": 82643.0,
+      "final_cash": 104031.0,
+      "final_v41": 88300.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "variant_code": "VarC",
+      "seed": 1004,
+      "d25_cash": 54076.0,
+      "d28_cash": 74612.0,
+      "final_cash": 94037.0,
+      "final_v41": 78971.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "variant_code": "VarC",
+      "seed": 1005,
+      "d25_cash": 54369.0,
+      "d28_cash": 74998.0,
+      "final_cash": 94570.0,
+      "final_v41": 79573.0,
+      "win": true,
+      "error": null
+    },
+    "1007": {
+      "variant_code": "VarC",
+      "seed": 1007,
+      "d25_cash": 58681.0,
+      "d28_cash": 80780.0,
+      "final_cash": 103323.0,
+      "final_v41": 92403.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "variant_code": "VarC",
+      "seed": 1006,
+      "d25_cash": 56090.0,
+      "d28_cash": 79307.0,
+      "final_cash": 100977.0,
+      "final_v41": 81704.0,
+      "win": true,
+      "error": null
+    },
+    "1008": {
+      "variant_code": "VarC",
+      "seed": 1008,
+      "d25_cash": 63521.0,
+      "d28_cash": 86960.0,
+      "final_cash": 107228.0,
+      "final_v41": 84937.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "variant_code": "VarC",
+      "seed": 1009,
+      "d25_cash": 55124.0,
+      "d28_cash": 75846.0,
+      "final_cash": 95405.0,
+      "final_v41": 77204.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "variant_code": "VarC",
+      "seed": 1010,
+      "d25_cash": 55891.0,
+      "d28_cash": 80523.0,
+      "final_cash": 100951.0,
+      "final_v41": 85550.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "variant_code": "VarC",
+      "seed": 1011,
+      "d25_cash": 53893.0,
+      "d28_cash": 73776.0,
+      "final_cash": 94906.0,
+      "final_v41": 89114.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "variant_code": "VarC",
+      "seed": 1012,
+      "d25_cash": 55770.0,
+      "d28_cash": 80248.0,
+      "final_cash": 100672.0,
+      "final_v41": 85198.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "variant_code": "VarC",
+      "seed": 1013,
+      "d25_cash": 61599.0,
+      "d28_cash": 83715.0,
+      "final_cash": 103089.0,
+      "final_v41": 83877.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "variant_code": "VarC",
+      "seed": 1014,
+      "d25_cash": 56693.0,
+      "d28_cash": 80316.0,
+      "final_cash": 102200.0,
+      "final_v41": 82659.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "variant_code": "VarC",
+      "seed": 1015,
+      "d25_cash": 54194.0,
+      "d28_cash": 74196.0,
+      "final_cash": 95170.0,
+      "final_v41": 81530.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "variant_code": "VarC",
+      "seed": 1016,
+      "d25_cash": 58518.0,
+      "d28_cash": 79172.0,
+      "final_cash": 98523.0,
+      "final_v41": 76113.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "variant_code": "VarC",
+      "seed": 1017,
+      "d25_cash": 60656.0,
+      "d28_cash": 83936.0,
+      "final_cash": 104303.0,
+      "final_v41": 82211.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "variant_code": "VarC",
+      "seed": 1018,
+      "d25_cash": 48740.0,
+      "d28_cash": 67505.0,
+      "final_cash": 89587.0,
+      "final_v41": 74660.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "variant_code": "VarC",
+      "seed": 1019,
+      "d25_cash": 52619.0,
+      "d28_cash": 71171.0,
+      "final_cash": 90138.0,
+      "final_v41": 72041.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "variant_code": "VarC",
+      "seed": 1021,
+      "d25_cash": 55879.0,
+      "d28_cash": 77991.0,
+      "final_cash": 98508.0,
+      "final_v41": 74654.0,
+      "win": true,
+      "error": null
+    },
+    "1020": {
+      "variant_code": "VarC",
+      "seed": 1020,
+      "d25_cash": 53145.0,
+      "d28_cash": 73301.0,
+      "final_cash": 92536.0,
+      "final_v41": 77621.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "variant_code": "VarC",
+      "seed": 1022,
+      "d25_cash": 61971.0,
+      "d28_cash": 84052.0,
+      "final_cash": 103501.0,
+      "final_v41": 84031.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "variant_code": "VarC",
+      "seed": 1023,
+      "d25_cash": 55522.0,
+      "d28_cash": 75330.0,
+      "final_cash": 93718.0,
+      "final_v41": 72762.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "variant_code": "VarC",
+      "seed": 1024,
+      "d25_cash": 56484.0,
+      "d28_cash": 75109.0,
+      "final_cash": 94980.0,
+      "final_v41": 72637.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "variant_code": "VarC",
+      "seed": 1025,
+      "d25_cash": 56670.0,
+      "d28_cash": 78106.0,
+      "final_cash": 100105.0,
+      "final_v41": 87911.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "variant_code": "VarC",
+      "seed": 1026,
+      "d25_cash": 55266.0,
+      "d28_cash": 75411.0,
+      "final_cash": 96668.0,
+      "final_v41": 90351.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "variant_code": "VarC",
+      "seed": 1027,
+      "d25_cash": 54444.0,
+      "d28_cash": 77072.0,
+      "final_cash": 98320.0,
+      "final_v41": 79099.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "variant_code": "VarC",
+      "seed": 1028,
+      "d25_cash": 54023.0,
+      "d28_cash": 71992.0,
+      "final_cash": 91289.0,
+      "final_v41": 75581.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "variant_code": "VarC",
+      "seed": 1029,
+      "d25_cash": 57707.0,
+      "d28_cash": 83244.0,
+      "final_cash": 104279.0,
+      "final_v41": 84700.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "variant_code": "VarC",
+      "seed": 1031,
+      "d25_cash": 55111.0,
+      "d28_cash": 77834.0,
+      "final_cash": 99102.0,
+      "final_v41": 79257.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "variant_code": "VarC",
+      "seed": 1030,
+      "d25_cash": 59543.0,
+      "d28_cash": 84850.0,
+      "final_cash": 105862.0,
+      "final_v41": 84835.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "variant_code": "VarC",
+      "seed": 1032,
+      "d25_cash": 61001.0,
+      "d28_cash": 81804.0,
+      "final_cash": 103391.0,
+      "final_v41": 80780.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "variant_code": "VarC",
+      "seed": 1033,
+      "d25_cash": 59676.0,
+      "d28_cash": 80446.0,
+      "final_cash": 101016.0,
+      "final_v41": 86524.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "variant_code": "VarC",
+      "seed": 1034,
+      "d25_cash": 59572.0,
+      "d28_cash": 79596.0,
+      "final_cash": 101210.0,
+      "final_v41": 78321.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "variant_code": "VarC",
+      "seed": 1035,
+      "d25_cash": 53821.0,
+      "d28_cash": 74122.0,
+      "final_cash": 93498.0,
+      "final_v41": 78429.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "variant_code": "VarC",
+      "seed": 1036,
+      "d25_cash": 55888.0,
+      "d28_cash": 80224.0,
+      "final_cash": 100713.0,
+      "final_v41": 84822.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "variant_code": "VarC",
+      "seed": 1037,
+      "d25_cash": 56220.0,
+      "d28_cash": 81373.0,
+      "final_cash": 102107.0,
+      "final_v41": 86749.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "variant_code": "VarC",
+      "seed": 1038,
+      "d25_cash": 60255.0,
+      "d28_cash": 79542.0,
+      "final_cash": 100148.0,
+      "final_v41": 72552.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "variant_code": "VarC",
+      "seed": 1039,
+      "d25_cash": 53313.0,
+      "d28_cash": 74024.0,
+      "final_cash": 93933.0,
+      "final_v41": 74147.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "variant_code": "VarC",
+      "seed": 1040,
+      "d25_cash": 54706.0,
+      "d28_cash": 76929.0,
+      "final_cash": 97985.0,
+      "final_v41": 78829.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "variant_code": "VarC",
+      "seed": 1041,
+      "d25_cash": 54838.0,
+      "d28_cash": 76266.0,
+      "final_cash": 96220.0,
+      "final_v41": 81138.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "variant_code": "VarC",
+      "seed": 1043,
+      "d25_cash": 55217.0,
+      "d28_cash": 78132.0,
+      "final_cash": 99433.0,
+      "final_v41": 79792.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "variant_code": "VarC",
+      "seed": 1042,
+      "d25_cash": 52989.0,
+      "d28_cash": 75799.0,
+      "final_cash": 93605.0,
+      "final_v41": 80631.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "variant_code": "VarC",
+      "seed": 1045,
+      "d25_cash": 49450.0,
+      "d28_cash": 68295.0,
+      "final_cash": 87843.0,
+      "final_v41": 84400.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "variant_code": "VarC",
+      "seed": 1044,
+      "d25_cash": 53513.0,
+      "d28_cash": 73626.0,
+      "final_cash": 91587.0,
+      "final_v41": 70318.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "variant_code": "VarC",
+      "seed": 1046,
+      "d25_cash": 51729.0,
+      "d28_cash": 70549.0,
+      "final_cash": 88880.0,
+      "final_v41": 73820.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "variant_code": "VarC",
+      "seed": 1047,
+      "d25_cash": 57730.0,
+      "d28_cash": 82199.0,
+      "final_cash": 102743.0,
+      "final_v41": 82272.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "variant_code": "VarC",
+      "seed": 1048,
+      "d25_cash": 54973.0,
+      "d28_cash": 79304.0,
+      "final_cash": 99596.0,
+      "final_v41": 84294.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "variant_code": "VarC",
+      "seed": 1049,
+      "d25_cash": 49160.0,
+      "d28_cash": 67263.0,
+      "final_cash": 86361.0,
+      "final_v41": 78103.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "variant_code": "VarC",
+      "seed": 1050,
+      "d25_cash": 52315.0,
+      "d28_cash": 72072.0,
+      "final_cash": 92588.0,
+      "final_v41": 84095.0,
+      "win": true,
+      "error": null
+    },
+    "1051": {
+      "variant_code": "VarC",
+      "seed": 1051,
+      "d25_cash": 41671.0,
+      "d28_cash": 61255.0,
+      "final_cash": 80134.0,
+      "final_v41": 75892.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "variant_code": "VarC",
+      "seed": 1055,
+      "d25_cash": 58175.0,
+      "d28_cash": 79827.0,
+      "final_cash": 99311.0,
+      "final_v41": 87365.0,
+      "win": true,
+      "error": null
+    },
+    "1052": {
+      "variant_code": "VarC",
+      "seed": 1052,
+      "d25_cash": 55076.0,
+      "d28_cash": 76038.0,
+      "final_cash": 94922.0,
+      "final_v41": 82682.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "variant_code": "VarC",
+      "seed": 1053,
+      "d25_cash": 55925.0,
+      "d28_cash": 77698.0,
+      "final_cash": 97962.0,
+      "final_v41": 82800.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "variant_code": "VarC",
+      "seed": 1054,
+      "d25_cash": 55785.0,
+      "d28_cash": 77560.0,
+      "final_cash": 97786.0,
+      "final_v41": 75811.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "variant_code": "VarC",
+      "seed": 1057,
+      "d25_cash": 47967.0,
+      "d28_cash": 64656.0,
+      "final_cash": 82850.0,
+      "final_v41": 73935.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "variant_code": "VarC",
+      "seed": 1056,
+      "d25_cash": 57217.0,
+      "d28_cash": 80169.0,
+      "final_cash": 99830.0,
+      "final_v41": 78688.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "variant_code": "VarC",
+      "seed": 1058,
+      "d25_cash": 53523.0,
+      "d28_cash": 74036.0,
+      "final_cash": 94458.0,
+      "final_v41": 72876.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "variant_code": "VarC",
+      "seed": 1059,
+      "d25_cash": 61266.0,
+      "d28_cash": 82233.0,
+      "final_cash": 103913.0,
+      "final_v41": 81041.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "variant_code": "VarC",
+      "seed": 1060,
+      "d25_cash": 56413.0,
+      "d28_cash": 81018.0,
+      "final_cash": 101582.0,
+      "final_v41": 85901.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "variant_code": "VarC",
+      "seed": 1061,
+      "d25_cash": 54480.0,
+      "d28_cash": 73766.0,
+      "final_cash": 94502.0,
+      "final_v41": 88433.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "variant_code": "VarC",
+      "seed": 1062,
+      "d25_cash": 54285.0,
+      "d28_cash": 75164.0,
+      "final_cash": 97258.0,
+      "final_v41": 91611.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "variant_code": "VarC",
+      "seed": 1063,
+      "d25_cash": 54347.0,
+      "d28_cash": 73951.0,
+      "final_cash": 94980.0,
+      "final_v41": 79385.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "variant_code": "VarC",
+      "seed": 1064,
+      "d25_cash": 54370.0,
+      "d28_cash": 73786.0,
+      "final_cash": 94488.0,
+      "final_v41": 88367.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "variant_code": "VarC",
+      "seed": 1065,
+      "d25_cash": 56050.0,
+      "d28_cash": 78136.0,
+      "final_cash": 98634.0,
+      "final_v41": 76969.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "variant_code": "VarC",
+      "seed": 1066,
+      "d25_cash": 53621.0,
+      "d28_cash": 71178.0,
+      "final_cash": 89899.0,
+      "final_v41": 73078.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "variant_code": "VarC",
+      "seed": 1067,
+      "d25_cash": 59445.0,
+      "d28_cash": 80954.0,
+      "final_cash": 101836.0,
+      "final_v41": 88694.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "variant_code": "VarC",
+      "seed": 1068,
+      "d25_cash": 59966.0,
+      "d28_cash": 86421.0,
+      "final_cash": 107829.0,
+      "final_v41": 86760.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "variant_code": "VarC",
+      "seed": 1069,
+      "d25_cash": 51716.0,
+      "d28_cash": 71899.0,
+      "final_cash": 89749.0,
+      "final_v41": 69940.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "variant_code": "VarC",
+      "seed": 1070,
+      "d25_cash": 56561.0,
+      "d28_cash": 79931.0,
+      "final_cash": 101334.0,
+      "final_v41": 87313.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "variant_code": "VarC",
+      "seed": 1071,
+      "d25_cash": 47626.0,
+      "d28_cash": 62959.0,
+      "final_cash": 79846.0,
+      "final_v41": 68735.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "variant_code": "VarC",
+      "seed": 1072,
+      "d25_cash": 56415.0,
+      "d28_cash": 79242.0,
+      "final_cash": 100547.0,
+      "final_v41": 81793.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "variant_code": "VarC",
+      "seed": 1073,
+      "d25_cash": 55461.0,
+      "d28_cash": 79910.0,
+      "final_cash": 100309.0,
+      "final_v41": 84724.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "variant_code": "VarC",
+      "seed": 1074,
+      "d25_cash": 56898.0,
+      "d28_cash": 83004.0,
+      "final_cash": 104262.0,
+      "final_v41": 88441.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "variant_code": "VarC",
+      "seed": 1075,
+      "d25_cash": 56075.0,
+      "d28_cash": 76438.0,
+      "final_cash": 95066.0,
+      "final_v41": 74242.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "variant_code": "VarC",
+      "seed": 1076,
+      "d25_cash": 62516.0,
+      "d28_cash": 85298.0,
+      "final_cash": 105094.0,
+      "final_v41": 85886.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "variant_code": "VarC",
+      "seed": 1077,
+      "d25_cash": 51582.0,
+      "d28_cash": 72724.0,
+      "final_cash": 91433.0,
+      "final_v41": 76615.0,
+      "win": true,
+      "error": null
+    },
+    "1078": {
+      "variant_code": "VarC",
+      "seed": 1078,
+      "d25_cash": 58451.0,
+      "d28_cash": 81811.0,
+      "final_cash": 103124.0,
+      "final_v41": 88069.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "variant_code": "VarC",
+      "seed": 1079,
+      "d25_cash": 55629.0,
+      "d28_cash": 76422.0,
+      "final_cash": 95079.0,
+      "final_v41": 72430.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "variant_code": "VarC",
+      "seed": 1080,
+      "d25_cash": 53637.0,
+      "d28_cash": 75657.0,
+      "final_cash": 96637.0,
+      "final_v41": 77984.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "variant_code": "VarC",
+      "seed": 1081,
+      "d25_cash": 51728.0,
+      "d28_cash": 70927.0,
+      "final_cash": 89548.0,
+      "final_v41": 74601.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "variant_code": "VarC",
+      "seed": 1082,
+      "d25_cash": 56450.0,
+      "d28_cash": 76507.0,
+      "final_cash": 95172.0,
+      "final_v41": 73732.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "variant_code": "VarC",
+      "seed": 1083,
+      "d25_cash": 55540.0,
+      "d28_cash": 74996.0,
+      "final_cash": 95443.0,
+      "final_v41": 79659.0,
+      "win": true,
+      "error": null
+    },
+    "1084": {
+      "variant_code": "VarC",
+      "seed": 1084,
+      "d25_cash": 56152.0,
+      "d28_cash": 82128.0,
+      "final_cash": 102358.0,
+      "final_v41": 85704.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "variant_code": "VarC",
+      "seed": 1085,
+      "d25_cash": 56618.0,
+      "d28_cash": 77390.0,
+      "final_cash": 98961.0,
+      "final_v41": 84639.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "variant_code": "VarC",
+      "seed": 1086,
+      "d25_cash": 52411.0,
+      "d28_cash": 72817.0,
+      "final_cash": 93152.0,
+      "final_v41": 75547.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "variant_code": "VarC",
+      "seed": 1087,
+      "d25_cash": 56403.0,
+      "d28_cash": 79772.0,
+      "final_cash": 101671.0,
+      "final_v41": 82763.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "variant_code": "VarC",
+      "seed": 1088,
+      "d25_cash": 50801.0,
+      "d28_cash": 70615.0,
+      "final_cash": 91083.0,
+      "final_v41": 81766.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "variant_code": "VarC",
+      "seed": 1089,
+      "d25_cash": 54497.0,
+      "d28_cash": 76837.0,
+      "final_cash": 98010.0,
+      "final_v41": 79107.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "variant_code": "VarC",
+      "seed": 1090,
+      "d25_cash": 57178.0,
+      "d28_cash": 78991.0,
+      "final_cash": 101542.0,
+      "final_v41": 95426.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "variant_code": "VarC",
+      "seed": 1091,
+      "d25_cash": 53908.0,
+      "d28_cash": 73635.0,
+      "final_cash": 93709.0,
+      "final_v41": 75310.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "variant_code": "VarC",
+      "seed": 1092,
+      "d25_cash": 53779.0,
+      "d28_cash": 73913.0,
+      "final_cash": 95720.0,
+      "final_v41": 88817.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "variant_code": "VarC",
+      "seed": 1093,
+      "d25_cash": 55200.0,
+      "d28_cash": 76306.0,
+      "final_cash": 96901.0,
+      "final_v41": 74362.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "variant_code": "VarC",
+      "seed": 1094,
+      "d25_cash": 58469.0,
+      "d28_cash": 82790.0,
+      "final_cash": 103287.0,
+      "final_v41": 85080.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "variant_code": "VarC",
+      "seed": 1095,
+      "d25_cash": 43821.0,
+      "d28_cash": 66055.0,
+      "final_cash": 86737.0,
+      "final_v41": 74048.0,
+      "win": true,
+      "error": null
+    },
+    "1096": {
+      "variant_code": "VarC",
+      "seed": 1096,
+      "d25_cash": 46877.0,
+      "d28_cash": 63326.0,
+      "final_cash": 81335.0,
+      "final_v41": 72549.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "variant_code": "VarC",
+      "seed": 1097,
+      "d25_cash": 57492.0,
+      "d28_cash": 79076.0,
+      "final_cash": 101222.0,
+      "final_v41": 81757.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "variant_code": "VarC",
+      "seed": 1098,
+      "d25_cash": 55554.0,
+      "d28_cash": 76521.0,
+      "final_cash": 97014.0,
+      "final_v41": 78276.0,
+      "win": true,
+      "error": null
+    },
+    "1099": {
+      "variant_code": "VarC",
+      "seed": 1099,
+      "d25_cash": 54073.0,
+      "d28_cash": 72863.0,
+      "final_cash": 93399.0,
+      "final_v41": 87608.0,
+      "win": true,
+      "error": null
+    }
+  },
+  "VarD": {
+    "1000": {
+      "variant_code": "VarD",
+      "seed": 1000,
+      "d25_cash": 52103.0,
+      "d28_cash": 72294.0,
+      "final_cash": 91552.0,
+      "final_v41": 78224.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "variant_code": "VarD",
+      "seed": 1002,
+      "d25_cash": 51552.0,
+      "d28_cash": 69902.0,
+      "final_cash": 87925.0,
+      "final_v41": 72562.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "variant_code": "VarD",
+      "seed": 1003,
+      "d25_cash": 56268.0,
+      "d28_cash": 82643.0,
+      "final_cash": 104031.0,
+      "final_v41": 88300.0,
+      "win": true,
+      "error": null
+    },
+    "1001": {
+      "variant_code": "VarD",
+      "seed": 1001,
+      "d25_cash": 49570.0,
+      "d28_cash": 68084.0,
+      "final_cash": 87448.0,
+      "final_v41": 79191.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "variant_code": "VarD",
+      "seed": 1004,
+      "d25_cash": 54076.0,
+      "d28_cash": 74612.0,
+      "final_cash": 94037.0,
+      "final_v41": 78971.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "variant_code": "VarD",
+      "seed": 1005,
+      "d25_cash": 54369.0,
+      "d28_cash": 74998.0,
+      "final_cash": 94570.0,
+      "final_v41": 79573.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "variant_code": "VarD",
+      "seed": 1006,
+      "d25_cash": 56090.0,
+      "d28_cash": 79307.0,
+      "final_cash": 100977.0,
+      "final_v41": 81704.0,
+      "win": true,
+      "error": null
+    },
+    "1007": {
+      "variant_code": "VarD",
+      "seed": 1007,
+      "d25_cash": 58681.0,
+      "d28_cash": 80780.0,
+      "final_cash": 103323.0,
+      "final_v41": 92403.0,
+      "win": true,
+      "error": null
+    },
+    "1008": {
+      "variant_code": "VarD",
+      "seed": 1008,
+      "d25_cash": 63521.0,
+      "d28_cash": 86960.0,
+      "final_cash": 107228.0,
+      "final_v41": 84937.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "variant_code": "VarD",
+      "seed": 1009,
+      "d25_cash": 55124.0,
+      "d28_cash": 75846.0,
+      "final_cash": 95405.0,
+      "final_v41": 77204.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "variant_code": "VarD",
+      "seed": 1010,
+      "d25_cash": 55891.0,
+      "d28_cash": 80523.0,
+      "final_cash": 100951.0,
+      "final_v41": 85550.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "variant_code": "VarD",
+      "seed": 1011,
+      "d25_cash": 53893.0,
+      "d28_cash": 73776.0,
+      "final_cash": 94906.0,
+      "final_v41": 89114.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "variant_code": "VarD",
+      "seed": 1012,
+      "d25_cash": 55770.0,
+      "d28_cash": 80248.0,
+      "final_cash": 100672.0,
+      "final_v41": 85198.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "variant_code": "VarD",
+      "seed": 1013,
+      "d25_cash": 61599.0,
+      "d28_cash": 83715.0,
+      "final_cash": 103089.0,
+      "final_v41": 83877.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "variant_code": "VarD",
+      "seed": 1014,
+      "d25_cash": 56693.0,
+      "d28_cash": 80316.0,
+      "final_cash": 102200.0,
+      "final_v41": 82659.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "variant_code": "VarD",
+      "seed": 1015,
+      "d25_cash": 54194.0,
+      "d28_cash": 74196.0,
+      "final_cash": 95170.0,
+      "final_v41": 81530.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "variant_code": "VarD",
+      "seed": 1017,
+      "d25_cash": 60656.0,
+      "d28_cash": 83936.0,
+      "final_cash": 104303.0,
+      "final_v41": 82211.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "variant_code": "VarD",
+      "seed": 1016,
+      "d25_cash": 58518.0,
+      "d28_cash": 79172.0,
+      "final_cash": 98523.0,
+      "final_v41": 76113.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "variant_code": "VarD",
+      "seed": 1018,
+      "d25_cash": 48740.0,
+      "d28_cash": 67505.0,
+      "final_cash": 89587.0,
+      "final_v41": 74660.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "variant_code": "VarD",
+      "seed": 1019,
+      "d25_cash": 52619.0,
+      "d28_cash": 71171.0,
+      "final_cash": 90138.0,
+      "final_v41": 72041.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "variant_code": "VarD",
+      "seed": 1021,
+      "d25_cash": 55879.0,
+      "d28_cash": 77991.0,
+      "final_cash": 98508.0,
+      "final_v41": 74654.0,
+      "win": true,
+      "error": null
+    },
+    "1020": {
+      "variant_code": "VarD",
+      "seed": 1020,
+      "d25_cash": 53145.0,
+      "d28_cash": 73301.0,
+      "final_cash": 92536.0,
+      "final_v41": 77621.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "variant_code": "VarD",
+      "seed": 1022,
+      "d25_cash": 61971.0,
+      "d28_cash": 84052.0,
+      "final_cash": 103501.0,
+      "final_v41": 84031.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "variant_code": "VarD",
+      "seed": 1023,
+      "d25_cash": 55522.0,
+      "d28_cash": 75330.0,
+      "final_cash": 93718.0,
+      "final_v41": 72762.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "variant_code": "VarD",
+      "seed": 1024,
+      "d25_cash": 56484.0,
+      "d28_cash": 75109.0,
+      "final_cash": 94980.0,
+      "final_v41": 72637.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "variant_code": "VarD",
+      "seed": 1025,
+      "d25_cash": 56670.0,
+      "d28_cash": 78106.0,
+      "final_cash": 100105.0,
+      "final_v41": 87911.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "variant_code": "VarD",
+      "seed": 1026,
+      "d25_cash": 55266.0,
+      "d28_cash": 75411.0,
+      "final_cash": 96668.0,
+      "final_v41": 90351.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "variant_code": "VarD",
+      "seed": 1028,
+      "d25_cash": 54023.0,
+      "d28_cash": 71992.0,
+      "final_cash": 91289.0,
+      "final_v41": 75581.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "variant_code": "VarD",
+      "seed": 1027,
+      "d25_cash": 54444.0,
+      "d28_cash": 77072.0,
+      "final_cash": 98320.0,
+      "final_v41": 79099.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "variant_code": "VarD",
+      "seed": 1029,
+      "d25_cash": 57707.0,
+      "d28_cash": 83244.0,
+      "final_cash": 104279.0,
+      "final_v41": 84700.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "variant_code": "VarD",
+      "seed": 1031,
+      "d25_cash": 55111.0,
+      "d28_cash": 77834.0,
+      "final_cash": 99102.0,
+      "final_v41": 79257.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "variant_code": "VarD",
+      "seed": 1030,
+      "d25_cash": 59543.0,
+      "d28_cash": 84850.0,
+      "final_cash": 105862.0,
+      "final_v41": 84835.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "variant_code": "VarD",
+      "seed": 1033,
+      "d25_cash": 59676.0,
+      "d28_cash": 80446.0,
+      "final_cash": 101016.0,
+      "final_v41": 86524.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "variant_code": "VarD",
+      "seed": 1032,
+      "d25_cash": 61001.0,
+      "d28_cash": 81804.0,
+      "final_cash": 103391.0,
+      "final_v41": 80780.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "variant_code": "VarD",
+      "seed": 1034,
+      "d25_cash": 59572.0,
+      "d28_cash": 79596.0,
+      "final_cash": 101210.0,
+      "final_v41": 78321.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "variant_code": "VarD",
+      "seed": 1035,
+      "d25_cash": 53821.0,
+      "d28_cash": 74122.0,
+      "final_cash": 93498.0,
+      "final_v41": 78429.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "variant_code": "VarD",
+      "seed": 1036,
+      "d25_cash": 55888.0,
+      "d28_cash": 80224.0,
+      "final_cash": 100713.0,
+      "final_v41": 84822.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "variant_code": "VarD",
+      "seed": 1037,
+      "d25_cash": 56220.0,
+      "d28_cash": 81373.0,
+      "final_cash": 102107.0,
+      "final_v41": 86749.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "variant_code": "VarD",
+      "seed": 1038,
+      "d25_cash": 60255.0,
+      "d28_cash": 79542.0,
+      "final_cash": 100148.0,
+      "final_v41": 72552.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "variant_code": "VarD",
+      "seed": 1040,
+      "d25_cash": 54706.0,
+      "d28_cash": 76929.0,
+      "final_cash": 97985.0,
+      "final_v41": 78829.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "variant_code": "VarD",
+      "seed": 1039,
+      "d25_cash": 53313.0,
+      "d28_cash": 74024.0,
+      "final_cash": 93933.0,
+      "final_v41": 74147.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "variant_code": "VarD",
+      "seed": 1041,
+      "d25_cash": 54838.0,
+      "d28_cash": 76266.0,
+      "final_cash": 96220.0,
+      "final_v41": 81138.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "variant_code": "VarD",
+      "seed": 1042,
+      "d25_cash": 52989.0,
+      "d28_cash": 75799.0,
+      "final_cash": 93605.0,
+      "final_v41": 80631.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "variant_code": "VarD",
+      "seed": 1043,
+      "d25_cash": 55217.0,
+      "d28_cash": 78132.0,
+      "final_cash": 99433.0,
+      "final_v41": 79792.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "variant_code": "VarD",
+      "seed": 1044,
+      "d25_cash": 53513.0,
+      "d28_cash": 73626.0,
+      "final_cash": 91587.0,
+      "final_v41": 70318.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "variant_code": "VarD",
+      "seed": 1045,
+      "d25_cash": 49450.0,
+      "d28_cash": 68295.0,
+      "final_cash": 87843.0,
+      "final_v41": 84400.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "variant_code": "VarD",
+      "seed": 1046,
+      "d25_cash": 51729.0,
+      "d28_cash": 70549.0,
+      "final_cash": 88880.0,
+      "final_v41": 73820.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "variant_code": "VarD",
+      "seed": 1047,
+      "d25_cash": 57730.0,
+      "d28_cash": 82199.0,
+      "final_cash": 102743.0,
+      "final_v41": 82272.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "variant_code": "VarD",
+      "seed": 1048,
+      "d25_cash": 54973.0,
+      "d28_cash": 79304.0,
+      "final_cash": 99596.0,
+      "final_v41": 84294.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "variant_code": "VarD",
+      "seed": 1049,
+      "d25_cash": 49160.0,
+      "d28_cash": 67263.0,
+      "final_cash": 86361.0,
+      "final_v41": 78103.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "variant_code": "VarD",
+      "seed": 1050,
+      "d25_cash": 52315.0,
+      "d28_cash": 72072.0,
+      "final_cash": 92588.0,
+      "final_v41": 84095.0,
+      "win": true,
+      "error": null
+    },
+    "1051": {
+      "variant_code": "VarD",
+      "seed": 1051,
+      "d25_cash": 41671.0,
+      "d28_cash": 61255.0,
+      "final_cash": 80134.0,
+      "final_v41": 75892.0,
+      "win": true,
+      "error": null
+    },
+    "1052": {
+      "variant_code": "VarD",
+      "seed": 1052,
+      "d25_cash": 55076.0,
+      "d28_cash": 76038.0,
+      "final_cash": 94922.0,
+      "final_v41": 82682.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "variant_code": "VarD",
+      "seed": 1053,
+      "d25_cash": 55925.0,
+      "d28_cash": 77698.0,
+      "final_cash": 97962.0,
+      "final_v41": 82800.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "variant_code": "VarD",
+      "seed": 1054,
+      "d25_cash": 55785.0,
+      "d28_cash": 77560.0,
+      "final_cash": 97786.0,
+      "final_v41": 75811.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "variant_code": "VarD",
+      "seed": 1055,
+      "d25_cash": 58175.0,
+      "d28_cash": 79827.0,
+      "final_cash": 99311.0,
+      "final_v41": 87365.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "variant_code": "VarD",
+      "seed": 1057,
+      "d25_cash": 47967.0,
+      "d28_cash": 64656.0,
+      "final_cash": 82850.0,
+      "final_v41": 73935.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "variant_code": "VarD",
+      "seed": 1056,
+      "d25_cash": 57217.0,
+      "d28_cash": 80169.0,
+      "final_cash": 99830.0,
+      "final_v41": 78688.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "variant_code": "VarD",
+      "seed": 1058,
+      "d25_cash": 53523.0,
+      "d28_cash": 74036.0,
+      "final_cash": 94458.0,
+      "final_v41": 72876.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "variant_code": "VarD",
+      "seed": 1059,
+      "d25_cash": 61266.0,
+      "d28_cash": 82233.0,
+      "final_cash": 103913.0,
+      "final_v41": 81041.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "variant_code": "VarD",
+      "seed": 1060,
+      "d25_cash": 56413.0,
+      "d28_cash": 81018.0,
+      "final_cash": 101582.0,
+      "final_v41": 85901.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "variant_code": "VarD",
+      "seed": 1061,
+      "d25_cash": 54480.0,
+      "d28_cash": 73766.0,
+      "final_cash": 94502.0,
+      "final_v41": 88433.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "variant_code": "VarD",
+      "seed": 1062,
+      "d25_cash": 54285.0,
+      "d28_cash": 75164.0,
+      "final_cash": 97258.0,
+      "final_v41": 91611.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "variant_code": "VarD",
+      "seed": 1064,
+      "d25_cash": 54370.0,
+      "d28_cash": 73786.0,
+      "final_cash": 94488.0,
+      "final_v41": 88367.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "variant_code": "VarD",
+      "seed": 1063,
+      "d25_cash": 54347.0,
+      "d28_cash": 73951.0,
+      "final_cash": 94980.0,
+      "final_v41": 79385.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "variant_code": "VarD",
+      "seed": 1065,
+      "d25_cash": 56050.0,
+      "d28_cash": 78136.0,
+      "final_cash": 98634.0,
+      "final_v41": 76969.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "variant_code": "VarD",
+      "seed": 1066,
+      "d25_cash": 53621.0,
+      "d28_cash": 71178.0,
+      "final_cash": 89899.0,
+      "final_v41": 73078.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "variant_code": "VarD",
+      "seed": 1067,
+      "d25_cash": 59445.0,
+      "d28_cash": 80954.0,
+      "final_cash": 101836.0,
+      "final_v41": 88694.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "variant_code": "VarD",
+      "seed": 1069,
+      "d25_cash": 51716.0,
+      "d28_cash": 71899.0,
+      "final_cash": 89749.0,
+      "final_v41": 69940.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "variant_code": "VarD",
+      "seed": 1068,
+      "d25_cash": 59966.0,
+      "d28_cash": 86421.0,
+      "final_cash": 107829.0,
+      "final_v41": 86760.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "variant_code": "VarD",
+      "seed": 1070,
+      "d25_cash": 56561.0,
+      "d28_cash": 79931.0,
+      "final_cash": 101334.0,
+      "final_v41": 87313.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "variant_code": "VarD",
+      "seed": 1071,
+      "d25_cash": 47626.0,
+      "d28_cash": 62959.0,
+      "final_cash": 79846.0,
+      "final_v41": 68735.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "variant_code": "VarD",
+      "seed": 1072,
+      "d25_cash": 56415.0,
+      "d28_cash": 79242.0,
+      "final_cash": 100547.0,
+      "final_v41": 81793.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "variant_code": "VarD",
+      "seed": 1073,
+      "d25_cash": 55461.0,
+      "d28_cash": 79910.0,
+      "final_cash": 100309.0,
+      "final_v41": 84724.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "variant_code": "VarD",
+      "seed": 1074,
+      "d25_cash": 56898.0,
+      "d28_cash": 83004.0,
+      "final_cash": 104262.0,
+      "final_v41": 88441.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "variant_code": "VarD",
+      "seed": 1075,
+      "d25_cash": 56075.0,
+      "d28_cash": 76438.0,
+      "final_cash": 95066.0,
+      "final_v41": 74242.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "variant_code": "VarD",
+      "seed": 1076,
+      "d25_cash": 62516.0,
+      "d28_cash": 85298.0,
+      "final_cash": 105094.0,
+      "final_v41": 85886.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "variant_code": "VarD",
+      "seed": 1077,
+      "d25_cash": 51582.0,
+      "d28_cash": 72724.0,
+      "final_cash": 91433.0,
+      "final_v41": 76615.0,
+      "win": true,
+      "error": null
+    },
+    "1078": {
+      "variant_code": "VarD",
+      "seed": 1078,
+      "d25_cash": 58451.0,
+      "d28_cash": 81811.0,
+      "final_cash": 103124.0,
+      "final_v41": 88069.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "variant_code": "VarD",
+      "seed": 1079,
+      "d25_cash": 55629.0,
+      "d28_cash": 76422.0,
+      "final_cash": 95079.0,
+      "final_v41": 72430.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "variant_code": "VarD",
+      "seed": 1081,
+      "d25_cash": 51728.0,
+      "d28_cash": 70927.0,
+      "final_cash": 89548.0,
+      "final_v41": 74601.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "variant_code": "VarD",
+      "seed": 1080,
+      "d25_cash": 53637.0,
+      "d28_cash": 75657.0,
+      "final_cash": 96637.0,
+      "final_v41": 77984.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "variant_code": "VarD",
+      "seed": 1082,
+      "d25_cash": 56450.0,
+      "d28_cash": 76507.0,
+      "final_cash": 95172.0,
+      "final_v41": 73732.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "variant_code": "VarD",
+      "seed": 1083,
+      "d25_cash": 55540.0,
+      "d28_cash": 74996.0,
+      "final_cash": 95443.0,
+      "final_v41": 79659.0,
+      "win": true,
+      "error": null
+    },
+    "1084": {
+      "variant_code": "VarD",
+      "seed": 1084,
+      "d25_cash": 56152.0,
+      "d28_cash": 82128.0,
+      "final_cash": 102358.0,
+      "final_v41": 85704.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "variant_code": "VarD",
+      "seed": 1085,
+      "d25_cash": 56618.0,
+      "d28_cash": 77390.0,
+      "final_cash": 98961.0,
+      "final_v41": 84639.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "variant_code": "VarD",
+      "seed": 1086,
+      "d25_cash": 52411.0,
+      "d28_cash": 72817.0,
+      "final_cash": 93152.0,
+      "final_v41": 75547.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "variant_code": "VarD",
+      "seed": 1088,
+      "d25_cash": 50801.0,
+      "d28_cash": 70615.0,
+      "final_cash": 91083.0,
+      "final_v41": 81766.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "variant_code": "VarD",
+      "seed": 1087,
+      "d25_cash": 56403.0,
+      "d28_cash": 79772.0,
+      "final_cash": 101671.0,
+      "final_v41": 82763.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "variant_code": "VarD",
+      "seed": 1089,
+      "d25_cash": 54497.0,
+      "d28_cash": 76837.0,
+      "final_cash": 98010.0,
+      "final_v41": 79107.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "variant_code": "VarD",
+      "seed": 1090,
+      "d25_cash": 57178.0,
+      "d28_cash": 78991.0,
+      "final_cash": 101542.0,
+      "final_v41": 95426.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "variant_code": "VarD",
+      "seed": 1091,
+      "d25_cash": 53908.0,
+      "d28_cash": 73635.0,
+      "final_cash": 93709.0,
+      "final_v41": 75310.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "variant_code": "VarD",
+      "seed": 1092,
+      "d25_cash": 53779.0,
+      "d28_cash": 73913.0,
+      "final_cash": 95720.0,
+      "final_v41": 88817.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "variant_code": "VarD",
+      "seed": 1093,
+      "d25_cash": 55200.0,
+      "d28_cash": 76306.0,
+      "final_cash": 96901.0,
+      "final_v41": 74362.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "variant_code": "VarD",
+      "seed": 1094,
+      "d25_cash": 58469.0,
+      "d28_cash": 82790.0,
+      "final_cash": 103287.0,
+      "final_v41": 85080.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "variant_code": "VarD",
+      "seed": 1095,
+      "d25_cash": 43821.0,
+      "d28_cash": 66055.0,
+      "final_cash": 86737.0,
+      "final_v41": 74048.0,
+      "win": true,
+      "error": null
+    },
+    "1096": {
+      "variant_code": "VarD",
+      "seed": 1096,
+      "d25_cash": 46877.0,
+      "d28_cash": 63326.0,
+      "final_cash": 81335.0,
+      "final_v41": 72549.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "variant_code": "VarD",
+      "seed": 1097,
+      "d25_cash": 57492.0,
+      "d28_cash": 79076.0,
+      "final_cash": 101222.0,
+      "final_v41": 81757.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "variant_code": "VarD",
+      "seed": 1098,
+      "d25_cash": 55554.0,
+      "d28_cash": 76521.0,
+      "final_cash": 97014.0,
+      "final_v41": 78276.0,
+      "win": true,
+      "error": null
+    },
+    "1099": {
+      "variant_code": "VarD",
+      "seed": 1099,
+      "d25_cash": 54073.0,
+      "d28_cash": 72863.0,
+      "final_cash": 93399.0,
+      "final_v41": 87608.0,
+      "win": true,
+      "error": null
+    }
+  }
+}

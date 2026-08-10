@@ -1,0 +1,34 @@
+[
+  {
+    "reserve_floor": 200,
+    "win_rate": 99.0,
+    "avg_d8": 15.07,
+    "avg_final": 86615.33,
+    "avg_v41": 74128.24,
+    "margin": 12487.09
+  },
+  {
+    "reserve_floor": 400,
+    "win_rate": 99.0,
+    "avg_d8": 15.07,
+    "avg_final": 86615.33,
+    "avg_v41": 74128.24,
+    "margin": 12487.09
+  },
+  {
+    "reserve_floor": 600,
+    "win_rate": 99.0,
+    "avg_d8": 15.07,
+    "avg_final": 86615.33,
+    "avg_v41": 74128.24,
+    "margin": 12487.09
+  },
+  {
+    "reserve_floor": 800,
+    "win_rate": 98.0,
+    "avg_d8": 813.93,
+    "avg_final": 91342.97,
+    "avg_v41": 81931.98,
+    "margin": 9410.99
+  }
+]

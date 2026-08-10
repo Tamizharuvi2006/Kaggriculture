@@ -1,0 +1,66 @@
+[
+  {
+    "candidate": "Candidate_L",
+    "archetype": "Capital_Turtle",
+    "win_rate": 50.0,
+    "avg_cand": 89162.5,
+    "avg_opp": 88390.6,
+    "margin": 771.9
+  },
+  {
+    "candidate": "Candidate_L",
+    "archetype": "Cattle_Rusher",
+    "win_rate": 20.0,
+    "avg_cand": 88492.7,
+    "avg_opp": 88037.5,
+    "margin": 455.2
+  },
+  {
+    "candidate": "Candidate_L",
+    "archetype": "Market_Manipulator",
+    "win_rate": 0.0,
+    "avg_cand": 82693.0,
+    "avg_opp": 85724.1,
+    "margin": -3031.1
+  },
+  {
+    "candidate": "Candidate_L",
+    "archetype": "Crop_Expansionist",
+    "win_rate": 80.0,
+    "avg_cand": 88898.5,
+    "avg_opp": 82282.4,
+    "margin": 6616.1
+  },
+  {
+    "candidate": "Candidate_C",
+    "archetype": "Capital_Turtle",
+    "win_rate": 0.0,
+    "avg_cand": 2232.2,
+    "avg_opp": 97971.4,
+    "margin": -95739.2
+  },
+  {
+    "candidate": "Candidate_C",
+    "archetype": "Cattle_Rusher",
+    "win_rate": 0.0,
+    "avg_cand": 2191.9,
+    "avg_opp": 96283.2,
+    "margin": -94091.3
+  },
+  {
+    "candidate": "Candidate_C",
+    "archetype": "Market_Manipulator",
+    "win_rate": 0.0,
+    "avg_cand": 2234.2,
+    "avg_opp": 80848.6,
+    "margin": -78614.4
+  },
+  {
+    "candidate": "Candidate_C",
+    "archetype": "Crop_Expansionist",
+    "win_rate": 20.0,
+    "avg_cand": 25659.1,
+    "avg_opp": 83737.3,
+    "margin": -58078.2
+  }
+]

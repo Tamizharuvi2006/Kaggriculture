@@ -1,0 +1,232 @@
+[
+  {
+    "seed": 1000,
+    "v42": {
+      "money": 91552.0,
+      "cows": 8,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    },
+    "v41": {
+      "money": 78224.0,
+      "cows": 9,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    }
+  },
+  {
+    "seed": 1001,
+    "v42": {
+      "money": 87448.0,
+      "cows": 8,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    },
+    "v41": {
+      "money": 79191.0,
+      "cows": 8,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    }
+  },
+  {
+    "seed": 1002,
+    "v42": {
+      "money": 87925.0,
+      "cows": 8,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    },
+    "v41": {
+      "money": 72562.0,
+      "cows": 9,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    }
+  },
+  {
+    "seed": 1003,
+    "v42": {
+      "money": 104031.0,
+      "cows": 8,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    },
+    "v41": {
+      "money": 88300.0,
+      "cows": 8,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    }
+  },
+  {
+    "seed": 1004,
+    "v42": {
+      "money": 94037.0,
+      "cows": 8,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    },
+    "v41": {
+      "money": 78971.0,
+      "cows": 9,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    }
+  },
+  {
+    "seed": 1005,
+    "v42": {
+      "money": 94570.0,
+      "cows": 8,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    },
+    "v41": {
+      "money": 79573.0,
+      "cows": 9,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    }
+  },
+  {
+    "seed": 1006,
+    "v42": {
+      "money": 100977.0,
+      "cows": 8,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    },
+    "v41": {
+      "money": 81704.0,
+      "cows": 9,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    }
+  },
+  {
+    "seed": 1007,
+    "v42": {
+      "money": 103323.0,
+      "cows": 8,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    },
+    "v41": {
+      "money": 92403.0,
+      "cows": 8,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    }
+  },
+  {
+    "seed": 1008,
+    "v42": {
+      "money": 107228.0,
+      "cows": 8,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    },
+    "v41": {
+      "money": 84937.0,
+      "cows": 9,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    }
+  },
+  {
+    "seed": 1009,
+    "v42": {
+      "money": 95405.0,
+      "cows": 8,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    },
+    "v41": {
+      "money": 77204.0,
+      "cows": 9,
+      "tiles_owned": 0,
+      "feed_inv": 0,
+      "milk_inv": 0,
+      "melon_inv": 0,
+      "straw_inv": 0,
+      "unsold_val": 0.0
+    }
+  }
+]

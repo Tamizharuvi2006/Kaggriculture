@@ -1,0 +1,4010 @@
+{
+  "200": {
+    "1007": {
+      "reserve_floor": "200",
+      "seed": 1007,
+      "d8_cash": 18.0,
+      "d15_cash": 13346.0,
+      "final_cash": 90141.0,
+      "final_v41": 71022.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "reserve_floor": "200",
+      "seed": 1011,
+      "d8_cash": 19.0,
+      "d15_cash": 13016.0,
+      "final_cash": 85292.0,
+      "final_v41": 78498.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "reserve_floor": "200",
+      "seed": 1010,
+      "d8_cash": 18.0,
+      "d15_cash": 13620.0,
+      "final_cash": 95892.0,
+      "final_v41": 82864.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "reserve_floor": "200",
+      "seed": 1009,
+      "d8_cash": 9.0,
+      "d15_cash": 10534.0,
+      "final_cash": 85698.0,
+      "final_v41": 71636.0,
+      "win": true,
+      "error": null
+    },
+    "1001": {
+      "reserve_floor": "200",
+      "seed": 1001,
+      "d8_cash": 19.0,
+      "d15_cash": 13347.0,
+      "final_cash": 87368.0,
+      "final_v41": 77878.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "reserve_floor": "200",
+      "seed": 1003,
+      "d8_cash": 18.0,
+      "d15_cash": 13112.0,
+      "final_cash": 88396.0,
+      "final_v41": 77813.0,
+      "win": true,
+      "error": null
+    },
+    "1000": {
+      "reserve_floor": "200",
+      "seed": 1000,
+      "d8_cash": 9.0,
+      "d15_cash": 10018.0,
+      "final_cash": 85124.0,
+      "final_v41": 78825.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "reserve_floor": "200",
+      "seed": 1005,
+      "d8_cash": 9.0,
+      "d15_cash": 10523.0,
+      "final_cash": 88264.0,
+      "final_v41": 73276.0,
+      "win": true,
+      "error": null
+    },
+    "1008": {
+      "reserve_floor": "200",
+      "seed": 1008,
+      "d8_cash": 9.0,
+      "d15_cash": 9913.0,
+      "final_cash": 97463.0,
+      "final_v41": 75561.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "reserve_floor": "200",
+      "seed": 1002,
+      "d8_cash": 9.0,
+      "d15_cash": 10574.0,
+      "final_cash": 81352.0,
+      "final_v41": 70223.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "reserve_floor": "200",
+      "seed": 1004,
+      "d8_cash": 9.0,
+      "d15_cash": 10609.0,
+      "final_cash": 95405.0,
+      "final_v41": 79399.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "reserve_floor": "200",
+      "seed": 1006,
+      "d8_cash": 9.0,
+      "d15_cash": 10559.0,
+      "final_cash": 88448.0,
+      "final_v41": 78305.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "reserve_floor": "200",
+      "seed": 1012,
+      "d8_cash": 18.0,
+      "d15_cash": 12931.0,
+      "final_cash": 84943.0,
+      "final_v41": 77855.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "reserve_floor": "200",
+      "seed": 1013,
+      "d8_cash": 18.0,
+      "d15_cash": 13265.0,
+      "final_cash": 87768.0,
+      "final_v41": 75344.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "reserve_floor": "200",
+      "seed": 1017,
+      "d8_cash": 18.0,
+      "d15_cash": 13193.0,
+      "final_cash": 77940.0,
+      "final_v41": 65924.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "reserve_floor": "200",
+      "seed": 1014,
+      "d8_cash": 9.0,
+      "d15_cash": 10485.0,
+      "final_cash": 81423.0,
+      "final_v41": 79131.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "reserve_floor": "200",
+      "seed": 1015,
+      "d8_cash": 18.0,
+      "d15_cash": 14232.0,
+      "final_cash": 80862.0,
+      "final_v41": 69606.0,
+      "win": true,
+      "error": null
+    },
+    "1020": {
+      "reserve_floor": "200",
+      "seed": 1020,
+      "d8_cash": 9.0,
+      "d15_cash": 10831.0,
+      "final_cash": 91840.0,
+      "final_v41": 78161.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "reserve_floor": "200",
+      "seed": 1016,
+      "d8_cash": 18.0,
+      "d15_cash": 13165.0,
+      "final_cash": 87072.0,
+      "final_v41": 75135.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "reserve_floor": "200",
+      "seed": 1018,
+      "d8_cash": 18.0,
+      "d15_cash": 12923.0,
+      "final_cash": 88153.0,
+      "final_v41": 75935.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "reserve_floor": "200",
+      "seed": 1019,
+      "d8_cash": 18.0,
+      "d15_cash": 13117.0,
+      "final_cash": 84264.0,
+      "final_v41": 74477.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "reserve_floor": "200",
+      "seed": 1022,
+      "d8_cash": 18.0,
+      "d15_cash": 12965.0,
+      "final_cash": 83367.0,
+      "final_v41": 76193.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "reserve_floor": "200",
+      "seed": 1023,
+      "d8_cash": 22.0,
+      "d15_cash": 13389.0,
+      "final_cash": 92927.0,
+      "final_v41": 81251.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "reserve_floor": "200",
+      "seed": 1021,
+      "d8_cash": 9.0,
+      "d15_cash": 10656.0,
+      "final_cash": 96400.0,
+      "final_v41": 76752.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "reserve_floor": "200",
+      "seed": 1024,
+      "d8_cash": 9.0,
+      "d15_cash": 10612.0,
+      "final_cash": 92754.0,
+      "final_v41": 76390.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "reserve_floor": "200",
+      "seed": 1026,
+      "d8_cash": 31.0,
+      "d15_cash": 13378.0,
+      "final_cash": 92887.0,
+      "final_v41": 81199.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "reserve_floor": "200",
+      "seed": 1025,
+      "d8_cash": 18.0,
+      "d15_cash": 12200.0,
+      "final_cash": 87983.0,
+      "final_v41": 75467.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "reserve_floor": "200",
+      "seed": 1027,
+      "d8_cash": 9.0,
+      "d15_cash": 9939.0,
+      "final_cash": 89964.0,
+      "final_v41": 63536.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "reserve_floor": "200",
+      "seed": 1028,
+      "d8_cash": 18.0,
+      "d15_cash": 14229.0,
+      "final_cash": 85121.0,
+      "final_v41": 74042.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "reserve_floor": "200",
+      "seed": 1029,
+      "d8_cash": 20.0,
+      "d15_cash": 10581.0,
+      "final_cash": 81146.0,
+      "final_v41": 69060.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "reserve_floor": "200",
+      "seed": 1034,
+      "d8_cash": 20.0,
+      "d15_cash": 10993.0,
+      "final_cash": 79866.0,
+      "final_v41": 62243.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "reserve_floor": "200",
+      "seed": 1031,
+      "d8_cash": 9.0,
+      "d15_cash": 10144.0,
+      "final_cash": 76868.0,
+      "final_v41": 71717.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "reserve_floor": "200",
+      "seed": 1030,
+      "d8_cash": 9.0,
+      "d15_cash": 10181.0,
+      "final_cash": 90427.0,
+      "final_v41": 78279.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "reserve_floor": "200",
+      "seed": 1033,
+      "d8_cash": 9.0,
+      "d15_cash": 10268.0,
+      "final_cash": 87179.0,
+      "final_v41": 68342.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "reserve_floor": "200",
+      "seed": 1032,
+      "d8_cash": 9.0,
+      "d15_cash": 11205.0,
+      "final_cash": 83373.0,
+      "final_v41": 77522.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "reserve_floor": "200",
+      "seed": 1035,
+      "d8_cash": 9.0,
+      "d15_cash": 11193.0,
+      "final_cash": 75889.0,
+      "final_v41": 68849.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "reserve_floor": "200",
+      "seed": 1036,
+      "d8_cash": 18.0,
+      "d15_cash": 13237.0,
+      "final_cash": 88196.0,
+      "final_v41": 82212.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "reserve_floor": "200",
+      "seed": 1037,
+      "d8_cash": 18.0,
+      "d15_cash": 13110.0,
+      "final_cash": 89746.0,
+      "final_v41": 83499.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "reserve_floor": "200",
+      "seed": 1040,
+      "d8_cash": 9.0,
+      "d15_cash": 10645.0,
+      "final_cash": 96574.0,
+      "final_v41": 80712.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "reserve_floor": "200",
+      "seed": 1043,
+      "d8_cash": 20.0,
+      "d15_cash": 11113.0,
+      "final_cash": 89816.0,
+      "final_v41": 70091.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "reserve_floor": "200",
+      "seed": 1038,
+      "d8_cash": 9.0,
+      "d15_cash": 9979.0,
+      "final_cash": 90631.0,
+      "final_v41": 64013.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "reserve_floor": "200",
+      "seed": 1039,
+      "d8_cash": 9.0,
+      "d15_cash": 9901.0,
+      "final_cash": 94014.0,
+      "final_v41": 67953.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "reserve_floor": "200",
+      "seed": 1044,
+      "d8_cash": 9.0,
+      "d15_cash": 10777.0,
+      "final_cash": 92628.0,
+      "final_v41": 69593.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "reserve_floor": "200",
+      "seed": 1041,
+      "d8_cash": 9.0,
+      "d15_cash": 10193.0,
+      "final_cash": 85960.0,
+      "final_v41": 80652.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "reserve_floor": "200",
+      "seed": 1042,
+      "d8_cash": 9.0,
+      "d15_cash": 10537.0,
+      "final_cash": 79683.0,
+      "final_v41": 65774.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "reserve_floor": "200",
+      "seed": 1047,
+      "d8_cash": 9.0,
+      "d15_cash": 10463.0,
+      "final_cash": 85558.0,
+      "final_v41": 77364.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "reserve_floor": "200",
+      "seed": 1045,
+      "d8_cash": 18.0,
+      "d15_cash": 13007.0,
+      "final_cash": 80103.0,
+      "final_v41": 67436.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "reserve_floor": "200",
+      "seed": 1046,
+      "d8_cash": 9.0,
+      "d15_cash": 10942.0,
+      "final_cash": 81761.0,
+      "final_v41": 63276.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "reserve_floor": "200",
+      "seed": 1048,
+      "d8_cash": 31.0,
+      "d15_cash": 12500.0,
+      "final_cash": 86478.0,
+      "final_v41": 76938.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "reserve_floor": "200",
+      "seed": 1053,
+      "d8_cash": 9.0,
+      "d15_cash": 9684.0,
+      "final_cash": 88061.0,
+      "final_v41": 76574.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "reserve_floor": "200",
+      "seed": 1049,
+      "d8_cash": 18.0,
+      "d15_cash": 13002.0,
+      "final_cash": 87565.0,
+      "final_v41": 75312.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "reserve_floor": "200",
+      "seed": 1056,
+      "d8_cash": 9.0,
+      "d15_cash": 10403.0,
+      "final_cash": 87140.0,
+      "final_v41": 78193.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "reserve_floor": "200",
+      "seed": 1050,
+      "d8_cash": 31.0,
+      "d15_cash": 14002.0,
+      "final_cash": 80181.0,
+      "final_v41": 80642.0,
+      "win": false,
+      "error": null
+    },
+    "1057": {
+      "reserve_floor": "200",
+      "seed": 1057,
+      "d8_cash": 18.0,
+      "d15_cash": 13246.0,
+      "final_cash": 94333.0,
+      "final_v41": 73116.0,
+      "win": true,
+      "error": null
+    },
+    "1051": {
+      "reserve_floor": "200",
+      "seed": 1051,
+      "d8_cash": 18.0,
+      "d15_cash": 12333.0,
+      "final_cash": 96946.0,
+      "final_v41": 75840.0,
+      "win": true,
+      "error": null
+    },
+    "1052": {
+      "reserve_floor": "200",
+      "seed": 1052,
+      "d8_cash": 9.0,
+      "d15_cash": 10230.0,
+      "final_cash": 89057.0,
+      "final_v41": 82312.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "reserve_floor": "200",
+      "seed": 1055,
+      "d8_cash": 22.0,
+      "d15_cash": 12582.0,
+      "final_cash": 81168.0,
+      "final_v41": 65618.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "reserve_floor": "200",
+      "seed": 1054,
+      "d8_cash": 20.0,
+      "d15_cash": 11150.0,
+      "final_cash": 85470.0,
+      "final_v41": 71929.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "reserve_floor": "200",
+      "seed": 1058,
+      "d8_cash": 9.0,
+      "d15_cash": 9993.0,
+      "final_cash": 89983.0,
+      "final_v41": 62917.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "reserve_floor": "200",
+      "seed": 1059,
+      "d8_cash": 9.0,
+      "d15_cash": 11234.0,
+      "final_cash": 79206.0,
+      "final_v41": 72052.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "reserve_floor": "200",
+      "seed": 1060,
+      "d8_cash": 18.0,
+      "d15_cash": 12965.0,
+      "final_cash": 80604.0,
+      "final_v41": 74002.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "reserve_floor": "200",
+      "seed": 1062,
+      "d8_cash": 18.0,
+      "d15_cash": 12966.0,
+      "final_cash": 82872.0,
+      "final_v41": 80275.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "reserve_floor": "200",
+      "seed": 1061,
+      "d8_cash": 31.0,
+      "d15_cash": 13419.0,
+      "final_cash": 87955.0,
+      "final_v41": 76451.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "reserve_floor": "200",
+      "seed": 1064,
+      "d8_cash": 18.0,
+      "d15_cash": 13347.0,
+      "final_cash": 85382.0,
+      "final_v41": 79679.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "reserve_floor": "200",
+      "seed": 1063,
+      "d8_cash": 19.0,
+      "d15_cash": 13045.0,
+      "final_cash": 83552.0,
+      "final_v41": 70601.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "reserve_floor": "200",
+      "seed": 1066,
+      "d8_cash": 22.0,
+      "d15_cash": 13291.0,
+      "final_cash": 91090.0,
+      "final_v41": 79305.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "reserve_floor": "200",
+      "seed": 1065,
+      "d8_cash": 20.0,
+      "d15_cash": 11109.0,
+      "final_cash": 87263.0,
+      "final_v41": 73217.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "reserve_floor": "200",
+      "seed": 1067,
+      "d8_cash": 18.0,
+      "d15_cash": 12975.0,
+      "final_cash": 90105.0,
+      "final_v41": 83630.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "reserve_floor": "200",
+      "seed": 1068,
+      "d8_cash": 9.0,
+      "d15_cash": 10065.0,
+      "final_cash": 83611.0,
+      "final_v41": 70853.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "reserve_floor": "200",
+      "seed": 1069,
+      "d8_cash": 9.0,
+      "d15_cash": 10469.0,
+      "final_cash": 82438.0,
+      "final_v41": 74336.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "reserve_floor": "200",
+      "seed": 1070,
+      "d8_cash": 9.0,
+      "d15_cash": 9864.0,
+      "final_cash": 85642.0,
+      "final_v41": 80069.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "reserve_floor": "200",
+      "seed": 1071,
+      "d8_cash": 18.0,
+      "d15_cash": 13447.0,
+      "final_cash": 87279.0,
+      "final_v41": 77880.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "reserve_floor": "200",
+      "seed": 1072,
+      "d8_cash": 9.0,
+      "d15_cash": 11429.0,
+      "final_cash": 81663.0,
+      "final_v41": 72100.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "reserve_floor": "200",
+      "seed": 1073,
+      "d8_cash": 18.0,
+      "d15_cash": 13550.0,
+      "final_cash": 94262.0,
+      "final_v41": 79668.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "reserve_floor": "200",
+      "seed": 1074,
+      "d8_cash": 18.0,
+      "d15_cash": 13723.0,
+      "final_cash": 92598.0,
+      "final_v41": 74928.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "reserve_floor": "200",
+      "seed": 1075,
+      "d8_cash": 18.0,
+      "d15_cash": 14467.0,
+      "final_cash": 87565.0,
+      "final_v41": 76040.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "reserve_floor": "200",
+      "seed": 1076,
+      "d8_cash": 18.0,
+      "d15_cash": 12965.0,
+      "final_cash": 81867.0,
+      "final_v41": 74943.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "reserve_floor": "200",
+      "seed": 1077,
+      "d8_cash": 18.0,
+      "d15_cash": 12856.0,
+      "final_cash": 80140.0,
+      "final_v41": 67906.0,
+      "win": true,
+      "error": null
+    },
+    "1078": {
+      "reserve_floor": "200",
+      "seed": 1078,
+      "d8_cash": 9.0,
+      "d15_cash": 9861.0,
+      "final_cash": 80522.0,
+      "final_v41": 77283.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "reserve_floor": "200",
+      "seed": 1080,
+      "d8_cash": 9.0,
+      "d15_cash": 10024.0,
+      "final_cash": 97412.0,
+      "final_v41": 70514.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "reserve_floor": "200",
+      "seed": 1079,
+      "d8_cash": 9.0,
+      "d15_cash": 10962.0,
+      "final_cash": 88660.0,
+      "final_v41": 71192.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "reserve_floor": "200",
+      "seed": 1081,
+      "d8_cash": 9.0,
+      "d15_cash": 9978.0,
+      "final_cash": 95357.0,
+      "final_v41": 69535.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "reserve_floor": "200",
+      "seed": 1082,
+      "d8_cash": 18.0,
+      "d15_cash": 14470.0,
+      "final_cash": 82961.0,
+      "final_v41": 71351.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "reserve_floor": "200",
+      "seed": 1083,
+      "d8_cash": 18.0,
+      "d15_cash": 13002.0,
+      "final_cash": 79856.0,
+      "final_v41": 67732.0,
+      "win": true,
+      "error": null
+    },
+    "1084": {
+      "reserve_floor": "200",
+      "seed": 1084,
+      "d8_cash": 9.0,
+      "d15_cash": 10495.0,
+      "final_cash": 88947.0,
+      "final_v41": 80661.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "reserve_floor": "200",
+      "seed": 1085,
+      "d8_cash": 22.0,
+      "d15_cash": 13280.0,
+      "final_cash": 83403.0,
+      "final_v41": 71811.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "reserve_floor": "200",
+      "seed": 1086,
+      "d8_cash": 9.0,
+      "d15_cash": 11193.0,
+      "final_cash": 79394.0,
+      "final_v41": 72549.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "reserve_floor": "200",
+      "seed": 1087,
+      "d8_cash": 20.0,
+      "d15_cash": 11000.0,
+      "final_cash": 86185.0,
+      "final_v41": 68393.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "reserve_floor": "200",
+      "seed": 1088,
+      "d8_cash": 18.0,
+      "d15_cash": 12661.0,
+      "final_cash": 86226.0,
+      "final_v41": 67828.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "reserve_floor": "200",
+      "seed": 1089,
+      "d8_cash": 9.0,
+      "d15_cash": 10523.0,
+      "final_cash": 84047.0,
+      "final_v41": 68824.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "reserve_floor": "200",
+      "seed": 1090,
+      "d8_cash": 18.0,
+      "d15_cash": 13243.0,
+      "final_cash": 89210.0,
+      "final_v41": 83042.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "reserve_floor": "200",
+      "seed": 1091,
+      "d8_cash": 20.0,
+      "d15_cash": 11000.0,
+      "final_cash": 79360.0,
+      "final_v41": 61536.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "reserve_floor": "200",
+      "seed": 1092,
+      "d8_cash": 18.0,
+      "d15_cash": 13479.0,
+      "final_cash": 90676.0,
+      "final_v41": 82953.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "reserve_floor": "200",
+      "seed": 1093,
+      "d8_cash": 18.0,
+      "d15_cash": 13045.0,
+      "final_cash": 89008.0,
+      "final_v41": 72813.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "reserve_floor": "200",
+      "seed": 1094,
+      "d8_cash": 9.0,
+      "d15_cash": 10628.0,
+      "final_cash": 94369.0,
+      "final_v41": 73237.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "reserve_floor": "200",
+      "seed": 1095,
+      "d8_cash": 18.0,
+      "d15_cash": 14149.0,
+      "final_cash": 76871.0,
+      "final_v41": 65423.0,
+      "win": true,
+      "error": null
+    },
+    "1096": {
+      "reserve_floor": "200",
+      "seed": 1096,
+      "d8_cash": 18.0,
+      "d15_cash": 13007.0,
+      "final_cash": 82600.0,
+      "final_v41": 67890.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "reserve_floor": "200",
+      "seed": 1098,
+      "d8_cash": 18.0,
+      "d15_cash": 13006.0,
+      "final_cash": 79725.0,
+      "final_v41": 73349.0,
+      "win": true,
+      "error": null
+    },
+    "1099": {
+      "reserve_floor": "200",
+      "seed": 1099,
+      "d8_cash": 18.0,
+      "d15_cash": 13079.0,
+      "final_cash": 85077.0,
+      "final_v41": 79059.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "reserve_floor": "200",
+      "seed": 1097,
+      "d8_cash": 18.0,
+      "d15_cash": 13219.0,
+      "final_cash": 86262.0,
+      "final_v41": 78238.0,
+      "win": true,
+      "error": null
+    }
+  },
+  "400": {
+    "1000": {
+      "reserve_floor": "400",
+      "seed": 1000,
+      "d8_cash": 9.0,
+      "d15_cash": 10018.0,
+      "final_cash": 85124.0,
+      "final_v41": 78825.0,
+      "win": true,
+      "error": null
+    },
+    "1001": {
+      "reserve_floor": "400",
+      "seed": 1001,
+      "d8_cash": 19.0,
+      "d15_cash": 13347.0,
+      "final_cash": 87368.0,
+      "final_v41": 77878.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "reserve_floor": "400",
+      "seed": 1003,
+      "d8_cash": 18.0,
+      "d15_cash": 13112.0,
+      "final_cash": 88396.0,
+      "final_v41": 77813.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "reserve_floor": "400",
+      "seed": 1002,
+      "d8_cash": 9.0,
+      "d15_cash": 10574.0,
+      "final_cash": 81352.0,
+      "final_v41": 70223.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "reserve_floor": "400",
+      "seed": 1005,
+      "d8_cash": 9.0,
+      "d15_cash": 10523.0,
+      "final_cash": 88264.0,
+      "final_v41": 73276.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "reserve_floor": "400",
+      "seed": 1004,
+      "d8_cash": 9.0,
+      "d15_cash": 10609.0,
+      "final_cash": 95405.0,
+      "final_v41": 79399.0,
+      "win": true,
+      "error": null
+    },
+    "1007": {
+      "reserve_floor": "400",
+      "seed": 1007,
+      "d8_cash": 18.0,
+      "d15_cash": 13346.0,
+      "final_cash": 90141.0,
+      "final_v41": 71022.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "reserve_floor": "400",
+      "seed": 1006,
+      "d8_cash": 9.0,
+      "d15_cash": 10559.0,
+      "final_cash": 88448.0,
+      "final_v41": 78305.0,
+      "win": true,
+      "error": null
+    },
+    "1008": {
+      "reserve_floor": "400",
+      "seed": 1008,
+      "d8_cash": 9.0,
+      "d15_cash": 9913.0,
+      "final_cash": 97463.0,
+      "final_v41": 75561.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "reserve_floor": "400",
+      "seed": 1011,
+      "d8_cash": 19.0,
+      "d15_cash": 13016.0,
+      "final_cash": 85292.0,
+      "final_v41": 78498.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "reserve_floor": "400",
+      "seed": 1010,
+      "d8_cash": 18.0,
+      "d15_cash": 13620.0,
+      "final_cash": 95892.0,
+      "final_v41": 82864.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "reserve_floor": "400",
+      "seed": 1009,
+      "d8_cash": 9.0,
+      "d15_cash": 10534.0,
+      "final_cash": 85698.0,
+      "final_v41": 71636.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "reserve_floor": "400",
+      "seed": 1012,
+      "d8_cash": 18.0,
+      "d15_cash": 12931.0,
+      "final_cash": 84943.0,
+      "final_v41": 77855.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "reserve_floor": "400",
+      "seed": 1013,
+      "d8_cash": 18.0,
+      "d15_cash": 13265.0,
+      "final_cash": 87768.0,
+      "final_v41": 75344.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "reserve_floor": "400",
+      "seed": 1014,
+      "d8_cash": 9.0,
+      "d15_cash": 10485.0,
+      "final_cash": 81423.0,
+      "final_v41": 79131.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "reserve_floor": "400",
+      "seed": 1017,
+      "d8_cash": 18.0,
+      "d15_cash": 13193.0,
+      "final_cash": 77940.0,
+      "final_v41": 65924.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "reserve_floor": "400",
+      "seed": 1016,
+      "d8_cash": 18.0,
+      "d15_cash": 13165.0,
+      "final_cash": 87072.0,
+      "final_v41": 75135.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "reserve_floor": "400",
+      "seed": 1015,
+      "d8_cash": 18.0,
+      "d15_cash": 14232.0,
+      "final_cash": 80862.0,
+      "final_v41": 69606.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "reserve_floor": "400",
+      "seed": 1018,
+      "d8_cash": 18.0,
+      "d15_cash": 12923.0,
+      "final_cash": 88153.0,
+      "final_v41": 75935.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "reserve_floor": "400",
+      "seed": 1019,
+      "d8_cash": 18.0,
+      "d15_cash": 13117.0,
+      "final_cash": 84264.0,
+      "final_v41": 74477.0,
+      "win": true,
+      "error": null
+    },
+    "1020": {
+      "reserve_floor": "400",
+      "seed": 1020,
+      "d8_cash": 9.0,
+      "d15_cash": 10831.0,
+      "final_cash": 91840.0,
+      "final_v41": 78161.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "reserve_floor": "400",
+      "seed": 1021,
+      "d8_cash": 9.0,
+      "d15_cash": 10656.0,
+      "final_cash": 96400.0,
+      "final_v41": 76752.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "reserve_floor": "400",
+      "seed": 1022,
+      "d8_cash": 18.0,
+      "d15_cash": 12965.0,
+      "final_cash": 83367.0,
+      "final_v41": 76193.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "reserve_floor": "400",
+      "seed": 1023,
+      "d8_cash": 22.0,
+      "d15_cash": 13389.0,
+      "final_cash": 92927.0,
+      "final_v41": 81251.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "reserve_floor": "400",
+      "seed": 1024,
+      "d8_cash": 9.0,
+      "d15_cash": 10612.0,
+      "final_cash": 92754.0,
+      "final_v41": 76390.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "reserve_floor": "400",
+      "seed": 1025,
+      "d8_cash": 18.0,
+      "d15_cash": 12200.0,
+      "final_cash": 87983.0,
+      "final_v41": 75467.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "reserve_floor": "400",
+      "seed": 1026,
+      "d8_cash": 31.0,
+      "d15_cash": 13378.0,
+      "final_cash": 92887.0,
+      "final_v41": 81199.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "reserve_floor": "400",
+      "seed": 1028,
+      "d8_cash": 18.0,
+      "d15_cash": 14229.0,
+      "final_cash": 85121.0,
+      "final_v41": 74042.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "reserve_floor": "400",
+      "seed": 1027,
+      "d8_cash": 9.0,
+      "d15_cash": 9939.0,
+      "final_cash": 89964.0,
+      "final_v41": 63536.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "reserve_floor": "400",
+      "seed": 1029,
+      "d8_cash": 20.0,
+      "d15_cash": 10581.0,
+      "final_cash": 81146.0,
+      "final_v41": 69060.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "reserve_floor": "400",
+      "seed": 1030,
+      "d8_cash": 9.0,
+      "d15_cash": 10181.0,
+      "final_cash": 90427.0,
+      "final_v41": 78279.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "reserve_floor": "400",
+      "seed": 1031,
+      "d8_cash": 9.0,
+      "d15_cash": 10144.0,
+      "final_cash": 76868.0,
+      "final_v41": 71717.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "reserve_floor": "400",
+      "seed": 1032,
+      "d8_cash": 9.0,
+      "d15_cash": 11205.0,
+      "final_cash": 83373.0,
+      "final_v41": 77522.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "reserve_floor": "400",
+      "seed": 1033,
+      "d8_cash": 9.0,
+      "d15_cash": 10268.0,
+      "final_cash": 87179.0,
+      "final_v41": 68342.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "reserve_floor": "400",
+      "seed": 1034,
+      "d8_cash": 20.0,
+      "d15_cash": 10993.0,
+      "final_cash": 79866.0,
+      "final_v41": 62243.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "reserve_floor": "400",
+      "seed": 1035,
+      "d8_cash": 9.0,
+      "d15_cash": 11193.0,
+      "final_cash": 75889.0,
+      "final_v41": 68849.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "reserve_floor": "400",
+      "seed": 1036,
+      "d8_cash": 18.0,
+      "d15_cash": 13237.0,
+      "final_cash": 88196.0,
+      "final_v41": 82212.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "reserve_floor": "400",
+      "seed": 1037,
+      "d8_cash": 18.0,
+      "d15_cash": 13110.0,
+      "final_cash": 89746.0,
+      "final_v41": 83499.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "reserve_floor": "400",
+      "seed": 1038,
+      "d8_cash": 9.0,
+      "d15_cash": 9979.0,
+      "final_cash": 90631.0,
+      "final_v41": 64013.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "reserve_floor": "400",
+      "seed": 1040,
+      "d8_cash": 9.0,
+      "d15_cash": 10645.0,
+      "final_cash": 96574.0,
+      "final_v41": 80712.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "reserve_floor": "400",
+      "seed": 1039,
+      "d8_cash": 9.0,
+      "d15_cash": 9901.0,
+      "final_cash": 94014.0,
+      "final_v41": 67953.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "reserve_floor": "400",
+      "seed": 1041,
+      "d8_cash": 9.0,
+      "d15_cash": 10193.0,
+      "final_cash": 85960.0,
+      "final_v41": 80652.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "reserve_floor": "400",
+      "seed": 1042,
+      "d8_cash": 9.0,
+      "d15_cash": 10537.0,
+      "final_cash": 79683.0,
+      "final_v41": 65774.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "reserve_floor": "400",
+      "seed": 1043,
+      "d8_cash": 20.0,
+      "d15_cash": 11113.0,
+      "final_cash": 89816.0,
+      "final_v41": 70091.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "reserve_floor": "400",
+      "seed": 1044,
+      "d8_cash": 9.0,
+      "d15_cash": 10777.0,
+      "final_cash": 92628.0,
+      "final_v41": 69593.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "reserve_floor": "400",
+      "seed": 1045,
+      "d8_cash": 18.0,
+      "d15_cash": 13007.0,
+      "final_cash": 80103.0,
+      "final_v41": 67436.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "reserve_floor": "400",
+      "seed": 1046,
+      "d8_cash": 9.0,
+      "d15_cash": 10942.0,
+      "final_cash": 81761.0,
+      "final_v41": 63276.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "reserve_floor": "400",
+      "seed": 1048,
+      "d8_cash": 31.0,
+      "d15_cash": 12500.0,
+      "final_cash": 86478.0,
+      "final_v41": 76938.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "reserve_floor": "400",
+      "seed": 1047,
+      "d8_cash": 9.0,
+      "d15_cash": 10463.0,
+      "final_cash": 85558.0,
+      "final_v41": 77364.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "reserve_floor": "400",
+      "seed": 1049,
+      "d8_cash": 18.0,
+      "d15_cash": 13002.0,
+      "final_cash": 87565.0,
+      "final_v41": 75312.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "reserve_floor": "400",
+      "seed": 1050,
+      "d8_cash": 31.0,
+      "d15_cash": 14002.0,
+      "final_cash": 80181.0,
+      "final_v41": 80642.0,
+      "win": false,
+      "error": null
+    },
+    "1051": {
+      "reserve_floor": "400",
+      "seed": 1051,
+      "d8_cash": 18.0,
+      "d15_cash": 12333.0,
+      "final_cash": 96946.0,
+      "final_v41": 75840.0,
+      "win": true,
+      "error": null
+    },
+    "1052": {
+      "reserve_floor": "400",
+      "seed": 1052,
+      "d8_cash": 9.0,
+      "d15_cash": 10230.0,
+      "final_cash": 89057.0,
+      "final_v41": 82312.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "reserve_floor": "400",
+      "seed": 1053,
+      "d8_cash": 9.0,
+      "d15_cash": 9684.0,
+      "final_cash": 88061.0,
+      "final_v41": 76574.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "reserve_floor": "400",
+      "seed": 1054,
+      "d8_cash": 20.0,
+      "d15_cash": 11150.0,
+      "final_cash": 85470.0,
+      "final_v41": 71929.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "reserve_floor": "400",
+      "seed": 1055,
+      "d8_cash": 22.0,
+      "d15_cash": 12582.0,
+      "final_cash": 81168.0,
+      "final_v41": 65618.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "reserve_floor": "400",
+      "seed": 1056,
+      "d8_cash": 9.0,
+      "d15_cash": 10403.0,
+      "final_cash": 87140.0,
+      "final_v41": 78193.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "reserve_floor": "400",
+      "seed": 1057,
+      "d8_cash": 18.0,
+      "d15_cash": 13246.0,
+      "final_cash": 94333.0,
+      "final_v41": 73116.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "reserve_floor": "400",
+      "seed": 1058,
+      "d8_cash": 9.0,
+      "d15_cash": 9993.0,
+      "final_cash": 89983.0,
+      "final_v41": 62917.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "reserve_floor": "400",
+      "seed": 1060,
+      "d8_cash": 18.0,
+      "d15_cash": 12965.0,
+      "final_cash": 80604.0,
+      "final_v41": 74002.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "reserve_floor": "400",
+      "seed": 1059,
+      "d8_cash": 9.0,
+      "d15_cash": 11234.0,
+      "final_cash": 79206.0,
+      "final_v41": 72052.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "reserve_floor": "400",
+      "seed": 1061,
+      "d8_cash": 31.0,
+      "d15_cash": 13419.0,
+      "final_cash": 87955.0,
+      "final_v41": 76451.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "reserve_floor": "400",
+      "seed": 1062,
+      "d8_cash": 18.0,
+      "d15_cash": 12966.0,
+      "final_cash": 82872.0,
+      "final_v41": 80275.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "reserve_floor": "400",
+      "seed": 1063,
+      "d8_cash": 19.0,
+      "d15_cash": 13045.0,
+      "final_cash": 83552.0,
+      "final_v41": 70601.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "reserve_floor": "400",
+      "seed": 1064,
+      "d8_cash": 18.0,
+      "d15_cash": 13347.0,
+      "final_cash": 85382.0,
+      "final_v41": 79679.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "reserve_floor": "400",
+      "seed": 1065,
+      "d8_cash": 20.0,
+      "d15_cash": 11109.0,
+      "final_cash": 87263.0,
+      "final_v41": 73217.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "reserve_floor": "400",
+      "seed": 1066,
+      "d8_cash": 22.0,
+      "d15_cash": 13291.0,
+      "final_cash": 91090.0,
+      "final_v41": 79305.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "reserve_floor": "400",
+      "seed": 1067,
+      "d8_cash": 18.0,
+      "d15_cash": 12975.0,
+      "final_cash": 90105.0,
+      "final_v41": 83630.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "reserve_floor": "400",
+      "seed": 1068,
+      "d8_cash": 9.0,
+      "d15_cash": 10065.0,
+      "final_cash": 83611.0,
+      "final_v41": 70853.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "reserve_floor": "400",
+      "seed": 1069,
+      "d8_cash": 9.0,
+      "d15_cash": 10469.0,
+      "final_cash": 82438.0,
+      "final_v41": 74336.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "reserve_floor": "400",
+      "seed": 1071,
+      "d8_cash": 18.0,
+      "d15_cash": 13447.0,
+      "final_cash": 87279.0,
+      "final_v41": 77880.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "reserve_floor": "400",
+      "seed": 1070,
+      "d8_cash": 9.0,
+      "d15_cash": 9864.0,
+      "final_cash": 85642.0,
+      "final_v41": 80069.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "reserve_floor": "400",
+      "seed": 1072,
+      "d8_cash": 9.0,
+      "d15_cash": 11429.0,
+      "final_cash": 81663.0,
+      "final_v41": 72100.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "reserve_floor": "400",
+      "seed": 1073,
+      "d8_cash": 18.0,
+      "d15_cash": 13550.0,
+      "final_cash": 94262.0,
+      "final_v41": 79668.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "reserve_floor": "400",
+      "seed": 1074,
+      "d8_cash": 18.0,
+      "d15_cash": 13723.0,
+      "final_cash": 92598.0,
+      "final_v41": 74928.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "reserve_floor": "400",
+      "seed": 1075,
+      "d8_cash": 18.0,
+      "d15_cash": 14467.0,
+      "final_cash": 87565.0,
+      "final_v41": 76040.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "reserve_floor": "400",
+      "seed": 1076,
+      "d8_cash": 18.0,
+      "d15_cash": 12965.0,
+      "final_cash": 81867.0,
+      "final_v41": 74943.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "reserve_floor": "400",
+      "seed": 1077,
+      "d8_cash": 18.0,
+      "d15_cash": 12856.0,
+      "final_cash": 80140.0,
+      "final_v41": 67906.0,
+      "win": true,
+      "error": null
+    },
+    "1078": {
+      "reserve_floor": "400",
+      "seed": 1078,
+      "d8_cash": 9.0,
+      "d15_cash": 9861.0,
+      "final_cash": 80522.0,
+      "final_v41": 77283.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "reserve_floor": "400",
+      "seed": 1079,
+      "d8_cash": 9.0,
+      "d15_cash": 10962.0,
+      "final_cash": 88660.0,
+      "final_v41": 71192.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "reserve_floor": "400",
+      "seed": 1080,
+      "d8_cash": 9.0,
+      "d15_cash": 10024.0,
+      "final_cash": 97412.0,
+      "final_v41": 70514.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "reserve_floor": "400",
+      "seed": 1081,
+      "d8_cash": 9.0,
+      "d15_cash": 9978.0,
+      "final_cash": 95357.0,
+      "final_v41": 69535.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "reserve_floor": "400",
+      "seed": 1082,
+      "d8_cash": 18.0,
+      "d15_cash": 14470.0,
+      "final_cash": 82961.0,
+      "final_v41": 71351.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "reserve_floor": "400",
+      "seed": 1083,
+      "d8_cash": 18.0,
+      "d15_cash": 13002.0,
+      "final_cash": 79856.0,
+      "final_v41": 67732.0,
+      "win": true,
+      "error": null
+    },
+    "1084": {
+      "reserve_floor": "400",
+      "seed": 1084,
+      "d8_cash": 9.0,
+      "d15_cash": 10495.0,
+      "final_cash": 88947.0,
+      "final_v41": 80661.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "reserve_floor": "400",
+      "seed": 1085,
+      "d8_cash": 22.0,
+      "d15_cash": 13280.0,
+      "final_cash": 83403.0,
+      "final_v41": 71811.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "reserve_floor": "400",
+      "seed": 1086,
+      "d8_cash": 9.0,
+      "d15_cash": 11193.0,
+      "final_cash": 79394.0,
+      "final_v41": 72549.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "reserve_floor": "400",
+      "seed": 1088,
+      "d8_cash": 18.0,
+      "d15_cash": 12661.0,
+      "final_cash": 86226.0,
+      "final_v41": 67828.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "reserve_floor": "400",
+      "seed": 1087,
+      "d8_cash": 20.0,
+      "d15_cash": 11000.0,
+      "final_cash": 86185.0,
+      "final_v41": 68393.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "reserve_floor": "400",
+      "seed": 1089,
+      "d8_cash": 9.0,
+      "d15_cash": 10523.0,
+      "final_cash": 84047.0,
+      "final_v41": 68824.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "reserve_floor": "400",
+      "seed": 1090,
+      "d8_cash": 18.0,
+      "d15_cash": 13243.0,
+      "final_cash": 89210.0,
+      "final_v41": 83042.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "reserve_floor": "400",
+      "seed": 1091,
+      "d8_cash": 20.0,
+      "d15_cash": 11000.0,
+      "final_cash": 79360.0,
+      "final_v41": 61536.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "reserve_floor": "400",
+      "seed": 1092,
+      "d8_cash": 18.0,
+      "d15_cash": 13479.0,
+      "final_cash": 90676.0,
+      "final_v41": 82953.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "reserve_floor": "400",
+      "seed": 1093,
+      "d8_cash": 18.0,
+      "d15_cash": 13045.0,
+      "final_cash": 89008.0,
+      "final_v41": 72813.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "reserve_floor": "400",
+      "seed": 1095,
+      "d8_cash": 18.0,
+      "d15_cash": 14149.0,
+      "final_cash": 76871.0,
+      "final_v41": 65423.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "reserve_floor": "400",
+      "seed": 1094,
+      "d8_cash": 9.0,
+      "d15_cash": 10628.0,
+      "final_cash": 94369.0,
+      "final_v41": 73237.0,
+      "win": true,
+      "error": null
+    },
+    "1096": {
+      "reserve_floor": "400",
+      "seed": 1096,
+      "d8_cash": 18.0,
+      "d15_cash": 13007.0,
+      "final_cash": 82600.0,
+      "final_v41": 67890.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "reserve_floor": "400",
+      "seed": 1097,
+      "d8_cash": 18.0,
+      "d15_cash": 13219.0,
+      "final_cash": 86262.0,
+      "final_v41": 78238.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "reserve_floor": "400",
+      "seed": 1098,
+      "d8_cash": 18.0,
+      "d15_cash": 13006.0,
+      "final_cash": 79725.0,
+      "final_v41": 73349.0,
+      "win": true,
+      "error": null
+    },
+    "1099": {
+      "reserve_floor": "400",
+      "seed": 1099,
+      "d8_cash": 18.0,
+      "d15_cash": 13079.0,
+      "final_cash": 85077.0,
+      "final_v41": 79059.0,
+      "win": true,
+      "error": null
+    }
+  },
+  "600": {
+    "1000": {
+      "reserve_floor": "600",
+      "seed": 1000,
+      "d8_cash": 9.0,
+      "d15_cash": 10018.0,
+      "final_cash": 85124.0,
+      "final_v41": 78825.0,
+      "win": true,
+      "error": null
+    },
+    "1001": {
+      "reserve_floor": "600",
+      "seed": 1001,
+      "d8_cash": 19.0,
+      "d15_cash": 13347.0,
+      "final_cash": 87368.0,
+      "final_v41": 77878.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "reserve_floor": "600",
+      "seed": 1002,
+      "d8_cash": 9.0,
+      "d15_cash": 10574.0,
+      "final_cash": 81352.0,
+      "final_v41": 70223.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "reserve_floor": "600",
+      "seed": 1003,
+      "d8_cash": 18.0,
+      "d15_cash": 13112.0,
+      "final_cash": 88396.0,
+      "final_v41": 77813.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "reserve_floor": "600",
+      "seed": 1004,
+      "d8_cash": 9.0,
+      "d15_cash": 10609.0,
+      "final_cash": 95405.0,
+      "final_v41": 79399.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "reserve_floor": "600",
+      "seed": 1005,
+      "d8_cash": 9.0,
+      "d15_cash": 10523.0,
+      "final_cash": 88264.0,
+      "final_v41": 73276.0,
+      "win": true,
+      "error": null
+    },
+    "1007": {
+      "reserve_floor": "600",
+      "seed": 1007,
+      "d8_cash": 18.0,
+      "d15_cash": 13346.0,
+      "final_cash": 90141.0,
+      "final_v41": 71022.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "reserve_floor": "600",
+      "seed": 1006,
+      "d8_cash": 9.0,
+      "d15_cash": 10559.0,
+      "final_cash": 88448.0,
+      "final_v41": 78305.0,
+      "win": true,
+      "error": null
+    },
+    "1008": {
+      "reserve_floor": "600",
+      "seed": 1008,
+      "d8_cash": 9.0,
+      "d15_cash": 9913.0,
+      "final_cash": 97463.0,
+      "final_v41": 75561.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "reserve_floor": "600",
+      "seed": 1009,
+      "d8_cash": 9.0,
+      "d15_cash": 10534.0,
+      "final_cash": 85698.0,
+      "final_v41": 71636.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "reserve_floor": "600",
+      "seed": 1010,
+      "d8_cash": 18.0,
+      "d15_cash": 13620.0,
+      "final_cash": 95892.0,
+      "final_v41": 82864.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "reserve_floor": "600",
+      "seed": 1011,
+      "d8_cash": 19.0,
+      "d15_cash": 13016.0,
+      "final_cash": 85292.0,
+      "final_v41": 78498.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "reserve_floor": "600",
+      "seed": 1012,
+      "d8_cash": 18.0,
+      "d15_cash": 12931.0,
+      "final_cash": 84943.0,
+      "final_v41": 77855.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "reserve_floor": "600",
+      "seed": 1013,
+      "d8_cash": 18.0,
+      "d15_cash": 13265.0,
+      "final_cash": 87768.0,
+      "final_v41": 75344.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "reserve_floor": "600",
+      "seed": 1014,
+      "d8_cash": 9.0,
+      "d15_cash": 10485.0,
+      "final_cash": 81423.0,
+      "final_v41": 79131.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "reserve_floor": "600",
+      "seed": 1015,
+      "d8_cash": 18.0,
+      "d15_cash": 14232.0,
+      "final_cash": 80862.0,
+      "final_v41": 69606.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "reserve_floor": "600",
+      "seed": 1016,
+      "d8_cash": 18.0,
+      "d15_cash": 13165.0,
+      "final_cash": 87072.0,
+      "final_v41": 75135.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "reserve_floor": "600",
+      "seed": 1017,
+      "d8_cash": 18.0,
+      "d15_cash": 13193.0,
+      "final_cash": 77940.0,
+      "final_v41": 65924.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "reserve_floor": "600",
+      "seed": 1019,
+      "d8_cash": 18.0,
+      "d15_cash": 13117.0,
+      "final_cash": 84264.0,
+      "final_v41": 74477.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "reserve_floor": "600",
+      "seed": 1018,
+      "d8_cash": 18.0,
+      "d15_cash": 12923.0,
+      "final_cash": 88153.0,
+      "final_v41": 75935.0,
+      "win": true,
+      "error": null
+    },
+    "1020": {
+      "reserve_floor": "600",
+      "seed": 1020,
+      "d8_cash": 9.0,
+      "d15_cash": 10831.0,
+      "final_cash": 91840.0,
+      "final_v41": 78161.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "reserve_floor": "600",
+      "seed": 1021,
+      "d8_cash": 9.0,
+      "d15_cash": 10656.0,
+      "final_cash": 96400.0,
+      "final_v41": 76752.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "reserve_floor": "600",
+      "seed": 1022,
+      "d8_cash": 18.0,
+      "d15_cash": 12965.0,
+      "final_cash": 83367.0,
+      "final_v41": 76193.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "reserve_floor": "600",
+      "seed": 1023,
+      "d8_cash": 22.0,
+      "d15_cash": 13389.0,
+      "final_cash": 92927.0,
+      "final_v41": 81251.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "reserve_floor": "600",
+      "seed": 1024,
+      "d8_cash": 9.0,
+      "d15_cash": 10612.0,
+      "final_cash": 92754.0,
+      "final_v41": 76390.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "reserve_floor": "600",
+      "seed": 1025,
+      "d8_cash": 18.0,
+      "d15_cash": 12200.0,
+      "final_cash": 87983.0,
+      "final_v41": 75467.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "reserve_floor": "600",
+      "seed": 1026,
+      "d8_cash": 31.0,
+      "d15_cash": 13378.0,
+      "final_cash": 92887.0,
+      "final_v41": 81199.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "reserve_floor": "600",
+      "seed": 1027,
+      "d8_cash": 9.0,
+      "d15_cash": 9939.0,
+      "final_cash": 89964.0,
+      "final_v41": 63536.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "reserve_floor": "600",
+      "seed": 1028,
+      "d8_cash": 18.0,
+      "d15_cash": 14229.0,
+      "final_cash": 85121.0,
+      "final_v41": 74042.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "reserve_floor": "600",
+      "seed": 1029,
+      "d8_cash": 20.0,
+      "d15_cash": 10581.0,
+      "final_cash": 81146.0,
+      "final_v41": 69060.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "reserve_floor": "600",
+      "seed": 1030,
+      "d8_cash": 9.0,
+      "d15_cash": 10181.0,
+      "final_cash": 90427.0,
+      "final_v41": 78279.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "reserve_floor": "600",
+      "seed": 1031,
+      "d8_cash": 9.0,
+      "d15_cash": 10144.0,
+      "final_cash": 76868.0,
+      "final_v41": 71717.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "reserve_floor": "600",
+      "seed": 1032,
+      "d8_cash": 9.0,
+      "d15_cash": 11205.0,
+      "final_cash": 83373.0,
+      "final_v41": 77522.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "reserve_floor": "600",
+      "seed": 1033,
+      "d8_cash": 9.0,
+      "d15_cash": 10268.0,
+      "final_cash": 87179.0,
+      "final_v41": 68342.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "reserve_floor": "600",
+      "seed": 1034,
+      "d8_cash": 20.0,
+      "d15_cash": 10993.0,
+      "final_cash": 79866.0,
+      "final_v41": 62243.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "reserve_floor": "600",
+      "seed": 1035,
+      "d8_cash": 9.0,
+      "d15_cash": 11193.0,
+      "final_cash": 75889.0,
+      "final_v41": 68849.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "reserve_floor": "600",
+      "seed": 1036,
+      "d8_cash": 18.0,
+      "d15_cash": 13237.0,
+      "final_cash": 88196.0,
+      "final_v41": 82212.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "reserve_floor": "600",
+      "seed": 1037,
+      "d8_cash": 18.0,
+      "d15_cash": 13110.0,
+      "final_cash": 89746.0,
+      "final_v41": 83499.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "reserve_floor": "600",
+      "seed": 1038,
+      "d8_cash": 9.0,
+      "d15_cash": 9979.0,
+      "final_cash": 90631.0,
+      "final_v41": 64013.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "reserve_floor": "600",
+      "seed": 1039,
+      "d8_cash": 9.0,
+      "d15_cash": 9901.0,
+      "final_cash": 94014.0,
+      "final_v41": 67953.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "reserve_floor": "600",
+      "seed": 1040,
+      "d8_cash": 9.0,
+      "d15_cash": 10645.0,
+      "final_cash": 96574.0,
+      "final_v41": 80712.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "reserve_floor": "600",
+      "seed": 1041,
+      "d8_cash": 9.0,
+      "d15_cash": 10193.0,
+      "final_cash": 85960.0,
+      "final_v41": 80652.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "reserve_floor": "600",
+      "seed": 1045,
+      "d8_cash": 18.0,
+      "d15_cash": 13007.0,
+      "final_cash": 80103.0,
+      "final_v41": 67436.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "reserve_floor": "600",
+      "seed": 1042,
+      "d8_cash": 9.0,
+      "d15_cash": 10537.0,
+      "final_cash": 79683.0,
+      "final_v41": 65774.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "reserve_floor": "600",
+      "seed": 1043,
+      "d8_cash": 20.0,
+      "d15_cash": 11113.0,
+      "final_cash": 89816.0,
+      "final_v41": 70091.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "reserve_floor": "600",
+      "seed": 1044,
+      "d8_cash": 9.0,
+      "d15_cash": 10777.0,
+      "final_cash": 92628.0,
+      "final_v41": 69593.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "reserve_floor": "600",
+      "seed": 1046,
+      "d8_cash": 9.0,
+      "d15_cash": 10942.0,
+      "final_cash": 81761.0,
+      "final_v41": 63276.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "reserve_floor": "600",
+      "seed": 1048,
+      "d8_cash": 31.0,
+      "d15_cash": 12500.0,
+      "final_cash": 86478.0,
+      "final_v41": 76938.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "reserve_floor": "600",
+      "seed": 1047,
+      "d8_cash": 9.0,
+      "d15_cash": 10463.0,
+      "final_cash": 85558.0,
+      "final_v41": 77364.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "reserve_floor": "600",
+      "seed": 1049,
+      "d8_cash": 18.0,
+      "d15_cash": 13002.0,
+      "final_cash": 87565.0,
+      "final_v41": 75312.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "reserve_floor": "600",
+      "seed": 1050,
+      "d8_cash": 31.0,
+      "d15_cash": 14002.0,
+      "final_cash": 80181.0,
+      "final_v41": 80642.0,
+      "win": false,
+      "error": null
+    },
+    "1051": {
+      "reserve_floor": "600",
+      "seed": 1051,
+      "d8_cash": 18.0,
+      "d15_cash": 12333.0,
+      "final_cash": 96946.0,
+      "final_v41": 75840.0,
+      "win": true,
+      "error": null
+    },
+    "1052": {
+      "reserve_floor": "600",
+      "seed": 1052,
+      "d8_cash": 9.0,
+      "d15_cash": 10230.0,
+      "final_cash": 89057.0,
+      "final_v41": 82312.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "reserve_floor": "600",
+      "seed": 1053,
+      "d8_cash": 9.0,
+      "d15_cash": 9684.0,
+      "final_cash": 88061.0,
+      "final_v41": 76574.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "reserve_floor": "600",
+      "seed": 1054,
+      "d8_cash": 20.0,
+      "d15_cash": 11150.0,
+      "final_cash": 85470.0,
+      "final_v41": 71929.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "reserve_floor": "600",
+      "seed": 1055,
+      "d8_cash": 22.0,
+      "d15_cash": 12582.0,
+      "final_cash": 81168.0,
+      "final_v41": 65618.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "reserve_floor": "600",
+      "seed": 1057,
+      "d8_cash": 18.0,
+      "d15_cash": 13246.0,
+      "final_cash": 94333.0,
+      "final_v41": 73116.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "reserve_floor": "600",
+      "seed": 1056,
+      "d8_cash": 9.0,
+      "d15_cash": 10403.0,
+      "final_cash": 87140.0,
+      "final_v41": 78193.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "reserve_floor": "600",
+      "seed": 1058,
+      "d8_cash": 9.0,
+      "d15_cash": 9993.0,
+      "final_cash": 89983.0,
+      "final_v41": 62917.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "reserve_floor": "600",
+      "seed": 1060,
+      "d8_cash": 18.0,
+      "d15_cash": 12965.0,
+      "final_cash": 80604.0,
+      "final_v41": 74002.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "reserve_floor": "600",
+      "seed": 1061,
+      "d8_cash": 31.0,
+      "d15_cash": 13419.0,
+      "final_cash": 87955.0,
+      "final_v41": 76451.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "reserve_floor": "600",
+      "seed": 1059,
+      "d8_cash": 9.0,
+      "d15_cash": 11234.0,
+      "final_cash": 79206.0,
+      "final_v41": 72052.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "reserve_floor": "600",
+      "seed": 1062,
+      "d8_cash": 18.0,
+      "d15_cash": 12966.0,
+      "final_cash": 82872.0,
+      "final_v41": 80275.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "reserve_floor": "600",
+      "seed": 1063,
+      "d8_cash": 19.0,
+      "d15_cash": 13045.0,
+      "final_cash": 83552.0,
+      "final_v41": 70601.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "reserve_floor": "600",
+      "seed": 1064,
+      "d8_cash": 18.0,
+      "d15_cash": 13347.0,
+      "final_cash": 85382.0,
+      "final_v41": 79679.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "reserve_floor": "600",
+      "seed": 1065,
+      "d8_cash": 20.0,
+      "d15_cash": 11109.0,
+      "final_cash": 87263.0,
+      "final_v41": 73217.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "reserve_floor": "600",
+      "seed": 1066,
+      "d8_cash": 22.0,
+      "d15_cash": 13291.0,
+      "final_cash": 91090.0,
+      "final_v41": 79305.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "reserve_floor": "600",
+      "seed": 1067,
+      "d8_cash": 18.0,
+      "d15_cash": 12975.0,
+      "final_cash": 90105.0,
+      "final_v41": 83630.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "reserve_floor": "600",
+      "seed": 1068,
+      "d8_cash": 9.0,
+      "d15_cash": 10065.0,
+      "final_cash": 83611.0,
+      "final_v41": 70853.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "reserve_floor": "600",
+      "seed": 1069,
+      "d8_cash": 9.0,
+      "d15_cash": 10469.0,
+      "final_cash": 82438.0,
+      "final_v41": 74336.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "reserve_floor": "600",
+      "seed": 1070,
+      "d8_cash": 9.0,
+      "d15_cash": 9864.0,
+      "final_cash": 85642.0,
+      "final_v41": 80069.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "reserve_floor": "600",
+      "seed": 1071,
+      "d8_cash": 18.0,
+      "d15_cash": 13447.0,
+      "final_cash": 87279.0,
+      "final_v41": 77880.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "reserve_floor": "600",
+      "seed": 1073,
+      "d8_cash": 18.0,
+      "d15_cash": 13550.0,
+      "final_cash": 94262.0,
+      "final_v41": 79668.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "reserve_floor": "600",
+      "seed": 1072,
+      "d8_cash": 9.0,
+      "d15_cash": 11429.0,
+      "final_cash": 81663.0,
+      "final_v41": 72100.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "reserve_floor": "600",
+      "seed": 1074,
+      "d8_cash": 18.0,
+      "d15_cash": 13723.0,
+      "final_cash": 92598.0,
+      "final_v41": 74928.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "reserve_floor": "600",
+      "seed": 1075,
+      "d8_cash": 18.0,
+      "d15_cash": 14467.0,
+      "final_cash": 87565.0,
+      "final_v41": 76040.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "reserve_floor": "600",
+      "seed": 1076,
+      "d8_cash": 18.0,
+      "d15_cash": 12965.0,
+      "final_cash": 81867.0,
+      "final_v41": 74943.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "reserve_floor": "600",
+      "seed": 1077,
+      "d8_cash": 18.0,
+      "d15_cash": 12856.0,
+      "final_cash": 80140.0,
+      "final_v41": 67906.0,
+      "win": true,
+      "error": null
+    },
+    "1078": {
+      "reserve_floor": "600",
+      "seed": 1078,
+      "d8_cash": 9.0,
+      "d15_cash": 9861.0,
+      "final_cash": 80522.0,
+      "final_v41": 77283.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "reserve_floor": "600",
+      "seed": 1079,
+      "d8_cash": 9.0,
+      "d15_cash": 10962.0,
+      "final_cash": 88660.0,
+      "final_v41": 71192.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "reserve_floor": "600",
+      "seed": 1080,
+      "d8_cash": 9.0,
+      "d15_cash": 10024.0,
+      "final_cash": 97412.0,
+      "final_v41": 70514.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "reserve_floor": "600",
+      "seed": 1082,
+      "d8_cash": 18.0,
+      "d15_cash": 14470.0,
+      "final_cash": 82961.0,
+      "final_v41": 71351.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "reserve_floor": "600",
+      "seed": 1081,
+      "d8_cash": 9.0,
+      "d15_cash": 9978.0,
+      "final_cash": 95357.0,
+      "final_v41": 69535.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "reserve_floor": "600",
+      "seed": 1083,
+      "d8_cash": 18.0,
+      "d15_cash": 13002.0,
+      "final_cash": 79856.0,
+      "final_v41": 67732.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "reserve_floor": "600",
+      "seed": 1085,
+      "d8_cash": 22.0,
+      "d15_cash": 13280.0,
+      "final_cash": 83403.0,
+      "final_v41": 71811.0,
+      "win": true,
+      "error": null
+    },
+    "1084": {
+      "reserve_floor": "600",
+      "seed": 1084,
+      "d8_cash": 9.0,
+      "d15_cash": 10495.0,
+      "final_cash": 88947.0,
+      "final_v41": 80661.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "reserve_floor": "600",
+      "seed": 1086,
+      "d8_cash": 9.0,
+      "d15_cash": 11193.0,
+      "final_cash": 79394.0,
+      "final_v41": 72549.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "reserve_floor": "600",
+      "seed": 1087,
+      "d8_cash": 20.0,
+      "d15_cash": 11000.0,
+      "final_cash": 86185.0,
+      "final_v41": 68393.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "reserve_floor": "600",
+      "seed": 1088,
+      "d8_cash": 18.0,
+      "d15_cash": 12661.0,
+      "final_cash": 86226.0,
+      "final_v41": 67828.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "reserve_floor": "600",
+      "seed": 1089,
+      "d8_cash": 9.0,
+      "d15_cash": 10523.0,
+      "final_cash": 84047.0,
+      "final_v41": 68824.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "reserve_floor": "600",
+      "seed": 1092,
+      "d8_cash": 18.0,
+      "d15_cash": 13479.0,
+      "final_cash": 90676.0,
+      "final_v41": 82953.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "reserve_floor": "600",
+      "seed": 1090,
+      "d8_cash": 18.0,
+      "d15_cash": 13243.0,
+      "final_cash": 89210.0,
+      "final_v41": 83042.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "reserve_floor": "600",
+      "seed": 1091,
+      "d8_cash": 20.0,
+      "d15_cash": 11000.0,
+      "final_cash": 79360.0,
+      "final_v41": 61536.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "reserve_floor": "600",
+      "seed": 1093,
+      "d8_cash": 18.0,
+      "d15_cash": 13045.0,
+      "final_cash": 89008.0,
+      "final_v41": 72813.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "reserve_floor": "600",
+      "seed": 1094,
+      "d8_cash": 9.0,
+      "d15_cash": 10628.0,
+      "final_cash": 94369.0,
+      "final_v41": 73237.0,
+      "win": true,
+      "error": null
+    },
+    "1096": {
+      "reserve_floor": "600",
+      "seed": 1096,
+      "d8_cash": 18.0,
+      "d15_cash": 13007.0,
+      "final_cash": 82600.0,
+      "final_v41": 67890.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "reserve_floor": "600",
+      "seed": 1095,
+      "d8_cash": 18.0,
+      "d15_cash": 14149.0,
+      "final_cash": 76871.0,
+      "final_v41": 65423.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "reserve_floor": "600",
+      "seed": 1097,
+      "d8_cash": 18.0,
+      "d15_cash": 13219.0,
+      "final_cash": 86262.0,
+      "final_v41": 78238.0,
+      "win": true,
+      "error": null
+    },
+    "1099": {
+      "reserve_floor": "600",
+      "seed": 1099,
+      "d8_cash": 18.0,
+      "d15_cash": 13079.0,
+      "final_cash": 85077.0,
+      "final_v41": 79059.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "reserve_floor": "600",
+      "seed": 1098,
+      "d8_cash": 18.0,
+      "d15_cash": 13006.0,
+      "final_cash": 79725.0,
+      "final_v41": 73349.0,
+      "win": true,
+      "error": null
+    }
+  },
+  "800": {
+    "1000": {
+      "reserve_floor": "800",
+      "seed": 1000,
+      "d8_cash": 794.0,
+      "d15_cash": 7399.0,
+      "final_cash": 91989.0,
+      "final_v41": 80556.0,
+      "win": true,
+      "error": null
+    },
+    "1001": {
+      "reserve_floor": "800",
+      "seed": 1001,
+      "d8_cash": 809.0,
+      "d15_cash": 7326.0,
+      "final_cash": 88417.0,
+      "final_v41": 74747.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "reserve_floor": "800",
+      "seed": 1003,
+      "d8_cash": 797.0,
+      "d15_cash": 8330.0,
+      "final_cash": 90979.0,
+      "final_v41": 87602.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "reserve_floor": "800",
+      "seed": 1002,
+      "d8_cash": 801.0,
+      "d15_cash": 7454.0,
+      "final_cash": 90071.0,
+      "final_v41": 77818.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "reserve_floor": "800",
+      "seed": 1004,
+      "d8_cash": 794.0,
+      "d15_cash": 7369.0,
+      "final_cash": 92654.0,
+      "final_v41": 80022.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "reserve_floor": "800",
+      "seed": 1005,
+      "d8_cash": 795.0,
+      "d15_cash": 7591.0,
+      "final_cash": 96975.0,
+      "final_v41": 84232.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "reserve_floor": "800",
+      "seed": 1006,
+      "d8_cash": 794.0,
+      "d15_cash": 7591.0,
+      "final_cash": 92612.0,
+      "final_v41": 83024.0,
+      "win": true,
+      "error": null
+    },
+    "1007": {
+      "reserve_floor": "800",
+      "seed": 1007,
+      "d8_cash": 879.0,
+      "d15_cash": 5892.0,
+      "final_cash": 85370.0,
+      "final_v41": 86639.0,
+      "win": false,
+      "error": null
+    },
+    "1008": {
+      "reserve_floor": "800",
+      "seed": 1008,
+      "d8_cash": 833.0,
+      "d15_cash": 7970.0,
+      "final_cash": 98567.0,
+      "final_v41": 84379.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "reserve_floor": "800",
+      "seed": 1009,
+      "d8_cash": 794.0,
+      "d15_cash": 7547.0,
+      "final_cash": 93907.0,
+      "final_v41": 78501.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "reserve_floor": "800",
+      "seed": 1011,
+      "d8_cash": 805.0,
+      "d15_cash": 8478.0,
+      "final_cash": 96477.0,
+      "final_v41": 84232.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "reserve_floor": "800",
+      "seed": 1010,
+      "d8_cash": 797.0,
+      "d15_cash": 8395.0,
+      "final_cash": 87250.0,
+      "final_v41": 83565.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "reserve_floor": "800",
+      "seed": 1012,
+      "d8_cash": 797.0,
+      "d15_cash": 8330.0,
+      "final_cash": 88039.0,
+      "final_v41": 84286.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "reserve_floor": "800",
+      "seed": 1013,
+      "d8_cash": 839.0,
+      "d15_cash": 7851.0,
+      "final_cash": 94910.0,
+      "final_v41": 83364.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "reserve_floor": "800",
+      "seed": 1015,
+      "d8_cash": 878.0,
+      "d15_cash": 5605.0,
+      "final_cash": 85778.0,
+      "final_v41": 83523.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "reserve_floor": "800",
+      "seed": 1014,
+      "d8_cash": 802.0,
+      "d15_cash": 7735.0,
+      "final_cash": 90258.0,
+      "final_v41": 76720.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "reserve_floor": "800",
+      "seed": 1016,
+      "d8_cash": 880.0,
+      "d15_cash": 8259.0,
+      "final_cash": 87063.0,
+      "final_v41": 73145.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "reserve_floor": "800",
+      "seed": 1017,
+      "d8_cash": 878.0,
+      "d15_cash": 8111.0,
+      "final_cash": 91835.0,
+      "final_v41": 77976.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "reserve_floor": "800",
+      "seed": 1018,
+      "d8_cash": 809.0,
+      "d15_cash": 7959.0,
+      "final_cash": 89081.0,
+      "final_v41": 85776.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "reserve_floor": "800",
+      "seed": 1019,
+      "d8_cash": 809.0,
+      "d15_cash": 7600.0,
+      "final_cash": 76332.0,
+      "final_v41": 68703.0,
+      "win": true,
+      "error": null
+    },
+    "1020": {
+      "reserve_floor": "800",
+      "seed": 1020,
+      "d8_cash": 795.0,
+      "d15_cash": 7549.0,
+      "final_cash": 91926.0,
+      "final_v41": 79513.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "reserve_floor": "800",
+      "seed": 1021,
+      "d8_cash": 802.0,
+      "d15_cash": 7611.0,
+      "final_cash": 95004.0,
+      "final_v41": 73048.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "reserve_floor": "800",
+      "seed": 1022,
+      "d8_cash": 837.0,
+      "d15_cash": 6941.0,
+      "final_cash": 94875.0,
+      "final_v41": 86169.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "reserve_floor": "800",
+      "seed": 1023,
+      "d8_cash": 878.0,
+      "d15_cash": 8148.0,
+      "final_cash": 88843.0,
+      "final_v41": 75294.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "reserve_floor": "800",
+      "seed": 1024,
+      "d8_cash": 833.0,
+      "d15_cash": 7695.0,
+      "final_cash": 84699.0,
+      "final_v41": 74366.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "reserve_floor": "800",
+      "seed": 1025,
+      "d8_cash": 814.0,
+      "d15_cash": 7809.0,
+      "final_cash": 94267.0,
+      "final_v41": 92230.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "reserve_floor": "800",
+      "seed": 1026,
+      "d8_cash": 798.0,
+      "d15_cash": 7764.0,
+      "final_cash": 91063.0,
+      "final_v41": 88389.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "reserve_floor": "800",
+      "seed": 1028,
+      "d8_cash": 886.0,
+      "d15_cash": 5692.0,
+      "final_cash": 85328.0,
+      "final_v41": 83240.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "reserve_floor": "800",
+      "seed": 1029,
+      "d8_cash": 801.0,
+      "d15_cash": 7856.0,
+      "final_cash": 97489.0,
+      "final_v41": 80269.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "reserve_floor": "800",
+      "seed": 1027,
+      "d8_cash": 794.0,
+      "d15_cash": 7850.0,
+      "final_cash": 100299.0,
+      "final_v41": 82727.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "reserve_floor": "800",
+      "seed": 1030,
+      "d8_cash": 798.0,
+      "d15_cash": 7797.0,
+      "final_cash": 93165.0,
+      "final_v41": 85175.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "reserve_floor": "800",
+      "seed": 1031,
+      "d8_cash": 794.0,
+      "d15_cash": 7766.0,
+      "final_cash": 96240.0,
+      "final_v41": 85972.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "reserve_floor": "800",
+      "seed": 1032,
+      "d8_cash": 833.0,
+      "d15_cash": 8065.0,
+      "final_cash": 97175.0,
+      "final_v41": 87808.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "reserve_floor": "800",
+      "seed": 1033,
+      "d8_cash": 794.0,
+      "d15_cash": 7485.0,
+      "final_cash": 97145.0,
+      "final_v41": 80631.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "reserve_floor": "800",
+      "seed": 1035,
+      "d8_cash": 795.0,
+      "d15_cash": 7602.0,
+      "final_cash": 94312.0,
+      "final_v41": 81723.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "reserve_floor": "800",
+      "seed": 1034,
+      "d8_cash": 798.0,
+      "d15_cash": 7812.0,
+      "final_cash": 90141.0,
+      "final_v41": 78958.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "reserve_floor": "800",
+      "seed": 1036,
+      "d8_cash": 797.0,
+      "d15_cash": 8364.0,
+      "final_cash": 92512.0,
+      "final_v41": 89122.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "reserve_floor": "800",
+      "seed": 1037,
+      "d8_cash": 797.0,
+      "d15_cash": 8410.0,
+      "final_cash": 88287.0,
+      "final_v41": 85446.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "reserve_floor": "800",
+      "seed": 1038,
+      "d8_cash": 833.0,
+      "d15_cash": 7964.0,
+      "final_cash": 86539.0,
+      "final_v41": 76755.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "reserve_floor": "800",
+      "seed": 1039,
+      "d8_cash": 798.0,
+      "d15_cash": 7712.0,
+      "final_cash": 86718.0,
+      "final_v41": 76565.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "reserve_floor": "800",
+      "seed": 1041,
+      "d8_cash": 795.0,
+      "d15_cash": 7581.0,
+      "final_cash": 96339.0,
+      "final_v41": 83606.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "reserve_floor": "800",
+      "seed": 1040,
+      "d8_cash": 794.0,
+      "d15_cash": 7769.0,
+      "final_cash": 95123.0,
+      "final_v41": 85229.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "reserve_floor": "800",
+      "seed": 1042,
+      "d8_cash": 794.0,
+      "d15_cash": 6928.0,
+      "final_cash": 103391.0,
+      "final_v41": 84541.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "reserve_floor": "800",
+      "seed": 1043,
+      "d8_cash": 802.0,
+      "d15_cash": 7649.0,
+      "final_cash": 89845.0,
+      "final_v41": 81904.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "reserve_floor": "800",
+      "seed": 1044,
+      "d8_cash": 801.0,
+      "d15_cash": 7498.0,
+      "final_cash": 90960.0,
+      "final_v41": 79576.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "reserve_floor": "800",
+      "seed": 1045,
+      "d8_cash": 809.0,
+      "d15_cash": 5862.0,
+      "final_cash": 80187.0,
+      "final_v41": 76728.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "reserve_floor": "800",
+      "seed": 1047,
+      "d8_cash": 798.0,
+      "d15_cash": 7690.0,
+      "final_cash": 92278.0,
+      "final_v41": 85004.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "reserve_floor": "800",
+      "seed": 1046,
+      "d8_cash": 795.0,
+      "d15_cash": 7641.0,
+      "final_cash": 90141.0,
+      "final_v41": 75200.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "reserve_floor": "800",
+      "seed": 1048,
+      "d8_cash": 799.0,
+      "d15_cash": 8611.0,
+      "final_cash": 90153.0,
+      "final_v41": 86558.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "reserve_floor": "800",
+      "seed": 1049,
+      "d8_cash": 811.0,
+      "d15_cash": 5926.0,
+      "final_cash": 85891.0,
+      "final_v41": 78561.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "reserve_floor": "800",
+      "seed": 1050,
+      "d8_cash": 809.0,
+      "d15_cash": 5863.0,
+      "final_cash": 94219.0,
+      "final_v41": 87131.0,
+      "win": true,
+      "error": null
+    },
+    "1051": {
+      "reserve_floor": "800",
+      "seed": 1051,
+      "d8_cash": 809.0,
+      "d15_cash": 5685.0,
+      "final_cash": 83753.0,
+      "final_v41": 76534.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "reserve_floor": "800",
+      "seed": 1053,
+      "d8_cash": 795.0,
+      "d15_cash": 7370.0,
+      "final_cash": 97069.0,
+      "final_v41": 84426.0,
+      "win": true,
+      "error": null
+    },
+    "1052": {
+      "reserve_floor": "800",
+      "seed": 1052,
+      "d8_cash": 802.0,
+      "d15_cash": 8109.0,
+      "final_cash": 105318.0,
+      "final_v41": 87675.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "reserve_floor": "800",
+      "seed": 1054,
+      "d8_cash": 802.0,
+      "d15_cash": 7637.0,
+      "final_cash": 94232.0,
+      "final_v41": 79244.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "reserve_floor": "800",
+      "seed": 1055,
+      "d8_cash": 878.0,
+      "d15_cash": 8109.0,
+      "final_cash": 94460.0,
+      "final_v41": 90046.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "reserve_floor": "800",
+      "seed": 1056,
+      "d8_cash": 794.0,
+      "d15_cash": 8169.0,
+      "final_cash": 97936.0,
+      "final_v41": 83573.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "reserve_floor": "800",
+      "seed": 1058,
+      "d8_cash": 794.0,
+      "d15_cash": 7749.0,
+      "final_cash": 88929.0,
+      "final_v41": 81466.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "reserve_floor": "800",
+      "seed": 1059,
+      "d8_cash": 833.0,
+      "d15_cash": 7686.0,
+      "final_cash": 89464.0,
+      "final_v41": 78922.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "reserve_floor": "800",
+      "seed": 1057,
+      "d8_cash": 809.0,
+      "d15_cash": 5629.0,
+      "final_cash": 80828.0,
+      "final_v41": 73182.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "reserve_floor": "800",
+      "seed": 1060,
+      "d8_cash": 797.0,
+      "d15_cash": 8619.0,
+      "final_cash": 86786.0,
+      "final_v41": 83028.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "reserve_floor": "800",
+      "seed": 1061,
+      "d8_cash": 798.0,
+      "d15_cash": 7030.0,
+      "final_cash": 96484.0,
+      "final_v41": 96182.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "reserve_floor": "800",
+      "seed": 1062,
+      "d8_cash": 798.0,
+      "d15_cash": 7022.0,
+      "final_cash": 96603.0,
+      "final_v41": 87746.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "reserve_floor": "800",
+      "seed": 1063,
+      "d8_cash": 797.0,
+      "d15_cash": 7030.0,
+      "final_cash": 89643.0,
+      "final_v41": 79124.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "reserve_floor": "800",
+      "seed": 1064,
+      "d8_cash": 805.0,
+      "d15_cash": 8031.0,
+      "final_cash": 93439.0,
+      "final_v41": 87216.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "reserve_floor": "800",
+      "seed": 1066,
+      "d8_cash": 878.0,
+      "d15_cash": 5715.0,
+      "final_cash": 84480.0,
+      "final_v41": 82762.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "reserve_floor": "800",
+      "seed": 1065,
+      "d8_cash": 795.0,
+      "d15_cash": 7590.0,
+      "final_cash": 98146.0,
+      "final_v41": 78407.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "reserve_floor": "800",
+      "seed": 1067,
+      "d8_cash": 798.0,
+      "d15_cash": 7803.0,
+      "final_cash": 93823.0,
+      "final_v41": 90832.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "reserve_floor": "800",
+      "seed": 1068,
+      "d8_cash": 798.0,
+      "d15_cash": 7690.0,
+      "final_cash": 96523.0,
+      "final_v41": 88516.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "reserve_floor": "800",
+      "seed": 1069,
+      "d8_cash": 801.0,
+      "d15_cash": 7585.0,
+      "final_cash": 88578.0,
+      "final_v41": 72095.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "reserve_floor": "800",
+      "seed": 1071,
+      "d8_cash": 809.0,
+      "d15_cash": 5629.0,
+      "final_cash": 83321.0,
+      "final_v41": 76603.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "reserve_floor": "800",
+      "seed": 1070,
+      "d8_cash": 802.0,
+      "d15_cash": 7893.0,
+      "final_cash": 95791.0,
+      "final_v41": 75544.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "reserve_floor": "800",
+      "seed": 1072,
+      "d8_cash": 802.0,
+      "d15_cash": 7692.0,
+      "final_cash": 89392.0,
+      "final_v41": 86261.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "reserve_floor": "800",
+      "seed": 1073,
+      "d8_cash": 797.0,
+      "d15_cash": 8395.0,
+      "final_cash": 94834.0,
+      "final_v41": 91097.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "reserve_floor": "800",
+      "seed": 1074,
+      "d8_cash": 797.0,
+      "d15_cash": 8376.0,
+      "final_cash": 92484.0,
+      "final_v41": 88921.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "reserve_floor": "800",
+      "seed": 1075,
+      "d8_cash": 883.0,
+      "d15_cash": 8345.0,
+      "final_cash": 88389.0,
+      "final_v41": 74569.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "reserve_floor": "800",
+      "seed": 1077,
+      "d8_cash": 809.0,
+      "d15_cash": 7799.0,
+      "final_cash": 71391.0,
+      "final_v41": 74704.0,
+      "win": false,
+      "error": null
+    },
+    "1076": {
+      "reserve_floor": "800",
+      "seed": 1076,
+      "d8_cash": 837.0,
+      "d15_cash": 7888.0,
+      "final_cash": 91378.0,
+      "final_v41": 80242.0,
+      "win": true,
+      "error": null
+    },
+    "1078": {
+      "reserve_floor": "800",
+      "seed": 1078,
+      "d8_cash": 795.0,
+      "d15_cash": 7370.0,
+      "final_cash": 94591.0,
+      "final_v41": 81923.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "reserve_floor": "800",
+      "seed": 1079,
+      "d8_cash": 801.0,
+      "d15_cash": 7758.0,
+      "final_cash": 94170.0,
+      "final_v41": 80757.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "reserve_floor": "800",
+      "seed": 1080,
+      "d8_cash": 802.0,
+      "d15_cash": 7638.0,
+      "final_cash": 87979.0,
+      "final_v41": 81049.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "reserve_floor": "800",
+      "seed": 1081,
+      "d8_cash": 794.0,
+      "d15_cash": 7629.0,
+      "final_cash": 92424.0,
+      "final_v41": 77619.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "reserve_floor": "800",
+      "seed": 1082,
+      "d8_cash": 878.0,
+      "d15_cash": 8294.0,
+      "final_cash": 95755.0,
+      "final_v41": 81566.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "reserve_floor": "800",
+      "seed": 1083,
+      "d8_cash": 849.0,
+      "d15_cash": 6888.0,
+      "final_cash": 85050.0,
+      "final_v41": 72253.0,
+      "win": true,
+      "error": null
+    },
+    "1084": {
+      "reserve_floor": "800",
+      "seed": 1084,
+      "d8_cash": 833.0,
+      "d15_cash": 7977.0,
+      "final_cash": 98125.0,
+      "final_v41": 83980.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "reserve_floor": "800",
+      "seed": 1086,
+      "d8_cash": 798.0,
+      "d15_cash": 7817.0,
+      "final_cash": 86326.0,
+      "final_v41": 78501.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "reserve_floor": "800",
+      "seed": 1085,
+      "d8_cash": 879.0,
+      "d15_cash": 5999.0,
+      "final_cash": 92346.0,
+      "final_v41": 90814.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "reserve_floor": "800",
+      "seed": 1087,
+      "d8_cash": 802.0,
+      "d15_cash": 7680.0,
+      "final_cash": 90839.0,
+      "final_v41": 82044.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "reserve_floor": "800",
+      "seed": 1088,
+      "d8_cash": 809.0,
+      "d15_cash": 5934.0,
+      "final_cash": 90866.0,
+      "final_v41": 81019.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "reserve_floor": "800",
+      "seed": 1089,
+      "d8_cash": 798.0,
+      "d15_cash": 7711.0,
+      "final_cash": 90417.0,
+      "final_v41": 81423.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "reserve_floor": "800",
+      "seed": 1090,
+      "d8_cash": 798.0,
+      "d15_cash": 8420.0,
+      "final_cash": 102249.0,
+      "final_v41": 89647.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "reserve_floor": "800",
+      "seed": 1091,
+      "d8_cash": 794.0,
+      "d15_cash": 7834.0,
+      "final_cash": 89105.0,
+      "final_v41": 80326.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "reserve_floor": "800",
+      "seed": 1092,
+      "d8_cash": 798.0,
+      "d15_cash": 7001.0,
+      "final_cash": 97929.0,
+      "final_v41": 96166.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "reserve_floor": "800",
+      "seed": 1093,
+      "d8_cash": 809.0,
+      "d15_cash": 7664.0,
+      "final_cash": 81579.0,
+      "final_v41": 69903.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "reserve_floor": "800",
+      "seed": 1094,
+      "d8_cash": 794.0,
+      "d15_cash": 7655.0,
+      "final_cash": 87726.0,
+      "final_v41": 84914.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "reserve_floor": "800",
+      "seed": 1095,
+      "d8_cash": 878.0,
+      "d15_cash": 7847.0,
+      "final_cash": 86740.0,
+      "final_v41": 69669.0,
+      "win": true,
+      "error": null
+    },
+    "1096": {
+      "reserve_floor": "800",
+      "seed": 1096,
+      "d8_cash": 809.0,
+      "d15_cash": 5972.0,
+      "final_cash": 82787.0,
+      "final_v41": 74717.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "reserve_floor": "800",
+      "seed": 1098,
+      "d8_cash": 809.0,
+      "d15_cash": 7795.0,
+      "final_cash": 87946.0,
+      "final_v41": 79960.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "reserve_floor": "800",
+      "seed": 1097,
+      "d8_cash": 878.0,
+      "d15_cash": 5937.0,
+      "final_cash": 92633.0,
+      "final_v41": 86048.0,
+      "win": true,
+      "error": null
+    },
+    "1099": {
+      "reserve_floor": "800",
+      "seed": 1099,
+      "d8_cash": 805.0,
+      "d15_cash": 7993.0,
+      "final_cash": 100123.0,
+      "final_v41": 93735.0,
+      "win": true,
+      "error": null
+    }
+  }
+}

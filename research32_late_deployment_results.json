@@ -1,0 +1,52 @@
+[
+  {
+    "variant": "Control",
+    "name": "Cutoff Day 25 (V4.2 Baseline)",
+    "win_rate": 100.0,
+    "avg_d25": 55111.58,
+    "avg_d28": 76444.47,
+    "avg_final": 96686.78,
+    "avg_v41": 80666.88,
+    "margin": 16019.9
+  },
+  {
+    "variant": "VarA",
+    "name": "Cutoff Day 26 + ROI Guard",
+    "win_rate": 100.0,
+    "avg_d25": 55111.58,
+    "avg_d28": 76444.47,
+    "avg_final": 96686.78,
+    "avg_v41": 80666.88,
+    "margin": 16019.9
+  },
+  {
+    "variant": "VarB",
+    "name": "Cutoff Day 27 + ROI Guard",
+    "win_rate": 100.0,
+    "avg_d25": 55111.58,
+    "avg_d28": 76444.47,
+    "avg_final": 96686.78,
+    "avg_v41": 80666.88,
+    "margin": 16019.9
+  },
+  {
+    "variant": "VarC",
+    "name": "Cutoff Day 28 + ROI Guard",
+    "win_rate": 100.0,
+    "avg_d25": 55111.58,
+    "avg_d28": 76444.47,
+    "avg_final": 96686.78,
+    "avg_v41": 80666.88,
+    "margin": 16019.9
+  },
+  {
+    "variant": "VarD",
+    "name": "Cutoff Day 29 + ROI Guard",
+    "win_rate": 100.0,
+    "avg_d25": 55111.58,
+    "avg_d28": 76444.47,
+    "avg_final": 96686.78,
+    "avg_v41": 80666.88,
+    "margin": 16019.9
+  }
+]

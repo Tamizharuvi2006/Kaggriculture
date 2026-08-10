@@ -1,0 +1,774 @@
+{
+  "reports": [
+    {
+      "seed": 1000,
+      "daily_metrics": [
+        {
+          "day": 1,
+          "money": 1043.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 2,
+          "money": 978.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 3,
+          "money": 885.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 4,
+          "money": 829.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 5,
+          "money": 591.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 6,
+          "money": 407.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 7,
+          "money": 110.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 8,
+          "money": 799.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 9,
+          "money": 270.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 10,
+          "money": 174.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        }
+      ],
+      "final_day10_money": 174.0,
+      "final_day10_cows": 2
+    },
+    {
+      "seed": 1001,
+      "daily_metrics": [
+        {
+          "day": 1,
+          "money": 1043.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 2,
+          "money": 978.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 3,
+          "money": 885.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 4,
+          "money": 831.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 5,
+          "money": 597.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 6,
+          "money": 394.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 7,
+          "money": 113.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 8,
+          "money": 817.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 9,
+          "money": 288.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 10,
+          "money": 193.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        }
+      ],
+      "final_day10_money": 193.0,
+      "final_day10_cows": 2
+    },
+    {
+      "seed": 1002,
+      "daily_metrics": [
+        {
+          "day": 1,
+          "money": 1043.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 2,
+          "money": 978.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 3,
+          "money": 885.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 4,
+          "money": 829.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 5,
+          "money": 591.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 6,
+          "money": 407.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 7,
+          "money": 110.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 8,
+          "money": 834.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 9,
+          "money": 205.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 10,
+          "money": 117.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        }
+      ],
+      "final_day10_money": 117.0,
+      "final_day10_cows": 2
+    },
+    {
+      "seed": 1003,
+      "daily_metrics": [
+        {
+          "day": 1,
+          "money": 1043.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 2,
+          "money": 978.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 3,
+          "money": 885.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 4,
+          "money": 831.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 5,
+          "money": 593.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 6,
+          "money": 390.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 7,
+          "money": 109.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 8,
+          "money": 799.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 9,
+          "money": 270.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 10,
+          "money": 150.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        }
+      ],
+      "final_day10_money": 150.0,
+      "final_day10_cows": 2
+    },
+    {
+      "seed": 1004,
+      "daily_metrics": [
+        {
+          "day": 1,
+          "money": 1043.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 2,
+          "money": 978.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 3,
+          "money": 885.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 4,
+          "money": 829.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 5,
+          "money": 591.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 6,
+          "money": 407.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 7,
+          "money": 109.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 8,
+          "money": 789.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 9,
+          "money": 260.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 10,
+          "money": 188.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        }
+      ],
+      "final_day10_money": 188.0,
+      "final_day10_cows": 2
+    },
+    {
+      "seed": 1005,
+      "daily_metrics": [
+        {
+          "day": 1,
+          "money": 1043.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 2,
+          "money": 978.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 3,
+          "money": 885.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 4,
+          "money": 829.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 5,
+          "money": 591.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 6,
+          "money": 407.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 7,
+          "money": 109.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 8,
+          "money": 789.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 9,
+          "money": 260.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 10,
+          "money": 188.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        }
+      ],
+      "final_day10_money": 188.0,
+      "final_day10_cows": 2
+    },
+    {
+      "seed": 1006,
+      "daily_metrics": [
+        {
+          "day": 1,
+          "money": 1043.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 2,
+          "money": 978.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 3,
+          "money": 885.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 4,
+          "money": 829.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 5,
+          "money": 591.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 6,
+          "money": 407.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 7,
+          "money": 109.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 8,
+          "money": 789.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 9,
+          "money": 260.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 10,
+          "money": 188.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        }
+      ],
+      "final_day10_money": 188.0,
+      "final_day10_cows": 2
+    },
+    {
+      "seed": 1007,
+      "daily_metrics": [
+        {
+          "day": 1,
+          "money": 1043.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 2,
+          "money": 978.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 3,
+          "money": 885.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 4,
+          "money": 831.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 5,
+          "money": 593.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 6,
+          "money": 390.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 7,
+          "money": 114.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 8,
+          "money": 909.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 9,
+          "money": 280.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 10,
+          "money": 178.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        }
+      ],
+      "final_day10_money": 178.0,
+      "final_day10_cows": 2
+    },
+    {
+      "seed": 1008,
+      "daily_metrics": [
+        {
+          "day": 1,
+          "money": 1043.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 2,
+          "money": 978.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 3,
+          "money": 885.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 4,
+          "money": 829.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 5,
+          "money": 591.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 6,
+          "money": 407.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 7,
+          "money": 110.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 8,
+          "money": 799.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 9,
+          "money": 270.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 10,
+          "money": 174.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        }
+      ],
+      "final_day10_money": 174.0,
+      "final_day10_cows": 2
+    },
+    {
+      "seed": 1009,
+      "daily_metrics": [
+        {
+          "day": 1,
+          "money": 1043.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 2,
+          "money": 978.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 3,
+          "money": 885.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 4,
+          "money": 829.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 5,
+          "money": 591.0,
+          "cows": 1,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 6,
+          "money": 407.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 7,
+          "money": 109.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 8,
+          "money": 789.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 9,
+          "money": 260.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        },
+        {
+          "day": 10,
+          "money": 188.0,
+          "cows": 2,
+          "tiles_owned": 0,
+          "feed": 0
+        }
+      ],
+      "final_day10_money": 188.0,
+      "final_day10_cows": 2
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "res_v41a": {
+    "variant": "V41A",
+    "win_rate": 14.000000000000002,
+    "mean_score": 92378.84,
+    "mean_v41_score": 92145.62,
+    "victory_margin": 233.22,
+    "worst_floor": 75498.0
+  },
+  "res_v41b": {
+    "variant": "V41B",
+    "win_rate": 78.0,
+    "mean_score": 94711.5,
+    "mean_v41_score": 87390.32,
+    "victory_margin": 7321.18,
+    "worst_floor": 79613.0
+  },
+  "res_v84": {
+    "variant": "V84",
+    "win_rate": 78.0,
+    "mean_score": 94711.5,
+    "mean_v41_score": 87390.32,
+    "victory_margin": 7321.18,
+    "worst_floor": 79613.0
+  },
+  "cows_9_13_roi_percent": 10.4,
+  "extra_wealth_uncapped": 233.22
+}

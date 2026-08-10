@@ -1,0 +1,42 @@
+[
+  {
+    "variant": "Control",
+    "avg_cow8_day": 13,
+    "win_rate": 100.0,
+    "avg_final": 96649.6,
+    "avg_v41": 81306.9,
+    "margin": 15342.7
+  },
+  {
+    "variant": "VarA",
+    "avg_cow8_day": 13,
+    "win_rate": 90.0,
+    "avg_final": 88093.6,
+    "avg_v41": 83237.9,
+    "margin": 4855.7
+  },
+  {
+    "variant": "VarB",
+    "avg_cow8_day": 13,
+    "win_rate": 90.0,
+    "avg_final": 90582.8,
+    "avg_v41": 82685.1,
+    "margin": 7897.7
+  },
+  {
+    "variant": "VarC",
+    "avg_cow8_day": 13,
+    "win_rate": 90.0,
+    "avg_final": 90582.8,
+    "avg_v41": 82685.1,
+    "margin": 7897.7
+  },
+  {
+    "variant": "VarD",
+    "avg_cow8_day": 13,
+    "win_rate": 90.0,
+    "avg_final": 88093.6,
+    "avg_v41": 83237.9,
+    "margin": 4855.7
+  }
+]

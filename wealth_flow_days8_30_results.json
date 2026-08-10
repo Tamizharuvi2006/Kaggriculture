@@ -1,0 +1,1274 @@
+{
+  "reports": [
+    {
+      "seed": 1000,
+      "day_metrics": [
+        {
+          "day": 8,
+          "v42_cash": 705.0,
+          "v41_cash": 119.0,
+          "v42_net_worth": 1305.0,
+          "v41_net_worth": 419.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 886.0
+        },
+        {
+          "day": 10,
+          "v42_cash": 210.0,
+          "v41_cash": 137.0,
+          "v42_net_worth": 810.0,
+          "v41_net_worth": 437.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 373.0
+        },
+        {
+          "day": 12,
+          "v42_cash": 7629.0,
+          "v41_cash": 8506.0,
+          "v42_net_worth": 9129.0,
+          "v41_net_worth": 10306.0,
+          "v42_cows": 5,
+          "v41_cows": 6,
+          "divergence": -1177.0
+        },
+        {
+          "day": 14,
+          "v42_cash": 7223.0,
+          "v41_cash": 6552.0,
+          "v42_net_worth": 9623.0,
+          "v41_net_worth": 9252.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 371.0
+        },
+        {
+          "day": 16,
+          "v42_cash": 9908.0,
+          "v41_cash": 6898.0,
+          "v42_net_worth": 12308.0,
+          "v41_net_worth": 9598.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 2710.0
+        },
+        {
+          "day": 18,
+          "v42_cash": 10534.0,
+          "v41_cash": 7443.0,
+          "v42_net_worth": 12934.0,
+          "v41_net_worth": 10143.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 2791.0
+        },
+        {
+          "day": 20,
+          "v42_cash": 15691.0,
+          "v41_cash": 9227.0,
+          "v42_net_worth": 18091.0,
+          "v41_net_worth": 11927.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 6164.0
+        },
+        {
+          "day": 22,
+          "v42_cash": 21833.0,
+          "v41_cash": 20910.0,
+          "v42_net_worth": 24233.0,
+          "v41_net_worth": 23610.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 623.0
+        },
+        {
+          "day": 24,
+          "v42_cash": 44877.0,
+          "v41_cash": 30893.0,
+          "v42_net_worth": 47277.0,
+          "v41_net_worth": 33593.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 13684.0
+        },
+        {
+          "day": 26,
+          "v42_cash": 57233.0,
+          "v41_cash": 46346.0,
+          "v42_net_worth": 59633.0,
+          "v41_net_worth": 49046.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 10587.0
+        },
+        {
+          "day": 28,
+          "v42_cash": 72294.0,
+          "v41_cash": 58243.0,
+          "v42_net_worth": 74694.0,
+          "v41_net_worth": 60943.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 13751.0
+        },
+        {
+          "day": 30,
+          "v42_cash": 91552.0,
+          "v41_cash": 78224.0,
+          "v42_net_worth": 93952.0,
+          "v41_net_worth": 80924.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 13028.0
+        }
+      ],
+      "final_v42": 91552.0,
+      "final_v41": 78224.0
+    },
+    {
+      "seed": 1001,
+      "day_metrics": [
+        {
+          "day": 8,
+          "v42_cash": 714.0,
+          "v41_cash": 58.0,
+          "v42_net_worth": 1314.0,
+          "v41_net_worth": 658.0,
+          "v42_cows": 2,
+          "v41_cows": 2,
+          "divergence": 656.0
+        },
+        {
+          "day": 10,
+          "v42_cash": 1088.0,
+          "v41_cash": 6.0,
+          "v42_net_worth": 1688.0,
+          "v41_net_worth": 606.0,
+          "v42_cows": 2,
+          "v41_cows": 2,
+          "divergence": 1082.0
+        },
+        {
+          "day": 12,
+          "v42_cash": 6259.0,
+          "v41_cash": 9279.0,
+          "v42_net_worth": 7759.0,
+          "v41_net_worth": 10779.0,
+          "v42_cows": 5,
+          "v41_cows": 5,
+          "divergence": -3020.0
+        },
+        {
+          "day": 14,
+          "v42_cash": 5818.0,
+          "v41_cash": 7513.0,
+          "v42_net_worth": 8218.0,
+          "v41_net_worth": 9913.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": -1695.0
+        },
+        {
+          "day": 16,
+          "v42_cash": 8098.0,
+          "v41_cash": 8968.0,
+          "v42_net_worth": 10498.0,
+          "v41_net_worth": 11368.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": -870.0
+        },
+        {
+          "day": 18,
+          "v42_cash": 8758.0,
+          "v41_cash": 10224.0,
+          "v42_net_worth": 11158.0,
+          "v41_net_worth": 12624.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": -1466.0
+        },
+        {
+          "day": 20,
+          "v42_cash": 12081.0,
+          "v41_cash": 11209.0,
+          "v42_net_worth": 14481.0,
+          "v41_net_worth": 13609.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 872.0
+        },
+        {
+          "day": 22,
+          "v42_cash": 21961.0,
+          "v41_cash": 18021.0,
+          "v42_net_worth": 24361.0,
+          "v41_net_worth": 20421.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 3940.0
+        },
+        {
+          "day": 24,
+          "v42_cash": 39950.0,
+          "v41_cash": 29120.0,
+          "v42_net_worth": 42350.0,
+          "v41_net_worth": 31520.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 10830.0
+        },
+        {
+          "day": 26,
+          "v42_cash": 55155.0,
+          "v41_cash": 46727.0,
+          "v42_net_worth": 57555.0,
+          "v41_net_worth": 49127.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 8428.0
+        },
+        {
+          "day": 28,
+          "v42_cash": 68084.0,
+          "v41_cash": 58977.0,
+          "v42_net_worth": 70484.0,
+          "v41_net_worth": 61377.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 9107.0
+        },
+        {
+          "day": 30,
+          "v42_cash": 87448.0,
+          "v41_cash": 79191.0,
+          "v42_net_worth": 89848.0,
+          "v41_net_worth": 81591.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 8257.0
+        }
+      ],
+      "final_v42": 87448.0,
+      "final_v41": 79191.0
+    },
+    {
+      "seed": 1002,
+      "day_metrics": [
+        {
+          "day": 8,
+          "v42_cash": 710.0,
+          "v41_cash": 121.0,
+          "v42_net_worth": 1310.0,
+          "v41_net_worth": 421.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 889.0
+        },
+        {
+          "day": 10,
+          "v42_cash": 141.0,
+          "v41_cash": 139.0,
+          "v42_net_worth": 741.0,
+          "v41_net_worth": 439.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 302.0
+        },
+        {
+          "day": 12,
+          "v42_cash": 8076.0,
+          "v41_cash": 7400.0,
+          "v42_net_worth": 9576.0,
+          "v41_net_worth": 9200.0,
+          "v42_cows": 5,
+          "v41_cows": 6,
+          "divergence": 376.0
+        },
+        {
+          "day": 14,
+          "v42_cash": 7751.0,
+          "v41_cash": 5488.0,
+          "v42_net_worth": 10151.0,
+          "v41_net_worth": 8188.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 1963.0
+        },
+        {
+          "day": 16,
+          "v42_cash": 9198.0,
+          "v41_cash": 4746.0,
+          "v42_net_worth": 11598.0,
+          "v41_net_worth": 7446.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 4152.0
+        },
+        {
+          "day": 18,
+          "v42_cash": 9961.0,
+          "v41_cash": 4809.0,
+          "v42_net_worth": 12361.0,
+          "v41_net_worth": 7509.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 4852.0
+        },
+        {
+          "day": 20,
+          "v42_cash": 13624.0,
+          "v41_cash": 7280.0,
+          "v42_net_worth": 16024.0,
+          "v41_net_worth": 9980.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 6044.0
+        },
+        {
+          "day": 22,
+          "v42_cash": 23928.0,
+          "v41_cash": 16055.0,
+          "v42_net_worth": 26328.0,
+          "v41_net_worth": 18755.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 7573.0
+        },
+        {
+          "day": 24,
+          "v42_cash": 41091.0,
+          "v41_cash": 30595.0,
+          "v42_net_worth": 43491.0,
+          "v41_net_worth": 33295.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 10196.0
+        },
+        {
+          "day": 26,
+          "v42_cash": 57981.0,
+          "v41_cash": 42196.0,
+          "v42_net_worth": 60381.0,
+          "v41_net_worth": 44896.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 15485.0
+        },
+        {
+          "day": 28,
+          "v42_cash": 69902.0,
+          "v41_cash": 53056.0,
+          "v42_net_worth": 72302.0,
+          "v41_net_worth": 55756.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 16546.0
+        },
+        {
+          "day": 30,
+          "v42_cash": 87925.0,
+          "v41_cash": 72562.0,
+          "v42_net_worth": 90325.0,
+          "v41_net_worth": 75262.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 15063.0
+        }
+      ],
+      "final_v42": 87925.0,
+      "final_v41": 72562.0
+    },
+    {
+      "seed": 1003,
+      "day_metrics": [
+        {
+          "day": 8,
+          "v42_cash": 709.0,
+          "v41_cash": 58.0,
+          "v42_net_worth": 1309.0,
+          "v41_net_worth": 658.0,
+          "v42_cows": 2,
+          "v41_cows": 2,
+          "divergence": 651.0
+        },
+        {
+          "day": 10,
+          "v42_cash": 139.0,
+          "v41_cash": 203.0,
+          "v42_net_worth": 739.0,
+          "v41_net_worth": 803.0,
+          "v42_cows": 2,
+          "v41_cows": 2,
+          "divergence": -64.0
+        },
+        {
+          "day": 12,
+          "v42_cash": 8369.0,
+          "v41_cash": 7464.0,
+          "v42_net_worth": 9869.0,
+          "v41_net_worth": 8964.0,
+          "v42_cows": 5,
+          "v41_cows": 5,
+          "divergence": 905.0
+        },
+        {
+          "day": 14,
+          "v42_cash": 7950.0,
+          "v41_cash": 5648.0,
+          "v42_net_worth": 10350.0,
+          "v41_net_worth": 8048.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 2302.0
+        },
+        {
+          "day": 16,
+          "v42_cash": 10320.0,
+          "v41_cash": 7790.0,
+          "v42_net_worth": 12720.0,
+          "v41_net_worth": 10190.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 2530.0
+        },
+        {
+          "day": 18,
+          "v42_cash": 10439.0,
+          "v41_cash": 8849.0,
+          "v42_net_worth": 12839.0,
+          "v41_net_worth": 11249.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 1590.0
+        },
+        {
+          "day": 20,
+          "v42_cash": 14751.0,
+          "v41_cash": 10401.0,
+          "v42_net_worth": 17151.0,
+          "v41_net_worth": 12801.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 4350.0
+        },
+        {
+          "day": 22,
+          "v42_cash": 28072.0,
+          "v41_cash": 20174.0,
+          "v42_net_worth": 30472.0,
+          "v41_net_worth": 22574.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 7898.0
+        },
+        {
+          "day": 24,
+          "v42_cash": 46405.0,
+          "v41_cash": 33270.0,
+          "v42_net_worth": 48805.0,
+          "v41_net_worth": 35670.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 13135.0
+        },
+        {
+          "day": 26,
+          "v42_cash": 65420.0,
+          "v41_cash": 49231.0,
+          "v42_net_worth": 67820.0,
+          "v41_net_worth": 51631.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 16189.0
+        },
+        {
+          "day": 28,
+          "v42_cash": 82643.0,
+          "v41_cash": 64753.0,
+          "v42_net_worth": 85043.0,
+          "v41_net_worth": 67153.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 17890.0
+        },
+        {
+          "day": 30,
+          "v42_cash": 104031.0,
+          "v41_cash": 88300.0,
+          "v42_net_worth": 106431.0,
+          "v41_net_worth": 90700.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 15731.0
+        }
+      ],
+      "final_v42": 104031.0,
+      "final_v41": 88300.0
+    },
+    {
+      "seed": 1004,
+      "day_metrics": [
+        {
+          "day": 8,
+          "v42_cash": 705.0,
+          "v41_cash": 119.0,
+          "v42_net_worth": 1305.0,
+          "v41_net_worth": 419.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 886.0
+        },
+        {
+          "day": 10,
+          "v42_cash": 142.0,
+          "v41_cash": 145.0,
+          "v42_net_worth": 742.0,
+          "v41_net_worth": 445.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 297.0
+        },
+        {
+          "day": 12,
+          "v42_cash": 8055.0,
+          "v41_cash": 7365.0,
+          "v42_net_worth": 9555.0,
+          "v41_net_worth": 9165.0,
+          "v42_cows": 5,
+          "v41_cows": 6,
+          "divergence": 390.0
+        },
+        {
+          "day": 14,
+          "v42_cash": 7548.0,
+          "v41_cash": 5379.0,
+          "v42_net_worth": 9948.0,
+          "v41_net_worth": 8079.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 1869.0
+        },
+        {
+          "day": 16,
+          "v42_cash": 9011.0,
+          "v41_cash": 4633.0,
+          "v42_net_worth": 11411.0,
+          "v41_net_worth": 7333.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 4078.0
+        },
+        {
+          "day": 18,
+          "v42_cash": 9748.0,
+          "v41_cash": 4664.0,
+          "v42_net_worth": 12148.0,
+          "v41_net_worth": 7364.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 4784.0
+        },
+        {
+          "day": 20,
+          "v42_cash": 13434.0,
+          "v41_cash": 6997.0,
+          "v42_net_worth": 15834.0,
+          "v41_net_worth": 9697.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 6137.0
+        },
+        {
+          "day": 22,
+          "v42_cash": 24461.0,
+          "v41_cash": 16348.0,
+          "v42_net_worth": 26861.0,
+          "v41_net_worth": 19048.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 7813.0
+        },
+        {
+          "day": 24,
+          "v42_cash": 42511.0,
+          "v41_cash": 31923.0,
+          "v42_net_worth": 44911.0,
+          "v41_net_worth": 34623.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 10288.0
+        },
+        {
+          "day": 26,
+          "v42_cash": 61126.0,
+          "v41_cash": 44890.0,
+          "v42_net_worth": 63526.0,
+          "v41_net_worth": 47590.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 15936.0
+        },
+        {
+          "day": 28,
+          "v42_cash": 74612.0,
+          "v41_cash": 57334.0,
+          "v42_net_worth": 77012.0,
+          "v41_net_worth": 60034.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 16978.0
+        },
+        {
+          "day": 30,
+          "v42_cash": 94037.0,
+          "v41_cash": 78971.0,
+          "v42_net_worth": 96437.0,
+          "v41_net_worth": 81671.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 14766.0
+        }
+      ],
+      "final_v42": 94037.0,
+      "final_v41": 78971.0
+    },
+    {
+      "seed": 1005,
+      "day_metrics": [
+        {
+          "day": 8,
+          "v42_cash": 705.0,
+          "v41_cash": 119.0,
+          "v42_net_worth": 1305.0,
+          "v41_net_worth": 419.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 886.0
+        },
+        {
+          "day": 10,
+          "v42_cash": 142.0,
+          "v41_cash": 145.0,
+          "v42_net_worth": 742.0,
+          "v41_net_worth": 445.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 297.0
+        },
+        {
+          "day": 12,
+          "v42_cash": 8046.0,
+          "v41_cash": 7353.0,
+          "v42_net_worth": 9546.0,
+          "v41_net_worth": 9153.0,
+          "v42_cows": 5,
+          "v41_cows": 6,
+          "divergence": 393.0
+        },
+        {
+          "day": 14,
+          "v42_cash": 7514.0,
+          "v41_cash": 5348.0,
+          "v42_net_worth": 9914.0,
+          "v41_net_worth": 8048.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 1866.0
+        },
+        {
+          "day": 16,
+          "v42_cash": 8945.0,
+          "v41_cash": 4572.0,
+          "v42_net_worth": 11345.0,
+          "v41_net_worth": 7272.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 4073.0
+        },
+        {
+          "day": 18,
+          "v42_cash": 9647.0,
+          "v41_cash": 4569.0,
+          "v42_net_worth": 12047.0,
+          "v41_net_worth": 7269.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 4778.0
+        },
+        {
+          "day": 20,
+          "v42_cash": 13331.0,
+          "v41_cash": 6866.0,
+          "v42_net_worth": 15731.0,
+          "v41_net_worth": 9566.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 6165.0
+        },
+        {
+          "day": 22,
+          "v42_cash": 24591.0,
+          "v41_cash": 16449.0,
+          "v42_net_worth": 26991.0,
+          "v41_net_worth": 19149.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 7842.0
+        },
+        {
+          "day": 24,
+          "v42_cash": 42777.0,
+          "v41_cash": 32166.0,
+          "v42_net_worth": 45177.0,
+          "v41_net_worth": 34866.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 10311.0
+        },
+        {
+          "day": 26,
+          "v42_cash": 61450.0,
+          "v41_cash": 45230.0,
+          "v42_net_worth": 63850.0,
+          "v41_net_worth": 47930.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 15920.0
+        },
+        {
+          "day": 28,
+          "v42_cash": 74998.0,
+          "v41_cash": 57742.0,
+          "v42_net_worth": 77398.0,
+          "v41_net_worth": 60442.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 16956.0
+        },
+        {
+          "day": 30,
+          "v42_cash": 94570.0,
+          "v41_cash": 79573.0,
+          "v42_net_worth": 96970.0,
+          "v41_net_worth": 82273.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 14697.0
+        }
+      ],
+      "final_v42": 94570.0,
+      "final_v41": 79573.0
+    },
+    {
+      "seed": 1006,
+      "day_metrics": [
+        {
+          "day": 8,
+          "v42_cash": 705.0,
+          "v41_cash": 119.0,
+          "v42_net_worth": 1305.0,
+          "v41_net_worth": 419.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 886.0
+        },
+        {
+          "day": 10,
+          "v42_cash": 137.0,
+          "v41_cash": 158.0,
+          "v42_net_worth": 737.0,
+          "v41_net_worth": 458.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 279.0
+        },
+        {
+          "day": 12,
+          "v42_cash": 8019.0,
+          "v41_cash": 7776.0,
+          "v42_net_worth": 9519.0,
+          "v41_net_worth": 9576.0,
+          "v42_cows": 5,
+          "v41_cows": 6,
+          "divergence": -57.0
+        },
+        {
+          "day": 14,
+          "v42_cash": 7474.0,
+          "v41_cash": 5967.0,
+          "v42_net_worth": 9874.0,
+          "v41_net_worth": 8667.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 1207.0
+        },
+        {
+          "day": 16,
+          "v42_cash": 9651.0,
+          "v41_cash": 6118.0,
+          "v42_net_worth": 12051.0,
+          "v41_net_worth": 8818.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 3233.0
+        },
+        {
+          "day": 18,
+          "v42_cash": 9843.0,
+          "v41_cash": 5865.0,
+          "v42_net_worth": 12243.0,
+          "v41_net_worth": 8565.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 3678.0
+        },
+        {
+          "day": 20,
+          "v42_cash": 13527.0,
+          "v41_cash": 8839.0,
+          "v42_net_worth": 15927.0,
+          "v41_net_worth": 11539.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 4388.0
+        },
+        {
+          "day": 22,
+          "v42_cash": 24728.0,
+          "v41_cash": 20265.0,
+          "v42_net_worth": 27128.0,
+          "v41_net_worth": 22965.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 4163.0
+        },
+        {
+          "day": 24,
+          "v42_cash": 46272.0,
+          "v41_cash": 30137.0,
+          "v42_net_worth": 48672.0,
+          "v41_net_worth": 32837.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 15835.0
+        },
+        {
+          "day": 26,
+          "v42_cash": 63191.0,
+          "v41_cash": 47838.0,
+          "v42_net_worth": 65591.0,
+          "v41_net_worth": 50538.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 15053.0
+        },
+        {
+          "day": 28,
+          "v42_cash": 79307.0,
+          "v41_cash": 60852.0,
+          "v42_net_worth": 81707.0,
+          "v41_net_worth": 63552.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 18155.0
+        },
+        {
+          "day": 30,
+          "v42_cash": 100977.0,
+          "v41_cash": 81704.0,
+          "v42_net_worth": 103377.0,
+          "v41_net_worth": 84404.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 18973.0
+        }
+      ],
+      "final_v42": 100977.0,
+      "final_v41": 81704.0
+    },
+    {
+      "seed": 1007,
+      "day_metrics": [
+        {
+          "day": 8,
+          "v42_cash": 790.0,
+          "v41_cash": 26.0,
+          "v42_net_worth": 1390.0,
+          "v41_net_worth": 626.0,
+          "v42_cows": 2,
+          "v41_cows": 2,
+          "divergence": 764.0
+        },
+        {
+          "day": 10,
+          "v42_cash": 163.0,
+          "v41_cash": 82.0,
+          "v42_net_worth": 763.0,
+          "v41_net_worth": 682.0,
+          "v42_cows": 2,
+          "v41_cows": 2,
+          "divergence": 81.0
+        },
+        {
+          "day": 12,
+          "v42_cash": 5442.0,
+          "v41_cash": 10229.0,
+          "v42_net_worth": 6942.0,
+          "v41_net_worth": 11729.0,
+          "v42_cows": 5,
+          "v41_cows": 5,
+          "divergence": -4787.0
+        },
+        {
+          "day": 14,
+          "v42_cash": 5220.0,
+          "v41_cash": 8568.0,
+          "v42_net_worth": 7620.0,
+          "v41_net_worth": 10968.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": -3348.0
+        },
+        {
+          "day": 16,
+          "v42_cash": 7775.0,
+          "v41_cash": 11606.0,
+          "v42_net_worth": 10175.0,
+          "v41_net_worth": 14006.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": -3831.0
+        },
+        {
+          "day": 18,
+          "v42_cash": 8613.0,
+          "v41_cash": 12400.0,
+          "v42_net_worth": 11013.0,
+          "v41_net_worth": 14800.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": -3787.0
+        },
+        {
+          "day": 20,
+          "v42_cash": 15303.0,
+          "v41_cash": 18612.0,
+          "v42_net_worth": 17703.0,
+          "v41_net_worth": 21012.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": -3309.0
+        },
+        {
+          "day": 22,
+          "v42_cash": 26506.0,
+          "v41_cash": 27573.0,
+          "v42_net_worth": 28906.0,
+          "v41_net_worth": 29973.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": -1067.0
+        },
+        {
+          "day": 24,
+          "v42_cash": 47115.0,
+          "v41_cash": 40003.0,
+          "v42_net_worth": 49515.0,
+          "v41_net_worth": 42403.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 7112.0
+        },
+        {
+          "day": 26,
+          "v42_cash": 65255.0,
+          "v41_cash": 56146.0,
+          "v42_net_worth": 67655.0,
+          "v41_net_worth": 58546.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 9109.0
+        },
+        {
+          "day": 28,
+          "v42_cash": 80780.0,
+          "v41_cash": 71341.0,
+          "v42_net_worth": 83180.0,
+          "v41_net_worth": 73741.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 9439.0
+        },
+        {
+          "day": 30,
+          "v42_cash": 103323.0,
+          "v41_cash": 92403.0,
+          "v42_net_worth": 105723.0,
+          "v41_net_worth": 94803.0,
+          "v42_cows": 8,
+          "v41_cows": 8,
+          "divergence": 10920.0
+        }
+      ],
+      "final_v42": 103323.0,
+      "final_v41": 92403.0
+    },
+    {
+      "seed": 1008,
+      "day_metrics": [
+        {
+          "day": 8,
+          "v42_cash": 743.0,
+          "v41_cash": 5.0,
+          "v42_net_worth": 1343.0,
+          "v41_net_worth": 305.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 1038.0
+        },
+        {
+          "day": 10,
+          "v42_cash": 141.0,
+          "v41_cash": 194.0,
+          "v42_net_worth": 741.0,
+          "v41_net_worth": 494.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 247.0
+        },
+        {
+          "day": 12,
+          "v42_cash": 7896.0,
+          "v41_cash": 8215.0,
+          "v42_net_worth": 9396.0,
+          "v41_net_worth": 10015.0,
+          "v42_cows": 5,
+          "v41_cows": 6,
+          "divergence": -619.0
+        },
+        {
+          "day": 14,
+          "v42_cash": 7668.0,
+          "v41_cash": 6441.0,
+          "v42_net_worth": 10068.0,
+          "v41_net_worth": 9141.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 927.0
+        },
+        {
+          "day": 16,
+          "v42_cash": 10047.0,
+          "v41_cash": 6164.0,
+          "v42_net_worth": 12447.0,
+          "v41_net_worth": 8864.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 3583.0
+        },
+        {
+          "day": 18,
+          "v42_cash": 10037.0,
+          "v41_cash": 6853.0,
+          "v42_net_worth": 12437.0,
+          "v41_net_worth": 9553.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 2884.0
+        },
+        {
+          "day": 20,
+          "v42_cash": 19271.0,
+          "v41_cash": 10689.0,
+          "v42_net_worth": 21671.0,
+          "v41_net_worth": 13389.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 8282.0
+        },
+        {
+          "day": 22,
+          "v42_cash": 29426.0,
+          "v41_cash": 20163.0,
+          "v42_net_worth": 31826.0,
+          "v41_net_worth": 22863.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 8963.0
+        },
+        {
+          "day": 24,
+          "v42_cash": 50866.0,
+          "v41_cash": 31136.0,
+          "v42_net_worth": 53266.0,
+          "v41_net_worth": 33836.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 19430.0
+        },
+        {
+          "day": 26,
+          "v42_cash": 70753.0,
+          "v41_cash": 47522.0,
+          "v42_net_worth": 73153.0,
+          "v41_net_worth": 50222.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 22931.0
+        },
+        {
+          "day": 28,
+          "v42_cash": 86960.0,
+          "v41_cash": 61151.0,
+          "v42_net_worth": 89360.0,
+          "v41_net_worth": 63851.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 25509.0
+        },
+        {
+          "day": 30,
+          "v42_cash": 107228.0,
+          "v41_cash": 84937.0,
+          "v42_net_worth": 109628.0,
+          "v41_net_worth": 87637.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 21991.0
+        }
+      ],
+      "final_v42": 107228.0,
+      "final_v41": 84937.0
+    },
+    {
+      "seed": 1009,
+      "day_metrics": [
+        {
+          "day": 8,
+          "v42_cash": 705.0,
+          "v41_cash": 119.0,
+          "v42_net_worth": 1305.0,
+          "v41_net_worth": 419.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 886.0
+        },
+        {
+          "day": 10,
+          "v42_cash": 142.0,
+          "v41_cash": 145.0,
+          "v42_net_worth": 742.0,
+          "v41_net_worth": 445.0,
+          "v42_cows": 2,
+          "v41_cows": 1,
+          "divergence": 297.0
+        },
+        {
+          "day": 12,
+          "v42_cash": 8046.0,
+          "v41_cash": 7353.0,
+          "v42_net_worth": 9546.0,
+          "v41_net_worth": 9153.0,
+          "v42_cows": 5,
+          "v41_cows": 6,
+          "divergence": 393.0
+        },
+        {
+          "day": 14,
+          "v42_cash": 7519.0,
+          "v41_cash": 5307.0,
+          "v42_net_worth": 9919.0,
+          "v41_net_worth": 8007.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 1912.0
+        },
+        {
+          "day": 16,
+          "v42_cash": 8955.0,
+          "v41_cash": 5918.0,
+          "v42_net_worth": 11355.0,
+          "v41_net_worth": 8618.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 2737.0
+        },
+        {
+          "day": 18,
+          "v42_cash": 9657.0,
+          "v41_cash": 6071.0,
+          "v42_net_worth": 12057.0,
+          "v41_net_worth": 8771.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 3286.0
+        },
+        {
+          "day": 20,
+          "v42_cash": 13332.0,
+          "v41_cash": 8222.0,
+          "v42_net_worth": 15732.0,
+          "v41_net_worth": 10922.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 4810.0
+        },
+        {
+          "day": 22,
+          "v42_cash": 24593.0,
+          "v41_cash": 16716.0,
+          "v42_net_worth": 26993.0,
+          "v41_net_worth": 19416.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 7577.0
+        },
+        {
+          "day": 24,
+          "v42_cash": 43480.0,
+          "v41_cash": 26628.0,
+          "v42_net_worth": 45880.0,
+          "v41_net_worth": 29328.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 16552.0
+        },
+        {
+          "day": 26,
+          "v42_cash": 62211.0,
+          "v41_cash": 39699.0,
+          "v42_net_worth": 64611.0,
+          "v41_net_worth": 42399.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 22212.0
+        },
+        {
+          "day": 28,
+          "v42_cash": 75846.0,
+          "v41_cash": 55600.0,
+          "v42_net_worth": 78246.0,
+          "v41_net_worth": 58300.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 19946.0
+        },
+        {
+          "day": 30,
+          "v42_cash": 95405.0,
+          "v41_cash": 77204.0,
+          "v42_net_worth": 97805.0,
+          "v41_net_worth": 79904.0,
+          "v42_cows": 8,
+          "v41_cows": 9,
+          "divergence": 17901.0
+        }
+      ],
+      "final_v42": 95405.0,
+      "final_v41": 77204.0
+    }
+  ]
+}

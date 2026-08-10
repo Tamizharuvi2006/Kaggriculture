@@ -1,0 +1,38 @@
+[
+  {
+    "variant": "Control",
+    "win_rate": 100.0,
+    "avg_price": 257.2,
+    "avg_rev": 24643.2,
+    "avg_final": 96649.6,
+    "avg_v41": 81306.9,
+    "margin": 15342.7
+  },
+  {
+    "variant": "VarA",
+    "win_rate": 100.0,
+    "avg_price": 257.2,
+    "avg_rev": 24643.2,
+    "avg_final": 96649.6,
+    "avg_v41": 81306.9,
+    "margin": 15342.7
+  },
+  {
+    "variant": "VarB",
+    "win_rate": 100.0,
+    "avg_price": 257.2,
+    "avg_rev": 24643.2,
+    "avg_final": 96649.6,
+    "avg_v41": 81306.9,
+    "margin": 15342.7
+  },
+  {
+    "variant": "VarC",
+    "win_rate": 100.0,
+    "avg_price": 257.2,
+    "avg_rev": 24643.2,
+    "avg_final": 96649.6,
+    "avg_v41": 81306.9,
+    "margin": 15342.7
+  }
+]

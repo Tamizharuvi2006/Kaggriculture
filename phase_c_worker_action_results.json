@@ -1,0 +1,72 @@
+[
+  {
+    "seed": 1000,
+    "total_worker_steps": 0,
+    "action_counts": {
+      "MILKING": 0,
+      "FEEDING": 0,
+      "HARVESTING": 0,
+      "PLANTING_WATERING": 0,
+      "SELLING": 0,
+      "WALKING": 0,
+      "IDLE": 0,
+      "OTHER": 0
+    }
+  },
+  {
+    "seed": 1001,
+    "total_worker_steps": 0,
+    "action_counts": {
+      "MILKING": 0,
+      "FEEDING": 0,
+      "HARVESTING": 0,
+      "PLANTING_WATERING": 0,
+      "SELLING": 0,
+      "WALKING": 0,
+      "IDLE": 0,
+      "OTHER": 0
+    }
+  },
+  {
+    "seed": 1002,
+    "total_worker_steps": 0,
+    "action_counts": {
+      "MILKING": 0,
+      "FEEDING": 0,
+      "HARVESTING": 0,
+      "PLANTING_WATERING": 0,
+      "SELLING": 0,
+      "WALKING": 0,
+      "IDLE": 0,
+      "OTHER": 0
+    }
+  },
+  {
+    "seed": 1003,
+    "total_worker_steps": 0,
+    "action_counts": {
+      "MILKING": 0,
+      "FEEDING": 0,
+      "HARVESTING": 0,
+      "PLANTING_WATERING": 0,
+      "SELLING": 0,
+      "WALKING": 0,
+      "IDLE": 0,
+      "OTHER": 0
+    }
+  },
+  {
+    "seed": 1004,
+    "total_worker_steps": 0,
+    "action_counts": {
+      "MILKING": 0,
+      "FEEDING": 0,
+      "HARVESTING": 0,
+      "PLANTING_WATERING": 0,
+      "SELLING": 0,
+      "WALKING": 0,
+      "IDLE": 0,
+      "OTHER": 0
+    }
+  }
+]

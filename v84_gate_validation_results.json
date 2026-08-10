@@ -1,0 +1,14 @@
+{
+  "v84_wins": 78,
+  "v41_wins": 22,
+  "ties": 0,
+  "mean_v84": 94152.5,
+  "mean_v41": 87226.43,
+  "money_diff": 6926.07,
+  "bankrupt_v84": 0,
+  "bankrupt_v41": 0,
+  "min_v84": 77004.0,
+  "min_v41": 64678.0,
+  "passed_metrics_count": 5,
+  "qualified_for_upload": true
+}

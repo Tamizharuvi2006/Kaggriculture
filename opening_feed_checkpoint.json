@@ -1,0 +1,2708 @@
+{
+  "V42": {
+    "1007": {
+      "variant_code": "V42",
+      "seed": 1007,
+      "milk_d8": 0,
+      "final_cash": 103323.0,
+      "final_v41": 92403.0,
+      "win": true,
+      "error": null
+    },
+    "1000": {
+      "variant_code": "V42",
+      "seed": 1000,
+      "milk_d8": 0,
+      "final_cash": 91552.0,
+      "final_v41": 78224.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "variant_code": "V42",
+      "seed": 1005,
+      "milk_d8": 0,
+      "final_cash": 94570.0,
+      "final_v41": 79573.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "variant_code": "V42",
+      "seed": 1011,
+      "milk_d8": 0,
+      "final_cash": 94906.0,
+      "final_v41": 89114.0,
+      "win": true,
+      "error": null
+    },
+    "1001": {
+      "variant_code": "V42",
+      "seed": 1001,
+      "milk_d8": 0,
+      "final_cash": 87448.0,
+      "final_v41": 79191.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "variant_code": "V42",
+      "seed": 1003,
+      "milk_d8": 0,
+      "final_cash": 104031.0,
+      "final_v41": 88300.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "variant_code": "V42",
+      "seed": 1002,
+      "milk_d8": 0,
+      "final_cash": 87925.0,
+      "final_v41": 72562.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "variant_code": "V42",
+      "seed": 1010,
+      "milk_d8": 0,
+      "final_cash": 100951.0,
+      "final_v41": 85550.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "variant_code": "V42",
+      "seed": 1004,
+      "milk_d8": 0,
+      "final_cash": 94037.0,
+      "final_v41": 78971.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "variant_code": "V42",
+      "seed": 1006,
+      "milk_d8": 0,
+      "final_cash": 100977.0,
+      "final_v41": 81704.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "variant_code": "V42",
+      "seed": 1009,
+      "milk_d8": 0,
+      "final_cash": 95405.0,
+      "final_v41": 77204.0,
+      "win": true,
+      "error": null
+    },
+    "1008": {
+      "variant_code": "V42",
+      "seed": 1008,
+      "milk_d8": 0,
+      "final_cash": 107228.0,
+      "final_v41": 84937.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "variant_code": "V42",
+      "seed": 1015,
+      "milk_d8": 0,
+      "final_cash": 95170.0,
+      "final_v41": 81530.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "variant_code": "V42",
+      "seed": 1013,
+      "milk_d8": 0,
+      "final_cash": 103089.0,
+      "final_v41": 83877.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "variant_code": "V42",
+      "seed": 1012,
+      "milk_d8": 0,
+      "final_cash": 100672.0,
+      "final_v41": 85198.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "variant_code": "V42",
+      "seed": 1023,
+      "milk_d8": 0,
+      "final_cash": 93718.0,
+      "final_v41": 72762.0,
+      "win": true,
+      "error": null
+    },
+    "1020": {
+      "variant_code": "V42",
+      "seed": 1020,
+      "milk_d8": 0,
+      "final_cash": 92536.0,
+      "final_v41": 77621.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "variant_code": "V42",
+      "seed": 1014,
+      "milk_d8": 0,
+      "final_cash": 102200.0,
+      "final_v41": 82659.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "variant_code": "V42",
+      "seed": 1016,
+      "milk_d8": 0,
+      "final_cash": 98523.0,
+      "final_v41": 76113.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "variant_code": "V42",
+      "seed": 1019,
+      "milk_d8": 0,
+      "final_cash": 90138.0,
+      "final_v41": 72041.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "variant_code": "V42",
+      "seed": 1017,
+      "milk_d8": 0,
+      "final_cash": 104303.0,
+      "final_v41": 82211.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "variant_code": "V42",
+      "seed": 1018,
+      "milk_d8": 0,
+      "final_cash": 89587.0,
+      "final_v41": 74660.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "variant_code": "V42",
+      "seed": 1022,
+      "milk_d8": 0,
+      "final_cash": 103501.0,
+      "final_v41": 84031.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "variant_code": "V42",
+      "seed": 1021,
+      "milk_d8": 0,
+      "final_cash": 98508.0,
+      "final_v41": 74654.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "variant_code": "V42",
+      "seed": 1024,
+      "milk_d8": 0,
+      "final_cash": 94980.0,
+      "final_v41": 72637.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "variant_code": "V42",
+      "seed": 1025,
+      "milk_d8": 0,
+      "final_cash": 100105.0,
+      "final_v41": 87911.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "variant_code": "V42",
+      "seed": 1030,
+      "milk_d8": 0,
+      "final_cash": 105862.0,
+      "final_v41": 84835.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "variant_code": "V42",
+      "seed": 1026,
+      "milk_d8": 0,
+      "final_cash": 96668.0,
+      "final_v41": 90351.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "variant_code": "V42",
+      "seed": 1033,
+      "milk_d8": 0,
+      "final_cash": 101016.0,
+      "final_v41": 86524.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "variant_code": "V42",
+      "seed": 1028,
+      "milk_d8": 0,
+      "final_cash": 91289.0,
+      "final_v41": 75581.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "variant_code": "V42",
+      "seed": 1029,
+      "milk_d8": 0,
+      "final_cash": 104279.0,
+      "final_v41": 84700.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "variant_code": "V42",
+      "seed": 1027,
+      "milk_d8": 0,
+      "final_cash": 98320.0,
+      "final_v41": 79099.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "variant_code": "V42",
+      "seed": 1031,
+      "milk_d8": 0,
+      "final_cash": 99102.0,
+      "final_v41": 79257.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "variant_code": "V42",
+      "seed": 1032,
+      "milk_d8": 0,
+      "final_cash": 103391.0,
+      "final_v41": 80780.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "variant_code": "V42",
+      "seed": 1034,
+      "milk_d8": 0,
+      "final_cash": 101210.0,
+      "final_v41": 78321.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "variant_code": "V42",
+      "seed": 1035,
+      "milk_d8": 0,
+      "final_cash": 93498.0,
+      "final_v41": 78429.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "variant_code": "V42",
+      "seed": 1036,
+      "milk_d8": 0,
+      "final_cash": 100713.0,
+      "final_v41": 84822.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "variant_code": "V42",
+      "seed": 1037,
+      "milk_d8": 0,
+      "final_cash": 102107.0,
+      "final_v41": 86749.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "variant_code": "V42",
+      "seed": 1038,
+      "milk_d8": 0,
+      "final_cash": 100148.0,
+      "final_v41": 72552.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "variant_code": "V42",
+      "seed": 1041,
+      "milk_d8": 0,
+      "final_cash": 96220.0,
+      "final_v41": 81138.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "variant_code": "V42",
+      "seed": 1044,
+      "milk_d8": 0,
+      "final_cash": 91587.0,
+      "final_v41": 70318.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "variant_code": "V42",
+      "seed": 1039,
+      "milk_d8": 0,
+      "final_cash": 93933.0,
+      "final_v41": 74147.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "variant_code": "V42",
+      "seed": 1040,
+      "milk_d8": 0,
+      "final_cash": 97985.0,
+      "final_v41": 78829.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "variant_code": "V42",
+      "seed": 1043,
+      "milk_d8": 0,
+      "final_cash": 99433.0,
+      "final_v41": 79792.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "variant_code": "V42",
+      "seed": 1042,
+      "milk_d8": 0,
+      "final_cash": 93605.0,
+      "final_v41": 80631.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "variant_code": "V42",
+      "seed": 1045,
+      "milk_d8": 0,
+      "final_cash": 87843.0,
+      "final_v41": 84400.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "variant_code": "V42",
+      "seed": 1046,
+      "milk_d8": 0,
+      "final_cash": 88880.0,
+      "final_v41": 73820.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "variant_code": "V42",
+      "seed": 1047,
+      "milk_d8": 0,
+      "final_cash": 102743.0,
+      "final_v41": 82272.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "variant_code": "V42",
+      "seed": 1048,
+      "milk_d8": 0,
+      "final_cash": 99596.0,
+      "final_v41": 84294.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "variant_code": "V42",
+      "seed": 1049,
+      "milk_d8": 0,
+      "final_cash": 86361.0,
+      "final_v41": 78103.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "variant_code": "V42",
+      "seed": 1050,
+      "milk_d8": 0,
+      "final_cash": 92588.0,
+      "final_v41": 84095.0,
+      "win": true,
+      "error": null
+    },
+    "1051": {
+      "variant_code": "V42",
+      "seed": 1051,
+      "milk_d8": 0,
+      "final_cash": 80134.0,
+      "final_v41": 75892.0,
+      "win": true,
+      "error": null
+    },
+    "1052": {
+      "variant_code": "V42",
+      "seed": 1052,
+      "milk_d8": 0,
+      "final_cash": 94922.0,
+      "final_v41": 82682.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "variant_code": "V42",
+      "seed": 1055,
+      "milk_d8": 0,
+      "final_cash": 99311.0,
+      "final_v41": 87365.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "variant_code": "V42",
+      "seed": 1057,
+      "milk_d8": 0,
+      "final_cash": 82850.0,
+      "final_v41": 73935.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "variant_code": "V42",
+      "seed": 1054,
+      "milk_d8": 0,
+      "final_cash": 97786.0,
+      "final_v41": 75811.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "variant_code": "V42",
+      "seed": 1053,
+      "milk_d8": 0,
+      "final_cash": 97962.0,
+      "final_v41": 82800.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "variant_code": "V42",
+      "seed": 1056,
+      "milk_d8": 0,
+      "final_cash": 99830.0,
+      "final_v41": 78688.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "variant_code": "V42",
+      "seed": 1058,
+      "milk_d8": 0,
+      "final_cash": 94458.0,
+      "final_v41": 72876.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "variant_code": "V42",
+      "seed": 1059,
+      "milk_d8": 0,
+      "final_cash": 103913.0,
+      "final_v41": 81041.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "variant_code": "V42",
+      "seed": 1060,
+      "milk_d8": 0,
+      "final_cash": 101582.0,
+      "final_v41": 85901.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "variant_code": "V42",
+      "seed": 1061,
+      "milk_d8": 0,
+      "final_cash": 94502.0,
+      "final_v41": 88433.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "variant_code": "V42",
+      "seed": 1062,
+      "milk_d8": 0,
+      "final_cash": 97258.0,
+      "final_v41": 91611.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "variant_code": "V42",
+      "seed": 1063,
+      "milk_d8": 0,
+      "final_cash": 94980.0,
+      "final_v41": 79385.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "variant_code": "V42",
+      "seed": 1064,
+      "milk_d8": 0,
+      "final_cash": 94488.0,
+      "final_v41": 88367.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "variant_code": "V42",
+      "seed": 1065,
+      "milk_d8": 0,
+      "final_cash": 98634.0,
+      "final_v41": 76969.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "variant_code": "V42",
+      "seed": 1067,
+      "milk_d8": 0,
+      "final_cash": 101836.0,
+      "final_v41": 88694.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "variant_code": "V42",
+      "seed": 1069,
+      "milk_d8": 0,
+      "final_cash": 89749.0,
+      "final_v41": 69940.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "variant_code": "V42",
+      "seed": 1066,
+      "milk_d8": 0,
+      "final_cash": 89899.0,
+      "final_v41": 73078.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "variant_code": "V42",
+      "seed": 1068,
+      "milk_d8": 0,
+      "final_cash": 107829.0,
+      "final_v41": 86760.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "variant_code": "V42",
+      "seed": 1070,
+      "milk_d8": 0,
+      "final_cash": 101334.0,
+      "final_v41": 87313.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "variant_code": "V42",
+      "seed": 1071,
+      "milk_d8": 0,
+      "final_cash": 79846.0,
+      "final_v41": 68735.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "variant_code": "V42",
+      "seed": 1072,
+      "milk_d8": 0,
+      "final_cash": 100547.0,
+      "final_v41": 81793.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "variant_code": "V42",
+      "seed": 1073,
+      "milk_d8": 0,
+      "final_cash": 100309.0,
+      "final_v41": 84724.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "variant_code": "V42",
+      "seed": 1074,
+      "milk_d8": 0,
+      "final_cash": 104262.0,
+      "final_v41": 88441.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "variant_code": "V42",
+      "seed": 1075,
+      "milk_d8": 0,
+      "final_cash": 95066.0,
+      "final_v41": 74242.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "variant_code": "V42",
+      "seed": 1076,
+      "milk_d8": 0,
+      "final_cash": 105094.0,
+      "final_v41": 85886.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "variant_code": "V42",
+      "seed": 1077,
+      "milk_d8": 0,
+      "final_cash": 91433.0,
+      "final_v41": 76615.0,
+      "win": true,
+      "error": null
+    },
+    "1078": {
+      "variant_code": "V42",
+      "seed": 1078,
+      "milk_d8": 0,
+      "final_cash": 103124.0,
+      "final_v41": 88069.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "variant_code": "V42",
+      "seed": 1079,
+      "milk_d8": 0,
+      "final_cash": 95079.0,
+      "final_v41": 72430.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "variant_code": "V42",
+      "seed": 1080,
+      "milk_d8": 0,
+      "final_cash": 96637.0,
+      "final_v41": 77984.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "variant_code": "V42",
+      "seed": 1081,
+      "milk_d8": 0,
+      "final_cash": 89548.0,
+      "final_v41": 74601.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "variant_code": "V42",
+      "seed": 1082,
+      "milk_d8": 0,
+      "final_cash": 95172.0,
+      "final_v41": 73732.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "variant_code": "V42",
+      "seed": 1083,
+      "milk_d8": 0,
+      "final_cash": 95443.0,
+      "final_v41": 79659.0,
+      "win": true,
+      "error": null
+    },
+    "1084": {
+      "variant_code": "V42",
+      "seed": 1084,
+      "milk_d8": 0,
+      "final_cash": 102358.0,
+      "final_v41": 85704.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "variant_code": "V42",
+      "seed": 1085,
+      "milk_d8": 0,
+      "final_cash": 98961.0,
+      "final_v41": 84639.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "variant_code": "V42",
+      "seed": 1086,
+      "milk_d8": 0,
+      "final_cash": 93152.0,
+      "final_v41": 75547.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "variant_code": "V42",
+      "seed": 1087,
+      "milk_d8": 0,
+      "final_cash": 101671.0,
+      "final_v41": 82763.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "variant_code": "V42",
+      "seed": 1088,
+      "milk_d8": 0,
+      "final_cash": 91083.0,
+      "final_v41": 81766.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "variant_code": "V42",
+      "seed": 1090,
+      "milk_d8": 0,
+      "final_cash": 101542.0,
+      "final_v41": 95426.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "variant_code": "V42",
+      "seed": 1089,
+      "milk_d8": 0,
+      "final_cash": 98010.0,
+      "final_v41": 79107.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "variant_code": "V42",
+      "seed": 1091,
+      "milk_d8": 0,
+      "final_cash": 93709.0,
+      "final_v41": 75310.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "variant_code": "V42",
+      "seed": 1094,
+      "milk_d8": 0,
+      "final_cash": 103287.0,
+      "final_v41": 85080.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "variant_code": "V42",
+      "seed": 1092,
+      "milk_d8": 0,
+      "final_cash": 95720.0,
+      "final_v41": 88817.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "variant_code": "V42",
+      "seed": 1093,
+      "milk_d8": 0,
+      "final_cash": 96901.0,
+      "final_v41": 74362.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "variant_code": "V42",
+      "seed": 1095,
+      "milk_d8": 0,
+      "final_cash": 86737.0,
+      "final_v41": 74048.0,
+      "win": true,
+      "error": null
+    },
+    "1096": {
+      "variant_code": "V42",
+      "seed": 1096,
+      "milk_d8": 0,
+      "final_cash": 81335.0,
+      "final_v41": 72549.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "variant_code": "V42",
+      "seed": 1097,
+      "milk_d8": 0,
+      "final_cash": 101222.0,
+      "final_v41": 81757.0,
+      "win": true,
+      "error": null
+    },
+    "1099": {
+      "variant_code": "V42",
+      "seed": 1099,
+      "milk_d8": 0,
+      "final_cash": 93399.0,
+      "final_v41": 87608.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "variant_code": "V42",
+      "seed": 1098,
+      "milk_d8": 0,
+      "final_cash": 97014.0,
+      "final_v41": 78276.0,
+      "win": true,
+      "error": null
+    }
+  },
+  "ExpA": {
+    "1000": {
+      "variant_code": "ExpA",
+      "seed": 1000,
+      "milk_d8": 0,
+      "final_cash": 91501.0,
+      "final_v41": 83691.0,
+      "win": true,
+      "error": null
+    },
+    "1001": {
+      "variant_code": "ExpA",
+      "seed": 1001,
+      "milk_d8": 0,
+      "final_cash": 71275.0,
+      "final_v41": 81157.0,
+      "win": false,
+      "error": null
+    },
+    "1003": {
+      "variant_code": "ExpA",
+      "seed": 1003,
+      "milk_d8": 0,
+      "final_cash": 97893.0,
+      "final_v41": 92192.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "variant_code": "ExpA",
+      "seed": 1002,
+      "milk_d8": 0,
+      "final_cash": 82666.0,
+      "final_v41": 78027.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "variant_code": "ExpA",
+      "seed": 1004,
+      "milk_d8": 0,
+      "final_cash": 89043.0,
+      "final_v41": 84144.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "variant_code": "ExpA",
+      "seed": 1005,
+      "milk_d8": 0,
+      "final_cash": 89617.0,
+      "final_v41": 84705.0,
+      "win": true,
+      "error": null
+    },
+    "1007": {
+      "variant_code": "ExpA",
+      "seed": 1007,
+      "milk_d8": 0,
+      "final_cash": 97009.0,
+      "final_v41": 98762.0,
+      "win": false,
+      "error": null
+    },
+    "1006": {
+      "variant_code": "ExpA",
+      "seed": 1006,
+      "milk_d8": 0,
+      "final_cash": 93434.0,
+      "final_v41": 79986.0,
+      "win": true,
+      "error": null
+    },
+    "1008": {
+      "variant_code": "ExpA",
+      "seed": 1008,
+      "milk_d8": 0,
+      "final_cash": 97575.0,
+      "final_v41": 82299.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "variant_code": "ExpA",
+      "seed": 1009,
+      "milk_d8": 0,
+      "final_cash": 90203.0,
+      "final_v41": 82594.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "variant_code": "ExpA",
+      "seed": 1011,
+      "milk_d8": 0,
+      "final_cash": 92601.0,
+      "final_v41": 88653.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "variant_code": "ExpA",
+      "seed": 1010,
+      "milk_d8": 0,
+      "final_cash": 94727.0,
+      "final_v41": 89555.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "variant_code": "ExpA",
+      "seed": 1012,
+      "milk_d8": 0,
+      "final_cash": 94368.0,
+      "final_v41": 89240.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "variant_code": "ExpA",
+      "seed": 1013,
+      "milk_d8": 0,
+      "final_cash": 94710.0,
+      "final_v41": 93043.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "variant_code": "ExpA",
+      "seed": 1015,
+      "milk_d8": 0,
+      "final_cash": 88827.0,
+      "final_v41": 87950.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "variant_code": "ExpA",
+      "seed": 1014,
+      "milk_d8": 0,
+      "final_cash": 90724.0,
+      "final_v41": 77614.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "variant_code": "ExpA",
+      "seed": 1016,
+      "milk_d8": 0,
+      "final_cash": 93244.0,
+      "final_v41": 91863.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "variant_code": "ExpA",
+      "seed": 1018,
+      "milk_d8": 0,
+      "final_cash": 92892.0,
+      "final_v41": 89749.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "variant_code": "ExpA",
+      "seed": 1017,
+      "milk_d8": 0,
+      "final_cash": 99048.0,
+      "final_v41": 97079.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "variant_code": "ExpA",
+      "seed": 1019,
+      "milk_d8": 0,
+      "final_cash": 81588.0,
+      "final_v41": 84991.0,
+      "win": false,
+      "error": null
+    },
+    "1020": {
+      "variant_code": "ExpA",
+      "seed": 1020,
+      "milk_d8": 0,
+      "final_cash": 87544.0,
+      "final_v41": 82798.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "variant_code": "ExpA",
+      "seed": 1021,
+      "milk_d8": 0,
+      "final_cash": 93480.0,
+      "final_v41": 79868.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "variant_code": "ExpA",
+      "seed": 1022,
+      "milk_d8": 0,
+      "final_cash": 96183.0,
+      "final_v41": 97114.0,
+      "win": false,
+      "error": null
+    },
+    "1023": {
+      "variant_code": "ExpA",
+      "seed": 1023,
+      "milk_d8": 0,
+      "final_cash": 89226.0,
+      "final_v41": 87767.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "variant_code": "ExpA",
+      "seed": 1024,
+      "milk_d8": 0,
+      "final_cash": 80250.0,
+      "final_v41": 71204.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "variant_code": "ExpA",
+      "seed": 1028,
+      "milk_d8": 0,
+      "final_cash": 89187.0,
+      "final_v41": 75021.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "variant_code": "ExpA",
+      "seed": 1025,
+      "milk_d8": 0,
+      "final_cash": 92474.0,
+      "final_v41": 83039.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "variant_code": "ExpA",
+      "seed": 1026,
+      "milk_d8": 0,
+      "final_cash": 92555.0,
+      "final_v41": 88788.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "variant_code": "ExpA",
+      "seed": 1027,
+      "milk_d8": 0,
+      "final_cash": 86170.0,
+      "final_v41": 77947.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "variant_code": "ExpA",
+      "seed": 1029,
+      "milk_d8": 0,
+      "final_cash": 96279.0,
+      "final_v41": 85650.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "variant_code": "ExpA",
+      "seed": 1031,
+      "milk_d8": 0,
+      "final_cash": 96702.0,
+      "final_v41": 89466.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "variant_code": "ExpA",
+      "seed": 1030,
+      "milk_d8": 0,
+      "final_cash": 102019.0,
+      "final_v41": 88671.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "variant_code": "ExpA",
+      "seed": 1032,
+      "milk_d8": 0,
+      "final_cash": 92052.0,
+      "final_v41": 83276.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "variant_code": "ExpA",
+      "seed": 1033,
+      "milk_d8": 0,
+      "final_cash": 94338.0,
+      "final_v41": 90385.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "variant_code": "ExpA",
+      "seed": 1035,
+      "milk_d8": 0,
+      "final_cash": 88484.0,
+      "final_v41": 83629.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "variant_code": "ExpA",
+      "seed": 1034,
+      "milk_d8": 0,
+      "final_cash": 95917.0,
+      "final_v41": 83375.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "variant_code": "ExpA",
+      "seed": 1036,
+      "milk_d8": 0,
+      "final_cash": 94337.0,
+      "final_v41": 88882.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "variant_code": "ExpA",
+      "seed": 1037,
+      "milk_d8": 0,
+      "final_cash": 95878.0,
+      "final_v41": 90729.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "variant_code": "ExpA",
+      "seed": 1038,
+      "milk_d8": 0,
+      "final_cash": 80965.0,
+      "final_v41": 67665.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "variant_code": "ExpA",
+      "seed": 1039,
+      "milk_d8": 0,
+      "final_cash": 92653.0,
+      "final_v41": 81228.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "variant_code": "ExpA",
+      "seed": 1040,
+      "milk_d8": 0,
+      "final_cash": 96823.0,
+      "final_v41": 83307.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "variant_code": "ExpA",
+      "seed": 1041,
+      "milk_d8": 0,
+      "final_cash": 90946.0,
+      "final_v41": 86621.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "variant_code": "ExpA",
+      "seed": 1042,
+      "milk_d8": 0,
+      "final_cash": 86138.0,
+      "final_v41": 78337.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "variant_code": "ExpA",
+      "seed": 1043,
+      "milk_d8": 0,
+      "final_cash": 95529.0,
+      "final_v41": 81788.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "variant_code": "ExpA",
+      "seed": 1044,
+      "milk_d8": 0,
+      "final_cash": 85399.0,
+      "final_v41": 74601.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "variant_code": "ExpA",
+      "seed": 1045,
+      "milk_d8": 0,
+      "final_cash": 74133.0,
+      "final_v41": 88543.0,
+      "win": false,
+      "error": null
+    },
+    "1047": {
+      "variant_code": "ExpA",
+      "seed": 1047,
+      "milk_d8": 0,
+      "final_cash": 98881.0,
+      "final_v41": 86067.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "variant_code": "ExpA",
+      "seed": 1046,
+      "milk_d8": 0,
+      "final_cash": 83388.0,
+      "final_v41": 79522.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "variant_code": "ExpA",
+      "seed": 1048,
+      "milk_d8": 0,
+      "final_cash": 94887.0,
+      "final_v41": 91943.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "variant_code": "ExpA",
+      "seed": 1050,
+      "milk_d8": 0,
+      "final_cash": 79945.0,
+      "final_v41": 89982.0,
+      "win": false,
+      "error": null
+    },
+    "1049": {
+      "variant_code": "ExpA",
+      "seed": 1049,
+      "milk_d8": 0,
+      "final_cash": 79128.0,
+      "final_v41": 83616.0,
+      "win": false,
+      "error": null
+    },
+    "1051": {
+      "variant_code": "ExpA",
+      "seed": 1051,
+      "milk_d8": 0,
+      "final_cash": 73092.0,
+      "final_v41": 82925.0,
+      "win": false,
+      "error": null
+    },
+    "1052": {
+      "variant_code": "ExpA",
+      "seed": 1052,
+      "milk_d8": 0,
+      "final_cash": 99374.0,
+      "final_v41": 88145.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "variant_code": "ExpA",
+      "seed": 1053,
+      "milk_d8": 0,
+      "final_cash": 93046.0,
+      "final_v41": 87902.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "variant_code": "ExpA",
+      "seed": 1055,
+      "milk_d8": 0,
+      "final_cash": 92899.0,
+      "final_v41": 87225.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "variant_code": "ExpA",
+      "seed": 1054,
+      "milk_d8": 0,
+      "final_cash": 92774.0,
+      "final_v41": 81029.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "variant_code": "ExpA",
+      "seed": 1056,
+      "milk_d8": 0,
+      "final_cash": 95825.0,
+      "final_v41": 82748.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "variant_code": "ExpA",
+      "seed": 1057,
+      "milk_d8": 0,
+      "final_cash": 75507.0,
+      "final_v41": 85370.0,
+      "win": false,
+      "error": null
+    },
+    "1058": {
+      "variant_code": "ExpA",
+      "seed": 1058,
+      "milk_d8": 0,
+      "final_cash": 97032.0,
+      "final_v41": 80696.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "variant_code": "ExpA",
+      "seed": 1059,
+      "milk_d8": 0,
+      "final_cash": 92719.0,
+      "final_v41": 83345.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "variant_code": "ExpA",
+      "seed": 1060,
+      "milk_d8": 0,
+      "final_cash": 95908.0,
+      "final_v41": 91887.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "variant_code": "ExpA",
+      "seed": 1061,
+      "milk_d8": 0,
+      "final_cash": 91920.0,
+      "final_v41": 88269.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "variant_code": "ExpA",
+      "seed": 1062,
+      "milk_d8": 0,
+      "final_cash": 93103.0,
+      "final_v41": 90776.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "variant_code": "ExpA",
+      "seed": 1063,
+      "milk_d8": 0,
+      "final_cash": 87380.0,
+      "final_v41": 89899.0,
+      "win": false,
+      "error": null
+    },
+    "1064": {
+      "variant_code": "ExpA",
+      "seed": 1064,
+      "milk_d8": 0,
+      "final_cash": 90938.0,
+      "final_v41": 87012.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "variant_code": "ExpA",
+      "seed": 1065,
+      "milk_d8": 0,
+      "final_cash": 93695.0,
+      "final_v41": 82111.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "variant_code": "ExpA",
+      "seed": 1066,
+      "milk_d8": 0,
+      "final_cash": 82203.0,
+      "final_v41": 80888.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "variant_code": "ExpA",
+      "seed": 1067,
+      "milk_d8": 0,
+      "final_cash": 90649.0,
+      "final_v41": 87125.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "variant_code": "ExpA",
+      "seed": 1068,
+      "milk_d8": 0,
+      "final_cash": 104083.0,
+      "final_v41": 90312.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "variant_code": "ExpA",
+      "seed": 1069,
+      "milk_d8": 0,
+      "final_cash": 90702.0,
+      "final_v41": 80507.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "variant_code": "ExpA",
+      "seed": 1070,
+      "milk_d8": 0,
+      "final_cash": 89401.0,
+      "final_v41": 89269.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "variant_code": "ExpA",
+      "seed": 1071,
+      "milk_d8": 0,
+      "final_cash": 68240.0,
+      "final_v41": 77923.0,
+      "win": false,
+      "error": null
+    },
+    "1072": {
+      "variant_code": "ExpA",
+      "seed": 1072,
+      "milk_d8": 0,
+      "final_cash": 95693.0,
+      "final_v41": 83108.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "variant_code": "ExpA",
+      "seed": 1073,
+      "milk_d8": 0,
+      "final_cash": 94022.0,
+      "final_v41": 88765.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "variant_code": "ExpA",
+      "seed": 1074,
+      "milk_d8": 0,
+      "final_cash": 98051.0,
+      "final_v41": 92378.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "variant_code": "ExpA",
+      "seed": 1075,
+      "milk_d8": 0,
+      "final_cash": 89501.0,
+      "final_v41": 88053.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "variant_code": "ExpA",
+      "seed": 1076,
+      "milk_d8": 0,
+      "final_cash": 90255.0,
+      "final_v41": 91535.0,
+      "win": false,
+      "error": null
+    },
+    "1077": {
+      "variant_code": "ExpA",
+      "seed": 1077,
+      "milk_d8": 0,
+      "final_cash": 84404.0,
+      "final_v41": 86383.0,
+      "win": false,
+      "error": null
+    },
+    "1078": {
+      "variant_code": "ExpA",
+      "seed": 1078,
+      "milk_d8": 0,
+      "final_cash": 98294.0,
+      "final_v41": 93070.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "variant_code": "ExpA",
+      "seed": 1079,
+      "milk_d8": 0,
+      "final_cash": 88658.0,
+      "final_v41": 76746.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "variant_code": "ExpA",
+      "seed": 1080,
+      "milk_d8": 0,
+      "final_cash": 92743.0,
+      "final_v41": 79493.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "variant_code": "ExpA",
+      "seed": 1081,
+      "milk_d8": 0,
+      "final_cash": 84454.0,
+      "final_v41": 79889.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "variant_code": "ExpA",
+      "seed": 1082,
+      "milk_d8": 0,
+      "final_cash": 90082.0,
+      "final_v41": 88622.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "variant_code": "ExpA",
+      "seed": 1083,
+      "milk_d8": 0,
+      "final_cash": 76411.0,
+      "final_v41": 79287.0,
+      "win": false,
+      "error": null
+    },
+    "1084": {
+      "variant_code": "ExpA",
+      "seed": 1084,
+      "milk_d8": 0,
+      "final_cash": 100993.0,
+      "final_v41": 85248.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "variant_code": "ExpA",
+      "seed": 1085,
+      "milk_d8": 0,
+      "final_cash": 92542.0,
+      "final_v41": 91113.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "variant_code": "ExpA",
+      "seed": 1086,
+      "milk_d8": 0,
+      "final_cash": 90046.0,
+      "final_v41": 80553.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "variant_code": "ExpA",
+      "seed": 1087,
+      "milk_d8": 0,
+      "final_cash": 87886.0,
+      "final_v41": 77242.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "variant_code": "ExpA",
+      "seed": 1088,
+      "milk_d8": 0,
+      "final_cash": 82248.0,
+      "final_v41": 86162.0,
+      "win": false,
+      "error": null
+    },
+    "1089": {
+      "variant_code": "ExpA",
+      "seed": 1089,
+      "milk_d8": 0,
+      "final_cash": 94415.0,
+      "final_v41": 82859.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "variant_code": "ExpA",
+      "seed": 1090,
+      "milk_d8": 0,
+      "final_cash": 96760.0,
+      "final_v41": 92795.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "variant_code": "ExpA",
+      "seed": 1091,
+      "milk_d8": 0,
+      "final_cash": 92418.0,
+      "final_v41": 79145.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "variant_code": "ExpA",
+      "seed": 1092,
+      "milk_d8": 0,
+      "final_cash": 93295.0,
+      "final_v41": 94955.0,
+      "win": false,
+      "error": null
+    },
+    "1093": {
+      "variant_code": "ExpA",
+      "seed": 1093,
+      "milk_d8": 0,
+      "final_cash": 90167.0,
+      "final_v41": 91473.0,
+      "win": false,
+      "error": null
+    },
+    "1094": {
+      "variant_code": "ExpA",
+      "seed": 1094,
+      "milk_d8": 0,
+      "final_cash": 99166.0,
+      "final_v41": 86216.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "variant_code": "ExpA",
+      "seed": 1095,
+      "milk_d8": 0,
+      "final_cash": 77482.0,
+      "final_v41": 87352.0,
+      "win": false,
+      "error": null
+    },
+    "1096": {
+      "variant_code": "ExpA",
+      "seed": 1096,
+      "milk_d8": 0,
+      "final_cash": 72293.0,
+      "final_v41": 82428.0,
+      "win": false,
+      "error": null
+    },
+    "1097": {
+      "variant_code": "ExpA",
+      "seed": 1097,
+      "milk_d8": 0,
+      "final_cash": 94866.0,
+      "final_v41": 88162.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "variant_code": "ExpA",
+      "seed": 1098,
+      "milk_d8": 0,
+      "final_cash": 90243.0,
+      "final_v41": 93768.0,
+      "win": false,
+      "error": null
+    },
+    "1099": {
+      "variant_code": "ExpA",
+      "seed": 1099,
+      "milk_d8": 0,
+      "final_cash": 87246.0,
+      "final_v41": 83546.0,
+      "win": true,
+      "error": null
+    }
+  },
+  "ExpB": {
+    "1000": {
+      "variant_code": "ExpB",
+      "seed": 1000,
+      "milk_d8": 0,
+      "final_cash": 91552.0,
+      "final_v41": 78224.0,
+      "win": true,
+      "error": null
+    },
+    "1001": {
+      "variant_code": "ExpB",
+      "seed": 1001,
+      "milk_d8": 0,
+      "final_cash": 87448.0,
+      "final_v41": 79191.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "variant_code": "ExpB",
+      "seed": 1002,
+      "milk_d8": 0,
+      "final_cash": 87925.0,
+      "final_v41": 72562.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "variant_code": "ExpB",
+      "seed": 1003,
+      "milk_d8": 0,
+      "final_cash": 104031.0,
+      "final_v41": 88300.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "variant_code": "ExpB",
+      "seed": 1005,
+      "milk_d8": 0,
+      "final_cash": 94570.0,
+      "final_v41": 79573.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "variant_code": "ExpB",
+      "seed": 1004,
+      "milk_d8": 0,
+      "final_cash": 94037.0,
+      "final_v41": 78971.0,
+      "win": true,
+      "error": null
+    },
+    "1007": {
+      "variant_code": "ExpB",
+      "seed": 1007,
+      "milk_d8": 0,
+      "final_cash": 103323.0,
+      "final_v41": 92403.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "variant_code": "ExpB",
+      "seed": 1006,
+      "milk_d8": 0,
+      "final_cash": 100977.0,
+      "final_v41": 81704.0,
+      "win": true,
+      "error": null
+    },
+    "1008": {
+      "variant_code": "ExpB",
+      "seed": 1008,
+      "milk_d8": 0,
+      "final_cash": 107228.0,
+      "final_v41": 84937.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "variant_code": "ExpB",
+      "seed": 1010,
+      "milk_d8": 0,
+      "final_cash": 100951.0,
+      "final_v41": 85550.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "variant_code": "ExpB",
+      "seed": 1009,
+      "milk_d8": 0,
+      "final_cash": 95405.0,
+      "final_v41": 77204.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "variant_code": "ExpB",
+      "seed": 1011,
+      "milk_d8": 0,
+      "final_cash": 94906.0,
+      "final_v41": 89114.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "variant_code": "ExpB",
+      "seed": 1013,
+      "milk_d8": 0,
+      "final_cash": 103089.0,
+      "final_v41": 83877.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "variant_code": "ExpB",
+      "seed": 1012,
+      "milk_d8": 0,
+      "final_cash": 100672.0,
+      "final_v41": 85198.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "variant_code": "ExpB",
+      "seed": 1014,
+      "milk_d8": 0,
+      "final_cash": 102200.0,
+      "final_v41": 82659.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "variant_code": "ExpB",
+      "seed": 1015,
+      "milk_d8": 0,
+      "final_cash": 95170.0,
+      "final_v41": 81530.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "variant_code": "ExpB",
+      "seed": 1016,
+      "milk_d8": 0,
+      "final_cash": 98523.0,
+      "final_v41": 76113.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "variant_code": "ExpB",
+      "seed": 1017,
+      "milk_d8": 0,
+      "final_cash": 104303.0,
+      "final_v41": 82211.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "variant_code": "ExpB",
+      "seed": 1018,
+      "milk_d8": 0,
+      "final_cash": 89587.0,
+      "final_v41": 74660.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "variant_code": "ExpB",
+      "seed": 1019,
+      "milk_d8": 0,
+      "final_cash": 90138.0,
+      "final_v41": 72041.0,
+      "win": true,
+      "error": null
+    },
+    "1020": {
+      "variant_code": "ExpB",
+      "seed": 1020,
+      "milk_d8": 0,
+      "final_cash": 92536.0,
+      "final_v41": 77621.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "variant_code": "ExpB",
+      "seed": 1021,
+      "milk_d8": 0,
+      "final_cash": 98508.0,
+      "final_v41": 74654.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "variant_code": "ExpB",
+      "seed": 1022,
+      "milk_d8": 0,
+      "final_cash": 103501.0,
+      "final_v41": 84031.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "variant_code": "ExpB",
+      "seed": 1023,
+      "milk_d8": 0,
+      "final_cash": 93718.0,
+      "final_v41": 72762.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "variant_code": "ExpB",
+      "seed": 1025,
+      "milk_d8": 0,
+      "final_cash": 100105.0,
+      "final_v41": 87911.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "variant_code": "ExpB",
+      "seed": 1024,
+      "milk_d8": 0,
+      "final_cash": 94980.0,
+      "final_v41": 72637.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "variant_code": "ExpB",
+      "seed": 1026,
+      "milk_d8": 0,
+      "final_cash": 96668.0,
+      "final_v41": 90351.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "variant_code": "ExpB",
+      "seed": 1027,
+      "milk_d8": 0,
+      "final_cash": 98320.0,
+      "final_v41": 79099.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "variant_code": "ExpB",
+      "seed": 1028,
+      "milk_d8": 0,
+      "final_cash": 91289.0,
+      "final_v41": 75581.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "variant_code": "ExpB",
+      "seed": 1029,
+      "milk_d8": 0,
+      "final_cash": 104279.0,
+      "final_v41": 84700.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "variant_code": "ExpB",
+      "seed": 1030,
+      "milk_d8": 0,
+      "final_cash": 105862.0,
+      "final_v41": 84835.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "variant_code": "ExpB",
+      "seed": 1031,
+      "milk_d8": 0,
+      "final_cash": 99102.0,
+      "final_v41": 79257.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "variant_code": "ExpB",
+      "seed": 1032,
+      "milk_d8": 0,
+      "final_cash": 103391.0,
+      "final_v41": 80780.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "variant_code": "ExpB",
+      "seed": 1033,
+      "milk_d8": 0,
+      "final_cash": 101016.0,
+      "final_v41": 86524.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "variant_code": "ExpB",
+      "seed": 1035,
+      "milk_d8": 0,
+      "final_cash": 93498.0,
+      "final_v41": 78429.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "variant_code": "ExpB",
+      "seed": 1034,
+      "milk_d8": 0,
+      "final_cash": 101210.0,
+      "final_v41": 78321.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "variant_code": "ExpB",
+      "seed": 1036,
+      "milk_d8": 0,
+      "final_cash": 100713.0,
+      "final_v41": 84822.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "variant_code": "ExpB",
+      "seed": 1037,
+      "milk_d8": 0,
+      "final_cash": 102107.0,
+      "final_v41": 86749.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "variant_code": "ExpB",
+      "seed": 1038,
+      "milk_d8": 0,
+      "final_cash": 100148.0,
+      "final_v41": 72552.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "variant_code": "ExpB",
+      "seed": 1039,
+      "milk_d8": 0,
+      "final_cash": 93933.0,
+      "final_v41": 74147.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "variant_code": "ExpB",
+      "seed": 1040,
+      "milk_d8": 0,
+      "final_cash": 97985.0,
+      "final_v41": 78829.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "variant_code": "ExpB",
+      "seed": 1041,
+      "milk_d8": 0,
+      "final_cash": 96220.0,
+      "final_v41": 81138.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "variant_code": "ExpB",
+      "seed": 1042,
+      "milk_d8": 0,
+      "final_cash": 93605.0,
+      "final_v41": 80631.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "variant_code": "ExpB",
+      "seed": 1043,
+      "milk_d8": 0,
+      "final_cash": 99433.0,
+      "final_v41": 79792.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "variant_code": "ExpB",
+      "seed": 1044,
+      "milk_d8": 0,
+      "final_cash": 91587.0,
+      "final_v41": 70318.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "variant_code": "ExpB",
+      "seed": 1045,
+      "milk_d8": 0,
+      "final_cash": 87843.0,
+      "final_v41": 84400.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "variant_code": "ExpB",
+      "seed": 1047,
+      "milk_d8": 0,
+      "final_cash": 102743.0,
+      "final_v41": 82272.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "variant_code": "ExpB",
+      "seed": 1046,
+      "milk_d8": 0,
+      "final_cash": 88880.0,
+      "final_v41": 73820.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "variant_code": "ExpB",
+      "seed": 1048,
+      "milk_d8": 0,
+      "final_cash": 99596.0,
+      "final_v41": 84294.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "variant_code": "ExpB",
+      "seed": 1049,
+      "milk_d8": 0,
+      "final_cash": 86361.0,
+      "final_v41": 78103.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "variant_code": "ExpB",
+      "seed": 1050,
+      "milk_d8": 0,
+      "final_cash": 92588.0,
+      "final_v41": 84095.0,
+      "win": true,
+      "error": null
+    },
+    "1051": {
+      "variant_code": "ExpB",
+      "seed": 1051,
+      "milk_d8": 0,
+      "final_cash": 80134.0,
+      "final_v41": 75892.0,
+      "win": true,
+      "error": null
+    },
+    "1052": {
+      "variant_code": "ExpB",
+      "seed": 1052,
+      "milk_d8": 0,
+      "final_cash": 94922.0,
+      "final_v41": 82682.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "variant_code": "ExpB",
+      "seed": 1053,
+      "milk_d8": 0,
+      "final_cash": 97962.0,
+      "final_v41": 82800.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "variant_code": "ExpB",
+      "seed": 1054,
+      "milk_d8": 0,
+      "final_cash": 97786.0,
+      "final_v41": 75811.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "variant_code": "ExpB",
+      "seed": 1055,
+      "milk_d8": 0,
+      "final_cash": 99311.0,
+      "final_v41": 87365.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "variant_code": "ExpB",
+      "seed": 1057,
+      "milk_d8": 0,
+      "final_cash": 82850.0,
+      "final_v41": 73935.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "variant_code": "ExpB",
+      "seed": 1056,
+      "milk_d8": 0,
+      "final_cash": 99830.0,
+      "final_v41": 78688.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "variant_code": "ExpB",
+      "seed": 1059,
+      "milk_d8": 0,
+      "final_cash": 103913.0,
+      "final_v41": 81041.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "variant_code": "ExpB",
+      "seed": 1058,
+      "milk_d8": 0,
+      "final_cash": 94458.0,
+      "final_v41": 72876.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "variant_code": "ExpB",
+      "seed": 1061,
+      "milk_d8": 0,
+      "final_cash": 94502.0,
+      "final_v41": 88433.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "variant_code": "ExpB",
+      "seed": 1060,
+      "milk_d8": 0,
+      "final_cash": 101582.0,
+      "final_v41": 85901.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "variant_code": "ExpB",
+      "seed": 1062,
+      "milk_d8": 0,
+      "final_cash": 97258.0,
+      "final_v41": 91611.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "variant_code": "ExpB",
+      "seed": 1063,
+      "milk_d8": 0,
+      "final_cash": 94980.0,
+      "final_v41": 79385.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "variant_code": "ExpB",
+      "seed": 1064,
+      "milk_d8": 0,
+      "final_cash": 94488.0,
+      "final_v41": 88367.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "variant_code": "ExpB",
+      "seed": 1065,
+      "milk_d8": 0,
+      "final_cash": 98634.0,
+      "final_v41": 76969.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "variant_code": "ExpB",
+      "seed": 1066,
+      "milk_d8": 0,
+      "final_cash": 89899.0,
+      "final_v41": 73078.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "variant_code": "ExpB",
+      "seed": 1067,
+      "milk_d8": 0,
+      "final_cash": 101836.0,
+      "final_v41": 88694.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "variant_code": "ExpB",
+      "seed": 1069,
+      "milk_d8": 0,
+      "final_cash": 89749.0,
+      "final_v41": 69940.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "variant_code": "ExpB",
+      "seed": 1068,
+      "milk_d8": 0,
+      "final_cash": 107829.0,
+      "final_v41": 86760.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "variant_code": "ExpB",
+      "seed": 1070,
+      "milk_d8": 0,
+      "final_cash": 101334.0,
+      "final_v41": 87313.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "variant_code": "ExpB",
+      "seed": 1071,
+      "milk_d8": 0,
+      "final_cash": 79846.0,
+      "final_v41": 68735.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "variant_code": "ExpB",
+      "seed": 1073,
+      "milk_d8": 0,
+      "final_cash": 100309.0,
+      "final_v41": 84724.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "variant_code": "ExpB",
+      "seed": 1072,
+      "milk_d8": 0,
+      "final_cash": 100547.0,
+      "final_v41": 81793.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "variant_code": "ExpB",
+      "seed": 1074,
+      "milk_d8": 0,
+      "final_cash": 104262.0,
+      "final_v41": 88441.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "variant_code": "ExpB",
+      "seed": 1075,
+      "milk_d8": 0,
+      "final_cash": 95066.0,
+      "final_v41": 74242.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "variant_code": "ExpB",
+      "seed": 1076,
+      "milk_d8": 0,
+      "final_cash": 105094.0,
+      "final_v41": 85886.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "variant_code": "ExpB",
+      "seed": 1077,
+      "milk_d8": 0,
+      "final_cash": 91433.0,
+      "final_v41": 76615.0,
+      "win": true,
+      "error": null
+    },
+    "1078": {
+      "variant_code": "ExpB",
+      "seed": 1078,
+      "milk_d8": 0,
+      "final_cash": 103124.0,
+      "final_v41": 88069.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "variant_code": "ExpB",
+      "seed": 1079,
+      "milk_d8": 0,
+      "final_cash": 95079.0,
+      "final_v41": 72430.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "variant_code": "ExpB",
+      "seed": 1080,
+      "milk_d8": 0,
+      "final_cash": 96637.0,
+      "final_v41": 77984.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "variant_code": "ExpB",
+      "seed": 1081,
+      "milk_d8": 0,
+      "final_cash": 89548.0,
+      "final_v41": 74601.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "variant_code": "ExpB",
+      "seed": 1082,
+      "milk_d8": 0,
+      "final_cash": 95172.0,
+      "final_v41": 73732.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "variant_code": "ExpB",
+      "seed": 1083,
+      "milk_d8": 0,
+      "final_cash": 95443.0,
+      "final_v41": 79659.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "variant_code": "ExpB",
+      "seed": 1085,
+      "milk_d8": 0,
+      "final_cash": 98961.0,
+      "final_v41": 84639.0,
+      "win": true,
+      "error": null
+    },
+    "1084": {
+      "variant_code": "ExpB",
+      "seed": 1084,
+      "milk_d8": 0,
+      "final_cash": 102358.0,
+      "final_v41": 85704.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "variant_code": "ExpB",
+      "seed": 1086,
+      "milk_d8": 0,
+      "final_cash": 93152.0,
+      "final_v41": 75547.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "variant_code": "ExpB",
+      "seed": 1087,
+      "milk_d8": 0,
+      "final_cash": 101671.0,
+      "final_v41": 82763.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "variant_code": "ExpB",
+      "seed": 1088,
+      "milk_d8": 0,
+      "final_cash": 91083.0,
+      "final_v41": 81766.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "variant_code": "ExpB",
+      "seed": 1089,
+      "milk_d8": 0,
+      "final_cash": 98010.0,
+      "final_v41": 79107.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "variant_code": "ExpB",
+      "seed": 1090,
+      "milk_d8": 0,
+      "final_cash": 101542.0,
+      "final_v41": 95426.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "variant_code": "ExpB",
+      "seed": 1091,
+      "milk_d8": 0,
+      "final_cash": 93709.0,
+      "final_v41": 75310.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "variant_code": "ExpB",
+      "seed": 1092,
+      "milk_d8": 0,
+      "final_cash": 95720.0,
+      "final_v41": 88817.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "variant_code": "ExpB",
+      "seed": 1093,
+      "milk_d8": 0,
+      "final_cash": 96901.0,
+      "final_v41": 74362.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "variant_code": "ExpB",
+      "seed": 1095,
+      "milk_d8": 0,
+      "final_cash": 86737.0,
+      "final_v41": 74048.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "variant_code": "ExpB",
+      "seed": 1094,
+      "milk_d8": 0,
+      "final_cash": 103287.0,
+      "final_v41": 85080.0,
+      "win": true,
+      "error": null
+    },
+    "1096": {
+      "variant_code": "ExpB",
+      "seed": 1096,
+      "milk_d8": 0,
+      "final_cash": 81335.0,
+      "final_v41": 72549.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "variant_code": "ExpB",
+      "seed": 1097,
+      "milk_d8": 0,
+      "final_cash": 101222.0,
+      "final_v41": 81757.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "variant_code": "ExpB",
+      "seed": 1098,
+      "milk_d8": 0,
+      "final_cash": 97014.0,
+      "final_v41": 78276.0,
+      "win": true,
+      "error": null
+    },
+    "1099": {
+      "variant_code": "ExpB",
+      "seed": 1099,
+      "milk_d8": 0,
+      "final_cash": 93399.0,
+      "final_v41": 87608.0,
+      "win": true,
+      "error": null
+    }
+  }
+}

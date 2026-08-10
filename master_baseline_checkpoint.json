@@ -1,0 +1,3210 @@
+{
+  "Config1": {
+    "1005": {
+      "config_code": "Config1",
+      "seed": 1005,
+      "final_cash": 83029.0,
+      "final_v41": 83029.0,
+      "win": false,
+      "error": null
+    },
+    "1010": {
+      "config_code": "Config1",
+      "seed": 1010,
+      "final_cash": 88738.0,
+      "final_v41": 82490.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "config_code": "Config1",
+      "seed": 1006,
+      "final_cash": 81983.0,
+      "final_v41": 81983.0,
+      "win": false,
+      "error": null
+    },
+    "1007": {
+      "config_code": "Config1",
+      "seed": 1007,
+      "final_cash": 85574.0,
+      "final_v41": 78282.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "config_code": "Config1",
+      "seed": 1011,
+      "final_cash": 78733.0,
+      "final_v41": 78733.0,
+      "win": false,
+      "error": null
+    },
+    "1004": {
+      "config_code": "Config1",
+      "seed": 1004,
+      "final_cash": 82854.0,
+      "final_v41": 82854.0,
+      "win": false,
+      "error": null
+    },
+    "1009": {
+      "config_code": "Config1",
+      "seed": 1009,
+      "final_cash": 86098.0,
+      "final_v41": 84283.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "config_code": "Config1",
+      "seed": 1002,
+      "final_cash": 76727.0,
+      "final_v41": 76727.0,
+      "win": false,
+      "error": null
+    },
+    "1001": {
+      "config_code": "Config1",
+      "seed": 1001,
+      "final_cash": 76144.0,
+      "final_v41": 76144.0,
+      "win": false,
+      "error": null
+    },
+    "1008": {
+      "config_code": "Config1",
+      "seed": 1008,
+      "final_cash": 85914.0,
+      "final_v41": 79670.0,
+      "win": true,
+      "error": null
+    },
+    "1000": {
+      "config_code": "Config1",
+      "seed": 1000,
+      "final_cash": 76498.0,
+      "final_v41": 88508.0,
+      "win": false,
+      "error": null
+    },
+    "1003": {
+      "config_code": "Config1",
+      "seed": 1003,
+      "final_cash": 82200.0,
+      "final_v41": 76284.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "config_code": "Config1",
+      "seed": 1012,
+      "final_cash": 77483.0,
+      "final_v41": 91772.0,
+      "win": false,
+      "error": null
+    },
+    "1014": {
+      "config_code": "Config1",
+      "seed": 1014,
+      "final_cash": 86223.0,
+      "final_v41": 86223.0,
+      "win": false,
+      "error": null
+    },
+    "1018": {
+      "config_code": "Config1",
+      "seed": 1018,
+      "final_cash": 78115.0,
+      "final_v41": 78115.0,
+      "win": false,
+      "error": null
+    },
+    "1017": {
+      "config_code": "Config1",
+      "seed": 1017,
+      "final_cash": 78057.0,
+      "final_v41": 78057.0,
+      "win": false,
+      "error": null
+    },
+    "1015": {
+      "config_code": "Config1",
+      "seed": 1015,
+      "final_cash": 68744.0,
+      "final_v41": 68744.0,
+      "win": false,
+      "error": null
+    },
+    "1019": {
+      "config_code": "Config1",
+      "seed": 1019,
+      "final_cash": 75436.0,
+      "final_v41": 75436.0,
+      "win": false,
+      "error": null
+    },
+    "1013": {
+      "config_code": "Config1",
+      "seed": 1013,
+      "final_cash": 87872.0,
+      "final_v41": 83404.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "config_code": "Config1",
+      "seed": 1016,
+      "final_cash": 84384.0,
+      "final_v41": 84384.0,
+      "win": false,
+      "error": null
+    },
+    "1020": {
+      "config_code": "Config1",
+      "seed": 1020,
+      "final_cash": 73338.0,
+      "final_v41": 71943.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "config_code": "Config1",
+      "seed": 1022,
+      "final_cash": 77460.0,
+      "final_v41": 77460.0,
+      "win": false,
+      "error": null
+    },
+    "1023": {
+      "config_code": "Config1",
+      "seed": 1023,
+      "final_cash": 88146.0,
+      "final_v41": 88146.0,
+      "win": false,
+      "error": null
+    },
+    "1021": {
+      "config_code": "Config1",
+      "seed": 1021,
+      "final_cash": 87812.0,
+      "final_v41": 76194.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "config_code": "Config1",
+      "seed": 1024,
+      "final_cash": 77977.0,
+      "final_v41": 77977.0,
+      "win": false,
+      "error": null
+    },
+    "1026": {
+      "config_code": "Config1",
+      "seed": 1026,
+      "final_cash": 88089.0,
+      "final_v41": 88089.0,
+      "win": false,
+      "error": null
+    },
+    "1027": {
+      "config_code": "Config1",
+      "seed": 1027,
+      "final_cash": 74956.0,
+      "final_v41": 74956.0,
+      "win": false,
+      "error": null
+    },
+    "1030": {
+      "config_code": "Config1",
+      "seed": 1030,
+      "final_cash": 89489.0,
+      "final_v41": 82151.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "config_code": "Config1",
+      "seed": 1031,
+      "final_cash": 87026.0,
+      "final_v41": 82913.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "config_code": "Config1",
+      "seed": 1029,
+      "final_cash": 74616.0,
+      "final_v41": 74616.0,
+      "win": false,
+      "error": null
+    },
+    "1032": {
+      "config_code": "Config1",
+      "seed": 1032,
+      "final_cash": 84133.0,
+      "final_v41": 84133.0,
+      "win": false,
+      "error": null
+    },
+    "1025": {
+      "config_code": "Config1",
+      "seed": 1025,
+      "final_cash": 80888.0,
+      "final_v41": 82272.0,
+      "win": false,
+      "error": null
+    },
+    "1034": {
+      "config_code": "Config1",
+      "seed": 1034,
+      "final_cash": 74555.0,
+      "final_v41": 74555.0,
+      "win": false,
+      "error": null
+    },
+    "1028": {
+      "config_code": "Config1",
+      "seed": 1028,
+      "final_cash": 73123.0,
+      "final_v41": 73123.0,
+      "win": false,
+      "error": null
+    },
+    "1033": {
+      "config_code": "Config1",
+      "seed": 1033,
+      "final_cash": 88823.0,
+      "final_v41": 74740.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "config_code": "Config1",
+      "seed": 1035,
+      "final_cash": 76670.0,
+      "final_v41": 76670.0,
+      "win": false,
+      "error": null
+    },
+    "1036": {
+      "config_code": "Config1",
+      "seed": 1036,
+      "final_cash": 93508.0,
+      "final_v41": 93508.0,
+      "win": false,
+      "error": null
+    },
+    "1038": {
+      "config_code": "Config1",
+      "seed": 1038,
+      "final_cash": 74904.0,
+      "final_v41": 85553.0,
+      "win": false,
+      "error": null
+    },
+    "1039": {
+      "config_code": "Config1",
+      "seed": 1039,
+      "final_cash": 84903.0,
+      "final_v41": 73587.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "config_code": "Config1",
+      "seed": 1041,
+      "final_cash": 83324.0,
+      "final_v41": 83324.0,
+      "win": false,
+      "error": null
+    },
+    "1037": {
+      "config_code": "Config1",
+      "seed": 1037,
+      "final_cash": 82907.0,
+      "final_v41": 82907.0,
+      "win": false,
+      "error": null
+    },
+    "1044": {
+      "config_code": "Config1",
+      "seed": 1044,
+      "final_cash": 85877.0,
+      "final_v41": 85877.0,
+      "win": false,
+      "error": null
+    },
+    "1045": {
+      "config_code": "Config1",
+      "seed": 1045,
+      "final_cash": 70236.0,
+      "final_v41": 70236.0,
+      "win": false,
+      "error": null
+    },
+    "1042": {
+      "config_code": "Config1",
+      "seed": 1042,
+      "final_cash": 81581.0,
+      "final_v41": 74059.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "config_code": "Config1",
+      "seed": 1040,
+      "final_cash": 90690.0,
+      "final_v41": 90690.0,
+      "win": false,
+      "error": null
+    },
+    "1043": {
+      "config_code": "Config1",
+      "seed": 1043,
+      "final_cash": 78519.0,
+      "final_v41": 78519.0,
+      "win": false,
+      "error": null
+    },
+    "1046": {
+      "config_code": "Config1",
+      "seed": 1046,
+      "final_cash": 80175.0,
+      "final_v41": 80175.0,
+      "win": false,
+      "error": null
+    },
+    "1047": {
+      "config_code": "Config1",
+      "seed": 1047,
+      "final_cash": 85717.0,
+      "final_v41": 85717.0,
+      "win": false,
+      "error": null
+    },
+    "1048": {
+      "config_code": "Config1",
+      "seed": 1048,
+      "final_cash": 83708.0,
+      "final_v41": 84307.0,
+      "win": false,
+      "error": null
+    },
+    "1050": {
+      "config_code": "Config1",
+      "seed": 1050,
+      "final_cash": 72982.0,
+      "final_v41": 88225.0,
+      "win": false,
+      "error": null
+    },
+    "1052": {
+      "config_code": "Config1",
+      "seed": 1052,
+      "final_cash": 77054.0,
+      "final_v41": 73243.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "config_code": "Config1",
+      "seed": 1049,
+      "final_cash": 80901.0,
+      "final_v41": 80901.0,
+      "win": false,
+      "error": null
+    },
+    "1051": {
+      "config_code": "Config1",
+      "seed": 1051,
+      "final_cash": 78459.0,
+      "final_v41": 78654.0,
+      "win": false,
+      "error": null
+    },
+    "1053": {
+      "config_code": "Config1",
+      "seed": 1053,
+      "final_cash": 78112.0,
+      "final_v41": 83171.0,
+      "win": false,
+      "error": null
+    },
+    "1054": {
+      "config_code": "Config1",
+      "seed": 1054,
+      "final_cash": 82949.0,
+      "final_v41": 75636.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "config_code": "Config1",
+      "seed": 1057,
+      "final_cash": 83721.0,
+      "final_v41": 78709.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "config_code": "Config1",
+      "seed": 1056,
+      "final_cash": 84861.0,
+      "final_v41": 84861.0,
+      "win": false,
+      "error": null
+    },
+    "1055": {
+      "config_code": "Config1",
+      "seed": 1055,
+      "final_cash": 73934.0,
+      "final_v41": 73161.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "config_code": "Config1",
+      "seed": 1059,
+      "final_cash": 78643.0,
+      "final_v41": 78643.0,
+      "win": false,
+      "error": null
+    },
+    "1058": {
+      "config_code": "Config1",
+      "seed": 1058,
+      "final_cash": 80407.0,
+      "final_v41": 67961.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "config_code": "Config1",
+      "seed": 1060,
+      "final_cash": 72480.0,
+      "final_v41": 72480.0,
+      "win": false,
+      "error": null
+    },
+    "1061": {
+      "config_code": "Config1",
+      "seed": 1061,
+      "final_cash": 83582.0,
+      "final_v41": 83582.0,
+      "win": false,
+      "error": null
+    },
+    "1064": {
+      "config_code": "Config1",
+      "seed": 1064,
+      "final_cash": 88526.0,
+      "final_v41": 88526.0,
+      "win": false,
+      "error": null
+    },
+    "1062": {
+      "config_code": "Config1",
+      "seed": 1062,
+      "final_cash": 76619.0,
+      "final_v41": 84340.0,
+      "win": false,
+      "error": null
+    },
+    "1065": {
+      "config_code": "Config1",
+      "seed": 1065,
+      "final_cash": 82209.0,
+      "final_v41": 84325.0,
+      "win": false,
+      "error": null
+    },
+    "1063": {
+      "config_code": "Config1",
+      "seed": 1063,
+      "final_cash": 75671.0,
+      "final_v41": 77213.0,
+      "win": false,
+      "error": null
+    },
+    "1066": {
+      "config_code": "Config1",
+      "seed": 1066,
+      "final_cash": 80794.0,
+      "final_v41": 80794.0,
+      "win": false,
+      "error": null
+    },
+    "1069": {
+      "config_code": "Config1",
+      "seed": 1069,
+      "final_cash": 81091.0,
+      "final_v41": 81091.0,
+      "win": false,
+      "error": null
+    },
+    "1067": {
+      "config_code": "Config1",
+      "seed": 1067,
+      "final_cash": 83652.0,
+      "final_v41": 83652.0,
+      "win": false,
+      "error": null
+    },
+    "1068": {
+      "config_code": "Config1",
+      "seed": 1068,
+      "final_cash": 85317.0,
+      "final_v41": 75917.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "config_code": "Config1",
+      "seed": 1071,
+      "final_cash": 80617.0,
+      "final_v41": 80617.0,
+      "win": false,
+      "error": null
+    },
+    "1070": {
+      "config_code": "Config1",
+      "seed": 1070,
+      "final_cash": 84053.0,
+      "final_v41": 75239.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "config_code": "Config1",
+      "seed": 1072,
+      "final_cash": 81504.0,
+      "final_v41": 80164.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "config_code": "Config1",
+      "seed": 1073,
+      "final_cash": 83117.0,
+      "final_v41": 86887.0,
+      "win": false,
+      "error": null
+    },
+    "1075": {
+      "config_code": "Config1",
+      "seed": 1075,
+      "final_cash": 75991.0,
+      "final_v41": 75991.0,
+      "win": false,
+      "error": null
+    },
+    "1074": {
+      "config_code": "Config1",
+      "seed": 1074,
+      "final_cash": 87354.0,
+      "final_v41": 87354.0,
+      "win": false,
+      "error": null
+    },
+    "1077": {
+      "config_code": "Config1",
+      "seed": 1077,
+      "final_cash": 80026.0,
+      "final_v41": 77381.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "config_code": "Config1",
+      "seed": 1076,
+      "final_cash": 76447.0,
+      "final_v41": 76447.0,
+      "win": false,
+      "error": null
+    },
+    "1081": {
+      "config_code": "Config1",
+      "seed": 1081,
+      "final_cash": 78152.0,
+      "final_v41": 78152.0,
+      "win": false,
+      "error": null
+    },
+    "1078": {
+      "config_code": "Config1",
+      "seed": 1078,
+      "final_cash": 73017.0,
+      "final_v41": 81821.0,
+      "win": false,
+      "error": null
+    },
+    "1079": {
+      "config_code": "Config1",
+      "seed": 1079,
+      "final_cash": 88502.0,
+      "final_v41": 81525.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "config_code": "Config1",
+      "seed": 1080,
+      "final_cash": 77772.0,
+      "final_v41": 77772.0,
+      "win": false,
+      "error": null
+    },
+    "1083": {
+      "config_code": "Config1",
+      "seed": 1083,
+      "final_cash": 75895.0,
+      "final_v41": 75895.0,
+      "win": false,
+      "error": null
+    },
+    "1082": {
+      "config_code": "Config1",
+      "seed": 1082,
+      "final_cash": 66835.0,
+      "final_v41": 66835.0,
+      "win": false,
+      "error": null
+    },
+    "1084": {
+      "config_code": "Config1",
+      "seed": 1084,
+      "final_cash": 87181.0,
+      "final_v41": 87181.0,
+      "win": false,
+      "error": null
+    },
+    "1085": {
+      "config_code": "Config1",
+      "seed": 1085,
+      "final_cash": 79204.0,
+      "final_v41": 79204.0,
+      "win": false,
+      "error": null
+    },
+    "1088": {
+      "config_code": "Config1",
+      "seed": 1088,
+      "final_cash": 77442.0,
+      "final_v41": 70291.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "config_code": "Config1",
+      "seed": 1086,
+      "final_cash": 81195.0,
+      "final_v41": 81195.0,
+      "win": false,
+      "error": null
+    },
+    "1089": {
+      "config_code": "Config1",
+      "seed": 1089,
+      "final_cash": 75834.0,
+      "final_v41": 75834.0,
+      "win": false,
+      "error": null
+    },
+    "1087": {
+      "config_code": "Config1",
+      "seed": 1087,
+      "final_cash": 75844.0,
+      "final_v41": 75844.0,
+      "win": false,
+      "error": null
+    },
+    "1092": {
+      "config_code": "Config1",
+      "seed": 1092,
+      "final_cash": 84929.0,
+      "final_v41": 90475.0,
+      "win": false,
+      "error": null
+    },
+    "1090": {
+      "config_code": "Config1",
+      "seed": 1090,
+      "final_cash": 91684.0,
+      "final_v41": 91684.0,
+      "win": false,
+      "error": null
+    },
+    "1091": {
+      "config_code": "Config1",
+      "seed": 1091,
+      "final_cash": 73943.0,
+      "final_v41": 73943.0,
+      "win": false,
+      "error": null
+    },
+    "1093": {
+      "config_code": "Config1",
+      "seed": 1093,
+      "final_cash": 82547.0,
+      "final_v41": 79910.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "config_code": "Config1",
+      "seed": 1094,
+      "final_cash": 80859.0,
+      "final_v41": 76955.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "config_code": "Config1",
+      "seed": 1095,
+      "final_cash": 71733.0,
+      "final_v41": 71733.0,
+      "win": false,
+      "error": null
+    },
+    "1096": {
+      "config_code": "Config1",
+      "seed": 1096,
+      "final_cash": 75204.0,
+      "final_v41": 72736.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "config_code": "Config1",
+      "seed": 1097,
+      "final_cash": 77102.0,
+      "final_v41": 80662.0,
+      "win": false,
+      "error": null
+    },
+    "1098": {
+      "config_code": "Config1",
+      "seed": 1098,
+      "final_cash": 72820.0,
+      "final_v41": 72820.0,
+      "win": false,
+      "error": null
+    },
+    "1099": {
+      "config_code": "Config1",
+      "seed": 1099,
+      "final_cash": 81719.0,
+      "final_v41": 81719.0,
+      "win": false,
+      "error": null
+    }
+  },
+  "Config2": {
+    "1001": {
+      "config_code": "Config2",
+      "seed": 1001,
+      "final_cash": 71275.0,
+      "final_v41": 81157.0,
+      "win": false,
+      "error": null
+    },
+    "1002": {
+      "config_code": "Config2",
+      "seed": 1002,
+      "final_cash": 82666.0,
+      "final_v41": 78027.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "config_code": "Config2",
+      "seed": 1003,
+      "final_cash": 97893.0,
+      "final_v41": 92192.0,
+      "win": true,
+      "error": null
+    },
+    "1000": {
+      "config_code": "Config2",
+      "seed": 1000,
+      "final_cash": 91501.0,
+      "final_v41": 83691.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "config_code": "Config2",
+      "seed": 1004,
+      "final_cash": 89043.0,
+      "final_v41": 84144.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "config_code": "Config2",
+      "seed": 1006,
+      "final_cash": 93434.0,
+      "final_v41": 79986.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "config_code": "Config2",
+      "seed": 1005,
+      "final_cash": 89617.0,
+      "final_v41": 84705.0,
+      "win": true,
+      "error": null
+    },
+    "1007": {
+      "config_code": "Config2",
+      "seed": 1007,
+      "final_cash": 97009.0,
+      "final_v41": 98762.0,
+      "win": false,
+      "error": null
+    },
+    "1008": {
+      "config_code": "Config2",
+      "seed": 1008,
+      "final_cash": 97575.0,
+      "final_v41": 82299.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "config_code": "Config2",
+      "seed": 1009,
+      "final_cash": 90203.0,
+      "final_v41": 82594.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "config_code": "Config2",
+      "seed": 1011,
+      "final_cash": 92601.0,
+      "final_v41": 88653.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "config_code": "Config2",
+      "seed": 1013,
+      "final_cash": 94710.0,
+      "final_v41": 93043.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "config_code": "Config2",
+      "seed": 1012,
+      "final_cash": 94368.0,
+      "final_v41": 89240.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "config_code": "Config2",
+      "seed": 1014,
+      "final_cash": 90724.0,
+      "final_v41": 77614.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "config_code": "Config2",
+      "seed": 1010,
+      "final_cash": 94727.0,
+      "final_v41": 89555.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "config_code": "Config2",
+      "seed": 1015,
+      "final_cash": 88827.0,
+      "final_v41": 87950.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "config_code": "Config2",
+      "seed": 1016,
+      "final_cash": 93244.0,
+      "final_v41": 91863.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "config_code": "Config2",
+      "seed": 1018,
+      "final_cash": 92892.0,
+      "final_v41": 89749.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "config_code": "Config2",
+      "seed": 1017,
+      "final_cash": 99048.0,
+      "final_v41": 97079.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "config_code": "Config2",
+      "seed": 1019,
+      "final_cash": 81588.0,
+      "final_v41": 84991.0,
+      "win": false,
+      "error": null
+    },
+    "1020": {
+      "config_code": "Config2",
+      "seed": 1020,
+      "final_cash": 87544.0,
+      "final_v41": 82798.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "config_code": "Config2",
+      "seed": 1021,
+      "final_cash": 93480.0,
+      "final_v41": 79868.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "config_code": "Config2",
+      "seed": 1022,
+      "final_cash": 96183.0,
+      "final_v41": 97114.0,
+      "win": false,
+      "error": null
+    },
+    "1025": {
+      "config_code": "Config2",
+      "seed": 1025,
+      "final_cash": 92474.0,
+      "final_v41": 83039.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "config_code": "Config2",
+      "seed": 1024,
+      "final_cash": 80250.0,
+      "final_v41": 71204.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "config_code": "Config2",
+      "seed": 1023,
+      "final_cash": 89226.0,
+      "final_v41": 87767.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "config_code": "Config2",
+      "seed": 1026,
+      "final_cash": 92555.0,
+      "final_v41": 88788.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "config_code": "Config2",
+      "seed": 1027,
+      "final_cash": 86170.0,
+      "final_v41": 77947.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "config_code": "Config2",
+      "seed": 1028,
+      "final_cash": 89187.0,
+      "final_v41": 75021.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "config_code": "Config2",
+      "seed": 1030,
+      "final_cash": 102019.0,
+      "final_v41": 88671.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "config_code": "Config2",
+      "seed": 1029,
+      "final_cash": 96279.0,
+      "final_v41": 85650.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "config_code": "Config2",
+      "seed": 1031,
+      "final_cash": 96702.0,
+      "final_v41": 89466.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "config_code": "Config2",
+      "seed": 1033,
+      "final_cash": 94338.0,
+      "final_v41": 90385.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "config_code": "Config2",
+      "seed": 1034,
+      "final_cash": 95917.0,
+      "final_v41": 83375.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "config_code": "Config2",
+      "seed": 1032,
+      "final_cash": 92052.0,
+      "final_v41": 83276.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "config_code": "Config2",
+      "seed": 1035,
+      "final_cash": 88484.0,
+      "final_v41": 83629.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "config_code": "Config2",
+      "seed": 1037,
+      "final_cash": 95878.0,
+      "final_v41": 90729.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "config_code": "Config2",
+      "seed": 1036,
+      "final_cash": 94337.0,
+      "final_v41": 88882.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "config_code": "Config2",
+      "seed": 1038,
+      "final_cash": 80965.0,
+      "final_v41": 67665.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "config_code": "Config2",
+      "seed": 1040,
+      "final_cash": 96823.0,
+      "final_v41": 83307.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "config_code": "Config2",
+      "seed": 1039,
+      "final_cash": 92653.0,
+      "final_v41": 81228.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "config_code": "Config2",
+      "seed": 1041,
+      "final_cash": 90946.0,
+      "final_v41": 86621.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "config_code": "Config2",
+      "seed": 1043,
+      "final_cash": 95529.0,
+      "final_v41": 81788.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "config_code": "Config2",
+      "seed": 1042,
+      "final_cash": 86138.0,
+      "final_v41": 78337.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "config_code": "Config2",
+      "seed": 1044,
+      "final_cash": 85399.0,
+      "final_v41": 74601.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "config_code": "Config2",
+      "seed": 1045,
+      "final_cash": 74133.0,
+      "final_v41": 88543.0,
+      "win": false,
+      "error": null
+    },
+    "1046": {
+      "config_code": "Config2",
+      "seed": 1046,
+      "final_cash": 83388.0,
+      "final_v41": 79522.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "config_code": "Config2",
+      "seed": 1048,
+      "final_cash": 94887.0,
+      "final_v41": 91943.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "config_code": "Config2",
+      "seed": 1047,
+      "final_cash": 98881.0,
+      "final_v41": 86067.0,
+      "win": true,
+      "error": null
+    },
+    "1051": {
+      "config_code": "Config2",
+      "seed": 1051,
+      "final_cash": 73092.0,
+      "final_v41": 82925.0,
+      "win": false,
+      "error": null
+    },
+    "1052": {
+      "config_code": "Config2",
+      "seed": 1052,
+      "final_cash": 99374.0,
+      "final_v41": 88145.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "config_code": "Config2",
+      "seed": 1050,
+      "final_cash": 79945.0,
+      "final_v41": 89982.0,
+      "win": false,
+      "error": null
+    },
+    "1049": {
+      "config_code": "Config2",
+      "seed": 1049,
+      "final_cash": 79128.0,
+      "final_v41": 83616.0,
+      "win": false,
+      "error": null
+    },
+    "1053": {
+      "config_code": "Config2",
+      "seed": 1053,
+      "final_cash": 93046.0,
+      "final_v41": 87902.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "config_code": "Config2",
+      "seed": 1054,
+      "final_cash": 92774.0,
+      "final_v41": 81029.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "config_code": "Config2",
+      "seed": 1055,
+      "final_cash": 92899.0,
+      "final_v41": 87225.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "config_code": "Config2",
+      "seed": 1056,
+      "final_cash": 95825.0,
+      "final_v41": 82748.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "config_code": "Config2",
+      "seed": 1058,
+      "final_cash": 97032.0,
+      "final_v41": 80696.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "config_code": "Config2",
+      "seed": 1057,
+      "final_cash": 75507.0,
+      "final_v41": 85370.0,
+      "win": false,
+      "error": null
+    },
+    "1060": {
+      "config_code": "Config2",
+      "seed": 1060,
+      "final_cash": 95908.0,
+      "final_v41": 91887.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "config_code": "Config2",
+      "seed": 1061,
+      "final_cash": 91920.0,
+      "final_v41": 88269.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "config_code": "Config2",
+      "seed": 1062,
+      "final_cash": 93103.0,
+      "final_v41": 90776.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "config_code": "Config2",
+      "seed": 1059,
+      "final_cash": 92719.0,
+      "final_v41": 83345.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "config_code": "Config2",
+      "seed": 1064,
+      "final_cash": 90938.0,
+      "final_v41": 87012.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "config_code": "Config2",
+      "seed": 1063,
+      "final_cash": 87380.0,
+      "final_v41": 89899.0,
+      "win": false,
+      "error": null
+    },
+    "1065": {
+      "config_code": "Config2",
+      "seed": 1065,
+      "final_cash": 93695.0,
+      "final_v41": 82111.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "config_code": "Config2",
+      "seed": 1067,
+      "final_cash": 90649.0,
+      "final_v41": 87125.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "config_code": "Config2",
+      "seed": 1066,
+      "final_cash": 82203.0,
+      "final_v41": 80888.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "config_code": "Config2",
+      "seed": 1068,
+      "final_cash": 104083.0,
+      "final_v41": 90312.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "config_code": "Config2",
+      "seed": 1071,
+      "final_cash": 68240.0,
+      "final_v41": 77923.0,
+      "win": false,
+      "error": null
+    },
+    "1072": {
+      "config_code": "Config2",
+      "seed": 1072,
+      "final_cash": 95693.0,
+      "final_v41": 83108.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "config_code": "Config2",
+      "seed": 1074,
+      "final_cash": 98051.0,
+      "final_v41": 92378.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "config_code": "Config2",
+      "seed": 1069,
+      "final_cash": 90702.0,
+      "final_v41": 80507.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "config_code": "Config2",
+      "seed": 1073,
+      "final_cash": 94022.0,
+      "final_v41": 88765.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "config_code": "Config2",
+      "seed": 1075,
+      "final_cash": 89501.0,
+      "final_v41": 88053.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "config_code": "Config2",
+      "seed": 1070,
+      "final_cash": 89401.0,
+      "final_v41": 89269.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "config_code": "Config2",
+      "seed": 1076,
+      "final_cash": 90255.0,
+      "final_v41": 91535.0,
+      "win": false,
+      "error": null
+    },
+    "1078": {
+      "config_code": "Config2",
+      "seed": 1078,
+      "final_cash": 98294.0,
+      "final_v41": 93070.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "config_code": "Config2",
+      "seed": 1079,
+      "final_cash": 88658.0,
+      "final_v41": 76746.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "config_code": "Config2",
+      "seed": 1077,
+      "final_cash": 84404.0,
+      "final_v41": 86383.0,
+      "win": false,
+      "error": null
+    },
+    "1080": {
+      "config_code": "Config2",
+      "seed": 1080,
+      "final_cash": 92743.0,
+      "final_v41": 79493.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "config_code": "Config2",
+      "seed": 1082,
+      "final_cash": 90082.0,
+      "final_v41": 88622.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "config_code": "Config2",
+      "seed": 1081,
+      "final_cash": 84454.0,
+      "final_v41": 79889.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "config_code": "Config2",
+      "seed": 1083,
+      "final_cash": 76411.0,
+      "final_v41": 79287.0,
+      "win": false,
+      "error": null
+    },
+    "1084": {
+      "config_code": "Config2",
+      "seed": 1084,
+      "final_cash": 100993.0,
+      "final_v41": 85248.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "config_code": "Config2",
+      "seed": 1088,
+      "final_cash": 82248.0,
+      "final_v41": 86162.0,
+      "win": false,
+      "error": null
+    },
+    "1087": {
+      "config_code": "Config2",
+      "seed": 1087,
+      "final_cash": 87886.0,
+      "final_v41": 77242.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "config_code": "Config2",
+      "seed": 1086,
+      "final_cash": 90046.0,
+      "final_v41": 80553.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "config_code": "Config2",
+      "seed": 1085,
+      "final_cash": 92542.0,
+      "final_v41": 91113.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "config_code": "Config2",
+      "seed": 1089,
+      "final_cash": 94415.0,
+      "final_v41": 82859.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "config_code": "Config2",
+      "seed": 1091,
+      "final_cash": 92418.0,
+      "final_v41": 79145.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "config_code": "Config2",
+      "seed": 1090,
+      "final_cash": 96760.0,
+      "final_v41": 92795.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "config_code": "Config2",
+      "seed": 1092,
+      "final_cash": 93295.0,
+      "final_v41": 94955.0,
+      "win": false,
+      "error": null
+    },
+    "1094": {
+      "config_code": "Config2",
+      "seed": 1094,
+      "final_cash": 99166.0,
+      "final_v41": 86216.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "config_code": "Config2",
+      "seed": 1098,
+      "final_cash": 90243.0,
+      "final_v41": 93768.0,
+      "win": false,
+      "error": null
+    },
+    "1099": {
+      "config_code": "Config2",
+      "seed": 1099,
+      "final_cash": 87246.0,
+      "final_v41": 83546.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "config_code": "Config2",
+      "seed": 1093,
+      "final_cash": 90167.0,
+      "final_v41": 91473.0,
+      "win": false,
+      "error": null
+    },
+    "1097": {
+      "config_code": "Config2",
+      "seed": 1097,
+      "final_cash": 94866.0,
+      "final_v41": 88162.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "config_code": "Config2",
+      "seed": 1095,
+      "final_cash": 77482.0,
+      "final_v41": 87352.0,
+      "win": false,
+      "error": null
+    },
+    "1096": {
+      "config_code": "Config2",
+      "seed": 1096,
+      "final_cash": 72293.0,
+      "final_v41": 82428.0,
+      "win": false,
+      "error": null
+    }
+  },
+  "Config3": {
+    "1000": {
+      "config_code": "Config3",
+      "seed": 1000,
+      "final_cash": 85124.0,
+      "final_v41": 78825.0,
+      "win": true,
+      "error": null
+    },
+    "1001": {
+      "config_code": "Config3",
+      "seed": 1001,
+      "final_cash": 87368.0,
+      "final_v41": 77878.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "config_code": "Config3",
+      "seed": 1003,
+      "final_cash": 88396.0,
+      "final_v41": 77813.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "config_code": "Config3",
+      "seed": 1002,
+      "final_cash": 81352.0,
+      "final_v41": 70223.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "config_code": "Config3",
+      "seed": 1004,
+      "final_cash": 95405.0,
+      "final_v41": 79399.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "config_code": "Config3",
+      "seed": 1005,
+      "final_cash": 88264.0,
+      "final_v41": 73276.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "config_code": "Config3",
+      "seed": 1006,
+      "final_cash": 88448.0,
+      "final_v41": 78305.0,
+      "win": true,
+      "error": null
+    },
+    "1007": {
+      "config_code": "Config3",
+      "seed": 1007,
+      "final_cash": 90141.0,
+      "final_v41": 71022.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "config_code": "Config3",
+      "seed": 1010,
+      "final_cash": 95892.0,
+      "final_v41": 82864.0,
+      "win": true,
+      "error": null
+    },
+    "1008": {
+      "config_code": "Config3",
+      "seed": 1008,
+      "final_cash": 97463.0,
+      "final_v41": 75561.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "config_code": "Config3",
+      "seed": 1011,
+      "final_cash": 85292.0,
+      "final_v41": 78498.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "config_code": "Config3",
+      "seed": 1009,
+      "final_cash": 85698.0,
+      "final_v41": 71636.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "config_code": "Config3",
+      "seed": 1012,
+      "final_cash": 84943.0,
+      "final_v41": 77855.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "config_code": "Config3",
+      "seed": 1013,
+      "final_cash": 87768.0,
+      "final_v41": 75344.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "config_code": "Config3",
+      "seed": 1014,
+      "final_cash": 81423.0,
+      "final_v41": 79131.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "config_code": "Config3",
+      "seed": 1015,
+      "final_cash": 80862.0,
+      "final_v41": 69606.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "config_code": "Config3",
+      "seed": 1016,
+      "final_cash": 87072.0,
+      "final_v41": 75135.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "config_code": "Config3",
+      "seed": 1017,
+      "final_cash": 77940.0,
+      "final_v41": 65924.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "config_code": "Config3",
+      "seed": 1018,
+      "final_cash": 88153.0,
+      "final_v41": 75935.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "config_code": "Config3",
+      "seed": 1019,
+      "final_cash": 84264.0,
+      "final_v41": 74477.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "config_code": "Config3",
+      "seed": 1022,
+      "final_cash": 83367.0,
+      "final_v41": 76193.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "config_code": "Config3",
+      "seed": 1023,
+      "final_cash": 92927.0,
+      "final_v41": 81251.0,
+      "win": true,
+      "error": null
+    },
+    "1020": {
+      "config_code": "Config3",
+      "seed": 1020,
+      "final_cash": 91840.0,
+      "final_v41": 78161.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "config_code": "Config3",
+      "seed": 1021,
+      "final_cash": 96400.0,
+      "final_v41": 76752.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "config_code": "Config3",
+      "seed": 1024,
+      "final_cash": 92754.0,
+      "final_v41": 76390.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "config_code": "Config3",
+      "seed": 1025,
+      "final_cash": 87983.0,
+      "final_v41": 75467.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "config_code": "Config3",
+      "seed": 1026,
+      "final_cash": 92887.0,
+      "final_v41": 81199.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "config_code": "Config3",
+      "seed": 1027,
+      "final_cash": 89964.0,
+      "final_v41": 63536.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "config_code": "Config3",
+      "seed": 1028,
+      "final_cash": 85121.0,
+      "final_v41": 74042.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "config_code": "Config3",
+      "seed": 1030,
+      "final_cash": 90427.0,
+      "final_v41": 78279.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "config_code": "Config3",
+      "seed": 1029,
+      "final_cash": 81146.0,
+      "final_v41": 69060.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "config_code": "Config3",
+      "seed": 1031,
+      "final_cash": 76868.0,
+      "final_v41": 71717.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "config_code": "Config3",
+      "seed": 1032,
+      "final_cash": 83373.0,
+      "final_v41": 77522.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "config_code": "Config3",
+      "seed": 1036,
+      "final_cash": 88196.0,
+      "final_v41": 82212.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "config_code": "Config3",
+      "seed": 1035,
+      "final_cash": 75889.0,
+      "final_v41": 68849.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "config_code": "Config3",
+      "seed": 1033,
+      "final_cash": 87179.0,
+      "final_v41": 68342.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "config_code": "Config3",
+      "seed": 1034,
+      "final_cash": 79866.0,
+      "final_v41": 62243.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "config_code": "Config3",
+      "seed": 1037,
+      "final_cash": 89746.0,
+      "final_v41": 83499.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "config_code": "Config3",
+      "seed": 1038,
+      "final_cash": 90631.0,
+      "final_v41": 64013.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "config_code": "Config3",
+      "seed": 1039,
+      "final_cash": 94014.0,
+      "final_v41": 67953.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "config_code": "Config3",
+      "seed": 1040,
+      "final_cash": 96574.0,
+      "final_v41": 80712.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "config_code": "Config3",
+      "seed": 1041,
+      "final_cash": 85960.0,
+      "final_v41": 80652.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "config_code": "Config3",
+      "seed": 1042,
+      "final_cash": 79683.0,
+      "final_v41": 65774.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "config_code": "Config3",
+      "seed": 1043,
+      "final_cash": 89816.0,
+      "final_v41": 70091.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "config_code": "Config3",
+      "seed": 1044,
+      "final_cash": 92628.0,
+      "final_v41": 69593.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "config_code": "Config3",
+      "seed": 1048,
+      "final_cash": 86478.0,
+      "final_v41": 76938.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "config_code": "Config3",
+      "seed": 1047,
+      "final_cash": 85558.0,
+      "final_v41": 77364.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "config_code": "Config3",
+      "seed": 1046,
+      "final_cash": 81761.0,
+      "final_v41": 63276.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "config_code": "Config3",
+      "seed": 1045,
+      "final_cash": 80103.0,
+      "final_v41": 67436.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "config_code": "Config3",
+      "seed": 1049,
+      "final_cash": 87565.0,
+      "final_v41": 75312.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "config_code": "Config3",
+      "seed": 1050,
+      "final_cash": 80181.0,
+      "final_v41": 80642.0,
+      "win": false,
+      "error": null
+    },
+    "1051": {
+      "config_code": "Config3",
+      "seed": 1051,
+      "final_cash": 96946.0,
+      "final_v41": 75840.0,
+      "win": true,
+      "error": null
+    },
+    "1052": {
+      "config_code": "Config3",
+      "seed": 1052,
+      "final_cash": 89057.0,
+      "final_v41": 82312.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "config_code": "Config3",
+      "seed": 1054,
+      "final_cash": 85470.0,
+      "final_v41": 71929.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "config_code": "Config3",
+      "seed": 1053,
+      "final_cash": 88061.0,
+      "final_v41": 76574.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "config_code": "Config3",
+      "seed": 1055,
+      "final_cash": 81168.0,
+      "final_v41": 65618.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "config_code": "Config3",
+      "seed": 1056,
+      "final_cash": 87140.0,
+      "final_v41": 78193.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "config_code": "Config3",
+      "seed": 1057,
+      "final_cash": 94333.0,
+      "final_v41": 73116.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "config_code": "Config3",
+      "seed": 1059,
+      "final_cash": 79206.0,
+      "final_v41": 72052.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "config_code": "Config3",
+      "seed": 1061,
+      "final_cash": 87955.0,
+      "final_v41": 76451.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "config_code": "Config3",
+      "seed": 1058,
+      "final_cash": 89983.0,
+      "final_v41": 62917.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "config_code": "Config3",
+      "seed": 1060,
+      "final_cash": 80604.0,
+      "final_v41": 74002.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "config_code": "Config3",
+      "seed": 1062,
+      "final_cash": 82872.0,
+      "final_v41": 80275.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "config_code": "Config3",
+      "seed": 1063,
+      "final_cash": 83552.0,
+      "final_v41": 70601.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "config_code": "Config3",
+      "seed": 1064,
+      "final_cash": 85382.0,
+      "final_v41": 79679.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "config_code": "Config3",
+      "seed": 1067,
+      "final_cash": 90105.0,
+      "final_v41": 83630.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "config_code": "Config3",
+      "seed": 1065,
+      "final_cash": 87263.0,
+      "final_v41": 73217.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "config_code": "Config3",
+      "seed": 1066,
+      "final_cash": 91090.0,
+      "final_v41": 79305.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "config_code": "Config3",
+      "seed": 1068,
+      "final_cash": 83611.0,
+      "final_v41": 70853.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "config_code": "Config3",
+      "seed": 1069,
+      "final_cash": 82438.0,
+      "final_v41": 74336.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "config_code": "Config3",
+      "seed": 1071,
+      "final_cash": 87279.0,
+      "final_v41": 77880.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "config_code": "Config3",
+      "seed": 1070,
+      "final_cash": 85642.0,
+      "final_v41": 80069.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "config_code": "Config3",
+      "seed": 1073,
+      "final_cash": 94262.0,
+      "final_v41": 79668.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "config_code": "Config3",
+      "seed": 1075,
+      "final_cash": 87565.0,
+      "final_v41": 76040.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "config_code": "Config3",
+      "seed": 1072,
+      "final_cash": 81663.0,
+      "final_v41": 72100.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "config_code": "Config3",
+      "seed": 1074,
+      "final_cash": 92598.0,
+      "final_v41": 74928.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "config_code": "Config3",
+      "seed": 1076,
+      "final_cash": 81867.0,
+      "final_v41": 74943.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "config_code": "Config3",
+      "seed": 1077,
+      "final_cash": 80140.0,
+      "final_v41": 67906.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "config_code": "Config3",
+      "seed": 1079,
+      "final_cash": 88660.0,
+      "final_v41": 71192.0,
+      "win": true,
+      "error": null
+    },
+    "1078": {
+      "config_code": "Config3",
+      "seed": 1078,
+      "final_cash": 80522.0,
+      "final_v41": 77283.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "config_code": "Config3",
+      "seed": 1082,
+      "final_cash": 82961.0,
+      "final_v41": 71351.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "config_code": "Config3",
+      "seed": 1083,
+      "final_cash": 79856.0,
+      "final_v41": 67732.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "config_code": "Config3",
+      "seed": 1080,
+      "final_cash": 97412.0,
+      "final_v41": 70514.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "config_code": "Config3",
+      "seed": 1085,
+      "final_cash": 83403.0,
+      "final_v41": 71811.0,
+      "win": true,
+      "error": null
+    },
+    "1084": {
+      "config_code": "Config3",
+      "seed": 1084,
+      "final_cash": 88947.0,
+      "final_v41": 80661.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "config_code": "Config3",
+      "seed": 1081,
+      "final_cash": 95357.0,
+      "final_v41": 69535.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "config_code": "Config3",
+      "seed": 1086,
+      "final_cash": 79394.0,
+      "final_v41": 72549.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "config_code": "Config3",
+      "seed": 1087,
+      "final_cash": 86185.0,
+      "final_v41": 68393.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "config_code": "Config3",
+      "seed": 1088,
+      "final_cash": 86226.0,
+      "final_v41": 67828.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "config_code": "Config3",
+      "seed": 1089,
+      "final_cash": 84047.0,
+      "final_v41": 68824.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "config_code": "Config3",
+      "seed": 1091,
+      "final_cash": 79360.0,
+      "final_v41": 61536.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "config_code": "Config3",
+      "seed": 1090,
+      "final_cash": 89210.0,
+      "final_v41": 83042.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "config_code": "Config3",
+      "seed": 1093,
+      "final_cash": 89008.0,
+      "final_v41": 72813.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "config_code": "Config3",
+      "seed": 1097,
+      "final_cash": 86262.0,
+      "final_v41": 78238.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "config_code": "Config3",
+      "seed": 1092,
+      "final_cash": 90676.0,
+      "final_v41": 82953.0,
+      "win": true,
+      "error": null
+    },
+    "1096": {
+      "config_code": "Config3",
+      "seed": 1096,
+      "final_cash": 82600.0,
+      "final_v41": 67890.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "config_code": "Config3",
+      "seed": 1094,
+      "final_cash": 94369.0,
+      "final_v41": 73237.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "config_code": "Config3",
+      "seed": 1095,
+      "final_cash": 76871.0,
+      "final_v41": 65423.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "config_code": "Config3",
+      "seed": 1098,
+      "final_cash": 79725.0,
+      "final_v41": 73349.0,
+      "win": true,
+      "error": null
+    },
+    "1099": {
+      "config_code": "Config3",
+      "seed": 1099,
+      "final_cash": 85077.0,
+      "final_v41": 79059.0,
+      "win": true,
+      "error": null
+    }
+  },
+  "Config4": {
+    "1000": {
+      "config_code": "Config4",
+      "seed": 1000,
+      "final_cash": 91552.0,
+      "final_v41": 78224.0,
+      "win": true,
+      "error": null
+    },
+    "1001": {
+      "config_code": "Config4",
+      "seed": 1001,
+      "final_cash": 87448.0,
+      "final_v41": 79191.0,
+      "win": true,
+      "error": null
+    },
+    "1004": {
+      "config_code": "Config4",
+      "seed": 1004,
+      "final_cash": 94037.0,
+      "final_v41": 78971.0,
+      "win": true,
+      "error": null
+    },
+    "1002": {
+      "config_code": "Config4",
+      "seed": 1002,
+      "final_cash": 87925.0,
+      "final_v41": 72562.0,
+      "win": true,
+      "error": null
+    },
+    "1003": {
+      "config_code": "Config4",
+      "seed": 1003,
+      "final_cash": 104031.0,
+      "final_v41": 88300.0,
+      "win": true,
+      "error": null
+    },
+    "1008": {
+      "config_code": "Config4",
+      "seed": 1008,
+      "final_cash": 107228.0,
+      "final_v41": 84937.0,
+      "win": true,
+      "error": null
+    },
+    "1006": {
+      "config_code": "Config4",
+      "seed": 1006,
+      "final_cash": 100977.0,
+      "final_v41": 81704.0,
+      "win": true,
+      "error": null
+    },
+    "1005": {
+      "config_code": "Config4",
+      "seed": 1005,
+      "final_cash": 94570.0,
+      "final_v41": 79573.0,
+      "win": true,
+      "error": null
+    },
+    "1010": {
+      "config_code": "Config4",
+      "seed": 1010,
+      "final_cash": 100951.0,
+      "final_v41": 85550.0,
+      "win": true,
+      "error": null
+    },
+    "1007": {
+      "config_code": "Config4",
+      "seed": 1007,
+      "final_cash": 103323.0,
+      "final_v41": 92403.0,
+      "win": true,
+      "error": null
+    },
+    "1009": {
+      "config_code": "Config4",
+      "seed": 1009,
+      "final_cash": 95405.0,
+      "final_v41": 77204.0,
+      "win": true,
+      "error": null
+    },
+    "1011": {
+      "config_code": "Config4",
+      "seed": 1011,
+      "final_cash": 94906.0,
+      "final_v41": 89114.0,
+      "win": true,
+      "error": null
+    },
+    "1012": {
+      "config_code": "Config4",
+      "seed": 1012,
+      "final_cash": 100672.0,
+      "final_v41": 85198.0,
+      "win": true,
+      "error": null
+    },
+    "1013": {
+      "config_code": "Config4",
+      "seed": 1013,
+      "final_cash": 103089.0,
+      "final_v41": 83877.0,
+      "win": true,
+      "error": null
+    },
+    "1014": {
+      "config_code": "Config4",
+      "seed": 1014,
+      "final_cash": 102200.0,
+      "final_v41": 82659.0,
+      "win": true,
+      "error": null
+    },
+    "1015": {
+      "config_code": "Config4",
+      "seed": 1015,
+      "final_cash": 95170.0,
+      "final_v41": 81530.0,
+      "win": true,
+      "error": null
+    },
+    "1017": {
+      "config_code": "Config4",
+      "seed": 1017,
+      "final_cash": 104303.0,
+      "final_v41": 82211.0,
+      "win": true,
+      "error": null
+    },
+    "1016": {
+      "config_code": "Config4",
+      "seed": 1016,
+      "final_cash": 98523.0,
+      "final_v41": 76113.0,
+      "win": true,
+      "error": null
+    },
+    "1018": {
+      "config_code": "Config4",
+      "seed": 1018,
+      "final_cash": 89587.0,
+      "final_v41": 74660.0,
+      "win": true,
+      "error": null
+    },
+    "1019": {
+      "config_code": "Config4",
+      "seed": 1019,
+      "final_cash": 90138.0,
+      "final_v41": 72041.0,
+      "win": true,
+      "error": null
+    },
+    "1020": {
+      "config_code": "Config4",
+      "seed": 1020,
+      "final_cash": 92536.0,
+      "final_v41": 77621.0,
+      "win": true,
+      "error": null
+    },
+    "1022": {
+      "config_code": "Config4",
+      "seed": 1022,
+      "final_cash": 103501.0,
+      "final_v41": 84031.0,
+      "win": true,
+      "error": null
+    },
+    "1021": {
+      "config_code": "Config4",
+      "seed": 1021,
+      "final_cash": 98508.0,
+      "final_v41": 74654.0,
+      "win": true,
+      "error": null
+    },
+    "1023": {
+      "config_code": "Config4",
+      "seed": 1023,
+      "final_cash": 93718.0,
+      "final_v41": 72762.0,
+      "win": true,
+      "error": null
+    },
+    "1024": {
+      "config_code": "Config4",
+      "seed": 1024,
+      "final_cash": 94980.0,
+      "final_v41": 72637.0,
+      "win": true,
+      "error": null
+    },
+    "1025": {
+      "config_code": "Config4",
+      "seed": 1025,
+      "final_cash": 100105.0,
+      "final_v41": 87911.0,
+      "win": true,
+      "error": null
+    },
+    "1028": {
+      "config_code": "Config4",
+      "seed": 1028,
+      "final_cash": 91289.0,
+      "final_v41": 75581.0,
+      "win": true,
+      "error": null
+    },
+    "1029": {
+      "config_code": "Config4",
+      "seed": 1029,
+      "final_cash": 104279.0,
+      "final_v41": 84700.0,
+      "win": true,
+      "error": null
+    },
+    "1027": {
+      "config_code": "Config4",
+      "seed": 1027,
+      "final_cash": 98320.0,
+      "final_v41": 79099.0,
+      "win": true,
+      "error": null
+    },
+    "1026": {
+      "config_code": "Config4",
+      "seed": 1026,
+      "final_cash": 96668.0,
+      "final_v41": 90351.0,
+      "win": true,
+      "error": null
+    },
+    "1030": {
+      "config_code": "Config4",
+      "seed": 1030,
+      "final_cash": 105862.0,
+      "final_v41": 84835.0,
+      "win": true,
+      "error": null
+    },
+    "1033": {
+      "config_code": "Config4",
+      "seed": 1033,
+      "final_cash": 101016.0,
+      "final_v41": 86524.0,
+      "win": true,
+      "error": null
+    },
+    "1032": {
+      "config_code": "Config4",
+      "seed": 1032,
+      "final_cash": 103391.0,
+      "final_v41": 80780.0,
+      "win": true,
+      "error": null
+    },
+    "1035": {
+      "config_code": "Config4",
+      "seed": 1035,
+      "final_cash": 93498.0,
+      "final_v41": 78429.0,
+      "win": true,
+      "error": null
+    },
+    "1034": {
+      "config_code": "Config4",
+      "seed": 1034,
+      "final_cash": 101210.0,
+      "final_v41": 78321.0,
+      "win": true,
+      "error": null
+    },
+    "1031": {
+      "config_code": "Config4",
+      "seed": 1031,
+      "final_cash": 99102.0,
+      "final_v41": 79257.0,
+      "win": true,
+      "error": null
+    },
+    "1037": {
+      "config_code": "Config4",
+      "seed": 1037,
+      "final_cash": 102107.0,
+      "final_v41": 86749.0,
+      "win": true,
+      "error": null
+    },
+    "1036": {
+      "config_code": "Config4",
+      "seed": 1036,
+      "final_cash": 100713.0,
+      "final_v41": 84822.0,
+      "win": true,
+      "error": null
+    },
+    "1039": {
+      "config_code": "Config4",
+      "seed": 1039,
+      "final_cash": 93933.0,
+      "final_v41": 74147.0,
+      "win": true,
+      "error": null
+    },
+    "1038": {
+      "config_code": "Config4",
+      "seed": 1038,
+      "final_cash": 100148.0,
+      "final_v41": 72552.0,
+      "win": true,
+      "error": null
+    },
+    "1040": {
+      "config_code": "Config4",
+      "seed": 1040,
+      "final_cash": 97985.0,
+      "final_v41": 78829.0,
+      "win": true,
+      "error": null
+    },
+    "1043": {
+      "config_code": "Config4",
+      "seed": 1043,
+      "final_cash": 99433.0,
+      "final_v41": 79792.0,
+      "win": true,
+      "error": null
+    },
+    "1041": {
+      "config_code": "Config4",
+      "seed": 1041,
+      "final_cash": 96220.0,
+      "final_v41": 81138.0,
+      "win": true,
+      "error": null
+    },
+    "1044": {
+      "config_code": "Config4",
+      "seed": 1044,
+      "final_cash": 91587.0,
+      "final_v41": 70318.0,
+      "win": true,
+      "error": null
+    },
+    "1047": {
+      "config_code": "Config4",
+      "seed": 1047,
+      "final_cash": 102743.0,
+      "final_v41": 82272.0,
+      "win": true,
+      "error": null
+    },
+    "1046": {
+      "config_code": "Config4",
+      "seed": 1046,
+      "final_cash": 88880.0,
+      "final_v41": 73820.0,
+      "win": true,
+      "error": null
+    },
+    "1045": {
+      "config_code": "Config4",
+      "seed": 1045,
+      "final_cash": 87843.0,
+      "final_v41": 84400.0,
+      "win": true,
+      "error": null
+    },
+    "1042": {
+      "config_code": "Config4",
+      "seed": 1042,
+      "final_cash": 93605.0,
+      "final_v41": 80631.0,
+      "win": true,
+      "error": null
+    },
+    "1049": {
+      "config_code": "Config4",
+      "seed": 1049,
+      "final_cash": 86361.0,
+      "final_v41": 78103.0,
+      "win": true,
+      "error": null
+    },
+    "1048": {
+      "config_code": "Config4",
+      "seed": 1048,
+      "final_cash": 99596.0,
+      "final_v41": 84294.0,
+      "win": true,
+      "error": null
+    },
+    "1050": {
+      "config_code": "Config4",
+      "seed": 1050,
+      "final_cash": 92588.0,
+      "final_v41": 84095.0,
+      "win": true,
+      "error": null
+    },
+    "1051": {
+      "config_code": "Config4",
+      "seed": 1051,
+      "final_cash": 80134.0,
+      "final_v41": 75892.0,
+      "win": true,
+      "error": null
+    },
+    "1053": {
+      "config_code": "Config4",
+      "seed": 1053,
+      "final_cash": 97962.0,
+      "final_v41": 82800.0,
+      "win": true,
+      "error": null
+    },
+    "1055": {
+      "config_code": "Config4",
+      "seed": 1055,
+      "final_cash": 99311.0,
+      "final_v41": 87365.0,
+      "win": true,
+      "error": null
+    },
+    "1054": {
+      "config_code": "Config4",
+      "seed": 1054,
+      "final_cash": 97786.0,
+      "final_v41": 75811.0,
+      "win": true,
+      "error": null
+    },
+    "1052": {
+      "config_code": "Config4",
+      "seed": 1052,
+      "final_cash": 94922.0,
+      "final_v41": 82682.0,
+      "win": true,
+      "error": null
+    },
+    "1056": {
+      "config_code": "Config4",
+      "seed": 1056,
+      "final_cash": 99830.0,
+      "final_v41": 78688.0,
+      "win": true,
+      "error": null
+    },
+    "1057": {
+      "config_code": "Config4",
+      "seed": 1057,
+      "final_cash": 82850.0,
+      "final_v41": 73935.0,
+      "win": true,
+      "error": null
+    },
+    "1059": {
+      "config_code": "Config4",
+      "seed": 1059,
+      "final_cash": 103913.0,
+      "final_v41": 81041.0,
+      "win": true,
+      "error": null
+    },
+    "1058": {
+      "config_code": "Config4",
+      "seed": 1058,
+      "final_cash": 94458.0,
+      "final_v41": 72876.0,
+      "win": true,
+      "error": null
+    },
+    "1060": {
+      "config_code": "Config4",
+      "seed": 1060,
+      "final_cash": 101582.0,
+      "final_v41": 85901.0,
+      "win": true,
+      "error": null
+    },
+    "1061": {
+      "config_code": "Config4",
+      "seed": 1061,
+      "final_cash": 94502.0,
+      "final_v41": 88433.0,
+      "win": true,
+      "error": null
+    },
+    "1062": {
+      "config_code": "Config4",
+      "seed": 1062,
+      "final_cash": 97258.0,
+      "final_v41": 91611.0,
+      "win": true,
+      "error": null
+    },
+    "1064": {
+      "config_code": "Config4",
+      "seed": 1064,
+      "final_cash": 94488.0,
+      "final_v41": 88367.0,
+      "win": true,
+      "error": null
+    },
+    "1065": {
+      "config_code": "Config4",
+      "seed": 1065,
+      "final_cash": 98634.0,
+      "final_v41": 76969.0,
+      "win": true,
+      "error": null
+    },
+    "1067": {
+      "config_code": "Config4",
+      "seed": 1067,
+      "final_cash": 101836.0,
+      "final_v41": 88694.0,
+      "win": true,
+      "error": null
+    },
+    "1063": {
+      "config_code": "Config4",
+      "seed": 1063,
+      "final_cash": 94980.0,
+      "final_v41": 79385.0,
+      "win": true,
+      "error": null
+    },
+    "1066": {
+      "config_code": "Config4",
+      "seed": 1066,
+      "final_cash": 89899.0,
+      "final_v41": 73078.0,
+      "win": true,
+      "error": null
+    },
+    "1068": {
+      "config_code": "Config4",
+      "seed": 1068,
+      "final_cash": 107829.0,
+      "final_v41": 86760.0,
+      "win": true,
+      "error": null
+    },
+    "1070": {
+      "config_code": "Config4",
+      "seed": 1070,
+      "final_cash": 101334.0,
+      "final_v41": 87313.0,
+      "win": true,
+      "error": null
+    },
+    "1071": {
+      "config_code": "Config4",
+      "seed": 1071,
+      "final_cash": 79846.0,
+      "final_v41": 68735.0,
+      "win": true,
+      "error": null
+    },
+    "1069": {
+      "config_code": "Config4",
+      "seed": 1069,
+      "final_cash": 89749.0,
+      "final_v41": 69940.0,
+      "win": true,
+      "error": null
+    },
+    "1072": {
+      "config_code": "Config4",
+      "seed": 1072,
+      "final_cash": 100547.0,
+      "final_v41": 81793.0,
+      "win": true,
+      "error": null
+    },
+    "1073": {
+      "config_code": "Config4",
+      "seed": 1073,
+      "final_cash": 100309.0,
+      "final_v41": 84724.0,
+      "win": true,
+      "error": null
+    },
+    "1074": {
+      "config_code": "Config4",
+      "seed": 1074,
+      "final_cash": 104262.0,
+      "final_v41": 88441.0,
+      "win": true,
+      "error": null
+    },
+    "1076": {
+      "config_code": "Config4",
+      "seed": 1076,
+      "final_cash": 105094.0,
+      "final_v41": 85886.0,
+      "win": true,
+      "error": null
+    },
+    "1078": {
+      "config_code": "Config4",
+      "seed": 1078,
+      "final_cash": 103124.0,
+      "final_v41": 88069.0,
+      "win": true,
+      "error": null
+    },
+    "1075": {
+      "config_code": "Config4",
+      "seed": 1075,
+      "final_cash": 95066.0,
+      "final_v41": 74242.0,
+      "win": true,
+      "error": null
+    },
+    "1077": {
+      "config_code": "Config4",
+      "seed": 1077,
+      "final_cash": 91433.0,
+      "final_v41": 76615.0,
+      "win": true,
+      "error": null
+    },
+    "1079": {
+      "config_code": "Config4",
+      "seed": 1079,
+      "final_cash": 95079.0,
+      "final_v41": 72430.0,
+      "win": true,
+      "error": null
+    },
+    "1081": {
+      "config_code": "Config4",
+      "seed": 1081,
+      "final_cash": 89548.0,
+      "final_v41": 74601.0,
+      "win": true,
+      "error": null
+    },
+    "1080": {
+      "config_code": "Config4",
+      "seed": 1080,
+      "final_cash": 96637.0,
+      "final_v41": 77984.0,
+      "win": true,
+      "error": null
+    },
+    "1082": {
+      "config_code": "Config4",
+      "seed": 1082,
+      "final_cash": 95172.0,
+      "final_v41": 73732.0,
+      "win": true,
+      "error": null
+    },
+    "1083": {
+      "config_code": "Config4",
+      "seed": 1083,
+      "final_cash": 95443.0,
+      "final_v41": 79659.0,
+      "win": true,
+      "error": null
+    },
+    "1084": {
+      "config_code": "Config4",
+      "seed": 1084,
+      "final_cash": 102358.0,
+      "final_v41": 85704.0,
+      "win": true,
+      "error": null
+    },
+    "1085": {
+      "config_code": "Config4",
+      "seed": 1085,
+      "final_cash": 98961.0,
+      "final_v41": 84639.0,
+      "win": true,
+      "error": null
+    },
+    "1088": {
+      "config_code": "Config4",
+      "seed": 1088,
+      "final_cash": 91083.0,
+      "final_v41": 81766.0,
+      "win": true,
+      "error": null
+    },
+    "1089": {
+      "config_code": "Config4",
+      "seed": 1089,
+      "final_cash": 98010.0,
+      "final_v41": 79107.0,
+      "win": true,
+      "error": null
+    },
+    "1086": {
+      "config_code": "Config4",
+      "seed": 1086,
+      "final_cash": 93152.0,
+      "final_v41": 75547.0,
+      "win": true,
+      "error": null
+    },
+    "1087": {
+      "config_code": "Config4",
+      "seed": 1087,
+      "final_cash": 101671.0,
+      "final_v41": 82763.0,
+      "win": true,
+      "error": null
+    },
+    "1090": {
+      "config_code": "Config4",
+      "seed": 1090,
+      "final_cash": 101542.0,
+      "final_v41": 95426.0,
+      "win": true,
+      "error": null
+    },
+    "1092": {
+      "config_code": "Config4",
+      "seed": 1092,
+      "final_cash": 95720.0,
+      "final_v41": 88817.0,
+      "win": true,
+      "error": null
+    },
+    "1093": {
+      "config_code": "Config4",
+      "seed": 1093,
+      "final_cash": 96901.0,
+      "final_v41": 74362.0,
+      "win": true,
+      "error": null
+    },
+    "1094": {
+      "config_code": "Config4",
+      "seed": 1094,
+      "final_cash": 103287.0,
+      "final_v41": 85080.0,
+      "win": true,
+      "error": null
+    },
+    "1091": {
+      "config_code": "Config4",
+      "seed": 1091,
+      "final_cash": 93709.0,
+      "final_v41": 75310.0,
+      "win": true,
+      "error": null
+    },
+    "1095": {
+      "config_code": "Config4",
+      "seed": 1095,
+      "final_cash": 86737.0,
+      "final_v41": 74048.0,
+      "win": true,
+      "error": null
+    },
+    "1096": {
+      "config_code": "Config4",
+      "seed": 1096,
+      "final_cash": 81335.0,
+      "final_v41": 72549.0,
+      "win": true,
+      "error": null
+    },
+    "1097": {
+      "config_code": "Config4",
+      "seed": 1097,
+      "final_cash": 101222.0,
+      "final_v41": 81757.0,
+      "win": true,
+      "error": null
+    },
+    "1099": {
+      "config_code": "Config4",
+      "seed": 1099,
+      "final_cash": 93399.0,
+      "final_v41": 87608.0,
+      "win": true,
+      "error": null
+    },
+    "1098": {
+      "config_code": "Config4",
+      "seed": 1098,
+      "final_cash": 97014.0,
+      "final_v41": 78276.0,
+      "win": true,
+      "error": null
+    }
+  }
+}

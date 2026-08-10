@@ -1,0 +1,2816 @@
+{
+  "match_reports": [
+    {
+      "seed": 1000,
+      "final_v41": 88289.0,
+      "final_v83": 88698.0,
+      "gap": -409.0,
+      "telemetry": [
+        {
+          "day": 1,
+          "step": 24,
+          "money_v41": 1043.0,
+          "money_v83": 743.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 2,
+          "step": 48,
+          "money_v41": 978.0,
+          "money_v83": 678.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 3,
+          "step": 72,
+          "money_v41": 885.0,
+          "money_v83": 585.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 4,
+          "step": 96,
+          "money_v41": 829.0,
+          "money_v83": 570.0,
+          "money_gap": 259.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 5,
+          "step": 120,
+          "money_v41": 592.0,
+          "money_v83": 224.0,
+          "money_gap": 368.0,
+          "cows_v41": 1,
+          "cows_v83": 3
+        },
+        {
+          "day": 6,
+          "step": 144,
+          "money_v41": 369.0,
+          "money_v83": 186.0,
+          "money_gap": 183.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 7,
+          "step": 168,
+          "money_v41": 67.0,
+          "money_v83": 13.0,
+          "money_gap": 54.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 8,
+          "step": 192,
+          "money_v41": 764.0,
+          "money_v83": 7.0,
+          "money_gap": 757.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 9,
+          "step": 216,
+          "money_v41": 235.0,
+          "money_v83": 28.0,
+          "money_gap": 207.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 10,
+          "step": 240,
+          "money_v41": 135.0,
+          "money_v83": 91.0,
+          "money_gap": 44.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 11,
+          "step": 264,
+          "money_v41": 14.0,
+          "money_v83": 30.0,
+          "money_gap": -16.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 12,
+          "step": 288,
+          "money_v41": 5847.0,
+          "money_v83": 9813.0,
+          "money_gap": -3966.0,
+          "cows_v41": 5,
+          "cows_v83": 6
+        },
+        {
+          "day": 13,
+          "step": 312,
+          "money_v41": 3969.0,
+          "money_v83": 7273.0,
+          "money_gap": -3304.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 14,
+          "step": 336,
+          "money_v41": 5473.0,
+          "money_v83": 9231.0,
+          "money_gap": -3758.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 15,
+          "step": 360,
+          "money_v41": 6999.0,
+          "money_v83": 9400.0,
+          "money_gap": -2401.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 16,
+          "step": 384,
+          "money_v41": 7620.0,
+          "money_v83": 11220.0,
+          "money_gap": -3600.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 17,
+          "step": 408,
+          "money_v41": 8336.0,
+          "money_v83": 11052.0,
+          "money_gap": -2716.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 18,
+          "step": 432,
+          "money_v41": 7719.0,
+          "money_v83": 12541.0,
+          "money_gap": -4822.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 19,
+          "step": 456,
+          "money_v41": 10591.0,
+          "money_v83": 11263.0,
+          "money_gap": -672.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 20,
+          "step": 480,
+          "money_v41": 12840.0,
+          "money_v83": 13682.0,
+          "money_gap": -842.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 21,
+          "step": 504,
+          "money_v41": 17066.0,
+          "money_v83": 16207.0,
+          "money_gap": 859.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 22,
+          "step": 528,
+          "money_v41": 21389.0,
+          "money_v83": 20080.0,
+          "money_gap": 1309.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 23,
+          "step": 552,
+          "money_v41": 34416.0,
+          "money_v83": 30779.0,
+          "money_gap": 3637.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 24,
+          "step": 576,
+          "money_v41": 44177.0,
+          "money_v83": 36145.0,
+          "money_gap": 8032.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 25,
+          "step": 600,
+          "money_v41": 51120.0,
+          "money_v83": 47990.0,
+          "money_gap": 3130.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 26,
+          "step": 624,
+          "money_v41": 57041.0,
+          "money_v83": 54126.0,
+          "money_gap": 2915.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 27,
+          "step": 648,
+          "money_v41": 63879.0,
+          "money_v83": 60727.0,
+          "money_gap": 3152.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 28,
+          "step": 672,
+          "money_v41": 68638.0,
+          "money_v83": 67333.0,
+          "money_gap": 1305.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 29,
+          "step": 696,
+          "money_v41": 76945.0,
+          "money_v83": 79382.0,
+          "money_gap": -2437.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 30,
+          "step": 720,
+          "money_v41": 88289.0,
+          "money_v83": 88698.0,
+          "money_gap": -409.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        }
+      ]
+    },
+    {
+      "seed": 1001,
+      "final_v41": 79179.0,
+      "final_v83": 75536.0,
+      "gap": 3643.0,
+      "telemetry": [
+        {
+          "day": 1,
+          "step": 24,
+          "money_v41": 1043.0,
+          "money_v83": 743.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 2,
+          "step": 48,
+          "money_v41": 978.0,
+          "money_v83": 678.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 3,
+          "step": 72,
+          "money_v41": 885.0,
+          "money_v83": 585.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 4,
+          "step": 96,
+          "money_v41": 830.0,
+          "money_v83": 571.0,
+          "money_gap": 259.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 5,
+          "step": 120,
+          "money_v41": 596.0,
+          "money_v83": 225.0,
+          "money_gap": 371.0,
+          "cows_v41": 1,
+          "cows_v83": 3
+        },
+        {
+          "day": 6,
+          "step": 144,
+          "money_v41": 337.0,
+          "money_v83": 178.0,
+          "money_gap": 159.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 7,
+          "step": 168,
+          "money_v41": 43.0,
+          "money_v83": 12.0,
+          "money_gap": 31.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 8,
+          "step": 192,
+          "money_v41": 757.0,
+          "money_v83": 10.0,
+          "money_gap": 747.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 9,
+          "step": 216,
+          "money_v41": 228.0,
+          "money_v83": 2.0,
+          "money_gap": 226.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 10,
+          "step": 240,
+          "money_v41": 106.0,
+          "money_v83": 929.0,
+          "money_gap": -823.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 11,
+          "step": 264,
+          "money_v41": 22.0,
+          "money_v83": 510.0,
+          "money_gap": -488.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 12,
+          "step": 288,
+          "money_v41": 6496.0,
+          "money_v83": 8184.0,
+          "money_gap": -1688.0,
+          "cows_v41": 6,
+          "cows_v83": 6
+        },
+        {
+          "day": 13,
+          "step": 312,
+          "money_v41": 4693.0,
+          "money_v83": 5176.0,
+          "money_gap": -483.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 14,
+          "step": 336,
+          "money_v41": 6068.0,
+          "money_v83": 6898.0,
+          "money_gap": -830.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 15,
+          "step": 360,
+          "money_v41": 6986.0,
+          "money_v83": 6802.0,
+          "money_gap": 184.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 16,
+          "step": 384,
+          "money_v41": 6890.0,
+          "money_v83": 7827.0,
+          "money_gap": -937.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 17,
+          "step": 408,
+          "money_v41": 7394.0,
+          "money_v83": 7722.0,
+          "money_gap": -328.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 18,
+          "step": 432,
+          "money_v41": 6929.0,
+          "money_v83": 8569.0,
+          "money_gap": -1640.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 19,
+          "step": 456,
+          "money_v41": 9067.0,
+          "money_v83": 9263.0,
+          "money_gap": -196.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 20,
+          "step": 480,
+          "money_v41": 10347.0,
+          "money_v83": 9359.0,
+          "money_gap": 988.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 21,
+          "step": 504,
+          "money_v41": 14414.0,
+          "money_v83": 10500.0,
+          "money_gap": 3914.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 22,
+          "step": 528,
+          "money_v41": 19150.0,
+          "money_v83": 16111.0,
+          "money_gap": 3039.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 23,
+          "step": 552,
+          "money_v41": 25583.0,
+          "money_v83": 23241.0,
+          "money_gap": 2342.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 24,
+          "step": 576,
+          "money_v41": 33014.0,
+          "money_v83": 29127.0,
+          "money_gap": 3887.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 25,
+          "step": 600,
+          "money_v41": 41450.0,
+          "money_v83": 37350.0,
+          "money_gap": 4100.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 26,
+          "step": 624,
+          "money_v41": 49722.0,
+          "money_v83": 42000.0,
+          "money_gap": 7722.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 27,
+          "step": 648,
+          "money_v41": 54276.0,
+          "money_v83": 48942.0,
+          "money_gap": 5334.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 28,
+          "step": 672,
+          "money_v41": 60188.0,
+          "money_v83": 56139.0,
+          "money_gap": 4049.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 29,
+          "step": 696,
+          "money_v41": 69745.0,
+          "money_v83": 63392.0,
+          "money_gap": 6353.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 30,
+          "step": 720,
+          "money_v41": 79179.0,
+          "money_v83": 75536.0,
+          "money_gap": 3643.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        }
+      ]
+    },
+    {
+      "seed": 1002,
+      "final_v41": 80714.0,
+      "final_v83": 84967.0,
+      "gap": -4253.0,
+      "telemetry": [
+        {
+          "day": 1,
+          "step": 24,
+          "money_v41": 1043.0,
+          "money_v83": 743.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 2,
+          "step": 48,
+          "money_v41": 978.0,
+          "money_v83": 678.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 3,
+          "step": 72,
+          "money_v41": 885.0,
+          "money_v83": 585.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 4,
+          "step": 96,
+          "money_v41": 829.0,
+          "money_v83": 570.0,
+          "money_gap": 259.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 5,
+          "step": 120,
+          "money_v41": 592.0,
+          "money_v83": 224.0,
+          "money_gap": 368.0,
+          "cows_v41": 1,
+          "cows_v83": 3
+        },
+        {
+          "day": 6,
+          "step": 144,
+          "money_v41": 369.0,
+          "money_v83": 186.0,
+          "money_gap": 183.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 7,
+          "step": 168,
+          "money_v41": 67.0,
+          "money_v83": 13.0,
+          "money_gap": 54.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 8,
+          "step": 192,
+          "money_v41": 769.0,
+          "money_v83": 9.0,
+          "money_gap": 760.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 9,
+          "step": 216,
+          "money_v41": 240.0,
+          "money_v83": 31.0,
+          "money_gap": 209.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 10,
+          "step": 240,
+          "money_v41": 124.0,
+          "money_v83": 921.0,
+          "money_gap": -797.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 11,
+          "step": 264,
+          "money_v41": 5.0,
+          "money_v83": 498.0,
+          "money_gap": -493.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 12,
+          "step": 288,
+          "money_v41": 6549.0,
+          "money_v83": 8351.0,
+          "money_gap": -1802.0,
+          "cows_v41": 6,
+          "cows_v83": 6
+        },
+        {
+          "day": 13,
+          "step": 312,
+          "money_v41": 4736.0,
+          "money_v83": 5447.0,
+          "money_gap": -711.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 14,
+          "step": 336,
+          "money_v41": 6177.0,
+          "money_v83": 7772.0,
+          "money_gap": -1595.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 15,
+          "step": 360,
+          "money_v41": 7440.0,
+          "money_v83": 6229.0,
+          "money_gap": 1211.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 16,
+          "step": 384,
+          "money_v41": 7391.0,
+          "money_v83": 6685.0,
+          "money_gap": 706.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 17,
+          "step": 408,
+          "money_v41": 7990.0,
+          "money_v83": 6664.0,
+          "money_gap": 1326.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 18,
+          "step": 432,
+          "money_v41": 7636.0,
+          "money_v83": 7991.0,
+          "money_gap": -355.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 19,
+          "step": 456,
+          "money_v41": 9791.0,
+          "money_v83": 9283.0,
+          "money_gap": 508.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 20,
+          "step": 480,
+          "money_v41": 11047.0,
+          "money_v83": 9428.0,
+          "money_gap": 1619.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 21,
+          "step": 504,
+          "money_v41": 15736.0,
+          "money_v83": 12904.0,
+          "money_gap": 2832.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 22,
+          "step": 528,
+          "money_v41": 20656.0,
+          "money_v83": 18742.0,
+          "money_gap": 1914.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 23,
+          "step": 552,
+          "money_v41": 24307.0,
+          "money_v83": 29993.0,
+          "money_gap": -5686.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 24,
+          "step": 576,
+          "money_v41": 32069.0,
+          "money_v83": 36383.0,
+          "money_gap": -4314.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 25,
+          "step": 600,
+          "money_v41": 41070.0,
+          "money_v83": 45196.0,
+          "money_gap": -4126.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 26,
+          "step": 624,
+          "money_v41": 49678.0,
+          "money_v83": 51807.0,
+          "money_gap": -2129.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 27,
+          "step": 648,
+          "money_v41": 54511.0,
+          "money_v83": 57979.0,
+          "money_gap": -3468.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 28,
+          "step": 672,
+          "money_v41": 60843.0,
+          "money_v83": 63623.0,
+          "money_gap": -2780.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 29,
+          "step": 696,
+          "money_v41": 70842.0,
+          "money_v83": 70007.0,
+          "money_gap": 835.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 30,
+          "step": 720,
+          "money_v41": 80714.0,
+          "money_v83": 84967.0,
+          "money_gap": -4253.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        }
+      ]
+    },
+    {
+      "seed": 1003,
+      "final_v41": 91695.0,
+      "final_v83": 85728.0,
+      "gap": 5967.0,
+      "telemetry": [
+        {
+          "day": 1,
+          "step": 24,
+          "money_v41": 1043.0,
+          "money_v83": 743.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 2,
+          "step": 48,
+          "money_v41": 978.0,
+          "money_v83": 678.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 3,
+          "step": 72,
+          "money_v41": 885.0,
+          "money_v83": 585.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 4,
+          "step": 96,
+          "money_v41": 830.0,
+          "money_v83": 571.0,
+          "money_gap": 259.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 5,
+          "step": 120,
+          "money_v41": 593.0,
+          "money_v83": 225.0,
+          "money_gap": 368.0,
+          "cows_v41": 1,
+          "cows_v83": 3
+        },
+        {
+          "day": 6,
+          "step": 144,
+          "money_v41": 334.0,
+          "money_v83": 178.0,
+          "money_gap": 156.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 7,
+          "step": 168,
+          "money_v41": 43.0,
+          "money_v83": 13.0,
+          "money_gap": 30.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 8,
+          "step": 192,
+          "money_v41": 755.0,
+          "money_v83": 13.0,
+          "money_gap": 742.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 9,
+          "step": 216,
+          "money_v41": 226.0,
+          "money_v83": 7.0,
+          "money_gap": 219.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 10,
+          "step": 240,
+          "money_v41": 109.0,
+          "money_v83": 119.0,
+          "money_gap": -10.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 11,
+          "step": 264,
+          "money_v41": 27.0,
+          "money_v83": 20.0,
+          "money_gap": 7.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 12,
+          "step": 288,
+          "money_v41": 6148.0,
+          "money_v83": 9291.0,
+          "money_gap": -3143.0,
+          "cows_v41": 5,
+          "cows_v83": 6
+        },
+        {
+          "day": 13,
+          "step": 312,
+          "money_v41": 4335.0,
+          "money_v83": 6272.0,
+          "money_gap": -1937.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 14,
+          "step": 336,
+          "money_v41": 5836.0,
+          "money_v83": 8982.0,
+          "money_gap": -3146.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 15,
+          "step": 360,
+          "money_v41": 7308.0,
+          "money_v83": 8542.0,
+          "money_gap": -1234.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 16,
+          "step": 384,
+          "money_v41": 7923.0,
+          "money_v83": 8653.0,
+          "money_gap": -730.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 17,
+          "step": 408,
+          "money_v41": 8674.0,
+          "money_v83": 8316.0,
+          "money_gap": 358.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 18,
+          "step": 432,
+          "money_v41": 8039.0,
+          "money_v83": 9806.0,
+          "money_gap": -1767.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 19,
+          "step": 456,
+          "money_v41": 11098.0,
+          "money_v83": 10282.0,
+          "money_gap": 816.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 20,
+          "step": 480,
+          "money_v41": 13497.0,
+          "money_v83": 10286.0,
+          "money_gap": 3211.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 21,
+          "step": 504,
+          "money_v41": 17678.0,
+          "money_v83": 14347.0,
+          "money_gap": 3331.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 22,
+          "step": 528,
+          "money_v41": 22116.0,
+          "money_v83": 17206.0,
+          "money_gap": 4910.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 23,
+          "step": 552,
+          "money_v41": 35348.0,
+          "money_v83": 26896.0,
+          "money_gap": 8452.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 24,
+          "step": 576,
+          "money_v41": 45512.0,
+          "money_v83": 35441.0,
+          "money_gap": 10071.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 25,
+          "step": 600,
+          "money_v41": 52747.0,
+          "money_v83": 45587.0,
+          "money_gap": 7160.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 26,
+          "step": 624,
+          "money_v41": 59109.0,
+          "money_v83": 52396.0,
+          "money_gap": 6713.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 27,
+          "step": 648,
+          "money_v41": 66471.0,
+          "money_v83": 60736.0,
+          "money_gap": 5735.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 28,
+          "step": 672,
+          "money_v41": 71603.0,
+          "money_v83": 65289.0,
+          "money_gap": 6314.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 29,
+          "step": 696,
+          "money_v41": 80429.0,
+          "money_v83": 75659.0,
+          "money_gap": 4770.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 30,
+          "step": 720,
+          "money_v41": 91695.0,
+          "money_v83": 85728.0,
+          "money_gap": 5967.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        }
+      ]
+    },
+    {
+      "seed": 1004,
+      "final_v41": 79704.0,
+      "final_v83": 83879.0,
+      "gap": -4175.0,
+      "telemetry": [
+        {
+          "day": 1,
+          "step": 24,
+          "money_v41": 1043.0,
+          "money_v83": 743.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 2,
+          "step": 48,
+          "money_v41": 978.0,
+          "money_v83": 678.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 3,
+          "step": 72,
+          "money_v41": 885.0,
+          "money_v83": 585.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 4,
+          "step": 96,
+          "money_v41": 829.0,
+          "money_v83": 570.0,
+          "money_gap": 259.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 5,
+          "step": 120,
+          "money_v41": 592.0,
+          "money_v83": 224.0,
+          "money_gap": 368.0,
+          "cows_v41": 1,
+          "cows_v83": 3
+        },
+        {
+          "day": 6,
+          "step": 144,
+          "money_v41": 369.0,
+          "money_v83": 186.0,
+          "money_gap": 183.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 7,
+          "step": 168,
+          "money_v41": 67.0,
+          "money_v83": 13.0,
+          "money_gap": 54.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 8,
+          "step": 192,
+          "money_v41": 764.0,
+          "money_v83": 7.0,
+          "money_gap": 757.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 9,
+          "step": 216,
+          "money_v41": 235.0,
+          "money_v83": 28.0,
+          "money_gap": 207.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 10,
+          "step": 240,
+          "money_v41": 125.0,
+          "money_v83": 913.0,
+          "money_gap": -788.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 11,
+          "step": 264,
+          "money_v41": 4.0,
+          "money_v83": 486.0,
+          "money_gap": -482.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 12,
+          "step": 288,
+          "money_v41": 6484.0,
+          "money_v83": 8176.0,
+          "money_gap": -1692.0,
+          "cows_v41": 6,
+          "cows_v83": 6
+        },
+        {
+          "day": 13,
+          "step": 312,
+          "money_v41": 4660.0,
+          "money_v83": 5264.0,
+          "money_gap": -604.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 14,
+          "step": 336,
+          "money_v41": 6043.0,
+          "money_v83": 7248.0,
+          "money_gap": -1205.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 15,
+          "step": 360,
+          "money_v41": 7155.0,
+          "money_v83": 5703.0,
+          "money_gap": 1452.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 16,
+          "step": 384,
+          "money_v41": 7087.0,
+          "money_v83": 6101.0,
+          "money_gap": 986.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 17,
+          "step": 408,
+          "money_v41": 7658.0,
+          "money_v83": 6080.0,
+          "money_gap": 1578.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 18,
+          "step": 432,
+          "money_v41": 7280.0,
+          "money_v83": 7333.0,
+          "money_gap": -53.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 19,
+          "step": 456,
+          "money_v41": 9437.0,
+          "money_v83": 8615.0,
+          "money_gap": 822.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 20,
+          "step": 480,
+          "money_v41": 10702.0,
+          "money_v83": 8728.0,
+          "money_gap": 1974.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 21,
+          "step": 504,
+          "money_v41": 15353.0,
+          "money_v83": 12177.0,
+          "money_gap": 3176.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 22,
+          "step": 528,
+          "money_v41": 20273.0,
+          "money_v83": 18015.0,
+          "money_gap": 2258.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 23,
+          "step": 552,
+          "money_v41": 23923.0,
+          "money_v83": 29258.0,
+          "money_gap": -5335.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 24,
+          "step": 576,
+          "money_v41": 31606.0,
+          "money_v83": 35692.0,
+          "money_gap": -4086.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 25,
+          "step": 600,
+          "money_v41": 40422.0,
+          "money_v83": 44404.0,
+          "money_gap": -3982.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 26,
+          "step": 624,
+          "money_v41": 48980.0,
+          "money_v83": 50970.0,
+          "money_gap": -1990.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 27,
+          "step": 648,
+          "money_v41": 53730.0,
+          "money_v83": 57021.0,
+          "money_gap": -3291.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 28,
+          "step": 672,
+          "money_v41": 60007.0,
+          "money_v83": 62675.0,
+          "money_gap": -2668.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 29,
+          "step": 696,
+          "money_v41": 69868.0,
+          "money_v83": 68950.0,
+          "money_gap": 918.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 30,
+          "step": 720,
+          "money_v41": 79704.0,
+          "money_v83": 83879.0,
+          "money_gap": -4175.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        }
+      ]
+    },
+    {
+      "seed": 1005,
+      "final_v41": 78882.0,
+      "final_v83": 81378.0,
+      "gap": -2496.0,
+      "telemetry": [
+        {
+          "day": 1,
+          "step": 24,
+          "money_v41": 1043.0,
+          "money_v83": 743.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 2,
+          "step": 48,
+          "money_v41": 978.0,
+          "money_v83": 678.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 3,
+          "step": 72,
+          "money_v41": 885.0,
+          "money_v83": 585.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 4,
+          "step": 96,
+          "money_v41": 829.0,
+          "money_v83": 570.0,
+          "money_gap": 259.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 5,
+          "step": 120,
+          "money_v41": 592.0,
+          "money_v83": 224.0,
+          "money_gap": 368.0,
+          "cows_v41": 1,
+          "cows_v83": 3
+        },
+        {
+          "day": 6,
+          "step": 144,
+          "money_v41": 369.0,
+          "money_v83": 186.0,
+          "money_gap": 183.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 7,
+          "step": 168,
+          "money_v41": 67.0,
+          "money_v83": 13.0,
+          "money_gap": 54.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 8,
+          "step": 192,
+          "money_v41": 765.0,
+          "money_v83": 7.0,
+          "money_gap": 758.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 9,
+          "step": 216,
+          "money_v41": 236.0,
+          "money_v83": 28.0,
+          "money_gap": 208.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 10,
+          "step": 240,
+          "money_v41": 126.0,
+          "money_v83": 913.0,
+          "money_gap": -787.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 11,
+          "step": 264,
+          "money_v41": 5.0,
+          "money_v83": 486.0,
+          "money_gap": -481.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 12,
+          "step": 288,
+          "money_v41": 6485.0,
+          "money_v83": 8176.0,
+          "money_gap": -1691.0,
+          "cows_v41": 6,
+          "cows_v83": 6
+        },
+        {
+          "day": 13,
+          "step": 312,
+          "money_v41": 4660.0,
+          "money_v83": 5262.0,
+          "money_gap": -602.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 14,
+          "step": 336,
+          "money_v41": 6007.0,
+          "money_v83": 7056.0,
+          "money_gap": -1049.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 15,
+          "step": 360,
+          "money_v41": 6913.0,
+          "money_v83": 5507.0,
+          "money_gap": 1406.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 16,
+          "step": 384,
+          "money_v41": 6795.0,
+          "money_v83": 5764.0,
+          "money_gap": 1031.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 17,
+          "step": 408,
+          "money_v41": 7266.0,
+          "money_v83": 5739.0,
+          "money_gap": 1527.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 18,
+          "step": 432,
+          "money_v41": 6817.0,
+          "money_v83": 6749.0,
+          "money_gap": 68.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 19,
+          "step": 456,
+          "money_v41": 8942.0,
+          "money_v83": 7991.0,
+          "money_gap": 951.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 20,
+          "step": 480,
+          "money_v41": 10210.0,
+          "money_v83": 7944.0,
+          "money_gap": 2266.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 21,
+          "step": 504,
+          "money_v41": 14352.0,
+          "money_v83": 11027.0,
+          "money_gap": 3325.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 22,
+          "step": 528,
+          "money_v41": 19261.0,
+          "money_v83": 16442.0,
+          "money_gap": 2819.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 23,
+          "step": 552,
+          "money_v41": 22836.0,
+          "money_v83": 27602.0,
+          "money_gap": -4766.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 24,
+          "step": 576,
+          "money_v41": 30633.0,
+          "money_v83": 33537.0,
+          "money_gap": -2904.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 25,
+          "step": 600,
+          "money_v41": 39706.0,
+          "money_v83": 42293.0,
+          "money_gap": -2587.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 26,
+          "step": 624,
+          "money_v41": 48139.0,
+          "money_v83": 48724.0,
+          "money_gap": -585.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 27,
+          "step": 648,
+          "money_v41": 52941.0,
+          "money_v83": 54901.0,
+          "money_gap": -1960.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 28,
+          "step": 672,
+          "money_v41": 59144.0,
+          "money_v83": 60329.0,
+          "money_gap": -1185.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 29,
+          "step": 696,
+          "money_v41": 69132.0,
+          "money_v83": 66701.0,
+          "money_gap": 2431.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 30,
+          "step": 720,
+          "money_v41": 78882.0,
+          "money_v83": 81378.0,
+          "money_gap": -2496.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        }
+      ]
+    },
+    {
+      "seed": 1006,
+      "final_v41": 90268.0,
+      "final_v83": 90531.0,
+      "gap": -263.0,
+      "telemetry": [
+        {
+          "day": 1,
+          "step": 24,
+          "money_v41": 1043.0,
+          "money_v83": 743.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 2,
+          "step": 48,
+          "money_v41": 978.0,
+          "money_v83": 678.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 3,
+          "step": 72,
+          "money_v41": 885.0,
+          "money_v83": 585.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 4,
+          "step": 96,
+          "money_v41": 829.0,
+          "money_v83": 570.0,
+          "money_gap": 259.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 5,
+          "step": 120,
+          "money_v41": 592.0,
+          "money_v83": 224.0,
+          "money_gap": 368.0,
+          "cows_v41": 1,
+          "cows_v83": 3
+        },
+        {
+          "day": 6,
+          "step": 144,
+          "money_v41": 369.0,
+          "money_v83": 186.0,
+          "money_gap": 183.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 7,
+          "step": 168,
+          "money_v41": 67.0,
+          "money_v83": 13.0,
+          "money_gap": 54.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 8,
+          "step": 192,
+          "money_v41": 764.0,
+          "money_v83": 7.0,
+          "money_gap": 757.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 9,
+          "step": 216,
+          "money_v41": 235.0,
+          "money_v83": 28.0,
+          "money_gap": 207.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 10,
+          "step": 240,
+          "money_v41": 154.0,
+          "money_v83": 137.0,
+          "money_gap": 17.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 11,
+          "step": 264,
+          "money_v41": 33.0,
+          "money_v83": 3.0,
+          "money_gap": 30.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 12,
+          "step": 288,
+          "money_v41": 5885.0,
+          "money_v83": 9542.0,
+          "money_gap": -3657.0,
+          "cows_v41": 6,
+          "cows_v83": 6
+        },
+        {
+          "day": 13,
+          "step": 312,
+          "money_v41": 4086.0,
+          "money_v83": 7138.0,
+          "money_gap": -3052.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 14,
+          "step": 336,
+          "money_v41": 5514.0,
+          "money_v83": 8898.0,
+          "money_gap": -3384.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 15,
+          "step": 360,
+          "money_v41": 6974.0,
+          "money_v83": 8777.0,
+          "money_gap": -1803.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 16,
+          "step": 384,
+          "money_v41": 7343.0,
+          "money_v83": 10139.0,
+          "money_gap": -2796.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 17,
+          "step": 408,
+          "money_v41": 7541.0,
+          "money_v83": 9878.0,
+          "money_gap": -2337.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 18,
+          "step": 432,
+          "money_v41": 7137.0,
+          "money_v83": 10574.0,
+          "money_gap": -3437.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 19,
+          "step": 456,
+          "money_v41": 7306.0,
+          "money_v83": 14775.0,
+          "money_gap": -7469.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 20,
+          "step": 480,
+          "money_v41": 10194.0,
+          "money_v83": 14849.0,
+          "money_gap": -4655.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 21,
+          "step": 504,
+          "money_v41": 14811.0,
+          "money_v83": 17355.0,
+          "money_gap": -2544.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 22,
+          "step": 528,
+          "money_v41": 22799.0,
+          "money_v83": 19727.0,
+          "money_gap": 3072.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 23,
+          "step": 552,
+          "money_v41": 34422.0,
+          "money_v83": 28438.0,
+          "money_gap": 5984.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 24,
+          "step": 576,
+          "money_v41": 43680.0,
+          "money_v83": 36133.0,
+          "money_gap": 7547.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 25,
+          "step": 600,
+          "money_v41": 51140.0,
+          "money_v83": 47330.0,
+          "money_gap": 3810.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 26,
+          "step": 624,
+          "money_v41": 58508.0,
+          "money_v83": 54065.0,
+          "money_gap": 4443.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 27,
+          "step": 648,
+          "money_v41": 66082.0,
+          "money_v83": 61098.0,
+          "money_gap": 4984.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 28,
+          "step": 672,
+          "money_v41": 71942.0,
+          "money_v83": 67820.0,
+          "money_gap": 4122.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 29,
+          "step": 696,
+          "money_v41": 80391.0,
+          "money_v83": 79099.0,
+          "money_gap": 1292.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 30,
+          "step": 720,
+          "money_v41": 90268.0,
+          "money_v83": 90531.0,
+          "money_gap": -263.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        }
+      ]
+    },
+    {
+      "seed": 1007,
+      "final_v41": 83824.0,
+      "final_v83": 69288.0,
+      "gap": 14536.0,
+      "telemetry": [
+        {
+          "day": 1,
+          "step": 24,
+          "money_v41": 1043.0,
+          "money_v83": 743.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 2,
+          "step": 48,
+          "money_v41": 978.0,
+          "money_v83": 678.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 3,
+          "step": 72,
+          "money_v41": 885.0,
+          "money_v83": 585.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 4,
+          "step": 96,
+          "money_v41": 830.0,
+          "money_v83": 571.0,
+          "money_gap": 259.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 5,
+          "step": 120,
+          "money_v41": 593.0,
+          "money_v83": 225.0,
+          "money_gap": 368.0,
+          "cows_v41": 1,
+          "cows_v83": 3
+        },
+        {
+          "day": 6,
+          "step": 144,
+          "money_v41": 334.0,
+          "money_v83": 178.0,
+          "money_gap": 156.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 7,
+          "step": 168,
+          "money_v41": 40.0,
+          "money_v83": 12.0,
+          "money_gap": 28.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 8,
+          "step": 192,
+          "money_v41": 826.0,
+          "money_v83": 10.0,
+          "money_gap": 816.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 9,
+          "step": 216,
+          "money_v41": 297.0,
+          "money_v83": 2.0,
+          "money_gap": 295.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 10,
+          "step": 240,
+          "money_v41": 175.0,
+          "money_v83": 929.0,
+          "money_gap": -754.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 11,
+          "step": 264,
+          "money_v41": 25.0,
+          "money_v83": 510.0,
+          "money_gap": -485.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 12,
+          "step": 288,
+          "money_v41": 5733.0,
+          "money_v83": 9172.0,
+          "money_gap": -3439.0,
+          "cows_v41": 6,
+          "cows_v83": 6
+        },
+        {
+          "day": 13,
+          "step": 312,
+          "money_v41": 4109.0,
+          "money_v83": 5987.0,
+          "money_gap": -1878.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 14,
+          "step": 336,
+          "money_v41": 5498.0,
+          "money_v83": 7707.0,
+          "money_gap": -2209.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 15,
+          "step": 360,
+          "money_v41": 6452.0,
+          "money_v83": 7525.0,
+          "money_gap": -1073.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 16,
+          "step": 384,
+          "money_v41": 7229.0,
+          "money_v83": 8086.0,
+          "money_gap": -857.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 17,
+          "step": 408,
+          "money_v41": 7433.0,
+          "money_v83": 7689.0,
+          "money_gap": -256.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 18,
+          "step": 432,
+          "money_v41": 6906.0,
+          "money_v83": 8922.0,
+          "money_gap": -2016.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 19,
+          "step": 456,
+          "money_v41": 9066.0,
+          "money_v83": 9326.0,
+          "money_gap": -260.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 20,
+          "step": 480,
+          "money_v41": 12757.0,
+          "money_v83": 10261.0,
+          "money_gap": 2496.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 21,
+          "step": 504,
+          "money_v41": 16009.0,
+          "money_v83": 10222.0,
+          "money_gap": 5787.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 22,
+          "step": 528,
+          "money_v41": 21025.0,
+          "money_v83": 15929.0,
+          "money_gap": 5096.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 23,
+          "step": 552,
+          "money_v41": 29628.0,
+          "money_v83": 21095.0,
+          "money_gap": 8533.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 24,
+          "step": 576,
+          "money_v41": 35511.0,
+          "money_v83": 25508.0,
+          "money_gap": 10003.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 25,
+          "step": 600,
+          "money_v41": 44788.0,
+          "money_v83": 33802.0,
+          "money_gap": 10986.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 26,
+          "step": 624,
+          "money_v41": 51226.0,
+          "money_v83": 39516.0,
+          "money_gap": 11710.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 27,
+          "step": 648,
+          "money_v41": 56427.0,
+          "money_v83": 46852.0,
+          "money_gap": 9575.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 28,
+          "step": 672,
+          "money_v41": 65367.0,
+          "money_v83": 51994.0,
+          "money_gap": 13373.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 29,
+          "step": 696,
+          "money_v41": 73535.0,
+          "money_v83": 57806.0,
+          "money_gap": 15729.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 30,
+          "step": 720,
+          "money_v41": 83824.0,
+          "money_v83": 69288.0,
+          "money_gap": 14536.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        }
+      ]
+    },
+    {
+      "seed": 1008,
+      "final_v41": 100336.0,
+      "final_v83": 92910.0,
+      "gap": 7426.0,
+      "telemetry": [
+        {
+          "day": 1,
+          "step": 24,
+          "money_v41": 1043.0,
+          "money_v83": 743.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 2,
+          "step": 48,
+          "money_v41": 978.0,
+          "money_v83": 678.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 3,
+          "step": 72,
+          "money_v41": 885.0,
+          "money_v83": 585.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 4,
+          "step": 96,
+          "money_v41": 829.0,
+          "money_v83": 570.0,
+          "money_gap": 259.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 5,
+          "step": 120,
+          "money_v41": 592.0,
+          "money_v83": 224.0,
+          "money_gap": 368.0,
+          "cows_v41": 1,
+          "cows_v83": 3
+        },
+        {
+          "day": 6,
+          "step": 144,
+          "money_v41": 369.0,
+          "money_v83": 186.0,
+          "money_gap": 183.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 7,
+          "step": 168,
+          "money_v41": 67.0,
+          "money_v83": 13.0,
+          "money_gap": 54.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 8,
+          "step": 192,
+          "money_v41": 801.0,
+          "money_v83": 9.0,
+          "money_gap": 792.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 9,
+          "step": 216,
+          "money_v41": 272.0,
+          "money_v83": 31.0,
+          "money_gap": 241.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 10,
+          "step": 240,
+          "money_v41": 166.0,
+          "money_v83": 99.0,
+          "money_gap": 67.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 11,
+          "step": 264,
+          "money_v41": 33.0,
+          "money_v83": 0.0,
+          "money_gap": 33.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 12,
+          "step": 288,
+          "money_v41": 6240.0,
+          "money_v83": 9247.0,
+          "money_gap": -3007.0,
+          "cows_v41": 5,
+          "cows_v83": 6
+        },
+        {
+          "day": 13,
+          "step": 312,
+          "money_v41": 4586.0,
+          "money_v83": 6201.0,
+          "money_gap": -1615.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 14,
+          "step": 336,
+          "money_v41": 6176.0,
+          "money_v83": 8947.0,
+          "money_gap": -2771.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 15,
+          "step": 360,
+          "money_v41": 7719.0,
+          "money_v83": 9131.0,
+          "money_gap": -1412.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 16,
+          "step": 384,
+          "money_v41": 8384.0,
+          "money_v83": 9985.0,
+          "money_gap": -1601.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 17,
+          "step": 408,
+          "money_v41": 9139.0,
+          "money_v83": 9713.0,
+          "money_gap": -574.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 18,
+          "step": 432,
+          "money_v41": 8896.0,
+          "money_v83": 11840.0,
+          "money_gap": -2944.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 19,
+          "step": 456,
+          "money_v41": 12258.0,
+          "money_v83": 13339.0,
+          "money_gap": -1081.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 20,
+          "step": 480,
+          "money_v41": 15748.0,
+          "money_v83": 16362.0,
+          "money_gap": -614.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 21,
+          "step": 504,
+          "money_v41": 21909.0,
+          "money_v83": 18930.0,
+          "money_gap": 2979.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 22,
+          "step": 528,
+          "money_v41": 27437.0,
+          "money_v83": 21888.0,
+          "money_gap": 5549.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 23,
+          "step": 552,
+          "money_v41": 39901.0,
+          "money_v83": 31935.0,
+          "money_gap": 7966.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 24,
+          "step": 576,
+          "money_v41": 48806.0,
+          "money_v83": 40670.0,
+          "money_gap": 8136.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 25,
+          "step": 600,
+          "money_v41": 56298.0,
+          "money_v83": 54869.0,
+          "money_gap": 1429.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 26,
+          "step": 624,
+          "money_v41": 63256.0,
+          "money_v83": 59128.0,
+          "money_gap": 4128.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 27,
+          "step": 648,
+          "money_v41": 72776.0,
+          "money_v83": 67518.0,
+          "money_gap": 5258.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 28,
+          "step": 672,
+          "money_v41": 79263.0,
+          "money_v83": 72196.0,
+          "money_gap": 7067.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 29,
+          "step": 696,
+          "money_v41": 88695.0,
+          "money_v83": 82885.0,
+          "money_gap": 5810.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 30,
+          "step": 720,
+          "money_v41": 100336.0,
+          "money_v83": 92910.0,
+          "money_gap": 7426.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        }
+      ]
+    },
+    {
+      "seed": 1009,
+      "final_v41": 85286.0,
+      "final_v83": 83888.0,
+      "gap": 1398.0,
+      "telemetry": [
+        {
+          "day": 1,
+          "step": 24,
+          "money_v41": 1043.0,
+          "money_v83": 743.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 2,
+          "step": 48,
+          "money_v41": 978.0,
+          "money_v83": 678.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 3,
+          "step": 72,
+          "money_v41": 885.0,
+          "money_v83": 585.0,
+          "money_gap": 300.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 4,
+          "step": 96,
+          "money_v41": 829.0,
+          "money_v83": 570.0,
+          "money_gap": 259.0,
+          "cows_v41": 1,
+          "cows_v83": 2
+        },
+        {
+          "day": 5,
+          "step": 120,
+          "money_v41": 592.0,
+          "money_v83": 224.0,
+          "money_gap": 368.0,
+          "cows_v41": 1,
+          "cows_v83": 3
+        },
+        {
+          "day": 6,
+          "step": 144,
+          "money_v41": 369.0,
+          "money_v83": 186.0,
+          "money_gap": 183.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 7,
+          "step": 168,
+          "money_v41": 67.0,
+          "money_v83": 13.0,
+          "money_gap": 54.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 8,
+          "step": 192,
+          "money_v41": 764.0,
+          "money_v83": 7.0,
+          "money_gap": 757.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 9,
+          "step": 216,
+          "money_v41": 235.0,
+          "money_v83": 28.0,
+          "money_gap": 207.0,
+          "cows_v41": 2,
+          "cows_v83": 3
+        },
+        {
+          "day": 10,
+          "step": 240,
+          "money_v41": 125.0,
+          "money_v83": 913.0,
+          "money_gap": -788.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 11,
+          "step": 264,
+          "money_v41": 4.0,
+          "money_v83": 486.0,
+          "money_gap": -482.0,
+          "cows_v41": 2,
+          "cows_v83": 4
+        },
+        {
+          "day": 12,
+          "step": 288,
+          "money_v41": 6535.0,
+          "money_v83": 8330.0,
+          "money_gap": -1795.0,
+          "cows_v41": 6,
+          "cows_v83": 6
+        },
+        {
+          "day": 13,
+          "step": 312,
+          "money_v41": 4673.0,
+          "money_v83": 5418.0,
+          "money_gap": -745.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 14,
+          "step": 336,
+          "money_v41": 6116.0,
+          "money_v83": 7736.0,
+          "money_gap": -1620.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 15,
+          "step": 360,
+          "money_v41": 7295.0,
+          "money_v83": 6191.0,
+          "money_gap": 1104.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 16,
+          "step": 384,
+          "money_v41": 7389.0,
+          "money_v83": 6648.0,
+          "money_gap": 741.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 17,
+          "step": 408,
+          "money_v41": 8276.0,
+          "money_v83": 6631.0,
+          "money_gap": 1645.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 18,
+          "step": 432,
+          "money_v41": 7819.0,
+          "money_v83": 7912.0,
+          "money_gap": -93.0,
+          "cows_v41": 9,
+          "cows_v83": 9
+        },
+        {
+          "day": 19,
+          "step": 456,
+          "money_v41": 8335.0,
+          "money_v83": 9174.0,
+          "money_gap": -839.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 20,
+          "step": 480,
+          "money_v41": 10401.0,
+          "money_v83": 9273.0,
+          "money_gap": 1128.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 21,
+          "step": 504,
+          "money_v41": 15230.0,
+          "money_v83": 12637.0,
+          "money_gap": 2593.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 22,
+          "step": 528,
+          "money_v41": 20816.0,
+          "money_v83": 18360.0,
+          "money_gap": 2456.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 23,
+          "step": 552,
+          "money_v41": 26854.0,
+          "money_v83": 28773.0,
+          "money_gap": -1919.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 24,
+          "step": 576,
+          "money_v41": 34162.0,
+          "money_v83": 35060.0,
+          "money_gap": -898.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 25,
+          "step": 600,
+          "money_v41": 43974.0,
+          "money_v83": 43933.0,
+          "money_gap": 41.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 26,
+          "step": 624,
+          "money_v41": 50594.0,
+          "money_v83": 50582.0,
+          "money_gap": 12.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 27,
+          "step": 648,
+          "money_v41": 58560.0,
+          "money_v83": 56901.0,
+          "money_gap": 1659.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 28,
+          "step": 672,
+          "money_v41": 64342.0,
+          "money_v83": 62493.0,
+          "money_gap": 1849.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 29,
+          "step": 696,
+          "money_v41": 73241.0,
+          "money_v83": 68911.0,
+          "money_gap": 4330.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        },
+        {
+          "day": 30,
+          "step": 720,
+          "money_v41": 85286.0,
+          "money_v83": 83888.0,
+          "money_gap": 1398.0,
+          "cows_v41": 8,
+          "cows_v83": 9
+        }
+      ]
+    }
+  ],
+  "daily_avg_gap": {
+    "1": 300.0,
+    "2": 300.0,
+    "3": 300.0,
+    "4": 259.0,
+    "5": 368.3,
+    "6": 175.2,
+    "7": 46.7,
+    "8": 764.3,
+    "9": 222.6,
+    "10": -461.9,
+    "11": -285.7,
+    "12": -2588.0,
+    "13": -1493.1,
+    "14": -2156.7,
+    "15": -256.6,
+    "16": -705.7,
+    "17": 22.3,
+    "18": -1705.9,
+    "19": -742.0,
+    "20": 757.1,
+    "21": 2625.2,
+    "22": 3242.2,
+    "23": 1920.8,
+    "24": 3547.4,
+    "25": 1996.1,
+    "26": 3293.9,
+    "27": 2697.8,
+    "28": 3144.6,
+    "29": 4003.1,
+    "30": 2137.4
+  }
+}
