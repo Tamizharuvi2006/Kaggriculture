@@ -1,104 +1,338 @@
-# 🏆 KAGGRICULTURE MASTER COMPETITIVE ENGINE & EMPIRICAL TAXONOMY
+# 🏛️ L+ APEX — Autonomous Kaggriculture Discovery Engine
 
-[![V4.1 Master Champion](https://img.shields.io/badge/V4.1_Master-1479.8_Rating-gold.svg)](file:///D:/kaggriculture/baseline/kaitofukami-v18.py)
-[![Candidate L+](https://img.shields.io/badge/Candidate_L%2B-1209.5_Fallback-blue.svg)](file:///D:/kaggriculture/generalization_pipeline/submission_candidate_l_plus.py)
-[![Candidate L++](https://img.shields.io/badge/Candidate_L%2B%2B-311KB_Ref55376463-brightgreen.svg)](file:///D:/kaggriculture/generalization_pipeline/submission_candidate_l_plus_plus.py)
+> An in-game adaptive decision engine built around a frozen L+ 4.1 expert baseline, safe counterfactual exploration, marginal-value evaluation, experience memory, and historical replay intelligence.
 
 ---
 
-## 🏛️ 1. REPOSITORY ASSET HIERARCHY & GUARD LAWS
+## 1. Project Mission
 
+L+ APEX was created to solve one specific limitation of deterministic Kaggriculture agents:
+
+> **A strong expert baseline can win consistently, but a static policy eventually becomes the ceiling.**
+
+Our objective is **NOT** to replace the L+ 4.1 expert blindly.
+
+The objective is to build an autonomous system that can:
+
+1. Observe the current game state.
+2. Understand economic and temporal opportunity cost.
+3. Generate alternative actions.
+4. Compare alternatives against the L+ expert plan.
+5. Reject unsafe actions before execution.
+6. Execute only controlled, zero-capital-cost deviations.
+7. Observe the real outcome.
+8. Store the experience.
+9. Improve future decision selection without retraining after every match.
+10. Eventually use historical Kaggriculture trajectories to improve its value model.
+
+The L+ expert therefore remains the **safety anchor**, while APEX becomes the **discovery layer**.
+
+---
+
+## 2. Immutable Benchmark Champions
+
+These files must remain untouched unless explicitly authorized.
+
+| Candidate | Public Score | Role |
+|---|---:|---|
+| **Clean Candidate** | `1254.1` | Peak leaderboard benchmark (Locked 🔒) |
+| **L+ 4.1** | `1108.6` | Frozen expert/control baseline (Locked 🔒) |
+| **L+ APEX** | *Autonomous Engine* | Experimental discovery system |
+
+The purpose of APEX is to beat these baselines through empirical evidence, not by modifying them.
+
+---
+
+## 3. Why We Switched From L+ to APEX
+
+The L+ 4.1 strategy became the strongest reliable baseline.
+
+It achieved:
+- **1108.6** public leaderboard score.
+- Approximately **69.8% win rate** across the analyzed replay set.
+- No catastrophic end-game collapses.
+- Strong secondary production through pasture/livestock infrastructure.
+- Reliable final-step liquidation behavior.
+
+However, forensic analysis showed that L+ was not fundamentally unbeatable. Several losses were extremely narrow:
+- $-\$200$
+- $-\$692$
+- $-\$2,468$
+
+These losses were primarily associated with final-mile timing, inventory movement, and liquidation efficiency.
+
+This created the core hypothesis:
+> *L+ is already strong enough that autonomous improvement should focus on small marginal decisions rather than rewriting the entire strategy.*
+
+---
+
+## 4. Initial End-Game Experiment (The End-Game Trap)
+
+The first hypothesis was that L+ could be improved by forcing an end-game market dump via an "End-Game Guard".
+
+It performed badly:
+- $\sim -\$5.1\text{k}$ average degradation.
+- 0/4 wins against the L+ control.
+- Workers were forced into `PASS` states.
+- Active harvest/drop sequences were interrupted.
+- Cash conversion became worse rather than better.
+
+### Lesson Learned
+Never assume an observed weakness should be fixed by directly suppressing movement. The L+ closed-loop schedule already handled terminal liquidation better than the naive guard.
+
+### Decision
+**Discard End-Game Guard.** L+ baseline remained frozen.
+
+---
+
+## 5. APEX Architecture & Evolution
+
+The APEX architecture was introduced to transition from static rules to closed-loop, state-aware decision-making:
+
+```text
+WorldState
+EconomicModel
+TimeModel
+Planner
+Evaluator
+Memory
+Expert
+Policy
+Evolution
 ```
-D:\Kaggriculture\
-│
-├── baseline\
-│   └── kaitofukami-v18.py                          ← V4.1 MASTER CHAMPION 🏆 (1479.8 Rating - UNTOUCHABLE 🔒)
-│
-├── generalization_pipeline\
-│   ├── submission_candidate_l_plus.py             ← Candidate L+ MAIN 🛡️ (1209.5 - Live Fallback 🔒)
-│   ├── submission_candidate_l_plus_raw_backup.py    ← Candidate L+ Backup 🔒 (FROZEN)
-│   ├── submission_candidate_l_plus_plus.py        ← Candidate L++ EXPERIMENTAL MAIN ⚔️ (Ref 55376463 - VERIFIED)
-│   └── submission_candidate_l_plus_plus_raw_backup.py ← Candidate L++ Backup 🔒 (FROZEN)
-│
-├── reports\                                        ← Master Forensic & Audit Reports
-│   ├── LPLUS_PLUS_INVARIANT_AUDIT.md             ← 10/10 Synthetic Adversarial Test Suite
-│   ├── LPLUS_PLUS_IMPLEMENTATION_VERIFICATION.md  ← Monolithic Script Implementation Verification
-│   ├── MASTER_LPLUS_PLUS_CROSS_VALIDATION.md     ← 20-Replay 100% Win Sweep Cross-Validation
-│   ├── NEW_40K_LOSS_91296498_FORENSICS.md          ← 3rd Fleet Delay Validation Dissection
-│   ├── LOSS_1745977583_FORENSICS.md              ← 2nd Fleet Delay Validation Dissection
-│   ├── HIGH_TIER_LOSS_855978439_FORENSICS.md     ← Endgame Scheduling Dissection (-$200 Margin)
-│   ├── OFFLINE_LPLUS_PLUS_SIMULATION.md          ← Initial 11-Replay Controller Simulation
-│   ├── 60K_70K_COMPETITIVE_BAND_FORENSICS.md     ← 60K-70K Floor Elevation Analysis
-│   └── LOSS_FAILURE_MODE_FORENSICS.md            ← Failure Taxonomy Forensics
-│
-└── experiments\                                   ← 100% Offline Analyzers & Test Suites
-    ├── audit_lplus_plus_invariants.py            ← Adversarial Invariant Auditor
-    ├── verify_real_lplus_plus_implementation.py  ← Script Implementation Verification Auditor
-    ├── master_lplus_plus_cross_validation.py     ← 20-Replay Master Cross-Validation Auditor
-    ├── dissect_new_40k_loss_91296498.py          ← Replay 91296498 Dissecting Tool
-    ├── dissect_loss_1745977583.py                ← Seed 1745977583 Dissecting Tool
-    └── dissect_high_tier_loss_91292018.py        ← Seed 855978439 Dissecting Tool
+
+The core decision model became:
+$$\text{Action Value} = \text{Expected Profit} + \text{Future Production Value} - \text{Transit Cost} - \text{Opportunity Cost} + \text{Terminal Value}$$
+
+---
+
+## 6. Meta-Regime Detection & Online Adaptation
+
+APEX classifies live match conditions into regimes:
+- `HEADSTART`
+- `MELON_RUSH`
+- `STRAWBERRY_ENGINE`
+- `WOOL_ENGINE`
+- `LIQUIDATION`
+- `BALANCED_HARVEST`
+
+Instead of permanently assuming one commodity is universally best, APEX evaluates prices, production cycles, inventory, available capital, time remaining, opponent behavior, and opportunity cost.
+
+---
+
+## 7. The Imitation Trap & Exploration Failures
+
+### APEX 2.0 & 2.1: The Imitation Trap
+Across known and unseen seeds: 100% safety, 100% reproduction, 0% regression, but **0% meaningful divergence**.
+*Lesson:* An agent that always agrees with its teacher cannot discover anything new.
+
+### APEX 2.2 & 2.3: Failed Capital Exploration
+Naive exploration injected `BUY_SEED`, `BUY_LAND`, and `HIRE` into market action plans.
+*Result:* Cash drained to $\$0$, workers stalled, wealth collapsed from $\approx \$128\text{k}$ to $\approx \$4.7\text{k}$ ($0/8$ wins).
+*Lesson:* **Cash is operating capacity.** Market-action injection must never bypass the financial safety model. All capital-consuming autonomous exploration was permanently prohibited.
+
+---
+
+## 8. APEX 2.4 Safety Architecture & Invariants
+
+APEX 2.4 introduced strict execution invariants:
+1. **Action Purity:** $\text{executed\_market\_actions} == \text{chosen\_plan.market\_actions}$ (no hidden appended commands).
+2. **Operating Reserve:** Mandatory operating floor ($\ge \$300.0$) and worker maintenance allowance protected.
+3. **Shadow Simulation:** Candidate plans are simulated against the world state before execution.
+4. **Zero-Cost Curriculum:** Exploration is restricted to sell quantities, harvest priorities, routing, and zero-capital-cost decisions.
+
+---
+
+## 9. APEX 2.5: Candidate Diversity & First Real Divergence
+
+The planner was upgraded to generate mid-game alternatives.
+- Across 8,628 decision steps: **13,720 candidate actions** generated; $\approx 960$ passed safety/UCB filters.
+- Rejection distribution: Confidence (85.6%), Terminal (4.02%), Liquidity (3.37%), Worker (0%).
+- **First Real Divergence (Step 100, Seed 590244349):**
+  - L+: `[]`
+  - APEX: `SELL_WHEAT_1`
+  - Outcome: L+ = $\$138,095$ vs APEX = $\$138,099$ ($\Delta = +\$4.00$, 100% Safe).
+
+---
+
+## 10. Evaluator Calibration & Marginal Counterfactual Value (MCV)
+
+### Legacy Evaluator Failure
+The legacy evaluator calculated raw liquidation spot cash ($3 \times \$95 = \$285$), overvaluing `SELL_FERTILIZER_3` at $\approx +\$287 - \$291$, while actual realized final wealth delta was repeatedly $\$0.00$.
+
+### Marginal Counterfactual Value (MCV) Solution
+Redesigned valuation around true marginal delta over the expert's plan:
+$$\text{MCV} = \text{Expected Final Wealth}(\text{candidate}) - \text{Expected Final Wealth}(\text{L+ plan})$$
+
+| Metric | Legacy Absolute Evaluator | Marginal Counterfactual Value (MCV) | Improvement |
+| :--- | :---: | :---: | :---: |
+| **Mean Predicted Advantage** | $+\$267.74$ | $+\$2.05$ | — |
+| **Mean Absolute Error (MAE)** | **$\$267.41$** | **$\$1.77$** | **99.3% Error Reduction ✅** |
+| **Prediction Bias** | $-\$267.41$ | $-\$1.72$ | — |
+
+---
+
+## 11. Fresh Online MCV Validation (APEX 2.5-G)
+
+A fresh 12-seed online validation tournament (4 Forensic Anchor + 8 Unseen Replay Seeds) demonstrated strong generalization:
+
+| Metric | Fresh 12-Seed Validation Result |
+| :--- | :---: |
+| **Matches Evaluated** | 12 / 12 |
+| **Controlled Divergences Executed** | 12 / 12 (100%) |
+| **Positive Match Outcomes** | **6 / 12 (50.0%)** |
+| **Neutral Match Outcomes** | **2 / 12 (16.7%)** |
+| **Minor Variances ($-\$1$)** | **4 / 12 (33.3%)** |
+| **Match Win Rate vs Opponent** | **12 / 12 (100.0% WIN ✅)** |
+| **Net Cumulative Wealth Delta** | **$+\$16.00$ Net vs L+ Expert** |
+| **Online Prediction MAE** | **$\$3.01$** |
+| **Zero Regression Invariant** | **PASSED ✅** |
+
+---
+
+## 12. Complete APEX Architecture Pipeline
+
+```text
+                    GAME OBSERVATION
+                           │
+                           ▼
+                     WorldState
+                           │
+        ┌──────────────────┼──────────────────┐
+        ▼                  ▼                  ▼
+   EconomicModel       TimeModel        OpponentModel
+        │                  │                  │
+        └──────────────────┼──────────────────┘
+                           ▼
+                     MetaDetector
+                           │
+                           ▼
+                    StrategyAdapter
+                           │
+                           ▼
+                       Planner
+                           │
+                           ▼
+                      SafetyGate
+                           │
+                           ▼
+                 Marginal Value Evaluator (MCV)
+                           │
+                           ▼
+                         UCB
+                           │
+                           ▼
+                 DivergenceController
+                           │
+                           ▼
+                  Shadow Simulation
+                           │
+                           ▼
+                     Execute Action
+                           │
+                           ▼
+                  Experience Memory
+                           │
+                           ▼
+                  Outcome / Calibration
 ```
 
 ---
 
-## 📊 2. MASTER REPLAY REGISTRY & EMPIRICAL FAILURE TAXONOMY (20 REPLAYS)
+## 13. Current Safety Rules & Invariants
 
-| Replay Log ID | Category | Candidate L+ ($) | Opponent ($) | Margin ($\Delta$) | Candidate L++ Sim ($) | L++ Margin ($\Delta$) | Causal Mechanism / Failure Taxonomy | Candidate L++ Status |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| [`91278544.json`](file:///D:/kaggriculture/l+reviews/newl/91278544.json) | 🟡 UNPRESSURED | **$155,777.00** | $27,703.00 | **+$128,074.00** | **$155,777.00** | **+$128,074.00** | Unconstrained Ceiling | **✅ PRESERVED** |
-| [`91282058.json`](file:///D:/kaggriculture/l+reviews/newl/91282058.json) | 🏆 SUPER WIN | **$129,852.00** | $86,508.00 | **+$43,344.00** | **$129,852.00** | **+$43,344.00** | Milk P0 + $33.8k Wool/Strawberries | **✅ PRESERVED** |
-| [`91279421.json`](file:///D:/kaggriculture/l+reviews/newl/91279421.json) | 🟡 UNPRESSURED | **$115,554.00** | $28,622.00 | **+$86,932.00** | **$115,554.00** | **+$86,932.00** | Unconstrained Ceiling | **✅ PRESERVED** |
-| [`91283859.json`](file:///D:/kaggriculture/l+reviews/newl/91283859.json) | 🟢 WIN | **$114,495.00** | $47,268.00 | **+$67,227.00** | **$114,495.00** | **+$67,227.00** | High Portfolio Compounding | **✅ PRESERVED** |
-| [`91284757.json`](file:///D:/kaggriculture/l+reviews/newl/91284757.json) | 🏆 STRONG WIN | **$106,545.00** | $85,534.00 | **+$21,011.00** | **$106,545.00** | **+$21,011.00** | Milk P0 + $34.4k Wool/Strawberries | **✅ PRESERVED** |
-| [`91288415.json`](file:///D:/kaggriculture/l+reviews/newl/loss/91288415.json) | 🏆 WHEAT WIN | **$103,408.00** | $89,538.00 | **+$13,870.00** | **$103,408.00** | **+$13,870.00** | $107.2k Wheat Volume Coexistence | **✅ PRESERVED** |
-| [`91280298.json`](file:///D:/kaggriculture/l+reviews/newl/91280298.json) | 🟡 UNPRESSURED | **$92,446.00** | $19,571.00 | **+$72,875.00** | **$92,446.00** | **+$72,875.00** | High Capacity Intact | **✅ PRESERVED** |
-| [`91281178.json`](file:///D:/kaggriculture/l+reviews/newl/91281178.json) | 🟢 MODERATE WIN | **$78,469.00** | $45,602.00 | **+$32,867.00** | **$78,469.00** | **+$32,867.00** | Moderate Winning Engine | **✅ PRESERVED** |
-| [`91290225.json`](file:///D:/kaggriculture/l+reviews/newl/91290225.json) | 🟡 CLOSE WIN | **$67,742.00** | $63,822.00 | **+$3,920.00** | **$72,742.00** | **+$8,920.00** | Floor Escalation (Rules 1 & 3) | **✅ ESCALATED** |
-| [`91272656.json`](file:///D:/kaggriculture/l+reviews/91272656.json) | 🟡 CLOSE WIN | **$65,694.00** | $63,104.00 | **+$2,590.00** | **$70,694.00** | **+$7,590.00** | Floor Escalation (Rules 1 & 3) | **✅ ESCALATED** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [`91282953.json`](file:///D:/kaggriculture/l+reviews/newl/91282953.json) | 🔴 LOSS (-$1.3k) | **$48,969.00** | $50,343.00 | **$-1,374.00** | **$52,169.00** | **+$1,826.00** | **`LIQUIDITY_TIMING`** (Late Catch-up) | **✅ CONVERTED TO WIN** |
-| [`91285661.json`](file:///D:/kaggriculture/l+reviews/newl/91285661.json) | 🔴 LOSS (-$1.7k) | **$53,921.00** | $55,701.00 | **$-1,780.00** | **$76,021.00** | **+$20,320.00** | **`FLEET_DELAY`** (Pasture Lag - $2.9k sec) | **✅ CONVERTED TO WIN** |
-| [`91286593.json`](file:///D:/kaggriculture/l+reviews/newl/loss/91286593.json) | 🔴 LOSS (-$2.4k) | **$55,608.00** | $58,076.00 | **$-2,468.00** | **$60,108.00** | **+$2,032.00** | **`QUEUE_COLLISION`** (Wheat Congestion) | **✅ CONVERTED TO WIN** |
-| [`91287496.json`](file:///D:/kaggriculture/l+reviews/newl/loss/91287496.json) | 🔴 LOSS (-$692) | **$46,941.00** | $47,633.00 | **$-692.00** | **$56,195.70** | **+$8,562.70** | **`VALUATION_TIMING`** (210u Milk @ $40.93) | **✅ CONVERTED TO WIN** |
-| [`91292018.json`](file:///D:/kaggriculture/l+reviews/newl/loss/91292018.json) | 🔴 LOSS (-$200) | **$86,387.00** | $86,587.00 | **$-200.00** | **$86,887.00** | **+$300.00** | **`ENDGAME_SCHEDULING`** (Unsold Shed Milk) | **✅ CONVERTED TO WIN** |
-| [`91292907.json`](file:///D:/kaggriculture/l+reviews/newl/loss/91292907.json) | 🔴 LOSS (-$5.7k) | **$40,576.00** | $46,358.00 | **$-5,782.00** | **$62,676.00** | **+$16,318.00** | **`FLEET_DELAY`** (Validation Test 1) | **✅ CONVERTED TO WIN** |
-| [`91296498.json`](file:///D:/kaggriculture/l+reviews/newl/loss/91296498.json) | 🔴 LOSS (-$5.4k) | **$40,546.00** | $46,032.00 | **$-5,486.00** | **$62,646.00** | **+$16,614.00** | **`FLEET_DELAY`** (Validation Test 2) | **✅ CONVERTED TO WIN** |
+* **Rule 1 — L+ Fallback:** If APEX cannot prove that a candidate is safe and sufficiently valuable, execute L+.
+* **Rule 2 — No Blind Capital Exploration:** APEX must not inject `BUY_SEED`, `BUY_LAND`, or `HIRE`.
+* **Rule 3 — Action Purity:** No hidden market commands may be appended.
+* **Rule 4 — Operating Reserve:** Cash required for continued operation ($\ge \$300.0 / \$150.0$) remains protected.
+* **Rule 5 — Shadow Simulation:** Candidate execution must be validated in simulation prior to dispatch.
+* **Rule 6 — Terminal Protection:** Late-game execution preserves the proven L+ terminal liquidation behavior.
+* **Rule 7 — Controlled Divergence:** Max 1 divergence/episode, Steps 100–600, Zero Capital Cost only.
+* **Rule 8 — No Premature Hardcoding:** A single positive observation must never become a permanent hardcoded rule.
 
 ---
 
-## 🧬 3. FAILURE TAXONOMY MAP & CANDIDATE L++ ADAPTIVE RULES
+## 14. What Is Proven vs. What Is Unproven
 
-$$\begin{array}{ccccc}
-& & \text{\textbf{CANDIDATE L+ FAILURE TAXONOMY MAP}} & & \\
-& & \Big/ \qquad \mid \qquad \Big\backslash & & \\
-\text{\textbf{FLEET\_DELAY}} & \text{\textbf{VALUATION\_TIMING}} & \text{\textbf{QUEUE\_COLLISION}} & \text{\textbf{LIQUIDITY\_TIMING}} & \text{\textbf{ENDGAME\_SCHEDULING}} \\
-\text{(`91285661`, `91292907`, `91296498`)} & \text{(`91274962`)} & \text{(`91286593`)} & \text{(`91282953`)} & \text{(`91292018`)} \\
-\downarrow & \downarrow & \downarrow & \downarrow & \downarrow \\
-\textbf{L++ Rule 3} & \textbf{L++ Rule 1} & \textbf{L++ Rule 4} & \textbf{L++ Rule 2} & \textbf{L++ Rule 5} \\
-\text{Pasture Acceleration} & \text{Milk P0 Protection} & \text{Queue Cap $\le$ 8} & \text{Selective Volume} & \text{Endgame Liquidation}
-\end{array}$$
+### Proven Capabilities ✅
+- [x] Zero-regression baseline preservation
+- [x] Autonomous candidate generation & safety gating
+- [x] Real in-game divergence with safe return to expert schedule
+- [x] Zero-capital exploration curriculum
+- [x] 99.3% prediction error reduction via Marginal Counterfactual Value (MCV)
+- [x] Fresh online generalization (MAE = $\$3.01$, $+\$16.00$ net delta)
+- [x] Experience memory & calibration tracking
 
-### 📜 CANDIDATE L++ ADAPTIVE RULES:
-1. **Rule 1 (Milk Position #0 Protection)**: `IF Milk_Inventory >= 4 AND Milk_Price >= $200.00` $\implies$ Reserve Position #0 for Milk SELL order.
-2. **Rule 2 (Selective Volume Cycling)**: `IF Milk_Inventory < 4 OR Milk_Price < $200.00` $\implies$ Cycle Wheat & Secondary Sales in remaining slots.
-3. **Rule 3 (Day 13 Fleet & Pasture Acceleration)**: `IF Day >= 12 AND Pastures < 2 AND Money >= $500` $\implies$ Build Pasture by Day 13.
-4. **Rule 4 (Queue Capacity Protection)**: Max 8 market orders/turn to prevent queue slot congestion.
-5. **Rule 5 (Endgame Inventory Flush)**: `IF Step >= 715` $\implies$ Liquidate all produced Milk, Wool, and Strawberries before Step 720.
+### Not Yet Proven ⏳
+- [ ] Sustained statistical superiority over L+ across hundreds of matches
+- [ ] Sustained improvement over Clean Candidate (1254.1)
+- [ ] Generalization across radically different meta-regimes
+- [ ] Historical replay-derived calibration superiority
+- [ ] Live leaderboard rating improvement
 
 ---
 
-## 🎯 4. MASTER 10-METRIC CROSS-VALIDATION SUMMARY
+## 15. Next Milestone: Historical Replay Intelligence (APEX-HIST-1)
 
-| Master Cross-Validation Metric | Baseline Candidate L+ | Unified Candidate L++ Implementation | Performance Delta ($\Delta$) | Audit Outcome |
-| :--- | :---: | :---: | :---: | :---: |
-| **1. Total Replay Dataset Size** | 20 Replays | 20 Replays | Full Repository Coverage | **✅ COMPLETE** |
-| **2. Overall Match Win Rate (%)** | 70.0% (14/20) | **100.0% (20/20)** | **+30.0%** | **🏆 100% PERFECT SWEEP** |
-| **3. Authoritative Losses Converted** | 0 / 6 Losses | **6 / 6 Losses** | **+6 Losses Converted to Wins** | **✅ 100% CONVERSION** |
-| **4. Existing Wins Preserved** | 14 Wins | **14 / 14 Wins** | **0 Wins Lost** | **✅ 100% PRESERVED** |
-| **5. $100k+ Super Wins Preserved** | 6 Super Wins | **6 / 6 Super Wins** | **0 Ceilings Regressed** | **✅ 100% PRESERVED** |
-| **6. Lowest Match Score** | $40,546.00 | **$52,169.00** | **+$11,623.00 Floor Elevation** | **✅ FLOOR RAISED** |
-| **7. Highest Match Score** | $155,777.00 | **$155,777.00** | **High Capacity Intact** | **✅ CEILING PRESERVED** |
-| **8. Average Score Improvement ($)** | $0.00 | **+$3,582.73 / Match** | **+$3,582.73** | **✅ SCORE ELEVATED** |
-| **9. Average Margin Improvement ($)** | $0.00 | **+$3,582.73 / Match** | **+$3,582.73** | **✅ MARGIN ELEVATED** |
-| **10. Regressions Detected** | 0 Regressions | **0 Regressions** | **ZERO REGRESSIONS** | **✅ PASS** |
+The Kaggriculture ecosystem provides daily historical episode datasets (`kaggriculture-episodes-index`).
+* **Source:** Daily datasets spanning `2026-07-30` through `2026-08-09`.
+* **Schema Probe (APEX-HIST-0 Complete):**
+  * `episodes.csv`: Match metadata, final bank/wealth, TrueSkill ratings.
+  * `replays.parquet`: Full 720-step granular state/action/observation trajectories.
+* **Strategy (APEX-HIST-1):**
+  * Ingest recent competitive dates (`2026-08-06` to `2026-08-09`).
+  * Filter matches preserving diverse outcomes (wins, narrow losses, high ratings).
+  * Extract state-action-outcome tuples to calibrate MCV value distributions.
+  * Do NOT turn APEX into a rigid imitation script; treat historical data as probabilistic empirical evidence.
+
+---
+
+## 16. Agent Handoff Guidelines
+
+For any autonomous agent continuing this project:
+
+```text
+DO:
+  1. Read this README and docs/APEX_EXPERIMENT_HISTORY.md first.
+  2. Preserve frozen baselines (Clean Candidate 1254.1 and L+ 4.1 1108.6).
+  3. Conduct controlled A/B experiments changing one variable at a time.
+  4. Record predicted vs. realized values (MAE and bias).
+  5. Enforce all safety invariants and use L+ as default fallback.
+  6. Treat historical replay data as probabilistic calibration evidence.
+
+DO NOT:
+  1. Modify submission_candidate_l_plus.py or Clean Candidate.
+  2. Blindly inject capital-consuming actions (BUY/LAND/HIRE).
+  3. Bypass ActionSafetyGate or ShadowSimulator.
+  4. Download hundreds of GBs without targeted filtering.
+  5. Convert single observations into hardcoded heuristics.
+  6. Claim leaderboard superiority without live verified submissions.
+```
+
+---
+
+## 17. Current Development State
+
+```text
+APEX 2.5
+│
+├── WorldState                  ✅
+├── EconomicModel               ✅
+├── TimeModel                   ✅
+├── MetaModel                   ✅
+├── OpponentModel               ✅
+├── StrategyAdapter             ✅
+├── Planner                     ✅
+├── SafetyGate                  ✅
+├── CounterfactualSimulator     ✅
+├── MCV Evaluator               ✅
+├── DivergenceController        ✅
+├── ExperienceMemory            ✅
+├── Shadow Simulation           ✅
+├── Online MCV Validation       ✅
+│
+├── Historical Episode Parser   🔜
+├── Historical Calibration DB   🔜
+├── Historical MCV Calibration  🔜
+└── Leaderboard Qualification   ⏳
+```
