@@ -1,19 +1,28 @@
-# 📋 TODO.md — Next Engineering Task
+# 📋 KAGGRICULTURE APEX: RESEARCH ROADMAP & NEXT TASKS
 
-## 🔬 Research 16: ROI-Based Task Dispatcher & Labor Optimizer
+## 🛡️ Current Governance & Freeze Status
+- 🛡️ **Ref 55421857 (APEX 3.3 Challenger)**: Active live Kaggle experiment. **FROZEN & UNTOUCHED**.
+- 🛡️ **Ref 55249106 (V4.1 Master Baseline)**: Master Champion historical benchmark. **RETIRED FROM EXPERIMENTAL LOOP**.
+- 🔒 **APEX 3.4**: Research candidate. **FROZEN LOCALLY** (Not submitted).
+- 🎯 **Target Benchmark**: **Real Kaggle 3000+ Winner Empirical Population Standard** (43 Matches / 86 Trajectories).
 
-### Objective
-Replace V18's static task queue matching with an explicit **ROI-Ranked Task Dispatcher** that prioritizes high-value tasks (**Strawberries: $73.63/turn**, **Cows: $28.86/turn**) over low-ROI tasks, and optimizes worker transit positioning.
+---
 
-### Empirical Insights from Research 15
-- **Strawberry Harvesting/Planting**: **$73.63 / worker-turn** (Rank 1)
-- **Melon Harvesting/Planting**: **$40.53 / worker-turn** (Rank 2)
-- **Cow Care & Milking**: **$28.86 / worker-turn** (Rank 3)
-- **Wheat Planting**: **$13.51 / worker-turn** (Rank 4)
-- **Idle / Walking**: **76.65% of all worker-turns** (48.66% Transit + 27.99% Idle)
-- **Theoretical Max Score Potential**: **$307,569.23**
+## 🔬 Completed Phase Highlights (Phases 28–35)
+- ✅ **Phase 28 (Step & Threshold Sensitivity Grid)**: Proved parameter stability for pre-clearance rescue (Steps 70–72 / $800–$1,100).
+- ✅ **Phase 29 (Land #4 Capex ROI Falsification)**: Confirmed 3-Quadrant Expansion Ceiling (Land #4 drops win rate from 68% to 8–12%).
+- ✅ **Phase 30 (APEX 3.4 145-Match Tournament)**: 66.7% win on failure seeds, 56.7% vs APEX 3.3, but averaged -$241.92 vs benchmark across 100 holdout seeds.
+- ✅ **Phase 31–33 (Forensic Dissection of 65 Wins vs 35 Losses)**: Proved physical production is 100% invariant (616 Strawberry units sold in both cohorts). The wealth delta is 100% price realization driven ($162.57 vs $151.52).
+- ✅ **Phase 34 (Real Kaggle 3000+ Population Study)**: Analyzed 43 real matches (86 trajectories). Discovered the **Clearance Paradox** (Losers sell 2.5x more on clearance) and Day 15 reinvestment inflection.
+- ✅ **Phase 35 (Market Equilibrium & Pricing Regimes)**: Discovered that Kaggriculture Markov walks create distinct High-Milk vs High-Strawberry pricing regimes.
 
-### Execution Plan
-1. Create `experiments/research16_roi_dispatcher.py`.
-2. Keep `baseline/submission_v81.py` frozen.
-3. Test dynamic task priority scoring where Strawberry & Cow tasks preempt low-margin tasks and reduce transit distance traps.
+---
+
+## 🎯 Next Action Items for Phase 36 (Towards APEX 3.5)
+1. **Design Market-Regime Adaptive Allocation**:
+   - Detect early-game Markov price regimes (e.g. Milk price > $140/unit vs Strawberry price).
+   - In High-Milk regimes, dynamically increase animal utilization while maintaining core Strawberry crop base.
+2. **Batch Size Protection & Clearance Smoothing**:
+   - Limit clearance liquidation to true unallocated surplus, preventing clearance sales from fragmenting high-value 10-pack batch sales.
+3. **Multi-Agent Population Gating**:
+   - Test any candidate strategy against both top-tier replay expert schedules AND multi-seed holdout tournaments before promotion.

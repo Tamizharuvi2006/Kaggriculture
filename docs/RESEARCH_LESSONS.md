@@ -28,7 +28,27 @@
 
 6. **Fresh Live Replay Intelligence Over Historical Datasets**:
    - Historical replays from early competition phases lack current top-tier dynamics. Querying recent daily datasets (`manifest.csv`) for 2600–3200+ episode files revealed the exact clearance boundary preemption mechanism.
-   - **Lesson**: Use fresh competitive intelligence from recent daily index datasets to guide targeted feature engineering.
+7. **Empirical Population Truth Over Outlier Anecdotes**:
+   - Ultra-early Strawberry activation ($\le 72$ steps) appeared in an outlier replay (`kazusw`), but population-wide analysis across 86 competitive match trajectories revealed that $\le 72$ activation has an 83.3% loss rate (16.7% win rate) and collapses mean wealth ($44.3k vs $74.9k).
+   - Conventional Day 4.5 activation (Steps 97–120) is the proven optimal meta standard (69.8% of matches, 58.3% win rate, $74.9k mean wealth).
+
+8. **Inventory-Protected Preemption (Surplus-Only Liquidation)**:
+   - Siphoning inventory before clearance (`step % 24 == 23`) must never deplete the shed below upcoming batch requirements. Reserving baseline batch quantities prevents morning budget starvation and preserves peak-price 10-unit sales.
+
+9. **Step 71 Targeted Land #2 Liquidity Rescue**:
+   - 89.5% of late-Strawberry activation collapses were caused by having <$1,000 liquid cash at Step 96 (Day 4.0). Liquidating surplus Milk & Fertilizer at Step 71 (Day 3 pre-clearance) guarantees >$1,100 cash at Step 96, unlocking Land #2 on time and recovering 100% of late-failure seeds without hurting holdout win rate.
+
+10. **The 3-Quadrant Capex Ceiling Invariant**:
+    - Land #4 ($10,000 Capex, SW Quadrant) requires ~46+ Strawberry units and ~288 steps (12 full days) just to break even. In a 720-step (30-day) game, purchasing Land #4 starves operating liquidity and reduces final wealth by -$3,300 to -$4,100 (win rate drops from 68% to 8–12%). Capping land expansion at 3 quadrants is economically optimal.
+
+11. **Production Invariance & Market Realization Dynamics (Steps 336–480)**:
+    - Phase 32 and 33 forensic dissections proved that APEX 3.4 maintains 100% production invariance across all 100 fresh holdout seeds (exactly 616 Strawberry units sold, 65 harvest actions, 27 fertilizer applications, and 333 worker actions).
+    - The -$6,803 Strawberry revenue difference between Wins and Losses is governed by seed-level market price realization ($162.57/unit on winning seeds vs $151.52/unit on losing seeds) rather than any pipeline breakdown or worker starvation.
+
+12. **Real Kaggle 3000+ Population Invariants & The Clearance Paradox**:
+    - Population analysis across 43 real competition matches (86 trajectories) revealed that 3000+ Winners sell only 13.3 Strawberry units on clearance vs Losers who sell 32.6 units (2.5x more!).
+    - Winners preserve large full-price batch sales (8.4 units/batch @ $141.08/unit vs $125.82/unit for losers).
+    - Reinvestment in Cow Feed & Land #2/3 keeps early cash low (-$150 to -$240 vs losers), but triggers a massive inflection at Day 15 (Step 360: +$2,684 lead), compounding into a +$24,233 final wealth margin.
 
 ---
 

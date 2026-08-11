@@ -77,26 +77,39 @@ The Kaggriculture APEX framework is built on a **modular component architecture*
   - **100.0% Win Rate (50W-0L)** vs 3200+ Live Replay Champion Expert schedule (`91153990.json`).
   - Passed monolithic schema, syntax, and standalone execution audits. Submitted as Kaggle Ref `55421857`.
 
+### Phase 21–30: Empirical Strawberry Timing, Land #4 ROI Falsification & APEX 3.4
+- **Phase 21–25 (Strawberry Activation Population Study)**: Tested ultra-early ($\le 72$) vs standard (Steps 97–120) Strawberry activation across 86 competitive trajectories. Ultra-early planting had an **83.3% loss rate**. Standard Day 4.5 activation (Step 108) is the proven optimal meta standard.
+- **Phase 26–28 (Targeted Land #2 Liquidity Rescue)**: Discovered 89.5% of late-Strawberry failures lacked $1,000 at Step 96. Pre-clearance Step 71 surplus sale guaranteed >$1,100 cash, recovering 10/15 failure seeds (+33.27 net delta). Sensitivity search confirmed parameter stability across Steps 70–72 and thresholds $800–$1,100.
+- **Phase 29 (Land #4 Capex ROI Falsification)**: Tested Land #4 ($10,000 capex) across 25 seeds. Proved Land #4 requires ~12 full days (288 steps) to break even, causing an immediate -$3,305 to -$4,132 wealth collapse (win rate dropped from 68% to 8–12%). **Strict 3-Quadrant Land Expansion Ceiling is economically optimal**.
+- **Phase 30 (APEX 3.4 145-Match Tournament Gauntlet)**: APEX 3.4 achieved 66.7% win rate on failure seeds and 56.7% vs APEX 3.3, but averaged -$241.92 vs V4.1 on 100 fresh holdout seeds (65% wins / 35% losses). **APEX 3.4 frozen locally; not promoted to Kaggle**.
+
+### Phase 31–35: Ground-Truth 3000+ Kaggle Population & Market Equilibrium Forensics
+- **Phase 31–33 (Forensic Dissection of 65 Wins vs 35 Losses)**: Proved APEX 3.4 plays 100% invariant physical production (exactly 616 Strawberry units sold, 65 harvest actions, 27 fertilizer applications, 333 worker actions across both cohorts). The wealth difference was purely driven by **market price realization** ($162.57/unit on winning seeds vs $151.52/unit on losing seeds).
+- **Phase 34 (Real Kaggle 3000+ Winner Empirical Meta Study)**: Parsed 43 real competition replays (86 trajectories). Discovered that **3000+ Winners sell only 13.3 Strawberry units on clearance vs Losers who sell 32.6 units (2.5x more!)**. Winners preserve large full-priced batch sales ($141.08/unit vs $125.82/unit) and aggressively reinvest early capital into Cows and Land #2/3, triggering an explosive inflection at Day 15 (+$2,684 lead) that compounds into a **+$24,233 win margin**.
+- **Phase 35 (Market Equilibrium & Pricing Regimes)**: Discovered that Kaggriculture's Markov pricing generates distinct cross-commodity regimes. Losing seeds are High-Milk ($155.86/u) regimes where opponents who scale milk production accumulate compounding leverage.
+
 ---
 
 ## 🛡️ Non-Negotiable Engineering Safety Invariants
 
 1. **RULE ZERO**: APEX must NEVER generate capital-consuming exploration actions (`BUY_SEED`, `BUY_LAND`, `HIRE`, `BUY_ANIMAL`).
 2. **ZERO SYNTHETIC ORDERS**: APEX must NEVER inject artificial fallback sales or invent market orders (eliminating the Step 107 bug).
-3. **TIMING OVERLAY ONLY**: APEX 3.3 acts purely as an execution timing overlay on legitimate V4.1 planned sales.
-4. **TEACHER FALLBACK**: V4.1 Master Baseline (`Ref 55249106`) is always preserved as the underlying fallback.
-5. **ENVIRONMENT PARITY**: All local simulations must run under Kaggle's live parameters (`townCenterSellInterval = 24`).
-6. **PROVEN COMPONENT INTEGRITY**: Dual-cow opening (Turn 0/1), Strawberry pipeline, and worker paths remain strictly protected.
+3. **TIMING OVERLAY ONLY**: APEX acts purely as an execution timing overlay on legitimate planned sales.
+4. **ENVIRONMENT PARITY**: All local simulations must run under Kaggle's live parameters (`townCenterSellInterval = 24`).
+5. **PROVEN COMPONENT INTEGRITY**: Dual-cow opening (Turn 0/1), Strawberry pipeline, and worker paths remain strictly protected.
+6. **3-QUADRANT EXPANSION CEILING**: Never buy Land #4 (SW Quadrant) in a 30-day match.
 7. **MONOLITHIC SUBMISSIONS**: All Kaggle submission artifacts must be 100% self-contained single-file Python builds with no external disk dependencies.
 8. **UNSEEN HOLDOUT GATING**: No strategy candidate may be submitted to Kaggle without passing a 50+ seed unseen holdout gauntlet.
-9. **BASELINE PROTECTION**: Ref `55249106` (V4.1 Master Champion) is 100% immutable and must NEVER be overwritten or replaced.
-10. **SCIENTIFIC CLAIM RIGOR**: Holdout replay-schedule validation must never be claimed as a guaranteed live Kaggle leaderboard score.
+9. **SCIENTIFIC CLAIM RIGOR**: Holdout replay-schedule validation must never be claimed as a guaranteed live Kaggle leaderboard score.
 
 ---
 
 ## 📂 Project Documentation Map
 
-- [`docs/APEX_EXPERIMENT_HISTORY.md`](file:///D:/kaggriculture/docs/APEX_EXPERIMENT_HISTORY.md): Detailed 20-Phase experimental trajectory and empirical data tables.
-- [`docs/APEX_ARCHITECTURE.md`](file:///D:/kaggriculture/docs/APEX_ARCHITECTURE.md): Deep technical specification of V4.1 foundation and APEX 3.3 preemption overlay.
+- [`docs/RESEARCH_LESSONS.md`](file:///D:/kagriulture/Kaggriculture/docs/RESEARCH_LESSONS.md): 12 Core empirical research lessons, environment parity discoveries, and governance rules.
+- [`docs/PHASE34_REAL_KAGGLE_POPULATION_REPORT.md`](file:///D:/kagriulture/Kaggriculture/docs/PHASE34_REAL_KAGGLE_POPULATION_REPORT.md): Ground-truth analysis of 43 real competition matches (86 trajectories).
+- [`docs/PHASE35_MARKET_EQUILIBRIUM_REPORT.md`](file:///D:/kagriulture/Kaggriculture/docs/PHASE35_MARKET_EQUILIBRIUM_REPORT.md): Market price realization and cross-commodity elasticity findings.
+- [`docs/LAND4_PROFITABILITY_REPORT.md`](file:///D:/kagriulture/Kaggriculture/docs/LAND4_PROFITABILITY_REPORT.md): Definitive Land #4 ROI analysis.
+- [`docs/PHASE30_APEX34_TOURNAMENT_REPORT.md`](file:///D:/kagriulture/Kaggriculture/docs/PHASE30_APEX34_TOURNAMENT_REPORT.md): 145-match tournament scorecard for APEX 3.4.
 - [`docs/KAGGLE_SUBMISSION_REGISTRY.md`](file:///D:/kaggriculture/docs/KAGGLE_SUBMISSION_REGISTRY.md): Comprehensive registry of all Kaggle submissions, hashes, and public scores.
 - [`docs/RESEARCH_LESSONS.md`](file:///D:/kaggriculture/docs/RESEARCH_LESSONS.md): Core empirical research takeaways, environment parity findings, and strategic invariants.
