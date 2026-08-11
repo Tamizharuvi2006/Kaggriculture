@@ -50,7 +50,8 @@ class CounterfactualSimulator:
         candidate: List[Any],
         expert_action: Dict[str, Any],
         state: WorldState,
-        confidence_threshold: float = 0.10
+        confidence_threshold: float = 0.10,
+        evaluator_cls: Any = MarginalActionEvaluator
     ) -> Tuple[bool, float, str]:
         # 1. Action Safety Gate Check
         is_safe, safety_reason = ActionSafetyGate.is_action_safe(candidate, state)
@@ -66,7 +67,8 @@ class CounterfactualSimulator:
             return False, 0.0, f"REJECTED_BY_SAFETY_GATE: {safety_reason}"
 
         # 2. Marginal Counterfactual Action Value (MCV) Scoring
-        mcv_score, breakdown = MarginalActionEvaluator.calculate_marginal_value(candidate, expert_action, state)
+        mcv_score, breakdown = evaluator_cls.calculate_marginal_value(candidate, expert_action, state)
+
 
         # UCB Bonus: Uncertainty bonus calibrated for MCV scale ($0 - $10)
         action_key = str(candidate[0])

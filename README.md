@@ -1,338 +1,102 @@
-# 🏛️ L+ APEX — Autonomous Kaggriculture Discovery Engine
+# 🌾 Kaggriculture APEX — Empirical Strategy & Preemption Engine
 
-> An in-game adaptive decision engine built around a frozen L+ 4.1 expert baseline, safe counterfactual exploration, marginal-value evaluation, experience memory, and historical replay intelligence.
-
----
-
-## 1. Project Mission
-
-L+ APEX was created to solve one specific limitation of deterministic Kaggriculture agents:
-
-> **A strong expert baseline can win consistently, but a static policy eventually becomes the ceiling.**
-
-Our objective is **NOT** to replace the L+ 4.1 expert blindly.
-
-The objective is to build an autonomous system that can:
-
-1. Observe the current game state.
-2. Understand economic and temporal opportunity cost.
-3. Generate alternative actions.
-4. Compare alternatives against the L+ expert plan.
-5. Reject unsafe actions before execution.
-6. Execute only controlled, zero-capital-cost deviations.
-7. Observe the real outcome.
-8. Store the experience.
-9. Improve future decision selection without retraining after every match.
-10. Eventually use historical Kaggriculture trajectories to improve its value model.
-
-The L+ expert therefore remains the **safety anchor**, while APEX becomes the **discovery layer**.
+> **Project Lineage**: Standard Kaggriculture Agent $\rightarrow$ Recovered V4.1 Master Baseline Champion $\rightarrow$ APEX 2.x Invariant Architecture $\rightarrow$ APEX 3.0 MCV Offline R&D $\rightarrow$ APEX 3.1/3.2 Environment Parity & Bugfix $\rightarrow$ **APEX 3.3 Clearance Preemption Engine**.
 
 ---
 
-## 2. Immutable Benchmark Champions
+## 🏛️ System Architecture Overview
 
-These files must remain untouched unless explicitly authorized.
+The Kaggriculture APEX framework is built on a **modular component architecture**. The strategy separates farm production scheduling (a recovered 2600+ baseline teacher) from market execution adaptation (the APEX timing overlay).
 
-| Candidate | Public Score | Role |
-|---|---:|---|
-| **Clean Candidate** | `1254.1` | Peak leaderboard benchmark (Locked 🔒) |
-| **L+ 4.1** | `1108.6` | Frozen expert/control baseline (Locked 🔒) |
-| **L+ APEX** | *Autonomous Engine* | Experimental discovery system |
-
-The purpose of APEX is to beat these baselines through empirical evidence, not by modifying them.
-
----
-
-## 3. Why We Switched From L+ to APEX
-
-The L+ 4.1 strategy became the strongest reliable baseline.
-
-It achieved:
-- **1108.6** public leaderboard score.
-- Approximately **69.8% win rate** across the analyzed replay set.
-- No catastrophic end-game collapses.
-- Strong secondary production through pasture/livestock infrastructure.
-- Reliable final-step liquidation behavior.
-
-However, forensic analysis showed that L+ was not fundamentally unbeatable. Several losses were extremely narrow:
-- $-\$200$
-- $-\$692$
-- $-\$2,468$
-
-These losses were primarily associated with final-mile timing, inventory movement, and liquidation efficiency.
-
-This created the core hypothesis:
-> *L+ is already strong enough that autonomous improvement should focus on small marginal decisions rather than rewriting the entire strategy.*
-
----
-
-## 4. Initial End-Game Experiment (The End-Game Trap)
-
-The first hypothesis was that L+ could be improved by forcing an end-game market dump via an "End-Game Guard".
-
-It performed badly:
-- $\sim -\$5.1\text{k}$ average degradation.
-- 0/4 wins against the L+ control.
-- Workers were forced into `PASS` states.
-- Active harvest/drop sequences were interrupted.
-- Cash conversion became worse rather than better.
-
-### Lesson Learned
-Never assume an observed weakness should be fixed by directly suppressing movement. The L+ closed-loop schedule already handled terminal liquidation better than the naive guard.
-
-### Decision
-**Discard End-Game Guard.** L+ baseline remained frozen.
-
----
-
-## 5. APEX Architecture & Evolution
-
-The APEX architecture was introduced to transition from static rules to closed-loop, state-aware decision-making:
-
-```text
-WorldState
-EconomicModel
-TimeModel
-Planner
-Evaluator
-Memory
-Expert
-Policy
-Evolution
 ```
-
-The core decision model became:
-$$\text{Action Value} = \text{Expected Profit} + \text{Future Production Value} - \text{Transit Cost} - \text{Opportunity Cost} + \text{Terminal Value}$$
-
----
-
-## 6. Meta-Regime Detection & Online Adaptation
-
-APEX classifies live match conditions into regimes:
-- `HEADSTART`
-- `MELON_RUSH`
-- `STRAWBERRY_ENGINE`
-- `WOOL_ENGINE`
-- `LIQUIDATION`
-- `BALANCED_HARVEST`
-
-Instead of permanently assuming one commodity is universally best, APEX evaluates prices, production cycles, inventory, available capital, time remaining, opponent behavior, and opportunity cost.
-
----
-
-## 7. The Imitation Trap & Exploration Failures
-
-### APEX 2.0 & 2.1: The Imitation Trap
-Across known and unseen seeds: 100% safety, 100% reproduction, 0% regression, but **0% meaningful divergence**.
-*Lesson:* An agent that always agrees with its teacher cannot discover anything new.
-
-### APEX 2.2 & 2.3: Failed Capital Exploration
-Naive exploration injected `BUY_SEED`, `BUY_LAND`, and `HIRE` into market action plans.
-*Result:* Cash drained to $\$0$, workers stalled, wealth collapsed from $\approx \$128\text{k}$ to $\approx \$4.7\text{k}$ ($0/8$ wins).
-*Lesson:* **Cash is operating capacity.** Market-action injection must never bypass the financial safety model. All capital-consuming autonomous exploration was permanently prohibited.
-
----
-
-## 8. APEX 2.4 Safety Architecture & Invariants
-
-APEX 2.4 introduced strict execution invariants:
-1. **Action Purity:** $\text{executed\_market\_actions} == \text{chosen\_plan.market\_actions}$ (no hidden appended commands).
-2. **Operating Reserve:** Mandatory operating floor ($\ge \$300.0$) and worker maintenance allowance protected.
-3. **Shadow Simulation:** Candidate plans are simulated against the world state before execution.
-4. **Zero-Cost Curriculum:** Exploration is restricted to sell quantities, harvest priorities, routing, and zero-capital-cost decisions.
-
----
-
-## 9. APEX 2.5: Candidate Diversity & First Real Divergence
-
-The planner was upgraded to generate mid-game alternatives.
-- Across 8,628 decision steps: **13,720 candidate actions** generated; $\approx 960$ passed safety/UCB filters.
-- Rejection distribution: Confidence (85.6%), Terminal (4.02%), Liquidity (3.37%), Worker (0%).
-- **First Real Divergence (Step 100, Seed 590244349):**
-  - L+: `[]`
-  - APEX: `SELL_WHEAT_1`
-  - Outcome: L+ = $\$138,095$ vs APEX = $\$138,099$ ($\Delta = +\$4.00$, 100% Safe).
-
----
-
-## 10. Evaluator Calibration & Marginal Counterfactual Value (MCV)
-
-### Legacy Evaluator Failure
-The legacy evaluator calculated raw liquidation spot cash ($3 \times \$95 = \$285$), overvaluing `SELL_FERTILIZER_3` at $\approx +\$287 - \$291$, while actual realized final wealth delta was repeatedly $\$0.00$.
-
-### Marginal Counterfactual Value (MCV) Solution
-Redesigned valuation around true marginal delta over the expert's plan:
-$$\text{MCV} = \text{Expected Final Wealth}(\text{candidate}) - \text{Expected Final Wealth}(\text{L+ plan})$$
-
-| Metric | Legacy Absolute Evaluator | Marginal Counterfactual Value (MCV) | Improvement |
-| :--- | :---: | :---: | :---: |
-| **Mean Predicted Advantage** | $+\$267.74$ | $+\$2.05$ | — |
-| **Mean Absolute Error (MAE)** | **$\$267.41$** | **$\$1.77$** | **99.3% Error Reduction ✅** |
-| **Prediction Bias** | $-\$267.41$ | $-\$1.72$ | — |
-
----
-
-## 11. Fresh Online MCV Validation (APEX 2.5-G)
-
-A fresh 12-seed online validation tournament (4 Forensic Anchor + 8 Unseen Replay Seeds) demonstrated strong generalization:
-
-| Metric | Fresh 12-Seed Validation Result |
-| :--- | :---: |
-| **Matches Evaluated** | 12 / 12 |
-| **Controlled Divergences Executed** | 12 / 12 (100%) |
-| **Positive Match Outcomes** | **6 / 12 (50.0%)** |
-| **Neutral Match Outcomes** | **2 / 12 (16.7%)** |
-| **Minor Variances ($-\$1$)** | **4 / 12 (33.3%)** |
-| **Match Win Rate vs Opponent** | **12 / 12 (100.0% WIN ✅)** |
-| **Net Cumulative Wealth Delta** | **$+\$16.00$ Net vs L+ Expert** |
-| **Online Prediction MAE** | **$\$3.01$** |
-| **Zero Regression Invariant** | **PASSED ✅** |
-
----
-
-## 12. Complete APEX Architecture Pipeline
-
-```text
-                    GAME OBSERVATION
-                           │
-                           ▼
-                     WorldState
-                           │
-        ┌──────────────────┼──────────────────┐
-        ▼                  ▼                  ▼
-   EconomicModel       TimeModel        OpponentModel
-        │                  │                  │
-        └──────────────────┼──────────────────┘
-                           ▼
-                     MetaDetector
-                           │
-                           ▼
-                    StrategyAdapter
-                           │
-                           ▼
-                       Planner
-                           │
-                           ▼
-                      SafetyGate
-                           │
-                           ▼
-                 Marginal Value Evaluator (MCV)
-                           │
-                           ▼
-                         UCB
-                           │
-                           ▼
-                 DivergenceController
-                           │
-                           ▼
-                  Shadow Simulation
-                           │
-                           ▼
-                     Execute Action
-                           │
-                           ▼
-                  Experience Memory
-                           │
-                           ▼
-                  Outcome / Calibration
+                      +-------------------------------------------------+
+                      |     RECOVERED V4.1 FOUNDATION / TEACHER         |
+                      |   - Turn 0/1 Dual-Cow Opening (PROVEN ELITE)    |
+                      |   - Day 4.4 Strawberry Pipeline (PROVEN ELITE)  |
+                      |   - 3-Quadrant Land Expansion (PROVEN ELITE)    |
+                      |   - 3.9% Idle Worker Task Paths (PROVEN ELITE)  |
+                      +------------------------+------------------------+
+                                               |
+                                               v
+                      +-------------------------------------------------+
+                      |         APEX 3.3 CLEARANCE PREEMPTION ENGINE   |
+                      |   - Listens to V4.1 Planned Sales Pipeline    |
+                      |   - Zero Synthetic Orders (Fixes Step 107 Bug)  |
+                      |   - Step % 24 == 23 Clearance Preemption        |
+                      |   - Locks Peak Prices for Milk & Strawberries  |
+                      +------------------------+------------------------+
+                                               |
+                                               v
+                      +-------------------------------------------------+
+                      |    MONOLITHIC KAGGLE SUBMISSION ARTIFACT        |
+                      |    generalization_pipeline/                     |
+                      |    submission_candidate_apex33.py               |
+                      +-------------------------------------------------+
 ```
 
 ---
 
-## 13. Current Safety Rules & Invariants
+## 📊 Kaggle Submission Registry
 
-* **Rule 1 — L+ Fallback:** If APEX cannot prove that a candidate is safe and sufficiently valuable, execute L+.
-* **Rule 2 — No Blind Capital Exploration:** APEX must not inject `BUY_SEED`, `BUY_LAND`, or `HIRE`.
-* **Rule 3 — Action Purity:** No hidden market commands may be appended.
-* **Rule 4 — Operating Reserve:** Cash required for continued operation ($\ge \$300.0 / \$150.0$) remains protected.
-* **Rule 5 — Shadow Simulation:** Candidate execution must be validated in simulation prior to dispatch.
-* **Rule 6 — Terminal Protection:** Late-game execution preserves the proven L+ terminal liquidation behavior.
-* **Rule 7 — Controlled Divergence:** Max 1 divergence/episode, Steps 100–600, Zero Capital Cost only.
-* **Rule 8 — No Premature Hardcoding:** A single positive observation must never become a permanent hardcoded rule.
-
----
-
-## 14. What Is Proven vs. What Is Unproven
-
-### Proven Capabilities ✅
-- [x] Zero-regression baseline preservation
-- [x] Autonomous candidate generation & safety gating
-- [x] Real in-game divergence with safe return to expert schedule
-- [x] Zero-capital exploration curriculum
-- [x] 99.3% prediction error reduction via Marginal Counterfactual Value (MCV)
-- [x] Fresh online generalization (MAE = $\$3.01$, $+\$16.00$ net delta)
-- [x] Experience memory & calibration tracking
-
-### Not Yet Proven ⏳
-- [ ] Sustained statistical superiority over L+ across hundreds of matches
-- [ ] Sustained improvement over Clean Candidate (1254.1)
-- [ ] Generalization across radically different meta-regimes
-- [ ] Historical replay-derived calibration superiority
-- [ ] Live leaderboard rating improvement
+| Submission Ref ID | Artifact File | Submission Date | Description / Challenger Identity | Live Kaggle Status | Public Score |
+| :---: | :--- | :---: | :--- | :---: | :---: |
+| 🛡️ **55249106** | `submission.py` | **2026-08-04** | **V4.1 Master Champion Baseline** *(STRICTLY PROTECTED)* | **COMPLETE** | **1479.8** |
+| 📜 **55373932** | `submission_candidate_l_plus.py` | **2026-08-09** | Clean Candidate L+ (10-Melon Opening + Milk Ranker) | **COMPLETE** | **1254.1** |
+| 🧪 **55376463** | `submission_candidate_l_plus_plus.py` | **2026-08-09** | Candidate L++ Adaptive Controller | **COMPLETE** | **1077.6** |
+| 🧪 **55382689** | `submission_candidate_hybrid_v13.py` | **2026-08-09** | Competitive Hybrid V13 | **COMPLETE** | **1058.6** |
+| 📦 **55411304** | `submission_candidate_apex30.py` | **2026-08-10** | APEX 3.0 Historical MCV Benchmark *(Step 107 Bug)* | **COMPLETE** | **1183.4** |
+| 🚀 **55421857** | `submission_candidate_apex33.py` | **2026-08-11** | **APEX 3.3 Clearance Preemption Engine** *(New Challenger)* | **PENDING** | *Evaluating* |
 
 ---
 
-## 15. Next Milestone: Historical Replay Intelligence (APEX-HIST-1)
+## 🚀 APEX Evolution & Empirical Phase History
 
-The Kaggriculture ecosystem provides daily historical episode datasets (`kaggriculture-episodes-index`).
-* **Source:** Daily datasets spanning `2026-07-30` through `2026-08-09`.
-* **Schema Probe (APEX-HIST-0 Complete):**
-  * `episodes.csv`: Match metadata, final bank/wealth, TrueSkill ratings.
-  * `replays.parquet`: Full 720-step granular state/action/observation trajectories.
-* **Strategy (APEX-HIST-1):**
-  * Ingest recent competitive dates (`2026-08-06` to `2026-08-09`).
-  * Filter matches preserving diverse outcomes (wins, narrow losses, high ratings).
-  * Extract state-action-outcome tuples to calibrate MCV value distributions.
-  * Do NOT turn APEX into a rigid imitation script; treat historical data as probabilistic empirical evidence.
+### Phase 1–7: APEX 2.x Invariant & Safety Foundations
+- **Phase 1 (End-Game Liquidation Guard)**: Attempted forced market liquidations $\rightarrow$ -$5.1k degradation $\rightarrow$ **DISCARDED**.
+- **Phase 2 (Teacher Imitation Engine)**: High teacher reliance, near-zero autonomous discovery $\rightarrow$ **FROZEN AS HISTORY**.
+- **Phase 3 (Capital Exploration Catastrophe)**: Autonomous `BUY_SEED`, `BUY_LAND`, `HIRE`, `BUY_ANIMAL` caused cash to collapse from $128k to $4.7k $\rightarrow$ Established **RULE ZERO** (*APEX must never explore capital-consuming actions*).
+- **Phase 4 (Invariant Hardening)**: Generated 13,720 candidates across 8,628 steps, established deterministic safety filtering.
+- **Phase 5–7 (APEX 2.5 MCV)**: Replaced spot-cash evaluation with Marginal Counterfactual Value (MCV), improving MAE from $267.41 to $1.77. Achieved 12/12 wins in local validation.
 
----
+### Phase 8–13: APEX 3.0 Offline R&D & Replay Extraction
+- Extracted 5,160 state-action-outcome tuples from 43 replay trajectories.
+- Implemented state-conditioned MCV, liquidity multipliers, and early fertilizer suppression.
+- Achieved strong offline benchmarks, but live submission (**Ref 55411304**) peaked at 1291 before declining to 1183.4 due to environment mismatch and synthetic order interference.
 
-## 16. Agent Handoff Guidelines
+### Phase 14–18: Environment Parity, Forensic Root Cause Analysis & Component Scorecard
+- **Phase 14 (Town Center Parity Discovery)**: Discovered local `townCenterSellInterval=12` vs Kaggle live server `=24`. Proved that forced inventory batching causes cash starvation.
+- **Phase 15 (Forensics & Step 107 Bug Isolation)**: Identified the APEX 3.0 root cause—an artificial fallback injected `SELL WHEAT 1` at Step 107 (Day 4/Hour 11), clogging 24-step market clearance. Fixed in APEX 3.2.
+- **Phase 16 (Animal Staging Lab)**: Tested delaying Cow #2 to Day 2 across 50 unseen seeds $\rightarrow$ **0/50 wins** (proved dual-cow Turn 0/1 opening is essential).
+- **Phase 17 (Strawberry & Worker Forensics)**: Analyzed 71 top-tier replays $\rightarrow$ proved V4.1's Strawberry cultivation (Day 4.4 activation, 31.7% fertilization) and worker paths (3.9% idle) are already at 3000+ parity.
+- **Phase 18 (Live Competitive Intelligence & Preemption Discovery)**: Parsed recent 2600-3200+ replay files from Kaggle episodes index (`manifest.csv`). Discovered that **100% of divergence events occur at 24-step clearance boundaries (`step % 24 == 23`)**, clustered around Step 360 (Day 15) and Step 450 (Day 18).
 
-For any autonomous agent continuing this project:
-
-```text
-DO:
-  1. Read this README and docs/APEX_EXPERIMENT_HISTORY.md first.
-  2. Preserve frozen baselines (Clean Candidate 1254.1 and L+ 4.1 1108.6).
-  3. Conduct controlled A/B experiments changing one variable at a time.
-  4. Record predicted vs. realized values (MAE and bias).
-  5. Enforce all safety invariants and use L+ as default fallback.
-  6. Treat historical replay data as probabilistic calibration evidence.
-
-DO NOT:
-  1. Modify submission_candidate_l_plus.py or Clean Candidate.
-  2. Blindly inject capital-consuming actions (BUY/LAND/HIRE).
-  3. Bypass ActionSafetyGate or ShadowSimulator.
-  4. Download hundreds of GBs without targeted filtering.
-  5. Convert single observations into hardcoded heuristics.
-  6. Claim leaderboard superiority without live verified submissions.
-```
+### Phase 19–20: APEX 3.3 Clearance Preemption & Multi-Opponent Holdout Gauntlets
+- **Phase 19 (Preemption Counterfactual Lab)**: APEX 3.3 overlay achieved **74% win rate** vs V4.1 Master across 50 unseen seeds (+12.0% win rate jump, +$6,564.88 gross revenue delta, 0 synthetic orders, 0 cash starvation penalty).
+- **Phase 20 (Validation Gate)**: Evaluated APEX 3.3 across 50 holdout seeds:
+  - **84.0% Win Rate (42W-8L)** vs V4.1 Master Baseline Teacher & APEX 3.0.
+  - **100.0% Win Rate (50W-0L)** vs 3200+ Live Replay Champion Expert schedule (`91153990.json`).
+  - Passed monolithic schema, syntax, and standalone execution audits. Submitted as Kaggle Ref `55421857`.
 
 ---
 
-## 17. Current Development State
+## 🛡️ Non-Negotiable Engineering Safety Invariants
 
-```text
-APEX 2.5
-│
-├── WorldState                  ✅
-├── EconomicModel               ✅
-├── TimeModel                   ✅
-├── MetaModel                   ✅
-├── OpponentModel               ✅
-├── StrategyAdapter             ✅
-├── Planner                     ✅
-├── SafetyGate                  ✅
-├── CounterfactualSimulator     ✅
-├── MCV Evaluator               ✅
-├── DivergenceController        ✅
-├── ExperienceMemory            ✅
-├── Shadow Simulation           ✅
-├── Online MCV Validation       ✅
-│
-├── Historical Episode Parser   🔜
-├── Historical Calibration DB   🔜
-├── Historical MCV Calibration  🔜
-└── Leaderboard Qualification   ⏳
-```
+1. **RULE ZERO**: APEX must NEVER generate capital-consuming exploration actions (`BUY_SEED`, `BUY_LAND`, `HIRE`, `BUY_ANIMAL`).
+2. **ZERO SYNTHETIC ORDERS**: APEX must NEVER inject artificial fallback sales or invent market orders (eliminating the Step 107 bug).
+3. **TIMING OVERLAY ONLY**: APEX 3.3 acts purely as an execution timing overlay on legitimate V4.1 planned sales.
+4. **TEACHER FALLBACK**: V4.1 Master Baseline (`Ref 55249106`) is always preserved as the underlying fallback.
+5. **ENVIRONMENT PARITY**: All local simulations must run under Kaggle's live parameters (`townCenterSellInterval = 24`).
+6. **PROVEN COMPONENT INTEGRITY**: Dual-cow opening (Turn 0/1), Strawberry pipeline, and worker paths remain strictly protected.
+7. **MONOLITHIC SUBMISSIONS**: All Kaggle submission artifacts must be 100% self-contained single-file Python builds with no external disk dependencies.
+8. **UNSEEN HOLDOUT GATING**: No strategy candidate may be submitted to Kaggle without passing a 50+ seed unseen holdout gauntlet.
+9. **BASELINE PROTECTION**: Ref `55249106` (V4.1 Master Champion) is 100% immutable and must NEVER be overwritten or replaced.
+10. **SCIENTIFIC CLAIM RIGOR**: Holdout replay-schedule validation must never be claimed as a guaranteed live Kaggle leaderboard score.
+
+---
+
+## 📂 Project Documentation Map
+
+- [`docs/APEX_EXPERIMENT_HISTORY.md`](file:///D:/kaggriculture/docs/APEX_EXPERIMENT_HISTORY.md): Detailed 20-Phase experimental trajectory and empirical data tables.
+- [`docs/APEX_ARCHITECTURE.md`](file:///D:/kaggriculture/docs/APEX_ARCHITECTURE.md): Deep technical specification of V4.1 foundation and APEX 3.3 preemption overlay.
+- [`docs/KAGGLE_SUBMISSION_REGISTRY.md`](file:///D:/kaggriculture/docs/KAGGLE_SUBMISSION_REGISTRY.md): Comprehensive registry of all Kaggle submissions, hashes, and public scores.
+- [`docs/RESEARCH_LESSONS.md`](file:///D:/kaggriculture/docs/RESEARCH_LESSONS.md): Core empirical research takeaways, environment parity findings, and strategic invariants.

@@ -6,3 +6,11 @@ __pycache__/
 *.log
 .system_generated/
 scratch/test_sandbox/
+
+# Datasets and replay archives
+competitive_intelligence/
+manifest.csv
+mcv_replay_dataset.json
+l+reviews/
+l++reviews/
+reviews/

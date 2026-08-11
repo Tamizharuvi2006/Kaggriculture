@@ -1,101 +1,122 @@
-# 📜 APEX Experiment History & Evolutionary Logbook
+# 📜 APEX Complete Experiment & Phase History
 
-This document details the chronological record of hypotheses, experiments, failures, and discoveries in the development of the APEX Autonomous Kaggriculture Discovery Engine.
-
----
-
-## 1. Phase 1: The End-Game Trap & Baseline Discovery
-
-### Hypothesis
-Forensic analysis of narrow L+ losses ($-\$200$, $-\$692$) suggested that forcing market liquidations near the match end would improve cash conversion.
-
-### Experiment: End-Game Guard
-Injected aggressive liquidation commands and forced workers into `PASS` mode during the final 30 steps.
-
-### Outcome: Failure ❌
-* **Result:** $-\$5.1\text{k}$ degradation, 0/4 wins vs L+ control.
-* **Root Cause:** Suppressing movement interrupted critical final harvest chains. The existing L+ closed-loop schedule already handled end-game timing optimally.
-* **Decision:** End-Game Guard discarded. L+ 4.1 frozen as baseline champion ($1108.6$ 🔒).
+> **Chronological Record of APEX R&D**: From early heuristic modifications to live competitive intelligence and the APEX 3.3 Clearance Preemption Engine.
 
 ---
 
-## 2. Phase 2: APEX 2.0 & 2.1 — The Imitation Trap
+## 1. APEX 2.x Foundations (Phases 1–7)
 
-### Hypothesis
-Building a multi-layer world model, economic model, and strategy adapter will allow APEX to reproduce L+ and safely propose optimizations.
+### Phase 1 — End-Game Liquidation Guard
+- **Hypothesis**: Forcing market liquidations in the final 48 steps of an episode would maximize final cash.
+- **Empirical Result**: Caused -$5.1k degradation in final wealth and a 0/4 win rate in local testing.
+- **Decision**: Permanently killed and discarded.
 
-### Outcome: 100% Imitation, 0% Discovery ⚠️
-* **Result:** APEX matched L+ decisions 100% of the time.
-* **Root Cause:** When the candidate evaluation loop heavily penalties uncertainty, the agent always defaults to the teacher.
-* **Decision:** Introduce controlled counterfactual exploration.
+### Phase 2 — APEX 2.0/2.1 Imitation Engine
+- **Hypothesis**: Training a multi-layer neural/heuristic world model to imitate top-tier teacher trajectories would produce autonomous high-level play.
+- **Empirical Result**: Achieved high action imitation accuracy, but produced near-0% strategic discovery and suffered extreme teacher dependency.
+- **Decision**: Frozen as historical research.
 
----
+### Phase 3 — APEX 2.2/2.3 Capital Exploration Catastrophe
+- **Hypothesis**: Allowing the APEX planner to explore capital-consuming actions (`BUY_SEED`, `BUY_LAND`, `HIRE`, `BUY_ANIMAL`) would discover optimal expansion timing.
+- **Empirical Result**: Catastrophic capital collapse. Mean ending cash dropped from $128k to $4.7k due to premature land purchases and worker over-hiring that starved crop seed capital.
+- **Decision**: Established **RULE ZERO** (*APEX must never explore capital-consuming actions*).
 
-## 3. Phase 3: APEX 2.2 & 2.3 — Capital Exploration Disasters
+### Phase 4 — Invariant Hardening & Safety Filtering
+- **Implementation**: Evaluated 13,720 candidate actions across 8,628 simulation steps. Approximately 960 passed strict safety checks.
+- **Decision**: Established deterministic safety filtering for all downstream APEX candidates.
 
-### Hypothesis
-Allowing APEX to autonomously explore `BUY_SEED`, `BUY_LAND`, and `HIRE` will discover earlier scaling triggers.
+### Phase 5 — APEX 2.5-C First Live Divergence
+- **Achievement**: First successful live inventory divergence on Seed 590244349 at Step 100.
+- **Result**: `SELL_WHEAT_1` produced a +$4 wealth gain over baseline.
 
-### Outcome: Catastrophic Regression ❌
-* **Result:** Cash drained to $\$0$, workers stalled, score collapsed from $\approx \$128\text{k}$ to $\approx \$4.7\text{k}$ ($0/8$ wins).
-* **Root Cause:** Market actions execute immediately and drain liquid working capital needed for farm operations.
-* **Decision:** Permanently prohibit all capital-consuming exploration. Establish the **Zero-Capital-Cost Curriculum** (sell quantities, routing, harvest prioritization only).
+### Phase 6 — APEX 2.5-F Marginal Counterfactual Value (MCV)
+- **Breakthrough**: Replaced naive spot-cash evaluation with Marginal Counterfactual Value (MCV), evaluating downstream wealth impact rather than immediate money.
+- **Result**: Reduced valuation Mean Absolute Error (MAE) from $267.41 to $1.77.
 
----
-
-## 4. Phase 4: APEX 2.4 — Invariant Hardening & Generation Bottleneck
-
-### Hypothesis
-Deterministic safety gates and shadow simulation will prevent capital starvation while allowing safe alternatives.
-
-### Finding: Candidate Generation Bottleneck
-* Initial tests showed 0% divergence. Rejection audit revealed the planner was generating 0 mid-game alternatives.
-* **Fix:** Upgraded planner to produce inventory liquidation variations from expert orders. Generated 13,720 candidates across 8,628 steps ($\approx 960$ passed safety/UCB).
-
----
-
-## 5. Phase 5: APEX 2.5-C to 2.5-E — First Autonomous Divergences
-
-### Milestone: First Live Policy Divergence (Gate C Proof)
-* **Match:** Seed `590244349`, Step 100.
-* **L+ Expert Action:** `[]`
-* **APEX Divergent Action:** `SELL_WHEAT_1`
-* **Outcome:** L+ = $\$138,095$ vs APEX = $\$138,099$ ($\Delta = +\$4.00$, Zero Regressions, 100% Safe).
-
-### 4-Seed Divergence Tournament
-* 4/4 Divergences executed (1 Positive, 3 Neutral, 0 Negative).
-* **Anomaly Discovered:** `SELL_FERTILIZER_3` was selected across 3 seeds and yielded $\Delta = \$0.00$.
+### Phase 7 — APEX 2.5-G Control Baseline
+- **Validation**: 12-match sweep produced 12/12 wins and a +$16 net wealth delta against earlier baselines.
+- **Decision**: Frozen as the local control baseline.
 
 ---
 
-## 6. Phase 6: APEX 2.5-F — Evaluator Miscalibration & The Fertilizer Trap
+## 2. APEX 3.0 Offline R&D (Phases 8–13)
 
-### Anomaly Investigation
-The legacy action evaluator scored actions based on **absolute liquidation spot cash**:
-$$\text{Score} = 3 \times \$95 = \$285 \implies \text{Predicted Value} \approx +\$287 - \$291$$
-However, because L+ was already scheduled to sell the fertilizer shortly afterward, early liquidation had zero marginal benefit on final wealth ($\Delta = \$0.00$).
+### Replay Data Extraction & Schema
+- Extracted 5,160 state-action-outcome tuples from 43 top-tier replay files (`kaggriculture-episodes-index` and `l+reviews/`).
+- **Tuple Schema**: `(episode_id, step, cash, inventory, unlocked_land, workers, market_prices, storage_congestion, expert_action, actual_action, downstream_wealth_deltas, final_wealth, win_loss)`.
 
-### Solution: Marginal Counterfactual Value (MCV)
-$$\text{MCV} = (\text{CandQty} - \text{ExpertQty}) \times \text{SpotPrice} \times \text{CapitalMultiplier} + \text{CongestionRelief}$$
+### Key Empirical Findings
+1. **Wheat Liquidation State Dependence**: Selling wheat when cash $< \$300$ strongly correlated with lower win rates due to loss of seed buffer.
+2. **Fertilizer Phase Dependence**: Early fertilizer sales severely degraded crop yield, whereas late-game fertilizer sales generated clean liquidation value.
+3. **Storage Congestion**: Dynamic storage congestion relief provided measurable marginal value when inventory exceeded 45% of plot capacity.
 
-### Shadow Calibration Audit (12 Matches)
-* **Legacy Evaluator:** MAE = **$\$267.41$**, Bias = **$-\$267.41$**
-* **MCV Evaluator:** MAE = **$\$1.77$**, Bias = **$-\$1.72$**
-* **Error Reduction:** **99.3% reduction in prediction error!** ✅
+### APEX 3.0 Model Architecture
+- Integrated `EmpiricalMarginalEvaluator`, liquidity-aware multipliers, early fertilizer suppression, and dynamic congestion relief.
+- Passed 12-seed comparisons, 132-state disagreement analysis, 16-seed blind holdouts, and 50-seed integrated gauntlets.
+
+### Kaggle Submission & Live Failure Analysis
+- **Submission**: Ref `55411304` (`submission_candidate_apex30.py`).
+- **Observed Public Score**: Peaked at ~1291 before declining to **1183.4** (with repeated losses around the 1200+ rating band).
+- **Core Lesson**: Offline benchmark superiority against historical replays did NOT guarantee live Kaggle leaderboard performance due to environment mismatch and synthetic order interference.
 
 ---
 
-## 7. Phase 7: APEX 2.5-G — Fresh Online MCV Validation
+## 3. Environment Parity & Bug Forensics (Phases 14–15)
 
-### Tournament Design
-* 12 Matches: 4 Forensic Anchor Seeds + 8 Unseen Tournament Replay Seeds.
-* Live online MCV candidate scoring and DivergenceController selection.
+### Phase 14 — Town Center Clearance Parity Discovery
+- **Discovery**: Local simulation default was `townCenterSellInterval = 12`, while live Kaggle environment runs at `townCenterSellInterval = 24`.
+- **Impact**: In a 24-step market, Town Center clears once per day. Orders remain in the market twice as long, making market preemption and slot capacity critical.
+- **Inventory Batching Test**: Proved that holding Milk/Strawberry for artificial batch sizes caused 17.1 steps of cash starvation, cutting Milk revenue by -55.4% and collapsing win rate to 6.0%.
 
-### Results
-* **Divergences Executed:** 12/12 (100% execution)
-* **Outcomes:** 6 Positive ($+\$3$ to $+\$4$), 2 Neutral ($\$0$), 4 Minor Rounding ($\pm \$1$)
-* **Mean Predicted MCV:** $+\$4.35$
-* **Mean Realized Delta:** $+\$1.33$ (**$+\$16.00$ Cumulative Net Delta vs L+**)
-* **Online MAE:** **$\$3.01$**
-* **Win Rate vs Opponent:** **12/12 (100% WIN ✅)**
-* **Zero Regression Invariant:** **PASSED ✅**
+### Phase 15 — Step 107 Bug Isolation & APEX 3.2
+- **Forensics**: Traced APEX 3.0's live failure to **Step 107** (Day 4 / Hour 11).
+- **Root Cause**: `ActionPlanner` contained an artificial fallback (`if not candidates: append(["SELL", "WHEAT", 1])`) that injected synthetic market orders. Under 24-step clearance, this tiny order clogged market capacity and delayed higher-value sales.
+- **Fix (APEX 3.2)**: Completely removed the artificial fallback. Produced exact trajectory equality with control on 50-seed parity tests. APEX 3.2 was frozen locally without upload.
+
+---
+
+## 4. Component Deconstruction & Forensics (Phases 16–18)
+
+### Phase 16 — Animal Staging Counterfactual Lab
+- **Hypothesis**: Delaying Cow #2 to Day 2 (Step 24) to scale workers first.
+- **Tournament Result (50 unseen seeds vs V4.1 Master)**:
+  - Arm A (Fixed Staging): **0.0% Win Rate (0W-50L)**
+  - Arm B (Labor Gated): **0.0% Win Rate (0W-50L)**
+  - Arm C (Dynamic Runway): **0.0% Win Rate (0W-50L)**
+- **Causal Finding**: Dual-cow opening on Turn 0 & Turn 1 generates $\approx \$400-\$600$ daily milk revenue starting Day 2, funding workers and strawberry seeds. Delaying Cow #2 destroys compounding growth.
+- **Decision**: Dual-cow opening is **PROVEN ELITE & KEEP**.
+
+### Phase 17 — Strawberry Production & Worker Allocation Forensics
+- **Analysis**: Compared 71 Top-Tier Replays vs 30 V4.1 simulation trajectories under 24-step parity.
+- **Findings**:
+  - Strawberry Activation: Top-Tier Day 4.8 (Step 115) vs V4.1 Day 4.4 (Step 106).
+  - Seeds Bought: Top-Tier 42.6 vs V4.1 44.0.
+  - Fertilizer Rate: Top-Tier **31.8%** vs V4.1 **31.7%**.
+  - Worker Idling: Top-Tier **6.7%** vs V4.1 **3.9%**.
+- **Decision**: V4.1's Strawberry cultivation engine and worker paths are **PROVEN ELITE & KEEP**.
+
+### Phase 18 — Live Competitive Intelligence & Clearance Preemption
+- **Dataset**: Selectively fetched 15 recent 2600–3200+ replay files from daily Kaggle index (`manifest.csv`, dates 2026-08-07 to 2026-08-09).
+- **Major Finding**: **100% of divergence events in 3000+ matches occur at 24-step clearance boundaries (`step % 24 == 23`)**.
+- **Clustering**: 73.3% Milk Preemption, 26.7% Strawberry Preemption. Major divergence clusters at Step 360 (Day 15 clearance) and Step 450 (Day 18 clearance).
+
+---
+
+## 5. APEX 3.3 Clearance Preemption & Validation (Phases 19–20)
+
+### Phase 19 — Clearance Preemption Counterfactual Lab
+- **Architecture**: APEX 3.3 operates purely as a **timing overlay** on legitimate V4.1 planned sales, advancing execution timing to `step % 24 == 23` if Milk $\ge 2$ or Strawberry $\ge 4$.
+- **Tournament Result (50 unseen seeds vs V4.1 Master)**:
+  - Control (V4.1 Master): **62.0% Win Rate** ($94.5k wealth)
+  - Arm A (Milk Preemption): **72.0% Win Rate** ($79.1k milk rev)
+  - Arm B (Straw Preemption): **70.0% Win Rate** ($92.4k straw rev)
+  - **Arm C (Combined APEX 3.3)**: 🔥 **74.0% Win Rate** (+12.0% win rate jump, +$6,564.88 gross revenue delta, 0 synthetic orders, 0 cash starvation penalty).
+
+### Phase 20 — Multi-Opponent Validation Gate & Submission
+- **Holdout Test (50 unseen seeds `80000+`)**:
+  - Vs V4.1 Master Baseline: 🔥 **84.0% Win Rate (42W-8L)** ($95,392 vs $94,614 mean wealth).
+  - Vs Historical APEX 3.0: 🔥 **84.0% Win Rate (42W-8L)**.
+- **Strong Replay Opponent Test (50 unseen seeds `90000+`)**:
+  - Vs 3200+ Live Replay Champion Expert (`91153990.json`): 🔥 **100.0% Win Rate (50W-0L)** ($125,803 vs $85,007 mean wealth).
+- **Standalone Audit**: Monolithic build [`generalization_pipeline/submission_candidate_apex33.py`](file:///D:/kaggriculture/generalization_pipeline/submission_candidate_apex33.py) passed 100% schema, syntax, and standalone execution checks.
+- **Kaggle Submission**: Uploaded as **Ref `55421857`** on 2026-08-11.

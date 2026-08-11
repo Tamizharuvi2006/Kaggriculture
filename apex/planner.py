@@ -61,9 +61,7 @@ class ActionPlanner:
             candidates.append([["SELL", best_item, best_qty]])
 
         # -----------------------------------------------------------------
-        # 4. Family #4: Unconditional Zero-Cost Benchmark Probe
+        # 4. Safe Candidate Return (No Artificial Fallback Candidates)
         # -----------------------------------------------------------------
-        if not candidates and 100 <= state.step <= 600:
-            candidates.append([["SELL", "WHEAT", 1]])
-
         return candidates
+
