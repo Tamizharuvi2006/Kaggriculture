@@ -50,6 +50,168 @@
     - Winners preserve large full-price batch sales (8.4 units/batch @ $141.08/unit vs $125.82/unit for losers).
     - Reinvestment in Cow Feed & Land #2/3 keeps early cash low (-$150 to -$240 vs losers), but triggers a massive inflection at Day 15 (Step 360: +$2,684 lead), compounding into a +$24,233 final wealth margin.
 
+13. **Batch Protection Sensitivity & Overlay Bounds**:
+    - Phase 36 proved that static heuristic batch filtering (holding Strawberry until >= 8 units) provides price defense but can marginally delay capital reinvestment if inventory volume is slow, yielding near-neutral results (54.0% win rate across 50 fresh seeds).
+    - Macro-economic performance remains anchored to production cadence and dual-engine foundation (Strawberry + Milk), with micro-timing overlays operating strictly as bounded variance stabilizers.
+
+14. **The 2-Cow Dual Engine Optimality Invariant**:
+    - Ground-truth telemetry from 43 real competition matches revealed that 72.1% of 3000+ Winners never expand beyond 2 cows.
+    - Phase 37 counterfactual testing across 50 fresh seeds proved that adding Cow #3 (at Day 8, Day 12, or conditionally in Milk regimes) consistently degraded match win rate from 54.0% down to 36.0%–40.0% (-$329 to -$945 wealth delta).
+    - Root cause: A 3rd cow consumes $1,000 capex, 50% more feed, and diverts 2 worker actions per turn away from Strawberry harvesting/fertilizing on the 3-quadrant layout. Maintaining exactly 2 cows is economically optimal.
+
+15. **The Labor Productivity & Idle Turn Deficit Invariant**:
+    - Micro-production forensic dissection of 43 real tournament matches (86 trajectories) in Phase 38 revealed the exact operational source of the +$32.7k Strawberry and +$27.3k Milk revenue advantage:
+    - Real Losers waste **156.4 MORE turns doing NOTHING (`PASS` / idle)** than Real Winners (755.7 vs 599.3 idle turns).
+    - Real Winners redeploy those 156.4 turns into: **+73.6 more crop waterings**, **+43.8 more Strawberry harvests**, **+21.2 more fertilizer applications**, and **+35.7 more cow feed actions**.
+    - This tighter worker duty cycle accelerates crop growth velocity and guarantees cows never miss a milking cycle, driving the entire empirical winning margin without expanding the asset base.
+
+16. **Pipeline Density vs Avoidable Scheduling Latency (The 87.4% Mechanism)**:
+    - Phase 39 taxonomy analysis proved that avoidable idle turns (crops left unharvested/unwatered while workers passed) were 0.0 across both winners and losers.
+    - Instead, **87.4% of the 156.4-turn PASS gap (-136.7 turns) is pure biological waiting time (`WAIT_CROP_GROWTH`)**.
+    - Winners eliminate dead biological wait time through continuous staggered multi-quadrant planting and higher fertilization (+21.2 units), which creates a rolling task stream where workers always have active tasks ready across the farm.
+
+17. **Global Task Concurrency vs Spatial Worker Locality**:
+    - Phase 40 physical grid analysis revealed that globally, ready tasks exist on **98.61% of match turns** for both winners and losers ($K \ge 3$ tasks ready).
+    - The operational difference lies in **spatial worker locality and pathing efficiency**: Winners keep workers tightly co-located with active crop and animal clusters, maintaining a **78.32% active watering stream (vs 71.37% for losers)** and minimizing wasted round-trip transit turns.
+
+18. **Spatial Kinematics & Land #3 Active Utilization**:
+    - Phase 41 kinematics dissection across 43 real tournament matches proved that worker proximity to ready tasks is nearly identical (0.92 vs 0.91 tiles), falsifying the hypothesis of long wandering walks.
+    - Instead, Winners actively service Land #3 / SW (+2.87% residence time, +6.65 cross-quadrant trips), ensuring crops and livestock across all 3 quadrants receive continuous care rather than clustering exclusively in the home quadrant.
+
+19. **Opportunistic PASS-Overriding Limits & Schedule Invariance**:
+    - Phase 42 counterfactual testing across 50 fresh seeds proved that attempting to opportunistically override PASS turns with local adjacent task execution or dynamic SW movements produced exactly 0.0 delta across all arms.
+    - Root cause: Whenever a worker is co-located with a ready task, the underlying schedule is already executing it. PASS turns are genuine biological wait states where no adjacent task exists. True pipeline acceleration requires earlier coordinated planting layouts, not ad-hoc opportunistic wandering.
+
+20. **Crop Architecture Scale & Rolling Harvest Continuity**:
+    - Phase 43 physical grid dissection across 43 real tournament matches revealed that Winners plant their 1st Strawberry in Land #2 / NE **16.96 steps earlier** (Step 183.8 vs 200.8) and maintain **~5 MORE active Strawberry plots simultaneously across Days 10–25** (38.0 vs 33.2 tiles).
+    - This sustained planting density creates a smooth, continuous rolling harvest flow (mean interval **1.92 steps vs 2.45 steps** for losers, StdDev 4.09 vs 5.26), eliminating biological dead gaps and maximizing cumulative Strawberry realization.
+
+21. **Physical Pathing & Replay Schedule Coupling Invariance**:
+    - Phase 44 counterfactual testing across 50 fresh seeds proved that modifying seed acquisition timing (Steps 170, 180, 192) without a synchronized physical worker pathing trajectory produces exactly 0.0 impact on crop planting or final wealth.
+    - Physical planting, watering, and harvesting in closed-loop schedules are strictly coupled to predetermined spatial waypoints.
+    - Therefore, APEX 3.3/3.4 represents the maximal optimization ceiling achievable via execution timing overlays on the fixed schedule baseline.
+
+22. **Hand-Led NE Pioneer Role & Baseline Transition Parity**:
+    - Phase 45 path reconstruction across 43 real tournament matches proved that in 97.7% of matches, Hand 1 (not the Farmer) executes the NE crossing, while the Farmer stays anchored in NW managing livestock.
+    - Crucially, the exact NE entry step (Step 169.0 vs 168.6) and 1st Strawberry plant step (Step 180.6 vs 178.5) are already identical between Winners and Losers.
+    - APEX 3.4's Step 178 NE Strawberry plant perfectly matches the live 3000+ Winner baseline, confirming that early NE activation is already fully optimized in the baseline schedule.
+
+23. **Home NW Quadrant Tile Conversion & Step 216 Divergence**:
+    - Phase 46 fine-grained trajectory tracking across 43 real matches revealed that the +4.8 active plot divergence at Day 15 originates earlier at Step 216 (+2.0 plots) and is driven primarily by **home NW quadrant tile conversion**:
+    - Real Winners convert **13.1 NW tiles to Strawberry vs only 11.0 tiles for Losers (+2.2 extra tiles in NW)**, alongside +1.8 tiles in NE and +1.2 tiles in SW.
+    - Winners aggressively till and convert opening Wheat/Melon slots in the home quadrant into high-margin Strawberry rather than leaving dormant slots or replanting low-value fodder.
+
+24. **Central 4-Tile Cluster Spatial Advantage in NW**:
+    - Phase 47 tile-by-tile forensic mapping across 43 real tournament matches identified the exact 4 tiles driving the conversion lead:
+    - Real Winners prioritize the central cluster: **Tile (1, 4) [+30.2% gap]**, **Tile (2, 1) [+23.3% gap]**, **Tile (2, 2) [+23.3% gap]**, and **Tile (1, 1) [+16.3% gap]**.
+    - Concentrating Strawberry in this compact 4-tile central cluster allows the Farmer to water and harvest all 4 plots in adjacent turns with zero transit fatigue, whereas Losers scatter conversions into distant peripheral tiles (0,0), (1,0), (2,0) which forces wasted walking steps.
+
+25. **Transit Highway & Centroid Servicing Kinematics**:
+    - Phase 48 physical kinematics validation proved that **Tile (1, 4) sits exactly on the NE border crossing (0.0 distance)**, allowing Hand 1 to water and harvest it in-stride during cross-quadrant transit without diversion.
+    - **Tile (2, 2)** acts as the central farm centroid, receiving the highest action density (9.8 actions/match @ 2.78 worker distance), while peripheral tiles (0,0), (1,0), (2,0) sit at 4.0–5.5 worker distance and receive less than half the action yield.
+
+26. **Tile Selection Saturation & Plan Invariance**:
+    - Phase 49 counterfactual testing across 50 fresh seeds proved that modifying tile candidate sorting order (Winner Cluster vs Peripheral Control) produces exactly 0.0 delta on final wealth, actions, and win rate.
+    - Because the baseline strategy targets 44 Strawberry tiles out of 48 available non-pasture slots across the 3 quadrants, the crop plan rapidly saturates the entire farm grid regardless of internal candidate ordering.
+    - True performance differentiation between 3000+ Winners and Losers stems from global farm capital scaling and multi-quadrant unlock velocity, not local tile prioritization.
+
+27. **Micro-Crop Turnaround Parity & Upstream Scale Invariance**:
+    - Phase 50 turnaround forensics across 43 real tournament matches proved that micro-level latencies are virtually identical:
+    - Harvest &rarr; Replant latency is **5.65 vs 6.60 steps (-0.95 steps)**, Plant &rarr; 1st Water latency is **4.49 vs 4.02 steps (+0.47 steps)**, and total growth cycle duration is **168.8 vs 172.2 steps (-3.4 steps)**.
+    - The +3.53 higher completed harvest cycles in Winners is purely a linear consequence of maintaining a larger active tile population (~38 vs ~33 plots), proving that individual crop cycle turnaround is already near theoretical maximum efficiency.
+
+28. **Day 7/8 Reinvestment Deployment & Seed Deficit (T1)**:
+    - Phase 51 temporal opportunity tracing across 43 real tournament matches proved that the primary root cause of the early Strawberry divergence is **Seed Deficit at Step 180–204 (64.3% of matches)**.
+    - At Step 168 (Day 7 close), Winners hold **+$292 higher cash ($1,580 vs $1,288)** and immediately **deploy $1,297 into Land #2 unlock + seed inventory (dropping cash to $283)**, whereas Losers deploy only $760 and hoard $528 unspent cash.
+    - As a result, Losers run out of seeds, leaving ~14 unlocked plots sitting empty and lagging behind by -3.4 active Strawberry plots by Step 240.
+
+29. **Window 168–240 Planting Execution Gap (+4.1 Successful Plants)**:
+    - Phase 52 turn-by-turn opportunity classification proved that Winners execute **15.7 Strawberry plant actions vs 11.6 for Losers (+4.1 plants)** during Steps 168–240.
+    - All Strawberry seeds planted in Window 168–240 were pre-acquired in initial bulk allocation before Day 7 (0 seeds bought during W168–240).
+    - Winners sustain a lower seed stockout rate (206.5 vs 215.2 turns) and convert initial inventory into 16.2 active growing plots by Day 10, establishing the irreversible production compounding engine.
+
+30. **Worker Allocation & Servicing Duty Cycle Invariant**:
+    - Phase 53 spatial worker forensics proved that dual-quadrant residence ratios are virtually identical between Winners and Losers (8.3 vs 8.7 turns).
+    - The critical operational gap is **Hand 1 servicing duty cycle**: Winners execute **+3.0 more watering actions (9.4 vs 6.3) and +0.9 more cow feeding actions (4.2 vs 3.3)** while suffering **43% fewer PASS turns (1.7 vs 3.0)** during planting opportunities.
+    - This continuous maintenance ensures that core cashflows from Milk and initial crops are realized without delay, funding smooth land expansion and continuous replanting.
+
+31. **Hand-1 PASS-Water Micro-Scheduling Invariance**:
+    - Phase 54 micro-transition reconstruction proved that the Hand-1 PASS difference during Window 168–240 is only **2.7 turns across 72 steps (7.0 vs 9.7 turns)** with identical short streak lengths (1.56 vs 1.95 steps).
+    - The PASS turns occur while waiting for daily crop watering resets (crops already watered today), not scheduler execution errors.
+    - This micro-PASS gap is an observational byproduct of farm crop count (~16 vs ~13 active plots), confirming that worker micro-scheduling is already operating at maximum efficiency.
+
+32. **Day 6 (Step 144) First Strawberry Planting Divergence (T_plant1)**:
+    - Phase 55 turn-by-turn first divergence dissection revealed that the initial Strawberry divergence occurs early at **Step 143.5 (Day 6.0)**, concentrated heavily on **Tile (4, 1) in NW (48.3% of matches)**.
+    - In **58.6% of matches**, the failure mode is **Seed Stockout** (0 Strawberry seeds in shed when Tile (4, 1) clears), and in **34.5%**, the failure mode is **Quadrant Lock** (delayed Land #2/3 unlock).
+    - Worker Distance and Scheduler Errors accounted for **0.0% of first divergence events**, proving that the initial separation is 100% determined by Day 0–6 opening seed allocation and land unlocking velocity.
+
+33. **APEX 3.4 Opening Scale Parity & Land #2 Liquidity Bounds**:
+    - Phase 56 2x2 factorial testing across 50 fresh seeds proved that APEX 3.4 is already operating at full winner parity during the opening phase:
+    - First Strawberry plant occurs at **Step 107.0 (Day 5.0)**, achieving **12.0 active plots at Step 216** and **16.8 active plots at Step 240** (surpassing real tournament winners' 16.2 plots).
+    - Prematurely forcing Land #2 purchase at Step 144 before Day 7 drains $1,000 liquidity, causing a -$206.48 wealth penalty by starving feed reserves. The Step 71 liquidity rescue remains the optimal land unlock mechanism.
+
+34. **Day 12 (Step 265) Post-240 Replant Divergence (T_replant1)**:
+    - Phase 57 post-240 replanting dissection across 43 real matches revealed that the second major divergence occurs at **Step 265.1 (Day 12.0)**, split equally between **Land #3 / SW (44.0%)** and **Home NW (44.0%)**.
+    - The dual root causes are **Land #3 Unlock Timing (44.0%)** (Winners unlock SW by Step 260 vs Losers delaying past 265) and **NW Harvest Clearance (40.0%)** (Winners harvest 1st-generation crops on-time to clear tiles for instant Strawberry replants).
+    - Scheduler Errors (0.0%) and Capital Deficits (0.0%) were non-factors, proving that mid-game compounding is dictated by on-time harvest clearance and Land #3 unlock velocity.
+
+35. **Mid-Game Scale Parity & Hand Schedule Brittleness**:
+    - Phase 58 2x2 factorial testing across 50 fresh seeds proved that APEX 3.4 is already operating at peak mid-game winner scale:
+    - Land #3 unlocks naturally at **Step 260.0 (Day 11)**, achieving **39.1 active Strawberry plots at Step 360** (surpassing real tournament winners' 38.0 plots).
+    - Attempting to force ad-hoc worker harvests in NW (Arm C & Arm D) broke the synchronized daily watering schedule of the 39 growing Strawberry plots, causing them to wither and triggering a catastrophic -$89,163 wealth collapse ($94.5k down to $46.8k).
+    - Hardcoded opportunistic task overrides must NEVER be injected into closed-loop worker schedules.
+
+36. **Post-Production Economic Realization Gap (Volume + Price Compound)**:
+    - Phase 59 economic realization dissection across 43 real matches revealed that the +$24,233 tournament wealth gap is driven by a dual compounding advantage in Strawberry (+$32.7k) and Milk (+$27.3k) cash generation:
+    - **Physical Volume (+31–37%)**: Winners deliver +118.7 Strawberry units (506.7 vs 388.0) and +146.6 Milk units (544.7 vs 398.1) to market.
+    - **Price Realization (+16–21%)**: Winners achieve +$24.04/unit higher realized price for Strawberry ($141.08 vs $117.04) and +$16.25/unit for Milk ($114.80 vs $98.54) by timing batch sales during elevated market windows rather than dumping product continuously at price floors.
+
+37. **Equalized Batch Price Realization & Liquidation Timing Invariant**:
+    - Phase 60 turn-by-turn sale decision reconstruction across 10,044 transactions proved that Winners and Losers sell in the **exact same mean batch sizes (~8 units)**.
+    - However, across equalized inventory bins, Winners achieve a **+$23.77 to +$50.22/unit price advantage**:
+      - Small Batches (<10 units): $153.42 vs $129.65 (+$23.77).
+      - Medium Batches (10–25 units): $152.56 vs $113.79 (+$38.77).
+      - Large Batches (>25 units): $123.45 vs $73.23 (+$50.22).
+    - Losers hold onto inventory too long into market crashes, resulting in panic liquidations at depressed prices, whereas Winners execute agile liquidations on an 11-step cadence while prices are near cycle peaks.
+
+38. **Market Regime Execution & Crash Dumping Avoidance**:
+    - Phase 61 market velocity and regime forensics across 43 real matches revealed that the primary market advantage of Real 3000+ Winners is **selling during Peak Regimes and avoiding Valley Crash liquidations**:
+    - **Peak Regime Execution**: Winners execute **64.4% of Strawberry volume (vs 45.7% for Losers, +18.7% shift)** and **53.2% of Milk volume (vs 40.6% for Losers, +12.6% shift)** during `PEAK_RISING` ($P \ge 135, v \ge 0$) and `PEAK_CREST` ($P \ge 135, v < 0$) conditions.
+    - **Crash Dumping Avoidance**: Losers dump **48.7% of all Strawberry volume into `VALLEY_CRASH` conditions** (selling while prices are falling below $135), compared to only **31.8% for Winners (-16.9% reduction)**.
+    - Multi-commodity relative ratio arbitrage was neutral (47.6% vs 47.1% Strawberry share during price spikes), proving that **absolute market phase timing** is the dominant causal driver.
+
+39. **Liquidity Velocity Dominance Over Price Timing**:
+    - Phase 62 counterfactual testing across 50 fresh seeds proved that actively suppressing sales during `VALLEY_CRASH` to wait for peak prices is counterproductive:
+    - While realized selling price jumped from **$147.66 to $171.30/unit (+16.0%)** and crash sales fell to **3.0%**, win rate collapsed from **54.0% down to 18.0%** and net wealth fell by **-$6,640.32**.
+    - Holding inventory starved operational liquidity, delaying on-time Land #3 unlock and Strawberry seed replanting waves.
+    - **Invariant**: In Kaggriculture, **Liquidity Velocity > Price Optimization**. Continuous physical production compounding generates vastly more wealth than price timing speculation.
+
+40. **Dual-Regime Liquidity Priority & Gentle Rebound Realization (Phase 63 Breakthrough)**:
+    - Phase 63 counterfactual testing across 50 fresh unseen seeds (`600000 + i * 137`) achieved a decisive breakthrough:
+    - **Arm C (Gentle Rebound Exit)** scored **34 / 50 Wins (68.0% Win Rate)** with a positive **+$843.54 Net Delta** over APEX 3.4 Control:
+      - Realized Strawberry price rose from **$147.66 to $159.44/unit (+$11.78/u)**.
+      - Realized Milk price rose from **$99.91 to $106.29/unit (+$6.38/u)**.
+      - Total Strawberry volume increased from **617.2 to 644.7 units (+27.5u)**.
+    - **The Dual-Regime Principle**: Unconditional liquidation whenever `cash < SAFE_CASH_BUFFER` guarantees 100% physical compounding continuity, while gentle momentum filtering on surplus inventory captures higher average market prices.
+
+41. **Independent Holdout Gauntlet Validation (88.0% Win Rate / +$2,223 Edge)**:
+    - Phase 64 validated the Dual-Regime Liquidity policy across 50 completely fresh unseen seeds (`770000 + i * 263`), achieving:
+      - **88.0% Win Rate (44 / 50 Wins)** against APEX 3.4 Control.
+      - **+$2,223.28 Mean Paired Delta** per seed (+$1,887.00 Median Paired Delta).
+      - **$100,110.50 Mean Absolute Wealth** (vs $97,887.22 for Control).
+      - **$171.06/unit Realized Strawberry Price** (664.1 units volume) & **$119.84/unit Realized Milk Price** (677.6 units volume).
+      - **39.3 Active Strawberry plots at Steps 360 & 480** with zero delay in Land #3 unlock (Step 261.0).
+    - This rigorously confirms that the Dual-Regime Liquidity Policy is a statistically robust, causal tournament upgrade.
+
+42. **Adversarial Stress Invariance & Mandatory Expenditure Protection**:
+    - Phase 65 subjected APEX 3.5 to an adversarial gauntlet across 50 fresh unseen seeds (`880000 + i * 311`) stratified by market regime:
+      - **Overall Stress Win Rate**: **70.0% (35 / 50 Wins)** with **+$1,213.30 Mean Paired Delta**.
+      - **Strawberry Bull Regime**: **70.4% Wins (19 / 27)**, Delta: **+$1,490.40**.
+      - **Milk Bull Regime**: **84.6% Wins (11 / 13)**, Delta: **+$1,201.00**.
+      - **Prolonged Crash Regime**: **50.0% Wins (1 / 2)**, Delta: **+$962.50**.
+      - **Volatile Cyclic Regime**: **50.0% Wins (4 / 8)**, Delta: **+$360.90**.
+    - **Solvency & Safety Confirmed**: 100% solvency (zero bankruptcies), 0 missed feeds, Land #2 at Step 170.0, and Land #3 at Step 261.0.
+
 ---
 
 ## 2. Non-Negotiable Safety & Governance Invariants
