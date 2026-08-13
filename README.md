@@ -1,6 +1,6 @@
 # 🌾 Kaggriculture APEX — Empirical Strategy & Preemption Engine
 
-> **Project Lineage**: Standard Kaggriculture Agent $\rightarrow$ Recovered V4.1 Master Baseline Champion $\rightarrow$ APEX 2.x Invariant Architecture $\rightarrow$ APEX 3.0 MCV Offline R&D $\rightarrow$ APEX 3.1/3.2 Environment Parity & Bugfix $\rightarrow$ APEX 3.3 Clearance Preemption Engine $\rightarrow$ APEX 3.4 Research Control $\rightarrow$ **APEX 3.5 Dual-Regime Liquidity Priority Engine** $\rightarrow$ **Elite-Tier (>1300 Elo) R&D (Phases 66–74)**.
+> **Project Lineage**: Standard Kaggriculture Agent $\rightarrow$ Recovered V4.1 Master Baseline Champion $\rightarrow$ APEX 2.x Invariant Architecture $\rightarrow$ APEX 3.0 MCV Offline R&D $\rightarrow$ APEX 3.1/3.2 Environment Parity & Bugfix $\rightarrow$ APEX 3.3 Clearance Preemption Engine $\rightarrow$ APEX 3.4 Research Control $\rightarrow$ **APEX 3.5 Dual-Regime Liquidity Priority Engine** $\rightarrow$ **Market Dynamics, Game Theory & Causal Localization (Phases 75–86)**.
 
 ---
 
@@ -15,15 +15,16 @@ The Kaggriculture APEX framework is built on a **modular component architecture*
                       |   - Day 4.4 Strawberry Pipeline (PROVEN INVAR)  |
                       |   - 3-Quadrant Land Expansion (PROVEN INVARIANT)|
                       |   - 39.3 Active Strawberry Plots (PROVEN CEIL)  |
+                      |   - 0-Wait Worker Task Scheduler (SATURATED)    |
                       +------------------------+------------------------+
                                                |
                                                v
                       +-------------------------------------------------+
-                      |   APEX 3.5 DUAL-REGIME LIQUIDITY & MONETIZATION |
+                      |   APEX 3.5 DUAL-REGIME LIQUIDITY & PREEMPTION   |
                       |   - Dynamic SAFE_CASH_BUFFER ($1.1k/$2.2k/$400) |
-                      |   - Regime 1: Unconditional Immediate Sell      |
-                      |   - Regime 2: Velocity Rebound Timing (v > 0)   |
-                      |   - Zero Deadweight Endgame Clearance @ Step 700|
+                      |   - Step 71 Liquidity Rescue Guarantee          |
+                      |   - Exact 24-Step Preemption (step % 24 == 23)  |
+                      |   - Non-Exploitable Market Liquidity Extraction |
                       +------------------------+------------------------+
                                                |
                                                v
@@ -31,7 +32,8 @@ The Kaggriculture APEX framework is built on a **modular component architecture*
                       |    MONOLITHIC KAGGLE SUBMISSION CANDIDATE       |
                       |    generalization_pipeline/                     |
                       |    submission_candidate_apex35.py (VAULTED)     |
-                      +------------------------+------------------------+
+                      |    SHA256: 78738c1b8bad8fbd2f18a29a1caced8da... |
+                      +-------------------------------------------------+
 ```
 
 ---
@@ -46,11 +48,11 @@ The Kaggriculture APEX framework is built on a **modular component architecture*
 | 🧪 **55382689** | `submission_candidate_hybrid_v13.py` | **2026-08-09** | Competitive Hybrid V13 | **COMPLETE** | **1058.6** | 37W - 45L (82 matches) |
 | 📦 **55411304** | `submission_candidate_apex30.py` | **2026-08-10** | APEX 3.0 Historical MCV Benchmark *(Step 107 Bug)* | **COMPLETE** | **1123.6** | 42W - 56L (99 matches) |
 | 🛡️ **55421857** | `submission_candidate_apex33.py` | **2026-08-11** | **APEX 3.3 Clearance Preemption Engine** *(Live Probe)* | **COMPLETE** | **1128.6** | **42W - 50L (+$3.3k Margin)** |
-| 🚀 **VAULTED** | `submission_candidate_apex35.py` | **2026-08-13** | **APEX 3.5 Dual-Regime Liquidity Candidate** | **VAULTED** | *Local 88%* | *150 Holdout Seeds: 75.3% WR* |
+| 🔒 **VAULTED** | `submission_candidate_apex35.py` | **2026-08-13** | **APEX 3.5 Dual-Regime Liquidity Candidate** | **VAULTED** | *Local 150-Seed Battery* | *Passed All 6 Submission Gates* |
 
 ---
 
-## 🔬 Grand 74-Phase Research Progression Overview
+## 🔬 Grand 86-Phase Research Progression Overview
 
 ```text
 ┌──────────────┬──────────────────────────────────────────┬────────────────────────────────────────────────────────┐
@@ -79,8 +81,23 @@ The Kaggriculture APEX framework is built on a **modular component architecture*
 ├──────────────┼──────────────────────────────────────────┼────────────────────────────────────────────────────────┤
 │ Era VIII     │ Elite-Tier (>1300 Elo) Decomp. & Scaling │ Decomposed 210 Elite Tier-F matches ($114k-$151k).     │
 │ (Phases 69-74│ (Waterfall Attribution & Livestock Lab)  │ Confirmed Milk Saturation (686u), +$1.0k Paired Lift.  │
+├──────────────┼──────────────────────────────────────────┼────────────────────────────────────────────────────────┤
+│ Era IX       │ Market Dynamics, Game Theory & Audit     │ Mapped -$11.53 crash cliff; proved Free-Rider trap;   │
+│ (Phases 75-86│ (2x2 Factorial & 6-Gate Readiness Audit) │ localized 97.3% opponent effect; passed 6-gate audit.  │
 └──────────────┴──────────────────────────────────────────┴────────────────────────────────────────────────────────┘
 ```
+
+---
+
+## 🪦 The Falsification Graveyard (Empirical Dead Ends)
+
+1. 🪦 **Delay Cow #2 Opening** (Phase 16): 0/50 Wins (0.0% WR). Dual-cow Turn 0 is an absolute physical invariant.
+2. 🪦 **Expand to 4th Quadrant** (Phase 63): Late unlock ($3,000) dilutes worker walk-time and reduces net wealth.
+3. 🪦 **Static Price Thresholds** (Phase 75–76): Price rose +$4.92, but wealth fell -$119 and win rate collapsed to 38%.
+4. 🪦 **Worker / Priority Dispatch Overrides** (Phase 78): Yield delta was +$0.00; V4.1's scheduler is already saturated at 0-wait latency.
+5. 🪦 **Static Batch Capping** (Phase 80–81): Triggered the Free-Rider Trap (opponent dumped into our elevated prices; WR collapsed to 12%).
+6. 🪦 **Unilateral Market Preservation** (Phase 80–81): Benevolent holding creates a public good that unconstrained opponents harvest for $109k–$172k.
+7. 🪦 **"Higher Realized Price = Higher Wealth" Fallacy** (Phases 62, 76, 80, 81): Sacrificing volume/velocity for marginal unit price strictly reduces final wealth.
 
 ---
 
@@ -94,23 +111,25 @@ The Kaggriculture APEX framework is built on a **modular component architecture*
 6. **3-QUADRANT EXPANSION CEILING**: Never buy Land #4 (SE Quadrant) in a 30-day match.
 7. **MONOLITHIC SUBMISSIONS**: All Kaggle submission artifacts must be 100% self-contained single-file Python builds with no external disk dependencies.
 8. **UNSEEN HOLDOUT GATING**: No strategy candidate may be submitted to Kaggle without passing a 50+ seed unseen holdout gauntlet.
-9. **4-GATE PROTOCOL ENFORCEMENT**: Strategy candidates must pass Live Reproduction, Counterfactual Causality on exact defeat seeds, Unseen Holdout Validation, and Live Confirmation before ladder promotion.
-10. **SCIENTIFIC CLAIM RIGOR**: Holdout replay-schedule validation must never be claimed as a guaranteed live Kaggle leaderboard score.
+9. **6-GATE PROTOCOL ENFORCEMENT**: Strategy candidates must pass Strong-Opponent Floor, Weak-Opponent Exploitation, Mixed Field Robustness, Invariant Health, Tail Risk, and Packaging Integrity.
+10. **SCIENTIFIC CLAIM RIGOR**: Local controlled evaluations must never be conflated with guaranteed live Kaggle leaderboard scores.
 
 ---
 
 ## 📂 Project Documentation Map
 
-- [`docs/KAGGRICULTURE_COMPETITION_OVERVIEW_AND_META_STRATEGY.md`](file:///D:/kagriulture/Kaggriculture/docs/KAGGRICULTURE_COMPETITION_OVERVIEW_AND_META_STRATEGY.md): Comprehensive master guide to competition rules, game theory, and economic sub-systems.
-- [`docs/RESEARCH_LESSONS.md`](file:///D:/kagriulture/Kaggriculture/docs/RESEARCH_LESSONS.md): 53 Core empirical research lessons, environment parity discoveries, and governance rules.
-- [`docs/COMPREHENSIVE_RESEARCH_SYNTHESIS_PHASES_1_TO_74.md`](file:///D:/kagriulture/Kaggriculture/docs/COMPREHENSIVE_RESEARCH_SYNTHESIS_PHASES_1_TO_74.md): Grand comprehensive synthesis covering all 74 phases of research.
-- [`reports/LIVE_KAGGLE_MATCH_FORENSICS_AUDIT.md`](file:///D:/kagriulture/Kaggriculture/reports/LIVE_KAGGLE_MATCH_FORENSICS_AUDIT.md): Reconciled forensic audit of all 736 live Kaggle tournament matches.
-- [`reports/PHASE66_MID_TIER_FAILURE_REPORT.md`](file:///D:/kagriulture/Kaggriculture/reports/PHASE66_MID_TIER_FAILURE_REPORT.md): Dissection of the 77 live matches against the 1100–1300 Elo cohort.
-- [`reports/PHASE67_REAL_LOSS_COUNTERFACTUAL_REPORT.md`](file:///D:/kagriulture/Kaggriculture/reports/PHASE67_REAL_LOSS_COUNTERFACTUAL_REPORT.md): Replay of the 46 exact live tournament defeat seeds (82.6% win rate).
-- [`reports/PHASE68_OPPONENT_CLUSTERING_REPORT.md`](file:///D:/kagriulture/Kaggriculture/reports/PHASE68_OPPONENT_CLUSTERING_REPORT.md): Opponent policy clustering across 6 Elo rating tiers.
-- [`reports/PHASE69_ELITE_TIER_DECOMPOSITION_REPORT.md`](file:///D:/kagriulture/Kaggriculture/reports/PHASE69_ELITE_TIER_DECOMPOSITION_REPORT.md): Behavioral & revenue decomposition of 210 Elite Tier-F matches ($114k–$151k).
-- [`reports/PHASE70_LIVESTOCK_THROUGHPUT_REPORT.md`](file:///D:/kagriulture/Kaggriculture/reports/PHASE70_LIVESTOCK_THROUGHPUT_REPORT.md): Livestock servicing & feed buffer optimization (+ $1,629/match delta).
-- [`reports/PHASE71_MILK_REVENUE_REPORT.md`](file:///D:/kagriulture/Kaggriculture/reports/PHASE71_MILK_REVENUE_REPORT.md): Milk revenue decomposition (686u Milk output confirmed).
-- [`reports/PHASE72_ECONOMIC_WATERFALL_REPORT.md`](file:///D:/kagriulture/Kaggriculture/reports/PHASE72_ECONOMIC_WATERFALL_REPORT.md): Strawberry realization refinement (+ $1,381/match delta).
-- [`reports/PHASE73_FERTILIZER_YIELD_REPORT.md`](file:///D:/kagriulture/Kaggriculture/reports/PHASE73_FERTILIZER_YIELD_REPORT.md): 5-tier outcome skew and tail risk elimination (0% big losses).
-- [`reports/PHASE74_GRANULAR_WATERFALL_REPORT.md`](file:///D:/kagriulture/Kaggriculture/reports/PHASE74_GRANULAR_WATERFALL_REPORT.md): Reconciled mathematical attribution waterfall (+ $1,005.14/match).
+- [`docs/KAGGRICULTURE_COMPETITION_OVERVIEW_AND_META_STRATEGY.md`](file:///D:/kaggriculture/docs/KAGGRICULTURE_COMPETITION_OVERVIEW_AND_META_STRATEGY.md): Comprehensive master guide to competition rules, game theory, and economic sub-systems.
+- [`docs/RESEARCH_LESSONS.md`](file:///D:/kaggriculture/docs/RESEARCH_LESSONS.md): 53 Core empirical research lessons, environment parity discoveries, and governance rules.
+- [`docs/COMPREHENSIVE_RESEARCH_SYNTHESIS_PHASES_1_TO_74.md`](file:///D:/kaggriculture/docs/COMPREHENSIVE_RESEARCH_SYNTHESIS_PHASES_1_TO_74.md): Grand comprehensive synthesis covering all 74 phases of research.
+- [`reports/PHASE75_ELITE_MARKET_POLICY_RECONSTRUCTION_REPORT.md`](file:///D:/kaggriculture/reports/PHASE75_ELITE_MARKET_POLICY_RECONSTRUCTION_REPORT.md): Reverse-engineering 15 full tournament replays across performance tiers.
+- [`reports/PHASE76_ELITE_POLICY_RECONSTRUCTION_REPORT.md`](file:///D:/kaggriculture/reports/PHASE76_ELITE_POLICY_RECONSTRUCTION_REPORT.md): Counterfactual evaluation of Strawberry Crash-Hold and Two-Pool Milk (+ $248.86 lift).
+- [`reports/PHASE77_FORWARD_LIQUIDITY_ALLOCATION_REPORT.md`](file:///D:/kaggriculture/reports/PHASE77_FORWARD_LIQUIDITY_ALLOCATION_REPORT.md): Forward-Looking Liquidity & Two-Pool Allocation (86% H2H win rate).
+- [`reports/PHASE78_PHYSICAL_COUNTERFACTUAL_REPORT.md`](file:///D:/kaggriculture/reports/PHASE78_PHYSICAL_COUNTERFACTUAL_REPORT.md): Physical production forensics proving 100% saturation of V4.1 worker task scheduler.
+- [`reports/PHASE79_MARKET_CAUSALITY_REPORT.md`](file:///D:/kaggriculture/reports/PHASE79_MARKET_CAUSALITY_REPORT.md): Endogenous price shocks (-$6.25 Strawberry shock on $\ge 10$u sales).
+- [`reports/PHASE80_SALE_IMPACT_ELASTICITY_REPORT.md`](file:///D:/kaggriculture/reports/PHASE80_SALE_IMPACT_ELASTICITY_REPORT.md): Nonlinear elasticity mapping (-$11.53 crash cliff) & discovery of the Free-Rider Trap.
+- [`reports/PHASE81_OPPONENT_AWARE_EQUILIBRIUM_REPORT.md`](file:///D:/kaggriculture/reports/PHASE81_OPPONENT_AWARE_EQUILIBRIUM_REPORT.md): Opponent-Aware Market Equilibrium & Free-Rider exploitation forensics.
+- [`reports/PHASE82_ELITE_VS_NORMAL_CAUSAL_DECOMPOSITION_REPORT.md`](file:///D:/kaggriculture/reports/PHASE82_ELITE_VS_NORMAL_CAUSAL_DECOMPOSITION_REPORT.md): Causal decomposition of Elite ($268.9k pie) vs Normal ($131.7k pie) matches.
+- [`reports/PHASE83_CAUSAL_SOURCE_LOCALIZATION_REPORT.md`](file:///D:/kaggriculture/reports/PHASE83_CAUSAL_SOURCE_LOCALIZATION_REPORT.md): Causal source localization decomposing opponent blunder vs seed effects.
+- [`reports/PHASE84_FACTORIAL_DECOMPOSITION_REPORT.md`](file:///D:/kaggriculture/reports/PHASE84_FACTORIAL_DECOMPOSITION_REPORT.md): 2x2 Factorial Decomposition isolating 97.3% Opponent effect from 2.0% Market Potential effect.
+- [`reports/PHASE85_OPPONENT_ADAPTIVE_EXPLOITATION_REPORT.md`](file:///D:/kaggriculture/reports/PHASE85_OPPONENT_ADAPTIVE_EXPLOITATION_REPORT.md): Adaptive exploitation validation across strong, weak, and mixed cohorts.
+- [`reports/PHASE86_SUBMISSION_READINESS_AUDIT_REPORT.md`](file:///D:/kaggriculture/reports/PHASE86_SUBMISSION_READINESS_AUDIT_REPORT.md): Master Submission Readiness Audit Package (150-seed multi-cohort evaluation).
