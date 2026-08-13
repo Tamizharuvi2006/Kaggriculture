@@ -1,0 +1,370 @@
+[
+  {
+    "ep_id": 92596512,
+    "our_reward": 89548.0,
+    "opp_reward": 102385.0,
+    "opp_score": 1143.4220942383802,
+    "opp_sub_id": 55477888,
+    "seed": 461426451
+  },
+  {
+    "ep_id": 92551037,
+    "our_reward": 63423.0,
+    "opp_reward": 63884.0,
+    "opp_score": 1173.9480138283184,
+    "opp_sub_id": 55424382,
+    "seed": 1860690344
+  },
+  {
+    "ep_id": 92543280,
+    "our_reward": 73414.0,
+    "opp_reward": 88986.0,
+    "opp_score": 1134.7266186297877,
+    "opp_sub_id": 55474268,
+    "seed": 1151064773
+  },
+  {
+    "ep_id": 92498065,
+    "our_reward": 78125.0,
+    "opp_reward": 80868.0,
+    "opp_score": 1188.796315816967,
+    "opp_sub_id": 55251370,
+    "seed": 867203061
+  },
+  {
+    "ep_id": 92417268,
+    "our_reward": 72146.0,
+    "opp_reward": 72639.0,
+    "opp_score": 1156.163223873521,
+    "opp_sub_id": 55294091,
+    "seed": 1128060154
+  },
+  {
+    "ep_id": 92373305,
+    "our_reward": 61726.0,
+    "opp_reward": 71991.0,
+    "opp_score": 1222.647564230474,
+    "opp_sub_id": 55462779,
+    "seed": 691498816
+  },
+  {
+    "ep_id": 92366749,
+    "our_reward": 38745.0,
+    "opp_reward": 62483.0,
+    "opp_score": 1219.267701958173,
+    "opp_sub_id": 55462470,
+    "seed": 75257684
+  },
+  {
+    "ep_id": 92342411,
+    "our_reward": 76704.0,
+    "opp_reward": 80588.0,
+    "opp_score": 1160.257734452466,
+    "opp_sub_id": 55460071,
+    "seed": 488440370
+  },
+  {
+    "ep_id": 92325928,
+    "our_reward": 53967.0,
+    "opp_reward": 54152.0,
+    "opp_score": 1189.8684504211496,
+    "opp_sub_id": 55295376,
+    "seed": 440446356
+  },
+  {
+    "ep_id": 92298498,
+    "our_reward": 43900.0,
+    "opp_reward": 76624.0,
+    "opp_score": 1114.3713087556653,
+    "opp_sub_id": 55456887,
+    "seed": 1576096163
+  },
+  {
+    "ep_id": 92230583,
+    "our_reward": 67227.0,
+    "opp_reward": 67911.0,
+    "opp_score": 1176.4379823000916,
+    "opp_sub_id": 55448279,
+    "seed": 1169776985
+  },
+  {
+    "ep_id": 92207057,
+    "our_reward": 99696.0,
+    "opp_reward": 106012.0,
+    "opp_score": 1159.8845140958795,
+    "opp_sub_id": 55293629,
+    "seed": 2135713664
+  },
+  {
+    "ep_id": 92183410,
+    "our_reward": 45225.0,
+    "opp_reward": 74265.0,
+    "opp_score": 1143.9941780200804,
+    "opp_sub_id": 55447238,
+    "seed": 73332701
+  },
+  {
+    "ep_id": 92155580,
+    "our_reward": 50867.0,
+    "opp_reward": 78309.0,
+    "opp_score": 1130.4866744499268,
+    "opp_sub_id": 55445057,
+    "seed": 734781477
+  },
+  {
+    "ep_id": 92138580,
+    "our_reward": 133733.0,
+    "opp_reward": 137047.0,
+    "opp_score": 1107.3288747694926,
+    "opp_sub_id": 55443099,
+    "seed": 1823833147
+  },
+  {
+    "ep_id": 92127205,
+    "our_reward": 71230.0,
+    "opp_reward": 82003.0,
+    "opp_score": 1162.0304554540087,
+    "opp_sub_id": 55442519,
+    "seed": 1980898955
+  },
+  {
+    "ep_id": 92102165,
+    "our_reward": 78713.0,
+    "opp_reward": 81321.0,
+    "opp_score": 1128.9940822167086,
+    "opp_sub_id": 55424868,
+    "seed": 2135031833
+  },
+  {
+    "ep_id": 92096379,
+    "our_reward": 45925.0,
+    "opp_reward": 64994.0,
+    "opp_score": 1177.0083765024276,
+    "opp_sub_id": 55440314,
+    "seed": 510429962
+  },
+  {
+    "ep_id": 92087968,
+    "our_reward": 111244.0,
+    "opp_reward": 114422.0,
+    "opp_score": 1224.3670342986757,
+    "opp_sub_id": 55432465,
+    "seed": 306941219
+  },
+  {
+    "ep_id": 92011938,
+    "our_reward": 41846.0,
+    "opp_reward": 43173.0,
+    "opp_score": 1261.5625321916839,
+    "opp_sub_id": 55432465,
+    "seed": 1155840359
+  },
+  {
+    "ep_id": 92011655,
+    "our_reward": 82433.0,
+    "opp_reward": 87709.0,
+    "opp_score": 1290.5924323179013,
+    "opp_sub_id": 55435224,
+    "seed": 576049537
+  },
+  {
+    "ep_id": 91985779,
+    "our_reward": 85150.0,
+    "opp_reward": 91538.0,
+    "opp_score": 1172.214329274023,
+    "opp_sub_id": 55429987,
+    "seed": 959057030
+  },
+  {
+    "ep_id": 91973650,
+    "our_reward": 60857.0,
+    "opp_reward": 61190.0,
+    "opp_score": 1182.9006433859472,
+    "opp_sub_id": 55257652,
+    "seed": 1563333838
+  },
+  {
+    "ep_id": 91950861,
+    "our_reward": 42340.0,
+    "opp_reward": 71730.0,
+    "opp_score": 1219.3799489630483,
+    "opp_sub_id": 55429563,
+    "seed": 1287165414
+  },
+  {
+    "ep_id": 91893989,
+    "our_reward": 104556.0,
+    "opp_reward": 109092.0,
+    "opp_score": 1267.2244597301583,
+    "opp_sub_id": 55424482,
+    "seed": 796515989
+  },
+  {
+    "ep_id": 91888621,
+    "our_reward": 131933.0,
+    "opp_reward": 132930.0,
+    "opp_score": 1189.3251755194042,
+    "opp_sub_id": 55257652,
+    "seed": 587897306
+  },
+  {
+    "ep_id": 91887664,
+    "our_reward": 103162.0,
+    "opp_reward": 107351.0,
+    "opp_score": 1184.415194048884,
+    "opp_sub_id": 55391639,
+    "seed": 1894878184
+  },
+  {
+    "ep_id": 91886728,
+    "our_reward": 85321.0,
+    "opp_reward": 94204.0,
+    "opp_score": 1209.6107713281974,
+    "opp_sub_id": 55273850,
+    "seed": 1132297051
+  },
+  {
+    "ep_id": 91885794,
+    "our_reward": 94204.0,
+    "opp_reward": 98471.0,
+    "opp_score": 1184.0429683698605,
+    "opp_sub_id": 55403140,
+    "seed": 1184227213
+  },
+  {
+    "ep_id": 91884858,
+    "our_reward": 64885.0,
+    "opp_reward": 67277.0,
+    "opp_score": 1159.1829672014921,
+    "opp_sub_id": 55246203,
+    "seed": 1679953265
+  },
+  {
+    "ep_id": 91881960,
+    "our_reward": 79038.0,
+    "opp_reward": 80117.0,
+    "opp_score": 1188.3659509829236,
+    "opp_sub_id": 55422612,
+    "seed": 564897398
+  },
+  {
+    "ep_id": 91882019,
+    "our_reward": 36896.0,
+    "opp_reward": 41207.0,
+    "opp_score": 1231.0807254600932,
+    "opp_sub_id": 55256586,
+    "seed": 569056773
+  },
+  {
+    "ep_id": 91880124,
+    "our_reward": 97874.0,
+    "opp_reward": 99204.0,
+    "opp_score": 1179.4261182511623,
+    "opp_sub_id": 55391639,
+    "seed": 542459507
+  },
+  {
+    "ep_id": 91878226,
+    "our_reward": 60294.0,
+    "opp_reward": 63336.0,
+    "opp_score": 1217.9380727335144,
+    "opp_sub_id": 55265838,
+    "seed": 77437608
+  },
+  {
+    "ep_id": 91876363,
+    "our_reward": 81393.0,
+    "opp_reward": 81943.0,
+    "opp_score": 1223.1062008198758,
+    "opp_sub_id": 55243019,
+    "seed": 1476095595
+  },
+  {
+    "ep_id": 91875421,
+    "our_reward": 86380.0,
+    "opp_reward": 88683.0,
+    "opp_score": 1246.552427935435,
+    "opp_sub_id": 55320440,
+    "seed": 139146181
+  },
+  {
+    "ep_id": 91873528,
+    "our_reward": 38505.0,
+    "opp_reward": 42053.0,
+    "opp_score": 1180.4822171820738,
+    "opp_sub_id": 55284041,
+    "seed": 2124456858
+  },
+  {
+    "ep_id": 91871654,
+    "our_reward": 108906.0,
+    "opp_reward": 113860.0,
+    "opp_score": 1287.7077530598165,
+    "opp_sub_id": 55289639,
+    "seed": 1020435128
+  },
+  {
+    "ep_id": 91869767,
+    "our_reward": 64858.0,
+    "opp_reward": 68466.0,
+    "opp_score": 1260.1880307555698,
+    "opp_sub_id": 55301329,
+    "seed": 34083081
+  },
+  {
+    "ep_id": 91865999,
+    "our_reward": 119222.0,
+    "opp_reward": 121918.0,
+    "opp_score": 1250.8751413339655,
+    "opp_sub_id": 55293479,
+    "seed": 658200910
+  },
+  {
+    "ep_id": 91865048,
+    "our_reward": 81939.0,
+    "opp_reward": 92385.0,
+    "opp_score": 1205.34070530267,
+    "opp_sub_id": 55288351,
+    "seed": 1265047669
+  },
+  {
+    "ep_id": 91864104,
+    "our_reward": 77079.0,
+    "opp_reward": 77730.0,
+    "opp_score": 1258.9977112306121,
+    "opp_sub_id": 55216548,
+    "seed": 1368177654
+  },
+  {
+    "ep_id": 91861288,
+    "our_reward": 62384.0,
+    "opp_reward": 63098.0,
+    "opp_score": 1245.802401872932,
+    "opp_sub_id": 55366770,
+    "seed": 1122424980
+  },
+  {
+    "ep_id": 91858499,
+    "our_reward": 86604.0,
+    "opp_reward": 87982.0,
+    "opp_score": 1253.7372983009818,
+    "opp_sub_id": 55291148,
+    "seed": 986188783
+  },
+  {
+    "ep_id": 91856916,
+    "our_reward": 110674.0,
+    "opp_reward": 113312.0,
+    "opp_score": 1265.0325398385507,
+    "opp_sub_id": 55411969,
+    "seed": 782177992
+  },
+  {
+    "ep_id": 91854745,
+    "our_reward": 58911.0,
+    "opp_reward": 60138.0,
+    "opp_score": 1153.9418534375386,
+    "opp_sub_id": 55304119,
+    "seed": 1355497697
+  }
+]
