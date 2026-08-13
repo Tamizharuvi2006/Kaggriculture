@@ -212,6 +212,31 @@
       - **Volatile Cyclic Regime**: **50.0% Wins (4 / 8)**, Delta: **+$360.90**.
     - **Solvency & Safety Confirmed**: 100% solvency (zero bankruptcies), 0 missed feeds, Land #2 at Step 170.0, and Land #3 at Step 261.0.
 
+43. **Live Cohort Forensics & Scientific Claim Rigor**:
+    - A rigorous audit of 736 live Kaggle tournament matches across 9 completed submissions reconciled all match data:
+      - **Self-Play Accounting**: Exactly 1 self-play validation episode exists per submission in the Kaggle API, explaining the `Listed (93)` vs `Unique vs Opponents (92)` discrepancy.
+      - **Battlefield Cohort**: APEX 3.3 (`Ref 55421857`) dominates low-tier opponents (<1100 Elo: **78.6% Win Rate, +$27.9k Margin**), but faces its primary battleground in the mid-tier (1100–1300 Elo: **40.3% Win Rate across 77 matches**). High-tier (>1300 Elo) sample is currently $N=1$ and statistically inconclusive.
+      - **Cohort Dynamics vs Strategic Generalization**: Candidate L+'s 62.5% live win rate was an artifact of its early match cohort (<1150 Elo), not universal superiority.
+      - **Claim Integrity Invariant**: Holdout simulation results (e.g. APEX 3.5's $100.1k mean wealth vs Control) must never be conflated as a direct apple-to-apple comparison with live Kaggle ladder population averages.
+
+44. **Mid-Tier Opponent Failure Decomposition & The 3-Gate Submission Protocol**:
+    - Phase 66 deconstructed the 77 live matches of APEX 3.3 against 1100–1300 Elo opponents across 4 sub-bands:
+      - **1100–1150 Elo**: 17 matches -> **10W - 7L (58.8% Win Rate)**.
+      - **1150–1200 Elo**: 30 matches -> **11W - 19L (36.7% Win Rate)**.
+      - **1200–1250 Elo**: 20 matches -> **9W - 11L (45.0% Win Rate)**.
+      - **1250–1300 Elo**: 10 matches -> **1W - 9L (10.0% Win Rate)** (Sharp deterioration cliff where opponents average $91.0k vs $88.8k).
+    - **Failure Mode**: In 1250+ Elo matches, opponents monetize Strawberry/Milk efficiently and avoid selling into price drops, while APEX 3.3's rigid clearance preemption sells into crash troughs ($70–$90/u).
+    - **The 3-Gate Submission Protocol**:
+      - *Gate 1 (Live Reproduction)*: Failure mode grounded in real Kaggle match data.
+      - *Gate 2 (Counterfactual Causality)*: Mechanism isolated and verified on failure seeds.
+      - *Gate 3 (Independent Validation)*: Validated on 100+ unseen seeds without parameter tuning.
+      - **Governance**: APEX 3.5 remains vaulted locally until live evidence indicates deployment timing.
+
+45. **Tournament Matchmaking & Binary Win/Loss Optimization Invariant**:
+    - In Kaggriculture, Kaggle updates Elo ratings strictly based on **Binary Win/Loss/Tie outcomes**, completely ignoring absolute coin margins. A +$1 victory yields identical rating points to a +$100,000 victory.
+    - **Matchmaking Shift**: The leaderboard continuously pairs bots against peers of similar rating. As an agent climbs from 1100 to 1300+ Elo, the opponent distribution shifts toward sophisticated agents that avoid market dumping and execute disciplined crop cycles.
+    - **Submission Conservation**: Only the latest 2 submissions remain active in matchmaking. Vaulting verified candidates (APEX 3.5) until live baseline evidence confirms deployment timing preserves competitive slot capital.
+
 ---
 
 ## 2. Non-Negotiable Safety & Governance Invariants
