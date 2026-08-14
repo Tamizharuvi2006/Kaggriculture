@@ -3,7 +3,7 @@
     "totalBytesNullable": 318584,
     "descriptionNullable": "APEX 3.0 Challenger - Empirical State-Conditioned MCV (9-Phase Hardened Monolithic Build, SHA256: bac00678)",
     "fileNameNullable": "submission_candidate_apex30.py",
-    "publicScoreNullable": "1123.6",
+    "publicScoreNullable": "1116.5",
     "submittedByNullable": "tamizh1",
     "submittedByRefNullable": "tamizh1",
     "teamNameNullable": "Tamizharuvi",
@@ -18,7 +18,7 @@
     "hasErrorDescription": false,
     "fileName": "submission_candidate_apex30.py",
     "hasFileName": true,
-    "publicScore": "1123.6",
+    "publicScore": "1116.5",
     "hasPublicScore": true,
     "privateScore": "",
     "hasPrivateScore": false,
@@ -33,6 +33,58 @@
     "hasUrl": true
   },
   "episodes": [
+    {
+      "id": 92603055,
+      "createTime": "2026-08-13T09:19:43.140318200Z",
+      "endTime": "2026-08-13T09:21:11.304181Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "id": 205073315,
+          "submissionId": 55411304,
+          "reward": 72488,
+          "initialScore": 1119.9046530894761,
+          "updatedScore": 1116.583922416546,
+          "teamId": 16658173
+        },
+        {
+          "id": 205073316,
+          "submissionId": 55478280,
+          "reward": 76696,
+          "index": 1,
+          "initialScore": 1182.751240720014,
+          "updatedScore": 1206.7886101067195,
+          "teamId": 16651157
+        }
+      ]
+    },
+    {
+      "id": 92602112,
+      "createTime": "2026-08-13T09:15:44.084672400Z",
+      "endTime": "2026-08-13T09:16:53.656760500Z",
+      "state": "COMPLETED",
+      "type": "EPISODE_TYPE_PUBLIC",
+      "agents": [
+        {
+          "id": 205071429,
+          "submissionId": 55411304,
+          "reward": 95059,
+          "initialScore": 1123.641499838739,
+          "updatedScore": 1119.9046530894761,
+          "teamId": 16658173
+        },
+        {
+          "id": 205071430,
+          "submissionId": 55478280,
+          "reward": 99012,
+          "index": 1,
+          "initialScore": 1152.4284903596283,
+          "updatedScore": 1182.751240720014,
+          "teamId": 16651157
+        }
+      ]
+    },
     {
       "id": 92592908,
       "createTime": "2026-08-13T08:35:43.715372300Z",

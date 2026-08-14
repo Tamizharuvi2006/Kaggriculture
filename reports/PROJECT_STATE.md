@@ -6,10 +6,10 @@
 
 | Submission Ref ID | Artifact File | Live Kaggle Role / Status | Public Rating / Benchmark | Audit & Validation State |
 | :---: | :--- | :---: | :---: | :--- |
+| 🚀 **55483322** | `submission_candidate_apex35.py` | **APEX 3.5 Master (LIVE CANDIDATE)** | **1088.0 live (56 matches: 26W-30L, +$4.8k margin)** | **100% FROZEN & MONITORING** |
+| 🛡️ **55421857** | `submission_candidate_apex33.py` | **APEX 3.3 Challenger Probe** | **1105.3 live (115 matches)** | Preserved active probe |
+| 📦 **55411304** | `submission_candidate_apex30.py` | **APEX 3.0 Benchmark** | **1116.5 public** | Preserved historical benchmark |
 | 🛡️ **55249106** | `submission.py` | **V4.1 Master Champion Baseline** | **1479.8 public / 1714.4 live** | **STRICTLY IMMUTABLE & PROTECTED** |
-| 📦 **55411304** | `submission_candidate_apex30.py` | **APEX 3.0 Benchmark** | **1191.0 public** | Preserved historical benchmark |
-| 🚀 **55421857** | `submission_candidate_apex33.py` | **APEX 3.3 Clearance Preemption** | **1128.6 public** | Active live ladder probe (+$3.3k margin) |
-| 🔒 **VAULTED** | `submission_candidate_apex35.py` | **APEX 3.5 Dual-Regime Master** | **Passed All 6 Gates** | **FROZEN LOCALLY** (SHA256: `78738c1b...`) |
 
 ---
 

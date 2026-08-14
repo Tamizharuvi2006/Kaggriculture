@@ -47,8 +47,8 @@ The Kaggriculture APEX framework is built on a **modular component architecture*
 | 🧪 **55376463** | `submission_candidate_l_plus_plus.py` | **2026-08-09** | Candidate L++ Adaptive Controller | **COMPLETE** | **1077.6** | 31W - 35L (66 matches) |
 | 🧪 **55382689** | `submission_candidate_hybrid_v13.py` | **2026-08-09** | Competitive Hybrid V13 | **COMPLETE** | **1058.6** | 37W - 45L (82 matches) |
 | 📦 **55411304** | `submission_candidate_apex30.py` | **2026-08-10** | APEX 3.0 Historical MCV Benchmark *(Step 107 Bug)* | **COMPLETE** | **1123.6** | 42W - 56L (99 matches) |
-| 🛡️ **55421857** | `submission_candidate_apex33.py` | **2026-08-11** | **APEX 3.3 Clearance Preemption Engine** *(Live Probe)* | **COMPLETE** | **1128.6** | **42W - 50L (+$3.3k Margin)** |
-| 🔒 **VAULTED** | `submission_candidate_apex35.py` | **2026-08-13** | **APEX 3.5 Dual-Regime Liquidity Candidate** | **VAULTED** | *Local 150-Seed Battery* | *Passed All 6 Submission Gates* |
+| 🛡️ **55421857** | `submission_candidate_apex33.py` | **2026-08-11** | **APEX 3.3 Clearance Preemption Engine** *(Live Probe)* | **COMPLETE** | **1105.3** | **53W - 62L (115 matches)** |
+| 🚀 **55483322** | `submission_candidate_apex35.py` | **2026-08-13** | **APEX 3.5 Dual-Regime Master** *(Active Candidate)* | **COMPLETE** | **1088.0** | **26W - 30L (+$4.8k Net Margin)** |
 
 ---
 
