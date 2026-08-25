@@ -1,0 +1,52 @@
+{
+  "status": "PROVENANCE_INCOMPLETE_REFERENCE_ENVIRONMENT_ONLY",
+  "games_run": false,
+  "package_installation": false,
+  "gate1_rerun": false,
+  "reference_environment": {
+    "interpreter": "C:\\Users\\aruvi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "python_version": "3.12.13",
+    "package": "kaggle-environments 1.32.6",
+    "registration_backend": "kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+    "registration_spec": "kaggle_environments\\envs\\kaggriculture\\kaggriculture.json",
+    "source_record": "historical_environment_reconstruction.json"
+  },
+  "acceptance_evidence": {
+    "source": "apex_next/ml_engine/evaluation/step1_environment/step1_acceptance_report.json",
+    "make_call": "kaggle_environments.make('kaggriculture')",
+    "episodes": 10,
+    "transitions_per_episode": 719,
+    "total_transitions": 7190,
+    "exceptions": [],
+    "proves_prior_working_environment": true,
+    "proves_gate1_same_environment": false
+  },
+  "gate1_result": {
+    "sources": [
+      "apex_next/apex4/results/gate1.json",
+      "apex_next/research/EXP-0155/results/gate1.json"
+    ],
+    "seed_records": 46,
+    "seat_balanced_matches": 92,
+    "win_points": 46.0,
+    "win_rate": 0.5,
+    "immutable_historical_evidence": true
+  },
+  "missing_gate1_binding_fields": [
+    "interpreter_path",
+    "python_version",
+    "kaggle_environments_module_path",
+    "package_version_or_hash",
+    "kaggriculture_backend_and_spec_hash",
+    "evaluator_commit_or_source_hash",
+    "complete_configuration_hash",
+    "candidate_hash_in_result",
+    "explicit_command_record"
+  ],
+  "current_machine_observation": {
+    "reference_interpreter_imports_kaggle_environments": false,
+    "error": "ModuleNotFoundError",
+    "repair_attempted": false
+  },
+  "next_requirement": "Recover contemporaneous execution metadata binding the exact environment to the preserved Gate 1 result before any rerun."
+}

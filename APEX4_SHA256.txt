@@ -1,0 +1,9 @@
+# ==============================================================================
+# APEX 4.0 CERTIFIED RELEASE ARTIFACT CHECKSUMS
+# ==============================================================================
+
+# Candidate Binary (APEX 4.0 Closed-Loop Adaptive Policy Engine)
+0f3ddc3c5b67999d51508a38361bafe140a9050d7e2e3039ae2ccbc810dff45a *APEX4_SUBMISSION_FINAL.py
+
+# Production Baseline (APEX 3.5 PROD - Frozen Live Champion)
+78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb *APEX35_ROLLBACK_ARCHIVE/submission_apex35_prod_backup.py

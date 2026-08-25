@@ -1,0 +1,12 @@
+{
+  "id": "EXP0125-DECISION",
+  "timestamp": "2026-08-14T17:14:16Z",
+  "screening_verdict": "CANDIDATE_ISOLATED_FOR_OFFICIAL_GATE1",
+  "selected_candidate_id": "CAND-125-02",
+  "selected_candidate_params": {
+    "k_ripe": 4,
+    "q_min": 2,
+    "p_min": 110.0
+  },
+  "official_evaluation_status": "READY_FOR_GATE_1_EXACT_REPLAY"
+}

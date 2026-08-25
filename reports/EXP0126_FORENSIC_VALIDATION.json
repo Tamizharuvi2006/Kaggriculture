@@ -1,0 +1,16 @@
+{
+  "id": "EXP0126-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-14T22:52:00Z",
+  "target_hypothesis": "EXP-0126 (OPPONENT_COW_CYCLE_MILK_LIQUIDATION_TIMING)",
+  "sample_size_matches": 807,
+  "sample_size_milk_events": 312,
+  "answers_to_core_questions": {
+    "1_cow_prediction_accuracy": "100.0% (deterministic 6-hour milking ticks at hours 0, 6, 12, 18).",
+    "2_player_synchronization": "100.0% synchronized. Both Player 0 and Player 1 purchase cows on Day 0/1, so cow production ticks are completely identical.",
+    "3_intraday_price_difference": "Mean Milk price at Hour 5: $168.20 vs Hour 6: $168.60 (Delta: $-0.40, p = 0.62).",
+    "4_market_clearing_absorption": "Daily price drift occurs on day boundaries. Intraday 1-hour shifts produce zero price premium.",
+    "5_economic_verdict": "Milk liquidation timing difference is economically inert due to complete production synchronization and flat intraday pricing curves."
+  },
+  "verdict": "INVALID_MECHANISM",
+  "verdict_rationale": "Because both players purchase cows on Step 0 and milking is on a deterministic 6-hour clock (hours 0, 6, 12, 18), both players produce milk at the exact same timesteps. Intraday milk prices fluctuate by less than $0.50 between hour 5 and hour 6 (p = 0.62). Selling 1 hour early yields zero price advantage and identical market outcomes. In accordance with research protocol, EXP-0126 is marked INVALID_MECHANISM."
+}

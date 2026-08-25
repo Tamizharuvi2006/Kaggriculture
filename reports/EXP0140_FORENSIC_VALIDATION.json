@@ -1,0 +1,20 @@
+{
+  "id": "EXP0140-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-15T15:51:43Z",
+  "target_hypothesis": "EXP-0140 (DAY_2_STRAWBERRY_EARLY_LIQUIDITY_UNLOCK)",
+  "variable_family": "Agricultural_Cycle",
+  "opening_plant_schedule": "Steps 8, 11, 14, 17, 20, 23",
+  "first_scheduled_harvest_step": 74,
+  "harvests_in_steps_48_73": 0,
+  "crop_revenue_comparison": {
+    "6_melons_gross_revenue": 840.0,
+    "6_strawberries_gross_revenue": 660.0,
+    "revenue_deficit": -180.0
+  },
+  "binding_constraints": {
+    "worker_harvest_pathing": "No harvest actions exist in schedule between Step 48 and Step 73; strawberries sit unharvested on vine until Step 74",
+    "crop_unit_value": "Melon yields $140/unit vs Strawberry $110/unit ($180 net revenue advantage for Melon)"
+  },
+  "verdict": "INVALID_MECHANISM",
+  "verdict_rationale": "Forensic audit of APEX 3.5's opening schedule shows that the first worker harvest subroutine is scheduled at Step 74. If strawberries are planted on Day 1, they mature at Step 56-71 but remain unharvested on the tile until Step 74 because workers are pre-scheduled for watering and fertilizer collection. Furthermore, Melons produce higher gross revenue ($840 vs $660) at Step 74. Shifting opening crops to strawberries produces a net revenue loss with zero realization speed advantage."
+}

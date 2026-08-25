@@ -118,7 +118,9 @@ def main():
         tuples = MCVReplayExtractor.extract_tuples_from_replay(rpath)
         all_tuples.extend(tuples)
 
-    out_path = os.path.join(BASE_DIR, "mcv_replay_dataset.json")
+    out_dir = os.path.join(BASE_DIR, "data", "replay")
+    os.makedirs(out_dir, exist_ok=True)
+    out_path = os.path.join(out_dir, "mcv_replay_dataset.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(all_tuples, f, indent=2)
 

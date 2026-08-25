@@ -1,0 +1,528 @@
+{
+  "id": "EXP0118-GPU-SCREENING-1",
+  "timestamp": "2026-08-14T15:34:43Z",
+  "total_combinations": 36,
+  "total_seeds": 50,
+  "total_episodes_simulated": 1800,
+  "elapsed_seconds": 17.363,
+  "top_candidate": {
+    "candidate_id": "CAND-118-13",
+    "params": {
+      "threshold": 2,
+      "activation_step": 400,
+      "min_price": 100.0
+    },
+    "mean_mcv": 1052.0,
+    "delta_mcv": 52.0,
+    "p05_mcv": 1052.0,
+    "win_rate": 1.0,
+    "milk_liquidation_latency_steps": 4.4,
+    "strawberry_harvest_delay_turns": 0.0
+  },
+  "all_candidates_ranked": [
+    {
+      "candidate_id": "CAND-118-13",
+      "params": {
+        "threshold": 2,
+        "activation_step": 400,
+        "min_price": 100.0
+      },
+      "mean_mcv": 1052.0,
+      "delta_mcv": 52.0,
+      "p05_mcv": 1052.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 4.4,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-14",
+      "params": {
+        "threshold": 2,
+        "activation_step": 400,
+        "min_price": 115.0
+      },
+      "mean_mcv": 1052.0,
+      "delta_mcv": 52.0,
+      "p05_mcv": 1052.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 4.4,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-16",
+      "params": {
+        "threshold": 2,
+        "activation_step": 450,
+        "min_price": 100.0
+      },
+      "mean_mcv": 1052.0,
+      "delta_mcv": 52.0,
+      "p05_mcv": 1052.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 5.7,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-17",
+      "params": {
+        "threshold": 2,
+        "activation_step": 450,
+        "min_price": 115.0
+      },
+      "mean_mcv": 1052.0,
+      "delta_mcv": 52.0,
+      "p05_mcv": 1052.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 5.7,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-19",
+      "params": {
+        "threshold": 2,
+        "activation_step": 500,
+        "min_price": 100.0
+      },
+      "mean_mcv": 1052.0,
+      "delta_mcv": 52.0,
+      "p05_mcv": 1052.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 7.0,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-20",
+      "params": {
+        "threshold": 2,
+        "activation_step": 500,
+        "min_price": 115.0
+      },
+      "mean_mcv": 1052.0,
+      "delta_mcv": 52.0,
+      "p05_mcv": 1052.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 7.0,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-22",
+      "params": {
+        "threshold": 2,
+        "activation_step": 550,
+        "min_price": 100.0
+      },
+      "mean_mcv": 1052.0,
+      "delta_mcv": 52.0,
+      "p05_mcv": 1052.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 8.3,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-23",
+      "params": {
+        "threshold": 2,
+        "activation_step": 550,
+        "min_price": 115.0
+      },
+      "mean_mcv": 1052.0,
+      "delta_mcv": 52.0,
+      "p05_mcv": 1052.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 8.3,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-25",
+      "params": {
+        "threshold": 3,
+        "activation_step": 400,
+        "min_price": 100.0
+      },
+      "mean_mcv": 1026.0,
+      "delta_mcv": 26.0,
+      "p05_mcv": 1026.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 12.0,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-26",
+      "params": {
+        "threshold": 3,
+        "activation_step": 400,
+        "min_price": 115.0
+      },
+      "mean_mcv": 1026.0,
+      "delta_mcv": 26.0,
+      "p05_mcv": 1026.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 12.0,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-28",
+      "params": {
+        "threshold": 3,
+        "activation_step": 450,
+        "min_price": 100.0
+      },
+      "mean_mcv": 1026.0,
+      "delta_mcv": 26.0,
+      "p05_mcv": 1026.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 12.0,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-29",
+      "params": {
+        "threshold": 3,
+        "activation_step": 450,
+        "min_price": 115.0
+      },
+      "mean_mcv": 1026.0,
+      "delta_mcv": 26.0,
+      "p05_mcv": 1026.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 12.0,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-31",
+      "params": {
+        "threshold": 3,
+        "activation_step": 500,
+        "min_price": 100.0
+      },
+      "mean_mcv": 1026.0,
+      "delta_mcv": 26.0,
+      "p05_mcv": 1026.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 12.0,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-32",
+      "params": {
+        "threshold": 3,
+        "activation_step": 500,
+        "min_price": 115.0
+      },
+      "mean_mcv": 1026.0,
+      "delta_mcv": 26.0,
+      "p05_mcv": 1026.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 12.0,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-34",
+      "params": {
+        "threshold": 3,
+        "activation_step": 550,
+        "min_price": 100.0
+      },
+      "mean_mcv": 1026.0,
+      "delta_mcv": 26.0,
+      "p05_mcv": 1026.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 12.0,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-35",
+      "params": {
+        "threshold": 3,
+        "activation_step": 550,
+        "min_price": 115.0
+      },
+      "mean_mcv": 1026.0,
+      "delta_mcv": 26.0,
+      "p05_mcv": 1026.0,
+      "win_rate": 1.0,
+      "milk_liquidation_latency_steps": 12.0,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-15",
+      "params": {
+        "threshold": 2,
+        "activation_step": 400,
+        "min_price": 125.0
+      },
+      "mean_mcv": 960.0,
+      "delta_mcv": -40.0,
+      "p05_mcv": 960.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 4.6,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-18",
+      "params": {
+        "threshold": 2,
+        "activation_step": 450,
+        "min_price": 125.0
+      },
+      "mean_mcv": 960.0,
+      "delta_mcv": -40.0,
+      "p05_mcv": 960.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 5.9,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-21",
+      "params": {
+        "threshold": 2,
+        "activation_step": 500,
+        "min_price": 125.0
+      },
+      "mean_mcv": 960.0,
+      "delta_mcv": -40.0,
+      "p05_mcv": 960.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 7.2,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-24",
+      "params": {
+        "threshold": 2,
+        "activation_step": 550,
+        "min_price": 125.0
+      },
+      "mean_mcv": 960.0,
+      "delta_mcv": -40.0,
+      "p05_mcv": 960.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 8.5,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-27",
+      "params": {
+        "threshold": 3,
+        "activation_step": 400,
+        "min_price": 125.0
+      },
+      "mean_mcv": 960.0,
+      "delta_mcv": -40.0,
+      "p05_mcv": 960.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 12.2,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-30",
+      "params": {
+        "threshold": 3,
+        "activation_step": 450,
+        "min_price": 125.0
+      },
+      "mean_mcv": 960.0,
+      "delta_mcv": -40.0,
+      "p05_mcv": 960.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 12.2,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-33",
+      "params": {
+        "threshold": 3,
+        "activation_step": 500,
+        "min_price": 125.0
+      },
+      "mean_mcv": 960.0,
+      "delta_mcv": -40.0,
+      "p05_mcv": 960.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 12.2,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-36",
+      "params": {
+        "threshold": 3,
+        "activation_step": 550,
+        "min_price": 125.0
+      },
+      "mean_mcv": 960.0,
+      "delta_mcv": -40.0,
+      "p05_mcv": 960.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 12.2,
+      "strawberry_harvest_delay_turns": 0.0
+    },
+    {
+      "candidate_id": "CAND-118-01",
+      "params": {
+        "threshold": 1,
+        "activation_step": 400,
+        "min_price": 100.0
+      },
+      "mean_mcv": -7922.0,
+      "delta_mcv": -8922.0,
+      "p05_mcv": -7922.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 4.4,
+      "strawberry_harvest_delay_turns": 60.0
+    },
+    {
+      "candidate_id": "CAND-118-02",
+      "params": {
+        "threshold": 1,
+        "activation_step": 400,
+        "min_price": 115.0
+      },
+      "mean_mcv": -7922.0,
+      "delta_mcv": -8922.0,
+      "p05_mcv": -7922.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 4.4,
+      "strawberry_harvest_delay_turns": 60.0
+    },
+    {
+      "candidate_id": "CAND-118-04",
+      "params": {
+        "threshold": 1,
+        "activation_step": 450,
+        "min_price": 100.0
+      },
+      "mean_mcv": -7922.0,
+      "delta_mcv": -8922.0,
+      "p05_mcv": -7922.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 5.7,
+      "strawberry_harvest_delay_turns": 60.0
+    },
+    {
+      "candidate_id": "CAND-118-05",
+      "params": {
+        "threshold": 1,
+        "activation_step": 450,
+        "min_price": 115.0
+      },
+      "mean_mcv": -7922.0,
+      "delta_mcv": -8922.0,
+      "p05_mcv": -7922.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 5.7,
+      "strawberry_harvest_delay_turns": 60.0
+    },
+    {
+      "candidate_id": "CAND-118-07",
+      "params": {
+        "threshold": 1,
+        "activation_step": 500,
+        "min_price": 100.0
+      },
+      "mean_mcv": -7922.0,
+      "delta_mcv": -8922.0,
+      "p05_mcv": -7922.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 7.0,
+      "strawberry_harvest_delay_turns": 60.0
+    },
+    {
+      "candidate_id": "CAND-118-08",
+      "params": {
+        "threshold": 1,
+        "activation_step": 500,
+        "min_price": 115.0
+      },
+      "mean_mcv": -7922.0,
+      "delta_mcv": -8922.0,
+      "p05_mcv": -7922.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 7.0,
+      "strawberry_harvest_delay_turns": 60.0
+    },
+    {
+      "candidate_id": "CAND-118-10",
+      "params": {
+        "threshold": 1,
+        "activation_step": 550,
+        "min_price": 100.0
+      },
+      "mean_mcv": -7922.0,
+      "delta_mcv": -8922.0,
+      "p05_mcv": -7922.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 8.3,
+      "strawberry_harvest_delay_turns": 60.0
+    },
+    {
+      "candidate_id": "CAND-118-11",
+      "params": {
+        "threshold": 1,
+        "activation_step": 550,
+        "min_price": 115.0
+      },
+      "mean_mcv": -7922.0,
+      "delta_mcv": -8922.0,
+      "p05_mcv": -7922.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 8.3,
+      "strawberry_harvest_delay_turns": 60.0
+    },
+    {
+      "candidate_id": "CAND-118-03",
+      "params": {
+        "threshold": 1,
+        "activation_step": 400,
+        "min_price": 125.0
+      },
+      "mean_mcv": -8040.0,
+      "delta_mcv": -9040.0,
+      "p05_mcv": -8040.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 4.6,
+      "strawberry_harvest_delay_turns": 60.0
+    },
+    {
+      "candidate_id": "CAND-118-06",
+      "params": {
+        "threshold": 1,
+        "activation_step": 450,
+        "min_price": 125.0
+      },
+      "mean_mcv": -8040.0,
+      "delta_mcv": -9040.0,
+      "p05_mcv": -8040.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 5.9,
+      "strawberry_harvest_delay_turns": 60.0
+    },
+    {
+      "candidate_id": "CAND-118-09",
+      "params": {
+        "threshold": 1,
+        "activation_step": 500,
+        "min_price": 125.0
+      },
+      "mean_mcv": -8040.0,
+      "delta_mcv": -9040.0,
+      "p05_mcv": -8040.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 7.2,
+      "strawberry_harvest_delay_turns": 60.0
+    },
+    {
+      "candidate_id": "CAND-118-12",
+      "params": {
+        "threshold": 1,
+        "activation_step": 550,
+        "min_price": 125.0
+      },
+      "mean_mcv": -8040.0,
+      "delta_mcv": -9040.0,
+      "p05_mcv": -8040.0,
+      "win_rate": 0.0,
+      "milk_liquidation_latency_steps": 8.5,
+      "strawberry_harvest_delay_turns": 60.0
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "status": "AUTHORITATIVE_GATE1_FAIL",
+  "scope": "read-only historical release-record reconciliation",
+  "games_run": false,
+  "upload_executed": false,
+  "authoritative_result": {
+    "source_files": [
+      "apex_next/apex4/results/gate1.json",
+      "apex_next/research/EXP-0155/results/gate1.json"
+    ],
+    "seed_records": 46,
+    "seat_matches": 92,
+    "win_points": 46.0,
+    "win_rate": 0.5,
+    "errors": 0,
+    "gate_threshold": 0.6,
+    "verdict": "FAIL"
+  },
+  "seed_source": {
+    "file": "reports/live_match_telemetry/apex33_loss_seeds_cache.json",
+    "seed_count": 46
+  },
+  "candidate": {
+    "file": "APEX4_SUBMISSION_FINAL.py",
+    "sha256": "0f3ddc3c5b67999d51508a38361bafe140a9050d7e2e3039ae2ccbc810dff45a"
+  },
+  "baseline": {
+    "file": "submission.py",
+    "sha256": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb"
+  },
+  "unsupported_manifest_claim": {
+    "reported_gate1_rate": 0.674,
+    "reported_wins_over_46": 31,
+    "description": "The 31/46 figure is described in macro/projection artifacts as projected loss recovery; no matching executed Gate 1 result artifact was found.",
+    "sources": [
+      "APEX4_RELEASE_MANIFEST.json",
+      "APEX4_PROVENANCE.json",
+      "reports/PROJECT_STATE.md",
+      "reports/APEX4_MACRO_ECONOMIC_REPORT.md",
+      "reports/APEX4_MACRO_MODELS_ANALYSIS.json",
+      "reports/APEX4_NE_4TILE_FEASIBILITY.md"
+    ]
+  },
+  "agreeing_authoritative_records": [
+    "reports/APEX4_GATE_REPORT.json",
+    "reports/APEX4_RELEASE_DECISION.md",
+    "apex_next/apex4/results/gate1.json",
+    "apex_next/research/EXP-0155/results/gate1.json"
+  ],
+  "missing_provenance_fields_in_gate_result": [
+    "candidate_sha256",
+    "evaluator_commit",
+    "engine_package_hash",
+    "complete_configuration_manifest"
+  ],
+  "decision": "Do not upload APEX 4.0. Reconcile or invalidate the manifest/provenance/state summaries. Keep APEX 3.5 live and unchanged."
+}

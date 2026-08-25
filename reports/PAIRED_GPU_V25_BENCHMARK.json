@@ -1,0 +1,96 @@
+{
+  "id": "PAIRED-GPU-V25-BENCHMARK",
+  "timestamp": "2026-08-18T05:32:44Z",
+  "hardware_platform": "Intel Core / NVIDIA GeForce RTX 4050 Laptop / Windows 11",
+  "optimal_batch_size": 4096,
+  "peak_paired_matches_per_second": 1846.0,
+  "peak_steps_per_second": 2658195.0,
+  "speedup_vs_paired_v2": 48.4,
+  "execution_breakdown": {
+    "total_wall_time_s": 0.3697,
+    "policy_time_s": 0.0219,
+    "environment_time_s": 0.3476,
+    "policy_pct": 5.9,
+    "environment_pct": 94.0,
+    "throughput_steps_per_sec": 7976755.0
+  },
+  "batch_scaling_curve": [
+    {
+      "batch_size_seeds": 256,
+      "total_matches": 512,
+      "wall_time_seconds": 0.2021,
+      "steps_per_second": 1823739.0,
+      "paired_matches_per_second": 1266.5,
+      "single_matches_per_second": 2533.0,
+      "memory_usage_mb": 42.9,
+      "speedup_vs_v2": 33.2,
+      "status": "STABLE"
+    },
+    {
+      "batch_size_seeds": 512,
+      "total_matches": 1024,
+      "wall_time_seconds": 0.3431,
+      "steps_per_second": 2149072.0,
+      "paired_matches_per_second": 1492.4,
+      "single_matches_per_second": 2984.8,
+      "memory_usage_mb": 49.6,
+      "speedup_vs_v2": 39.1,
+      "status": "STABLE"
+    },
+    {
+      "batch_size_seeds": 1024,
+      "total_matches": 2048,
+      "wall_time_seconds": 0.6068,
+      "steps_per_second": 2430058.0,
+      "paired_matches_per_second": 1687.5,
+      "single_matches_per_second": 3375.1,
+      "memory_usage_mb": 60.9,
+      "speedup_vs_v2": 44.2,
+      "status": "STABLE"
+    },
+    {
+      "batch_size_seeds": 2048,
+      "total_matches": 4096,
+      "wall_time_seconds": 1.1372,
+      "steps_per_second": 2593276.0,
+      "paired_matches_per_second": 1800.9,
+      "single_matches_per_second": 3601.8,
+      "memory_usage_mb": 85.0,
+      "speedup_vs_v2": 47.2,
+      "status": "STABLE"
+    },
+    {
+      "batch_size_seeds": 4096,
+      "total_matches": 8192,
+      "wall_time_seconds": 2.2189,
+      "steps_per_second": 2658195.0,
+      "paired_matches_per_second": 1846.0,
+      "single_matches_per_second": 3691.9,
+      "memory_usage_mb": 132.5,
+      "speedup_vs_v2": 48.4,
+      "status": "STABLE_OPTIMAL"
+    },
+    {
+      "batch_size_seeds": 8192,
+      "total_matches": 16384,
+      "wall_time_seconds": 4.4526,
+      "steps_per_second": 2649357.0,
+      "paired_matches_per_second": 1839.8,
+      "single_matches_per_second": 3679.7,
+      "memory_usage_mb": 228.1,
+      "speedup_vs_v2": 48.2,
+      "status": "STABLE_OPTIMAL"
+    },
+    {
+      "batch_size_seeds": 16384,
+      "total_matches": 32768,
+      "wall_time_seconds": 9.4478,
+      "steps_per_second": 2497189.0,
+      "paired_matches_per_second": 1734.2,
+      "single_matches_per_second": 3468.3,
+      "memory_usage_mb": 417.5,
+      "speedup_vs_v2": 45.4,
+      "status": "STABLE"
+    }
+  ]
+}

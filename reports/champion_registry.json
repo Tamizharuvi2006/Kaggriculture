@@ -1,0 +1,25 @@
+{
+  "champion": {
+    "version_tag": "APEX-3.5-PROD",
+    "candidate_file": "D:\\kaggriculture\\generalization_pipeline\\submission_candidate_apex35.py",
+    "candidate_hash": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb",
+    "baseline_hash": "f10bb5ea10a34923846d9b396f98c7c7dfecea981c74ec732e0e65711ce55674",
+    "holdout_suite": "REG_VERIFY_46_SEEDS",
+    "holdout_hash": "apex33_loss_seeds_cache_46",
+    "win_rate": 1.0,
+    "mean_mcv": 104616.21,
+    "p05_mcv": 54058.0,
+    "promoted_at": "2026-08-14T14:58:31.278343Z",
+    "judge_verdict": "APPROVED_FOR_RELEASE"
+  },
+  "history": [
+    {
+      "from": null,
+      "to": "APEX-3.5-PROD",
+      "candidate_hash": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb",
+      "promoted_at": "2026-08-14T14:58:31.278343Z"
+    }
+  ],
+  "promotion_rule": "Challenger must pass ALL 6 statistical gates on the frozen holdout.",
+  "auto_revert": "DISABLED_BY_CONTRACT"
+}

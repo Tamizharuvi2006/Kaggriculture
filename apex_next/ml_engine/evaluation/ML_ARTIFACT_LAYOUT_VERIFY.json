@@ -1,0 +1,107 @@
+{
+  "ok": true,
+  "required_paths": {
+    "dataset": {
+      "path": "D:\\Kaggriculture\\apex_next\\ml_engine\\data\\current\\step3g_targeted_1000\\expert_demos_step3g_targeted_1000.npz",
+      "exists": true,
+      "is_file": true,
+      "is_dir": false
+    },
+    "labels": {
+      "path": "D:\\Kaggriculture\\apex_next\\ml_engine\\data\\current\\step3g_targeted_1000\\opponent_labels_step3g_targeted_1000.npz",
+      "exists": true,
+      "is_file": true,
+      "is_dir": false
+    },
+    "classifier_checkpoint": {
+      "path": "D:\\Kaggriculture\\apex_next\\ml_engine\\checkpoints\\opponent_classifier\\opponent_classifier.pt",
+      "exists": true,
+      "is_file": true,
+      "is_dir": false
+    },
+    "strategy_smoke_checkpoint": {
+      "path": "D:\\Kaggriculture\\apex_next\\ml_engine\\checkpoints\\strategy_selector\\strategy_selector_smoke.pt",
+      "exists": true,
+      "is_file": true,
+      "is_dir": false
+    },
+    "strategy_timing_checkpoint": {
+      "path": "D:\\Kaggriculture\\apex_next\\ml_engine\\checkpoints\\strategy_selector\\strategy_selector_timing_smoke.pt",
+      "exists": true,
+      "is_file": true,
+      "is_dir": false
+    },
+    "step4_report": {
+      "path": "D:\\Kaggriculture\\apex_next\\ml_engine\\evaluation\\step4_classifier\\opponent_classifier_report.json",
+      "exists": true,
+      "is_file": true,
+      "is_dir": false
+    },
+    "step5_smoke_report": {
+      "path": "D:\\Kaggriculture\\apex_next\\ml_engine\\evaluation\\step5_strategy\\strategy_selector_smoke_report.json",
+      "exists": true,
+      "is_file": true,
+      "is_dir": false
+    },
+    "step5_timing_report": {
+      "path": "D:\\Kaggriculture\\apex_next\\ml_engine\\evaluation\\step5_strategy\\strategy_timing_diagnostic_report.json",
+      "exists": true,
+      "is_file": true,
+      "is_dir": false
+    },
+    "invalidated_marker": {
+      "path": "D:\\Kaggriculture\\apex_next\\ml_engine\\data\\invalidated\\original_seat_bug\\EXPERT_DEMOS_INVALIDATION_NOTE.md",
+      "exists": true,
+      "is_file": true,
+      "is_dir": false
+    }
+  },
+  "dataset": {
+    "files": [
+      "features",
+      "opponent_features",
+      "raw_actions_json",
+      "actions_json",
+      "raw_opponent_actions_json",
+      "opponent_actions_json",
+      "rewards",
+      "terminals",
+      "episode_ids",
+      "steps",
+      "opponent_ids"
+    ],
+    "features_shape": [
+      719000,
+      128
+    ],
+    "features_dtype": "float32",
+    "opponent_features_shape": [
+      719000,
+      24
+    ],
+    "opponent_features_dtype": "float32"
+  },
+  "labels": {
+    "files": [
+      "labels",
+      "transition_labels",
+      "episode_labels",
+      "episode_ids",
+      "class_names",
+      "label_reasons",
+      "source_dataset"
+    ],
+    "label_key": "labels",
+    "shape": [
+      719000
+    ],
+    "dtype": "int64",
+    "class_distribution": {
+      "0": 143800,
+      "1": 143800,
+      "2": 143800,
+      "3": 143800,
+      "4": 143800
+    }
+  }
+}

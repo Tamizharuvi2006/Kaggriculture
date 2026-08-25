@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-22",
+  "scope": "read-only local Kaggriculture environment registration diagnosis",
+  "experiment_status": "MILK-only paired experiment did not produce a valid game",
+  "current_interpreter_documented": "C:\\Users\\aruvi\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "current_environment": {
+    "site_packages_exists": true,
+    "kaggle_environments_package_found": false,
+    "kaggriculture_module_found": false,
+    "distribution_metadata_found": false,
+    "path_python_available": false,
+    "path_py_launcher_available": false
+  },
+  "historical_python311_paths": {
+    "hard_coded_43731140_path_exists": false,
+    "current_user_python311_path_exists": false
+  },
+  "known_good_reference": {
+    "report": "apex_next/ml_engine/evaluation/step1_environment/step1_acceptance_report.json",
+    "environment_call": "kaggle_environments.make('kaggriculture')",
+    "episodes_completed": 10,
+    "transitions_total": 7190,
+    "transitions_per_episode": 719,
+    "exceptions": [],
+    "documented_version": "1.32.6",
+    "documented_python": "3.13"
+  },
+  "root_cause": "The current Python 3.13 site-packages does not contain kaggle_environments or kaggriculture registration, so the documented 1.32.6 runtime is not currently reproducible from this interpreter location.",
+  "actions_performed": [
+    "read repository documentation and runner source",
+    "read known-good acceptance report",
+    "read-only package/path scans"
+  ],
+  "actions_not_performed": [
+    "no game run",
+    "no MILK experiment",
+    "no package installation or reinstallation",
+    "no source, checkpoint, submission, reward, Land #4, or production modification"
+  ],
+  "restoration_gate": {
+    "required_before_milk_test": "real Kaggriculture game completes 720 calls / 719 transitions with no exception",
+    "recommendation": "locate and use the exact historical interpreter/package/registration mechanism; do not perform a speculative reinstall"
+  }
+}

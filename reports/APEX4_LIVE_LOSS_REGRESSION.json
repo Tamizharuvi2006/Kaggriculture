@@ -1,0 +1,629 @@
+{
+  "report_id": "APEX4-LIVE-LOSS-REGRESSION-REPORT",
+  "timestamp": "2026-08-17T22:30:00Z",
+  "candidate": "APEX 4.0 Master Adaptive Engine (SHA256: 0f3ddc3c5b67...)",
+  "baseline": "APEX 3.5 PROD (Ref 55483322)",
+  "metrics": {
+    "total_recent_losses": 30,
+    "truly_new_losses": 30,
+    "apex4_recovered_wins": 18,
+    "apex4_still_lost": 12,
+    "recovery_rate_pct": 60.0,
+    "mean_mcv_lift": 3220.6666666666665,
+    "median_mcv_lift": 3360.0,
+    "mean_margin_improvement": 3220.6666666666665,
+    "p05_margin": -12099.949999999999,
+    "p01_margin": -19102.89,
+    "worst_case_margin": -21469.0
+  },
+  "rule_breakdown": {
+    "RULE_01": 0,
+    "RULE_02": 0,
+    "RULE_03": 0,
+    "RULE_04": 0,
+    "MULTI_RULE": 30,
+    "NO_EFFECT": 0
+  },
+  "detailed_results": [
+    {
+      "episode_id": 92873490,
+      "date": "2026-08-14",
+      "seat": 1,
+      "opp_sub_id": 55497749,
+      "opp_rating": 1149.564796269985,
+      "apex35_score": 61892,
+      "opp_score": 67021,
+      "initial_margin": -5129,
+      "apex4_score": 65252.0,
+      "new_margin": -1769.0,
+      "delta_mcv": 3360.0,
+      "is_recovered": false,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "STILL_LOST (NARROWED DEFICIT)"
+    },
+    {
+      "episode_id": 92821576,
+      "date": "2026-08-14",
+      "seat": 1,
+      "opp_sub_id": 55493956,
+      "opp_rating": 1041.8126191132174,
+      "apex35_score": 65772,
+      "opp_score": 66490,
+      "initial_margin": -718,
+      "apex4_score": 69132.0,
+      "new_margin": 2642.0,
+      "delta_mcv": 3360.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92820867,
+      "date": "2026-08-14",
+      "seat": 1,
+      "opp_sub_id": 55437267,
+      "opp_rating": 1210.7946851081754,
+      "apex35_score": 64106,
+      "opp_score": 64705,
+      "initial_margin": -599,
+      "apex4_score": 67316.0,
+      "new_margin": 2611.0,
+      "delta_mcv": 3210.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_03"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92792740,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55490888,
+      "opp_rating": 1171.0900200241515,
+      "apex35_score": 78190,
+      "opp_score": 81542,
+      "initial_margin": -3352,
+      "apex4_score": 81400.0,
+      "new_margin": -142.0,
+      "delta_mcv": 3210.0,
+      "is_recovered": false,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_03"
+      ],
+      "status": "STILL_LOST (NARROWED DEFICIT)"
+    },
+    {
+      "episode_id": 92782407,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55491894,
+      "opp_rating": 1049.5720097138183,
+      "apex35_score": 58995,
+      "opp_score": 83824,
+      "initial_margin": -24829,
+      "apex4_score": 62355.0,
+      "new_margin": -21469.0,
+      "delta_mcv": 3360.0,
+      "is_recovered": false,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "STILL_LOST (NARROWED DEFICIT)"
+    },
+    {
+      "episode_id": 92781573,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55491492,
+      "opp_rating": 1046.260502010739,
+      "apex35_score": 40581,
+      "opp_score": 44116,
+      "initial_margin": -3535,
+      "apex4_score": 43271.0,
+      "new_margin": -845.0,
+      "delta_mcv": 2690.0,
+      "is_recovered": false,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_04"
+      ],
+      "status": "STILL_LOST (NARROWED DEFICIT)"
+    },
+    {
+      "episode_id": 92760409,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55489796,
+      "opp_rating": 1284.6152676589584,
+      "apex35_score": 53075,
+      "opp_score": 62355,
+      "initial_margin": -9280,
+      "apex4_score": 55765.0,
+      "new_margin": -6590.0,
+      "delta_mcv": 2690.0,
+      "is_recovered": false,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_04"
+      ],
+      "status": "STILL_LOST (NARROWED DEFICIT)"
+    },
+    {
+      "episode_id": 92753772,
+      "date": "2026-08-13",
+      "seat": 0,
+      "opp_sub_id": 55490433,
+      "opp_rating": 1055.8052142699464,
+      "apex35_score": 37023,
+      "opp_score": 50334,
+      "initial_margin": -13311,
+      "apex4_score": 39713.0,
+      "new_margin": -10621.0,
+      "delta_mcv": 2690.0,
+      "is_recovered": false,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_04"
+      ],
+      "status": "STILL_LOST (NARROWED DEFICIT)"
+    },
+    {
+      "episode_id": 92745505,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55489697,
+      "opp_rating": 1106.3204726015565,
+      "apex35_score": 87342,
+      "opp_score": 101420,
+      "initial_margin": -14078,
+      "apex4_score": 90832.0,
+      "new_margin": -10588.0,
+      "delta_mcv": 3490.0,
+      "is_recovered": false,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "STILL_LOST (NARROWED DEFICIT)"
+    },
+    {
+      "episode_id": 92744887,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55427130,
+      "opp_rating": 1133.8041604381851,
+      "apex35_score": 61604,
+      "opp_score": 62556,
+      "initial_margin": -952,
+      "apex4_score": 64964.0,
+      "new_margin": 2408.0,
+      "delta_mcv": 3360.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92721694,
+      "date": "2026-08-13",
+      "seat": 0,
+      "opp_sub_id": 55479991,
+      "opp_rating": 1063.9147627613322,
+      "apex35_score": 29835,
+      "opp_score": 31604,
+      "initial_margin": -1769,
+      "apex4_score": 32525.0,
+      "new_margin": 921.0,
+      "delta_mcv": 2690.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_04"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92710604,
+      "date": "2026-08-13",
+      "seat": 0,
+      "opp_sub_id": 55449124,
+      "opp_rating": 1181.8565848568633,
+      "apex35_score": 82266,
+      "opp_score": 82685,
+      "initial_margin": -419,
+      "apex4_score": 85756.0,
+      "new_margin": 3071.0,
+      "delta_mcv": 3490.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92697574,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55486730,
+      "opp_rating": 1238.0618661776055,
+      "apex35_score": 30536,
+      "opp_score": 37912,
+      "initial_margin": -7376,
+      "apex4_score": 33226.0,
+      "new_margin": -4686.0,
+      "delta_mcv": 2690.0,
+      "is_recovered": false,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_04"
+      ],
+      "status": "STILL_LOST (NARROWED DEFICIT)"
+    },
+    {
+      "episode_id": 92685417,
+      "date": "2026-08-13",
+      "seat": 0,
+      "opp_sub_id": 55424868,
+      "opp_rating": 1153.6932862699093,
+      "apex35_score": 58580,
+      "opp_score": 59640,
+      "initial_margin": -1060,
+      "apex4_score": 61790.0,
+      "new_margin": 2150.0,
+      "delta_mcv": 3210.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_03"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92684467,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55473510,
+      "opp_rating": 1134.4072786970526,
+      "apex35_score": 95885,
+      "opp_score": 99163,
+      "initial_margin": -3278,
+      "apex4_score": 99375.0,
+      "new_margin": 212.0,
+      "delta_mcv": 3490.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92682596,
+      "date": "2026-08-13",
+      "seat": 0,
+      "opp_sub_id": 55449124,
+      "opp_rating": 1180.5839821206193,
+      "apex35_score": 63447,
+      "opp_score": 64890,
+      "initial_margin": -1443,
+      "apex4_score": 66657.0,
+      "new_margin": 1767.0,
+      "delta_mcv": 3210.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_03"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92680700,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55484024,
+      "opp_rating": 1132.7952893773097,
+      "apex35_score": 84752,
+      "opp_score": 87246,
+      "initial_margin": -2494,
+      "apex4_score": 88242.0,
+      "new_margin": 996.0,
+      "delta_mcv": 3490.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92678835,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55430675,
+      "opp_rating": 1211.707765721473,
+      "apex35_score": 85802,
+      "opp_score": 89300,
+      "initial_margin": -3498,
+      "apex4_score": 89292.0,
+      "new_margin": -8.0,
+      "delta_mcv": 3490.0,
+      "is_recovered": false,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "STILL_LOST (NARROWED DEFICIT)"
+    },
+    {
+      "episode_id": 92677877,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55257118,
+      "opp_rating": 1164.1494333216478,
+      "apex35_score": 65382,
+      "opp_score": 67446,
+      "initial_margin": -2064,
+      "apex4_score": 68592.0,
+      "new_margin": 1146.0,
+      "delta_mcv": 3210.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_03"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92676926,
+      "date": "2026-08-13",
+      "seat": 0,
+      "opp_sub_id": 55286551,
+      "opp_rating": 1164.759454468765,
+      "apex35_score": 93267,
+      "opp_score": 95494,
+      "initial_margin": -2227,
+      "apex4_score": 96757.0,
+      "new_margin": 1263.0,
+      "delta_mcv": 3490.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92673149,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55293479,
+      "opp_rating": 1198.2795589332598,
+      "apex35_score": 65864,
+      "opp_score": 72159,
+      "initial_margin": -6295,
+      "apex4_score": 69074.0,
+      "new_margin": -3085.0,
+      "delta_mcv": 3210.0,
+      "is_recovered": false,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_03"
+      ],
+      "status": "STILL_LOST (NARROWED DEFICIT)"
+    },
+    {
+      "episode_id": 92672213,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55436474,
+      "opp_rating": 1181.4321757396547,
+      "apex35_score": 42298,
+      "opp_score": 50345,
+      "initial_margin": -8047,
+      "apex4_score": 44988.0,
+      "new_margin": -5357.0,
+      "delta_mcv": 2690.0,
+      "is_recovered": false,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_04"
+      ],
+      "status": "STILL_LOST (NARROWED DEFICIT)"
+    },
+    {
+      "episode_id": 92670343,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55266412,
+      "opp_rating": 1165.789940482498,
+      "apex35_score": 37513,
+      "opp_score": 39076,
+      "initial_margin": -1563,
+      "apex4_score": 40203.0,
+      "new_margin": 1127.0,
+      "delta_mcv": 2690.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_04"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92665598,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55247701,
+      "opp_rating": 1176.0531397429413,
+      "apex35_score": 124344,
+      "opp_score": 125630,
+      "initial_margin": -1286,
+      "apex4_score": 127834.0,
+      "new_margin": 2204.0,
+      "delta_mcv": 3490.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92663703,
+      "date": "2026-08-13",
+      "seat": 0,
+      "opp_sub_id": 55275139,
+      "opp_rating": 1202.8868241035532,
+      "apex35_score": 60274,
+      "opp_score": 61554,
+      "initial_margin": -1280,
+      "apex4_score": 63484.0,
+      "new_margin": 1930.0,
+      "delta_mcv": 3210.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_03"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92662787,
+      "date": "2026-08-13",
+      "seat": 0,
+      "opp_sub_id": 55482597,
+      "opp_rating": 1154.526259679998,
+      "apex35_score": 109693,
+      "opp_score": 112074,
+      "initial_margin": -2381,
+      "apex4_score": 113183.0,
+      "new_margin": 1109.0,
+      "delta_mcv": 3490.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92662754,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55476677,
+      "opp_rating": 1285.986969078382,
+      "apex35_score": 124237,
+      "opp_score": 127177,
+      "initial_margin": -2940,
+      "apex4_score": 127727.0,
+      "new_margin": 550.0,
+      "delta_mcv": 3490.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92659893,
+      "date": "2026-08-13",
+      "seat": 0,
+      "opp_sub_id": 55482179,
+      "opp_rating": 1166.634408202467,
+      "apex35_score": 93228,
+      "opp_score": 93816,
+      "initial_margin": -588,
+      "apex4_score": 96718.0,
+      "new_margin": 2902.0,
+      "delta_mcv": 3490.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "RECOVERED (WIN)"
+    },
+    {
+      "episode_id": 92657061,
+      "date": "2026-08-13",
+      "seat": 1,
+      "opp_sub_id": 55483232,
+      "opp_rating": 1097.9685251623707,
+      "apex35_score": 83211,
+      "opp_score": 100011,
+      "initial_margin": -16800,
+      "apex4_score": 86701.0,
+      "new_margin": -13310.0,
+      "delta_mcv": 3490.0,
+      "is_recovered": false,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "STILL_LOST (NARROWED DEFICIT)"
+    },
+    {
+      "episode_id": 92654227,
+      "date": "2026-08-13",
+      "seat": 0,
+      "opp_sub_id": 55471702,
+      "opp_rating": 951.9783284477797,
+      "apex35_score": 108473,
+      "opp_score": 109623,
+      "initial_margin": -1150,
+      "apex4_score": 111963.0,
+      "new_margin": 2340.0,
+      "delta_mcv": 3490.0,
+      "is_recovered": true,
+      "primary_rule": "MULTI_RULE",
+      "applied_rules": [
+        "RULE_01",
+        "RULE_02"
+      ],
+      "status": "RECOVERED (WIN)"
+    }
+  ]
+}

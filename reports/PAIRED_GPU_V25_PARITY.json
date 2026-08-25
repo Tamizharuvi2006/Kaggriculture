@@ -1,0 +1,30 @@
+{
+  "id": "PAIRED-GPU-V25-PARITY",
+  "timestamp": "2026-08-15T15:38:20Z",
+  "validation_scope": "50 Golden Seeds x 2 Seats = 100 Paired Matches",
+  "reference_baseline_engine": "PAIRED_GPU_V2 (Certified)",
+  "vectorized_engine": "PAIRED_GPU_V2.5 (Vectorized Tensor)",
+  "parity_status": "PARITY_CERTIFIED_PASS",
+  "parity_delta_mcv": 0.0,
+  "parity_delta_wr": 0.0,
+  "v2_wall_time_s": 1.3227,
+  "v25_wall_time_s": 0.115,
+  "speedup_multiplier": 11.5,
+  "v25_metrics": {
+    "batch_size_seeds": 50,
+    "total_matches": 100,
+    "wall_time_seconds": 0.0879,
+    "throughput_steps_per_sec": 819538.0,
+    "throughput_paired_matches_per_sec": 569.1,
+    "paired_win_rate": 0.5,
+    "mean_cand_mcv": 34027.48,
+    "mean_base_mcv": 34027.48,
+    "delta_mean_mcv": 0.0,
+    "median_cand_mcv": 34017.71,
+    "p05_cand_mcv": 32982.02,
+    "p05_base_mcv": 32982.02,
+    "p01_cand_mcv": 32610.21,
+    "cand_mcv_a_mean": 34027.48,
+    "cand_mcv_b_mean": 34027.48
+  }
+}

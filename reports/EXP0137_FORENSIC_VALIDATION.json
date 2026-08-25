@@ -1,0 +1,32 @@
+{
+  "id": "EXP0137-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-15T15:42:40Z",
+  "target_hypothesis": "EXP-0137 (MID_GAME_SECOND_WAVE_COW_ACCELERATION)",
+  "variable_family": "Capital_Pacing",
+  "baseline_timing": {
+    "wave2_cow_purchase_step": 156,
+    "wave2_cow_count": 2,
+    "wave2_cow_cost": 1000.0,
+    "first_major_harvest_step": 74,
+    "harvest_liquidity_unlock_step": 96
+  },
+  "acceleration_opportunity": {
+    "proposed_wave2_step": 96,
+    "steps_accelerated": 60,
+    "additional_milking_ticks": 10,
+    "additional_milk_units": 20,
+    "gross_milk_revenue": 3200.0,
+    "wheat_feed_cost": 300.0,
+    "net_realized_cashflow_lift": 2900.0
+  },
+  "physical_constraints_audit": {
+    "pasture1_capacity_available": "2 free slots (3/5 -> 5/5 full)",
+    "cash_at_step_96": "> $3,200.00 (Sufficient for $1,000 cow purchase)",
+    "impact_on_step_170_land_expansion": "Positive (Higher cash balance at Step 170)",
+    "worker_feeding_load": "16 actions/day (22.2% of daily worker capacity)",
+    "worker_transport_pipeline_required": "Must include PICKUP and PLACE actions for the 2 accelerated cows"
+  },
+  "causal_classification": "CAUSAL",
+  "causal_rationale": "Earlier cow acquisition directly generates 10 additional physical milking cycles (+20 milk units) using existing Pasture 1 capacity and harvest liquidity, directly increasing net cashflow by +$2,900 before Land 2 expansion.",
+  "verdict": "VALID_FOR_PREREGISTRATION"
+}

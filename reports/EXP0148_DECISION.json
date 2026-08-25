@@ -1,0 +1,11 @@
+{
+  "id": "EXP0148-DECISION",
+  "timestamp": "2026-08-15T16:44:04Z",
+  "experiment_id": "EXP-0148",
+  "screening_verdict": "CLEARED_GPU",
+  "top_candidate": "CAND-148-02",
+  "top_paired_wr": 1.0,
+  "top_delta_mcv": 2481.56,
+  "gate1_qualified": true,
+  "rationale": "CAND-148-02 demonstrated decisive causal superiority (100.0% WR, +$2,481.56 MCV) across 600 paired matches with 100% solvency."
+}

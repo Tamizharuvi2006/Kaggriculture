@@ -1,0 +1,71 @@
+{
+  "report_id": "APEX41_STAGE3_CURRICULUM_REPORT",
+  "timestamp": "2026-08-17T17:51:30Z",
+  "checkpoint_file": "apex41_best_checkpoint_stage3.pt",
+  "total_gpu_episodes": 30000,
+  "optimal_confidence_threshold": 0.6,
+  "metrics": {
+    "apex40_holdout_wr": 59.0,
+    "stage2_holdout_wr": 64.0,
+    "stage3_holdout_wr": 61.0,
+    "delta_mcv": 339.47,
+    "p05_delta": 0.0,
+    "p01_delta": 0.0,
+    "fallback_rate": 42.0,
+    "elite_opponent_wr": 62.96,
+    "apex40_direct_wr": 58.0,
+    "illegal_rate": 0.0,
+    "critical_violations": 0
+  },
+  "confidence_calibration": [
+    {
+      "bucket": "< 0.50",
+      "samples": 1000,
+      "neural_wr": 50.3,
+      "apex40_wr": 52.2,
+      "delta_wr": -1.9,
+      "recommendation": "FALLBACK_APEX40 (Shield)"
+    },
+    {
+      "bucket": "0.50 - 0.60",
+      "samples": 0,
+      "neural_wr": 0.0,
+      "apex40_wr": 0.0,
+      "delta_wr": 0.0,
+      "recommendation": "NEURAL_BORDERLINE"
+    },
+    {
+      "bucket": "0.60 - 0.70",
+      "samples": 0,
+      "neural_wr": 0.0,
+      "apex40_wr": 0.0,
+      "delta_wr": 0.0,
+      "recommendation": "NEURAL_BORDERLINE"
+    },
+    {
+      "bucket": "0.70 - 0.80",
+      "samples": 0,
+      "neural_wr": 0.0,
+      "apex40_wr": 0.0,
+      "delta_wr": 0.0,
+      "recommendation": "NEURAL_BORDERLINE"
+    },
+    {
+      "bucket": "0.80 - 0.90",
+      "samples": 0,
+      "neural_wr": 0.0,
+      "apex40_wr": 0.0,
+      "delta_wr": 0.0,
+      "recommendation": "NEURAL_BORDERLINE"
+    },
+    {
+      "bucket": "> 0.90",
+      "samples": 0,
+      "neural_wr": 0.0,
+      "apex40_wr": 0.0,
+      "delta_wr": 0.0,
+      "recommendation": "NEURAL_BORDERLINE"
+    }
+  ],
+  "verdict": "STAGE_3_PASSED"
+}

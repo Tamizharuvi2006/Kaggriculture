@@ -1,0 +1,423 @@
+{
+  "status": "PASS",
+  "step": "STEP 5B - Strategy Selector PPO parallel benchmark",
+  "mode": "parallel fixed-policy batch benchmark",
+  "episodes_requested": 12,
+  "episodes_completed": 12,
+  "workers": 2,
+  "decision_step": 120,
+  "source_classifier": "apex_next\\ml_engine\\checkpoints\\opponent_classifier.pt",
+  "source_selector_checkpoint": "apex_next\\ml_engine\\checkpoints\\strategy_selector_timing_smoke.pt",
+  "checkpoint_path": "apex_next\\ml_engine\\checkpoints\\strategy_selector_step5b_benchmark_12_w2.pt",
+  "device": {
+    "cuda_available": true,
+    "cuda_device_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "selected_device": "cuda",
+    "classifier_device": "cuda:0",
+    "selector_device": "cuda:0",
+    "worker_inference_device": "cpu"
+  },
+  "ppo_config": {
+    "lr": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_epsilon": 0.2,
+    "epochs_per_update": 4,
+    "batch_size": 64
+  },
+  "opponent_sampling": "uniform round-robin benchmark over configured pool",
+  "opponent_pool": [
+    "apex35_live",
+    "apex4",
+    "baseline_v18",
+    "crop_heavy_targeted",
+    "aggressive_expand_targeted",
+    "market_manipulator_targeted"
+  ],
+  "reward_definition": "terminal (our_MCV - opponent_MCV) / 100000.0",
+  "causal_rule": "worker classifier and selector input use only the current observation at decision_step",
+  "policy_snapshot_rule": "workers collect with the initial selector checkpoint; PPO update starts only after all workers finish",
+  "pass_checks": {
+    "all_episodes_completed": true,
+    "workers_completed": true,
+    "no_invalid_features": true,
+    "no_illegal_actions": true,
+    "finite_rewards": true,
+    "finite_ppo_losses": true,
+    "parameter_update": true,
+    "checkpoint_reload_ok": true,
+    "cuda_used": true
+  },
+  "timing": {
+    "rollout_seconds": 164.082417,
+    "ppo_update_seconds": 0.980673,
+    "total_seconds": 174.252568,
+    "games_per_second_rollout": 0.07313397858313127,
+    "games_per_second_total": 0.06886555623478488,
+    "estimated_10000_seconds_at_total_rate": 145210.47308333323
+  },
+  "memory": {
+    "tracemalloc_current_mb": 56.38680648803711,
+    "tracemalloc_peak_mb": 56.41259002685547,
+    "cuda_max_memory_allocated_mb": 17.52587890625,
+    "cuda_max_memory_reserved_mb": 22.0,
+    "worker_peak_tracemalloc_mb": 233.0279016494751
+  },
+  "reward_summary": {
+    "mean": 0.6039350032806396,
+    "median": 0.4476250112056732,
+    "p05": -0.009395499713718891,
+    "min": -0.011260000057518482,
+    "max": 1.4741100072860718,
+    "win_rate": 0.5833333333333334
+  },
+  "strategy_counts": {
+    "BALANCED": 2,
+    "LIVESTOCK": 3,
+    "PREMIUM": 1,
+    "WHEAT_RUSH": 6
+  },
+  "opponent_counts": {
+    "aggressive_expand_targeted": 2,
+    "apex35_live": 2,
+    "apex4": 2,
+    "baseline_v18": 2,
+    "crop_heavy_targeted": 2,
+    "market_manipulator_targeted": 2
+  },
+  "update_stats": {
+    "ppo_epochs": 4,
+    "losses": [
+      0.300513356924057,
+      0.2946488857269287,
+      0.28881388902664185,
+      0.2829751670360565
+    ],
+    "policy_losses": [
+      2.9802322387695312e-08,
+      -0.0013425350189208984,
+      -0.002675612922757864,
+      -0.004004607908427715
+    ],
+    "value_losses": [
+      0.6287335157394409,
+      0.6196867227554321,
+      0.6106797456741333,
+      0.6016566753387451
+    ],
+    "entropy": [
+      1.385343313217163,
+      1.3851938247680664,
+      1.3850347995758057,
+      1.3848586082458496
+    ],
+    "grad_norm_last": 0.7933729887008667,
+    "finite_losses": true,
+    "reward_mean": 0.6039350032806396,
+    "reward_min": -0.011260000057518482,
+    "reward_max": 1.4741100072860718
+  },
+  "max_parameter_delta": 0.0012035071849822998,
+  "checkpoint_reload_ok": true,
+  "shards": [
+    {
+      "status": "PASS",
+      "shard_index": 0,
+      "episode_offset": 0,
+      "episodes_requested": 6,
+      "episodes_completed": 6,
+      "exceptions": [],
+      "elapsed_seconds": 157.375202,
+      "tracemalloc_peak_mb": 214.4648962020874
+    },
+    {
+      "status": "PASS",
+      "shard_index": 1,
+      "episode_offset": 6,
+      "episodes_requested": 6,
+      "episodes_completed": 6,
+      "exceptions": [],
+      "elapsed_seconds": 157.58329,
+      "tracemalloc_peak_mb": 233.0279016494751
+    }
+  ],
+  "sample_episode_reports": [
+    {
+      "episode": 0,
+      "seed": 36000,
+      "opponent_id": "apex35_live",
+      "completed": true,
+      "steps": 719,
+      "raw_terminal_reward": -100.0,
+      "normalized_reward": -0.001,
+      "invalid_feature_count": 0,
+      "illegal_action_count": 0,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 0,
+      "strategy_name": "PREMIUM",
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5348734259605408,
+      "classifier_probs": [
+        0.9999996423721313,
+        2.9486848518445186e-08,
+        3.377724966044382e-12,
+        2.61107629739854e-07,
+        6.890507364687437e-08
+      ]
+    },
+    {
+      "episode": 1,
+      "seed": 36001,
+      "opponent_id": "apex4",
+      "completed": true,
+      "steps": 719,
+      "raw_terminal_reward": 498.0,
+      "normalized_reward": 0.00498,
+      "invalid_feature_count": 0,
+      "illegal_action_count": 0,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 2,
+      "strategy_name": "WHEAT_RUSH",
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5332621335983276,
+      "classifier_probs": [
+        0.9999996423721313,
+        2.9486848518445186e-08,
+        3.377724966044382e-12,
+        2.61107629739854e-07,
+        6.890507364687437e-08
+      ]
+    },
+    {
+      "episode": 2,
+      "seed": 36002,
+      "opponent_id": "baseline_v18",
+      "completed": true,
+      "steps": 719,
+      "raw_terminal_reward": -787.0,
+      "normalized_reward": -0.00787,
+      "invalid_feature_count": 0,
+      "illegal_action_count": 0,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 2,
+      "strategy_name": "WHEAT_RUSH",
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5352165699005127,
+      "classifier_probs": [
+        0.9999996423721313,
+        2.9447955185446517e-08,
+        3.2743404342061577e-12,
+        2.588766108146956e-07,
+        6.77480969102362e-08
+      ]
+    },
+    {
+      "episode": 3,
+      "seed": 36003,
+      "opponent_id": "crop_heavy_targeted",
+      "completed": true,
+      "steps": 719,
+      "raw_terminal_reward": 89027.0,
+      "normalized_reward": 0.89027,
+      "invalid_feature_count": 0,
+      "illegal_action_count": 0,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 2,
+      "strategy_name": "WHEAT_RUSH",
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5421719551086426,
+      "classifier_probs": [
+        1.5349344906212536e-08,
+        0.9998514652252197,
+        2.898443513363769e-17,
+        1.0463168109708931e-05,
+        0.0001380003959638998
+      ]
+    },
+    {
+      "episode": 4,
+      "seed": 36004,
+      "opponent_id": "aggressive_expand_targeted",
+      "completed": true,
+      "steps": 719,
+      "raw_terminal_reward": 134255.0,
+      "normalized_reward": 1.34255,
+      "invalid_feature_count": 0,
+      "illegal_action_count": 0,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 2,
+      "strategy_name": "WHEAT_RUSH",
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.544712245464325,
+      "classifier_probs": [
+        5.298788723068218e-18,
+        4.781037787893183e-09,
+        0.0,
+        0.9999992847442627,
+        6.569290462721256e-07
+      ]
+    },
+    {
+      "episode": 5,
+      "seed": 36005,
+      "opponent_id": "market_manipulator_targeted",
+      "completed": true,
+      "steps": 719,
+      "raw_terminal_reward": 97133.0,
+      "normalized_reward": 0.97133,
+      "invalid_feature_count": 0,
+      "illegal_action_count": 0,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 2,
+      "strategy_name": "WHEAT_RUSH",
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5352028012275696,
+      "classifier_probs": [
+        0.002773051615804434,
+        8.817147545414628e-07,
+        2.5363561945157542e-11,
+        2.069912625302095e-05,
+        0.9972053170204163
+      ]
+    },
+    {
+      "episode": 6,
+      "seed": 36006,
+      "opponent_id": "apex35_live",
+      "completed": true,
+      "steps": 719,
+      "raw_terminal_reward": -1126.0,
+      "normalized_reward": -0.01126,
+      "invalid_feature_count": 0,
+      "illegal_action_count": 0,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 1,
+      "strategy_name": "LIVESTOCK",
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5330517292022705,
+      "classifier_probs": [
+        0.9999996423721313,
+        2.9481112662210762e-08,
+        3.372401099696609e-12,
+        2.6088684990099864e-07,
+        6.879673009052567e-08
+      ]
+    },
+    {
+      "episode": 7,
+      "seed": 36007,
+      "opponent_id": "apex4",
+      "completed": true,
+      "steps": 719,
+      "raw_terminal_reward": 0.0,
+      "normalized_reward": 0.0,
+      "invalid_feature_count": 0,
+      "illegal_action_count": 0,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 3,
+      "strategy_name": "BALANCED",
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5353915095329285,
+      "classifier_probs": [
+        0.9999996423721313,
+        2.9481112662210762e-08,
+        3.372401099696609e-12,
+        2.6088684990099864e-07,
+        6.879673009052567e-08
+      ]
+    },
+    {
+      "episode": 8,
+      "seed": 36008,
+      "opponent_id": "baseline_v18",
+      "completed": true,
+      "steps": 719,
+      "raw_terminal_reward": -221.0,
+      "normalized_reward": -0.00221,
+      "invalid_feature_count": 0,
+      "illegal_action_count": 0,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 2,
+      "strategy_name": "WHEAT_RUSH",
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5352959036827087,
+      "classifier_probs": [
+        0.9999996423721313,
+        2.944222643463945e-08,
+        3.269036300337924e-12,
+        2.5865475095088186e-07,
+        6.763989546243465e-08
+      ]
+    },
+    {
+      "episode": 9,
+      "seed": 36009,
+      "opponent_id": "crop_heavy_targeted",
+      "completed": true,
+      "steps": 719,
+      "raw_terminal_reward": 146897.0,
+      "normalized_reward": 1.46897,
+      "invalid_feature_count": 0,
+      "illegal_action_count": 0,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 3,
+      "strategy_name": "BALANCED",
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.539391040802002,
+      "classifier_probs": [
+        1.5349344906212536e-08,
+        0.9998514652252197,
+        2.898443513363769e-17,
+        1.0463168109708931e-05,
+        0.0001380003959638998
+      ]
+    },
+    {
+      "episode": 10,
+      "seed": 36010,
+      "opponent_id": "aggressive_expand_targeted",
+      "completed": true,
+      "steps": 719,
+      "raw_terminal_reward": 147411.0,
+      "normalized_reward": 1.47411,
+      "invalid_feature_count": 0,
+      "illegal_action_count": 0,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 1,
+      "strategy_name": "LIVESTOCK",
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.54673832654953,
+      "classifier_probs": [
+        5.298788723068218e-18,
+        4.781037787893183e-09,
+        0.0,
+        0.9999992847442627,
+        6.569290462721256e-07
+      ]
+    },
+    {
+      "episode": 11,
+      "seed": 36011,
+      "opponent_id": "market_manipulator_targeted",
+      "completed": true,
+      "steps": 719,
+      "raw_terminal_reward": 111735.0,
+      "normalized_reward": 1.11735,
+      "invalid_feature_count": 0,
+      "illegal_action_count": 0,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 1,
+      "strategy_name": "LIVESTOCK",
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.538543164730072,
+      "classifier_probs": [
+        5.622006483463338e-06,
+        1.064316101917484e-08,
+        1.6588467795577988e-12,
+        7.195183570729569e-06,
+        0.9999871253967285
+      ]
+    }
+  ],
+  "elapsed_seconds": 174.252568
+}

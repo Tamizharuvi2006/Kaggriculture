@@ -1,0 +1,37 @@
+{
+  "date": "2026-08-22",
+  "scope": "read-only historical Kaggriculture environment reconstruction",
+  "interpreter": "C:\\Users\\aruvi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.13",
+  "package": {
+    "name": "kaggle-environments",
+    "version": "1.32.6",
+    "module_path": "C:\\Users\\aruvi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\kaggle_environments\\__init__.py",
+    "dist_info_path": "C:\\Users\\aruvi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\kaggle_environments-1.32.6.dist-info"
+  },
+  "registration": {
+    "backend_module": "C:\\Users\\aruvi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.py",
+    "specification": "C:\\Users\\aruvi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\kaggle_environments\\envs\\kaggriculture\\kaggriculture.json",
+    "registered_names_verified": ["kaggriculture", "kaggriculture_beginner"],
+    "mechanism": "kaggle_environments.__init__ enumerates envs, imports env modules, and calls register"
+  },
+  "import_verification": {
+    "performed": true,
+    "game_run": false,
+    "version_verified": true,
+    "module_path_verified": true,
+    "kaggriculture_registered": true
+  },
+  "acceptance_evidence": {
+    "report": "apex_next/ml_engine/evaluation/step1_environment/step1_acceptance_report.json",
+    "environment_call": "kaggle_environments.make('kaggriculture')",
+    "episodes_completed": 10,
+    "transitions_per_episode": 719,
+    "total_transitions": 7190,
+    "exceptions": []
+  },
+  "reconstructed_launch_command": "& 'C:\\Users\\aruvi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' apex_next\\ml_engine\\evaluation\\step1_acceptance.py",
+  "command_provenance": "reconstructed from script defaults and matching installed runtime; exact historical shell command is not preserved in the acceptance JSON",
+  "next_gate": "run only a separate smoke test with this interpreter and require 720 calls / 719 transitions before MILK-only testing",
+  "changes": "none to code, checkpoints, submissions, production files, or experiment logic"
+}

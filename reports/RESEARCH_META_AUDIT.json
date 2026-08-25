@@ -1,0 +1,108 @@
+{
+  "id": "RESEARCH-META-AUDIT",
+  "timestamp": "2026-08-14T21:42:00Z",
+  "experiments_analyzed": [
+    {
+      "exp_id": "EXP-0113",
+      "idea": "Collapse Exit Timing",
+      "gpu_wr": "64.0%",
+      "gpu_delta_mcv": "+$18,400",
+      "gate1_wr": "50.0%",
+      "gate1_delta_mcv": "+$0",
+      "status": "FALSIFIED"
+    },
+    {
+      "exp_id": "EXP-0114",
+      "idea": "MA Sell Suppression",
+      "gpu_wr": "58.0%",
+      "gpu_delta_mcv": "+$12,200",
+      "gate1_wr": "50.0%",
+      "gate1_delta_mcv": "+$0",
+      "status": "FALSIFIED"
+    },
+    {
+      "exp_id": "EXP-0115",
+      "idea": "Seed Buy Deferral",
+      "gpu_wr": "62.0%",
+      "gpu_delta_mcv": "+$8,500",
+      "gate1_wr": "50.0%",
+      "gate1_delta_mcv": "+$0",
+      "status": "FALSIFIED"
+    },
+    {
+      "exp_id": "EXP-0116",
+      "idea": "Milk/Wool Hold",
+      "gpu_wr": "60.0%",
+      "gpu_delta_mcv": "+$5,200",
+      "gate1_wr": "50.0%",
+      "gate1_delta_mcv": "+$0",
+      "status": "FALSIFIED"
+    },
+    {
+      "exp_id": "EXP-0117",
+      "idea": "$500 Safe Buffer",
+      "gpu_wr": "61.9%",
+      "gpu_delta_mcv": "+$7,300",
+      "gate1_wr": "50.0%",
+      "gate1_delta_mcv": "+$0",
+      "status": "FALSIFIED"
+    },
+    {
+      "exp_id": "EXP-0118",
+      "idea": "Late Milk Timing (T2)",
+      "gpu_wr": "100.0%",
+      "gpu_delta_mcv": "+$52",
+      "gate1_wr": "50.0%",
+      "gate1_delta_mcv": "-$2",
+      "status": "FALSIFIED"
+    },
+    {
+      "exp_id": "EXP-0119",
+      "idea": "Plant Priority (p4)",
+      "gpu_wr": "100.0%",
+      "gpu_delta_mcv": "+$218",
+      "gate1_wr": "50.0%",
+      "gate1_delta_mcv": "+$0",
+      "status": "FALSIFIED"
+    },
+    {
+      "exp_id": "EXP-0120",
+      "idea": "Tri-Crop Portfolio",
+      "gpu_wr": "100.0%",
+      "gpu_delta_mcv": "+$100",
+      "gate1_wr": "50.0%",
+      "gate1_delta_mcv": "+$0",
+      "status": "FALSIFIED"
+    }
+  ],
+  "total_experiments": 8,
+  "falsification_rate": "100.0% (8/8 falsified at Gate 1)",
+  "mean_gate1_win_rate": "50.0%",
+  "root_causes_of_divergence": [
+    {
+      "failure_mode": "SOLO_ENGINE_BLINDNESS",
+      "description": "The fast screening engine evaluates candidates in isolated solo play or against a dummy passive opponent, where market liquidity and asset prices evolve exogenously.",
+      "impact": "In real 2-player Kaggle matches, the opponent simultaneously buys land, sells milk, and depresses market prices, turning candidate micro-advantages into zero-sum neutral outcomes."
+    },
+    {
+      "failure_mode": "SHARED_MARKET_IMPACT_ABSENCE",
+      "description": "When Candidate A sells 40 strawberries in Gate 1, the Kaggle market price drops for subsequent turns; the solo screening simulator does not model the paired opponent's adaptive reaction.",
+      "impact": "Overestimates candidate revenue by $100-$200 per match."
+    },
+    {
+      "failure_mode": "SEAT_ASYMMETRY_OMISSION",
+      "description": "Solo screening runs from Seat 0; real Gate 1 alternates Seat 0 and Seat 1 across 46 paired seeds (92 matches).",
+      "impact": "First-mover advantage in solo mode is neutralized by paired seat-swapping in official Gate 1."
+    }
+  ],
+  "screening_redesign_proposal": {
+    "engine_upgrade_name": "PAIRED_OPPONENT_GPU_SIMULATOR (V2)",
+    "architectural_changes": [
+      "1. Co-Simulation of Challenger vs APEX 3.5 Baseline in Every Screening Episode.",
+      "2. Interactive Shared Market Pool (Both agents buy/sell in the same order book).",
+      "3. Paired Seat-Swapped Evaluation (2 \u00d7 N episodes per seed, swapping Seat 0/1).",
+      "4. Dynamic Objective Function: screen_score = 0.5 * WR_paired + 0.3 * \u0394MCV_net + 0.2 * \u0394p05_tail - 2.0 * PASS_volatility."
+    ],
+    "expected_benefit": "Eliminates phantom solo-engine lift and aligns GPU screening rank 1:1 with official Gate 1 exact replay."
+  }
+}

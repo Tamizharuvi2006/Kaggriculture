@@ -1,0 +1,50 @@
+{
+  "id": "EXP0122-OBSERVABILITY-AUDIT",
+  "timestamp": "2026-08-14T22:15:00Z",
+  "environment_version": "kaggle_environments v1.32.6",
+  "observation_root_keys": [
+    "remainingOverageTime",
+    "step",
+    "player",
+    "farms",
+    "private",
+    "market",
+    "town",
+    "day",
+    "hour"
+  ],
+  "private_keys": [
+    "shed",
+    "seeds",
+    "inventories"
+  ],
+  "farm_0_public_keys": [
+    "money",
+    "tiles",
+    "farmer",
+    "hands",
+    "unlocked_quadrants",
+    "hires_today"
+  ],
+  "farm_1_opponent_public_keys": [
+    "money",
+    "tiles",
+    "farmer",
+    "hands",
+    "unlocked_quadrants",
+    "hires_today"
+  ],
+  "opponent_inventory_is_public": false,
+  "exact_paths": {
+    "own_shed_inventory": "obs['private']['shed'] (PRIVATE - accessible only to own agent)",
+    "opponent_farm_money": "obs['farms'][1]['money'] (PUBLIC)",
+    "opponent_farm_tiles": "obs['farms'][1]['tiles'] (PUBLIC - crops, animals, growth stages)",
+    "opponent_farm_hands": "obs['farms'][1]['hands'] (PUBLIC)",
+    "opponent_unlocked_quadrants": "obs['farms'][1]['unlocked_quadrants'] (PUBLIC)",
+    "market_prices": "obs['market']['prices'] (PUBLIC)",
+    "market_inventory": "obs['market']['inventory'] (PUBLIC)"
+  },
+  "observability_verdict": "INVALID_OBSERVABILITY",
+  "verdict_rationale": "Opponent shed inventory (milk, wool, stored strawberries) is stored inside the opponent's private observation dictionary ('private.shed') and is NOT exposed in 'farms[1]'. Attempting to access opponent shed inventory directly is impossible in the official Kaggle submission environment. As required by governance protocol, EXP-0122 is immediately classified as INVALID_OBSERVABILITY, and the research engine advances to EXP-0123 (Town Shop / Market Pool Preemption).",
+  "next_hypothesis_handoff": "EXP-0123 (TOWN_SHOP_FEED_PREEMPTION / RESOURCE_DENIAL)"
+}

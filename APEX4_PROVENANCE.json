@@ -1,0 +1,52 @@
+{
+  "provenance_id": "APEX4-PROVENANCE-RECORD",
+  "generated_at": "2026-08-17T22:15:00Z",
+  "pipeline_version": "APEX 4.0 ADAPTIVE POLICY DISCOVERY",
+  "predecessor_champion": "APEX 3.5 PROD (SHA256: 78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb)",
+  "candidate_binary": "APEX4_SUBMISSION_FINAL.py (SHA256: 0f3ddc3c5b67999d51508a38361bafe140a9050d7e2e3039ae2ccbc810dff45a)",
+  "research_phases_synthesized": [
+    "Phase 1: Decision Oracle (46 loss seeds + 807 tournament replays)",
+    "Phase 2: Independent Rule Isolation (Rules 01 through 04)",
+    "Phase 3: Pairwise Interaction Matrix (Contention & Synergies mapping)",
+    "Phase 4: Composition (Hierarchical Invariant DAG + APEX 3.5 fallback)",
+    "Phase 5: Physical Parity Certification on kaggle_environments v1.32.6",
+    "Phase 6: GPU Paired Evaluation (192 matches on PAIRED_GPU_V2.5)",
+    "Phase 7: Official Gate 1 (92-match reference replay @ 67.4% WR)",
+    "Gates 2-4: Historical, Unseen Holdout, and 6-Dimension Statistical Certification"
+  ],
+  "composed_policy_rules": [
+    {
+      "rule_id": "RULE_01",
+      "name": "Synchronized Early Land & Seed Scaling",
+      "trigger": "step == 75 and shed['MELON'] >= 6 and farm_cash >= 300",
+      "action": "Sell Melon @ 75 -> Land 2 @ 152 -> Seed Sync @ 156 -> Worker #3 SW Plant @ 163"
+    },
+    {
+      "rule_id": "RULE_02",
+      "name": "Hour-22 Pre-Clearance Shed Drop",
+      "trigger": "hour == 22 and worker_carrying >= 2 and dist_to_shed <= 2 and worker_id not in (0, 2)",
+      "action": "Shortest-path MOVE to Shed -> DROP before Hour 23 market clearance"
+    },
+    {
+      "rule_id": "RULE_03",
+      "name": "Dynamic Rotation Evidence Calibration (Reserve Guarded)",
+      "trigger": "step >= 120 and opp_animals >= 3 and 0.65 <= evidence <= 0.75 and (step >= 170 or farm_cash >= 2000)",
+      "action": "Trigger livestock counter-profile with strict $1,000 cash preservation floor"
+    },
+    {
+      "rule_id": "RULE_04",
+      "name": "Terminal Shed Feed Conservation",
+      "trigger": "step >= 672 and shed['WHEAT'] >= 12 and market_wheat_price >= 25",
+      "action": "Suppress town market wheat orders; feed herd from internal shed reserve"
+    }
+  ],
+  "invariants_protected": [
+    "Pasture 1 build at Step 1",
+    "Pasture 2 build at Step 159",
+    "Worker #0 Cow Pickup at Step 170",
+    "Zero worker coordinate drift at Step 171 resumption",
+    "Maximum 10 simultaneous market orders (zero queue truncation)",
+    "Zero hidden-state features (100% publicly observable)"
+  ],
+  "reproducibility": "100% deterministic under fixed seeds in kaggle_environments v1.32.6"
+}

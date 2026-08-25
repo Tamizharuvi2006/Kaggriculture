@@ -1,0 +1,12 @@
+{
+  "id": "PAIRED-GPU-V25-REGRESSION",
+  "timestamp": "2026-08-15T14:01:33Z",
+  "production_hash": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb",
+  "production_status": "FROZEN_INTACT",
+  "regression_status": "REGRESSION_PASSED",
+  "v2_mean_mcv": 34655.06,
+  "v25_mean_mcv": 34655.05,
+  "v2_win_rate": 0.5,
+  "v25_win_rate": 0.5,
+  "delta_mcv": 0.00999999999476131
+}

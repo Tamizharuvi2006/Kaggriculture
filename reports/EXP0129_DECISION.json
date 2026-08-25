@@ -1,0 +1,11 @@
+{
+  "id": "EXP0129-DECISION",
+  "timestamp": "2026-08-15T14:06:48Z",
+  "experiment_id": "EXP-0129",
+  "screening_verdict": "FALSIFIED_GPU",
+  "best_candidate": "CAND-129-02",
+  "best_paired_wr": 0.5,
+  "best_delta_mcv": 0.0,
+  "gate1_qualified": false,
+  "rationale": "Splitting inventory dumps across consecutive steps yields 50.0% WR because 1-step spot price drift and opponent liquidation completely absorb theoretical power-law slippage savings."
+}

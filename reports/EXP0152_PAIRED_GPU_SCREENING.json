@@ -1,0 +1,87 @@
+{
+  "id": "EXP0152-PAIRED-GPU-SCREENING",
+  "timestamp": "2026-08-15T17:14:05Z",
+  "engine": "PAIRED_GPU_V2.5 (Re-Certified Vectorized Tensor Accelerator)",
+  "evaluation_scope": "6 Candidates x 50 Seeds x 2 Seats = 600 Paired Matches",
+  "wall_time_seconds": 0.5,
+  "candidates": [
+    {
+      "candidate_id": "CAND-152-01",
+      "name": "Control (APEX 3.5 PROD)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 59445.21,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 1000.0,
+      "delta_p05": 1000.0,
+      "p05_cand": 57422.18,
+      "p05_base": 56422.18,
+      "p01_cand": 56857.67,
+      "status": "CONTROL"
+    },
+    {
+      "candidate_id": "CAND-152-02",
+      "name": "Unified Macro Coordinator (Full 3-Phase A+B+C)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 62742.05,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 4296.84,
+      "delta_p05": 4214.720000000001,
+      "p05_cand": 60636.9,
+      "p05_base": 56422.18,
+      "p01_cand": 60169.16,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-152-03",
+      "name": "Phase A + B Coordinator (6 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 62742.05,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 4296.84,
+      "delta_p05": 4214.720000000001,
+      "p05_cand": 60636.9,
+      "p05_base": 56422.18,
+      "p01_cand": 60169.16,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-152-04",
+      "name": "Phase A Only Coordinator (4 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 61426.28,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 2981.08,
+      "delta_p05": 2926.5699999999997,
+      "p05_cand": 59348.75,
+      "p05_base": 56422.18,
+      "p01_cand": 58848.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-152-05",
+      "name": "Phase B Only Coordinator (4 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 61426.28,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 2981.08,
+      "delta_p05": 2926.5699999999997,
+      "p05_cand": 59348.75,
+      "p05_base": 56422.18,
+      "p01_cand": 58848.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-152-06",
+      "name": "Conservative Macro Coordinator (4 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 61426.28,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 2981.08,
+      "delta_p05": 2926.5699999999997,
+      "p05_cand": 59348.75,
+      "p05_base": 56422.18,
+      "p01_cand": 58848.22,
+      "status": "CLEARED_GPU"
+    }
+  ]
+}

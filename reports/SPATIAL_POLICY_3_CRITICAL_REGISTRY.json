@@ -1,0 +1,6956 @@
+[
+  {
+    "step": 0,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 0,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 0,
+    "domain": "MARKET",
+    "action": [
+      "BUY_ANIMAL",
+      "COW",
+      3
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 1,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 1,
+    "domain": "MARKET",
+    "action": [
+      "BUY_ANIMAL",
+      "SHEEP",
+      1
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 2,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 2,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "SHEEP",
+      1
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 3,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "BUILD_PASTURE"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes BUILD_PASTURE essential for physical farm lifecycle"
+  },
+  {
+    "step": 4,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "BUILD_PASTURE"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes BUILD_PASTURE essential for physical farm lifecycle"
+  },
+  {
+    "step": 4,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "COW",
+      1
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 5,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "BUILD_PASTURE"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes BUILD_PASTURE essential for physical farm lifecycle"
+  },
+  {
+    "step": 5,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "COW",
+      1
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 10,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 13,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 18,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 24,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 24,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 25,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 25,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 26,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 48,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 48,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 49,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 49,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 50,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 72,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 72,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 73,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 73,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 74,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 96,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 96,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 97,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 97,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 98,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 98,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 120,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 120,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 121,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 121,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 122,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 122,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 144,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 144,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 145,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 145,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 146,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 146,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 156,
+    "domain": "MARKET",
+    "action": [
+      "BUY_ANIMAL",
+      "COW",
+      2
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 159,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "BUILD_PASTURE"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes BUILD_PASTURE essential for physical farm lifecycle"
+  },
+  {
+    "step": 159,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "BUILD_PASTURE"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes BUILD_PASTURE essential for physical farm lifecycle"
+  },
+  {
+    "step": 168,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 168,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 169,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 169,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 170,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 170,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 170,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "COW",
+      1
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 181,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      1
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 183,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 192,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 192,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 193,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 193,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 194,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 194,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 194,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 196,
+    "domain": "MARKET",
+    "action": [
+      "BUY_ANIMAL",
+      "SHEEP",
+      2
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 197,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 197,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 199,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 200,
+    "domain": "MARKET",
+    "action": [
+      "BUY_LAND"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 201,
+    "domain": "MARKET",
+    "action": [
+      "BUY_ANIMAL",
+      "SHEEP",
+      2
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 203,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "BUILD_PASTURE"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes BUILD_PASTURE essential for physical farm lifecycle"
+  },
+  {
+    "step": 203,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "BUILD_PASTURE"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes BUILD_PASTURE essential for physical farm lifecycle"
+  },
+  {
+    "step": 204,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "BUILD_PASTURE"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes BUILD_PASTURE essential for physical farm lifecycle"
+  },
+  {
+    "step": 204,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "SHEEP",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 205,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "BUILD_PASTURE"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes BUILD_PASTURE essential for physical farm lifecycle"
+  },
+  {
+    "step": 205,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "SHEEP",
+      1
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 206,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "SHEEP",
+      1
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 216,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 216,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 216,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 217,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 217,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 217,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 218,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 218,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 218,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 218,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 219,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 219,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 219,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "SHEEP",
+      1
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 220,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 221,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 222,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 223,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      1
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 226,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 228,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 229,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 230,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 232,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 240,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 240,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 240,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 241,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 241,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 241,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 242,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 242,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 242,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 242,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 243,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 243,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 243,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 244,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 245,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 246,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 246,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 248,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 248,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 250,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 250,
+    "domain": "WORKER_HANDS",
+    "worker_index": 8,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 8 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 253,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 253,
+    "domain": "WORKER_HANDS",
+    "worker_index": 8,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 8 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 257,
+    "domain": "MARKET",
+    "action": [
+      "BUY_ANIMAL",
+      "COW",
+      3
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 258,
+    "domain": "MARKET",
+    "action": [
+      "BUY_ANIMAL",
+      "SHEEP",
+      2
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 260,
+    "domain": "WORKER_HANDS",
+    "worker_index": 8,
+    "action": [
+      "BUILD_PASTURE"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 8 executes BUILD_PASTURE essential for physical farm lifecycle"
+  },
+  {
+    "step": 262,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "BUILD_PASTURE"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes BUILD_PASTURE essential for physical farm lifecycle"
+  },
+  {
+    "step": 262,
+    "domain": "WORKER_HANDS",
+    "worker_index": 6,
+    "action": [
+      "BUILD_PASTURE"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 6 executes BUILD_PASTURE essential for physical farm lifecycle"
+  },
+  {
+    "step": 263,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "COW",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 263,
+    "domain": "WORKER_HANDS",
+    "worker_index": 9,
+    "action": [
+      "PICKUP",
+      "SHEEP",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 9 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 264,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 264,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 264,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 265,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 265,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 265,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 266,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 266,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 266,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 266,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 267,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 267,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 267,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 267,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 267,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "COW",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 267,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "SHEEP",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 268,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 269,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 270,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 270,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 272,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 272,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 274,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 275,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 277,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 277,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 279,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 279,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 281,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 282,
+    "domain": "MARKET",
+    "action": [
+      "BUY_LAND"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 283,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 285,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 287,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 288,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 288,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 288,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 289,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 289,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 289,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 290,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 290,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 290,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 290,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 291,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 291,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 291,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 291,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 291,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 291,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 291,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 292,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 292,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "COW",
+      1
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 293,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 294,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 294,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 294,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 294,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 296,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 296,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 297,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 297,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 300,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 302,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 304,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 307,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 312,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 312,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 312,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 313,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 313,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 313,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 314,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 314,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 314,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 314,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 315,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 315,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 315,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 315,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 315,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 315,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 315,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 316,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 317,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 317,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 318,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 318,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 318,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 320,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 320,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 320,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 321,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 323,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 325,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 326,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 328,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 336,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 336,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 336,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 337,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 337,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 337,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 338,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 338,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 338,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 338,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 339,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 339,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 339,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 339,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 339,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 339,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 339,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 340,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 341,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 342,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 342,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 342,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 342,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 344,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 344,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 345,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 345,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 348,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 350,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 351,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 353,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 360,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 360,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 360,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 361,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 361,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 361,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 362,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 362,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 362,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 362,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 363,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 363,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 363,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 363,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 363,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 363,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 363,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 364,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 365,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 365,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 366,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 366,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 368,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 368,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 368,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 368,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 371,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 372,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 374,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 376,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 378,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 380,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 384,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 384,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 384,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 385,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 385,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 385,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 386,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 386,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 386,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 386,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 387,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 387,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 387,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 387,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 387,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 387,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 387,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 388,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 388,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 390,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 390,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 390,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 392,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 392,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 392,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 394,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 396,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 396,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 399,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 408,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 408,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 408,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 409,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 409,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 409,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 410,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 410,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 410,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 410,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 411,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 411,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 411,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 411,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 411,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 411,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 412,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 412,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 412,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 412,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 413,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 414,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 414,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 414,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 415,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 417,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 417,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 417,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 417,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 419,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 419,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 421,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 422,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 430,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 432,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 432,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 432,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 433,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 433,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 433,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 434,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 434,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 434,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 434,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 435,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 435,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 435,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 435,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 435,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 435,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 435,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 436,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 436,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 437,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 438,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 438,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 438,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 438,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 440,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 441,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 441,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 443,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 444,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 446,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 448,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 450,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 456,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 456,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 456,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 457,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 457,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 457,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 458,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 458,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 458,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 458,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 459,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 459,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 459,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 459,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 459,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 459,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 459,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 460,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 460,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 461,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 461,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 462,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 462,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 463,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 464,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 464,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 467,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 468,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 473,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 476,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 478,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 480,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 480,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 480,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 481,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 481,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 481,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 482,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 482,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 482,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 482,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 483,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 483,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 483,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 483,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 483,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 483,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 484,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 484,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 484,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 485,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 486,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 486,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 487,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 487,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 487,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 489,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 489,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 490,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 492,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 496,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 497,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 501,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 504,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 504,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 504,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 505,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 505,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 505,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 506,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 506,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 506,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 506,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 507,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 507,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 507,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 507,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 507,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 507,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 507,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 508,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 508,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 508,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 508,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 508,
+    "domain": "WORKER_HANDS",
+    "worker_index": 4,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      1
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 4 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 510,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 510,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 510,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 511,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 512,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 512,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 513,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 515,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 518,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 519,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 521,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 523,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 528,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 528,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 528,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 529,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 529,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 529,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 530,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 530,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 530,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 530,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 531,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 531,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 531,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 531,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 531,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 531,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 531,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 532,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 532,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 532,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 532,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 534,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 534,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 534,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 536,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 536,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 536,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 538,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 539,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 540,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 541,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 544,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 552,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 552,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 552,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 553,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 553,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 553,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 554,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 554,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 554,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 554,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 555,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 555,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 555,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 555,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 555,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 555,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 556,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 556,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 556,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 556,
+    "domain": "WORKER_HANDS",
+    "worker_index": 4,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 4 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 557,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 558,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 558,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 558,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 558,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 560,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 560,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 561,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 562,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 562,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 564,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 567,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 569,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 576,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 576,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 576,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 577,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 577,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 577,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 578,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 578,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 578,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 578,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 579,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 579,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 579,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 579,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 579,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 579,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 579,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 580,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 580,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 580,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 580,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 582,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 582,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 582,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 584,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 584,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 584,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 587,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 587,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 588,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 590,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 591,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 592,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 600,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 600,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 600,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 601,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 601,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 601,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 602,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 602,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 602,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 602,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 603,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 603,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 603,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 603,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 603,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 603,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 603,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 604,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 604,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 604,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 605,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 606,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 606,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 607,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 607,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 608,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 609,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 610,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 610,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 613,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 614,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 616,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 624,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 624,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 624,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 625,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 625,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 625,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 626,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 626,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 626,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 626,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 627,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 627,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 627,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 627,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 627,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 627,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 628,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 628,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 628,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 628,
+    "domain": "WORKER_HANDS",
+    "worker_index": 4,
+    "action": [
+      "PICKUP",
+      "FERTILIZER",
+      3
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 4 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 629,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 630,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 630,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 630,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 630,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 632,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 633,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 633,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 633,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 635,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 637,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 637,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 639,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 645,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 648,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 648,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 648,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 649,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 649,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 649,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 650,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 650,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 650,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 650,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 651,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 651,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 651,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 651,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 651,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 651,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 651,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 652,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 653,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 653,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 654,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 654,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 654,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 656,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 656,
+    "domain": "WORKER_HANDS",
+    "worker_index": 5,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 5 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 657,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 657,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 659,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 662,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 663,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 664,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 665,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 672,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 672,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 672,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 673,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 673,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 673,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 674,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 674,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 674,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 674,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 675,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 675,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 675,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 675,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 675,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 675,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 676,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 677,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "PICKUP",
+      "WHEAT",
+      2
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes PICKUP essential for physical farm lifecycle"
+  },
+  {
+    "step": 677,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 677,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 680,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 680,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 680,
+    "domain": "WORKER_HANDS",
+    "worker_index": 3,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 3 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 682,
+    "domain": "WORKER_HANDS",
+    "worker_index": 0,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 0 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 684,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 685,
+    "domain": "WORKER_HANDS",
+    "worker_index": 2,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 2 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 686,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 688,
+    "domain": "WORKER_HANDS",
+    "worker_index": 1,
+    "action": [
+      "FEED"
+    ],
+    "criticality": "HIGH_PREREQUISITE",
+    "reason": "Worker 1 executes FEED essential for physical farm lifecycle"
+  },
+  {
+    "step": 696,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 696,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 696,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 696,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 697,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 697,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 697,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 697,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 698,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  },
+  {
+    "step": 698,
+    "domain": "MARKET",
+    "action": [
+      "HIRE"
+    ],
+    "prerequisite_for": "DOWNSTREAM_DEPLOYMENT"
+  }
+]

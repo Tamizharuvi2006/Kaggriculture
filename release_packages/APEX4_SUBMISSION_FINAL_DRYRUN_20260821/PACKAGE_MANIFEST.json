@@ -1,0 +1,14 @@
+{
+  "package": "APEX4_SUBMISSION_FINAL_DRYRUN_20260821",
+  "entrypoint": "APEX4_SUBMISSION_FINAL.py",
+  "entrypoint_sha256": "0F3DDC3C5B67999D51508A38361BAFE140A9050D7E2E3039AE2CCBC810DFF45A",
+  "source_manifest": "APEX4_RELEASE_MANIFEST.json",
+  "upload_executed": false,
+  "production_promotion": false,
+  "ppo_checkpoint_included": false,
+  "files": [
+    "APEX4_SUBMISSION_FINAL.py",
+    "PACKAGE_MANIFEST.json"
+  ],
+  "scope": "local package build and dry-run only"
+}

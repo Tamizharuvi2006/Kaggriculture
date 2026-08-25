@@ -1,0 +1,142 @@
+{
+  "stage": "STAGE_1_BEHAVIOR_CLONING_BASELINE",
+  "timestamp": "2026-08-17T17:17:29Z",
+  "hardware": {
+    "report_id": "ML_STAGE0_HARDWARE_REPORT",
+    "timestamp": "2026-08-17T17:17:26Z",
+    "cuda_available": true,
+    "device_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "vram_total_gb": 6.0,
+    "vram_free_gb": 5.52,
+    "pytorch_version": "2.6.0+cu124",
+    "engine_throughput_audit": {
+      "synthetic_macro_kernel_games_per_sec": 14498.0,
+      "paired_gpu_v25_full_fidelity_paired_matches_per_sec": 1200.0,
+      "official_reference_cpu_matches_per_sec": 35.0,
+      "clarification": "The 14,498 games/sec metric is a synthetic macro-pricing batch kernel. The full-fidelity simulation engine used for policy training operates at ~1,200 paired matches/sec."
+    }
+  },
+  "state_schema": {
+    "schema_id": "APEX41_STATE_SCHEMA_V1",
+    "total_feature_dimensions": 256,
+    "feature_groups": {
+      "spatial_grid": {
+        "dimensions": 144,
+        "description": "12x12 flattened farm grid encoding tile types, crop stages (0-4), water status (0/1), and pasture allocation.",
+        "dtype": "float32",
+        "range": "[0.0, 1.0]",
+        "public": true,
+        "normalization": "Min-Max scaled"
+      },
+      "economic_state": {
+        "dimensions": 32,
+        "description": "Farm cash, shed inventory counts (Wheat, Carrot, Tomato, Strawberry, Melon, Milk, Wool), spot prices, moving averages, and pending market order queue count.",
+        "dtype": "float32",
+        "range": "[0.0, 10000.0]",
+        "public": true,
+        "normalization": "Log1p & z-score"
+      },
+      "opponent_public_state": {
+        "dimensions": 32,
+        "description": "Publicly visible opponent animal counts, unlocked quadrant count, public market sales volume, and inferred relative net cashflow.",
+        "dtype": "float32",
+        "range": "[0.0, 50.0]",
+        "public": true,
+        "normalization": "Standard scaled (Zero hidden state)"
+      },
+      "temporal_and_workers": {
+        "dimensions": 48,
+        "description": "Step index (0-720), sin/cos encoded daily hour (0-23), worker positions (x, y), carrying bag load, and active task eligibility flags.",
+        "dtype": "float32",
+        "range": "[-1.0, 1.0]",
+        "public": true,
+        "normalization": "Sinusoidal & coordinate normalized"
+      }
+    },
+    "missing_value_behavior": "Zero-fill with boolean mask indicator channel"
+  },
+  "action_schema": {
+    "schema_id": "APEX41_ACTION_SCHEMA_V1",
+    "macro_goal_vocabulary_size": 8,
+    "macro_goals": [
+      {
+        "goal_id": 0,
+        "name": "GOAL_EARLY_LAND_SYNC",
+        "prereq": "step <= 165 and cash >= 300",
+        "fallback": "GOAL_BASE_FALLBACK"
+      },
+      {
+        "goal_id": 1,
+        "name": "GOAL_HOUR22_SHED_DROP",
+        "prereq": "hour == 22 and bag >= 2",
+        "fallback": "GOAL_BASE_FALLBACK"
+      },
+      {
+        "goal_id": 2,
+        "name": "GOAL_LIVESTOCK_ROTATION",
+        "prereq": "opp_animals >= 3 and cash >= 1000",
+        "fallback": "GOAL_BASE_FALLBACK"
+      },
+      {
+        "goal_id": 3,
+        "name": "GOAL_TERMINAL_FEED_CONSERVE",
+        "prereq": "step >= 672 and shed_wheat >= 12",
+        "fallback": "GOAL_BASE_FALLBACK"
+      },
+      {
+        "goal_id": 4,
+        "name": "GOAL_HARVEST_REPLANT_SWEEP",
+        "prereq": "ripe_crops > 0",
+        "fallback": "GOAL_BASE_FALLBACK"
+      },
+      {
+        "goal_id": 5,
+        "name": "GOAL_DYNAMIC_WATERING",
+        "prereq": "thirsty_crops > 0",
+        "fallback": "GOAL_BASE_FALLBACK"
+      },
+      {
+        "goal_id": 6,
+        "name": "GOAL_DEFENSIVE_SOLVENCY",
+        "prereq": "cash < 1000",
+        "fallback": "GOAL_BASE_FALLBACK"
+      },
+      {
+        "goal_id": 7,
+        "name": "GOAL_BASE_FALLBACK",
+        "prereq": "None (Always Valid)",
+        "fallback": "APEX_35_PROD"
+      }
+    ]
+  },
+  "dataset_split": {
+    "split_id": "APEX41_DISJOINT_SPLIT_V1",
+    "train_seeds_count": 650,
+    "val_seeds_count": 150,
+    "frozen_holdout_seeds_count": 100,
+    "gate_disjoint_seeds_count": 46,
+    "total_seeds": 946,
+    "leakage_audit": {
+      "seed_overlap_train_val": 0,
+      "seed_overlap_train_holdout": 0,
+      "seed_overlap_train_gate": 0,
+      "duplicate_trajectories": 0,
+      "same_episode_leakage": "NONE (Strict Episode Partitioning)"
+    }
+  },
+  "bc_metrics": {
+    "top1_accuracy": 16.92,
+    "top3_accuracy": 46.44,
+    "legal_action_compliance": 100.0
+  },
+  "closed_loop_test": {
+    "win_rate": 82.0,
+    "mean_delta_mcv": 192.32,
+    "p05_delta": -6.66,
+    "p01_delta": -20.05,
+    "fallback_rate": 4.0,
+    "illegal_actions": 0,
+    "critical_violations": 0
+  },
+  "verdict": "STAGE_1_VALIDATED_READY_FOR_STAGE_2"
+}

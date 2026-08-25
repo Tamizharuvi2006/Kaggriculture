@@ -1,0 +1,47 @@
+[
+  {
+    "rank": 1,
+    "state_signature": "Step 72-80, Day 3-4, Melon Harvest Ripe, Cash $300-$600, Land 1",
+    "apex_action": "SELL_WHEAT 2 (Holding melon revenue in shed / waiting for Step 170)",
+    "winner_action": "SELL_MELON 6 + BUY_SEED STRAWBERRY 6 (Immediate aggressive reinvestment)",
+    "consequence": "Winner expands active strawberry patch on Day 4, reaching $1,000 cash for Land 2 by Step 165 (+2 full strawberry harvest cycles over game).",
+    "frequency_in_losses": "22 of 46 loss seeds (47.8%)",
+    "estimated_counterfactual_lift": "+$1,850.00 to +$3,200.00 MCV"
+  },
+  {
+    "rank": 2,
+    "state_signature": "Step 280-310, Day 11-13, Strawberry Patch Ripe, Worker Backpack Full (>= 3 Strawberries)",
+    "apex_action": "WORKER_WATER / WORKER_CARE (Worker moves away from shed with full backpack)",
+    "winner_action": "WORKER_MOVE_SHED + WORKER_DROP (Drop harvest in shed before Hour 23 market clearance)",
+    "consequence": "Winner liquidates strawberries at Hour 23 price peak ($142), while APEX holds in backpack until next day ($115).",
+    "frequency_in_losses": "13 of 46 loss seeds (28.3%)",
+    "estimated_counterfactual_lift": "+$950.00 to +$1,800.00 MCV"
+  },
+  {
+    "rank": 3,
+    "state_signature": "Step 400-500, Day 16-20, Strawberry Market Crash (p_straw < $90), Cash $1,500-$3,000",
+    "apex_action": "SELL_STRAWBERRY (Unconditional dump under safe_buffer check)",
+    "winner_action": "HOLD_STRAWBERRY (Wait for price mean reversion to $120+)",
+    "consequence": "Winner avoids selling into 30% crash slippage, recovering +$25-$35 per unit upon price rebound.",
+    "frequency_in_losses": "7 of 46 loss seeds (15.2%)",
+    "estimated_counterfactual_lift": "+$600.00 to +$1,400.00 MCV"
+  },
+  {
+    "rank": 4,
+    "state_signature": "Step 150-160, Day 6-7, Cash >= $1,000, Unlocked Quadrants = 1 (NW)",
+    "apex_action": "WAIT_FOR_STEP_170 (Fixed schedule locks Land 2 purchase to Step 170)",
+    "winner_action": "BUY_LAND (Immediate Land 2 expansion at Step 152 once $1,000 banked)",
+    "consequence": "Winner tills and plants SW quadrant 18 steps earlier, unlocking 1 additional crop wave.",
+    "frequency_in_losses": "18 of 46 loss seeds (39.1%)",
+    "estimated_counterfactual_lift": "+$800.00 to +$1,600.00 MCV"
+  },
+  {
+    "rank": 5,
+    "state_signature": "Step 672-700, Day 28-29, 8 Active Cows, Town Wheat Price >= $28/unit",
+    "apex_action": "BUY_PRODUCT WHEAT (Continues buying feed at inflated market prices)",
+    "winner_action": "CONSUME_SHED_WHEAT / HALT_TOWN_WHEAT (Uses reserve shed wheat / stops buying at peak prices)",
+    "consequence": "Winner saves $400-$700 in deadweight late feed expenses.",
+    "frequency_in_losses": "11 of 46 loss seeds (23.9%)",
+    "estimated_counterfactual_lift": "+$400.00 to +$850.00 MCV"
+  }
+]

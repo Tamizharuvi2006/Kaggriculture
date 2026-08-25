@@ -1,0 +1,50 @@
+{
+  "id": "EXP0125-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-14T22:35:00Z",
+  "target_hypothesis": "EXP-0125 (OPPONENT_PUBLIC_FIELD_RIPE_CROP_FRONT_RUNNING)",
+  "sample_size_trigger_events": 248,
+  "observability_verification": {
+    "path": "obs['farms'][1]['tiles']",
+    "is_public": true,
+    "contains_crop_type": true,
+    "contains_ripeness_stage": true,
+    "information_leakage": false
+  },
+  "empirical_probabilities": {
+    "P_opponent_harvest_within_1_step": 0.7903,
+    "P_opponent_harvest_within_2_steps": 0.9153,
+    "P_opponent_harvest_within_3_steps": 0.9677,
+    "P_opponent_market_dump_within_1_step": 0.7177,
+    "P_opponent_market_dump_within_2_steps": 0.8831,
+    "median_harvest_delay_steps": 1.0,
+    "unharvested_stagnation_rate": 0.0323
+  },
+  "price_and_inventory_metrics": {
+    "mean_market_price_before_dump": 138.4,
+    "mean_market_price_after_dump": 117.8,
+    "mean_price_advantage_per_unit": 20.6,
+    "P_apex_has_inventory_at_trigger": 0.6855,
+    "mean_apex_inventory_units": 6.4,
+    "estimated_direct_cash_gain_per_match": 593.28,
+    "estimated_compounded_mcv_lift": 2450.0
+  },
+  "seat_symmetry": {
+    "seat_0_win_rate_edge": 0.58,
+    "seat_1_win_rate_edge": 0.59,
+    "seat_asymmetry_p_value": 0.84
+  },
+  "opponent_tier_breakdown": {
+    "vs_top_tier_elite": {
+      "frequency": "76.2%",
+      "dump_prob_2step": "94.5%",
+      "price_drop": "$22.40"
+    },
+    "vs_mid_tier": {
+      "frequency": "71.0%",
+      "dump_prob_2step": "86.0%",
+      "price_drop": "$19.20"
+    }
+  },
+  "forensic_verdict": "VALID_FOR_PREREGISTRATION",
+  "verdict_rationale": "Opponent ripe strawberry count on the 100% public 10x10 field is a highly predictive game-theoretic signal (91.5% probability of harvest within 2 steps). Front-running captures an average $20.60/unit price advantage before opponent volume depresses spot prices. Signal is symmetric across seats and highly robust against elite ladder opponents."
+}

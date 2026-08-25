@@ -14,3 +14,16 @@ mcv_replay_dataset.json
 l+reviews/
 l++reviews/
 reviews/
+
+# Large binaries, ML weights, and heavy data files (>50MB)
+*.npz
+*.pt
+*.pth
+*.jsonl
+*.pdf
+reports/step5b/
+reports/step3h/
+apex_next/ml_engine/data/
+reports/live_match_telemetry/all_loss_replays_cache/
+reports/live_match_telemetry/apex35_replays/
+*.ipynb

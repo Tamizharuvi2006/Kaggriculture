@@ -1,0 +1,16 @@
+{
+  "candidate": "APEX 4.1 Master Grandmaster Shield",
+  "checkpoint_file": "apex41_best_checkpoint_stage6.pt",
+  "sha256": "00bbbba4b0c9a0aefca3a5bd136c2550104d0cdec3951bceb1d4c37da9072c98",
+  "timestamp": "2026-08-17T17:58:22Z",
+  "stage_genealogy": [
+    "Stage 1 BC",
+    "Stage 2 PPO",
+    "Stage 3 Calibrated",
+    "Stage 4 Ladder",
+    "Stage 5 Tier-4 Shield",
+    "Stage 6 Master GM Shield"
+  ],
+  "architecture": "Calibrated Actor-Critic with Adaptive Anti-Preemption & Liquidity Squeeze Shields",
+  "status": "FROZEN_RESEARCH_CANDIDATE"
+}

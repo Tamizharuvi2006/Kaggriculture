@@ -1,0 +1,14 @@
+{
+  "id": "APEX4-HOLDOUT-REPORT",
+  "timestamp": "2026-08-16T16:06:03Z",
+  "evaluation_scope": "50 Unseen Seeds x 2 Seats = 100 Paired Matches",
+  "metrics": {
+    "paired_win_rate": 1.0,
+    "mean_cand_mcv": 61254.96,
+    "mean_base_mcv": 58309.36,
+    "delta_mean_mcv": 2945.6,
+    "p05_cand_mcv": 59188.68,
+    "p05_base_mcv": 56157.66,
+    "p01_cand_mcv": 58744.21
+  }
+}

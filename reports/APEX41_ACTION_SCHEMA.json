@@ -1,0 +1,54 @@
+{
+  "schema_id": "APEX41_ACTION_SCHEMA_V1",
+  "macro_goal_vocabulary_size": 8,
+  "macro_goals": [
+    {
+      "goal_id": 0,
+      "name": "GOAL_EARLY_LAND_SYNC",
+      "prereq": "step <= 165 and cash >= 300",
+      "fallback": "GOAL_BASE_FALLBACK"
+    },
+    {
+      "goal_id": 1,
+      "name": "GOAL_HOUR22_SHED_DROP",
+      "prereq": "hour == 22 and bag >= 2",
+      "fallback": "GOAL_BASE_FALLBACK"
+    },
+    {
+      "goal_id": 2,
+      "name": "GOAL_LIVESTOCK_ROTATION",
+      "prereq": "opp_animals >= 3 and cash >= 1000",
+      "fallback": "GOAL_BASE_FALLBACK"
+    },
+    {
+      "goal_id": 3,
+      "name": "GOAL_TERMINAL_FEED_CONSERVE",
+      "prereq": "step >= 672 and shed_wheat >= 12",
+      "fallback": "GOAL_BASE_FALLBACK"
+    },
+    {
+      "goal_id": 4,
+      "name": "GOAL_HARVEST_REPLANT_SWEEP",
+      "prereq": "ripe_crops > 0",
+      "fallback": "GOAL_BASE_FALLBACK"
+    },
+    {
+      "goal_id": 5,
+      "name": "GOAL_DYNAMIC_WATERING",
+      "prereq": "thirsty_crops > 0",
+      "fallback": "GOAL_BASE_FALLBACK"
+    },
+    {
+      "goal_id": 6,
+      "name": "GOAL_DEFENSIVE_SOLVENCY",
+      "prereq": "cash < 1000",
+      "fallback": "GOAL_BASE_FALLBACK"
+    },
+    {
+      "goal_id": 7,
+      "name": "GOAL_BASE_FALLBACK",
+      "prereq": "None (Always Valid)",
+      "fallback": "APEX_35_PROD"
+    }
+  ]
+}

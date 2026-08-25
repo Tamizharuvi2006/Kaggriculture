@@ -1,0 +1,21 @@
+{
+  "package": "APEX4_PPO_CANDIDATE",
+  "entrypoint": "APEX4_PPO_CANDIDATE.py",
+  "files": {
+    "APEX4_PPO_CANDIDATE.py": "C1E8A75D15C28783BEDFC9BAB6AD2C597DA5FDCBDD266CD874080D9A3ABFB8B5",
+    "APEX4_SUBMISSION_FINAL.py": "0F3DDC3C5B67999D51508A38361BAFE140A9050D7E2E3039AE2CCBC810DFF45A",
+    "feature_extractor.py": "3E7B520FCB21E0676BB9A4D77B5B1DA3564E1692F60421076F71980ABD95A713",
+    "step5b_numpy_inference.py": "E5D21935DCA3FA1B69C015A68870D7C066109033B5A511573FFC2D1D0B9F460C"
+  },
+  "frozen_ppo_checkpoint": "reports/step5b/PPO_CANDIDATE_FROZEN_32SEED.pt",
+  "frozen_ppo_sha256": "5DFE80C7C91C485420BF1C4A3B848BF15ED114EC7DBFF5BC1A898646507654AD",
+  "pytorch_dependency": false,
+  "decision_step": 120,
+  "control_bounds": [
+    -0.25,
+    0.25
+  ],
+  "sealed_source_unchanged": true,
+  "upload_executed": false,
+  "production_promotion": false
+}

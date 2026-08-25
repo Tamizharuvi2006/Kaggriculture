@@ -1,0 +1,87 @@
+{
+  "report_id": "APEX41_STAGE6_GRANDMASTER_REPORT",
+  "timestamp": "2026-08-17T17:56:20Z",
+  "forensics": {
+    "predictive_flooding": {
+      "archetype": "COMPETITIVE_HYBRID_V3",
+      "mechanism": "MULTI_HORIZON_PREDICTIVE_FLOODING",
+      "first_divergence_step": 128,
+      "opponent_action": "Tracks APEX crop growth timer (Step 120-140) and executes staggered 2-wave market liquidation at Steps 138 and 141.",
+      "apex_action": "Liquidates at Step 143 (Hour 22:30), hitting severely depressed spot prices ($112.40 vs $162.00 base).",
+      "market_price_collapse": "$162.00 -> $112.40 (-$49.60/unit)",
+      "damage_per_cycle_mcv": "-$3,571.20",
+      "causal_finding": "Competitive Hybrid V3 predicts APEX's exact harvest cycle using public crop maturation timers and floods the market in 2 staggered waves 3-5 steps ahead, causing massive price decay before APEX unloads."
+    },
+    "liquidity_squeeze": {
+      "archetype": "GRANDMASTER_ADVERSARIAL_SOLVER",
+      "mechanism": "DUAL_COMMODITY_LIQUIDITY_SQUEEZE",
+      "first_divergence_step": 95,
+      "opponent_action": "Unilaterally purchases excess seed stock during low-liquidity Step 95-105 windows, driving Strawberry seed spot price from $40 -> $68.",
+      "apex_action": "APEX attempts normal seed purchase at Step 156 with tight cash ($300), hitting inflated seed costs and suffering cash starvation.",
+      "damage_per_cycle_mcv": "-$4,120.00",
+      "causal_finding": "Grandmaster Adversarial bot artificially inflates input seed prices during early rounds, inducing an acute working capital squeeze on APEX's fixed $300 cash buffer."
+    }
+  },
+  "counterfactual_eval": [
+    {
+      "candidate": "APEX_40_BASE",
+      "label": "APEX 4.0 (Frozen Base)",
+      "tier5_wr": 7.5,
+      "delta_wr": 0.0,
+      "mean_delta_mcv": 0.0,
+      "p05_delta": 0.0,
+      "p01_delta": 0.0,
+      "verdict": "WALL BLOCKED"
+    },
+    {
+      "candidate": "STAGE5_SHIELD",
+      "label": "Stage-5 Combined Shield (Reference)",
+      "tier5_wr": 20.5,
+      "delta_wr": 13.0,
+      "mean_delta_mcv": 944.07,
+      "p05_delta": 813.56,
+      "p01_delta": 804.31,
+      "verdict": "WALL BLOCKED"
+    },
+    {
+      "candidate": "CAND_GM_A",
+      "label": "Tier-5 Candidate A (Predictive Flooding Counter)",
+      "tier5_wr": 43.5,
+      "delta_wr": 36.0,
+      "mean_delta_mcv": 2203.42,
+      "p05_delta": 838.2,
+      "p01_delta": 807.29,
+      "verdict": "WALL BLOCKED"
+    },
+    {
+      "candidate": "CAND_GM_B",
+      "label": "Tier-5 Candidate B (Anti-Squeeze Liquidity Guard)",
+      "tier5_wr": 49.5,
+      "delta_wr": 42.0,
+      "mean_delta_mcv": 2393.94,
+      "p05_delta": 828.07,
+      "p01_delta": 805.9,
+      "verdict": "WALL BLOCKED"
+    },
+    {
+      "candidate": "CAND_GM_COMBINED",
+      "label": "Master Grandmaster Shield (Stage 5 + GM-A + GM-B)",
+      "tier5_wr": 75.5,
+      "delta_wr": 68.0,
+      "mean_delta_mcv": 3832.32,
+      "p05_delta": 3478.46,
+      "p01_delta": 3460.13,
+      "verdict": "WALL BROKEN (Pass)"
+    }
+  ],
+  "best_counterfactual": "Master Grandmaster Shield (Stage 5 + GM-A + GM-B)",
+  "unseen_tier5_wr": 75.5,
+  "delta_mcv": 3832.32,
+  "p05_delta": 3478.46,
+  "p01_delta": 3460.13,
+  "safety": {
+    "illegal_actions": 0,
+    "critical_violations": 0
+  },
+  "verdict": "STAGE_6_PASSED_TIER5_GRANDMASTER_WALL_BROKEN"
+}

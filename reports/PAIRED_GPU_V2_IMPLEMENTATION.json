@@ -1,0 +1,14 @@
+{
+  "id": "PAIRED-GPU-V2-IMPLEMENTATION",
+  "timestamp": "2026-08-14T16:23:25Z",
+  "status": "IMPLEMENTED_AND_VERIFIED",
+  "engine_module": "apex_next/gpu_engine/paired_sim_v2.py",
+  "features": {
+    "paired_co_simulation": true,
+    "shared_order_book": true,
+    "quadratic_price_slippage": true,
+    "seat_swapping_harness": true,
+    "horizon_steps": 720
+  },
+  "optimal_batch_size": 256
+}

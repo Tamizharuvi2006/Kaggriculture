@@ -1,0 +1,93 @@
+{
+  "id": "EXP0141-PAIRED-GPU-SCREENING",
+  "timestamp": "2026-08-15T15:57:41Z",
+  "engine": "PAIRED_GPU_V2.5 (Re-Certified Vectorized Tensor Accelerator)",
+  "evaluation_scope": "6 Candidates x 50 Seeds x 2 Seats = 600 Paired Matches",
+  "wall_time_seconds": 0.64,
+  "candidates": [
+    {
+      "candidate_id": "CAND-141-01",
+      "name": "Control (threshold = 0.90)",
+      "threshold": 0.9,
+      "paired_win_rate": 0.5,
+      "mean_cand_mcv": 58445.21,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 0.0,
+      "delta_p05": 0.0,
+      "p05_cand": 56422.18,
+      "p05_base": 56422.18,
+      "p01_cand": 55857.67,
+      "status": "CONTROL"
+    },
+    {
+      "candidate_id": "CAND-141-02",
+      "name": "Threshold 0.60 (High Sensitivity)",
+      "threshold": 0.6,
+      "paired_win_rate": 0.5,
+      "mean_cand_mcv": 58445.21,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 0.0,
+      "delta_p05": 0.0,
+      "p05_cand": 56422.18,
+      "p05_base": 56422.18,
+      "p01_cand": 55857.67,
+      "status": "FALSIFIED_GPU"
+    },
+    {
+      "candidate_id": "CAND-141-03",
+      "name": "Threshold 0.65 (Calibrated Early)",
+      "threshold": 0.65,
+      "paired_win_rate": 0.5,
+      "mean_cand_mcv": 58445.21,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 0.0,
+      "delta_p05": 0.0,
+      "p05_cand": 56422.18,
+      "p05_base": 56422.18,
+      "p01_cand": 55857.67,
+      "status": "FALSIFIED_GPU"
+    },
+    {
+      "candidate_id": "CAND-141-04",
+      "name": "Threshold 0.70 (Optimal Intermediate)",
+      "threshold": 0.7,
+      "paired_win_rate": 0.5,
+      "mean_cand_mcv": 58445.21,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 0.0,
+      "delta_p05": 0.0,
+      "p05_cand": 56422.18,
+      "p05_base": 56422.18,
+      "p01_cand": 55857.67,
+      "status": "FALSIFIED_GPU"
+    },
+    {
+      "candidate_id": "CAND-141-05",
+      "name": "Threshold 0.75 (Ceiling Boundary)",
+      "threshold": 0.75,
+      "paired_win_rate": 0.5,
+      "mean_cand_mcv": 58445.21,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 0.0,
+      "delta_p05": 0.0,
+      "p05_cand": 56422.18,
+      "p05_base": 56422.18,
+      "p01_cand": 55857.67,
+      "status": "FALSIFIED_GPU"
+    },
+    {
+      "candidate_id": "CAND-141-06",
+      "name": "Threshold 0.80 (Conservative)",
+      "threshold": 0.8,
+      "paired_win_rate": 0.5,
+      "mean_cand_mcv": 58445.21,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 0.0,
+      "delta_p05": 0.0,
+      "p05_cand": 56422.18,
+      "p05_base": 56422.18,
+      "p01_cand": 55857.67,
+      "status": "FALSIFIED_GPU"
+    }
+  ]
+}

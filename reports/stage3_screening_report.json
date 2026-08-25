@@ -1,0 +1,181 @@
+{
+  "id": "STAGE3-MASS-SCREENING-1",
+  "timestamp": "2026-08-14T15:07:33Z",
+  "total_candidates_screened": 6000,
+  "total_games_simulated": 48000,
+  "elapsed_seconds": 0.0103,
+  "screening_throughput_games_per_sec": 4657642.38,
+  "optimal_parameter_cluster": {
+    "cash_buffer_range": [
+      400.0,
+      600.0
+    ],
+    "sell_timing_optimal": 23,
+    "rebound_threshold_optimal": [
+      120.0,
+      130.0
+    ],
+    "reinvest_rate_optimal": [
+      0.9,
+      1.0
+    ]
+  },
+  "top_10_candidates": [
+    {
+      "candidate_id": "CAND-GPU-2979",
+      "params": {
+        "candidate_id": "CAND-GPU-2979",
+        "cash_buffer": 500.0,
+        "sell_timing": 23,
+        "rebound_threshold": 120.0,
+        "milk_batch_window": 1,
+        "reinvest_rate": 1.0
+      },
+      "mean_mcv": 111916.0,
+      "tail_p05": 58196.32,
+      "win_rate": 0.6192,
+      "score": 141014.16
+    },
+    {
+      "candidate_id": "CAND-GPU-2984",
+      "params": {
+        "candidate_id": "CAND-GPU-2984",
+        "cash_buffer": 500.0,
+        "sell_timing": 23,
+        "rebound_threshold": 120.0,
+        "milk_batch_window": 2,
+        "reinvest_rate": 1.0
+      },
+      "mean_mcv": 111916.0,
+      "tail_p05": 58196.32,
+      "win_rate": 0.6192,
+      "score": 141014.16
+    },
+    {
+      "candidate_id": "CAND-GPU-2989",
+      "params": {
+        "candidate_id": "CAND-GPU-2989",
+        "cash_buffer": 500.0,
+        "sell_timing": 23,
+        "rebound_threshold": 120.0,
+        "milk_batch_window": 3,
+        "reinvest_rate": 1.0
+      },
+      "mean_mcv": 111916.0,
+      "tail_p05": 58196.32,
+      "win_rate": 0.6192,
+      "score": 141014.16
+    },
+    {
+      "candidate_id": "CAND-GPU-2994",
+      "params": {
+        "candidate_id": "CAND-GPU-2994",
+        "cash_buffer": 500.0,
+        "sell_timing": 23,
+        "rebound_threshold": 120.0,
+        "milk_batch_window": 4,
+        "reinvest_rate": 1.0
+      },
+      "mean_mcv": 111916.0,
+      "tail_p05": 58196.32,
+      "win_rate": 0.6192,
+      "score": 141014.16
+    },
+    {
+      "candidate_id": "CAND-GPU-2999",
+      "params": {
+        "candidate_id": "CAND-GPU-2999",
+        "cash_buffer": 500.0,
+        "sell_timing": 23,
+        "rebound_threshold": 120.0,
+        "milk_batch_window": 5,
+        "reinvest_rate": 1.0
+      },
+      "mean_mcv": 111916.0,
+      "tail_p05": 58196.32,
+      "win_rate": 0.6192,
+      "score": 141014.16
+    },
+    {
+      "candidate_id": "CAND-GPU-3004",
+      "params": {
+        "candidate_id": "CAND-GPU-3004",
+        "cash_buffer": 500.0,
+        "sell_timing": 23,
+        "rebound_threshold": 130.0,
+        "milk_batch_window": 1,
+        "reinvest_rate": 1.0
+      },
+      "mean_mcv": 111916.0,
+      "tail_p05": 58196.32,
+      "win_rate": 0.6192,
+      "score": 141014.16
+    },
+    {
+      "candidate_id": "CAND-GPU-3009",
+      "params": {
+        "candidate_id": "CAND-GPU-3009",
+        "cash_buffer": 500.0,
+        "sell_timing": 23,
+        "rebound_threshold": 130.0,
+        "milk_batch_window": 2,
+        "reinvest_rate": 1.0
+      },
+      "mean_mcv": 111916.0,
+      "tail_p05": 58196.32,
+      "win_rate": 0.6192,
+      "score": 141014.16
+    },
+    {
+      "candidate_id": "CAND-GPU-3014",
+      "params": {
+        "candidate_id": "CAND-GPU-3014",
+        "cash_buffer": 500.0,
+        "sell_timing": 23,
+        "rebound_threshold": 130.0,
+        "milk_batch_window": 3,
+        "reinvest_rate": 1.0
+      },
+      "mean_mcv": 111916.0,
+      "tail_p05": 58196.32,
+      "win_rate": 0.6192,
+      "score": 141014.16
+    },
+    {
+      "candidate_id": "CAND-GPU-3019",
+      "params": {
+        "candidate_id": "CAND-GPU-3019",
+        "cash_buffer": 500.0,
+        "sell_timing": 23,
+        "rebound_threshold": 130.0,
+        "milk_batch_window": 4,
+        "reinvest_rate": 1.0
+      },
+      "mean_mcv": 111916.0,
+      "tail_p05": 58196.32,
+      "win_rate": 0.6192,
+      "score": 141014.16
+    },
+    {
+      "candidate_id": "CAND-GPU-3024",
+      "params": {
+        "candidate_id": "CAND-GPU-3024",
+        "cash_buffer": 500.0,
+        "sell_timing": 23,
+        "rebound_threshold": 130.0,
+        "milk_batch_window": 5,
+        "reinvest_rate": 1.0
+      },
+      "mean_mcv": 111916.0,
+      "tail_p05": 58196.32,
+      "win_rate": 0.6192,
+      "score": 141014.16
+    }
+  ],
+  "top_100_summary": {
+    "best_candidate_id": "CAND-GPU-2979",
+    "best_mean_mcv": 111916.0,
+    "best_p05": 58196.32,
+    "best_win_rate": 0.6192
+  }
+}

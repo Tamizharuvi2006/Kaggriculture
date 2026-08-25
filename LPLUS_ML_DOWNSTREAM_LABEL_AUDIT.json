@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "scope": "offline cached replay reconstruction only",
+  "games_run": false,
+  "training_run": false,
+  "source_dataset": "lplus_market_pressure_dataset.jsonl",
+  "output_dataset": "lplus_market_pressure_dataset_with_downstream.jsonl",
+  "raw_replay_root": "reports\\step5b\\old_loss_gauntlet\\raw_replays",
+  "raw_replays_loaded": 20,
+  "source_rows": 28760,
+  "rows_joined": 28760,
+  "rows_missing_replay": 0,
+  "rows_missing_wealth_24": 0,
+  "rows_missing_wealth_120": 0,
+  "bad_rows": 0,
+  "reconstruction_rule": {
+    "wealth_24": "steps[min(719, step + 24)][seat].observation.farms[seat].money",
+    "wealth_120": "steps[min(719, step + 120)][seat].observation.farms[seat].money",
+    "source": "same direct-observation rule used by research/build_mcv_replay_dataset.py"
+  },
+  "validation_examples": [
+    {
+      "match_id": "91296662",
+      "seat": 0,
+      "step": 0,
+      "wealth_24": 983.0,
+      "wealth_120": 472.0
+    },
+    {
+      "match_id": "91296662",
+      "seat": 0,
+      "step": 1,
+      "wealth_24": 976.0,
+      "wealth_120": 1448.0
+    },
+    {
+      "match_id": "91296662",
+      "seat": 0,
+      "step": 2,
+      "wealth_24": 976.0,
+      "wealth_120": 393.0
+    },
+    {
+      "match_id": "91296662",
+      "seat": 0,
+      "step": 3,
+      "wealth_24": 976.0,
+      "wealth_120": 393.0
+    },
+    {
+      "match_id": "91296662",
+      "seat": 0,
+      "step": 4,
+      "wealth_24": 947.0,
+      "wealth_120": 393.0
+    }
+  ],
+  "id_join_note": "The older data/replay/mcv_replay_dataset.json has zero ID overlap with these 20 raw replays; labels are reconstructed from the matching full raw trajectories instead.",
+  "limitations": [
+    "Farm money is a downstream wealth proxy, not causal incremental MCV.",
+    "Raw replays do not expose native accepted/rejected/preempted market outcomes.",
+    "The historical replay policy is not guaranteed to be L+ in every source match."
+  ]
+}

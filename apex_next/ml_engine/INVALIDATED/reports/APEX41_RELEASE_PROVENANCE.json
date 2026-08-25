@@ -1,0 +1,14 @@
+{
+  "artifact_name": "APEX41_RELEASE_CANDIDATE.pt",
+  "sha256": "7811e880a0ee17ec4db92f74604b179d59b6d195a6b7be06f7e528d019f965dc",
+  "timestamp": "2026-08-17T17:58:22Z",
+  "validation_scope": "500-Match Fresh 5-Tier Gauntlet + 30 Live Loss Replays",
+  "fresh_overall_wr": 66.0,
+  "live_loss_recovery_rate": 80.0,
+  "mean_delta_mcv": 1439.3329477259438,
+  "p05_floor": 0.0,
+  "p01_floor": 0.0,
+  "illegal_actions": 0,
+  "critical_violations": 0,
+  "status": "SEALED_RELEASE_CANDIDATE (DEPLOYMENT_LOCKED)"
+}

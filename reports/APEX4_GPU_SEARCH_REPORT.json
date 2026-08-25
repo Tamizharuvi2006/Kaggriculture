@@ -1,0 +1,14 @@
+{
+  "id": "APEX4-GPU-SEARCH-REPORT",
+  "timestamp": "2026-08-16T16:06:03Z",
+  "golden_seeds_count": 50,
+  "results": {
+    "paired_win_rate": 1.0,
+    "mean_cand_mcv": 61425.79,
+    "mean_base_mcv": 58445.21,
+    "delta_mean_mcv": 2980.58,
+    "p05_cand_mcv": 59351.61,
+    "p05_base_mcv": 56422.18,
+    "p01_cand_mcv": 58846.59
+  }
+}

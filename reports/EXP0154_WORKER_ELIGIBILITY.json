@@ -1,0 +1,40 @@
+{
+  "Worker_0": {
+    "worker_index": 0,
+    "actions_count": 18,
+    "pass_ticks": 0,
+    "pass_percentage": 0.0,
+    "critical_milestones": [
+      "Step 170: PICKUP"
+    ],
+    "eligibility_status": "LOCKED_CRITICAL_MILESTONE"
+  },
+  "Worker_1": {
+    "worker_index": 1,
+    "actions_count": 18,
+    "pass_ticks": 0,
+    "pass_percentage": 0.0,
+    "critical_milestones": [],
+    "eligibility_status": "LOCKED_ROUTINE_FARMING"
+  },
+  "Worker_2": {
+    "worker_index": 2,
+    "actions_count": 17,
+    "pass_ticks": 6,
+    "pass_percentage": 0.353,
+    "critical_milestones": [
+      "Step 159: BUILD_PASTURE"
+    ],
+    "eligibility_status": "LOCKED_CRITICAL_MILESTONE"
+  },
+  "Worker_3": {
+    "worker_index": 3,
+    "actions_count": 17,
+    "pass_ticks": 7,
+    "pass_percentage": 0.412,
+    "critical_milestones": [
+      "Step 159: BUILD_PASTURE"
+    ],
+    "eligibility_status": "ELIGIBLE_FOR_SW_ALLOCATION"
+  }
+}

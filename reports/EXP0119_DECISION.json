@@ -1,0 +1,17 @@
+{
+  "id": "EXP0119-DECISION",
+  "timestamp": "2026-08-14T15:49:23Z",
+  "screening_verdict": "CANDIDATE_ISOLATED_FOR_OFFICIAL_GATE1",
+  "selected_candidate_id": "CAND-119-02",
+  "selected_candidate_params": {
+    "plant_priority": 4,
+    "conditional_replant_window": false
+  },
+  "expected_lift": {
+    "mean_delta_mcv": 218.4,
+    "win_rate": 1.0,
+    "replanting_lag_reduction": "6.5 hours"
+  },
+  "official_evaluation_status": "READY_FOR_GATE_1_EXACT_REPLAY",
+  "governance_note": "Production (APEX 3.5 PROD) remains 100% untouched. Candidate will be evaluated on pinned reference engine."
+}

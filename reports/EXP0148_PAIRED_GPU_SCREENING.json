@@ -1,0 +1,93 @@
+{
+  "id": "EXP0148-PAIRED-GPU-SCREENING",
+  "timestamp": "2026-08-15T16:44:04Z",
+  "engine": "PAIRED_GPU_V2.5 (Re-Certified Vectorized Tensor Accelerator)",
+  "evaluation_scope": "6 Candidates x 50 Seeds x 2 Seats = 600 Paired Matches",
+  "wall_time_seconds": 0.56,
+  "candidates": [
+    {
+      "candidate_id": "CAND-148-01",
+      "name": "Control (APEX 3.5 PROD)",
+      "land2_step": 170,
+      "paired_win_rate": 0.5,
+      "mean_cand_mcv": 58445.21,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 0.0,
+      "delta_p05": 0.0,
+      "p05_cand": 56422.18,
+      "p05_base": 56422.18,
+      "p01_cand": 55857.67,
+      "status": "CONTROL"
+    },
+    {
+      "candidate_id": "CAND-148-02",
+      "name": "Variant C: Standard (Land 2 @ Step 152)",
+      "land2_step": 152,
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-148-03",
+      "name": "Variant C: Fast Land (Land 2 @ Step 148)",
+      "land2_step": 148,
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-148-04",
+      "name": "Variant C: Conservative (Land 2 @ Step 156)",
+      "land2_step": 156,
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-148-05",
+      "name": "Variant A: Liquidity Only (Land 2 @ Step 170)",
+      "land2_step": 170,
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-148-06",
+      "name": "Variant C: Aggressive (Land 2 @ Step 152)",
+      "land2_step": 152,
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    }
+  ]
+}

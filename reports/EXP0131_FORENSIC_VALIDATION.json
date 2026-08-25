@@ -1,0 +1,19 @@
+{
+  "id": "EXP0131-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-15T14:32:41Z",
+  "target_hypothesis": "EXP-0131 (TERMINAL_WHEAT_FEED_EXACT_CALIBRATION)",
+  "variable_family": "Capital_Preservation",
+  "cow_count_in_terminal_window": 8,
+  "cow_count_constant_after_step": 257,
+  "terminal_accounting_steps_672_720": {
+    "wheat_purchased": 43,
+    "wheat_consumed_by_cows": 10,
+    "excess_unconsumed_wheat": 33,
+    "mean_purchase_price": 18.5,
+    "terminal_salvage_price": 10.0,
+    "realized_dead_cash_loss": 280.5
+  },
+  "exact_demand_formula": "D_rem = max(0, cows * ((720 - step) // 6) - current_wheat_in_shed)",
+  "verdict": "VALID_FOR_PREREGISTRATION",
+  "verdict_rationale": "Schedule tracking confirms that APEX 3.5 purchases 43 wheat units after Step 672, but workers only feed 10 units to cows. Exactly 33 units remain unconsumed in shed at Step 720, creating a direct net loss of $280.50 due to purchase-vs-salvage price spread. Calibrating exact terminal wheat demand is 100% causal and physically verified."
+}

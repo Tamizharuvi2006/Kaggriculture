@@ -1,0 +1,151 @@
+{
+  "status": "BLOCK_TRAINING_FOR_POLICY_SELECTION",
+  "games_run": false,
+  "models_trained": false,
+  "rows": 28760,
+  "matches": 20,
+  "seats": 40,
+  "observed_action_modes": {
+    "NO_SELL": 19894,
+    "OTHER_FIRST": 4902,
+    "WOOL_FIRST": 982,
+    "MILK_FIRST": 1389,
+    "STRAWBERRY_FIRST": 1593
+  },
+  "exact_state_competing_action_groups": 0,
+  "approximate_public_state_groups": 1339,
+  "approximate_groups_with_action_variation": 4,
+  "approximate_group_examples": [
+    {
+      "actions": {
+        "OTHER_FIRST": {
+          "n": 22,
+          "wealth_24_min": 2.0,
+          "wealth_24_max": 25.0,
+          "wealth_120_min": 1589.0,
+          "wealth_120_max": 1818.0
+        },
+        "NO_SELL": {
+          "n": 1,
+          "wealth_24_min": 73.0,
+          "wealth_24_max": 73.0,
+          "wealth_120_min": 1459.0,
+          "wealth_120_max": 1459.0
+        }
+      }
+    },
+    {
+      "actions": {
+        "OTHER_FIRST": {
+          "n": 1,
+          "wealth_24_min": 577.0,
+          "wealth_24_max": 577.0,
+          "wealth_120_min": 74.0,
+          "wealth_120_max": 74.0
+        },
+        "NO_SELL": {
+          "n": 2,
+          "wealth_24_min": 573.0,
+          "wealth_24_max": 579.0,
+          "wealth_120_min": 77.0,
+          "wealth_120_max": 400.0
+        }
+      }
+    },
+    {
+      "actions": {
+        "OTHER_FIRST": {
+          "n": 9,
+          "wealth_24_min": 140.0,
+          "wealth_24_max": 145.0,
+          "wealth_120_min": 625.0,
+          "wealth_120_max": 653.0
+        },
+        "NO_SELL": {
+          "n": 1,
+          "wealth_24_min": 29.0,
+          "wealth_24_max": 29.0,
+          "wealth_120_min": 398.0,
+          "wealth_120_max": 398.0
+        }
+      }
+    },
+    {
+      "actions": {
+        "WOOL_FIRST": {
+          "n": 1,
+          "wealth_24_min": 11659.0,
+          "wealth_24_max": 11659.0,
+          "wealth_120_min": 17725.0,
+          "wealth_120_max": 17725.0
+        },
+        "MILK_FIRST": {
+          "n": 1,
+          "wealth_24_min": 10692.0,
+          "wealth_24_max": 10692.0,
+          "wealth_120_min": 14153.0,
+          "wealth_120_max": 14153.0
+        }
+      }
+    }
+  ],
+  "targets": {
+    "adverse_milk": {
+      "target_is_outcome_correlated": true,
+      "action_supervised": false,
+      "same_state_competing_action_evidence": false,
+      "reason": "The label is future price movement; each replay state records one observed action and no accepted/rejected counterfactual."
+    },
+    "favorable_milk": {
+      "target_is_outcome_correlated": true,
+      "action_supervised": false,
+      "same_state_competing_action_evidence": false,
+      "reason": "The label is future price movement; each replay state records one observed action and no accepted/rejected counterfactual."
+    },
+    "adverse_strawberry": {
+      "target_is_outcome_correlated": true,
+      "action_supervised": false,
+      "same_state_competing_action_evidence": false,
+      "reason": "The label is future price movement; each replay state records one observed action and no accepted/rejected counterfactual."
+    },
+    "favorable_strawberry": {
+      "target_is_outcome_correlated": true,
+      "action_supervised": false,
+      "same_state_competing_action_evidence": false,
+      "reason": "The label is future price movement; each replay state records one observed action and no accepted/rejected counterfactual."
+    },
+    "adverse_wool": {
+      "target_is_outcome_correlated": true,
+      "action_supervised": false,
+      "same_state_competing_action_evidence": false,
+      "reason": "The label is future price movement; each replay state records one observed action and no accepted/rejected counterfactual."
+    },
+    "favorable_wool": {
+      "target_is_outcome_correlated": true,
+      "action_supervised": false,
+      "same_state_competing_action_evidence": false,
+      "reason": "The label is future price movement; each replay state records one observed action and no accepted/rejected counterfactual."
+    },
+    "downstream_wealth_24": {
+      "target_is_outcome_correlated": true,
+      "action_supervised": false,
+      "same_state_competing_action_evidence": true,
+      "reason": "Future farm money is recoverable, but no matched alternative action is recorded."
+    },
+    "downstream_wealth_120": {
+      "target_is_outcome_correlated": true,
+      "action_supervised": false,
+      "same_state_competing_action_evidence": true,
+      "reason": "Future farm money is recoverable, but no matched alternative action is recorded."
+    }
+  },
+  "missing_decision_fields": [
+    "accepted/rejected/preempted status",
+    "queue position",
+    "alternative valid action",
+    "same-state counterfactual outcome",
+    "opponent private state"
+  ],
+  "conclusion": "The dataset supports descriptive prediction of market/wealth outcomes, but not causal action ranking or policy learning. Historical losses and observed sell priorities must not be treated as demonstrations of the opposite correct action.",
+  "next_gate": "Acquire matched counterfactual or intervention data before training a decision model; keep the proven L+ action as fallback."
+}

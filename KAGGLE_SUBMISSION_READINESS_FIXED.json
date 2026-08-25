@@ -1,0 +1,40 @@
+{
+  "status": "STATIC_READY_UNCERTIFIED",
+  "upload_executed": false,
+  "gate1_executed": false,
+  "new_candidate": {
+    "file": "APEX4_SUBMISSION_CANDIDATE_FIXED.py",
+    "sha256": "4b4527021aeffb98275b0202553961aa19ceb9f0db08b8960da3f328888e4750",
+    "bytes": 312777,
+    "lines": 4518,
+    "effective_top_level_agent": "agent -> _base_agent (existing APEX 4.0 implementation)"
+  },
+  "sealed_source": {
+    "file": "APEX4_SUBMISSION_FINAL.py",
+    "sha256": "0f3ddc3c5b67999d51508a38361bafe140a9050d7e2e3039ae2ccbc810dff45a",
+    "unchanged": true
+  },
+  "diff": {
+    "removed_old_lines": "4515 through EOF",
+    "removed_content": "later APEX 3.5 monolithic agent override",
+    "added_content": "four-line wrapper delegating to _base_agent",
+    "strategy_logic_changed": false
+  },
+  "checks": {
+    "syntax": "PASS",
+    "single_top_level_agent": "PASS",
+    "delegates_to_base_agent": "PASS",
+    "apex35_override_absent": "PASS",
+    "stdlib_only_imports": "PASS",
+    "local_file_dependencies": "PASS_NONE_DETECTED",
+    "network_or_subprocess_dependencies": "PASS_NONE_DETECTED",
+    "numpy_torch_pandas_dependencies": "PASS_NONE_DETECTED",
+    "hand_built_observation_smoke": "PASS_VALID_ACTION_KEYS",
+    "kaggle_execution": "NOT_RUN"
+  },
+  "rollback": {
+    "file": "APEX35_ROLLBACK_ARCHIVE/submission_apex35_prod_backup.py",
+    "sha256": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb"
+  },
+  "decision": "New artifact is statically/package-ready but uncertified. Do not claim Gate 1 or upload automatically."
+}

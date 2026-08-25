@@ -1,0 +1,35 @@
+{
+  "status": "NOT_READY_FOR_UPLOAD",
+  "audit_scope": "read-only static and packaging validation",
+  "upload_executed": false,
+  "candidate": {
+    "file": "APEX4_SUBMISSION_FINAL.py",
+    "sha256": "0f3ddc3c5b67999d51508a38361bafe140a9050d7e2e3039ae2ccbc810dff45a",
+    "bytes": 319050,
+    "expected_entrypoint": "agent(obs, configuration=None)",
+    "actual_agent_definition_line": 4527,
+    "actual_entrypoint_identity": "APEX 3.5 Dual-Regime Liquidity Engine"
+  },
+  "checks": {
+    "syntax_parse": true,
+    "top_level_agent_present": true,
+    "stdlib_only_imports": true,
+    "direct_kaggle_environments_import": false,
+    "direct_numpy_torch_pandas_import": false,
+    "local_file_access_detected": false,
+    "network_or_subprocess_import_detected": false,
+    "effective_apex4_entrypoint": false,
+    "stale_apex35_entrypoint_detected": true,
+    "live_execution_performed": false
+  },
+  "imports": ["base64", "json", "math", "zlib"],
+  "blocker": "The only top-level agent definition is a later APEX 3.5 monolithic entrypoint; the file is not an unambiguous APEX 4.0 submission.",
+  "candidate_mutated": false,
+  "new_copy_created": false,
+  "rollback": {
+    "live_file": "submission.py",
+    "archive_file": "APEX35_ROLLBACK_ARCHIVE/submission_apex35_prod_backup.py",
+    "sha256": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb"
+  },
+  "next_action": "Regenerate or correct the sealed candidate through the release process, assign a new hash, and rerun static/package validation before any upload."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "REG-VERIFY-1",
+  "date": "2026-08-14",
+  "protocol": {
+    "seeds": 46,
+    "seats_per_seed": 2,
+    "seat_balanced": true,
+    "source": "apex33_loss_seeds_cache.json",
+    "determinism": "byte-identical rerun verified on 3 seeds"
+  },
+  "head_to_head_apex35_vs_PROD36": {
+    "seed_wins": 46,
+    "seed_losses": 0,
+    "splits": 0,
+    "win_points": "92/92",
+    "apex35": {
+      "mean": 104616.20652173914,
+      "median": 104703.5,
+      "p05": 54058.0,
+      "std": 28246.763421983625
+    },
+    "PROD36": {
+      "mean": 45337.38043478261,
+      "median": 46738.0,
+      "p05": 12956.0,
+      "std": 18999.403580166752
+    },
+    "binomial_p": 0.0
+  },
+  "rebaseline_completed_pairs": {
+    "apex35_vs_PROD36": 100.0,
+    "apex35_vs_v18": 69.6,
+    "PROD36_vs_v18": 0.0,
+    "PROD36_vs_v83": 96.7,
+    "v18_vs_PROD36": 100.0,
+    "v83_vs_PROD36": 3.3
+  },
+  "rebaseline_missing_pairs": [
+    "apex35_vs_v83 (partial 5/46)",
+    "v18_vs_v83"
+  ],
+  "conclusion": "REGRESSION CONFIRMED: apex35 (APEX 3.5) beats PROD (APEX 3.6) 46/46 seeds, both seats, p<0.001.",
+  "production_status": "UNCHANGED - no modification to submission.py; restore requires user approval"
+}

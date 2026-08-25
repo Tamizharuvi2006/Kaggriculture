@@ -1,0 +1,294 @@
+{
+  "baseline_id": "APEX-3.5-PROD",
+  "generated_at": "2026-08-14T10:44:09.058702Z",
+  "generator": "apex_next/research/phase1_apex35_fingerprint.py",
+  "artifacts": {
+    "code_hash": "f10bb5ea10a34923846d9b396f98c7c7dfecea981c74ec732e0e65711ce55674",
+    "config_hash": "2c29716e6597448c64d74c2d2cfad481d91a393a7422a23d339066186b312e62",
+    "config_keys": [
+      "adaptive_animal_lead",
+      "adaptive_animal_max_day",
+      "adaptive_animal_min_day",
+      "adaptive_animal_min_herd",
+      "adaptive_animal_mode",
+      "adaptive_animal_target_share",
+      "adaptive_capital_animal_lead",
+      "adaptive_capital_land_lead",
+      "adaptive_capital_max_day",
+      "adaptive_capital_priority",
+      "adaptive_tempo_animal_lead",
+      "adaptive_tempo_cow",
+      "adaptive_tempo_land_lead",
+      "animal_daily_cap",
+      "animal_ne_day",
+      "animal_nw_day",
+      "animal_price_sensitivity",
+      "animal_sw_day",
+      "cash_reserve",
+      "cow_expert_cows",
+      "cow_expert_sheep",
+      "cows",
+      "crop_transition_day",
+      "drop_load_threshold",
+      "early_liquidity_floor",
+      "feed_days_buffer",
+      "fertilizer_roi",
+      "fixed_board_adaptation",
+      "fixed_schedule_version",
+      "force_expert",
+      "hands",
+      "interference_collision_only",
+      "interference_min_exposure",
+      "interference_preserve_wheat_order",
+      "interference_sell_first",
+      "interference_targeted_sort",
+      "interference_wheat_min_cash",
+      "interference_wheat_min_opponent_animals",
+      "interference_wheat_price_cap",
+      "interference_wheat_squeeze",
+      "interference_wheat_units",
+      "land_ne_day",
+      "land_sw_day",
+      "livestock_animal_cap",
+      "livestock_cash_reserve",
+      "livestock_cows",
+      "livestock_sheep",
+      "livestock_strawberries",
+      "livestock_tomatoes",
+      "market_interference",
+      "ongoing_harvest_threshold",
+      "opening_animals",
+      "opening_carrots",
+      "opening_cows",
+      "opening_melon_day0_cap",
+      "opening_melon_early_cap",
+      "opening_melons",
+      "opening_sheep",
+      "opening_wheat",
+      "premium_animal_cap",
+      "premium_cash_reserve",
+      "premium_cows",
+      "premium_sheep",
+      "premium_strawberries",
+      "premium_tomatoes",
+      "price_adaptive_animals",
+      "price_buffer_pct",
+      "rotation_evidence_threshold",
+      "sheep",
+      "sheep_expert_cows",
+      "sheep_expert_sheep",
+      "strawberries",
+      "strawberry_activation_day",
+      "strawberry_last_plant",
+      "strawberry_staging",
+      "top_hire_ramp",
+      "use_fixed_schedule",
+      "v11_alpha_milk_price",
+      "v11_radiant_market_interference",
+      "v11_radiant_player",
+      "v11_radiant_variant",
+      "v11_route_step",
+      "v12_late_market_mode",
+      "v12_market_interference",
+      "v13_gate_concentration",
+      "v13_gate_confidence",
+      "v13_gate_exposure_scale",
+      "v13_gate_lock_steps",
+      "v13_interference_min_exposure",
+      "v13_market_adaptation",
+      "v14_gate_concentration",
+      "v14_gate_confidence",
+      "v14_gate_exposure_scale",
+      "v14_gate_lock_steps",
+      "v14_interference_min_exposure",
+      "v14_market_adaptation",
+      "v15_gate_concentration",
+      "v15_gate_confidence",
+      "v15_gate_exposure_scale",
+      "v15_gate_lock_steps",
+      "v15_interference_min_exposure",
+      "v15_market_adaptation",
+      "v16_gate_concentration",
+      "v16_gate_confidence",
+      "v16_gate_exposure_scale",
+      "v16_gate_lock_steps",
+      "v16_gate_price_floor_ratio",
+      "v16_interference_min_exposure",
+      "v16_market_adaptation",
+      "v16_value_lane_margin",
+      "v17_market_ranker",
+      "v17_rank_min_confidence",
+      "v18_closed_loop_board",
+      "v18_closed_loop_market",
+      "wheat_rush_animal_cap",
+      "wheat_rush_cash_reserve",
+      "zoned_workers"
+    ],
+    "documented_candidate_hash_apex35": "78738c1b"
+  },
+  "contract_benchmarks": {
+    "known_ladder_elo": "~1650-1700",
+    "benchmark_win_rate_vs_v41": 0.792,
+    "mean_final_mcv": 142850,
+    "p05_tail_mcv": 98400,
+    "p95_peak_mcv": 189200,
+    "avg_step_latency_ms": 12.4,
+    "max_step_latency_ms": 85.0,
+    "pass_action_rate": 0.008
+  },
+  "mcv_population": {
+    "n_trajectories": 86,
+    "win_rate": 0.5,
+    "mean_mcv": 68743.9,
+    "std_mcv": 28038.9,
+    "p05_mcv": 25142.5,
+    "p10_mcv": 34039.5,
+    "median_mcv": 67187.5,
+    "p90_mcv": 103172.5,
+    "p95_mcv": 115289.2
+  },
+  "regime_performance": {
+    "STABLE": {
+      "matches": 0
+    },
+    "INFLATION": {
+      "matches": 0
+    },
+    "LIQUIDITY_SHOCK": {
+      "matches": 8,
+      "win_rate": 0.875,
+      "mean_mcv": 85736.1,
+      "p05_mcv": 43953.7
+    },
+    "DEMAND_SPIKE": {
+      "matches": 0
+    },
+    "SUPPLY_COLLAPSE": {
+      "matches": 78,
+      "win_rate": 0.4615,
+      "mean_mcv": 67001.1,
+      "p05_mcv": 24069.4
+    },
+    "OPPONENT_PRESSURE": {
+      "matches": 0
+    }
+  },
+  "weakest_regime": {
+    "regime": "SUPPLY_COLLAPSE",
+    "win_rate": 0.4615,
+    "diagnosis": "Agent is weakest during SUPPLY_COLLAPSE (46% WR over 78 matches)."
+  },
+  "live_ladder": {
+    "total_matches": 807,
+    "overall_win_rate": 0.4064,
+    "by_submission_ref": {
+      "55247715": {
+        "matches": 34,
+        "win_rate": 0.5,
+        "mean_mcv": 14284.4,
+        "mean_elo_delta": -5.236,
+        "seat0_win_rate": 0.5789,
+        "seat1_win_rate": 0.4
+      },
+      "55249106": {
+        "matches": 215,
+        "win_rate": 0.2372,
+        "mean_mcv": 112478.9,
+        "mean_elo_delta": 4.092,
+        "seat0_win_rate": 0.23,
+        "seat1_win_rate": 0.2435
+      },
+      "55329352": {
+        "matches": 64,
+        "win_rate": 0.4531,
+        "mean_mcv": 60572.7,
+        "mean_elo_delta": 2.477,
+        "seat0_win_rate": 0.3784,
+        "seat1_win_rate": 0.5556
+      },
+      "55373438": {
+        "matches": 27,
+        "win_rate": 0.5556,
+        "mean_mcv": 65112.0,
+        "mean_elo_delta": 5.665,
+        "seat0_win_rate": 0.6429,
+        "seat1_win_rate": 0.4615
+      },
+      "55373932": {
+        "matches": 48,
+        "win_rate": 0.625,
+        "mean_mcv": 86244.7,
+        "mean_elo_delta": 13.627,
+        "seat0_win_rate": 0.6562,
+        "seat1_win_rate": 0.5625
+      },
+      "55376463": {
+        "matches": 66,
+        "win_rate": 0.4697,
+        "mean_mcv": 76279.1,
+        "mean_elo_delta": 7.238,
+        "seat0_win_rate": 0.4722,
+        "seat1_win_rate": 0.4667
+      },
+      "55382689": {
+        "matches": 82,
+        "win_rate": 0.4512,
+        "mean_mcv": 74606.6,
+        "mean_elo_delta": 5.593,
+        "seat0_win_rate": 0.4333,
+        "seat1_win_rate": 0.4615
+      },
+      "55411304": {
+        "matches": 101,
+        "win_rate": 0.4158,
+        "mean_mcv": 79938.0,
+        "mean_elo_delta": 5.115,
+        "seat0_win_rate": 0.3922,
+        "seat1_win_rate": 0.44
+      },
+      "55421857": {
+        "matches": 114,
+        "win_rate": 0.4386,
+        "mean_mcv": 83341.5,
+        "mean_elo_delta": 4.433,
+        "seat0_win_rate": 0.3846,
+        "seat1_win_rate": 0.5102
+      },
+      "55483322": {
+        "matches": 56,
+        "win_rate": 0.4643,
+        "mean_mcv": 81953.4,
+        "mean_elo_delta": 8.65,
+        "seat0_win_rate": 0.5,
+        "seat1_win_rate": 0.4444
+      }
+    }
+  },
+  "priority_ranking": {
+    "total_clusters": 2,
+    "selected_archetype": "SUPPLY_COLLAPSE",
+    "selected_priority": 3.16,
+    "ranking": [
+      {
+        "archetype": "SUPPLY_COLLAPSE",
+        "frequency": 0.9767,
+        "impact": 0.5385,
+        "confidence": 1.0,
+        "fixability": 0.6,
+        "priority_score": 3.16,
+        "prior_attempts": 0,
+        "penalized_score": 3.16
+      },
+      {
+        "archetype": "LIQUIDITY_SHOCK",
+        "frequency": 0.0233,
+        "impact": 0.125,
+        "confidence": 0.2,
+        "fixability": 0.6,
+        "priority_score": 0.0,
+        "prior_attempts": 0,
+        "penalized_score": 0.0
+      }
+    ]
+  }
+}

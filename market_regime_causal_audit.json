@@ -1,0 +1,88 @@
+{
+  "date": "2026-08-22",
+  "mode": "read_only_cached_trace_analysis",
+  "games_run": 0,
+  "training_run": false,
+  "production_modified": false,
+  "frozen_submission_modified": false,
+  "source_of_truth": "KAGGRICULTURE_RESEARCH_INDEX.md",
+  "baseline_reproduction": {
+    "source": "reports/step5b/candidate_full_trajectory_divergence_32.json",
+    "status": "PASS",
+    "episodes": 32,
+    "completed_pairs": 32,
+    "calls_per_episode": 720,
+    "transitions_per_episode": 719,
+    "comparison_start_step": 120,
+    "divergence_count": 0,
+    "interpretation": "Accepted from cached parity evidence; no replay was rerun for this audit."
+  },
+  "cohorts": {
+    "low": {"episodes": 5, "mean_terminal_mcv": 54170.0},
+    "high": {"episodes": 13, "mean_terminal_mcv": 130581.5385},
+    "gap_high_minus_low": 76411.5385
+  },
+  "product_gaps": {
+    "MILK": {"covered_value_high_minus_low": 63170.0462, "avg_price_high_minus_low": 123.9245},
+    "STRAWBERRY": {"covered_value_high_minus_low": 50772.0, "avg_price_high_minus_low": 133.1367},
+    "WOOL": {"covered_value_high_minus_low": 3450.8308, "avg_price_high_minus_low": 24.8614}
+  },
+  "earliest_observable_analysis": {
+    "milk_first_sell_step": {"low": 196, "high": 196},
+    "strawberry_first_sell_step": {"low": 270, "high": 270},
+    "first_sale_price_consistently_separates": false,
+    "best_supported_variable": "evolving realized price path interacting with opponent/shared-market regime",
+    "causal_identification_status": "hypothesis_supported_but_not_fully_identified"
+  },
+  "available_event_fields": [
+    "product",
+    "step",
+    "day",
+    "hour",
+    "price",
+    "attempted_units",
+    "inventory_before",
+    "inventory_covered_units",
+    "inventory_shortfall_units"
+  ],
+  "missing_causal_fields": [
+    "opponent_per_step_sell_activity",
+    "order_queue_position",
+    "accepted_rejected_preempted_label",
+    "cash_before_after_each_sell",
+    "order-linked_downstream_price",
+    "pre_post_event_state_digest"
+  ],
+  "opponent_regime_proxy": {
+    "pass_only_mean_mcv": 140239.125,
+    "v18_baseline_mean_mcv": 79524.375,
+    "apex4_self_play_mean_mcv": 79994.5,
+    "interpretation": "Episode-level association only; not proof of per-event opponent causality."
+  },
+  "counterfactual_boundary": {
+    "milk_delay_low_cohort_mean_delta_mcv": -17275.0,
+    "milk_delay_low_cohort_positive_cases": 0,
+    "milk_delay_low_cohort_negative_cases": 5,
+    "open_loop_counterfactual_used_as_evidence": false,
+    "safe_counterfactual_justified": false
+  },
+  "final_answers": {
+    "strongest_causal_hypothesis": "Opponent-conditioned shared-market price realization across repeated MILK and STRAWBERRY sells.",
+    "supporting_evidence": [
+      "MILK and STRAWBERRY account for about 113942 of covered-value high-minus-low gap.",
+      "First sell steps are identical but later realized prices diverge.",
+      "Similar physical farm structures produce very different terminal MCV.",
+      "Opponent-profile cohorts show large episode-level MCV differences.",
+      "Prior shared-market phases report endogenous price pressure and clearance interaction."
+    ],
+    "evidence_against_alternatives": [
+      "Land #4 and 3-land ceiling do not separate low and high traces.",
+      "Worker, plant, and pasture counts are nearly identical.",
+      "Terminal inventory is zero.",
+      "First sell timing and first sell price overlap.",
+      "Fixed high-price milk delay is negative in the paired wrapper."
+    ],
+    "new_game_run_worth_time": false,
+    "reason": "The missing requirement is per-event causal observability and baseline-preserving state capture, not more game count."
+  }
+}

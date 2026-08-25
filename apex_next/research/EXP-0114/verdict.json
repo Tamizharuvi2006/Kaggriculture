@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EXP-0114",
+  "candidate_hash": "4296297e9be9e120ec65c12c49631f441646fa1df9933966e835a5c3fcdc5df5",
+  "baseline_hash": "f10bb5ea10a34923846d9b396f98c7c7dfecea981c74ec732e0e65711ce55674",
+  "verdict": "FALSIFIED",
+  "why": "Trend-filtered suppression (price<MA24) fires in 45/46 seeds and starves operating cash: WR 6.5% (6.0/92), delta MCV -8126, p05 41028 < 42740, added PASS 13.",
+  "gate1": {
+    "status": "FAIL",
+    "win_rate": 0.0652,
+    "n": 46,
+    "matches": 92
+  },
+  "parent": "EXP-0113"
+}

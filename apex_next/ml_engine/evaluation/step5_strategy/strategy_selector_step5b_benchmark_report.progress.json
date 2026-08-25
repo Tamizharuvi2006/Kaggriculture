@@ -1,0 +1,30 @@
+{
+  "completed": 10,
+  "total": 250,
+  "elapsed_seconds": 219.439,
+  "games_per_second": 0.04557074056886547,
+  "eta_seconds": 5266.537190399999,
+  "latest_episode": {
+    "episode": 9,
+    "seed": 34009,
+    "opponent_id": "crop_heavy_targeted",
+    "completed": true,
+    "steps": 719,
+    "raw_terminal_reward": 116862.0,
+    "normalized_reward": 1.16862,
+    "invalid_feature_count": 0,
+    "illegal_action_count": 0,
+    "decision_uses_observation_step": 120,
+    "strategy_index": 2,
+    "strategy_name": "WHEAT_RUSH",
+    "strategy_weight_sum": 1.0,
+    "confidence": 0.5421719551086426,
+    "classifier_probs": [
+      1.5349375104278806e-08,
+      0.9998514652252197,
+      2.8984547630201e-17,
+      1.046317811415065e-05,
+      0.00013800026499666274
+    ]
+  }
+}

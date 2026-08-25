@@ -1,0 +1,30 @@
+{
+  "id": "SPATIAL-POLICY-1-FORENSIC",
+  "timestamp": "2026-08-15T16:50:38Z",
+  "window_analyzed": "Steps 152 - 170 (Day 6.3 - Day 7.1)",
+  "idle_worker_ticks": 15,
+  "total_worker_ticks": 102,
+  "idle_percentage": 0.1471,
+  "target_sw_tiles": [
+    "(5, 1)",
+    "(5, 2)",
+    "(5, 3)",
+    "(6, 1)",
+    "(6, 2)",
+    "(6, 3)"
+  ],
+  "override_mechanism": {
+    "trigger": "step in range(152, 171) and len(unlocked_quadrants) >= 2",
+    "condition": "worker action is PASS",
+    "action": "Route worker SOUTH to till and plant SW quadrant 15 steps earlier",
+    "collision_safety": "Only replaces PASS actions with directional steps into empty SW quadrant"
+  },
+  "projected_impact": {
+    "tiles_tilled_early": 6,
+    "strawberry_seeds_planted_early": 6,
+    "maturation_step": 204,
+    "extra_harvest_waves": 2,
+    "projected_mcv_lift": 2240.0
+  },
+  "verdict": "VALID_FOR_PREREGISTRATION"
+}

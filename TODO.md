@@ -1,28 +1,52 @@
-# 📋 KAGGRICULTURE APEX: RESEARCH ROADMAP & NEXT TASKS
-
-## 🛡️ Current Governance & Freeze Status
-- 🛡️ **Ref 55421857 (APEX 3.3 Challenger)**: Active live Kaggle experiment. **FROZEN & UNTOUCHED**.
-- 🛡️ **Ref 55249106 (V4.1 Master Baseline)**: Master Champion historical benchmark. **RETIRED FROM EXPERIMENTAL LOOP**.
-- 🔒 **APEX 3.4**: Research candidate. **FROZEN LOCALLY** (Not submitted).
-- 🎯 **Target Benchmark**: **Real Kaggle 3000+ Winner Empirical Population Standard** (43 Matches / 86 Trajectories).
+# 📋 KAGGRICULTURE APEX: OPERATIONAL ROADMAP & TODO
 
 ---
 
-## 🔬 Completed Phase Highlights (Phases 28–35)
-- ✅ **Phase 28 (Step & Threshold Sensitivity Grid)**: Proved parameter stability for pre-clearance rescue (Steps 70–72 / $800–$1,100).
-- ✅ **Phase 29 (Land #4 Capex ROI Falsification)**: Confirmed 3-Quadrant Expansion Ceiling (Land #4 drops win rate from 68% to 8–12%).
-- ✅ **Phase 30 (APEX 3.4 145-Match Tournament)**: 66.7% win on failure seeds, 56.7% vs APEX 3.3, but averaged -$241.92 vs benchmark across 100 holdout seeds.
-- ✅ **Phase 31–33 (Forensic Dissection of 65 Wins vs 35 Losses)**: Proved physical production is 100% invariant (616 Strawberry units sold in both cohorts). The wealth delta is 100% price realization driven ($162.57 vs $151.52).
-- ✅ **Phase 34 (Real Kaggle 3000+ Population Study)**: Analyzed 43 real matches (86 trajectories). Discovered the **Clearance Paradox** (Losers sell 2.5x more on clearance) and Day 15 reinvestment inflection.
-- ✅ **Phase 35 (Market Equilibrium & Pricing Regimes)**: Discovered that Kaggriculture Markov walks create distinct High-Milk vs High-Strawberry pricing regimes.
+## 🔒 1. Current Freeze & Operational State
+- 🛡️ **APEX 3.5 PROD (`submission.py`, Ref 55483322)**: Active live on Kaggle. **100% FROZEN & UNTOUCHED**.
+- 🚀 **APEX 4.0 (`APEX4_SUBMISSION_FINAL.py`, SHA256 0f3ddc3c...)**: Certified master candidate. **100% FROZEN & RELEASE-READY**.
+- 🛡️ **APEX 3.5 Rollback Archive (`APEX35_ROLLBACK_ARCHIVE/`)**: Intact and verified.
+- ❌ **APEX 4.1 ML Pipeline**: **INVALIDATED** — all stages used synthetic data, agent stub is broken.
+- 🎯 **Target Goal**: **2,000+ Kaggle Skill Rating**.
 
 ---
 
-## 🎯 Next Action Items for Phase 36 (Towards APEX 3.5)
-1. **Design Market-Regime Adaptive Allocation**:
-   - Detect early-game Markov price regimes (e.g. Milk price > $140/unit vs Strawberry price).
-   - In High-Milk regimes, dynamically increase animal utilization while maintaining core Strawberry crop base.
-2. **Batch Size Protection & Clearance Smoothing**:
-   - Limit clearance liquidation to true unallocated surplus, preventing clearance sales from fragmenting high-value 10-pack batch sales.
-3. **Multi-Agent Population Gating**:
-   - Test any candidate strategy against both top-tier replay expert schedules AND multi-seed holdout tournaments before promotion.
+## 🚀 2. Immediate Deployment Actions (Upon User Command)
+1. [ ] **Execute Production Cutover**:
+   ```powershell
+   Copy-Item -Force D:\Kaggriculture\APEX4_SUBMISSION_FINAL.py D:\Kaggriculture\submission.py
+   ```
+2. [ ] **Verify Production Hash Identity**:
+   ```powershell
+   Get-FileHash D:\Kaggriculture\submission.py -Algorithm SHA256
+   # Must equal: 0F3DDC3C5B67999D51508A38361BAFE140A9050D7E2E3039AE2CCBC810DFF45A
+   ```
+3. [ ] **Submit `submission.py` to Kaggle Competition**.
+4. [ ] **Log New Submission ID & Timestamp in Registry**.
+
+---
+
+## ⚠️ 3. APEX 4.1 ML Branch — What Went Wrong & What To Do Next
+
+### What was broken:
+- All 8 training stages generated "game states" using `np.random.randn(batch_size, 256)` — pure noise
+- Win/loss outcomes came from logistic formulas (`1/(1+exp(...))`) instead of game simulation
+- The GPU engine only modeled milk/wool production (no crops, workers, grid, or pathfinding)
+- Parity validators hardcoded `"PASS"` without running `kaggle_environments`
+- The packaged submission returns `{"action": "APEX41_EXECUTE"}` — crashes immediately
+
+### Requirements for a valid APEX 4.1 ML pipeline:
+1. [ ] **Real game episodes**: Train against `kaggle_environments` or a GPU simulator with verified parity
+2. [ ] **Real state features**: Extract 256-dim features from actual `observation` dictionaries
+3. [ ] **Real evaluation**: Measure WR/MCV from actual match outcomes, not formulas
+4. [ ] **Valid submission format**: Agent must return `{"farmer": [...], "hands": [...], "market": [...]}`
+5. [ ] **Genuine parity testing**: Differential test GPU engine against `kaggle_environments` end-to-end
+6. [ ] **Honest reporting**: Never hardcode metrics or safety verdicts
+
+---
+
+## 📊 4. Post-Launch Telemetry & The 2,000 Rating Roadmap
+1. **Stage 1 (Matches 1–30)**: Ingest initial match telemetry; verify >= 75% WR in the 1000–1200 bracket.
+2. **Stage 2 (Matches 30–75)**: Monitor bracket escalation through 1200–1500 tier.
+3. **Stage 3 (Rating Wall Identification)**: If win rate drops <55% in higher tiers (e.g. 1600+), isolate the loss archetype.
+4. **Stage 4 (APEX 4.1 Targeted Overlay)**: Build a properly validated adaptive rule or ML agent for that specific wall.

@@ -1,0 +1,10 @@
+{
+  "id": "EXP0148-GUARDRAIL-AUDIT",
+  "timestamp": "2026-08-15T16:44:04Z",
+  "candidate": "CAND-148-02",
+  "solvency_violations": 0,
+  "pasture_capacity_violations": 0,
+  "worker_labor_violations": 0,
+  "wage_defaults": 0,
+  "guardrail_status": "PASS_ALL"
+}

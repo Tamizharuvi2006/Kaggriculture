@@ -1,0 +1,81 @@
+{
+  "id": "EXP0119-GUARDRAIL-AUDIT",
+  "timestamp": "2026-08-14T15:49:23Z",
+  "overall_status": "ALL_GUARDRAILS_PASSED",
+  "safety_guarantees": {
+    "watering_starvation": "0 events (WATER p0/p2 strictly precedes PLANT p4/p5)",
+    "animal_feeding_starvation": "0 events (FEED p0/p2 strictly precedes PLANT p4/p5)",
+    "harvest_starvation": "0 events (HARVEST p1 strictly precedes PLANT p4/p5)",
+    "negative_cash_events": "0 events",
+    "pass_volatility": "0 delta (Standard 12 PASS turns preserved)",
+    "tail_risk_degradation": "0 degradation (p05 strictly >= baseline)"
+  },
+  "per_candidate_audit": [
+    {
+      "candidate_id": "CAND-119-01",
+      "guardrail_status": "PASS_ALL",
+      "checks": {
+        "watering_starvation_events": 0,
+        "feeding_starvation_events": 0,
+        "harvest_starvation_events": 0,
+        "pasture_dig_delay_hours": 1.2,
+        "tail_risk_delta_p05": 20.0
+      }
+    },
+    {
+      "candidate_id": "CAND-119-02",
+      "guardrail_status": "PASS_ALL",
+      "checks": {
+        "watering_starvation_events": 0,
+        "feeding_starvation_events": 0,
+        "harvest_starvation_events": 0,
+        "pasture_dig_delay_hours": 3.5,
+        "tail_risk_delta_p05": 140.0
+      }
+    },
+    {
+      "candidate_id": "CAND-119-03",
+      "guardrail_status": "PASS_ALL",
+      "checks": {
+        "watering_starvation_events": 0,
+        "feeding_starvation_events": 0,
+        "harvest_starvation_events": 0,
+        "pasture_dig_delay_hours": 0.0,
+        "tail_risk_delta_p05": 20.0
+      }
+    },
+    {
+      "candidate_id": "CAND-119-04",
+      "guardrail_status": "PASS_ALL",
+      "checks": {
+        "watering_starvation_events": 0,
+        "feeding_starvation_events": 0,
+        "harvest_starvation_events": 0,
+        "pasture_dig_delay_hours": 0.0,
+        "tail_risk_delta_p05": 60.0
+      }
+    },
+    {
+      "candidate_id": "CAND-119-05",
+      "guardrail_status": "PASS_ALL",
+      "checks": {
+        "watering_starvation_events": 0,
+        "feeding_starvation_events": 0,
+        "harvest_starvation_events": 0,
+        "pasture_dig_delay_hours": 0.0,
+        "tail_risk_delta_p05": 20.0
+      }
+    },
+    {
+      "candidate_id": "CAND-119-06",
+      "guardrail_status": "PASS_ALL",
+      "checks": {
+        "watering_starvation_events": 0,
+        "feeding_starvation_events": 0,
+        "harvest_starvation_events": 0,
+        "pasture_dig_delay_hours": 0.0,
+        "tail_risk_delta_p05": 20.0
+      }
+    }
+  ]
+}

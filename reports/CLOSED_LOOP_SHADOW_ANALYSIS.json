@@ -1,0 +1,27 @@
+{
+  "id": "CLOSED-LOOP-SHADOW-ANALYSIS",
+  "timestamp": "2026-08-15T17:21:29Z",
+  "loss_seeds_analyzed": 46,
+  "divergences_identified": [
+    {
+      "window": "Steps 74 - 170 (Phase A: Early Cultivation)",
+      "apex_baseline": "Melons held until step 96; Land 2 bought step 170; workers idle 15 ticks.",
+      "closed_loop_policy": "Melon liquidity converted @ step 75 -> Land 2 @ step 152 -> Unreserved worker tills SW quadrant.",
+      "impact": "+$2,240.00 MCV lift (47.8% loss seeds addressed)"
+    },
+    {
+      "window": "Steps 280 - 450 (Phase B: Pre-Clearance Drops)",
+      "apex_baseline": "Workers carry strawberries in backpacks overnight.",
+      "closed_loop_policy": "Hour 22 shed drop routing -> Liquidates before Hour 23 clearance.",
+      "impact": "+$1,250.00 MCV lift (28.3% loss seeds addressed)"
+    },
+    {
+      "window": "Steps 672 - 719 (Phase C: Feed Conservation)",
+      "apex_baseline": "Buys town wheat at inflated spot prices.",
+      "closed_loop_policy": "Feeds cows from shed wheat reserve when town price >= $28.",
+      "impact": "+$450.00 MCV lift (23.9% loss seeds addressed)"
+    }
+  ],
+  "projected_overall_recovery_rate": "76.1% (35 / 46 loss seeds recovered)",
+  "projected_mean_delta_mcv": 3940.0
+}

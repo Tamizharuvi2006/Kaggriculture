@@ -1,0 +1,75 @@
+{
+  "id": "EXP0141-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-15T21:26:00Z",
+  "target_hypothesis": "EXP-0141 (ADAPTIVE_EXPERT_ROTATION_EVIDENCE_CALIBRATION)",
+  "variable_family": "Adaptive_Intelligence",
+  "empirical_distribution": [
+    {
+      "bucket": "<0.60",
+      "count": 420,
+      "pct": 52.0,
+      "wins": 260,
+      "losses": 160,
+      "win_rate": 0.619
+    },
+    {
+      "bucket": "[0.60, 0.65)",
+      "count": 112,
+      "pct": 13.9,
+      "wins": 68,
+      "losses": 44,
+      "win_rate": 0.607
+    },
+    {
+      "bucket": "[0.65, 0.70)",
+      "count": 98,
+      "pct": 12.1,
+      "wins": 54,
+      "losses": 44,
+      "win_rate": 0.551
+    },
+    {
+      "bucket": "[0.70, 0.75)",
+      "count": 125,
+      "pct": 15.5,
+      "wins": 65,
+      "losses": 60,
+      "win_rate": 0.52
+    },
+    {
+      "bucket": "[0.75, 0.80)",
+      "count": 28,
+      "pct": 3.5,
+      "wins": 13,
+      "losses": 15,
+      "win_rate": 0.464
+    },
+    {
+      "bucket": "[0.80, 0.90)",
+      "count": 14,
+      "pct": 1.7,
+      "wins": 6,
+      "losses": 8,
+      "win_rate": 0.428
+    },
+    {
+      "bucket": ">=0.90",
+      "count": 10,
+      "pct": 1.2,
+      "wins": 4,
+      "losses": 6,
+      "win_rate": 0.4
+    }
+  ],
+  "causal_mechanism": {
+    "evidence_compression_bug": "Partial livestock evidence formula caps at 0.75 (0.35 + 0.08*(animals-4)), meaning threshold = 0.90 is mathematically impossible to reach for partial livestock opponents.",
+    "unactivated_match_population": "27.6% of matches (223 / 807 matches) sit in [0.65, 0.75] evidence range and suffer a depressed 52.0%-55.1% win rate.",
+    "proposed_calibration": "Lowering threshold to [0.60, 0.65, 0.70, 0.75, 0.80] unlocks dynamic counter-selection for this 27.6% population."
+  },
+  "physical_lifecycle_safety": {
+    "worker_pathing_safe": true,
+    "rationale": "Adaptive profile modifies high-level strategic targets (targets['cows'], targets['strawberries'], cash_reserve), which are dynamically resolved by the reactive decision loop without breaking open-loop worker steps."
+  },
+  "causal_classification": "CAUSAL",
+  "verdict": "VALID_FOR_PREREGISTRATION"
+}

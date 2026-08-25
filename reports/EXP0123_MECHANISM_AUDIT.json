@@ -1,0 +1,17 @@
+{
+  "id": "EXP0123-MECHANISM-AUDIT",
+  "timestamp": "2026-08-14T22:25:00Z",
+  "target_hypothesis": "EXP-0123 (TOWN_SHOP_FEED_PREEMPTION / RESOURCE_DENIAL)",
+  "answers_to_core_questions": {
+    "1_is_town_inventory_shared": "YES, obs['market']['inventory'] is globally shared between Player 0 and Player 1.",
+    "2_does_purchase_reduce_quantity": "YES, purchasing N units reduces the pool by N.",
+    "3_town_inventory_capacity": "10,000 units for all commodities (WHEAT, CARROT, TOMATO, STRAWBERRY, MELON, MILK, WOOL).",
+    "4_can_agent_deplete_pool": "NO. Depleting 10,000 wheat at $25/unit requires $250,000 cash. Total match economy is ~$100,000. Purchasing 10-20 wheat leaves 9,980 units available (99.8% remaining).",
+    "5_price_impact_of_bulk_purchase": "Negligible ($25 -> $26 spot shift). Opponent feed cost increases by < $1.00/batch.",
+    "6_causes_animal_starvation": "NO. Opponent can still purchase wheat freely from the 9,980 remaining units.",
+    "7_economic_verdict": "Resource denial is mathematically and physically impossible due to massive pool size (10,000 units)."
+  },
+  "verdict": "INVALID_MECHANISM",
+  "verdict_rationale": "The town market inventory begins at 10,000 units per commodity. Because a single player never accumulates the $250,000 required to exhaust the 10,000 unit pool, buying 10-20 wheat does not create feed scarcity or deprive the opponent of livestock feed. In accordance with research protocol, EXP-0123 is marked INVALID_MECHANISM and halted before GPU screening.",
+  "next_hypothesis_handoff": "EXP-0124 (SOLVENCY_GATED_LAND_EXPANSION / STRICT_CAPITAL_PRESERVATION)"
+}

@@ -1,0 +1,5076 @@
+{
+  "status": "PASS",
+  "seed_start": 10000,
+  "sample_steps": [
+    0,
+    100,
+    200,
+    400,
+    600,
+    718
+  ],
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 10000,
+      "opponent_id": "apex35_live_submission",
+      "completed": true,
+      "snapshots": [
+        {
+          "step": 0,
+          "agent0_observation": {
+            "player": 0,
+            "step": 0,
+            "farm0": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 100,
+          "agent0_observation": {
+            "player": 0,
+            "step": 100,
+            "farm0": {
+              "money": 859.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 6,
+              "animals": {
+                "COW": 3,
+                "SHEEP": 1
+              },
+              "tile_count": 100,
+              "planted_tiles": 19,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 11,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 8
+              },
+              "sample_workers": [
+                [
+                  4,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 859.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 6,
+              "animals": {
+                "COW": 3,
+                "SHEEP": 1
+              },
+              "tile_count": 100,
+              "planted_tiles": 19,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 11,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 8
+              },
+              "sample_workers": [
+                [
+                  4,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [
+              [
+                "CARE"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 200,
+          "agent0_observation": {
+            "player": 0,
+            "step": 200,
+            "farm0": {
+              "money": 1636.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE"
+              ],
+              "quadrant_count": 2,
+              "worker_count": 10,
+              "animals": {
+                "COW": 5,
+                "SHEEP": 2
+              },
+              "tile_count": 100,
+              "planted_tiles": 28,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 10,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 7,
+                "MELON": 11
+              },
+              "sample_workers": [
+                [
+                  4,
+                  2
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 1636.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE"
+              ],
+              "quadrant_count": 2,
+              "worker_count": 10,
+              "animals": {
+                "COW": 5,
+                "SHEEP": 2
+              },
+              "tile_count": 100,
+              "planted_tiles": 28,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 10,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 7,
+                "MELON": 11
+              },
+              "sample_workers": [
+                [
+                  4,
+                  2
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "HARVEST"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ],
+              [
+                "BUY_ANIMAL",
+                "SHEEP",
+                1
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 400,
+          "agent0_observation": {
+            "player": 0,
+            "step": 400,
+            "farm0": {
+              "money": 24053.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 53,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 3,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 40,
+                "MELON": 10
+              },
+              "sample_workers": [
+                [
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  9
+                ],
+                [
+                  5,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 24053.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 53,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 3,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 40,
+                "MELON": 10
+              },
+              "sample_workers": [
+                [
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  9
+                ],
+                [
+                  5,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "EAST"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "FERTILIZE"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 600,
+          "agent0_observation": {
+            "player": 0,
+            "step": 600,
+            "farm0": {
+              "money": 93806.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 0,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 39,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 34,
+                "MELON": 5
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 93806.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 0,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 39,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 34,
+                "MELON": 5
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "STRAWBERRY",
+                21
+              ],
+              [
+                "SELL",
+                "FERTILIZER",
+                10
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                2
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 718,
+          "agent0_observation": {
+            "player": 0,
+            "step": 718,
+            "farm0": {
+              "money": 155521.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 5
+              },
+              "tile_count": 100,
+              "planted_tiles": 7,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 1,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 6,
+                "MELON": 0
+              },
+              "sample_workers": [
+                [
+                  5,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 155521.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 5
+              },
+              "tile_count": 100,
+              "planted_tiles": 7,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 1,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 6,
+                "MELON": 0
+              },
+              "sample_workers": [
+                [
+                  5,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PLACE",
+                "FERTILIZER",
+                2
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "STRAWBERRY",
+                3
+              ],
+              [
+                "SELL",
+                "MILK",
+                3
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        }
+      ],
+      "action_counts": {
+        "opponent_agent_calls": 719,
+        "opponent_non_pass_farmer": 0,
+        "opponent_market_nonempty": 719,
+        "opponent_hands_nonempty": 0,
+        "expert_non_pass_farmer": 674,
+        "expert_market_nonempty": 495,
+        "expert_hands_nonempty": 689
+      },
+      "final_reward": {
+        "agent0_reward": 156664.0,
+        "agent1_reward": 0.0
+      },
+      "exceptions": []
+    },
+    {
+      "episode": 1,
+      "seed": 10001,
+      "opponent_id": "apex4_self_play",
+      "completed": true,
+      "snapshots": [
+        {
+          "step": 0,
+          "agent0_observation": {
+            "player": 0,
+            "step": 0,
+            "farm0": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 100,
+          "agent0_observation": {
+            "player": 0,
+            "step": 100,
+            "farm0": {
+              "money": 859.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 6,
+              "animals": {
+                "COW": 3,
+                "SHEEP": 1
+              },
+              "tile_count": 100,
+              "planted_tiles": 19,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 11,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 8
+              },
+              "sample_workers": [
+                [
+                  4,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 859.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 6,
+              "animals": {
+                "COW": 3,
+                "SHEEP": 1
+              },
+              "tile_count": 100,
+              "planted_tiles": 19,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 11,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 8
+              },
+              "sample_workers": [
+                [
+                  4,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [
+              [
+                "CARE"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 200,
+          "agent0_observation": {
+            "player": 0,
+            "step": 200,
+            "farm0": {
+              "money": 1693.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE"
+              ],
+              "quadrant_count": 2,
+              "worker_count": 10,
+              "animals": {
+                "COW": 5,
+                "SHEEP": 2
+              },
+              "tile_count": 100,
+              "planted_tiles": 28,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 10,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 7,
+                "MELON": 11
+              },
+              "sample_workers": [
+                [
+                  4,
+                  2
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 1693.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE"
+              ],
+              "quadrant_count": 2,
+              "worker_count": 10,
+              "animals": {
+                "COW": 5,
+                "SHEEP": 2
+              },
+              "tile_count": 100,
+              "planted_tiles": 28,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 10,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 7,
+                "MELON": 11
+              },
+              "sample_workers": [
+                [
+                  4,
+                  2
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "HARVEST"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ],
+              [
+                "BUY_ANIMAL",
+                "SHEEP",
+                1
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 400,
+          "agent0_observation": {
+            "player": 0,
+            "step": 400,
+            "farm0": {
+              "money": 27740.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 53,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 3,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 40,
+                "MELON": 10
+              },
+              "sample_workers": [
+                [
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  9
+                ],
+                [
+                  5,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 27740.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 53,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 3,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 40,
+                "MELON": 10
+              },
+              "sample_workers": [
+                [
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  9
+                ],
+                [
+                  5,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "EAST"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "FERTILIZE"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 600,
+          "agent0_observation": {
+            "player": 0,
+            "step": 600,
+            "farm0": {
+              "money": 95074.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 0,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 39,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 34,
+                "MELON": 5
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 95074.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 0,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 39,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 34,
+                "MELON": 5
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "STRAWBERRY",
+                21
+              ],
+              [
+                "SELL",
+                "FERTILIZER",
+                10
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                2
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 718,
+          "agent0_observation": {
+            "player": 0,
+            "step": 718,
+            "farm0": {
+              "money": 150852.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 5
+              },
+              "tile_count": 100,
+              "planted_tiles": 7,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 1,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 6,
+                "MELON": 0
+              },
+              "sample_workers": [
+                [
+                  5,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 150852.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 5
+              },
+              "tile_count": 100,
+              "planted_tiles": 7,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 1,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 6,
+                "MELON": 0
+              },
+              "sample_workers": [
+                [
+                  5,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PLACE",
+                "FERTILIZER",
+                2
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "STRAWBERRY",
+                3
+              ],
+              [
+                "SELL",
+                "MILK",
+                3
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        }
+      ],
+      "action_counts": {
+        "opponent_agent_calls": 719,
+        "opponent_non_pass_farmer": 0,
+        "opponent_market_nonempty": 719,
+        "opponent_hands_nonempty": 0,
+        "expert_non_pass_farmer": 674,
+        "expert_market_nonempty": 496,
+        "expert_hands_nonempty": 689
+      },
+      "final_reward": {
+        "agent0_reward": 151778.0,
+        "agent1_reward": 0.0
+      },
+      "exceptions": []
+    },
+    {
+      "episode": 2,
+      "seed": 10002,
+      "opponent_id": "v18_baseline",
+      "completed": true,
+      "snapshots": [
+        {
+          "step": 0,
+          "agent0_observation": {
+            "player": 0,
+            "step": 0,
+            "farm0": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 100,
+          "agent0_observation": {
+            "player": 0,
+            "step": 100,
+            "farm0": {
+              "money": 859.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 6,
+              "animals": {
+                "COW": 3,
+                "SHEEP": 1
+              },
+              "tile_count": 100,
+              "planted_tiles": 19,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 11,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 8
+              },
+              "sample_workers": [
+                [
+                  4,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 859.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 6,
+              "animals": {
+                "COW": 3,
+                "SHEEP": 1
+              },
+              "tile_count": 100,
+              "planted_tiles": 19,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 11,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 8
+              },
+              "sample_workers": [
+                [
+                  4,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [
+              [
+                "CARE"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 200,
+          "agent0_observation": {
+            "player": 0,
+            "step": 200,
+            "farm0": {
+              "money": 2610.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE"
+              ],
+              "quadrant_count": 2,
+              "worker_count": 10,
+              "animals": {
+                "COW": 5,
+                "SHEEP": 2
+              },
+              "tile_count": 100,
+              "planted_tiles": 28,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 10,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 7,
+                "MELON": 11
+              },
+              "sample_workers": [
+                [
+                  4,
+                  2
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 2610.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE"
+              ],
+              "quadrant_count": 2,
+              "worker_count": 10,
+              "animals": {
+                "COW": 5,
+                "SHEEP": 2
+              },
+              "tile_count": 100,
+              "planted_tiles": 28,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 10,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 7,
+                "MELON": 11
+              },
+              "sample_workers": [
+                [
+                  4,
+                  2
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "HARVEST"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ],
+              [
+                "BUY_ANIMAL",
+                "SHEEP",
+                1
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 400,
+          "agent0_observation": {
+            "player": 0,
+            "step": 400,
+            "farm0": {
+              "money": 29260.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 53,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 3,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 40,
+                "MELON": 10
+              },
+              "sample_workers": [
+                [
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  9
+                ],
+                [
+                  5,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 29260.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 53,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 3,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 40,
+                "MELON": 10
+              },
+              "sample_workers": [
+                [
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  9
+                ],
+                [
+                  5,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "EAST"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "FERTILIZE"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 600,
+          "agent0_observation": {
+            "player": 0,
+            "step": 600,
+            "farm0": {
+              "money": 109219.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 0,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 39,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 34,
+                "MELON": 5
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 109219.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 0,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 39,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 34,
+                "MELON": 5
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "STRAWBERRY",
+                21
+              ],
+              [
+                "SELL",
+                "FERTILIZER",
+                10
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                2
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "step": 718,
+          "agent0_observation": {
+            "player": 0,
+            "step": 718,
+            "farm0": {
+              "money": 168172.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 5
+              },
+              "tile_count": 100,
+              "planted_tiles": 7,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 1,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 6,
+                "MELON": 0
+              },
+              "sample_workers": [
+                [
+                  5,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 168172.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 5
+              },
+              "tile_count": 100,
+              "planted_tiles": 7,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 1,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 6,
+                "MELON": 0
+              },
+              "sample_workers": [
+                [
+                  5,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 0.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PLACE",
+                "FERTILIZER",
+                2
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "STRAWBERRY",
+                3
+              ],
+              [
+                "SELL",
+                "MILK",
+                3
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          }
+        }
+      ],
+      "action_counts": {
+        "opponent_agent_calls": 719,
+        "opponent_non_pass_farmer": 0,
+        "opponent_market_nonempty": 719,
+        "opponent_hands_nonempty": 0,
+        "expert_non_pass_farmer": 674,
+        "expert_market_nonempty": 497,
+        "expert_hands_nonempty": 689
+      },
+      "final_reward": {
+        "agent0_reward": 170027.0,
+        "agent1_reward": 0.0
+      },
+      "exceptions": []
+    },
+    {
+      "episode": 3,
+      "seed": 10003,
+      "opponent_id": "pass_only",
+      "completed": true,
+      "snapshots": [
+        {
+          "step": 0,
+          "agent0_observation": {
+            "player": 0,
+            "step": 0,
+            "farm0": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": [
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_ANIMAL",
+                "COW",
+                1
+              ],
+              [
+                "BUY_SEED",
+                "MELON",
+                6
+              ],
+              [
+                "BUY_SEED",
+                "WHEAT",
+                6
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                3
+              ],
+              [
+                "SELL",
+                "WHEAT",
+                1
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "step": 100,
+          "agent0_observation": {
+            "player": 0,
+            "step": 100,
+            "farm0": {
+              "money": 859.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 6,
+              "animals": {
+                "COW": 3,
+                "SHEEP": 1
+              },
+              "tile_count": 100,
+              "planted_tiles": 19,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 11,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 8
+              },
+              "sample_workers": [
+                [
+                  4,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 859.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 6,
+              "animals": {
+                "COW": 3,
+                "SHEEP": 1
+              },
+              "tile_count": 100,
+              "planted_tiles": 19,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 11,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 8
+              },
+              "sample_workers": [
+                [
+                  4,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [
+              [
+                "CARE"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "NORTH"
+              ]
+            ],
+            "market": []
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "step": 200,
+          "agent0_observation": {
+            "player": 0,
+            "step": 200,
+            "farm0": {
+              "money": 1644.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE"
+              ],
+              "quadrant_count": 2,
+              "worker_count": 10,
+              "animals": {
+                "COW": 5,
+                "SHEEP": 2
+              },
+              "tile_count": 100,
+              "planted_tiles": 28,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 10,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 7,
+                "MELON": 11
+              },
+              "sample_workers": [
+                [
+                  4,
+                  2
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 1644.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE"
+              ],
+              "quadrant_count": 2,
+              "worker_count": 10,
+              "animals": {
+                "COW": 5,
+                "SHEEP": 2
+              },
+              "tile_count": 100,
+              "planted_tiles": 28,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 10,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 7,
+                "MELON": 11
+              },
+              "sample_workers": [
+                [
+                  4,
+                  2
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  2,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [
+              [
+                "WEST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "CARE"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "HARVEST"
+              ],
+              [
+                "WEST"
+              ]
+            ],
+            "market": [
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                3
+              ],
+              [
+                "BUY_ANIMAL",
+                "SHEEP",
+                1
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "step": 400,
+          "agent0_observation": {
+            "player": 0,
+            "step": 400,
+            "farm0": {
+              "money": 23035.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 52,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 3,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 40,
+                "MELON": 9
+              },
+              "sample_workers": [
+                [
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  9
+                ],
+                [
+                  5,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 23035.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 52,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 3,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 40,
+                "MELON": 9
+              },
+              "sample_workers": [
+                [
+                  2,
+                  1
+                ],
+                [
+                  0,
+                  9
+                ],
+                [
+                  5,
+                  3
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "EAST"
+            ],
+            "hands": [
+              [
+                "NORTH"
+              ],
+              [
+                "WATER"
+              ],
+              [
+                "NORTH"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "WEST"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "FERTILIZE"
+              ],
+              [
+                "COLLECT_FERTILIZER"
+              ],
+              [
+                "SOUTH"
+              ],
+              [
+                "EAST"
+              ],
+              [
+                "SOUTH"
+              ]
+            ],
+            "market": []
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "step": 600,
+          "agent0_observation": {
+            "player": 0,
+            "step": 600,
+            "farm0": {
+              "money": 64150.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 0,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 38,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 34,
+                "MELON": 4
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 64150.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 0,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 6
+              },
+              "tile_count": 100,
+              "planted_tiles": 38,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 34,
+                "MELON": 4
+              },
+              "sample_workers": []
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PICKUP",
+              "WHEAT",
+              2
+            ],
+            "hands": [],
+            "market": [
+              [
+                "SELL",
+                "STRAWBERRY",
+                21
+              ],
+              [
+                "SELL",
+                "FERTILIZER",
+                10
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "HIRE"
+              ],
+              [
+                "BUY_PRODUCT",
+                "WHEAT",
+                2
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": []
+          }
+        },
+        {
+          "step": 718,
+          "agent0_observation": {
+            "player": 0,
+            "step": 718,
+            "farm0": {
+              "money": 89267.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 5
+              },
+              "tile_count": 100,
+              "planted_tiles": 7,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 1,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 6,
+                "MELON": 0
+              },
+              "sample_workers": [
+                [
+                  5,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "agent1_observation": {
+            "player": 1,
+            "step": null,
+            "farm0": {
+              "money": 89267.0,
+              "unlocked_quadrants": [
+                "NW",
+                "NE",
+                "SW"
+              ],
+              "quadrant_count": 3,
+              "worker_count": 12,
+              "animals": {
+                "COW": 8,
+                "SHEEP": 5
+              },
+              "tile_count": 100,
+              "planted_tiles": 7,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 1,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 6,
+                "MELON": 0
+              },
+              "sample_workers": [
+                [
+                  5,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  4
+                ]
+              ]
+            },
+            "farm1": {
+              "money": 3000.0,
+              "unlocked_quadrants": [
+                "NW"
+              ],
+              "quadrant_count": 1,
+              "worker_count": 0,
+              "animals": {
+                "COW": 0,
+                "SHEEP": 0
+              },
+              "tile_count": 100,
+              "planted_tiles": 0,
+              "mature_tiles": 0,
+              "crop_counts": {
+                "WHEAT": 0,
+                "CARROT": 0,
+                "TOMATO": 0,
+                "STRAWBERRY": 0,
+                "MELON": 0
+              },
+              "sample_workers": []
+            }
+          },
+          "expert_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PLACE",
+                "FERTILIZER",
+                2
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ],
+              [
+                "PASS"
+              ]
+            ],
+            "market": [
+              [
+                "SELL",
+                "FERTILIZER",
+                2
+              ]
+            ]
+          },
+          "opponent_action": {
+            "farmer": [
+              "PASS"
+            ],
+            "hands": [],
+            "market": []
+          }
+        }
+      ],
+      "action_counts": {
+        "opponent_agent_calls": 719,
+        "opponent_non_pass_farmer": 0,
+        "opponent_market_nonempty": 0,
+        "opponent_hands_nonempty": 0,
+        "expert_non_pass_farmer": 674,
+        "expert_market_nonempty": 494,
+        "expert_hands_nonempty": 689
+      },
+      "final_reward": {
+        "agent0_reward": 89381.0,
+        "agent1_reward": 3000.0
+      },
+      "exceptions": []
+    }
+  ],
+  "conclusion": {
+    "step4_classifier_training_ready": false,
+    "diagnosis": "Opponent functions were invoked, but APEX-style opponent agents appear to receive the unadapted seat-1 observation and act as if farms[0] is their own farm. Agent0's view of farms[1] stays undeveloped, while agent1's observation farms[0] mirrors agent0's developed farm. Step 2 therefore collected games against opponents that did not develop their actual seat-1 farm.",
+    "developed_agent1_view_farm0_count": 4,
+    "developed_agent0_view_farm1_count": 0,
+    "summary": [
+      {
+        "opponent_id": "apex35_live_submission",
+        "opponent_agent_calls": 719,
+        "opponent_non_pass_farmer": 0,
+        "opponent_market_nonempty": 719,
+        "agent0_view_farm1_final": {
+          "money": 0.0,
+          "quadrant_count": 1,
+          "workers": 0,
+          "animals": {
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "planted_tiles": 0,
+          "crop_counts": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0
+          }
+        },
+        "agent1_view_farm0_final": {
+          "money": 155521.0,
+          "quadrant_count": 3,
+          "workers": 12,
+          "animals": {
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "planted_tiles": 7,
+          "crop_counts": {
+            "WHEAT": 1,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 6,
+            "MELON": 0
+          }
+        }
+      },
+      {
+        "opponent_id": "apex4_self_play",
+        "opponent_agent_calls": 719,
+        "opponent_non_pass_farmer": 0,
+        "opponent_market_nonempty": 719,
+        "agent0_view_farm1_final": {
+          "money": 0.0,
+          "quadrant_count": 1,
+          "workers": 0,
+          "animals": {
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "planted_tiles": 0,
+          "crop_counts": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0
+          }
+        },
+        "agent1_view_farm0_final": {
+          "money": 150852.0,
+          "quadrant_count": 3,
+          "workers": 12,
+          "animals": {
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "planted_tiles": 7,
+          "crop_counts": {
+            "WHEAT": 1,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 6,
+            "MELON": 0
+          }
+        }
+      },
+      {
+        "opponent_id": "v18_baseline",
+        "opponent_agent_calls": 719,
+        "opponent_non_pass_farmer": 0,
+        "opponent_market_nonempty": 719,
+        "agent0_view_farm1_final": {
+          "money": 0.0,
+          "quadrant_count": 1,
+          "workers": 0,
+          "animals": {
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "planted_tiles": 0,
+          "crop_counts": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0
+          }
+        },
+        "agent1_view_farm0_final": {
+          "money": 168172.0,
+          "quadrant_count": 3,
+          "workers": 12,
+          "animals": {
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "planted_tiles": 7,
+          "crop_counts": {
+            "WHEAT": 1,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 6,
+            "MELON": 0
+          }
+        }
+      },
+      {
+        "opponent_id": "pass_only",
+        "opponent_agent_calls": 719,
+        "opponent_non_pass_farmer": 0,
+        "opponent_market_nonempty": 0,
+        "agent0_view_farm1_final": {
+          "money": 3000.0,
+          "quadrant_count": 1,
+          "workers": 0,
+          "animals": {
+            "COW": 0,
+            "SHEEP": 0
+          },
+          "planted_tiles": 0,
+          "crop_counts": {
+            "WHEAT": 0,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 0,
+            "MELON": 0
+          }
+        },
+        "agent1_view_farm0_final": {
+          "money": 89267.0,
+          "quadrant_count": 3,
+          "workers": 12,
+          "animals": {
+            "COW": 8,
+            "SHEEP": 5
+          },
+          "planted_tiles": 7,
+          "crop_counts": {
+            "WHEAT": 1,
+            "CARROT": 0,
+            "TOMATO": 0,
+            "STRAWBERRY": 6,
+            "MELON": 0
+          }
+        }
+      }
+    ],
+    "recommended_next_step": "Add a seat-1 observation adapter for imported APEX-style opponent policies, then run a tiny pilot before any new large collection."
+  }
+}

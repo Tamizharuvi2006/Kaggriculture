@@ -1,0 +1,93 @@
+{
+  "id": "EXP0137-PAIRED-GPU-SCREENING",
+  "timestamp": "2026-08-15T15:43:39Z",
+  "engine": "PAIRED_GPU_V2.5 (Re-Certified Vectorized Tensor Accelerator)",
+  "evaluation_scope": "6 Candidates x 50 Seeds x 2 Seats = 600 Paired Matches",
+  "wall_time_seconds": 0.63,
+  "candidates": [
+    {
+      "candidate_id": "CAND-137-01",
+      "name": "Control (Wave 2 @ Step 156)",
+      "wave2_step": 156,
+      "paired_win_rate": 0.5,
+      "mean_cand_mcv": 58445.21,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 0.0,
+      "delta_p05": 0.0,
+      "p05_cand": 56422.18,
+      "p05_base": 56422.18,
+      "p01_cand": 55857.67,
+      "status": "CONTROL"
+    },
+    {
+      "candidate_id": "CAND-137-02",
+      "name": "Immediate Reinvestment (Wave 2 @ Step 96)",
+      "wave2_step": 96,
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 61148.35,
+      "mean_base_mcv": 58431.28,
+      "delta_mcv": 2717.07,
+      "delta_p05": 2683.6100000000006,
+      "p05_cand": 59092.04,
+      "p05_base": 56408.43,
+      "p01_cand": 58459.82,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-137-03",
+      "name": "Intermediate Acceleration (Wave 2 @ Step 120)",
+      "wave2_step": 120,
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 60064.95,
+      "mean_base_mcv": 58436.87,
+      "delta_mcv": 1628.1,
+      "delta_p05": 1586.9199999999983,
+      "p05_cand": 58000.97,
+      "p05_base": 56414.05,
+      "p01_cand": 57416.47,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-137-04",
+      "name": "Conservative Acceleration (Wave 2 @ Step 144)",
+      "wave2_step": 144,
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58985.39,
+      "mean_base_mcv": 58442.43,
+      "delta_mcv": 542.97,
+      "delta_p05": 522.0099999999948,
+      "p05_cand": 56941.52,
+      "p05_base": 56419.51,
+      "p01_cand": 56379.61,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-137-05",
+      "name": "Ultra-Early Acceleration (Wave 2 @ Step 80)",
+      "wave2_step": 80,
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 61689.78,
+      "mean_base_mcv": 58428.5,
+      "delta_mcv": 3261.28,
+      "delta_p05": 3229.8600000000006,
+      "p05_cand": 59635.49,
+      "p05_base": 56405.63,
+      "p01_cand": 58981.52,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-137-06",
+      "name": "Delayed Variant (Wave 2 @ Step 168)",
+      "wave2_step": 168,
+      "paired_win_rate": 0.0,
+      "mean_cand_mcv": 57904.96,
+      "mean_base_mcv": 58450.34,
+      "delta_mcv": -545.38,
+      "delta_p05": -525.3099999999977,
+      "p05_cand": 55901.82,
+      "p05_base": 56427.13,
+      "p01_cand": 55326.05,
+      "status": "FALSIFIED_GPU"
+    }
+  ]
+}

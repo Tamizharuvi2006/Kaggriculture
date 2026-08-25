@@ -1,0 +1,67 @@
+{
+  "id": "APEX4-TASK-GRAPH",
+  "timestamp": "2026-08-15T17:50:06Z",
+  "critical_milestones": {
+    "1": {
+      "type": "BUILD_PASTURE",
+      "worker_indices": [
+        0
+      ],
+      "priority": 1000.0
+    },
+    "159": {
+      "type": "BUILD_PASTURE",
+      "worker_indices": [
+        2,
+        3
+      ],
+      "priority": 1000.0
+    },
+    "3": {
+      "type": "PICKUP",
+      "item": "COW",
+      "worker_indices": [
+        0
+      ],
+      "priority": 900.0
+    },
+    "7": {
+      "type": "PICKUP",
+      "item": "COW",
+      "worker_indices": [
+        0
+      ],
+      "priority": 900.0
+    },
+    "8": {
+      "type": "PICKUP",
+      "item": "SHEEP",
+      "worker_indices": [
+        0
+      ],
+      "priority": 900.0
+    },
+    "170": {
+      "type": "PICKUP",
+      "item": "COW",
+      "worker_indices": [
+        0
+      ],
+      "priority": 900.0
+    }
+  },
+  "task_classes": [
+    "BUILD_PASTURE",
+    "PICKUP",
+    "PLACE",
+    "WATER",
+    "HARVEST",
+    "PLANT",
+    "FEED",
+    "CARE",
+    "DROP",
+    "BUY_LAND",
+    "BUY_SEED",
+    "SELL"
+  ]
+}

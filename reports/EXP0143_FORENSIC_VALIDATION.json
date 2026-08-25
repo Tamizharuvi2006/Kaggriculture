@@ -1,0 +1,19 @@
+{
+  "id": "EXP0143-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-15T16:15:13Z",
+  "target_hypothesis": "EXP-0143 (TARGETED_MARKET_INTERFERENCE_SORTING)",
+  "variable_family": "Market_Execution",
+  "official_environment_semantics": {
+    "clearing_mechanism": "Simultaneous Step-Level Aggregate Clearing",
+    "intra_step_clearing_price": "Uniform for all orders submitted in step t (P_eff = P_spot * (1 - slippage(V_total)))",
+    "intra_step_order_priority": "Invariant (List order has zero effect on clearing price or fill rate)",
+    "cross_step_timing_impact": "None (Interference sorting only permutes orders within the current step; it does not shift orders across steps)"
+  },
+  "causal_mechanism_disentanglement": {
+    "theoretical_assumption": "Sorting sell orders allows our sale to hit the order book before the opponent's sale, depressing the price they receive.",
+    "official_reality": "kaggle_environments aggregates all orders in the step and clears them simultaneously at a single uniform clearing price. Reordering the Python list `market` produces identical market state and identical MCV.",
+    "empirical_delta": "$0.00 MCV delta (Exact mathematical invariance)"
+  },
+  "verdict": "INVALID_MECHANISM",
+  "verdict_rationale": "In official kaggle_environments v1.32.6, market clearing is simultaneous and step-aggregated: all market orders submitted in step t by both players clear at the identical effective price determined by total step volume. Reordering items within the Python list `copied['market']` has zero effect on execution priority, fill price, or opponent revenue. The mechanism is mathematically invariant and incapable of altering match outcomes."
+}

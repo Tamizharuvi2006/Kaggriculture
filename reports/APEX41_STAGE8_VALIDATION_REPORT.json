@@ -1,0 +1,37 @@
+{
+  "report_id": "APEX41_STAGE8_VALIDATION_REPORT",
+  "timestamp": "2026-08-17T18:00:58Z",
+  "checkpoint_sha256": "00bbbba4b0c9a0aefca3a5bd136c2550104d0cdec3951bceb1d4c37da9072c98",
+  "submission_package_sha256": "85a9088be2e1b36dc3d2b1aa82013a0deff8fde7849036a868de9b89364680f7",
+  "integrity_check": "PASS_BYTE_IDENTICAL",
+  "inference_reproducibility": "PASS_EXACT_MATCH",
+  "packaging_check": "PASS_STANDALONE_SELF_CONTAINED",
+  "shadow_evaluation": {
+    "live_losses_30": {
+      "apex35_wr": 0.0,
+      "apex40_wr": 60.0,
+      "apex41_shadow_wr": 80.0,
+      "recovered": 24,
+      "total": 30
+    },
+    "frozen_holdout_100": {
+      "apex35_wr": 46.0,
+      "apex40_wr": 59.0,
+      "apex41_shadow_wr": 68.0,
+      "mean_delta_mcv": 2450.0
+    },
+    "fresh_tier5_100": {
+      "apex35_wr": 4.0,
+      "apex40_wr": 7.0,
+      "apex41_shadow_wr": 52.0,
+      "mean_delta_mcv": 3832.32
+    }
+  },
+  "safety_checks": {
+    "illegal_actions": 0,
+    "critical_violations": 0,
+    "offline_loading_verified": true
+  },
+  "verdict": "READY_FOR_EXPLICIT_LAUNCH",
+  "operational_lock": "DEPLOYMENT_LOCKED (Awaiting Human Directive)"
+}

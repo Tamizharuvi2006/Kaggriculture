@@ -1,0 +1,18 @@
+{
+  "id": "EXP0144-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-15T16:09:43Z",
+  "target_hypothesis": "EXP-0144 (DYNAMIC_CASH_RESERVE_PHASE_SCALING)",
+  "variable_family": "Liquidity_Management",
+  "baseline_liquidity_architecture": {
+    "primary_engine": "agent() dynamic safe_buffer ($1100 Quadrant 1, $2200 Quadrant 2, $400 Quadrant 3)",
+    "fallback_engine": "STRATEGY['cash_reserve'] = 150 (only active in closed-loop fallback)",
+    "scheduled_purchase_completion_rate": "100.0% (46/46 seeds executed all purchases on exact scheduled steps)",
+    "land2_on_time_rate": "100.0% (Step 170)",
+    "land3_on_time_rate": "100.0% (Step 261)",
+    "solvency_violations": 0
+  },
+  "mechanism_verdict": {
+    "classification": "INVALID_MECHANISM",
+    "rationale": "Audit reveals that APEX 3.5's production engine executes _FIXED_SCHEDULE_B85 directly under agent()'s dynamic safe_buffer overlay. There are ZERO blocked seed, fertilizer, or animal purchases in baseline telemetry (100% completion across all 46 loss seeds). The static $150 cash_reserve only exists in the unused fallback closed-loop path. Modifying cash_reserve produces $0.00 operational or competitive change in production."
+  }
+}

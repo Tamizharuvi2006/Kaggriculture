@@ -2561,6 +2561,13 @@ configure_strategy()
 
 
 def _get(obj, key, default=None):
+    if key == "step" and (isinstance(obj, dict) or hasattr(obj, "__dict__")):
+        val = obj.get("step") if isinstance(obj, dict) else getattr(obj, "step", None)
+        if val is not None:
+            return val
+        day = obj.get("day", 0) if isinstance(obj, dict) else getattr(obj, "day", 0) or 0
+        hour = obj.get("hour", 0) if isinstance(obj, dict) else getattr(obj, "hour", 0) or 0
+        return int(day) * 24 + int(hour)
     if isinstance(obj, dict):
         return obj.get(key, default)
     return getattr(obj, key, default)

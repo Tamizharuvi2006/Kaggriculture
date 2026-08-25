@@ -1,0 +1,538 @@
+{
+  "status": "PASS",
+  "source_dataset": "apex_next\\ml_engine\\data\\expert_demos.npz",
+  "total_transitions": 719000,
+  "total_episodes": 1000,
+  "terminal_count": 1000,
+  "step_range": {
+    "min": 1,
+    "max": 719
+  },
+  "dataset_arrays": [
+    "features",
+    "opponent_features",
+    "raw_actions_json",
+    "actions_json",
+    "rewards",
+    "terminals",
+    "episode_ids",
+    "steps",
+    "opponent_ids"
+  ],
+  "opponent_pool_transition_counts": {
+    "apex35_live_submission": 179750,
+    "apex4_self_play": 179750,
+    "pass_only": 179750,
+    "v18_baseline": 179750
+  },
+  "feature_contract": {
+    "features_shape": [
+      719000,
+      128
+    ],
+    "features_dtype": "float32",
+    "opponent_features_shape": [
+      719000,
+      24
+    ],
+    "opponent_features_dtype": "float32",
+    "opponent_features_match_slice": true
+  },
+  "rule_thresholds": {
+    "livestock_heavy": "final opponent COW+SHEEP > 8",
+    "crop_heavy": "final opponent STRAWBERRY tiles > 20",
+    "aggressive_expand": "opponent land count > own land count at step 200",
+    "market_manipulator": "unusual opponent sell patterns"
+  },
+  "transition_distributions": {
+    "opponent_cows": {
+      "count": 719000,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "nonzero_count": 0,
+      "unique_values": [
+        {
+          "value": 0.0,
+          "count": 719000
+        }
+      ]
+    },
+    "opponent_sheep": {
+      "count": 719000,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "nonzero_count": 0,
+      "unique_values": [
+        {
+          "value": 0.0,
+          "count": 719000
+        }
+      ]
+    },
+    "opponent_cows_plus_sheep": {
+      "count": 719000,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "nonzero_count": 0,
+      "unique_values": [
+        {
+          "value": 0.0,
+          "count": 719000
+        }
+      ]
+    },
+    "opponent_strawberry_tiles": {
+      "count": 719000,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "nonzero_count": 0,
+      "unique_values": [
+        {
+          "value": 0.0,
+          "count": 719000
+        }
+      ]
+    },
+    "opponent_melon_tiles": {
+      "count": 719000,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "nonzero_count": 0,
+      "unique_values": [
+        {
+          "value": 0.0,
+          "count": 719000
+        }
+      ]
+    },
+    "opponent_wheat_tiles": {
+      "count": 719000,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "nonzero_count": 0,
+      "unique_values": [
+        {
+          "value": 0.0,
+          "count": 719000
+        }
+      ]
+    },
+    "opponent_tomato_tiles": {
+      "count": 719000,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "nonzero_count": 0,
+      "unique_values": [
+        {
+          "value": 0.0,
+          "count": 719000
+        }
+      ]
+    },
+    "opponent_carrot_tiles": {
+      "count": 719000,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "nonzero_count": 0,
+      "unique_values": [
+        {
+          "value": 0.0,
+          "count": 719000
+        }
+      ]
+    },
+    "opponent_land_count": {
+      "count": 719000,
+      "min": 1.0,
+      "p05": 1.0,
+      "p25": 1.0,
+      "median": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "nonzero_count": 719000,
+      "unique_values": [
+        {
+          "value": 1.0,
+          "count": 719000
+        }
+      ]
+    },
+    "own_land_count": {
+      "count": 719000,
+      "min": 1.0,
+      "p05": 1.0,
+      "p25": 2.0,
+      "median": 3.0,
+      "p75": 3.0,
+      "p95": 3.0,
+      "max": 3.0,
+      "mean": 2.400556,
+      "nonzero_count": 719000,
+      "unique_values": [
+        {
+          "value": 1.0,
+          "count": 170000
+        },
+        {
+          "value": 2.0,
+          "count": 91000
+        },
+        {
+          "value": 3.0,
+          "count": 458000
+        }
+      ]
+    },
+    "opponent_land_minus_own_land": {
+      "count": 719000,
+      "min": -2.0,
+      "p05": -2.0,
+      "p25": -2.0,
+      "median": -2.0,
+      "p75": -1.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": -1.400556,
+      "nonzero_count": 549000,
+      "unique_values": [
+        {
+          "value": -2.0,
+          "count": 458000
+        },
+        {
+          "value": -1.0,
+          "count": 91000
+        },
+        {
+          "value": 0.0,
+          "count": 170000
+        }
+      ]
+    },
+    "opponent_worker_count": {
+      "count": 719000,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 2.0,
+      "max": 8.0,
+      "mean": 0.298331,
+      "nonzero_count": 51750,
+      "unique_values": [
+        {
+          "value": 0.0,
+          "count": 667250
+        },
+        {
+          "value": 2.0,
+          "count": 18750
+        },
+        {
+          "value": 3.0,
+          "count": 16500
+        },
+        {
+          "value": 4.0,
+          "count": 750
+        },
+        {
+          "value": 6.0,
+          "count": 750
+        },
+        {
+          "value": 8.0,
+          "count": 15000
+        }
+      ]
+    },
+    "opponent_planted_tile_ratio": {
+      "count": 719000,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "nonzero_count": 0,
+      "unique_values": [
+        {
+          "value": 0.0,
+          "count": 719000
+        }
+      ]
+    },
+    "opponent_mature_tile_ratio": {
+      "count": 719000,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "nonzero_count": 0,
+      "unique_values": [
+        {
+          "value": 0.0,
+          "count": 719000
+        }
+      ]
+    }
+  },
+  "terminal_distributions": {
+    "final_opponent_cows_plus_sheep": {
+      "count": 1000,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "nonzero_count": 0,
+      "unique_values": [
+        {
+          "value": 0.0,
+          "count": 1000
+        }
+      ]
+    },
+    "final_opponent_strawberry_tiles": {
+      "count": 1000,
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "nonzero_count": 0,
+      "unique_values": [
+        {
+          "value": 0.0,
+          "count": 1000
+        }
+      ]
+    },
+    "final_opponent_land_count": {
+      "count": 1000,
+      "min": 1.0,
+      "p05": 1.0,
+      "p25": 1.0,
+      "median": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "nonzero_count": 1000,
+      "unique_values": [
+        {
+          "value": 1.0,
+          "count": 1000
+        }
+      ]
+    },
+    "final_own_land_count": {
+      "count": 1000,
+      "min": 3.0,
+      "p05": 3.0,
+      "p25": 3.0,
+      "median": 3.0,
+      "p75": 3.0,
+      "p95": 3.0,
+      "max": 3.0,
+      "mean": 3.0,
+      "nonzero_count": 1000,
+      "unique_values": [
+        {
+          "value": 3.0,
+          "count": 1000
+        }
+      ]
+    },
+    "final_opponent_land_minus_own_land": {
+      "count": 1000,
+      "min": -2.0,
+      "p05": -2.0,
+      "p25": -2.0,
+      "median": -2.0,
+      "p75": -2.0,
+      "p95": -2.0,
+      "max": -2.0,
+      "mean": -2.0,
+      "nonzero_count": 1000,
+      "unique_values": [
+        {
+          "value": -2.0,
+          "count": 1000
+        }
+      ]
+    }
+  },
+  "step_200_distributions": {
+    "rows": 1000,
+    "opponent_land_count": {
+      "count": 1000,
+      "min": 1.0,
+      "p05": 1.0,
+      "p25": 1.0,
+      "median": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "nonzero_count": 1000,
+      "unique_values": [
+        {
+          "value": 1.0,
+          "count": 1000
+        }
+      ]
+    },
+    "own_land_count": {
+      "count": 1000,
+      "min": 2.0,
+      "p05": 2.0,
+      "p25": 2.0,
+      "median": 2.0,
+      "p75": 2.0,
+      "p95": 2.0,
+      "max": 2.0,
+      "mean": 2.0,
+      "nonzero_count": 1000,
+      "unique_values": [
+        {
+          "value": 2.0,
+          "count": 1000
+        }
+      ]
+    },
+    "opponent_land_minus_own_land": {
+      "count": 1000,
+      "min": -1.0,
+      "p05": -1.0,
+      "p25": -1.0,
+      "median": -1.0,
+      "p75": -1.0,
+      "p95": -1.0,
+      "max": -1.0,
+      "mean": -1.0,
+      "nonzero_count": 1000,
+      "unique_values": [
+        {
+          "value": -1.0,
+          "count": 1000
+        }
+      ]
+    },
+    "opponent_ahead_count": 0
+  },
+  "expansion_timing": {
+    "episodes_with_opponent_land_gt_1": {
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null
+    },
+    "episodes_with_opponent_land_gt_own_land": {
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null
+    }
+  },
+  "rule_hit_counts": {
+    "livestock_heavy_episodes": 0,
+    "crop_heavy_episodes": 0,
+    "aggressive_expand_episodes": 0,
+    "market_manipulator_episodes": null
+  },
+  "market_telemetry": {
+    "global_market_prices_available": false,
+    "expert_raw_actions_available": true,
+    "expert_executed_actions_available": true,
+    "opponent_actions_available": false,
+    "opponent_sell_patterns_available": false,
+    "note": "Step 2 stores APEX4 expert actions, not opponent actions. Global prices were embedded into features, but opponent sell orders were not recorded."
+  },
+  "genuinely_derivable_archetypes_from_current_dataset": {
+    "LIVESTOCK_HEAVY": false,
+    "CROP_HEAVY": false,
+    "BALANCED": true,
+    "AGGRESSIVE_EXPAND": false,
+    "MARKET_MANIPULATOR": false
+  },
+  "conclusion": {
+    "step4_classifier_training_ready": false,
+    "diagnosis": "The current Step 2 dataset is valid but does not contain genuine multi-class opponent archetype evidence.",
+    "likely_causes": [
+      "The selected opponent pool did not create observable archetype diversity under the current feature/label rules.",
+      "The recorded opponent public-state features stay near the default farm state for the Step 3 rule signals.",
+      "Market-manipulator labeling requires opponent action telemetry that was not captured in Step 2."
+    ],
+    "blockers": [
+      "No episode exceeds the livestock-heavy threshold.",
+      "No episode exceeds the crop-heavy strawberry threshold.",
+      "No episode has opponent land greater than own land at step 200.",
+      "Opponent sell-pattern telemetry is unavailable, so MARKET_MANIPULATOR cannot be labeled."
+    ],
+    "recommended_next_step": "Collect a targeted Step 3B/Step 2B dataset with real executable archetype opponents and record opponent action telemetry before retraining labels."
+  }
+}

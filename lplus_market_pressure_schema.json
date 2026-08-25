@@ -1,0 +1,24 @@
+{
+  "format": "JSONL equivalent to parquet",
+  "row_unit": "one pre-decision state per replay, seat, and step",
+  "feature_container": "features",
+  "label_container": "labels",
+  "products": [
+    "MILK",
+    "STRAWBERRY",
+    "WOOL"
+  ],
+  "label_thresholds": {
+    "adverse_relative_change": -0.15,
+    "favorable_relative_change": 0.1
+  },
+  "future_fields_excluded_from_features": [
+    "next_clearance_step",
+    "next_clearance_price_*",
+    "next_clearance_change_*",
+    "adverse_*",
+    "favorable_*",
+    "downstream_wealth_*"
+  ],
+  "private_opponent_fields_excluded": true
+}

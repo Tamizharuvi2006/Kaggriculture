@@ -1,0 +1,37 @@
+{
+  "id": "EXP0148-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-15T16:36:48Z",
+  "target_hypothesis": "EXP-0148 (DYNAMIC_DAY4_MELON_LIQUIDITY_LAND_ACCELERATION)",
+  "variable_family": "Composite_Adaptive_Policy",
+  "factorial_decomposition": {
+    "variant_A_liquidity_only": {
+      "description": "Sell 6 Melons @ Step 75 + Buy 6 Strawberries. Land 2 at Step 170.",
+      "mcv_lift": 480.0,
+      "recovery_rate_cluster1": 0.182,
+      "verdict": "PARTIAL_IMPROVEMENT"
+    },
+    "variant_B_land_only": {
+      "description": "Attempt Land 2 @ Step 152 without early melon liquidity.",
+      "mcv_lift": 0.0,
+      "recovery_rate_cluster1": 0.0,
+      "verdict": "INOPERATIVE_CASH_STARVED"
+    },
+    "variant_C_combined_policy": {
+      "description": "Early Melon Liquidity -> $1,280 Cash @ Step 152 -> Land 2 @ Step 152 -> 2 Extra Strawberry Harvest Waves.",
+      "mcv_lift": 2240.0,
+      "recovery_rate_cluster1": 0.682,
+      "verdict": "CAUSAL_SUPERIORITY"
+    }
+  },
+  "reconciliation_with_closed_land_family": {
+    "exp0121_exp0124_failure_reason": "Bought land prematurely without cash buffer -> cash dropped to $0 -> wage defaults.",
+    "exp0148_causal_distinction": "Liquidity generation (+ $840 melon + $840 strawberry) strictly precedes Land 2 expansion. Post-purchase cash is $280 > $100 safety floor."
+  },
+  "physical_lifecycle_safety": {
+    "melons_in_shed_at_step_75": true,
+    "sw_quadrant_clear_at_step_152": true,
+    "worker_tilling_capacity_available": true
+  },
+  "causal_classification": "CAUSAL",
+  "verdict": "VALID_FOR_PREREGISTRATION"
+}

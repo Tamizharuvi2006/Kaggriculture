@@ -1,0 +1,56 @@
+{
+  "status": "SEALED_CANDIDATE_PENDING_CANONICAL_EXECUTION",
+  "created_at": "2026-08-22",
+  "games_run": false,
+  "upload_executed": false,
+  "purpose": "Self-contained provenance manifest for the first Gate 1 measurement of the current APEX 4.0 artifact",
+  "candidate": {
+    "name": "APEX 4.0 current release candidate",
+    "path": "APEX4_SUBMISSION_FINAL.py",
+    "sha256": "0f3ddc3c5b67999d51508a38361bafe140a9050d7e2e3039ae2ccbc810dff45a"
+  },
+  "baseline": {
+    "name": "APEX 3.5 PROD frozen baseline",
+    "path": "submission.py",
+    "sha256": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb",
+    "rollback_path": "APEX35_ROLLBACK_ARCHIVE/submission_apex35_prod_backup.py"
+  },
+  "evaluator": {
+    "gate_runner": "apex_next/research/gate_runner.py",
+    "gate_runner_sha256": "dee6bee12a0cb63aa73af18bfe334704f19f76dce5e33afb2f8a097858232a3d",
+    "match_runner": "apex_next/research/match_runner.py",
+    "match_runner_sha256": "8212cab08f76d48542d46ee4b6ed6d619ea80dcc6411978b4953087d0daade02",
+    "contract": "run each seed twice with seat swap; candidate win=1, tie=0.5, loss=0; pass threshold >= 0.60"
+  },
+  "engine": {
+    "distribution": "kaggle-environments",
+    "required_version": "1.32.6",
+    "environment_name": "kaggriculture",
+    "episode_steps": 720,
+    "town_center_sell_interval": 24,
+    "registration_required": "kaggriculture"
+  },
+  "seeds": {
+    "source": "reports/live_match_telemetry/apex33_loss_seeds_cache.json",
+    "source_sha256": "1a673380424278daa03db15956bac06f88083892e5ee415983bab18104c70462",
+    "count": 46,
+    "seat_balanced_matches": 92,
+    "sorted_seed_sha256": "26b4c048112826f5aad19fc95394d5887d8a53137f17550e7d96cc801f8e12ea"
+  },
+  "historical_outputs_excluded": [
+    "apex_next/apex4/results/gate1.json",
+    "apex_next/research/EXP-0155/results/gate1.json"
+  ],
+  "execution_command_template": "<sealed Python interpreter> apex_next/research/gate_runner.py APEX4_CURRENT <sealed experiment directory>",
+  "required_runtime_binding_before_execution": [
+    "interpreter executable path",
+    "Python version",
+    "kaggle_environments.__file__",
+    "kaggle-environments distribution version",
+    "kaggriculture backend/specification hashes",
+    "evaluator process environment",
+    "full configuration object/hash"
+  ],
+  "current_blocker": "The available local interpreter does not currently import kaggle_environments; no installation or speculative repair is authorized.",
+  "result_policy": "Write a new dated result containing this manifest or its hash. Never overwrite historical Gate 1 files."
+}

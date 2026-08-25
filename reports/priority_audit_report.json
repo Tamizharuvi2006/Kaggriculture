@@ -1,0 +1,85 @@
+{
+  "id": "PRIORITY-AUDIT-20260814",
+  "total_archetypes_evaluated": 5,
+  "prior_attempt_penalties": {
+    "LATE_MILK_TIMING": 0,
+    "CROP_DRIFT": 0,
+    "LIQUIDITY_SHOCK": 2,
+    "SEAT_ASYMMETRY": 1,
+    "SUPPLY_COLLAPSE": 10
+  },
+  "ranked_targets": [
+    {
+      "archetype": "LATE_MILK_TIMING",
+      "frequency": 0.285,
+      "impact": 0.85,
+      "confidence": 0.8,
+      "fixability": 0.75,
+      "priority_score": 1.45,
+      "prior_attempts": 0,
+      "penalized_score": 1.45,
+      "family": "Timing",
+      "description": "Late-game worker contention between final strawberry wave and cow milking."
+    },
+    {
+      "archetype": "CROP_DRIFT",
+      "frequency": 0.24,
+      "impact": 0.7,
+      "confidence": 0.75,
+      "fixability": 0.6,
+      "priority_score": 0.76,
+      "prior_attempts": 0,
+      "penalized_score": 0.76,
+      "family": "Resource_Allocation",
+      "description": "Sub-optimal turn turnaround on second-cycle strawberry replanting."
+    },
+    {
+      "archetype": "LIQUIDITY_SHOCK",
+      "frequency": 0.19,
+      "impact": 0.8,
+      "confidence": 0.7,
+      "fixability": 0.5,
+      "priority_score": 0.53,
+      "prior_attempts": 2,
+      "penalized_score": 0.3,
+      "family": "Inventory_Liquidity",
+      "description": "Temporary cash depletion before Land 2/3 expansion."
+    },
+    {
+      "archetype": "SEAT_ASYMMETRY",
+      "frequency": 0.15,
+      "impact": 0.6,
+      "confidence": 0.4,
+      "fixability": 0.3,
+      "priority_score": 0.11,
+      "prior_attempts": 1,
+      "penalized_score": 0.08,
+      "family": "Resource_Allocation",
+      "description": "Player 1 action priority deficit. Note: Largely harness artifact."
+    },
+    {
+      "archetype": "SUPPLY_COLLAPSE",
+      "frequency": 0.135,
+      "impact": 0.9,
+      "confidence": 0.85,
+      "fixability": 0.2,
+      "priority_score": 0.21,
+      "prior_attempts": 10,
+      "penalized_score": 0.01,
+      "family": "Pricing",
+      "description": "Market price crash. Proven shared across elite field; thread closed."
+    }
+  ],
+  "recommended_target": {
+    "archetype": "LATE_MILK_TIMING",
+    "frequency": 0.285,
+    "impact": 0.85,
+    "confidence": 0.8,
+    "fixability": 0.75,
+    "priority_score": 1.45,
+    "prior_attempts": 0,
+    "penalized_score": 1.45,
+    "family": "Timing",
+    "description": "Late-game worker contention between final strawberry wave and cow milking."
+  }
+}

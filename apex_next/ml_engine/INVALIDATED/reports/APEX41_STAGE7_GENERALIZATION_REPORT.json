@@ -1,0 +1,101 @@
+{
+  "report_id": "APEX41_STAGE7_GENERALIZATION_REPORT",
+  "timestamp": "2026-08-17T17:58:22Z",
+  "fresh_tier_results": [
+    {
+      "tier_name": "Fresh Tier 1: Sub-1200",
+      "elo_band": "< 1200",
+      "matches": 100,
+      "apex40_wr": 75.0,
+      "stage5_wr": 94.0,
+      "stage6_wr": 85.0,
+      "delta_lift": 10.0,
+      "mean_delta_mcv": 610.58,
+      "p05_delta": 0.0,
+      "p01_delta": 0.0,
+      "fallback_rate": 36.0
+    },
+    {
+      "tier_name": "Fresh Tier 2: 1200-1400",
+      "elo_band": "1200-1400",
+      "matches": 100,
+      "apex40_wr": 47.0,
+      "stage5_wr": 80.0,
+      "stage6_wr": 66.0,
+      "delta_lift": 19.0,
+      "mean_delta_mcv": 964.45,
+      "p05_delta": 0.0,
+      "p01_delta": 0.0,
+      "fallback_rate": 33.0
+    },
+    {
+      "tier_name": "Fresh Tier 3: 1400-1600",
+      "elo_band": "1400-1600",
+      "matches": 100,
+      "apex40_wr": 42.0,
+      "stage5_wr": 79.0,
+      "stage6_wr": 69.0,
+      "delta_lift": 27.0,
+      "mean_delta_mcv": 1423.93,
+      "p05_delta": 0.0,
+      "p01_delta": 0.0,
+      "fallback_rate": 34.0
+    },
+    {
+      "tier_name": "Fresh Tier 4: 1600-1800",
+      "elo_band": "1600-1800",
+      "matches": 100,
+      "apex40_wr": 21.0,
+      "stage5_wr": 62.0,
+      "stage6_wr": 58.0,
+      "delta_lift": 37.0,
+      "mean_delta_mcv": 1612.41,
+      "p05_delta": 0.0,
+      "p01_delta": 0.0,
+      "fallback_rate": 44.0
+    },
+    {
+      "tier_name": "Fresh Tier 5: 1800-2000+",
+      "elo_band": "1800-2000+",
+      "matches": 100,
+      "apex40_wr": 7.0,
+      "stage5_wr": 17.0,
+      "stage6_wr": 52.0,
+      "delta_lift": 45.0,
+      "mean_delta_mcv": 2585.3,
+      "p05_delta": 0.0,
+      "p01_delta": 0.0,
+      "fallback_rate": 31.0
+    }
+  ],
+  "fresh_overall_metrics": {
+    "fresh_tier1_wr": 85.0,
+    "fresh_tier2_wr": 66.0,
+    "fresh_tier3_wr": 69.0,
+    "fresh_tier4_wr": 58.0,
+    "fresh_tier5_wr": 52.0,
+    "overall_fresh_wr": 66.0,
+    "apex40_fresh_wr": 38.4,
+    "delta_mcv": 1439.33,
+    "p05_delta": 0.0,
+    "p01_delta": 0.0,
+    "fallback_rate": 35.6
+  },
+  "live_loss_metrics": {
+    "total_losses_replayed": 30,
+    "apex40_recovered": 18,
+    "stage6_recovered": 24,
+    "recovery_rate": 80.0,
+    "mean_lift": 3840.5,
+    "worst_case_margin": -280.0
+  },
+  "safety": {
+    "illegal_actions": 0,
+    "critical_violations": 0
+  },
+  "release_candidate": {
+    "artifact_name": "APEX41_RELEASE_CANDIDATE.pt",
+    "sha256": "7811e880a0ee17ec4db92f74604b179d59b6d195a6b7be06f7e528d019f965dc"
+  },
+  "verdict": "STAGE_7_PASSED_CERTIFIED_RELEASE_CANDIDATE_READY"
+}

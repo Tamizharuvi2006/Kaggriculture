@@ -1,0 +1,171 @@
+{
+  "id": "STAGE1B-FULL-EPISODE-1",
+  "verdict": "PASS_FULL_720_HORIZON",
+  "all_passed": true,
+  "total_seeds": 20,
+  "steps_per_episode": 720,
+  "total_steps_checked": 14400,
+  "elapsed_seconds": 0.227,
+  "seed_results": [
+    {
+      "seed": 42,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20500.28175940449,
+      "final_p1_mcv": 12679.399244720611,
+      "drift_reason": null
+    },
+    {
+      "seed": 107,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 19603.86972678121,
+      "final_p1_mcv": 12135.256681390329,
+      "drift_reason": null
+    },
+    {
+      "seed": 201,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20962.532149251547,
+      "final_p1_mcv": 12962.620645589348,
+      "drift_reason": null
+    },
+    {
+      "seed": 305,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20941.394734095957,
+      "final_p1_mcv": 12943.789689027244,
+      "drift_reason": null
+    },
+    {
+      "seed": 409,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20207.869053458875,
+      "final_p1_mcv": 12493.892279314643,
+      "drift_reason": null
+    },
+    {
+      "seed": 510,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20978.525919826865,
+      "final_p1_mcv": 12952.986321069026,
+      "drift_reason": null
+    },
+    {
+      "seed": 1001,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20649.107133409958,
+      "final_p1_mcv": 12777.085032171282,
+      "drift_reason": null
+    },
+    {
+      "seed": 2026,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20684.24535298267,
+      "final_p1_mcv": 12801.41173830358,
+      "drift_reason": null
+    },
+    {
+      "seed": 34083081,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20126.08237941941,
+      "final_p1_mcv": 12444.64603235027,
+      "drift_reason": null
+    },
+    {
+      "seed": 73332701,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 19791.33575938661,
+      "final_p1_mcv": 12238.859238956573,
+      "drift_reason": null
+    },
+    {
+      "seed": 8888,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20153.260805480764,
+      "final_p1_mcv": 12462.698596014303,
+      "drift_reason": null
+    },
+    {
+      "seed": 9999,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20651.33197879396,
+      "final_p1_mcv": 12760.446475195458,
+      "drift_reason": null
+    },
+    {
+      "seed": 12345,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 19898.50171909679,
+      "final_p1_mcv": 12319.596929101835,
+      "drift_reason": null
+    },
+    {
+      "seed": 54321,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20932.471451666577,
+      "final_p1_mcv": 12945.004783210436,
+      "drift_reason": null
+    },
+    {
+      "seed": 111111,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20683.399028713924,
+      "final_p1_mcv": 12801.98783998198,
+      "drift_reason": null
+    },
+    {
+      "seed": 222222,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20318.149593114762,
+      "final_p1_mcv": 12563.536952887687,
+      "drift_reason": null
+    },
+    {
+      "seed": 333333,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20365.082858901293,
+      "final_p1_mcv": 12592.6286538506,
+      "drift_reason": null
+    },
+    {
+      "seed": 444444,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20917.15767820035,
+      "final_p1_mcv": 12920.25043856537,
+      "drift_reason": null
+    },
+    {
+      "seed": 555555,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20418.555448970117,
+      "final_p1_mcv": 12603.103153973841,
+      "drift_reason": null
+    },
+    {
+      "seed": 777777,
+      "passed": true,
+      "steps": 720,
+      "final_p0_mcv": 20760.056539970974,
+      "final_p1_mcv": 12842.682330580932,
+      "drift_reason": null
+    }
+  ]
+}

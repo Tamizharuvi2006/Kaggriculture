@@ -1,0 +1,21 @@
+{
+  "id": "EXP0138-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-15T15:47:26Z",
+  "target_hypothesis": "EXP-0138 (PASTURE_2_EXPANSION_PACING)",
+  "variable_family": "Spatial_Infrastructure",
+  "baseline_timing": {
+    "land2_expansion_step": 170,
+    "pasture2_build_step": 260,
+    "animals_bought_steps_196_201": 4,
+    "shed_idle_steps": 60,
+    "first_pickup_post_pasture2_step": 261,
+    "first_place_post_pasture2_step": 264
+  },
+  "binding_constraint_audit": {
+    "spatial_constraint": "Pasture 2 must be constructed on newly unlocked SW quadrant",
+    "transport_constraint": "Worker pickup/place sequence is hardcoded at steps 261-268",
+    "open_loop_schedule_coupling": "Moving BUILD_PASTURE to Step 175 leaves animals in shed because worker transport sub-routines only trigger at Step 261",
+    "verdict": "INVALID_MECHANISM"
+  },
+  "verdict_rationale": "Forensic audit reveals that while Pasture 2 is built at Step 260, the physical worker pickup and placement actions for the 4 queued sheep are hardcoded at Steps 261-268. Accelerating the BUILD_PASTURE action alone does not advance physical sheep placement because workers are executing pre-scheduled strawberry watering until Step 260. In an open-loop schedule, isolated infrastructure timing shifts evaluate to exact parity on official Gate 1."
+}

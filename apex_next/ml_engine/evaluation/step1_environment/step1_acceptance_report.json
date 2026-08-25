@@ -1,0 +1,183 @@
+{
+  "status": "PASS",
+  "episodes_requested": 10,
+  "episodes_completed": 10,
+  "total_transitions": 7190,
+  "max_transitions_allowed": 7200,
+  "observed_step_counts": [
+    719,
+    719,
+    719,
+    719,
+    719,
+    719,
+    719,
+    719,
+    719,
+    719
+  ],
+  "exceptions": [],
+  "elapsed_seconds": 14.476495,
+  "environment": "kaggle_environments.make('kaggriculture')",
+  "our_policy": "PASS_ONLY",
+  "opponent": "submission.py via KaggricultureGymEnv default opponent_path",
+  "checks": [
+    "features.shape == (128,)",
+    "features.dtype == np.float32",
+    "np.isfinite(features).all()",
+    "sanitized action has farmer/hands/market keys",
+    "market order count <= 10"
+  ],
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 1000,
+      "completed": true,
+      "steps": 719,
+      "reward": 3000.0,
+      "exception": null,
+      "feature_checks": {
+        "shape_128": true,
+        "dtype_float32": true,
+        "finite": true,
+        "action_format": true
+      },
+      "elapsed_seconds": 1.426678
+    },
+    {
+      "episode": 1,
+      "seed": 1001,
+      "completed": true,
+      "steps": 719,
+      "reward": 3000.0,
+      "exception": null,
+      "feature_checks": {
+        "shape_128": true,
+        "dtype_float32": true,
+        "finite": true,
+        "action_format": true
+      },
+      "elapsed_seconds": 1.400616
+    },
+    {
+      "episode": 2,
+      "seed": 1002,
+      "completed": true,
+      "steps": 719,
+      "reward": 3000.0,
+      "exception": null,
+      "feature_checks": {
+        "shape_128": true,
+        "dtype_float32": true,
+        "finite": true,
+        "action_format": true
+      },
+      "elapsed_seconds": 1.517672
+    },
+    {
+      "episode": 3,
+      "seed": 1003,
+      "completed": true,
+      "steps": 719,
+      "reward": 3000.0,
+      "exception": null,
+      "feature_checks": {
+        "shape_128": true,
+        "dtype_float32": true,
+        "finite": true,
+        "action_format": true
+      },
+      "elapsed_seconds": 1.39388
+    },
+    {
+      "episode": 4,
+      "seed": 1004,
+      "completed": true,
+      "steps": 719,
+      "reward": 3000.0,
+      "exception": null,
+      "feature_checks": {
+        "shape_128": true,
+        "dtype_float32": true,
+        "finite": true,
+        "action_format": true
+      },
+      "elapsed_seconds": 1.526803
+    },
+    {
+      "episode": 5,
+      "seed": 1005,
+      "completed": true,
+      "steps": 719,
+      "reward": 3000.0,
+      "exception": null,
+      "feature_checks": {
+        "shape_128": true,
+        "dtype_float32": true,
+        "finite": true,
+        "action_format": true
+      },
+      "elapsed_seconds": 1.396616
+    },
+    {
+      "episode": 6,
+      "seed": 1006,
+      "completed": true,
+      "steps": 719,
+      "reward": 3000.0,
+      "exception": null,
+      "feature_checks": {
+        "shape_128": true,
+        "dtype_float32": true,
+        "finite": true,
+        "action_format": true
+      },
+      "elapsed_seconds": 1.515115
+    },
+    {
+      "episode": 7,
+      "seed": 1007,
+      "completed": true,
+      "steps": 719,
+      "reward": 3000.0,
+      "exception": null,
+      "feature_checks": {
+        "shape_128": true,
+        "dtype_float32": true,
+        "finite": true,
+        "action_format": true
+      },
+      "elapsed_seconds": 1.398069
+    },
+    {
+      "episode": 8,
+      "seed": 1008,
+      "completed": true,
+      "steps": 719,
+      "reward": 3000.0,
+      "exception": null,
+      "feature_checks": {
+        "shape_128": true,
+        "dtype_float32": true,
+        "finite": true,
+        "action_format": true
+      },
+      "elapsed_seconds": 1.520831
+    },
+    {
+      "episode": 9,
+      "seed": 1009,
+      "completed": true,
+      "steps": 719,
+      "reward": 3000.0,
+      "exception": null,
+      "feature_checks": {
+        "shape_128": true,
+        "dtype_float32": true,
+        "finite": true,
+        "action_format": true
+      },
+      "elapsed_seconds": 1.380146
+    }
+  ]
+}

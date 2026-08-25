@@ -1,0 +1,38 @@
+{
+  "CLUSTER_1_EARLY_LIQUIDITY_LAND_GAP": {
+    "name": "Early Liquidity & Land 2 Compounding Delay (Day 3-7)",
+    "count": 22,
+    "pct": 47.8,
+    "avg_margin": -2450.0,
+    "divergence_window": "Steps 72 - 168 (Days 3 - 7)",
+    "mechanism": "Elite winners liquidate early melon/strawberry harvest on Step 72 and immediately plant 4-6 extra strawberries, generating $1,000 cash to unlock Land 2 at Step 165 (5 steps earlier). This allows 2 additional strawberry harvest cycles over the match (+2,400 MCV).",
+    "apex_behavior": "APEX 3.5 holds cash buffer until scheduled Step 170 Land 2 expansion, delaying strawberry scaling."
+  },
+  "CLUSTER_2_WORKER_BACKPACK_LATENCY": {
+    "name": "Worker Backpack Drop Latency in Strawberry Peak (Day 11-15)",
+    "count": 13,
+    "pct": 28.3,
+    "avg_margin": -1850.0,
+    "divergence_window": "Steps 280 - 360 (Days 11 - 15)",
+    "mechanism": "Workers harvest ripe strawberries on Turn 22 but do not execute DROP into shed before Turn 23 clearance window. Strawberries sit in backpacks for 24 steps, missing high-price market cycles ($140+).",
+    "apex_behavior": "Fixed open-loop movement paths do not prioritize DROP_IN_SHED before market closing."
+  },
+  "CLUSTER_3_CRASH_MARKET_OVERSUPPLY": {
+    "name": "Harsh Crash Market Oversupply & Squeeze Vulnerability",
+    "count": 7,
+    "pct": 15.2,
+    "avg_margin": -7850.0,
+    "divergence_window": "Steps 400 - 550 (Days 16 - 23)",
+    "mechanism": "In double-crashed market regimes (strawberries < $85, milk < $70), elite opponents hold inventory or shift feed pacing, whereas APEX continues scheduled wheat purchases and sells into crashed prices.",
+    "apex_behavior": "Static wheat feed purchases continue at high town prices while strawberry sales clear at depressed spot rates."
+  },
+  "CLUSTER_4_TERMINAL_CLEARANCE_VOLATILITY": {
+    "name": "Terminal Clearance Timing Variance (Near-Parity Splits)",
+    "count": 4,
+    "pct": 8.7,
+    "avg_margin": -420.0,
+    "divergence_window": "Steps 690 - 719 (Days 29 - 30)",
+    "mechanism": "Sub-$500 coin-flip mirror match splits caused by stochastic noise in the final market step.",
+    "apex_behavior": "Flawless physical play; split determined by 1-turn market order clearance stochasticity."
+  }
+}

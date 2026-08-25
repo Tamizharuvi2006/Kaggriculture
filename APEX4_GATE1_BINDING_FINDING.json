@@ -1,0 +1,49 @@
+{
+  "status": "CURRENT_CANDIDATE_BINDING_NOT_PROVEN",
+  "games_run": false,
+  "gate1_rerun": false,
+  "current_release_candidate": {
+    "file": "APEX4_SUBMISSION_FINAL.py",
+    "sha256": "0f3ddc3c5b67999d51508a38361bafe140a9050d7e2e3039ae2ccbc810dff45a"
+  },
+  "historical_gate_verdict_hashes": [
+    {
+      "source": "apex_next/research/EXP-0155/verdict.json",
+      "candidate_sha256": "aef5b8d0730af2d1ace6a0beac68ca3b81073a1f32ef9ed9043bb34b1db6c4ef",
+      "actual_candidate_file": "apex_next/research/EXP-0155/candidate/candidate_submission.py",
+      "gate1_win_rate": 0.5
+    },
+    {
+      "source": "apex_next/apex4/verdict.json",
+      "candidate_sha256": "e1123908de7c1a42456dcc998284bc1205db45de2e609867a6bfbed4efe07295",
+      "actual_candidate_file": "apex_next/apex4/candidate/candidate_submission.py",
+      "gate1_win_rate": 0.5
+    }
+  ],
+  "candidate_hash_matches_current_release": false,
+  "preserved_result_sources": [
+    "apex_next/apex4/results/gate1.json",
+    "apex_next/research/EXP-0155/results/gate1.json"
+  ],
+  "preserved_result_summary": {
+    "seed_records": 46,
+    "seat_balanced_matches": 92,
+    "win_points": 46.0,
+    "win_rate": 0.5,
+    "errors": 0,
+    "candidate_hash_embedded": false
+  },
+  "classification": {
+    "projection_67_4": "stale_or_incorrect_projection",
+    "50_percent_result": "historical_earlier_candidate_identity_not_resolved",
+    "current_apex4_certification": "not_proven",
+    "likely_issue": "wrong_candidate_or_different_experiment_output_mixed_into_release_records"
+  },
+  "next_required_evidence": [
+    "archived run manifest linking result to exact candidate hash",
+    "execution-time environment metadata",
+    "evaluator source revision or content hash",
+    "complete configuration record"
+  ],
+  "decision": "Do not rerun or upload. Preserve historical 50% records and continue artifact-only binding investigation."
+}

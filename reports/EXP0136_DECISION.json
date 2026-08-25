@@ -1,0 +1,11 @@
+{
+  "id": "EXP0136-DECISION",
+  "timestamp": "2026-08-15T14:52:45Z",
+  "experiment_id": "EXP-0136",
+  "screening_verdict": "CLEARED_GPU",
+  "top_candidate": "CAND-136-02",
+  "top_paired_wr": 1.0,
+  "top_delta_mcv": 32920.04,
+  "gate1_qualified": true,
+  "rationale": "CAND-136-02 cleared screening with 100.0% paired win rate and +$32,920.04 MCV lift. Reallocating Day 1 budget to 5 cows unleashes massive ongoing milk cashflow throughout all 720 steps."
+}

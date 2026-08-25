@@ -1,0 +1,30 @@
+{
+  "id": "EXP0155-SEED-LIFECYCLE-FORENSIC",
+  "timestamp": "2026-08-15T17:39:26Z",
+  "baseline_seed_balance_at_step_163": 0,
+  "root_cause": "Step 156 baseline purchase was only 1 seed, which was immediately consumed by Worker #0 at Step 156.",
+  "synchronized_solution": {
+    "purchase_step": 156,
+    "purchase_quantity": 3,
+    "seeds_consumed_by_worker_0": 1,
+    "seeds_available_for_worker_3_at_step_163": 2,
+    "worker_3_plant_steps": [
+      163,
+      164
+    ],
+    "attempted_plant_actions": 2,
+    "successful_plant_actions": 2,
+    "conversion_rate": 1.0,
+    "extra_crops_grown": 2,
+    "projected_mcv_lift": 1450.0
+  },
+  "solvency_check": {
+    "farm_cash_at_step_156": 1480.0,
+    "cost_of_2_extra_seeds": 200.0,
+    "cost_of_step_156_cows": 1000.0,
+    "post_purchase_cash": 280.0,
+    "safety_floor": 100.0,
+    "solvency_guaranteed": true
+  },
+  "verdict": "VALID_FOR_PREREGISTRATION"
+}

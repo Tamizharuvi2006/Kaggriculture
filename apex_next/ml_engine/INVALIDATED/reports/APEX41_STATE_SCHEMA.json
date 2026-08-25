@@ -1,0 +1,39 @@
+{
+  "schema_id": "APEX41_STATE_SCHEMA_V1",
+  "total_feature_dimensions": 256,
+  "feature_groups": {
+    "spatial_grid": {
+      "dimensions": 144,
+      "description": "12x12 flattened farm grid encoding tile types, crop stages (0-4), water status (0/1), and pasture allocation.",
+      "dtype": "float32",
+      "range": "[0.0, 1.0]",
+      "public": true,
+      "normalization": "Min-Max scaled"
+    },
+    "economic_state": {
+      "dimensions": 32,
+      "description": "Farm cash, shed inventory counts (Wheat, Carrot, Tomato, Strawberry, Melon, Milk, Wool), spot prices, moving averages, and pending market order queue count.",
+      "dtype": "float32",
+      "range": "[0.0, 10000.0]",
+      "public": true,
+      "normalization": "Log1p & z-score"
+    },
+    "opponent_public_state": {
+      "dimensions": 32,
+      "description": "Publicly visible opponent animal counts, unlocked quadrant count, public market sales volume, and inferred relative net cashflow.",
+      "dtype": "float32",
+      "range": "[0.0, 50.0]",
+      "public": true,
+      "normalization": "Standard scaled (Zero hidden state)"
+    },
+    "temporal_and_workers": {
+      "dimensions": 48,
+      "description": "Step index (0-720), sin/cos encoded daily hour (0-23), worker positions (x, y), carrying bag load, and active task eligibility flags.",
+      "dtype": "float32",
+      "range": "[-1.0, 1.0]",
+      "public": true,
+      "normalization": "Sinusoidal & coordinate normalized"
+    }
+  },
+  "missing_value_behavior": "Zero-fill with boolean mask indicator channel"
+}

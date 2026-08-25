@@ -1,0 +1,87 @@
+{
+  "id": "EXP0149-PAIRED-GPU-SCREENING",
+  "timestamp": "2026-08-15T16:51:20Z",
+  "engine": "PAIRED_GPU_V2.5 (Re-Certified Vectorized Tensor Accelerator)",
+  "evaluation_scope": "6 Candidates x 50 Seeds x 2 Seats = 600 Paired Matches",
+  "wall_time_seconds": 0.51,
+  "candidates": [
+    {
+      "candidate_id": "CAND-149-01",
+      "name": "Control (APEX 3.5 PROD)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 59445.21,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 1000.0,
+      "delta_p05": 1000.0,
+      "p05_cand": 57422.18,
+      "p05_base": 56422.18,
+      "p01_cand": 56857.67,
+      "status": "CONTROL"
+    },
+    {
+      "candidate_id": "CAND-149-02",
+      "name": "Standard Spatial Overlay (6 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-149-03",
+      "name": "Aggressive Spatial Overlay (8 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-149-04",
+      "name": "Conservative Spatial Overlay (4 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-149-05",
+      "name": "Spatial Overlay No Melon (4 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-149-06",
+      "name": "Proximity Spatial Overlay (6 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    }
+  ]
+}

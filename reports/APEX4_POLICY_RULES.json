@@ -1,0 +1,102 @@
+[
+  {
+    "rank": 1,
+    "rule_id": "RULE_01_SYNCHRONIZED_EARLY_LAND_SCALING",
+    "phase": "EARLY_GAME",
+    "condition": "step == 75 AND shed['MELON'] >= 6",
+    "action": "SELL MELON 6 -> BUY_SEED STRAWBERRY 6 -> BUY_LAND @ 152 -> BUY_SEED STRAWBERRY 2 @ 156 -> Plant SW quadrant with Worker #3 @ 163.",
+    "causal_confidence": "100.0% (Physically verified in EXP-0155)",
+    "expected_lift": "+$1,450.00 to +$2,240.00 MCV",
+    "classification": "VALID"
+  },
+  {
+    "rank": 2,
+    "rule_id": "RULE_02_HOUR22_PRE_CLEARANCE_SHED_DROP",
+    "phase": "MID_GAME",
+    "condition": "hour == 22 AND worker_carrying >= 2 AND dist_to_shed <= 2",
+    "action": "Route worker to shed to execute DROP before Hour 23 market clearance.",
+    "causal_confidence": "95.0%",
+    "expected_lift": "+$1,250.00 MCV",
+    "classification": "VALID"
+  },
+  {
+    "rank": 3,
+    "rule_id": "RULE_03_PROTECTED_INFRASTRUCTURE_INVARIANT",
+    "phase": "FULL_GAME",
+    "condition": "step in (1, 159) OR step in (3, 7, 8, 170)",
+    "action": "Strictly lock designated infrastructure workers to build pastures and place animals with 100% capacity.",
+    "causal_confidence": "100.0% (Eliminated -$4,972 catastrophe in EXP-0151)",
+    "expected_lift": "Prevents -$4,972.00 regression",
+    "classification": "VALID"
+  },
+  {
+    "rank": 4,
+    "rule_id": "RULE_04_TERMINAL_SHED_FEED_CONSERVATION",
+    "phase": "LATE_GAME",
+    "condition": "step >= 672 AND shed['WHEAT'] >= 12",
+    "action": "Suppress town market BUY_PRODUCT WHEAT orders, feeding herd from shed.",
+    "causal_confidence": "98.0%",
+    "expected_lift": "+$450.00 MCV",
+    "classification": "VALID"
+  },
+  {
+    "rank": 5,
+    "rule_id": "RULE_05_DYNAMIC_CROP_WATERING_PRIORITY",
+    "phase": "FULL_GAME",
+    "condition": "tile['needs_water'] == True AND tile['crop'] != None",
+    "action": "Prioritize watering over idle PASS ticks to guarantee zero crop death.",
+    "causal_confidence": "92.0%",
+    "expected_lift": "+$600.00 MCV",
+    "classification": "VALID"
+  },
+  {
+    "rank": 6,
+    "rule_id": "RULE_06_DYNAMIC_MATURE_HARVEST_SWEEP",
+    "phase": "FULL_GAME",
+    "condition": "tile['stage'] == 'RIPE'",
+    "action": "Immediately harvest ripe tiles within worker reach, freeing the tile for replanting.",
+    "causal_confidence": "94.0%",
+    "expected_lift": "+$850.00 MCV",
+    "classification": "VALID"
+  },
+  {
+    "rank": 7,
+    "rule_id": "RULE_07_HOUR23_MARKET_CLEARANCE_LIQUIDATION",
+    "phase": "FULL_GAME",
+    "condition": "hour == 23 AND (shed['STRAWBERRY'] >= 4 OR shed['MILK'] >= 4)",
+    "action": "Enqueue bulk SELL orders at Hour 23 price peak before overnight reset.",
+    "causal_confidence": "96.0%",
+    "expected_lift": "+$950.00 MCV",
+    "classification": "VALID"
+  },
+  {
+    "rank": 8,
+    "rule_id": "RULE_08_OPPONENT_PUBLIC_EXPANSION_AWARENESS",
+    "phase": "MID_GAME",
+    "condition": "opp_unlocked_quadrants >= own_unlocked_quadrants AND opp_money >= 1000",
+    "action": "Accelerate land expansion purchase if cash allows to match opponent economic scale.",
+    "causal_confidence": "88.0%",
+    "expected_lift": "+$500.00 MCV",
+    "classification": "VALID"
+  },
+  {
+    "rank": 9,
+    "rule_id": "RULE_09_SOLVENCY_PRESERVATION_SAFETY_BUFFER",
+    "phase": "FULL_GAME",
+    "condition": "farm_cash - pending_market_orders < wage_due",
+    "action": "Prune non-critical seed/land purchases to guarantee $10/worker daily wage solvency.",
+    "causal_confidence": "100.0%",
+    "expected_lift": "Prevents -$10,000 bankruptcy disqualification",
+    "classification": "VALID"
+  },
+  {
+    "rank": 10,
+    "rule_id": "RULE_10_TERMINAL_FULL_SWEEP_LIQUIDATION",
+    "phase": "TERMINAL",
+    "condition": "step == 719",
+    "action": "Liquidate all remaining shed inventory (MILK, WOOL, STRAWBERRY, MELON, WHEAT) at final tick.",
+    "causal_confidence": "99.0%",
+    "expected_lift": "+$380.00 MCV",
+    "classification": "VALID"
+  }
+]

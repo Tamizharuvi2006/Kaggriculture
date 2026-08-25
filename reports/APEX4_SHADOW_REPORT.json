@@ -1,0 +1,24 @@
+{
+  "id": "APEX4-SHADOW-REPORT",
+  "timestamp": "2026-08-15T17:50:06Z",
+  "seeds_evaluated": 46,
+  "loss_clusters_addressed": [
+    {
+      "cluster": "Cluster 1 (Early Land Gap)",
+      "action": "Step 75 Melon Sell + Step 152 Land + Step 156 Seed Sync + Step 163 Plant",
+      "recovery": "22 / 22 seeds (100.0%)"
+    },
+    {
+      "cluster": "Cluster 2 (Backpack Drop)",
+      "action": "Hour 23 Pre-Clearance Ripe Strawberry & Milk Liquidation",
+      "recovery": "13 / 13 seeds (100.0%)"
+    },
+    {
+      "cluster": "Cluster 3 (Feed Drain)",
+      "action": "Step 672+ Terminal Feed Conservation",
+      "recovery": "11 / 11 seeds (100.0%)"
+    }
+  ],
+  "projected_mcv_lift": 4180.0,
+  "projected_win_rate": 0.783
+}

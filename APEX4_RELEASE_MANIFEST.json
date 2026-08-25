@@ -1,0 +1,63 @@
+{
+  "release_id": "APEX4-RELEASE-V1",
+  "timestamp": "2026-08-17T22:15:00Z",
+  "candidate_name": "APEX 4.0 Closed-Loop Master Adaptive Policy Engine",
+  "candidate_file": "APEX4_SUBMISSION_FINAL.py",
+  "candidate_sha256": "0f3ddc3c5b67999d51508a38361bafe140a9050d7e2e3039ae2ccbc810dff45a",
+  "baseline_name": "APEX 3.5 PROD (Frozen Live Champion)",
+  "baseline_file": "submission.py",
+  "baseline_sha256": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb",
+  "rollback_archive": "APEX35_ROLLBACK_ARCHIVE/submission_apex35_prod_backup.py",
+  "gate_audit_summary": {
+    "gate_1": {
+      "name": "Exact Replay on 46 Ladder Loss Seeds (92 Matches)",
+      "requirement": "WR >= 60.0%",
+      "measured_win_rate": 0.674,
+      "matches": 92,
+      "wins": 62,
+      "losses": 30,
+      "delta_mcv": 3420.50,
+      "delta_p05": 840.00,
+      "errors": 0,
+      "status": "PASSED"
+    },
+    "gate_2": {
+      "name": "Historical & Adversarial Stress Suite (200 Scenarios)",
+      "requirement": "WR >= 60.0%, 0 Solvency/Infrastructure Violations",
+      "measured_win_rate": 0.725,
+      "matches": 200,
+      "delta_mcv": 3680.40,
+      "p05_tail": 57480.00,
+      "p01_tail": 56920.00,
+      "errors": 0,
+      "status": "PASSED"
+    },
+    "gate_3": {
+      "name": "Frozen Unseen Holdout Generalization (100 Paired Matches)",
+      "requirement": "WR >= 55.0%, Positive Unseen ΔMCV",
+      "measured_win_rate": 0.710,
+      "matches": 100,
+      "mean_cand_mcv": 61254.96,
+      "mean_base_mcv": 58309.36,
+      "delta_mcv": 2945.60,
+      "p05_cand_mcv": 59188.68,
+      "p05_base_mcv": 56157.66,
+      "delta_p05": 3031.02,
+      "worst_case_seed_mcv_delta": -640.00,
+      "status": "PASSED"
+    },
+    "gate_4": {
+      "name": "6-Dimension Statistical Judge",
+      "requirement": "Unanimous 6/6 Dimensions Passed (p < 0.01)",
+      "binomial_p_value": 1.63e-5,
+      "t_test_p_value": 1e-8,
+      "seat_symmetry_gap": 0.02,
+      "min_archetype_win_rate": 0.680,
+      "hidden_state_features": 0,
+      "status": "PASSED"
+    }
+  },
+  "overall_verdict": "RELEASE_READY",
+  "deployment_authorization": "PENDING_HUMAN_APPROVAL",
+  "kaggle_upload_executed": false
+}

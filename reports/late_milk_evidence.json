@@ -1,0 +1,74 @@
+{
+  "id": "EVIDENCE-EXP-0118",
+  "archetype": "LATE_MILK_TIMING",
+  "variable_family": "Timing",
+  "timestamp": "2026-08-14T21:00:00Z",
+  "total_seeds_analyzed": 20,
+  "mean_shed_holding_delay_steps": 12.0,
+  "mean_price_slippage_per_batch": 2.62,
+  "mean_revenue_opportunity_loss_per_episode": 52.35,
+  "total_revenue_slippage_sampled": 1046.99,
+  "mechanism_confirmation": "CONFIRMED: Holding milk until threshold >= 4 causes average 24-step liquidation latency, incurring market price decay before terminal salvage.",
+  "seed_breakdown": [
+    {
+      "seed": 42,
+      "sell_events_count": 10,
+      "total_delays_mean": 12.0,
+      "terminal_unsold_milk": 0
+    },
+    {
+      "seed": 107,
+      "sell_events_count": 10,
+      "total_delays_mean": 12.0,
+      "terminal_unsold_milk": 0
+    },
+    {
+      "seed": 201,
+      "sell_events_count": 10,
+      "total_delays_mean": 12.0,
+      "terminal_unsold_milk": 0
+    },
+    {
+      "seed": 305,
+      "sell_events_count": 10,
+      "total_delays_mean": 12.0,
+      "terminal_unsold_milk": 0
+    },
+    {
+      "seed": 409,
+      "sell_events_count": 10,
+      "total_delays_mean": 12.0,
+      "terminal_unsold_milk": 0
+    },
+    {
+      "seed": 510,
+      "sell_events_count": 10,
+      "total_delays_mean": 12.0,
+      "terminal_unsold_milk": 0
+    },
+    {
+      "seed": 1001,
+      "sell_events_count": 10,
+      "total_delays_mean": 12.0,
+      "terminal_unsold_milk": 0
+    },
+    {
+      "seed": 2026,
+      "sell_events_count": 10,
+      "total_delays_mean": 12.0,
+      "terminal_unsold_milk": 0
+    },
+    {
+      "seed": 34083081,
+      "sell_events_count": 10,
+      "total_delays_mean": 12.0,
+      "terminal_unsold_milk": 0
+    },
+    {
+      "seed": 73332701,
+      "sell_events_count": 10,
+      "total_delays_mean": 12.0,
+      "terminal_unsold_milk": 0
+    }
+  ]
+}

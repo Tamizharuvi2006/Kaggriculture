@@ -1,0 +1,104 @@
+{
+  "id": "STAGE1-FIDELITY-1",
+  "verdict": "PASS_ALL_GOLDEN_SEEDS",
+  "all_passed": true,
+  "total_seeds": 10,
+  "total_steps_checked": 1200,
+  "fingerprint": {
+    "reference_engine_package": "kaggle_environments",
+    "kaggle_environments_version": "1.32.6",
+    "python_version": "3.12.13",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "rules_config": {
+      "episodeSteps": 720,
+      "townCenterSellInterval": 24
+    },
+    "config_hash": "7231bba3fe6a40dc",
+    "seed_list_hash": "753fcdc465b95727",
+    "python_ref_engine_hash": "9c6dcfa4b864e5c2",
+    "cuda_batch_engine_hash": "1625679a918db3fc",
+    "timestamp": "2026-08-14T14:54:42Z"
+  },
+  "seed_results": [
+    {
+      "seed": 42,
+      "passed": true,
+      "steps": 120,
+      "final_p0_mcv": 3757.2432412022113,
+      "final_p1_mcv": 2380.9271190826375,
+      "drift_reason": null
+    },
+    {
+      "seed": 107,
+      "passed": true,
+      "steps": 120,
+      "final_p0_mcv": 3659.888924306784,
+      "final_p1_mcv": 2324.2005623129667,
+      "drift_reason": null
+    },
+    {
+      "seed": 201,
+      "passed": true,
+      "steps": 120,
+      "final_p0_mcv": 3569.221288306443,
+      "final_p1_mcv": 2279.928718586524,
+      "drift_reason": null
+    },
+    {
+      "seed": 305,
+      "passed": true,
+      "steps": 120,
+      "final_p0_mcv": 3675.7599893359275,
+      "final_p1_mcv": 2336.7775576095914,
+      "drift_reason": null
+    },
+    {
+      "seed": 409,
+      "passed": true,
+      "steps": 120,
+      "final_p0_mcv": 3653.8034669346157,
+      "final_p1_mcv": 2332.2184638480644,
+      "drift_reason": null
+    },
+    {
+      "seed": 510,
+      "passed": true,
+      "steps": 120,
+      "final_p0_mcv": 3803.051813873787,
+      "final_p1_mcv": 2394.181577047131,
+      "drift_reason": null
+    },
+    {
+      "seed": 1001,
+      "passed": true,
+      "steps": 120,
+      "final_p0_mcv": 3702.257071613622,
+      "final_p1_mcv": 2351.8973024206166,
+      "drift_reason": null
+    },
+    {
+      "seed": 2026,
+      "passed": true,
+      "steps": 120,
+      "final_p0_mcv": 3650.6723161817345,
+      "final_p1_mcv": 2319.914398292014,
+      "drift_reason": null
+    },
+    {
+      "seed": 34083081,
+      "passed": true,
+      "steps": 120,
+      "final_p0_mcv": 3686.111316576323,
+      "final_p1_mcv": 2340.4870828017256,
+      "drift_reason": null
+    },
+    {
+      "seed": 73332701,
+      "passed": true,
+      "steps": 120,
+      "final_p0_mcv": 3534.323663550067,
+      "final_p1_mcv": 2263.4532909132836,
+      "drift_reason": null
+    }
+  ]
+}

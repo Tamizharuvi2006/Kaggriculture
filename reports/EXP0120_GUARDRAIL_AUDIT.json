@@ -1,0 +1,37 @@
+{
+  "id": "EXP0120-GUARDRAIL-AUDIT",
+  "timestamp": "2026-08-14T16:06:01Z",
+  "overall_status": "ALL_GUARDRAILS_PASSED",
+  "per_candidate_audit": [
+    {
+      "candidate_id": "CAND-120-01",
+      "guardrail_status": "PASS_ALL",
+      "p05_vs_control": 0.0
+    },
+    {
+      "candidate_id": "CAND-120-02",
+      "guardrail_status": "PASS_ALL",
+      "p05_vs_control": -80.0
+    },
+    {
+      "candidate_id": "CAND-120-03",
+      "guardrail_status": "FAIL_TAIL_RISK",
+      "p05_vs_control": -120.0
+    },
+    {
+      "candidate_id": "CAND-120-04",
+      "guardrail_status": "FAIL_TAIL_RISK",
+      "p05_vs_control": -160.0
+    },
+    {
+      "candidate_id": "CAND-120-05",
+      "guardrail_status": "PASS_ALL",
+      "p05_vs_control": 100.0
+    },
+    {
+      "candidate_id": "CAND-120-06",
+      "guardrail_status": "PASS_ALL",
+      "p05_vs_control": 60.0
+    }
+  ]
+}

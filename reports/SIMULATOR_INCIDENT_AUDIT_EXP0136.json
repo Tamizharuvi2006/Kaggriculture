@@ -1,0 +1,11 @@
+{
+  "id": "INC-2026-08-15-EXP0136",
+  "timestamp": "2026-08-15T20:51:00Z",
+  "experiment_id": "EXP-0136",
+  "incident_type": "SIMULATOR_STATE_TRANSITION_ABSTRACTION_GAP",
+  "symptom": "PAIRED_GPU_V2.5 reported 100.0% WR / +$32,920 MCV; Official Gate 1 reported 50.0% WR / +$0 MCV",
+  "first_divergent_step": 2,
+  "root_cause": "kaggle_environments v1.32.6 requires a physical 3-stage worker transport sequence (BUY -> PICKUP -> WALK -> PLACE) before an animal produces milk. Changing the market order without modifying the worker schedule caused the newly purchased cows to remain undeployed in the shed inventory.",
+  "simulator_gap": "PAIRED_GPU_V2.5 abstracted animal counts directly as state tensors, bypassing physical worker pickup/place movement validation.",
+  "contract_verdict": "Gate 1 correctly rejected candidate; 0 bad code reached production; submission.py remains 100% frozen."
+}

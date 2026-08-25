@@ -1,0 +1,16 @@
+{
+  "package_status": "READY_FOR_MANUAL_UPLOAD",
+  "submission_file": "submission.py",
+  "source_candidate": "APEX4_SUBMISSION_CANDIDATE_FIXED.py",
+  "sha256": "4b4527021aeffb98275b0202553961aa19ceb9f0db08b8960da3f328888e4750",
+  "candidate_logic_modified": false,
+  "gate1_certified": false,
+  "upload_executed": false,
+  "manual_upload_only": true,
+  "rollback": {
+    "file": "submission.py",
+    "archive": "APEX35_ROLLBACK_ARCHIVE/submission_apex35_prod_backup.py",
+    "sha256": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb"
+  },
+  "contents": ["submission.py", "UPLOAD_MANIFEST.json"]
+}

@@ -1,0 +1,55 @@
+{
+  "status": "BLOCKED_PENDING_RELEASE_RECORD_RECONCILIATION",
+  "scope": "read-only artifact and release-record audit",
+  "games_run": false,
+  "upload_executed": false,
+  "production_modified": false,
+  "candidate": {
+    "file": "APEX4_SUBMISSION_FINAL.py",
+    "manifest_sha256": "0f3ddc3c5b67999d51508a38361bafe140a9050d7e2e3039ae2ccbc810dff45a",
+    "observed_sha256": "0f3ddc3c5b67999d51508a38361bafe140a9050d7e2e3039ae2ccbc810dff45a",
+    "hash_match": true
+  },
+  "baseline": {
+    "current_file": "submission.py",
+    "rollback_file": "APEX35_ROLLBACK_ARCHIVE/submission_apex35_prod_backup.py",
+    "recorded_sha256": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb",
+    "current_sha256": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb",
+    "rollback_sha256": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb",
+    "hash_match": true
+  },
+  "entrypoint_check": {
+    "source": "reports/step5b/apex4_kaggle_entrypoint_diagnostic.json",
+    "candidate_copy_matches_certified": true,
+    "candidate_hash": "0f3ddc3c5b67999d51508a38361bafe140a9050d7e2e3039ae2ccbc810dff45a"
+  },
+  "conflicting_records": [
+    {
+      "source": "APEX4_RELEASE_MANIFEST.json",
+      "gate_1_wr": 0.674,
+      "gate_2_wr": 0.725,
+      "gate_3_wr": 0.71,
+      "verdict": "RELEASE_READY"
+    },
+    {
+      "source": "reports/APEX4_RELEASE_DECISION.md",
+      "gate_1_wr": 0.5,
+      "gate_2": "SKIPPED",
+      "gate_3": "SKIPPED",
+      "gate_4": "SKIPPED",
+      "verdict": "REJECTED_FOR_PRODUCTION"
+    },
+    {
+      "source": "reports/APEX4_GATE_REPORT.json",
+      "gate_1_wr": 0.5,
+      "verdict": "FALSIFIED_GATE_1"
+    }
+  ],
+  "required_before_upload": [
+    "reconcile candidate-hash and evaluation provenance",
+    "identify authoritative gate result",
+    "preserve both historical records",
+    "repeat packaging/hash/parity read-only checks",
+    "obtain explicit human approval"
+  ]
+}

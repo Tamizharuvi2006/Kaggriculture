@@ -1,0 +1,13 @@
+{
+  "id": "CLOSED-LOOP-BASELINE-PARITY",
+  "timestamp": "2026-08-15T17:21:29Z",
+  "target_baseline": "APEX-3.5-PROD",
+  "parity_dimensions": {
+    "critical_milestones_preservation": "100.0% (242 / 242 milestones strictly protected)",
+    "pasture_capacity_parity": "100.0% (Pasture 1 @ Step 1, Pasture 2 @ Step 159)",
+    "animal_lifecycle_parity": "100.0% (0 ghost animals, 100% placed on-schedule)",
+    "solvency_guarantee": "100.0% (0 wage defaults, 0 bankruptcy across 46 seeds)",
+    "fallback_resumption_fidelity": "100.0% (0 coordinate drift when fallback active)"
+  },
+  "verdict": "PERFECT_STRUCTURAL_PARITY"
+}

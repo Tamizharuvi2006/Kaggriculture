@@ -1,0 +1,44 @@
+{
+  "id": "EXP0139-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-15T15:50:44Z",
+  "target_hypothesis": "EXP-0139 (FINAL_TICK_MILK_HARVEST_LIQUIDATION_CAPTURE)",
+  "variable_family": "Market_Execution",
+  "baseline_terminal_milk_orders": [
+    [
+      672,
+      6.0
+    ],
+    [
+      679,
+      6.0
+    ],
+    [
+      692,
+      3.0
+    ],
+    [
+      696,
+      4.0
+    ],
+    [
+      704,
+      3.0
+    ],
+    [
+      706,
+      3.0
+    ],
+    [
+      712,
+      3.0
+    ]
+  ],
+  "environment_scoring_rule": "Final Score = Farm Cash + Sum(Shed Inventory * Current Spot Price)",
+  "economic_disentanglement": {
+    "shed_inventory_valuation_at_step_720": "100% spot price (Zero Slippage, Zero Transaction Cost)",
+    "market_sell_order_at_step_715": "Suffers non-linear price slippage (-1.5% to -3.5% penalty)",
+    "holding_vs_selling_delta": "Holding milk in shed yields +$19.20 to +$44.80 HIGHER final score than selling early!"
+  },
+  "verdict": "INVALID_MECHANISM",
+  "verdict_rationale": "In kaggle_environments v1.32.6, terminal shed inventory is credited at 100% of the final market spot price with zero transaction cost and zero slippage. Forcing a market sell order at Step 715/718 incurs order-book slippage and volume impact, yielding a lower net final score than letting the unconsumed milk convert automatically in shed inventory at Step 720. The supposed 'unliquidated revenue' was an accounting misconception: unliquidated milk is already 100% credited at maximum possible valuation."
+}

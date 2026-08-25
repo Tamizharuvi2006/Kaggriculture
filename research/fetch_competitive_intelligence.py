@@ -20,7 +20,7 @@ TARGET_DIR = os.path.join(BASE_DIR, "competitive_intelligence")
 os.makedirs(TARGET_DIR, exist_ok=True)
 
 def fetch_top_replays(max_files_per_day: int = 5):
-    manifest_path = os.path.join(BASE_DIR, "manifest.csv")
+    manifest_path = os.path.join(BASE_DIR, "data", "replay", "manifest.csv")
     if not os.path.exists(manifest_path):
         print(f"Error: {manifest_path} not found.")
         return

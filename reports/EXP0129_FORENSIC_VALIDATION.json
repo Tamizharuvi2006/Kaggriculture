@@ -1,0 +1,86 @@
+{
+  "id": "EXP0129-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-15T19:35:00Z",
+  "target_hypothesis": "EXP-0129 (DYNAMIC_SLIPPAGE_AWARE_BATCHING)",
+  "variable_family": "Market_Execution",
+  "observability_audit": {
+    "own_inventory_path": "obs['private']['shed'] (100% Legal)",
+    "market_price_path": "obs['market']['prices'] (100% Public)",
+    "status": "PASS_LEGAL"
+  },
+  "slippage_curve": [
+    {
+      "volume": 2,
+      "slippage_pct": 0.84,
+      "clearing_price": 138.82,
+      "total_revenue": 277.65,
+      "effective_price_per_unit": 138.82
+    },
+    {
+      "volume": 4,
+      "slippage_pct": 1.41,
+      "clearing_price": 138.02,
+      "total_revenue": 552.08,
+      "effective_price_per_unit": 138.02
+    },
+    {
+      "volume": 6,
+      "slippage_pct": 1.92,
+      "clearing_price": 137.32,
+      "total_revenue": 823.9,
+      "effective_price_per_unit": 137.32
+    },
+    {
+      "volume": 8,
+      "slippage_pct": 2.38,
+      "clearing_price": 136.67,
+      "total_revenue": 1093.36,
+      "effective_price_per_unit": 136.67
+    },
+    {
+      "volume": 10,
+      "slippage_pct": 2.81,
+      "clearing_price": 136.06,
+      "total_revenue": 1360.64,
+      "effective_price_per_unit": 136.06
+    },
+    {
+      "volume": 12,
+      "slippage_pct": 3.22,
+      "clearing_price": 135.49,
+      "total_revenue": 1625.84,
+      "effective_price_per_unit": 135.49
+    },
+    {
+      "volume": 16,
+      "slippage_pct": 4.0,
+      "clearing_price": 134.4,
+      "total_revenue": 2150.4,
+      "effective_price_per_unit": 134.4
+    },
+    {
+      "volume": 20,
+      "slippage_pct": 4.73,
+      "clearing_price": 133.38,
+      "total_revenue": 2667.6,
+      "effective_price_per_unit": 133.38
+    }
+  ],
+  "mathematical_gains": {
+    "dump_8_vs_4_plus_4": "+$4.96 (+0.45%)",
+    "dump_12_vs_4x3": "+$22.80 (+1.38%)",
+    "dump_16_vs_4x4": "+$58.08 (+2.70%)"
+  },
+  "historical_match_frequency": {
+    "large_batches_ge_8_per_match": 16.2,
+    "large_batches_ge_12_per_match": 8.4,
+    "estimated_direct_cash_gain": 380.0,
+    "estimated_compounded_mcv_lift": 1450.0
+  },
+  "risk_factors": {
+    "price_drop_risk": "Mitigated by momentum gating: only split when v_straw >= 0.0 or price >= $125",
+    "end_of_game_clearance": "Exempt steps >= 700 from splitting (force 100% liquidation)"
+  },
+  "forensic_verdict": "VALID_FOR_PREREGISTRATION",
+  "verdict_rationale": "Slippage-aware batch splitting is mathematically sound, 100% legally observable, and directly addresses the power-law execution penalty (V^0.75) on large mid/late-game harvest dumps without changing high-level crop or land strategy."
+}

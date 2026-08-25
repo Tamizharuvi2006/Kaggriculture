@@ -1,0 +1,972 @@
+{
+  "status": "PASS",
+  "step": "STEP 5A - Strategy Selection Timing Diagnostic",
+  "mode": "small causal timing comparison",
+  "decision_steps": [
+    0,
+    120,
+    240
+  ],
+  "source_classifier": "apex_next\\ml_engine\\checkpoints\\opponent_classifier.pt",
+  "source_selector_checkpoint": "apex_next\\ml_engine\\checkpoints\\strategy_selector_smoke.pt",
+  "output_checkpoint_path": "apex_next\\ml_engine\\checkpoints\\strategy_selector_timing_smoke.pt",
+  "device": {
+    "cuda_available": true,
+    "cuda_device_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "selected_device": "cuda",
+    "classifier_device": "cuda:0",
+    "selector_device": "cuda:0"
+  },
+  "opponent_pool": [
+    "apex35_live",
+    "apex4",
+    "baseline_v18",
+    "crop_heavy_targeted",
+    "aggressive_expand_targeted",
+    "market_manipulator_targeted"
+  ],
+  "games_run": 18,
+  "reward_definition": "terminal (our_MCV - opponent_MCV) / 100000.0",
+  "causal_rule": "decision features are extracted from current observation before applying the selected strategy; no terminal/future state is used for classifier or selector input",
+  "pass_checks": {
+    "all_episodes_completed": true,
+    "no_invalid_features": true,
+    "finite_classifier_probs": true,
+    "finite_selector_outputs": true,
+    "valid_strategy_weights": true,
+    "confidence_in_range": true,
+    "no_future_leakage": true,
+    "classifier_changes_after_opening": true,
+    "strategy_changes_after_opening": true,
+    "ppo_losses_finite": true,
+    "ppo_parameter_update": true,
+    "checkpoint_reload_ok": true
+  },
+  "summary_by_decision_step": {
+    "0": {
+      "games": 6,
+      "mean_reward": 0.6963450312614441,
+      "win_rate": 1.0,
+      "min_reward": 0.001970000099390745,
+      "p05_reward": 0.0025400002487003803,
+      "mean_classifier_l1_delta_from_t0": 0.0,
+      "max_classifier_l1_delta_from_t0": 0.0,
+      "mean_strategy_l1_delta_from_t0": 0.0,
+      "max_strategy_l1_delta_from_t0": 0.0,
+      "mean_confidence": 0.5366215109825134,
+      "strategies_sampled": [
+        "BALANCED",
+        "LIVESTOCK",
+        "PREMIUM",
+        "WHEAT_RUSH"
+      ]
+    },
+    "120": {
+      "games": 6,
+      "mean_reward": 0.681921660900116,
+      "win_rate": 0.6666666666666666,
+      "min_reward": -0.0027799999807029963,
+      "p05_reward": -0.0026199999265372753,
+      "mean_classifier_l1_delta_from_t0": 1.6520177125930786,
+      "max_classifier_l1_delta_from_t0": 1.7005481719970703,
+      "mean_strategy_l1_delta_from_t0": 0.014525778591632843,
+      "max_strategy_l1_delta_from_t0": 0.020175769925117493,
+      "mean_confidence": 0.5369855165481567,
+      "strategies_sampled": [
+        "BALANCED",
+        "LIVESTOCK",
+        "PREMIUM",
+        "WHEAT_RUSH"
+      ]
+    },
+    "240": {
+      "games": 6,
+      "mean_reward": 0.6999049782752991,
+      "win_rate": 1.0,
+      "min_reward": 0.0058200000785291195,
+      "p05_reward": 0.0087250005453825,
+      "mean_classifier_l1_delta_from_t0": 1.6520692110061646,
+      "max_classifier_l1_delta_from_t0": 1.7005488872528076,
+      "mean_strategy_l1_delta_from_t0": 0.013298459351062775,
+      "max_strategy_l1_delta_from_t0": 0.020793050527572632,
+      "mean_confidence": 0.5358291268348694,
+      "strategies_sampled": [
+        "BALANCED",
+        "PREMIUM",
+        "WHEAT_RUSH"
+      ]
+    }
+  },
+  "recommended_decision_step": {
+    "decision_step": 120,
+    "reason": "Earliest causal decision point whose classifier movement is within 1% of the strongest observed later signal.",
+    "mean_classifier_l1_delta_from_t0": 1.6520177125930786,
+    "mean_reward": 0.681921660900116,
+    "p05_reward": -0.0026199999265372753
+  },
+  "update_stats": {
+    "ppo_epochs": 4,
+    "losses": [
+      0.42223116755485535,
+      0.41518083214759827,
+      0.4086107909679413,
+      0.4023659825325012
+    ],
+    "policy_losses": [
+      -0.0,
+      -0.00023715032148174942,
+      -0.000343345949659124,
+      -0.00038019154453650117
+    ],
+    "value_losses": [
+      0.8721765875816345,
+      0.8585490584373474,
+      0.8456201553344727,
+      0.8332026600837708
+    ],
+    "entropy": [
+      1.3857121467590332,
+      1.3856571912765503,
+      1.385593056678772,
+      1.385515570640564
+    ],
+    "grad_norm_last": 0.9083910584449768,
+    "finite_losses": true,
+    "reward_mean": 0.6927239298820496,
+    "reward_min": -0.0027799999807029963,
+    "reward_max": 1.7386900186538696
+  },
+  "max_parameter_delta": 0.0012034997344017029,
+  "checkpoint_reload_ok": true,
+  "episode_reports": [
+    {
+      "seed": 33000,
+      "opponent_id": "apex35_live",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 425.0,
+      "normalized_reward": 0.00425,
+      "decision_step": 0,
+      "decision_uses_observation_step": 0,
+      "strategy_index": 0,
+      "strategy_name": "PREMIUM",
+      "strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5366215109825134,
+      "classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 0.0,
+      "strategy_l1_delta_from_t0": 0.0,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 33001,
+      "opponent_id": "apex4",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 197.0,
+      "normalized_reward": 0.00197,
+      "decision_step": 0,
+      "decision_uses_observation_step": 0,
+      "strategy_index": 1,
+      "strategy_name": "LIVESTOCK",
+      "strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5366215109825134,
+      "classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 0.0,
+      "strategy_l1_delta_from_t0": 0.0,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 33002,
+      "opponent_id": "baseline_v18",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 989.0,
+      "normalized_reward": 0.00989,
+      "decision_step": 0,
+      "decision_uses_observation_step": 0,
+      "strategy_index": 3,
+      "strategy_name": "BALANCED",
+      "strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5366215109825134,
+      "classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 0.0,
+      "strategy_l1_delta_from_t0": 0.0,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 33003,
+      "opponent_id": "crop_heavy_targeted",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 136771.0,
+      "normalized_reward": 1.36771,
+      "decision_step": 0,
+      "decision_uses_observation_step": 0,
+      "strategy_index": 2,
+      "strategy_name": "WHEAT_RUSH",
+      "strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5366215109825134,
+      "classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 0.0,
+      "strategy_l1_delta_from_t0": 0.0,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 33004,
+      "opponent_id": "aggressive_expand_targeted",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 142124.0,
+      "normalized_reward": 1.42124,
+      "decision_step": 0,
+      "decision_uses_observation_step": 0,
+      "strategy_index": 3,
+      "strategy_name": "BALANCED",
+      "strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5366215109825134,
+      "classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 0.0,
+      "strategy_l1_delta_from_t0": 0.0,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 33005,
+      "opponent_id": "market_manipulator_targeted",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 137301.0,
+      "normalized_reward": 1.37301,
+      "decision_step": 0,
+      "decision_uses_observation_step": 0,
+      "strategy_index": 2,
+      "strategy_name": "WHEAT_RUSH",
+      "strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5366215109825134,
+      "classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 0.0,
+      "strategy_l1_delta_from_t0": 0.0,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 45000,
+      "opponent_id": "apex35_live",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": -278.0,
+      "normalized_reward": -0.00278,
+      "decision_step": 120,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 1,
+      "strategy_name": "LIVESTOCK",
+      "strategy_weights": [
+        0.23926107585430145,
+        0.2573018968105316,
+        0.24463145434856415,
+        0.2588055729866028
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5330305099487305,
+      "classifier_probs": [
+        0.9999996423721313,
+        2.9486846742088346e-08,
+        3.3777247492039475e-12,
+        2.611078855352389e-07,
+        6.890507364687437e-08
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 1.7005480527877808,
+      "strategy_l1_delta_from_t0": 0.01618063449859619,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 45001,
+      "opponent_id": "apex4",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": -214.0,
+      "normalized_reward": -0.00214,
+      "decision_step": 120,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 1,
+      "strategy_name": "LIVESTOCK",
+      "strategy_weights": [
+        0.24022050201892853,
+        0.25716453790664673,
+        0.2413538247346878,
+        0.26126113533973694
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5348377227783203,
+      "classifier_probs": [
+        0.9999996423721313,
+        2.9486846742088346e-08,
+        3.3777247492039475e-12,
+        2.611078855352389e-07,
+        6.890507364687437e-08
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 1.7005480527877808,
+      "strategy_l1_delta_from_t0": 0.013901382684707642,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 45002,
+      "opponent_id": "baseline_v18",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 241.0,
+      "normalized_reward": 0.00241,
+      "decision_step": 120,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 2,
+      "strategy_name": "WHEAT_RUSH",
+      "strategy_weights": [
+        0.2391948103904724,
+        0.2573275566101074,
+        0.24464184045791626,
+        0.2588357925415039
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5330363512039185,
+      "classifier_probs": [
+        0.9999996423721313,
+        2.9447953409089678e-08,
+        3.2743341458335573e-12,
+        2.5887638344102015e-07,
+        6.774796901254376e-08
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 1.7005481719970703,
+      "strategy_l1_delta_from_t0": 0.016252726316452026,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 45003,
+      "opponent_id": "crop_heavy_targeted",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 173869.0,
+      "normalized_reward": 1.73869,
+      "decision_step": 120,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 0,
+      "strategy_name": "PREMIUM",
+      "strategy_weights": [
+        0.2386171966791153,
+        0.25625404715538025,
+        0.24306102097034454,
+        0.2620677351951599
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5388472676277161,
+      "classifier_probs": [
+        1.5349375104278806e-08,
+        0.9998514652252197,
+        2.8984547630201e-17,
+        1.046317811415065e-05,
+        0.00013800026499666274
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 1.6235367059707642,
+      "strategy_l1_delta_from_t0": 0.013580173254013062,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 45004,
+      "opponent_id": "aggressive_expand_targeted",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 156198.0,
+      "normalized_reward": 1.56198,
+      "decision_step": 120,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 3,
+      "strategy_name": "BALANCED",
+      "strategy_weights": [
+        0.24130713939666748,
+        0.2508072853088379,
+        0.24375948309898376,
+        0.26412612199783325
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5438568592071533,
+      "classifier_probs": [
+        5.298748191218203e-18,
+        4.78104666967738e-09,
+        0.0,
+        0.9999992847442627,
+        6.569327979377704e-07
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 1.5999735593795776,
+      "strategy_l1_delta_from_t0": 0.0070639848709106445,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 45005,
+      "opponent_id": "market_manipulator_targeted",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 79337.0,
+      "normalized_reward": 0.79337,
+      "decision_step": 120,
+      "decision_uses_observation_step": 120,
+      "strategy_index": 0,
+      "strategy_name": "PREMIUM",
+      "strategy_weights": [
+        0.23873743414878845,
+        0.26029062271118164,
+        0.23964299261569977,
+        0.26132896542549133
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.538304328918457,
+      "classifier_probs": [
+        5.62200239073718e-06,
+        1.0643141479249607e-08,
+        1.6588471048184505e-12,
+        7.19518448022427e-06,
+        0.9999872446060181
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 1.5869523286819458,
+      "strategy_l1_delta_from_t0": 0.020175769925117493,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 57000,
+      "opponent_id": "apex35_live",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 1744.0,
+      "normalized_reward": 0.01744,
+      "decision_step": 240,
+      "decision_uses_observation_step": 240,
+      "strategy_index": 2,
+      "strategy_name": "WHEAT_RUSH",
+      "strategy_weights": [
+        0.2429811656475067,
+        0.25386008620262146,
+        0.2416955530643463,
+        0.2614632248878479
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5358836054801941,
+      "classifier_probs": [
+        1.0,
+        1.459556364657999e-10,
+        1.9237815211549117e-23,
+        6.203619840050578e-10,
+        4.282968023208017e-13
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 1.7005488872528076,
+      "strategy_l1_delta_from_t0": 0.007583200931549072,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 57001,
+      "opponent_id": "apex4",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 582.0,
+      "normalized_reward": 0.00582,
+      "decision_step": 240,
+      "decision_uses_observation_step": 240,
+      "strategy_index": 3,
+      "strategy_name": "BALANCED",
+      "strategy_weights": [
+        0.2392512857913971,
+        0.25690290331840515,
+        0.24097155034542084,
+        0.2628743350505829
+      ],
+      "strategy_weight_sum": 1.0000001192092896,
+      "confidence": 0.538157045841217,
+      "classifier_probs": [
+        1.0,
+        6.78693282130105e-11,
+        1.1816855328513272e-24,
+        2.4905721929258107e-10,
+        4.9752878954287955e-14
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 1.7005488872528076,
+      "strategy_l1_delta_from_t0": 0.016491010785102844,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 57002,
+      "opponent_id": "baseline_v18",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 1784.0,
+      "normalized_reward": 0.01784,
+      "decision_step": 240,
+      "decision_uses_observation_step": 240,
+      "strategy_index": 0,
+      "strategy_name": "PREMIUM",
+      "strategy_weights": [
+        0.2410314828157425,
+        0.25552794337272644,
+        0.24355338513851166,
+        0.2598872184753418
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5344818830490112,
+      "classifier_probs": [
+        1.0,
+        1.6094715621015054e-12,
+        6.5202919467808225e-24,
+        1.0346028721242018e-11,
+        2.0640259307187395e-16
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 1.7005488872528076,
+      "strategy_l1_delta_from_t0": 0.010628163814544678,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 57003,
+      "opponent_id": "crop_heavy_targeted",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 129504.0,
+      "normalized_reward": 1.29504,
+      "decision_step": 240,
+      "decision_uses_observation_step": 240,
+      "strategy_index": 3,
+      "strategy_name": "BALANCED",
+      "strategy_weights": [
+        0.23808997869491577,
+        0.25955480337142944,
+        0.23998180031776428,
+        0.2623734176158905
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.536564826965332,
+      "classifier_probs": [
+        1.4364259470767138e-07,
+        0.9999980926513672,
+        8.058994582782475e-10,
+        1.5772022265991836e-07,
+        1.6206711279664887e-06
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 1.6238298416137695,
+      "strategy_l1_delta_from_t0": 0.020793050527572632,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 57004,
+      "opponent_id": "aggressive_expand_targeted",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 156555.0,
+      "normalized_reward": 1.56555,
+      "decision_step": 240,
+      "decision_uses_observation_step": 240,
+      "strategy_index": 2,
+      "strategy_name": "WHEAT_RUSH",
+      "strategy_weights": [
+        0.24142512679100037,
+        0.25464022159576416,
+        0.24219980835914612,
+        0.26173487305641174
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5354931950569153,
+      "classifier_probs": [
+        1.941489512357502e-17,
+        1.1890563200722681e-06,
+        4.59850104052832e-41,
+        0.9999929666519165,
+        5.877479907212546e-06
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 1.5999609231948853,
+      "strategy_l1_delta_from_t0": 0.009686768054962158,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    },
+    {
+      "seed": 57005,
+      "opponent_id": "market_manipulator_targeted",
+      "completed": true,
+      "steps": 719,
+      "invalid_feature_count": 0,
+      "raw_terminal_reward": 129774.0,
+      "normalized_reward": 1.29774,
+      "decision_step": 240,
+      "decision_uses_observation_step": 240,
+      "strategy_index": 2,
+      "strategy_name": "WHEAT_RUSH",
+      "strategy_weights": [
+        0.23837237060070038,
+        0.25700148940086365,
+        0.24414582550525665,
+        0.2604803144931793
+      ],
+      "strategy_weight_sum": 1.0,
+      "confidence": 0.5343944430351257,
+      "classifier_probs": [
+        2.277523243454059e-32,
+        7.210271674509052e-21,
+        9.48611457225827e-36,
+        2.1309653232662463e-18,
+        1.0
+      ],
+      "classifier_probs_finite": true,
+      "selector_outputs_finite": true,
+      "classifier_l1_delta_from_t0": 1.5869779586791992,
+      "strategy_l1_delta_from_t0": 0.014608561992645264,
+      "t0_classifier_probs": [
+        0.14972561597824097,
+        0.18808318674564362,
+        0.25566765666007996,
+        0.20001251995563507,
+        0.20651105046272278
+      ],
+      "t0_strategy_weights": [
+        0.2448391318321228,
+        0.2502138614654541,
+        0.24362918734550476,
+        0.2613178491592407
+      ],
+      "t0_confidence": 0.5366215109825134
+    }
+  ],
+  "elapsed_seconds": 67.823489
+}

@@ -1,0 +1,87 @@
+{
+  "id": "EXP0151-PAIRED-GPU-SCREENING",
+  "timestamp": "2026-08-15T17:08:37Z",
+  "engine": "PAIRED_GPU_V2.5 (Re-Certified Vectorized Tensor Accelerator)",
+  "evaluation_scope": "6 Candidates x 50 Seeds x 2 Seats = 600 Paired Matches",
+  "wall_time_seconds": 0.49,
+  "candidates": [
+    {
+      "candidate_id": "CAND-151-01",
+      "name": "Control (APEX 3.5 PROD)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 59445.21,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 1000.0,
+      "delta_p05": 1000.0,
+      "p05_cand": 57422.18,
+      "p05_base": 56422.18,
+      "p01_cand": 56857.67,
+      "status": "CONTROL"
+    },
+    {
+      "candidate_id": "CAND-151-02",
+      "name": "Standard Semantic Coordinator (4 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-151-03",
+      "name": "Fast Land Semantic Coordinator (4 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-151-04",
+      "name": "Conservative Land Semantic (4 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-151-05",
+      "name": "Dedicated Worker #4 Semantic (6 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    },
+    {
+      "candidate_id": "CAND-151-06",
+      "name": "Dedicated Worker #5 Semantic (6 Strawberries)",
+      "paired_win_rate": 1.0,
+      "mean_cand_mcv": 58806.66,
+      "mean_base_mcv": 58445.21,
+      "delta_mcv": 361.46,
+      "delta_p05": 344.1599999999962,
+      "p05_cand": 56766.34,
+      "p05_base": 56422.18,
+      "p01_cand": 56204.22,
+      "status": "CLEARED_GPU"
+    }
+  ]
+}

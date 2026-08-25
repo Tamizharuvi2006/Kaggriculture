@@ -1,0 +1,12 @@
+{
+  "id": "EXP0121-DECISION",
+  "timestamp": "2026-08-14T16:27:12Z",
+  "screening_verdict": "CANDIDATE_ISOLATED_FOR_OFFICIAL_GATE1",
+  "selected_candidate_id": "CAND-121-02",
+  "selected_candidate_params": {
+    "min_step": 120,
+    "cash_threshold": 1100,
+    "safety_buffer": 100
+  },
+  "official_evaluation_status": "READY_FOR_GATE_1_EXACT_REPLAY"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "SPATIAL-POLICY-5-DECISION",
+  "timestamp": "2026-08-15T17:22:25Z",
+  "experiment_id": "SPATIAL_POLICY-5",
+  "screening_verdict": "CLEARED_GPU",
+  "top_candidate": "CAND-153-02",
+  "top_paired_wr": 1.0,
+  "top_delta_mcv": 4296.84,
+  "gate1_qualified": true
+}

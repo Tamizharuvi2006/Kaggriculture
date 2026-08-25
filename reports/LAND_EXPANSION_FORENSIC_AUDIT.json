@@ -1,0 +1,121 @@
+{
+  "id": "LAND-EXPANSION-FORENSIC-AUDIT",
+  "timestamp": "2026-08-14T21:42:00Z",
+  "baseline_version": "APEX-3.5-PROD",
+  "agent_comparisons": {
+    "V4.1 Master": {
+      "land2_trigger": "Step >= 170 & Cash >= 1000",
+      "mean_land2_step": 170.0,
+      "mean_land3_step": 261.0,
+      "cash_at_step_120": 450.0,
+      "crop_cycles_captured": 10,
+      "win_rate_vs_field": "62.4%",
+      "notes": "Fixed step gate; rigid pacing."
+    },
+    "V18 Heuristic": {
+      "land2_trigger": "Step >= 144 & Cash >= 1000",
+      "mean_land2_step": 146.2,
+      "mean_land3_step": 240.0,
+      "cash_at_step_120": 720.0,
+      "crop_cycles_captured": 11,
+      "win_rate_vs_field": "65.1%",
+      "notes": "Earlier trigger captured +1 crop cycle on 4 tiles."
+    },
+    "L+": {
+      "land2_trigger": "Step >= 170 & Cash >= 1000",
+      "mean_land2_step": 170.0,
+      "mean_land3_step": 261.0,
+      "cash_at_step_120": 460.0,
+      "crop_cycles_captured": 10,
+      "win_rate_vs_field": "60.2%",
+      "notes": "Standard step gate."
+    },
+    "L++": {
+      "land2_trigger": "Step >= 170 & Cash >= 1000",
+      "mean_land2_step": 170.0,
+      "mean_land3_step": 261.0,
+      "cash_at_step_120": 470.0,
+      "crop_cycles_captured": 10,
+      "win_rate_vs_field": "60.8%",
+      "notes": "Standard step gate."
+    },
+    "APEX 3.5 (PROD)": {
+      "land2_trigger": "Step >= 170 (Day 7 hour 2) & Cash >= 1000",
+      "mean_land2_step": 170.0,
+      "mean_land3_step": 261.0,
+      "cash_at_step_120": 580.0,
+      "crop_cycles_captured": 10,
+      "win_rate_vs_field": "68.2%",
+      "notes": "Target baseline; waits for Step 170 even when cash >= $1,000 at Step 130."
+    },
+    "APEX 3.6 (Archived)": {
+      "land2_trigger": "Step >= 170 & Cash >= 1000",
+      "mean_land2_step": 170.0,
+      "mean_land3_step": 261.0,
+      "cash_at_step_120": 520.0,
+      "crop_cycles_captured": 10,
+      "win_rate_vs_field": "61.0%",
+      "notes": "Preemptive timing caused cash starvation, delaying Land 2 on some seeds."
+    },
+    "Elite Winners (>1400)": {
+      "land2_trigger": "Cash >= 1100 (Dynamic Threshold, min step 120)",
+      "mean_land2_step": 134.5,
+      "mean_land3_step": 222.0,
+      "cash_at_step_120": 1150.0,
+      "crop_cycles_captured": 11.5,
+      "win_rate_vs_field": "74.8%",
+      "notes": "Dynamic unlock as soon as liquid reserve permits."
+    }
+  },
+  "causal_disentanglement": {
+    "is_causal": true,
+    "causal_condition": "Cash >= $1,100 (Preserves $100 safety buffer for daily wages)",
+    "idle_cash_latency_in_apex35": "35.5 Steps average idle waiting time on high-cash seeds",
+    "counterfactual_economic_lift": "+$2,560.00 MCV on seeds with early cash accumulation",
+    "risk_if_unconditional": "HIGH (If forced before cash reaches $1,100, causes worker wage insolvency)"
+  },
+  "bounded_candidate_grid": [
+    {
+      "id": "CAND-121-01",
+      "land2_min_step": 170,
+      "cash_threshold": 1000,
+      "buffer": 0,
+      "desc": "Fixed Step 170 (APEX 3.5 Baseline)"
+    },
+    {
+      "id": "CAND-121-02",
+      "land2_min_step": 120,
+      "cash_threshold": 1100,
+      "buffer": 100,
+      "desc": "Dynamic Unlock @ Cash >= $1,100 (Min Step 120)"
+    },
+    {
+      "id": "CAND-121-03",
+      "land2_min_step": 120,
+      "cash_threshold": 1200,
+      "buffer": 200,
+      "desc": "Dynamic Unlock @ Cash >= $1,200 (Min Step 120)"
+    },
+    {
+      "id": "CAND-121-04",
+      "land2_min_step": 130,
+      "cash_threshold": 1100,
+      "buffer": 100,
+      "desc": "Dynamic Unlock @ Cash >= $1,100 (Min Step 130)"
+    },
+    {
+      "id": "CAND-121-05",
+      "land2_min_step": 140,
+      "cash_threshold": 1100,
+      "buffer": 100,
+      "desc": "Dynamic Unlock @ Cash >= $1,100 (Min Step 140)"
+    },
+    {
+      "id": "CAND-121-06",
+      "land2_min_step": 144,
+      "cash_threshold": 1000,
+      "buffer": 0,
+      "desc": "Fixed Step 144 (V18 Heuristic Schedule)"
+    }
+  ]
+}

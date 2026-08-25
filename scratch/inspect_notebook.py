@@ -9,7 +9,7 @@ import sys
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-NOTEBOOK_PATH = r"D:\kagriulture\Kaggriculture\what-actually-wins-on-the-kaggriculture-ladder.ipynb"
+NOTEBOOK_PATH = r"D:\Kaggriculture\data\notebooks\what-actually-wins-on-the-kaggriculture-ladder.ipynb"
 
 def main():
     if not os.path.exists(NOTEBOOK_PATH):

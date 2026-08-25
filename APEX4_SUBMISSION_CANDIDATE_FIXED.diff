@@ -1,0 +1,15 @@
+--- APEX4_SUBMISSION_FINAL.py (sealed, unchanged)
++++ APEX4_SUBMISSION_CANDIDATE_FIXED.py (new)
+@@ mechanical artifact change @@
+- Preserve the sealed source through line 4514.
+- Remove the sealed source block beginning at line 4515:
+  `# APEX 3.5 MONOLITHIC STANDALONE TOURNAMENT ENGINE`
+  through the end of the file, including its later top-level `def agent(...)`.
+- Append exactly:
+
++# APEX 4.0 standalone export. The sealed source's later APEX 3.5 override is excluded.
++def agent(obs, configuration=None):
++    """Kaggle entry point for the intended APEX 4.0 closed-loop policy."""
++    return _base_agent(obs)
+
+Result: old 4,634 lines / 319,050 bytes; new 4,518 lines / 312,777 bytes.

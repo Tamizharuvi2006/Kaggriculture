@@ -1,0 +1,61 @@
+{
+  "status": "DESIGN_ONLY",
+  "authorization": {
+    "game_runs": false,
+    "model_training": false,
+    "production_integration": false
+  },
+  "atomic_unit": "matched decision set from one canonical serialized state with two or more legal action branches",
+  "required_identity": [
+    "canonical_state_hash",
+    "serialized_state_snapshot",
+    "engine_version",
+    "episode_seed",
+    "rng_state_or_replay_token",
+    "match_id",
+    "lineage_id",
+    "seat",
+    "decision_step"
+  ],
+  "required_branch_fields": [
+    "legal_action_set",
+    "submitted_action",
+    "action_hash",
+    "execution_status",
+    "executed_quantity",
+    "executed_price",
+    "queue_position",
+    "cash_before",
+    "cash_after",
+    "inventory_before",
+    "inventory_after",
+    "market_before",
+    "market_after",
+    "outcome_24_steps",
+    "outcome_120_steps",
+    "terminal_outcome"
+  ],
+  "required_controls": [
+    "same_immutable_parent_state",
+    "controlled_rng",
+    "non_intervention_actions_preserved",
+    "first_divergence_verified",
+    "replay_parity_verified"
+  ],
+  "split_rule": "partition by complete match or episode lineage; never split branches from one parent state",
+  "coverage_dimensions": ["seed", "seat", "opponent_regime", "product", "decision_horizon", "action_pair"],
+  "acceptance_gate": [
+    "same_state_branch_identity_verified",
+    "at_least_two_legal_actions",
+    "execution_outcome_captured",
+    "24_step_outcome_captured",
+    "120_step_outcome_captured",
+    "market_acceptance_rejection_queue_captured_when_applicable",
+    "seed_coverage",
+    "seat_coverage",
+    "opponent_regime_coverage",
+    "no_cross_lineage_leakage",
+    "replay_parity_audit_pass"
+  ],
+  "unlock_condition": "No policy-training or L+ integration until the collector validation sample passes every acceptance check."
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "rank": 1,
+    "hypothesis_id": "EXP-0122",
+    "name": "OPPONENT_INVENTORY_FRONT_RUNNING",
+    "variable_family": "Market_Reflexivity",
+    "mechanism": "Inspect opponent shed inventory via public observation; if opponent accumulates >= 8 milk or >= 6 strawberries on trade boundary steps (e.g. Step 22 / 46 / 70), trigger pre-emptive liquidation 1 step ahead of opponent batch dump to secure peak price before market crash.",
+    "evidence_strength": 0.88,
+    "causal_confidence": 0.85,
+    "expected_impact": "+$3,200.00 MCV",
+    "fixability": 0.9,
+    "prior_falsifications": 0,
+    "composite_score": 1.72,
+    "status": "RECOMMENDED_FOR_PRE_REGISTRATION"
+  },
+  {
+    "rank": 2,
+    "hypothesis_id": "EXP-0123",
+    "name": "TOWN_SHOP_FEED_PREEMPTION",
+    "variable_family": "Resource_Denial",
+    "mechanism": "Pre-emptively purchase town shop wheat inventory on Days 4-6 when liquid cash >= $1,400 to secure feed and starve opponent livestock growth.",
+    "evidence_strength": 0.72,
+    "causal_confidence": 0.7,
+    "expected_impact": "+$1,800.00 MCV",
+    "fixability": 0.75,
+    "prior_falsifications": 0,
+    "composite_score": 1.28,
+    "status": "BACKLOG"
+  },
+  {
+    "rank": 3,
+    "hypothesis_id": "EXP-0124",
+    "name": "SOLVENCY_GATED_LAND_EXPANSION",
+    "variable_family": "Capital_Deployment",
+    "mechanism": "Expand Land 2 dynamically only when cash >= $1,600 (guaranteeing $600 operating reserve for immediate 4x strawberry planting + fertilizer + wages).",
+    "evidence_strength": 0.65,
+    "causal_confidence": 0.6,
+    "expected_impact": "+$1,400.00 MCV",
+    "fixability": 0.85,
+    "prior_falsifications": 1,
+    "composite_score": 0.95,
+    "status": "BACKLOG"
+  }
+]

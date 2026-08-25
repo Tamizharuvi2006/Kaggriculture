@@ -1,0 +1,21 @@
+{
+  "id": "EXP0130-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-15T14:21:41Z",
+  "target_hypothesis": "EXP-0130 (LATE_GAME_SEED_WASTE_CUTOFF)",
+  "variable_family": "Capital_Preservation",
+  "baseline_investigation": {
+    "last_strawberry_seed_purchase_step": 335,
+    "last_crop_seed_purchase_step": 383,
+    "strawberry_seed_purchases_post_624": 0,
+    "strawberry_seed_purchases_post_672": 0,
+    "total_seed_expenditure_post_672": 0.0,
+    "post_672_market_actions": "Exclusively BUY_PRODUCT WHEAT for deterministic 6-hour cow feed"
+  },
+  "economic_reality": {
+    "theoretical_max_loss": 1320.0,
+    "actual_baseline_loss": 0.0,
+    "cow_feed_roi": "Positive (1 Wheat @ $15 -> 1 Milk @ $160 every 6 hours)"
+  },
+  "verdict": "INVALID_MECHANISM",
+  "verdict_rationale": "Comprehensive schedule decoding of APEX 3.5 PROD revealed that the baseline permanently halts all crop seed purchases at Step 383 (Day 15.9), a full 289 steps prior to the theoretical Step 672 cutoff. Total seed expenditure in steps 624-720 is exactly $0.00. The post-672 market activity consists strictly of wheat feed for milk production (which yields a net positive return of ~$145/cow per 6h). As a result, the proposed $1,320 seed cutoff delivers exactly $0.00 realized gain against the baseline. In accordance with research rules, EXP-0130 is marked INVALID_MECHANISM."
+}

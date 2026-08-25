@@ -1,0 +1,144 @@
+[
+ {
+  "seed": 34083081,
+  "base_mcv": 25343.0,
+  "cand_mcv": 76976.0,
+  "win_points": 2.0,
+  "base_mcvs": [
+   24890.0,
+   25796.0
+  ],
+  "cand_mcvs": [
+   76180.0,
+   77772.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": -128,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9444
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9487
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 73332701,
+  "base_mcv": 30607.0,
+  "cand_mcv": 79969.5,
+  "win_points": 2.0,
+  "base_mcvs": [
+   30587.0,
+   30627.0
+  ],
+  "cand_mcvs": [
+   79975.0,
+   79964.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": -128,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "MELON",
+    "min_drift3": -0.9474
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 75257684,
+  "base_mcv": 31489.5,
+  "cand_mcv": 94547.5,
+  "win_points": 2.0,
+  "base_mcvs": [
+   31421.0,
+   31558.0
+  ],
+  "cand_mcvs": [
+   95044.0,
+   94051.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": -130,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9444
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9474
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 77437608,
+  "base_mcv": 13410.0,
+  "cand_mcv": 76025.0,
+  "win_points": 2.0,
+  "base_mcvs": [
+   8970.0,
+   17850.0
+  ],
+  "cand_mcvs": [
+   68237.0,
+   83813.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": -130,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9189
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9474
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 139146181,
+  "base_mcv": 30475.5,
+  "cand_mcv": 84744.5,
+  "win_points": 2.0,
+  "base_mcvs": [
+   30545.0,
+   30406.0
+  ],
+  "cand_mcvs": [
+   84855.0,
+   84634.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": -128,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "MELON",
+    "min_drift3": -0.9474
+   }
+  ],
+  "error": null
+ }
+]

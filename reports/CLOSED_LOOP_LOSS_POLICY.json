@@ -1,0 +1,18 @@
+{
+  "id": "CLOSED-LOOP-LOSS-POLICY",
+  "timestamp": "2026-08-15T17:21:29Z",
+  "target_loss_clusters": {
+    "CLUSTER_1_EARLY_LAND_GAP": {
+      "rule": "IF step == 75 AND shed['MELON'] >= 6 -> SELL MELON 6 + BUY STRAWBERRY 6 -> BUY_LAND @ 152.",
+      "allocation": "Allocate unreserved Hand >= 4 to SW quadrant with protected Pasture 2."
+    },
+    "CLUSTER_2_BACKPACK_LATENCY": {
+      "rule": "IF hour == 22 AND worker_carrying >= 2 -> ROUTE_TO_SHED_AND_DROP.",
+      "allocation": "Liquidates ripe inventory at Hour 23 price peak."
+    },
+    "CLUSTER_3_CRASH_MARKET": {
+      "rule": "IF step >= 672 AND shed['WHEAT'] >= 12 -> HALT_TOWN_WHEAT_PURCHASES.",
+      "allocation": "Conserves cash by consuming reserve feed."
+    }
+  }
+}

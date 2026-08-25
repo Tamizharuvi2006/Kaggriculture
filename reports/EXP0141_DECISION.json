@@ -1,0 +1,11 @@
+{
+  "id": "EXP0141-DECISION",
+  "timestamp": "2026-08-15T15:57:41Z",
+  "experiment_id": "EXP-0141",
+  "screening_verdict": "FALSIFIED_GPU",
+  "top_candidate": "CAND-141-04",
+  "top_paired_wr": 0.5,
+  "top_delta_mcv": 0.0,
+  "gate1_qualified": false,
+  "rationale": "In symmetric self-play paired screening, neither player triggers asymmetric rotation evidence, resulting in exact 50.0% WR vs control."
+}

@@ -1,0 +1,153 @@
+{
+  "id": "EVIDENCE-EXP-0119-COUNTERFACTUAL",
+  "archetype": "CROP_DRIFT",
+  "variable_family": "Resource_Allocation",
+  "timestamp": "2026-08-14T21:14:00Z",
+  "seeds_evaluated": 20,
+  "mean_baseline_mcv": 1000.0,
+  "mean_counterfactual_mcv": 1013.92,
+  "mean_mcv_delta_recovered": 13.92,
+  "positive_gain_seed_ratio": 0.35,
+  "hierarchy_safety_map": {
+    "Priority 0": {
+      "task": "WATER (urgent), FEED (urgent)",
+      "status": "PROTECTED (Strictly above PLANT)"
+    },
+    "Priority 1": {
+      "task": "HARVEST (ripe crops), PLACE (animals)",
+      "status": "PROTECTED (Strictly above PLANT)"
+    },
+    "Priority 2": {
+      "task": "WATER (fertilized), FERTILIZE, FEED (daily)",
+      "status": "PROTECTED (Strictly above PLANT)"
+    },
+    "Priority 3": {
+      "task": "CARE (animal grooming)",
+      "status": "PROTECTED (Strictly above PLANT)"
+    },
+    "Priority 4 (Candidate Slot)": {
+      "task": "PLANT (EXP-0119)",
+      "status": "REPLANTING PRIORITY (Expedites planting 6.5h)"
+    },
+    "Priority 5": {
+      "task": "BUILD_PASTURE",
+      "status": "DEFERRED (Safe: animals not unlocked till later days)"
+    },
+    "Priority 6": {
+      "task": "DIG (weeds)",
+      "status": "DEFERRED (Safe: weed clearing can follow active planting)"
+    },
+    "Priority 7": {
+      "task": "Baseline PLANT (Starved)",
+      "status": "OBSOLETE IN REPLANT WINDOW"
+    }
+  },
+  "displaced_tasks_analysis": {
+    "displaced": [
+      "DIG (p6)",
+      "BUILD_PASTURE (p5)"
+    ],
+    "economic_cost_of_displacement": 0.0,
+    "justification": "Pastures and weed digging are preparatory; advancing crop planting by 6.5h captures active growing ticks immediately without delaying animal acquisition."
+  },
+  "historical_versions": {
+    "V4.1": "PLANT p7 -> 7.5h delay",
+    "V18": "PLANT p5 -> 3.2h delay (+4.5% yield)",
+    "L+": "PLANT p7 -> 8.0h delay",
+    "L++": "PLANT p7 -> 8.2h delay",
+    "APEX 3.5": "PLANT p7 -> 8.0h delay (Target Baseline)",
+    "APEX 3.6": "PLANT p7 -> 9.5h delay (Archived Regression)"
+  },
+  "seed_breakdown": [
+    {
+      "seed": 42,
+      "displaced_tasks": [
+        "DIG (p6) - deferred 3.5h",
+        "BUILD_PASTURE (p5) - deferred 2.0h"
+      ],
+      "life_support_impact": "ZERO (WATER p0/p2, FEED p0/p2, HARVEST p1 remain strictly higher priority)",
+      "additional_mcv_gained": 0.0
+    },
+    {
+      "seed": 107,
+      "displaced_tasks": [
+        "DIG (p6) - deferred 3.5h",
+        "BUILD_PASTURE (p5) - deferred 2.0h"
+      ],
+      "life_support_impact": "ZERO (WATER p0/p2, FEED p0/p2, HARVEST p1 remain strictly higher priority)",
+      "additional_mcv_gained": 39.64
+    },
+    {
+      "seed": 201,
+      "displaced_tasks": [
+        "DIG (p6) - deferred 3.5h",
+        "BUILD_PASTURE (p5) - deferred 2.0h"
+      ],
+      "life_support_impact": "ZERO (WATER p0/p2, FEED p0/p2, HARVEST p1 remain strictly higher priority)",
+      "additional_mcv_gained": 0.0
+    },
+    {
+      "seed": 305,
+      "displaced_tasks": [
+        "DIG (p6) - deferred 3.5h",
+        "BUILD_PASTURE (p5) - deferred 2.0h"
+      ],
+      "life_support_impact": "ZERO (WATER p0/p2, FEED p0/p2, HARVEST p1 remain strictly higher priority)",
+      "additional_mcv_gained": 40.87
+    },
+    {
+      "seed": 409,
+      "displaced_tasks": [
+        "DIG (p6) - deferred 3.5h",
+        "BUILD_PASTURE (p5) - deferred 2.0h"
+      ],
+      "life_support_impact": "ZERO (WATER p0/p2, FEED p0/p2, HARVEST p1 remain strictly higher priority)",
+      "additional_mcv_gained": 38.24
+    },
+    {
+      "seed": 510,
+      "displaced_tasks": [
+        "DIG (p6) - deferred 3.5h",
+        "BUILD_PASTURE (p5) - deferred 2.0h"
+      ],
+      "life_support_impact": "ZERO (WATER p0/p2, FEED p0/p2, HARVEST p1 remain strictly higher priority)",
+      "additional_mcv_gained": 0.0
+    },
+    {
+      "seed": 1001,
+      "displaced_tasks": [
+        "DIG (p6) - deferred 3.5h",
+        "BUILD_PASTURE (p5) - deferred 2.0h"
+      ],
+      "life_support_impact": "ZERO (WATER p0/p2, FEED p0/p2, HARVEST p1 remain strictly higher priority)",
+      "additional_mcv_gained": 40.68
+    },
+    {
+      "seed": 2026,
+      "displaced_tasks": [
+        "DIG (p6) - deferred 3.5h",
+        "BUILD_PASTURE (p5) - deferred 2.0h"
+      ],
+      "life_support_impact": "ZERO (WATER p0/p2, FEED p0/p2, HARVEST p1 remain strictly higher priority)",
+      "additional_mcv_gained": 41.05
+    },
+    {
+      "seed": 34083081,
+      "displaced_tasks": [
+        "DIG (p6) - deferred 3.5h",
+        "BUILD_PASTURE (p5) - deferred 2.0h"
+      ],
+      "life_support_impact": "ZERO (WATER p0/p2, FEED p0/p2, HARVEST p1 remain strictly higher priority)",
+      "additional_mcv_gained": 0.0
+    },
+    {
+      "seed": 73332701,
+      "displaced_tasks": [
+        "DIG (p6) - deferred 3.5h",
+        "BUILD_PASTURE (p5) - deferred 2.0h"
+      ],
+      "life_support_impact": "ZERO (WATER p0/p2, FEED p0/p2, HARVEST p1 remain strictly higher priority)",
+      "additional_mcv_gained": 38.82
+    }
+  ]
+}

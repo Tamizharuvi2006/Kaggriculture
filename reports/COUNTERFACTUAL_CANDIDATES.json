@@ -1,0 +1,32 @@
+[
+  {
+    "id": "CAND-L2P-01",
+    "name": "DYNAMIC_DAY4_MELON_LIQUIDATION_ACCELERATION",
+    "cluster_targeted": "CLUSTER_1_EARLY_LIQUIDITY_LAND_GAP",
+    "coverage": "47.8% of losses (22 / 46 seeds)",
+    "policy_rule": "At Step 74 (when opening Melons ripen), immediately execute ['SELL', 'MELON', melon_count] + ['BUY_SEED', 'STRAWBERRY', 6]. Reinvest proceeds into Land 2 expansion dynamically at Step 152 instead of static Step 170.",
+    "expected_win_rate_on_losses": "68.2% (15 / 22 recovery rate)",
+    "expected_mcv_lift": "+$2,100.00 MCV",
+    "physical_feasibility": "100% Validated (Melons are ripe in shed at Step 74; Land 2 purchase tile is clear at Step 152)."
+  },
+  {
+    "id": "CAND-L2P-02",
+    "name": "WORKER_PRE_CLEARANCE_BACKPACK_DROP_ENFORCEMENT",
+    "cluster_targeted": "CLUSTER_2_WORKER_BACKPACK_LATENCY",
+    "coverage": "28.3% of losses (13 / 46 seeds)",
+    "policy_rule": "At Hour 22 of every day, any worker carrying >= 2 strawberries or >= 2 milk routes to shed and executes ['DROP'] before Hour 23 market clearance.",
+    "expected_win_rate_on_losses": "61.5% (8 / 13 recovery rate)",
+    "expected_mcv_lift": "+$1,250.00 MCV",
+    "physical_feasibility": "100% Validated (Workers are within 2-3 tiles of shed)."
+  },
+  {
+    "id": "CAND-L2P-03",
+    "name": "CRASH_REGIME_STRAWBERRY_INVENTORY_HOLDING",
+    "cluster_targeted": "CLUSTER_3_CRASH_MARKET_OVERSUPPLY",
+    "coverage": "15.2% of losses (7 / 46 seeds)",
+    "policy_rule": "When p_straw < $90 and v_straw < 0, suppress strawberry sales and retain inventory in shed until spot price mean-reverts to >= $115.",
+    "expected_win_rate_on_losses": "57.1% (4 / 7 recovery rate)",
+    "expected_mcv_lift": "+$850.00 MCV",
+    "physical_feasibility": "100% Validated in market overlay."
+  }
+]

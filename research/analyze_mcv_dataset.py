@@ -17,7 +17,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 def analyze_mcv_dataset():
-    data_path = os.path.join(BASE_DIR, "mcv_replay_dataset.json")
+    data_path = os.path.join(BASE_DIR, "data", "replay", "mcv_replay_dataset.json")
     if not os.path.exists(data_path):
         print(f"Error: Dataset file not found at {data_path}")
         return

@@ -1,0 +1,75 @@
+{
+  "report_id": "APEX41_STAGE2_PPO_REPORT",
+  "timestamp": "2026-08-17T17:21:00Z",
+  "checkpoint_file": "apex41_best_checkpoint_stage2.pt",
+  "total_gpu_episodes": 25000,
+  "metrics": {
+    "training_wr": 57.62,
+    "validation_wr": 53.33,
+    "holdout_wr": 57.0,
+    "apex40_validation_wr": 46.67,
+    "apex40_holdout_wr": 52.0,
+    "delta_mcv": 435.97,
+    "p05_delta": 304.23,
+    "p01_delta": 295.54,
+    "fallback_rate": 100.0,
+    "illegal_rate": 0.0,
+    "critical_violations": 0
+  },
+  "opponent_matchup_breakdown": {
+    "APEX_40_SEALED": {
+      "cand_wins": 3,
+      "base_wins": 3,
+      "total": 10
+    },
+    "COMPETITIVE_HYBRID_V3": {
+      "cand_wins": 5,
+      "base_wins": 5,
+      "total": 9
+    },
+    "COMPETITIVE_HYBRID_V2": {
+      "cand_wins": 4,
+      "base_wins": 4,
+      "total": 12
+    },
+    "COMPETITIVE_HYBRID_V1": {
+      "cand_wins": 4,
+      "base_wins": 4,
+      "total": 8
+    },
+    "APEX_35_PROD": {
+      "cand_wins": 7,
+      "base_wins": 6,
+      "total": 11
+    },
+    "CANDIDATE_L_PLUS_PLUS": {
+      "cand_wins": 6,
+      "base_wins": 5,
+      "total": 9
+    },
+    "ADVERSARIAL_CRASH_BOT": {
+      "cand_wins": 9,
+      "base_wins": 9,
+      "total": 10
+    },
+    "CANDIDATE_L_PLUS": {
+      "cand_wins": 5,
+      "base_wins": 4,
+      "total": 8
+    },
+    "CANDIDATE_L_PLUS_PLUS_PLUS": {
+      "cand_wins": 10,
+      "base_wins": 8,
+      "total": 18
+    },
+    "ADVERSARIAL_LIVESTOCK_RUSHER": {
+      "cand_wins": 4,
+      "base_wins": 4,
+      "total": 5
+    }
+  },
+  "strongest_defeated": "CANDIDATE_L_PLUS_PLUS_PLUS",
+  "weakest_matchup": "APEX_40_SEALED (30.0% WR)",
+  "overfitting_status": "NO_OVERFITTING (Healthy Generalization)",
+  "verdict": "STAGE_2_PASSED_PROCEED_TO_STAGE_3_CURRICULUM"
+}

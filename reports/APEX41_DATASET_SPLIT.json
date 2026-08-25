@@ -1,0 +1,15 @@
+{
+  "split_id": "APEX41_DISJOINT_SPLIT_V1",
+  "train_seeds_count": 650,
+  "val_seeds_count": 150,
+  "frozen_holdout_seeds_count": 100,
+  "gate_disjoint_seeds_count": 46,
+  "total_seeds": 946,
+  "leakage_audit": {
+    "seed_overlap_train_val": 0,
+    "seed_overlap_train_holdout": 0,
+    "seed_overlap_train_gate": 0,
+    "duplicate_trajectories": 0,
+    "same_episode_leakage": "NONE (Strict Episode Partitioning)"
+  }
+}

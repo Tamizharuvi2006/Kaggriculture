@@ -1,0 +1,10 @@
+{
+  "id": "EXP0154-DECISION",
+  "timestamp": "2026-08-15T17:30:48Z",
+  "experiment_id": "EXP-0154",
+  "screening_verdict": "CLEARED_GPU",
+  "top_candidate": "CAND-154-02",
+  "top_paired_wr": 1.0,
+  "top_delta_mcv": 240.97,
+  "gate1_qualified": true
+}

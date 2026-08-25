@@ -1,0 +1,34 @@
+{
+  "date": "2026-08-22",
+  "scope": "read-only L+ plus ML architecture audit",
+  "training_performed": false,
+  "games_run": false,
+  "production_modified": false,
+  "backbone": "V4.1/L+ remains final execution and safety authority",
+  "first_target": {
+    "name": "public-state market-pressure classifier",
+    "purpose": "recommend a narrow sell-priority mode with confidence and abstention",
+    "direct_action_generation": false,
+    "fallback": "untouched L+ action"
+  },
+  "candidate_controls": [
+    {"rank": 1, "name": "market pressure and next-clearance regime", "data_sufficiency": "good for offline prediction", "decision": "first target"},
+    {"rank": 2, "name": "priority score among already-emitted MILK/STRAWBERRY sells", "data_sufficiency": "moderate; causal labels missing", "decision": "second stage"},
+    {"rank": 3, "name": "optional reinvestment preserve-cash recommendation", "data_sufficiency": "weak-to-moderate and confounded", "decision": "defer"},
+    {"rank": 4, "name": "public opponent archetype classification", "data_sufficiency": "moderate for context", "decision": "supporting model"},
+    {"rank": 5, "name": "direct action replacement", "data_sufficiency": "not justified", "decision": "reject"}
+  ],
+  "data_inventory": {
+    "mcv_replay_dataset_records": 5160,
+    "full_raw_loss_replays": 20,
+    "key_existing_fields": ["step", "day", "cash", "inventory", "workers", "tiles", "market_prices", "executed_market_action", "downstream_wealth_24", "downstream_wealth_120", "final_wealth", "won_match"],
+    "missing_for_causal_claim": ["native accepted/rejected/preempted flag", "true intra-step queue position", "same-state dynamic counterfactual outcome", "legal opponent private inventory"]
+  },
+  "allowed_inputs": ["public prices", "public market inventory", "price trends", "step/day/hour", "clearance position", "own cash/reserves", "own inventory", "own production/assets", "L+ candidate action", "legally observable public state"],
+  "forbidden_inputs": ["opponent private shed inventory", "future prices", "replay-only terminal fields", "hidden opponent actions before observation"],
+  "outputs": ["pressure_probability", "recommended_mode", "confidence", "abstain"],
+  "initial_modes": ["LPLUS_DEFAULT", "LPLUS_MILK_PRIORITY", "LPLUS_CONSERVATIVE_PRIORITY_SLOT"],
+  "hard_safety_rules": ["never alter quantities", "never create unsupported orders", "never violate reserve or affordability", "never exceed order cap", "fallback to L+ on low confidence or out-of-support state"],
+  "offline_gate": ["match-level split", "baseline reproduction", "calibration", "product pressure precision/recall", "24-step and 120-step downstream distributions", "P05/tail loss", "fallback rate", "unsupported-state rate"],
+  "research_conclusion": "Architecture is justified for offline design only. No training or causal policy claim is justified yet."
+}

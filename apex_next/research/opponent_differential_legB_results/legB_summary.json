@@ -1,0 +1,81 @@
+{
+  "design": "round-robin 4 agents x 30 seeds, seat-balanced double-run, shared regime tag; full-match collapse tag is near-universal -> partitioned by severity (min_drift3 <= -0.60 severe)",
+  "seeds": [
+    1514047210,
+    1514055129,
+    1514063048,
+    1514070967,
+    1514078886,
+    1514086805,
+    1514094724,
+    1514102643,
+    1514110562,
+    1514118481,
+    1514126400,
+    1514134319,
+    1514142238,
+    1514150157,
+    1514158076,
+    1514165995,
+    1514173914,
+    1514181833,
+    1514189752,
+    1514197671,
+    1514205590,
+    1514213509,
+    1514221428,
+    1514229347,
+    1514237266,
+    1514245185,
+    1514253104,
+    1514261023,
+    1514268942,
+    1514276861
+  ],
+  "agents": {
+    "APEX": "D:\\Kaggriculture\\submission.py",
+    "v18": "D:\\Kaggriculture\\baseline\\kaitofukami-v18.py",
+    "v83": "D:\\Kaggriculture\\baseline\\submission_v83_standalone.py",
+    "apex35": "D:\\Kaggriculture\\generalization_pipeline\\submission_candidate_apex35.py"
+  },
+  "per_agent": {
+    "APEX": {
+      "severe": {
+        "n": 90,
+        "wr_pct": 31.1,
+        "mcv_mean": 88042.0,
+        "p05": 37070.0
+      }
+    },
+    "apex35": {
+      "severe": {
+        "n": 90,
+        "wr_pct": 93.3,
+        "mcv_mean": 54700.0,
+        "p05": 10600.0
+      }
+    },
+    "v18": {
+      "severe": {
+        "n": 90,
+        "wr_pct": 73.3,
+        "mcv_mean": 55219.0,
+        "p05": 10768.0
+      }
+    },
+    "v83": {
+      "severe": {
+        "n": 90,
+        "wr_pct": 2.2,
+        "mcv_mean": 90188.0,
+        "p05": 47701.0
+      }
+    }
+  },
+  "apex_severe_wr_pct": 31.1,
+  "reference_severe_wr_median_pct": 73.3,
+  "apex_minus_reference_wr_pp": -42.2,
+  "apex_severe_mcv": 88042.0,
+  "reference_severe_mcv_median": 55219.0,
+  "apex_minus_reference_mcv": 32823.0
+}

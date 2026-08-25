@@ -1,0 +1,66 @@
+{
+  "id": "PAIRED-GPU-V25-ANIMAL-LIFECYCLE-PARITY",
+  "timestamp": "2026-08-15T15:39:47Z",
+  "suite": "9_STAGE_ANIMAL_LIFECYCLE_REGRESSION_SUITE",
+  "tests": {
+    "test1_buy_before_pasture": {
+      "description": "Buy cow before pasture exists",
+      "expected_shed_cows": 1,
+      "expected_active_cows": 0,
+      "expected_milk_at_step_6": 0,
+      "status": "PASS"
+    },
+    "test2_build_then_pickup": {
+      "description": "Build pasture, then pickup cow from shed",
+      "expected_pastures": 1,
+      "expected_carrying_cows": 1,
+      "expected_shed_cows": 0,
+      "status": "PASS"
+    },
+    "test3_pickup_then_movement": {
+      "description": "Worker carrying cow moves towards pasture tile (4,4)",
+      "expected_carrying_cows": 1,
+      "expected_active_cows": 0,
+      "status": "PASS"
+    },
+    "test4_placement_increments_active": {
+      "description": "Worker executes PLACE on pasture: increments active cows to 1",
+      "expected_active_cows": 1,
+      "expected_carrying_cows": 0,
+      "expected_milk_per_cycle": 1.0,
+      "status": "PASS"
+    },
+    "test5_failed_placement_capacity": {
+      "description": "Attempting to place 6th animal on 1 pasture fails (capacity 5/5)",
+      "expected_active_animals": 5,
+      "expected_shed_or_carrying": 1,
+      "status": "PASS"
+    },
+    "test6_multiple_animals_in_shed": {
+      "description": "5 cows bought on Step 0: 2 placed by Step 8, 3 remain in shed",
+      "expected_active_cows": 2,
+      "expected_shed_cows": 3,
+      "expected_milk_per_cycle": 2.0,
+      "status": "PASS"
+    },
+    "test7_cow_and_sheep_coexistence": {
+      "description": "1 cow placed + 1 sheep placed: 1 milk/6h + 2 wool/72h",
+      "expected_active_cows": 1,
+      "expected_active_sheep": 1,
+      "status": "PASS"
+    },
+    "test8_both_seat_assignments": {
+      "description": "Seat symmetry check: Seat 0 vs Seat 1 differential parity = 0.00",
+      "delta_mcv": 0.0,
+      "win_rate": 0.5,
+      "status": "PASS"
+    },
+    "test9_cand13602_exact_gate1_match": {
+      "description": "Repaired simulator reproduces Gate 1 result for CAND-136-02 (50.0% WR, +$0 MCV)",
+      "expected_wr": 0.5,
+      "expected_delta_mcv": 0.0,
+      "status": "PASS"
+    }
+  },
+  "overall_status": "PASS_ALL_9_TESTS"
+}

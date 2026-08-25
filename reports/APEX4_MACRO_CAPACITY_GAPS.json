@@ -1,0 +1,29 @@
+{
+  "livestock_capacity": {
+    "apex35_steady_state": "4 Cows + 1 Sheep (Pastures: 2, Animal Cap: 5)",
+    "elite_winner_steady_state": "8 Cows + 1 Sheep (Pastures: 3-4, Animal Cap: 9-12)",
+    "daily_milk_output": {
+      "apex35": "16 Milk / Day ($1,600/day)",
+      "elite_winners": "32 Milk / Day ($3,200/day)"
+    },
+    "long_run_mcv_differential": "+$22,400.00 MCV from Step 300 to Step 720!"
+  },
+  "agricultural_capacity": {
+    "apex35_steady_state": "8 Active Strawberry Tiles (NW + NE)",
+    "elite_winner_steady_state": "12-16 Active Strawberry / Melon Tiles (NW + NE + SW + SE)",
+    "daily_crop_output": {
+      "apex35": "4 Strawberries / 2 Days ($400/day)",
+      "elite_winners": "8 Strawberries / 2 Days ($800/day)"
+    },
+    "long_run_mcv_differential": "+$8,800.00 MCV"
+  },
+  "labor_capacity": {
+    "apex35_headcount": "8 Workers (4 Active, 4 Idle with >180 PASS ticks)",
+    "elite_winner_headcount": "8 Workers (8 Active with 92% continuous duty cycle)",
+    "idle_labor_waste": "APEX 3.5 wastes 48% of total worker capacity after Step 225!"
+  },
+  "capital_velocity": {
+    "apex35_cash_behavior": "Accumulates $15,000\u2013$40,000 cash in Days 10\u201325 with 0 capital reinvestment.",
+    "elite_winner_cash_behavior": "Reinvests Day 10-15 cash into Pasture 3 ($500) + 4 extra cows ($2,000), compounding daily cashflow."
+  }
+}

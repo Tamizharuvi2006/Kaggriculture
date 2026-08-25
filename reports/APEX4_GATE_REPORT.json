@@ -1,0 +1,23 @@
+{
+  "id": "APEX4-GATE-REPORT",
+  "timestamp": "2026-08-16T16:15:00Z",
+  "candidate_name": "APEX 4.0 Closed-Loop Master Research Candidate",
+  "baseline_hash": "78738c1b8bad8fbd",
+  "candidate_hash": "0f3ddc3c5b67999d",
+  "gate_results": {
+    "gate_1": {
+      "name": "Exact Replay on 46 Ladder Loss Seeds",
+      "harness": "kaggle_environments v1.32.6 (Official Reference Authority)",
+      "matches": 92,
+      "win_rate": 0.500,
+      "delta_mcv": 142.00,
+      "errors": 0,
+      "verdict": "FAIL"
+    },
+    "gate_2": {"status": "SKIPPED"},
+    "gate_3": {"status": "SKIPPED"},
+    "gate_4": {"status": "SKIPPED"}
+  },
+  "overall_verdict": "FALSIFIED_GATE_1",
+  "production_action": "NO_CHANGE (APEX-3.5-PROD remains 100% frozen and live)"
+}

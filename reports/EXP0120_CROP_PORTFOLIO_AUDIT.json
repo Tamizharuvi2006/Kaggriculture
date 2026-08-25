@@ -1,0 +1,90 @@
+{
+  "id": "EXP0120-CROP-PORTFOLIO-AUDIT",
+  "timestamp": "2026-08-14T21:30:00Z",
+  "crop_specifications": {
+    "STRAWBERRY": {
+      "seed_cost": 100,
+      "first_harvest_day": 10,
+      "harvest_cadence_days": 2,
+      "yield_per_harvest": 4,
+      "ongoing": true,
+      "mean_price": 160.3,
+      "expected_lifecycle_revenue_per_tile": "$4,320 (36 units * $120)",
+      "risk_profile": "High capital lockup ($100/seed), vulnerable to price troughs ($80-$95)"
+    },
+    "TOMATO": {
+      "seed_cost": 50,
+      "first_harvest_day": 8,
+      "harvest_cadence_days": 2,
+      "yield_per_harvest": 4,
+      "ongoing": true,
+      "mean_price": 60.5,
+      "expected_lifecycle_revenue_per_tile": "$2,640 (44 units * $60)",
+      "risk_profile": "50% lower seed cost ($50), earlier first harvest (Day 8 vs Day 10), non-correlated cash flow"
+    },
+    "MELON": {
+      "seed_cost": 80,
+      "first_harvest_day": 10,
+      "harvest_cadence_days": 12,
+      "yield_per_harvest": 6,
+      "ongoing": false,
+      "mean_price": 239.2,
+      "expected_lifecycle_revenue_per_tile": "$3,120 (12 units * $260, 2 cycles)",
+      "risk_profile": "High single-harvest lump-sum injection ($1,560/harvest), requires replanting"
+    }
+  },
+  "price_cross_correlations": {
+    "strawberry_vs_tomato": -0.015,
+    "strawberry_vs_melon": 0.019,
+    "strawberry_vs_wheat": -0.01
+  },
+  "strawberry_crash_frequency": 0.0,
+  "causal_mechanism": {
+    "hypothesis": "Dual-crop portfolio allocates 25%-35% of crop land to Tomato, reducing initial seed expenditure by $400-$600, capturing Day 8 early harvest cash, and providing non-correlated liquidity when Strawberry price is depressed.",
+    "correlation_vs_causation": "Elite winners' success is mechanically linked to steady cash flow from non-correlated crops, which prevents forced liquidation of strawberries at trough prices."
+  },
+  "bounded_portfolio_search_space": [
+    {
+      "portfolio_id": "PORT-01 (Mono)",
+      "strawberries": 34,
+      "tomatoes": 0,
+      "melons": 9,
+      "desc": "100% Strawberry Mono-culture (APEX 3.5 Baseline)"
+    },
+    {
+      "portfolio_id": "PORT-02 (Dual)",
+      "strawberries": 26,
+      "tomatoes": 8,
+      "melons": 9,
+      "desc": "75% Strawberry / 25% Tomato Dual-Crop"
+    },
+    {
+      "portfolio_id": "PORT-03 (Dual)",
+      "strawberries": 22,
+      "tomatoes": 12,
+      "melons": 9,
+      "desc": "65% Strawberry / 35% Tomato Dual-Crop"
+    },
+    {
+      "portfolio_id": "PORT-04 (Dual)",
+      "strawberries": 18,
+      "tomatoes": 16,
+      "melons": 9,
+      "desc": "50% Strawberry / 50% Tomato Dual-Crop"
+    },
+    {
+      "portfolio_id": "PORT-05 (Tri)",
+      "strawberries": 24,
+      "tomatoes": 6,
+      "melons": 14,
+      "desc": "Tri-Crop: Strawberry + Tomato + Expanded Melon"
+    },
+    {
+      "portfolio_id": "PORT-06 (Tri)",
+      "strawberries": 20,
+      "tomatoes": 10,
+      "melons": 14,
+      "desc": "Tri-Crop: Balanced Multi-Crop Portfolio"
+    }
+  ]
+}

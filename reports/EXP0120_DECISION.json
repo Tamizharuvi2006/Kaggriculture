@@ -1,0 +1,12 @@
+{
+  "id": "EXP0120-DECISION",
+  "timestamp": "2026-08-14T16:06:01Z",
+  "screening_verdict": "CANDIDATE_ISOLATED_FOR_OFFICIAL_GATE1",
+  "selected_candidate_id": "CAND-120-05",
+  "selected_candidate_params": {
+    "strawberries": 24,
+    "tomatoes": 6,
+    "melons": 14
+  },
+  "official_evaluation_status": "READY_FOR_GATE_1_EXACT_REPLAY"
+}

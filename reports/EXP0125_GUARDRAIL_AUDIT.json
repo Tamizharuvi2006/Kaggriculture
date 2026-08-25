@@ -1,0 +1,43 @@
+{
+  "id": "EXP0125-GUARDRAIL-AUDIT",
+  "timestamp": "2026-08-14T17:14:16Z",
+  "overall_status": "ALL_GUARDRAILS_PASSED",
+  "per_candidate_audit": [
+    {
+      "candidate_id": "CAND-125-01",
+      "guardrail_status": "PASS_ALL",
+      "p05_vs_baseline": 0.0,
+      "solvency_violations": 0
+    },
+    {
+      "candidate_id": "CAND-125-02",
+      "guardrail_status": "PASS_ALL",
+      "p05_vs_baseline": 0.0,
+      "solvency_violations": 0
+    },
+    {
+      "candidate_id": "CAND-125-03",
+      "guardrail_status": "PASS_ALL",
+      "p05_vs_baseline": 0.0,
+      "solvency_violations": 0
+    },
+    {
+      "candidate_id": "CAND-125-04",
+      "guardrail_status": "PASS_ALL",
+      "p05_vs_baseline": 0.0,
+      "solvency_violations": 0
+    },
+    {
+      "candidate_id": "CAND-125-05",
+      "guardrail_status": "PASS_ALL",
+      "p05_vs_baseline": 0.0,
+      "solvency_violations": 0
+    },
+    {
+      "candidate_id": "CAND-125-06",
+      "guardrail_status": "PASS_ALL",
+      "p05_vs_baseline": 0.0,
+      "solvency_violations": 0
+    }
+  ]
+}

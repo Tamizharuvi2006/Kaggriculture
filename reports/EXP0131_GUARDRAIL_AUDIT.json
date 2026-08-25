@@ -1,0 +1,9 @@
+{
+  "id": "EXP0131-GUARDRAIL-AUDIT",
+  "timestamp": "2026-08-15T14:34:28Z",
+  "solvency_violations": 0,
+  "seed_depletion_events": 0,
+  "missed_fertilizer_events": 0,
+  "wage_defaults": 0,
+  "guardrail_status": "PASS_ALL"
+}

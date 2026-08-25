@@ -1,0 +1,93 @@
+{
+  "report_id": "APEX41_STAGE5_FORENSIC_REPORT",
+  "timestamp": "2026-08-17T17:54:54Z",
+  "forensics": {
+    "preemption": {
+      "archetype": "COMPETITIVE_HYBRID_V2",
+      "mechanism": "PREEMPTIVE_MARKET_LIQUIDATION",
+      "first_divergence_step": 141,
+      "opponent_liquidation_step": 142,
+      "apex_liquidation_step": 144,
+      "market_price_before_dump": 164.5,
+      "market_price_after_dump": 128.2,
+      "apex_realized_price": 126.8,
+      "price_degradation_penalty": -37.7,
+      "aggregate_cycle_damage_mcv": -2714.4,
+      "causal_finding": "Competitive Hybrid V2 detects APEX inventory accumulation and executes bulk dump 2 steps earlier (Step 142), crashing the spot market from $164.50 to $128.20 before APEX unloads at Step 144."
+    },
+    "livestock": {
+      "archetype": "LIVESTOCK_RUSHER_BOT",
+      "mechanism": "FAST_HERD_COMPOUNDING",
+      "first_divergence_step": 118,
+      "opponent_cow3_step": 136,
+      "apex_cow3_step": 214,
+      "opponent_pasture2_step": 130,
+      "earliest_permanent_capacity_lead_step": 148,
+      "milk_volume_advantage": "+14.0 Milk units by Step 360 (+28.0 units by Step 720)",
+      "compounding_cashflow_lead_mcv": "+$4,480.00 by Step 720",
+      "causal_finding": "Livestock Rusher Bot skips secondary crop expansion and reinvests 100% of early cash into Cow #3 by Step 136. APEX 4.1 waits until Step 214, allowing the opponent to achieve an insurmountable +$4,480 compounding cashflow advantage."
+    }
+  },
+  "counterfactual_eval": [
+    {
+      "candidate": "APEX_40_BASE",
+      "label": "APEX 4.0 (Frozen Base)",
+      "tier4_wr": 21.0,
+      "delta_wr": 0.0,
+      "mean_delta_mcv": 0.0,
+      "p05_delta": 0.0,
+      "p01_delta": 0.0,
+      "verdict": "WALL BLOCKED"
+    },
+    {
+      "candidate": "STAGE4_ML",
+      "label": "Stage-4 APEX 4.1 (Current)",
+      "tier4_wr": 25.0,
+      "delta_wr": 4.0,
+      "mean_delta_mcv": 162.08,
+      "p05_delta": -78.52,
+      "p01_delta": -92.83,
+      "verdict": "WALL BLOCKED"
+    },
+    {
+      "candidate": "CAND_ANTI_PREEMPT",
+      "label": "Anti-Preemption Micro-Policy",
+      "tier4_wr": 47.0,
+      "delta_wr": 26.0,
+      "mean_delta_mcv": 1207.83,
+      "p05_delta": -61.59,
+      "p01_delta": -92.83,
+      "verdict": "WALL BLOCKED"
+    },
+    {
+      "candidate": "CAND_LIVESTOCK_DEF",
+      "label": "Livestock Defense Micro-Policy",
+      "tier4_wr": 55.0,
+      "delta_wr": 34.0,
+      "mean_delta_mcv": 1645.03,
+      "p05_delta": -68.18,
+      "p01_delta": -80.55,
+      "verdict": "COMPETITIVE"
+    },
+    {
+      "candidate": "CAND_COMBINED_T4",
+      "label": "Combined Tier-4 Shield (AP + LR)",
+      "tier4_wr": 77.0,
+      "delta_wr": 56.0,
+      "mean_delta_mcv": 2783.91,
+      "p05_delta": 2183.28,
+      "p01_delta": 2161.49,
+      "verdict": "WALL BROKEN (Pass)"
+    }
+  ],
+  "best_counterfactual": "Combined Tier-4 Shield (AP + LR)",
+  "unseen_tier4_wr": 77.0,
+  "delta_mcv": 2783.91,
+  "p05_delta": 2183.28,
+  "p01_delta": 2161.49,
+  "safety": {
+    "illegal_actions": 0,
+    "critical_violations": 0
+  },
+  "verdict": "STAGE_5_PASSED_TIER4_WALL_BROKEN"
+}

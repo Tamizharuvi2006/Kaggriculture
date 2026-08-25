@@ -1,0 +1,37 @@
+{
+  "id": "PAIRED-GPU-V2-BENCHMARK",
+  "timestamp": "2026-08-14T16:23:25Z",
+  "gpu_hardware": "NVIDIA GeForce RTX 4050 Laptop GPU (6GB VRAM)",
+  "benchmarks": [
+    {
+      "batch_size": 64,
+      "paired_matches": 128,
+      "duration_seconds": 1.653,
+      "matches_per_second": 77.4,
+      "steps_per_second": 55763.1
+    },
+    {
+      "batch_size": 128,
+      "paired_matches": 256,
+      "duration_seconds": 3.298,
+      "matches_per_second": 77.6,
+      "steps_per_second": 55891.6
+    },
+    {
+      "batch_size": 256,
+      "paired_matches": 512,
+      "duration_seconds": 6.706,
+      "matches_per_second": 76.3,
+      "steps_per_second": 54970.8
+    },
+    {
+      "batch_size": 512,
+      "paired_matches": 1024,
+      "duration_seconds": 13.326,
+      "matches_per_second": 76.8,
+      "steps_per_second": 55326.8
+    }
+  ],
+  "recommended_batch_size": 256,
+  "peak_throughput": "76.8 paired matches/sec (55,326.8 steps/sec)"
+}

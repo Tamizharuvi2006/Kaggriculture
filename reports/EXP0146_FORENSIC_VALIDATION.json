@@ -1,0 +1,15 @@
+{
+  "id": "EXP0146-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-15T16:22:02Z",
+  "target_hypothesis": "EXP-0146 (DYNAMIC_WHEAT_FEED_PRICE_SQUEEZE)",
+  "variable_family": "Market_Interference",
+  "baseline_trigger_rate": "0.00% (0 / 807 matches satisfy own_cash >= $10k AND opp_cash <= $250 AND opp_animals >= 10)",
+  "economic_symmetry_trap": {
+    "own_cow_count": "5 to 8 cows (Consumes 20 to 32 wheat/day from town market)",
+    "opponent_cow_count": "6 to 8 cows (Consumes 24 to 32 wheat/day from town market)",
+    "market_feedback_loop": "Inflating town wheat spot price inflicts equal feed cost inflation on APEX's own herd while consuming extra capital on squeeze buy orders.",
+    "net_relative_edge": "Negative (-$20 to -$50 per squeeze step)"
+  },
+  "verdict": "INVALID_MECHANISM",
+  "verdict_rationale": "Forensic audit exposes two fatal flaws in EXP-0146: (1) The baseline gating conditions in _safe_wheat_squeeze() require own_cash >= $10,000 and opp_cash <= $250 simultaneously, which occurs in 0.00% of tournament matches. (2) Even if forced to execute by relaxing gates, APEX 3.5 is itself a heavy livestock producer (5-8 cows) that buys town wheat to feed its herd. Driving up town wheat prices inflates APEX's own daily feed costs by the exact same amount as the opponent, while wasting cash on unconsumed squeeze orders. The strategy is economically self-destructive."
+}

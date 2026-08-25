@@ -1,0 +1,18 @@
+{
+  "experiment_id": "EXP-0155",
+  "candidate_hash": "aef5b8d0730af2d1ace6a0beac68ca3b81073a1f32ef9ed9043bb34b1db6c4ef",
+  "baseline_hash": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb",
+  "verdict": "FALSIFIED",
+  "failed_reasons": [
+    "gate_1_exact_replay_below_60pct"
+  ],
+  "why": "Gate 1 exact replay: WR 0.500 < 0.60 on 46 real loss seeds.",
+  "gate1": {
+    "status": "FAIL",
+    "win_rate": 0.5,
+    "n": 46,
+    "matches": 92
+  },
+  "gate2": null,
+  "gate3": null
+}

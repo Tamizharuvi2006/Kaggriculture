@@ -1,0 +1,139 @@
+{
+  "id": "APEX4-NE-4TILE-FEASIBILITY",
+  "timestamp": "2026-08-16T16:45:08Z",
+  "target_quadrant": "NE Quadrant (Rows 0..4, Cols 5..9)",
+  "tiles": [
+    {
+      "coord": [
+        3,
+        6
+      ],
+      "dist_from_shed": 3,
+      "travel_ticks": 3,
+      "achievable_cycles": 10,
+      "net_revenue_per_cycle": 142.0
+    },
+    {
+      "coord": [
+        2,
+        6
+      ],
+      "dist_from_shed": 4,
+      "travel_ticks": 4,
+      "achievable_cycles": 10,
+      "net_revenue_per_cycle": 142.0
+    },
+    {
+      "coord": [
+        4,
+        6
+      ],
+      "dist_from_shed": 4,
+      "travel_ticks": 4,
+      "achievable_cycles": 9,
+      "net_revenue_per_cycle": 142.0
+    },
+    {
+      "coord": [
+        1,
+        6
+      ],
+      "dist_from_shed": 5,
+      "travel_ticks": 5,
+      "achievable_cycles": 8,
+      "net_revenue_per_cycle": 142.0
+    }
+  ],
+  "scaling_analysis": [
+    {
+      "tiles_count": 0,
+      "workers_assigned": 0,
+      "gross_revenue": 0.0,
+      "seed_cost": 0.0,
+      "travel_penalty": 0.0,
+      "net_mcv_lift": 0.0,
+      "efficiency": 1.0
+    },
+    {
+      "tiles_count": 1,
+      "workers_assigned": 1,
+      "gross_revenue": 1420.0,
+      "seed_cost": 1000.0,
+      "travel_penalty": 0.0,
+      "net_mcv_lift": 420.0,
+      "efficiency": 1.0
+    },
+    {
+      "tiles_count": 2,
+      "workers_assigned": 2,
+      "gross_revenue": 2840.0,
+      "seed_cost": 2000.0,
+      "travel_penalty": 50.0,
+      "net_mcv_lift": 790.0,
+      "efficiency": 0.94
+    },
+    {
+      "tiles_count": 3,
+      "workers_assigned": 2,
+      "gross_revenue": 4118.0,
+      "seed_cost": 2900.0,
+      "travel_penalty": 180.0,
+      "net_mcv_lift": 1038.0,
+      "efficiency": 0.82
+    },
+    {
+      "tiles_count": 4,
+      "workers_assigned": 3,
+      "gross_revenue": 5254.0,
+      "seed_cost": 3700.0,
+      "travel_penalty": 450.0,
+      "net_mcv_lift": 1104.0,
+      "efficiency": 0.66
+    }
+  ],
+  "loss_deficit_breakdown": [
+    {
+      "tier": "Narrow Deficit ($0 - $500)",
+      "count": 12,
+      "pct": 26.1,
+      "flipped_by_1_tile": true,
+      "flipped_by_2_tiles": true,
+      "flipped_by_4_tiles": true
+    },
+    {
+      "tier": "Moderate Deficit ($500 - $1,000)",
+      "count": 14,
+      "pct": 30.4,
+      "flipped_by_1_tile": false,
+      "flipped_by_2_tiles": true,
+      "flipped_by_4_tiles": true
+    },
+    {
+      "tier": "Substantial Deficit ($1k - $2k)",
+      "count": 11,
+      "pct": 23.9,
+      "flipped_by_1_tile": false,
+      "flipped_by_2_tiles": false,
+      "flipped_by_4_tiles": true
+    },
+    {
+      "tier": "Severe Deficit ($2k+)",
+      "count": 9,
+      "pct": 19.6,
+      "flipped_by_1_tile": false,
+      "flipped_by_2_tiles": false,
+      "flipped_by_4_tiles": false
+    }
+  ],
+  "optimal_configuration": {
+    "target_tiles": [
+      "(3, 6)",
+      "(2, 6)"
+    ],
+    "tile_count": 2,
+    "workers_assigned": 2,
+    "projected_net_mcv_lift": 790.0,
+    "projected_gate1_wr": 0.782,
+    "rationale": "2 tiles deliver 94% efficiency with zero labor starvation on NW operations and $790 lift, flipping 26 of 46 loss seeds."
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "scope": "offline cached replay extraction only",
+  "games_run": false,
+  "training_run": false,
+  "valid_replays": 20,
+  "rows": 28760,
+  "rows_by_split": {
+    "train": 23008,
+    "validation": 5752
+  },
+  "matches_by_split": {
+    "train": 16,
+    "validation": 4
+  },
+  "mode_label_counts": {
+    "NO_SELL": 19894,
+    "OTHER_FIRST": 4902,
+    "WOOL_FIRST": 982,
+    "MILK_FIRST": 1389,
+    "STRAWBERRY_FIRST": 1593
+  },
+  "class_balance": {
+    "MILK": {
+      "adverse_milk": {
+        "False": 24336,
+        "True": 4424
+      },
+      "favorable_milk": {
+        "False": 24492,
+        "True": 4268
+      }
+    },
+    "STRAWBERRY": {
+      "adverse_strawberry": {
+        "False": 26432,
+        "True": 2328
+      },
+      "favorable_strawberry": {
+        "False": 27676,
+        "True": 1084
+      }
+    },
+    "WOOL": {
+      "adverse_wool": {
+        "False": 26026,
+        "True": 2734
+      },
+      "favorable_wool": {
+        "False": 27304,
+        "True": 1456
+      }
+    }
+  },
+  "downstream_label_join": {
+    "source": "data\\replay\\mcv_replay_dataset.json",
+    "source_rows": 5160,
+    "rows_with_wealth_24": 0,
+    "rows_with_wealth_120": 0
+  },
+  "missingness_top": [
+    {
+      "feature": "price_delta_milk_6",
+      "nulls": 240,
+      "rate": 0.008344923504867872
+    },
+    {
+      "feature": "price_change_milk_6",
+      "nulls": 240,
+      "rate": 0.008344923504867872
+    },
+    {
+      "feature": "price_delta_strawberry_6",
+      "nulls": 240,
+      "rate": 0.008344923504867872
+    },
+    {
+      "feature": "price_change_strawberry_6",
+      "nulls": 240,
+      "rate": 0.008344923504867872
+    },
+    {
+      "feature": "price_delta_wool_6",
+      "nulls": 240,
+      "rate": 0.008344923504867872
+    },
+    {
+      "feature": "price_change_wool_6",
+      "nulls": 240,
+      "rate": 0.008344923504867872
+    },
+    {
+      "feature": "price_delta_milk_3",
+      "nulls": 120,
+      "rate": 0.004172461752433936
+    },
+    {
+      "feature": "price_change_milk_3",
+      "nulls": 120,
+      "rate": 0.004172461752433936
+    },
+    {
+      "feature": "price_delta_strawberry_3",
+      "nulls": 120,
+      "rate": 0.004172461752433936
+    },
+    {
+      "feature": "price_change_strawberry_3",
+      "nulls": 120,
+      "rate": 0.004172461752433936
+    },
+    {
+      "feature": "price_delta_wool_3",
+      "nulls": 120,
+      "rate": 0.004172461752433936
+    },
+    {
+      "feature": "price_change_wool_3",
+      "nulls": 120,
+      "rate": 0.004172461752433936
+    },
+    {
+      "feature": "price_delta_milk_1",
+      "nulls": 40,
+      "rate": 0.0013908205841446453
+    },
+    {
+      "feature": "price_change_milk_1",
+      "nulls": 40,
+      "rate": 0.0013908205841446453
+    },
+    {
+      "feature": "price_delta_strawberry_1",
+      "nulls": 40,
+      "rate": 0.0013908205841446453
+    },
+    {
+      "feature": "price_change_strawberry_1",
+      "nulls": 40,
+      "rate": 0.0013908205841446453
+    },
+    {
+      "feature": "price_delta_wool_1",
+      "nulls": 40,
+      "rate": 0.0013908205841446453
+    },
+    {
+      "feature": "price_change_wool_1",
+      "nulls": 40,
+      "rate": 0.0013908205841446453
+    }
+  ],
+  "leakage_audit": {
+    "future_labels_in_features": false,
+    "current_opponent_action_in_features": false,
+    "opponent_private_inventory_in_features": false,
+    "terminal_mcv_as_primary_feature": false,
+    "random_row_split": false,
+    "same_match_cross_split": false,
+    "notes": [
+      "Future-derived fields are under labels only.",
+      "Prior replay actions are used only as historical observable summaries; current opponent action is excluded.",
+      "Downstream wealth labels are joined from the reduced replay dataset; the raw replay itself does not contain those derived fields."
+    ]
+  },
+  "baseline_statistics": {
+    "label_adverse_threshold": -0.15,
+    "label_favorable_threshold": 0.1,
+    "clearance_interval": 24,
+    "horizon": 720
+  },
+  "limitations": [
+    "Historical replay agents are not guaranteed to be L+; policy_source is explicit.",
+    "Native accepted/rejected/preempted outcomes are unavailable.",
+    "No causal mode ranking is claimed; weak_existing_mode_label is observed action priority only.",
+    "Downstream wealth labels are joined from the reduced replay dataset and retain that dataset's provenance."
+  ],
+  "artifacts": [
+    "lplus_market_pressure_dataset.jsonl",
+    "lplus_market_pressure_split_manifest.json",
+    "lplus_market_pressure_schema.json"
+  ]
+}

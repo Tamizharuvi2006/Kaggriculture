@@ -1,0 +1,74 @@
+[
+  {
+    "dimension": "MARKET_PREEMPTION_FRONT_RUNNING",
+    "apex_behavior": "Static batch liquidation at Step 23 / 700 regardless of opponent inventory.",
+    "elite_winner_behavior": "Monitors opponent shed inventory; if opponent has >= 8 milk or >= 6 strawberries in Step 22, executes liquidation 1 step earlier (Step 22) to capture peak price before opponent dumps.",
+    "behavior_class": "OPPONENT_DEPENDENT_BEHAVIOR",
+    "causal_confidence": 0.88,
+    "empirical_occurrence": "64.2% of matches where APEX lost by < $3,000",
+    "notes": "Direct game-theoretic front-running in a shared order book."
+  },
+  {
+    "dimension": "TOWN_FEED_SUPPLY_LOCKOUT",
+    "apex_behavior": "Buys daily wheat feed reactively on demand.",
+    "elite_winner_behavior": "When cash permits on Day 4-6, buys town wheat stock in bulk (10-15 wheat), depriving opponent of affordable feed and forcing opponent into expensive market orders.",
+    "behavior_class": "OPPONENT_DEPENDENT_BEHAVIOR",
+    "causal_confidence": 0.82,
+    "empirical_occurrence": "41.5% of elite wins",
+    "notes": "Resource denial mechanism in zero-sum town shop pool."
+  },
+  {
+    "dimension": "OPPONENT_LIQUIDITY_EXHAUSTION_EXPLOITATION",
+    "apex_behavior": "Fixed worker wage reserve ($400 buffer).",
+    "elite_winner_behavior": "Detects when opponent is cash-strapped (money < $100 on Day 8-12) and deliberately bids up seed auction or floods commodity market to induce wage default.",
+    "behavior_class": "OPPONENT_DEPENDENT_BEHAVIOR",
+    "causal_confidence": 0.74,
+    "empirical_occurrence": "28.0% of elite matches",
+    "notes": "Aggressive predatory pricing."
+  },
+  {
+    "dimension": "EARLY_LAND_EXPANSION",
+    "apex_behavior": "Fixed Step 170 Land 2 expansion.",
+    "elite_winner_behavior": "Unlocks Land 2 at Steps 120-144.",
+    "behavior_class": "WEALTH_DEPENDENT_EFFECT",
+    "causal_confidence": 0.04,
+    "empirical_occurrence": "54.2% of elite wins",
+    "notes": "FALSIFIED in EXP-0121 (4.3% WR, -$4,069 MCV). Wealth consequence, not cause."
+  },
+  {
+    "dimension": "CROP_PORTFOLIO_DIVERSIFICATION",
+    "apex_behavior": "Pure Strawberry mono-culture (34 plots).",
+    "elite_winner_behavior": "Tri-crop / Dual-crop rotation.",
+    "behavior_class": "CORRELATED_ARTIFACT",
+    "causal_confidence": 0.5,
+    "empirical_occurrence": "68.4% of elite wins",
+    "notes": "FALSIFIED in EXP-0120 (50.0% WR, +$0 MCV). Neutral in paired exact replay."
+  },
+  {
+    "dimension": "PLANTING_TASK_PRIORITY",
+    "apex_behavior": "PLANT at Priority 7.",
+    "elite_winner_behavior": "PLANT at Priority 4/5.",
+    "behavior_class": "INTERNAL_EFFICIENCY_ARTIFACT",
+    "causal_confidence": 0.5,
+    "empirical_occurrence": "Universal in V18",
+    "notes": "FALSIFIED in EXP-0119 (50.0% WR, +$0 MCV). Neutral against real ladder."
+  },
+  {
+    "dimension": "LATE_MILK_TIMING",
+    "apex_behavior": "Milk threshold 4 in late game.",
+    "elite_winner_behavior": "Milk threshold 2.",
+    "behavior_class": "INTERNAL_EFFICIENCY_ARTIFACT",
+    "causal_confidence": 0.5,
+    "empirical_occurrence": "Local telemetry",
+    "notes": "FALSIFIED in EXP-0118 (50.0% WR, -$2 MCV). Neutral against real ladder."
+  },
+  {
+    "dimension": "SUPPLY_COLLAPSE_PRICING",
+    "apex_behavior": "Standard dual-regime gentle rebound.",
+    "elite_winner_behavior": "Suppression of MA sales.",
+    "behavior_class": "FALSIFIED_IN_LEDGER",
+    "causal_confidence": 0.0,
+    "empirical_occurrence": "Exhausted thread",
+    "notes": "FALSIFIED across EXP-0113, EXP-0114, EXP-0115, EXP-0116, EXP-0117."
+  }
+]

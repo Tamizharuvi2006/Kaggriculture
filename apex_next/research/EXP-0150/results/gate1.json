@@ -1,0 +1,1346 @@
+[
+ {
+  "seed": 34083081,
+  "base_mcv": 108560.0,
+  "cand_mcv": 104673.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   111126.0,
+   105994.0
+  ],
+  "cand_mcvs": [
+   102153.0,
+   107193.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9767
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 73332701,
+  "base_mcv": 98743.5,
+  "cand_mcv": 93565.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   98720.0,
+   98767.0
+  ],
+  "cand_mcvs": [
+   93639.0,
+   93492.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.8727
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 75257684,
+  "base_mcv": 69663.5,
+  "cand_mcv": 64538.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   69906.0,
+   69421.0
+  ],
+  "cand_mcvs": [
+   64383.0,
+   64693.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9688
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 77437608,
+  "base_mcv": 70239.0,
+  "cand_mcv": 64994.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   70195.0,
+   70283.0
+  ],
+  "cand_mcvs": [
+   65038.0,
+   64950.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.95
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 139146181,
+  "base_mcv": 89741.5,
+  "cand_mcv": 84044.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   89962.0,
+   89521.0
+  ],
+  "cand_mcvs": [
+   83824.0,
+   84265.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9756
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 306941219,
+  "base_mcv": 125361.0,
+  "cand_mcv": 120814.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   125459.0,
+   125263.0
+  ],
+  "cand_mcvs": [
+   120774.0,
+   120854.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9688
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 440446356,
+  "base_mcv": 64117.5,
+  "cand_mcv": 58837.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   65004.0,
+   63231.0
+  ],
+  "cand_mcvs": [
+   57951.0,
+   59724.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9706
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 461426451,
+  "base_mcv": 75605.5,
+  "cand_mcv": 69834.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   75631.0,
+   75580.0
+  ],
+  "cand_mcvs": [
+   69784.0,
+   69884.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9583
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 488440370,
+  "base_mcv": 99955.5,
+  "cand_mcv": 94774.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   87863.0,
+   112048.0
+  ],
+  "cand_mcvs": [
+   78465.0,
+   111084.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.4878
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 510429962,
+  "base_mcv": 127303.5,
+  "cand_mcv": 124621.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   139567.0,
+   115040.0
+  ],
+  "cand_mcvs": [
+   122790.0,
+   126452.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 542459507,
+  "base_mcv": 64858.0,
+  "cand_mcv": 59272.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   64679.0,
+   65037.0
+  ],
+  "cand_mcvs": [
+   58722.0,
+   59823.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9444
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 564897398,
+  "base_mcv": 73024.0,
+  "cand_mcv": 67607.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   73166.0,
+   72882.0
+  ],
+  "cand_mcvs": [
+   67465.0,
+   67749.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9688
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 569056773,
+  "base_mcv": 52327.5,
+  "cand_mcv": 47462.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   51774.0,
+   52881.0
+  ],
+  "cand_mcvs": [
+   47304.0,
+   47621.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.95
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 576049537,
+  "base_mcv": 107484.5,
+  "cand_mcv": 102915.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   106497.0,
+   108472.0
+  ],
+  "cand_mcvs": [
+   103832.0,
+   101998.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 587897306,
+  "base_mcv": 107228.0,
+  "cand_mcv": 105097.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   108440.0,
+   106016.0
+  ],
+  "cand_mcvs": [
+   113944.0,
+   96250.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.5948
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 658200910,
+  "base_mcv": 121837.0,
+  "cand_mcv": 117051.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   121374.0,
+   122300.0
+  ],
+  "cand_mcvs": [
+   116639.0,
+   117463.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 691498816,
+  "base_mcv": 93438.0,
+  "cand_mcv": 89424.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   93829.0,
+   93047.0
+  ],
+  "cand_mcvs": [
+   89005.0,
+   89844.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9722
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 734781477,
+  "base_mcv": 71260.5,
+  "cand_mcv": 67313.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   70282.0,
+   72239.0
+  ],
+  "cand_mcvs": [
+   68279.0,
+   66347.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9615
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 782177992,
+  "base_mcv": 67928.0,
+  "cand_mcv": 62691.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   72030.0,
+   63826.0
+  ],
+  "cand_mcvs": [
+   66305.0,
+   59078.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9722
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 796515989,
+  "base_mcv": 102043.5,
+  "cand_mcv": 97426.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   101868.0,
+   102219.0
+  ],
+  "cand_mcvs": [
+   97602.0,
+   97251.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.95
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 867203061,
+  "base_mcv": 104969.0,
+  "cand_mcv": 98249.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   104519.0,
+   105419.0
+  ],
+  "cand_mcvs": [
+   97126.0,
+   99373.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.6531
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 959057030,
+  "base_mcv": 80651.5,
+  "cand_mcv": 76162.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   80758.0,
+   80545.0
+  ],
+  "cand_mcvs": [
+   76056.0,
+   76269.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9804
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 986188783,
+  "base_mcv": 98477.5,
+  "cand_mcv": 92687.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   100000.0,
+   96955.0
+  ],
+  "cand_mcvs": [
+   91137.0,
+   94237.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1020435128,
+  "base_mcv": 138869.0,
+  "cand_mcv": 134081.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   138869.0,
+   138869.0
+  ],
+  "cand_mcvs": [
+   134081.0,
+   134081.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9804
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1122424980,
+  "base_mcv": 71355.0,
+  "cand_mcv": 65808.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   71320.0,
+   71390.0
+  ],
+  "cand_mcvs": [
+   65862.0,
+   65754.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9583
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1128060154,
+  "base_mcv": 60531.5,
+  "cand_mcv": 54799.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   60370.0,
+   60693.0
+  ],
+  "cand_mcvs": [
+   54961.0,
+   54638.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9804
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1132297051,
+  "base_mcv": 110212.0,
+  "cand_mcv": 103461.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   109533.0,
+   110891.0
+  ],
+  "cand_mcvs": [
+   104140.0,
+   102782.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.4551
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1151064773,
+  "base_mcv": 46301.0,
+  "cand_mcv": 42056.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   46039.0,
+   46563.0
+  ],
+  "cand_mcvs": [
+   42289.0,
+   41823.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9615
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1155840359,
+  "base_mcv": 66265.5,
+  "cand_mcv": 61003.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   66694.0,
+   65837.0
+  ],
+  "cand_mcvs": [
+   60575.0,
+   61432.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9615
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1169776985,
+  "base_mcv": 63561.0,
+  "cand_mcv": 58917.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   67024.0,
+   60098.0
+  ],
+  "cand_mcvs": [
+   61748.0,
+   56087.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9615
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1184227213,
+  "base_mcv": 56441.0,
+  "cand_mcv": 51407.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   56198.0,
+   56684.0
+  ],
+  "cand_mcvs": [
+   51484.0,
+   51330.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9804
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1265047669,
+  "base_mcv": 60113.5,
+  "cand_mcv": 55929.5,
+  "win_points": 1.0,
+  "base_mcvs": [
+   66784.0,
+   53443.0
+  ],
+  "cand_mcvs": [
+   58287.0,
+   53572.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.4684
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1287165414,
+  "base_mcv": 102992.5,
+  "cand_mcv": 98725.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   103686.0,
+   102299.0
+  ],
+  "cand_mcvs": [
+   98085.0,
+   99366.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9744
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1355497697,
+  "base_mcv": 78131.0,
+  "cand_mcv": 72539.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   79124.0,
+   77138.0
+  ],
+  "cand_mcvs": [
+   71546.0,
+   73532.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1368177654,
+  "base_mcv": 102086.0,
+  "cand_mcv": 97789.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   102086.0,
+   102086.0
+  ],
+  "cand_mcvs": [
+   97789.0,
+   97789.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9583
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1476095595,
+  "base_mcv": 61377.0,
+  "cand_mcv": 57946.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   65864.0,
+   56890.0
+  ],
+  "cand_mcvs": [
+   63616.0,
+   52277.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9787
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1563333838,
+  "base_mcv": 78458.5,
+  "cand_mcv": 72722.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   78648.0,
+   78269.0
+  ],
+  "cand_mcvs": [
+   72528.0,
+   72916.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9583
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1576096163,
+  "base_mcv": 79177.0,
+  "cand_mcv": 73788.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   79435.0,
+   78919.0
+  ],
+  "cand_mcvs": [
+   73438.0,
+   74138.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1679953265,
+  "base_mcv": 78732.5,
+  "cand_mcv": 73086.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   79053.0,
+   78412.0
+  ],
+  "cand_mcvs": [
+   72766.0,
+   73407.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1823833147,
+  "base_mcv": 132423.5,
+  "cand_mcv": 127783.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   132063.0,
+   132784.0
+  ],
+  "cand_mcvs": [
+   128200.0,
+   127366.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1860690344,
+  "base_mcv": 71326.0,
+  "cand_mcv": 66147.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   71316.0,
+   71336.0
+  ],
+  "cand_mcvs": [
+   66090.0,
+   66204.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9545
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1894878184,
+  "base_mcv": 36564.5,
+  "cand_mcv": 31793.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   33824.0,
+   39305.0
+  ],
+  "cand_mcvs": [
+   28644.0,
+   34942.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.9688
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 1980898955,
+  "base_mcv": 64330.5,
+  "cand_mcv": 59609.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   64267.0,
+   64394.0
+  ],
+  "cand_mcvs": [
+   59673.0,
+   59546.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.95
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 2124456858,
+  "base_mcv": 127260.5,
+  "cand_mcv": 122405.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   129496.0,
+   125025.0
+  ],
+  "cand_mcvs": [
+   124326.0,
+   120484.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.4969
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 2135031833,
+  "base_mcv": 88556.5,
+  "cand_mcv": 82545.5,
+  "win_points": 0.0,
+  "base_mcvs": [
+   88725.0,
+   88388.0
+  ],
+  "cand_mcvs": [
+   82377.0,
+   82714.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "MELON",
+    "min_drift3": -0.9
+   }
+  ],
+  "error": null
+ },
+ {
+  "seed": 2135713664,
+  "base_mcv": 110217.5,
+  "cand_mcv": 103015.0,
+  "win_points": 0.0,
+  "base_mcvs": [
+   107208.0,
+   113227.0
+  ],
+  "cand_mcvs": [
+   103562.0,
+   102468.0
+  ],
+  "cand_pass_turns": 92,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [
+   {
+    "product": "STRAWBERRY",
+    "min_drift3": -0.4817
+   },
+   {
+    "product": "MELON",
+    "min_drift3": -0.96
+   }
+  ],
+  "error": null
+ }
+]

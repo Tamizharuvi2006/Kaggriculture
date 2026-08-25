@@ -1,0 +1,62 @@
+[
+  {
+    "model_id": "MODEL_A_8COW_INDUSTRIAL_LIVESTOCK",
+    "name": "8-Cow Industrial Livestock Engine",
+    "concept": "Reinvest Day 12 cash ($3,000) into Pasture 3 (Step 288) + 4 extra Cows (Step 312). Put idle Workers #4, #5, #6 on continuous cow feeding & milk transport.",
+    "steady_state_capacity": "8 Cows + 1 Sheep (32 Milk/Day = $3,200/day daily revenue)",
+    "steady_state_duration": "408 steps (Steps 312 to 720)",
+    "capital_required": "$3,000.00 ($500 Pasture 3 + $2,000 Cows + $500 Feed reserve)",
+    "feed_demand": "16 Wheat/Day (Supported by $400/day feed purchase)",
+    "projected_net_mcv_lift": "+$18,400.00 MCV",
+    "projected_loss_recovery": "42 / 46 loss seeds (91.3%)",
+    "structural_difference": "FUNDAMENTALLY DIFFERENT: Doubles daily recurring milk cashflow from Step 312 to Step 720 (400+ steps)!"
+  },
+  {
+    "model_id": "MODEL_B_16TILE_AUTOMATED_CROP_GRID",
+    "name": "16-Tile Automated Irrigation Grid",
+    "concept": "Unlock Land 3 (SW @ Step 240) and Land 4 (SE @ Step 360). Assign 4 workers to continuous 16-tile crop cultivation.",
+    "steady_state_capacity": "16 Active Strawberry Tiles (16 Strawberries / 2 Days)",
+    "steady_state_duration": "360 steps (Steps 360 to 720)",
+    "capital_required": "$4,000.00 ($2,000 Lands + $1,600 Seeds + $400 Fertilizer)",
+    "feed_demand": "0 Wheat",
+    "projected_net_mcv_lift": "+$9,200.00 MCV",
+    "projected_loss_recovery": "31 / 46 loss seeds (67.4%)",
+    "structural_difference": "FUNDAMENTALLY DIFFERENT: 4-quadrant farming across 360 steps."
+  },
+  {
+    "model_id": "MODEL_C_HYBRID_6COW_8CROP_COMPOUNDING",
+    "name": "Hybrid High-Yield Compounding",
+    "concept": "Scale to 6 Cows (Pasture 3 @ Step 300) + 8 Strawberry Tiles (NW + NE continuous).",
+    "steady_state_capacity": "6 Cows + 8 Strawberry Tiles",
+    "steady_state_duration": "420 steps (Steps 300 to 720)",
+    "capital_required": "$2,200.00",
+    "feed_demand": "12 Wheat/Day",
+    "projected_net_mcv_lift": "+$12,800.00 MCV",
+    "projected_loss_recovery": "38 / 46 loss seeds (82.6%)",
+    "structural_difference": "Balanced multi-sector expansion."
+  },
+  {
+    "model_id": "MODEL_D_FAST_LABOR_EXPANSION",
+    "name": "Fast Labor-First Compounding",
+    "concept": "Hire 10 workers by Day 4, flooding early crop tilling and watering.",
+    "steady_state_capacity": "10 Workers on 8 Tiles",
+    "steady_state_duration": "500 steps",
+    "capital_required": "$1,500.00 + $100/day wages",
+    "feed_demand": "Standard",
+    "projected_net_mcv_lift": "+$3,400.00 MCV",
+    "projected_loss_recovery": "18 / 46 loss seeds (39.1%)",
+    "structural_difference": "Wage drag ($100/day) limits terminal payoff."
+  },
+  {
+    "model_id": "MODEL_E_MARKET_ADAPTIVE_COMMODITY_PIVOT",
+    "name": "Market-Adaptive Commodity Pivot",
+    "concept": "Dynamically switch herd size based on spot milk vs wheat price ratios.",
+    "steady_state_capacity": "Dynamic 4-8 Cows",
+    "steady_state_duration": "Variable",
+    "capital_required": "$2,000.00",
+    "feed_demand": "Dynamic",
+    "projected_net_mcv_lift": "+$4,800.00 MCV",
+    "projected_loss_recovery": "22 / 46 loss seeds (47.8%)",
+    "structural_difference": "Market sensitivity without guaranteed capacity."
+  }
+]

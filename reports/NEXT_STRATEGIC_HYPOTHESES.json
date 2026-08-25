@@ -1,0 +1,38 @@
+[
+  {
+    "rank": 1,
+    "id": "EXP-0148",
+    "name": "DYNAMIC_DAY4_MELON_LIQUIDITY_LAND_ACCELERATION",
+    "origin": "LOSS2POLICY-1 Cluster 1 (47.8% of losses)",
+    "mechanism": "At Step 74, liquidating ripe Melons immediately and buying 6 Strawberry seeds generates $1,000 cash by Step 152, enabling Land 2 purchase 18 steps earlier than baseline Step 170. This unlocks 2 full additional strawberry harvests over the remaining 568 steps.",
+    "competitive_win_condition": "Directly overturns the #1 failure mode in 22 of the 46 ladder losses.",
+    "expected_mcv_lift": "+$1,850.00 to +$3,200.00 MCV",
+    "observability": "100% Legal Internal State",
+    "gpu_required": true,
+    "status": "READY_FOR_PRE_REGISTRATION"
+  },
+  {
+    "rank": 2,
+    "id": "EXP-0149",
+    "name": "WORKER_HOUR22_BACKPACK_FLUSH_ENFORCEMENT",
+    "origin": "LOSS2POLICY-1 Cluster 2 (28.3% of losses)",
+    "mechanism": "Enforce worker shed drop at Hour 22 so ripe strawberries reach the shed before Hour 23 clearance.",
+    "competitive_win_condition": "Eliminates 24-step cash delay in 13 of 46 ladder losses.",
+    "expected_mcv_lift": "+$950.00 to +$1,800.00 MCV",
+    "observability": "100% Legal Internal State",
+    "gpu_required": true,
+    "status": "BACKLOG_RANK_2"
+  },
+  {
+    "rank": 3,
+    "id": "EXP-0150",
+    "name": "CRASH_REGIME_STRAWBERRY_INVENTORY_SHIELD",
+    "origin": "LOSS2POLICY-1 Cluster 3 (15.2% of losses)",
+    "mechanism": "Hold strawberry inventory when spot price is crashing below $90, selling upon mean-reversion.",
+    "competitive_win_condition": "Prevents 30% slippage losses in 7 ladder loss seeds.",
+    "expected_mcv_lift": "+$600.00 to +$1,400.00 MCV",
+    "observability": "100% Public Market State",
+    "gpu_required": true,
+    "status": "BACKLOG_RANK_3"
+  }
+]

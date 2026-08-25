@@ -1,0 +1,15 @@
+{
+  "report_id": "ML_STAGE0_HARDWARE_REPORT",
+  "timestamp": "2026-08-17T17:17:26Z",
+  "cuda_available": true,
+  "device_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "vram_total_gb": 6.0,
+  "vram_free_gb": 5.52,
+  "pytorch_version": "2.6.0+cu124",
+  "engine_throughput_audit": {
+    "synthetic_macro_kernel_games_per_sec": 14498.0,
+    "paired_gpu_v25_full_fidelity_paired_matches_per_sec": 1200.0,
+    "official_reference_cpu_matches_per_sec": 35.0,
+    "clarification": "The 14,498 games/sec metric is a synthetic macro-pricing batch kernel. The full-fidelity simulation engine used for policy training operates at ~1,200 paired matches/sec."
+  }
+}

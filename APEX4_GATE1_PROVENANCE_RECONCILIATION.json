@@ -1,0 +1,64 @@
+{
+  "status": "RECONCILED_BUT_REVALIDATION_BLOCKED",
+  "games_run": false,
+  "gate1_rerun": false,
+  "conclusion": "67.4% was a stale/incorrect projection, not the executed Gate 1 result.",
+  "candidate": {
+    "file": "APEX4_SUBMISSION_FINAL.py",
+    "sha256": "0f3ddc3c5b67999d51508a38361bafe140a9050d7e2e3039ae2ccbc810dff45a"
+  },
+  "baseline": {
+    "file": "submission.py",
+    "sha256": "78738c1b8bad8fbd2f18a29a1caced8dae0a6adacbc02d6e59decc0fdb130cbb",
+    "rollback_matches": true
+  },
+  "seed_manifest": {
+    "source": "reports/live_match_telemetry/apex33_loss_seeds_cache.json",
+    "count": 46,
+    "seat_balanced_matches": 92,
+    "sorted_seed_sha256": "26b4c048112826f5aad19fc95394d5887d8a53137f17550e7d96cc801f8e12ea"
+  },
+  "historical_evaluator": {
+    "runner": "apex_next/research/gate_runner.py",
+    "match_runner": "apex_next/research/match_runner.py",
+    "engine_recorded_as": "kaggle_environments v1.32.6",
+    "episode_steps": 720,
+    "seat_orders_per_seed": 2,
+    "current_local_package_available": false,
+    "installation_attempted": false
+  },
+  "executed_gate1": {
+    "sources": [
+      "apex_next/apex4/results/gate1.json",
+      "apex_next/research/EXP-0155/results/gate1.json"
+    ],
+    "seed_records": 46,
+    "matches": 92,
+    "win_points": 46.0,
+    "win_rate": 0.5,
+    "errors": 0,
+    "threshold": 0.6,
+    "verdict": "FAIL"
+  },
+  "projection": {
+    "value": 0.674,
+    "numerator_denominator": "31/46",
+    "label": "projected loss recovery",
+    "sources": [
+      "apex_next/apex4/research/audit_macro_economic_models.py",
+      "reports/APEX4_MACRO_ECONOMIC_REPORT.md",
+      "reports/APEX4_MACRO_MODELS_ANALYSIS.json",
+      "reports/APEX4_NE_4TILE_FEASIBILITY.md",
+      "reports/APEX4_NE_4TILE_FEASIBILITY.json"
+    ],
+    "executed_gate_result_found": false
+  },
+  "revalidation_prerequisites": [
+    "historical Python/interpreter environment",
+    "kaggle_environments package and engine provenance",
+    "evaluator source/commit hash",
+    "full configuration and candidate hash manifest",
+    "immutable seed manifest attachment"
+  ],
+  "historical_result_policy": "Preserve the 50.0% result unchanged; any future revalidation must be a separate dated artifact."
+}

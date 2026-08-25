@@ -1,0 +1,104 @@
+{
+  "created": "2026-08-22",
+  "workspace": "D:\\Kaggriculture",
+  "mode": "diagnostic_only_read_only",
+  "games_run": 0,
+  "training_run": false,
+  "production_modified": false,
+  "frozen_submission_modified": false,
+  "checkpoint_modified": false,
+  "inventory": {
+    "json": 1156,
+    "py": 762,
+    "md": 346,
+    "npz": 85,
+    "pt": 53,
+    "pyc": 199,
+    "txt": 14,
+    "log": 7,
+    "csv": 2,
+    "jsonl": 2,
+    "ipynb": 1,
+    "zip": 3,
+    "other_or_extensionless": 3
+  },
+  "authoritative_maps": [
+    "KAGGRICULTURE_CURRENT_STATE.md",
+    "KAGGRICULTURE_PROJECT_MAP.md",
+    "DATA_INDEX.md",
+    "BASELINE_CONTRACT.md",
+    "reports/RESEARCH_META_AUDIT.md",
+    "reports/CAUSAL_CONFUNDING_LEDGER.json",
+    "reports/experiment_ledger.jsonl"
+  ],
+  "validated_findings": [
+    "Frozen PPO packaging and research/release trajectory parity passed recorded audits.",
+    "Frozen PPO won all 15 recoverable historical loss replay traces in open-loop replay mode; this does not prove superiority against adaptive source agents.",
+    "Low and high current PPO MCV groups have similar workers, plants, pastures, and 3-land outcomes.",
+    "Current covered sell-value gap high-minus-low is approximately milk +63170, strawberry +50772, wool +3451.",
+    "Current low/high milk realized sell prices average approximately 51 versus 175.",
+    "Prior phases validate endogenous shared-market price pressure and favorable market-regime effects.",
+    "Generic milk holding, broad market preservation, early land expansion, second crop cycles, and solo-only screening were rejected or neutral under stronger gates."
+  ],
+  "rejected_or_do_not_repeat": [
+    "original APEX4.1 synthetic/invalid classifier branch",
+    "V5 modular intent architecture",
+    "V8.3 static strategy",
+    "candidate C Cow 9-10 expansion",
+    "generic milk holding and late milk timing as a blanket fix",
+    "second crop-cycle forcing",
+    "unconditional early Land 2 expansion",
+    "Land #4 implementation as the next change",
+    "unilateral market preservation and broad batch capping",
+    "solo GPU screens without paired shared-market validation",
+    "opponent private-inventory front-running",
+    "town-shop wheat denial",
+    "retraining or random PPO tuning before causal diagnosis"
+  ],
+  "historical_loss_gauntlet": {
+    "recoverable_traces": 15,
+    "horizon_transitions": 719,
+    "ppo_wins": 15,
+    "opponent_mode": "open_loop_historical_replay_trace",
+    "strongest_opponent_mcv_examples": [146972, 99991, 99012, 96365, 94210]
+  },
+  "land_economy": {
+    "current_ppo_traces": 32,
+    "stopped_at_3_lands": 32,
+    "reached_4_lands": 0,
+    "land4_cash_affordable_while_at_3": 32,
+    "conclusion": "Land #4 is affordable but not demonstrated as the cause of the low-MCV tail; prior controlled reports are negative."
+  },
+  "current_market_question": {
+    "partially_answered": [
+      "Market realization, especially milk and strawberry, explains much of the observed high/low gap.",
+      "Shared-market pressure and price opportunity both matter.",
+      "A simple milk delay to a high-price threshold is harmful in the latest dynamic wrapper counterfactual."
+    ],
+    "not_cleanly_answered": [
+      "Exact observable market state causing low milk realization.",
+      "Accepted versus rejected/preempted sell contribution.",
+      "Opponent pressure versus price trend versus clearance-step interaction.",
+      "A baseline-reproducing quantity/reserve-preserving sell-placement counterfactual.",
+      "Milk/strawberry causal coupling."
+    ]
+  },
+  "reusable_cached_artifacts": [
+    "data/replay/mcv_replay_dataset.json",
+    "data/replay/manifest.csv",
+    "reports/step5b/old_loss_gauntlet/raw_replays/",
+    "reports/step5b/old_loss_gauntlet/old_loss_gauntlet_report.json",
+    "reports/step5b/candidate_vs_four_opponents_32.json",
+    "reports/step5b/candidate_full_trajectory_divergence_32.json",
+    "reports/step5b/late_game_economy_audit/",
+    "reports/step5b/market_timing_diagnostic/",
+    "reports/step5b/milk_sell_counterfactual/",
+    "reports/CAUSAL_CONFUNDING_LEDGER.json",
+    "reports/LOSS2POLICY_DATASET.jsonl",
+    "reports/experiment_ledger.jsonl",
+    "reports/step3h/traces/",
+    "reports/step3h/parity/",
+    "reports/step3h/cuda/"
+  ],
+  "decision": "No implementation or new game run is justified by this history review. Consume cached traces first for any future diagnostic."
+}

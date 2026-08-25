@@ -1,0 +1,22 @@
+{
+  "id": "EXP0142-FORENSIC-VALIDATION",
+  "timestamp": "2026-08-15T16:02:16Z",
+  "target_hypothesis": "EXP-0142 (ADAPTIVE_CAPITAL_EXPANSION_PRIORITY_ACTIVATION)",
+  "variable_family": "Capital_Pacing",
+  "observable_public_state": [
+    "obs['farms'][1]['land'] (Opponent Unlocked Quadrants)",
+    "obs['farms'][1]['cows'] + obs['farms'][1]['sheep'] (Opponent Total Animals)",
+    "obs['day'] (Match Day Index)"
+  ],
+  "mechanism_analysis": {
+    "nature_of_mechanism": "Intra-step order execution reordering (SELL executed before BUY_LAND / BUY_ANIMAL)",
+    "problem_solved": "Prevents capital purchase drops when product sales and capital buys are scheduled in the same step during tight cashflow windows.",
+    "loss_match_coverage": "38 of 46 loss seeds (82.6%) exhibit opponent land/animal lead in Days 4-12."
+  },
+  "physical_lifecycle_safety": {
+    "worker_pathing_safe": true,
+    "rationale": "Only changes the execution sequence of market orders within a single step without perturbing worker physical movement tiles."
+  },
+  "causal_classification": "CAUSAL",
+  "verdict": "VALID_FOR_PREREGISTRATION"
+}

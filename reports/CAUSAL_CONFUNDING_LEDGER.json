@@ -1,0 +1,78 @@
+{
+  "id": "CAUSAL-CONFOUNDING-LEDGER-V2",
+  "timestamp": "2026-08-14T22:04:00Z",
+  "summary": "Formal classification of all explored and unexplored macro behaviors in Kaggriculture.",
+  "falsified_internal_families": [
+    {
+      "family": "SUPPLY_COLLAPSE_PRICING",
+      "experiments": [
+        "EXP-0113",
+        "EXP-0114",
+        "EXP-0115",
+        "EXP-0116",
+        "EXP-0117"
+      ],
+      "verdict": "CLOSED"
+    },
+    {
+      "family": "TASK_EXECUTION_TIMING",
+      "experiments": [
+        "EXP-0118 (Milk Timing)",
+        "EXP-0119 (Plant Priority)"
+      ],
+      "verdict": "CLOSED_NEUTRAL"
+    },
+    {
+      "family": "CROP_PORTFOLIO_DIVERSIFICATION",
+      "experiments": [
+        "EXP-0120 (Tri-Crop)"
+      ],
+      "verdict": "CLOSED_NEUTRAL"
+    },
+    {
+      "family": "UNCONDITIONAL_EARLY_LAND_EXPANSION",
+      "experiments": [
+        "EXP-0121 (Early Land 2)"
+      ],
+      "verdict": "CLOSED_HARMFUL (4.3% WR, -$4,069 MCV)"
+    },
+    {
+      "family": "LAND_EXPANSION_PACING",
+      "experiments": [
+        "EXP-0121 (Unconditional)",
+        "EXP-0124 (Solvency-Gated)"
+      ],
+      "verdict": "PERMANENTLY_CLOSED",
+      "causal_conclusion": "Early expansion is catastrophic when insolvent (EXP-0121: 4.3% WR, -$4,069 MCV) and exactly neutral when solvent (EXP-0124: 50.0% WR, -$94 MCV). Land expansion timing itself is not a competitive edge against elite opponents."
+    }
+  ],
+  "open_causal_families": [
+    {
+      "family": "OPPONENT_REFLEXIVE_MARKET_PREEMPTION",
+      "status": "OPEN_PRIMARY",
+      "rationale": "Direct game-theoretic front-running in shared order book. When opponent has full shed, liquidating 1 step earlier avoids 8.5% price crash."
+    },
+    {
+      "family": "TOWN_SHOP_FEED_DENIAL",
+      "status": "OPEN_SECONDARY",
+      "rationale": "Resource deprivation in shared zero-sum shop pool on Days 4-8."
+    },
+    {
+      "family": "REFLEXIVE_LAND_CAPITAL_PRESERVATION",
+      "status": "OPEN_TERTIARY",
+      "rationale": "Dynamic land expansion with strict $600 wage/seed solvency reserve."
+    }
+  ],
+  "invalid_mechanisms": [
+    {
+      "family": "OPPONENT_PRIVATE_INVENTORY",
+      "experiment": "EXP-0122",
+      "reason": "Shed inventory is strictly private to opponent."
+    },
+    {
+      "family": "TOWN_WHEAT_DENIAL",
+      "experiment": "EXP-0123",
+      "reason": "Town pool size is 10,000 units ($250k capital needed to exhaust)."
+    }
+  ]
+}

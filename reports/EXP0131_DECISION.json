@@ -1,0 +1,11 @@
+{
+  "id": "EXP0131-DECISION",
+  "timestamp": "2026-08-15T14:34:28Z",
+  "experiment_id": "EXP-0131",
+  "screening_verdict": "FALSIFIED_GPU",
+  "best_candidate": "CAND-131-02",
+  "best_paired_wr": 0.5,
+  "best_delta_mcv": 0.0,
+  "gate1_qualified": false,
+  "rationale": "Terminal wheat purchase clamping yields 50.0% paired win rate vs baseline because baseline already achieves optimal milk production."
+}

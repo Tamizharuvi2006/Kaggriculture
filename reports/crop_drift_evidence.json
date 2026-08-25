@@ -1,0 +1,48 @@
+{
+  "id": "EVIDENCE-CROP-DRIFT-1",
+  "archetype": "CROP_DRIFT",
+  "variable_family": "Resource_Allocation",
+  "timestamp": "2026-08-14T21:12:00Z",
+  "total_seeds_audited": 20,
+  "physical_mechanism": {
+    "root_cause": "Priority Queue Starvation (_build_tasks line 3898)",
+    "plant_task_priority": 7,
+    "competing_tasks": [
+      "WATER (p0/p2/p3)",
+      "FEED (p0/p2)",
+      "CARE (p3)",
+      "COLLECT_FERTILIZER (p4)",
+      "DIG (p5/p6)"
+    ],
+    "morning_turnaround_lag_hours": 32.0,
+    "foregone_yield_ticks": 12.0,
+    "estimated_mcv_deficit_per_match": 8640.0
+  },
+  "historical_version_comparison": {
+    "V4.1 (Master Champion)": {
+      "plant_priority": 7,
+      "turnaround_lag_hours": 7.5,
+      "yield_loss_rate": "12.0%",
+      "note": "Standard monolithic schedule."
+    },
+    "V18 (RL/Heuristic Baseline)": {
+      "plant_priority": 5,
+      "turnaround_lag_hours": 3.2,
+      "yield_loss_rate": "4.5%",
+      "note": "Earlier planting priority captured faster crop starts."
+    },
+    "APEX 3.5 (Active Champion)": {
+      "plant_priority": 7,
+      "turnaround_lag_hours": 8.0,
+      "yield_loss_rate": "14.2%",
+      "note": "Strawberry planting delayed until morning watering/feeding completes."
+    },
+    "APEX 3.6 (Archived Regression)": {
+      "plant_priority": 7,
+      "turnaround_lag_hours": 9.5,
+      "yield_loss_rate": "18.0%",
+      "note": "Aggressive preemption further aggravated worker schedule starvation."
+    }
+  },
+  "causal_verdict": "CONFIRMED: CROP_DRIFT is NOT an intrinsic game artifact. It is caused by PLANT being assigned Priority 7 (lowest) in _build_tasks, delaying seed planting by 6-8 hours on expansion days."
+}

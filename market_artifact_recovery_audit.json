@@ -1,0 +1,52 @@
+{
+  "date": "2026-08-22",
+  "mode": "read_only_artifact_audit",
+  "games_run": 0,
+  "training_run": false,
+  "production_modified": false,
+  "frozen_submission_modified": false,
+  "verdict": "recoverable_offline_from_existing_raw_replays",
+  "raw_sources": [
+    "reports/step5b/old_loss_gauntlet/raw_replays/*/episode-*-replay.json",
+    "data/replay/mcv_replay_dataset.json",
+    "research/build_mcv_replay_dataset.py",
+    "research/replay_parser.py",
+    "reports/step3h/traces/step3h_real_action_traces/",
+    "data/logs/episode-90744327-agent-0-logs.json"
+  ],
+  "native_raw_replay_schema": {
+    "top_level": ["configuration", "info", "rewards", "statuses", "steps"],
+    "per_player_step": ["action", "info", "observation", "reward", "status"],
+    "configuration_fields_confirmed": ["maxMarketOrdersPerTurn", "townCenterSellInterval", "episodeSteps"],
+    "observation_fields_confirmed": ["farms", "market", "private", "day", "hour", "step", "town"]
+  },
+  "recoverability": {
+    "opponent_market_actions": "direct",
+    "queue_position": "direct_from_market_action_list_index",
+    "cash_before": "direct",
+    "cash_after": "direct_from_next_observation",
+    "inventory_before": "direct",
+    "inventory_after": "direct_from_next_observation",
+    "state_before": "direct",
+    "state_after": "direct_from_next_observation",
+    "decision_price": "direct",
+    "post_clearance_price": "direct_from_next_observation",
+    "accepted_rejected": "reconstructable_from_state_deltas",
+    "preempted": "inferable_only_not_native",
+    "exact_order_proceeds": "partially_reconstructable_due_to_same_step_multi_order_attribution"
+  },
+  "derived_cache_limitation": {
+    "file": "data/replay/mcv_replay_dataset.json",
+    "sampling": "steps 50 through 640 every 10 steps",
+    "retained": ["cash", "inventory", "market_prices", "executed_market_action", "downstream_wealth", "final_wealth"],
+    "missing_for_exact_forensics": ["full adjacent transitions", "both player action alignment", "native outcome flags"]
+  },
+  "decision": {
+    "new_game_run_needed_for_observability": false,
+    "offline_extraction_possible": true,
+    "new_diagnostic_system_authorized": false,
+    "frozen_ppo_boundary": "unchanged",
+    "land4_boundary": "unchanged_and_not_supported",
+    "milk_delay_boundary": "rejected"
+  }
+}

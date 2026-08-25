@@ -1,0 +1,968 @@
+[
+ {
+  "seed": 34083081,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 73332701,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 75257684,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 77437608,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 139146181,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 306941219,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 440446356,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 461426451,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 488440370,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 510429962,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 542459507,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 564897398,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 569056773,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 576049537,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 587897306,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 658200910,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 691498816,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 734781477,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 782177992,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 796515989,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 867203061,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 959057030,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 986188783,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1020435128,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1122424980,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1128060154,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1132297051,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1151064773,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1155840359,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1169776985,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1184227213,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1265047669,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1287165414,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1355497697,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1368177654,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1476095595,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1563333838,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1576096163,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1679953265,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1823833147,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1860690344,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1894878184,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 1980898955,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 2124456858,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 2135031833,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ },
+ {
+  "seed": 2135713664,
+  "base_mcv": 0.0,
+  "cand_mcv": 0.0,
+  "win_points": 1.0,
+  "base_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_mcvs": [
+   0.0,
+   0.0
+  ],
+  "cand_pass_turns": 0,
+  "added_pass_turns": 0,
+  "cand_suppressed_orders": 0,
+  "cand_latency_mean_ms": 0.0,
+  "cand_latency_max_ms": 0.0,
+  "regime_tags": [],
+  "error": null
+ }
+]

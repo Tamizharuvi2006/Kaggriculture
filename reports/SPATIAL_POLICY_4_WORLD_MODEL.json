@@ -1,0 +1,45 @@
+{
+  "id": "SPATIAL-POLICY-4-WORLD-MODEL",
+  "timestamp": "2026-08-15T17:12:56Z",
+  "total_steps": 720,
+  "critical_milestones_count": 242,
+  "macro_semantic_rules": [
+    {
+      "phase": "PHASE_A_EARLY_GAME",
+      "step_window": "Steps 74 - 170",
+      "semantic_rule": "DYNAMIC_DAY4_LIQUIDITY_LAND_ACCELERATION",
+      "trigger": "step == 75 and Shed['MELON'] >= 6 -> SELL MELON 6 + BUY STRAWBERRY 6 -> BUY_LAND @ Step 152",
+      "worker_allocation": "Lock Hands 0, 1, 2, 3 (Pasture 2 @ 159). Allocate unreserved Hand 4/5 to till/plant SW quadrant.",
+      "static_behavior": "Static schedule waits until Step 170; workers PASS 15 ticks on NW quadrant.",
+      "economic_lift": "+$2,240.00 MCV",
+      "coverage_losses": "22 / 46 seeds (47.8%)"
+    },
+    {
+      "phase": "PHASE_B_MID_GAME",
+      "step_window": "Steps 280 - 450",
+      "semantic_rule": "HOUR22_BACKPACK_DROP_ENFORCEMENT",
+      "trigger": "hour == 22 and worker carrying >= 2 strawberries/milk -> Route worker to Shed and DROP before Hour 23 clearance",
+      "worker_allocation": "Only overrides workers within Manhattan distance <= 2 of shed carrying ripe inventory.",
+      "static_behavior": "Workers hold strawberries in backpacks overnight, missing high Hour 23 market prices ($142).",
+      "economic_lift": "+$1,250.00 MCV",
+      "coverage_losses": "13 / 46 seeds (28.3%)"
+    },
+    {
+      "phase": "PHASE_C_LATE_GAME",
+      "step_window": "Steps 672 - 719",
+      "semantic_rule": "TERMINAL_FEED_CONSERVATION",
+      "trigger": "step >= 672 and town_wheat_price >= $28 and shed_wheat >= required_feed -> HALT_TOWN_WHEAT",
+      "worker_allocation": "Feeds cows from reserve shed inventory, zero town market spend.",
+      "static_behavior": "Static schedule buys town wheat at inflated spot prices.",
+      "economic_lift": "+$450.00 MCV",
+      "coverage_losses": "11 / 46 seeds (23.9%)"
+    }
+  ],
+  "unified_macro_controller": {
+    "name": "MACRO_SEMANTIC_COORDINATOR",
+    "architecture": "Task Dependency Graph + Critical Milestone Protection + Full-Game Execution Layer",
+    "fallback": "_FIXED_SCHEDULE_B85 (Preserved 100% when no semantic condition triggers)",
+    "expected_overall_recovery_rate": "76.1% on 46 Ladder Losses (35 / 46 seeds converted to wins)",
+    "expected_mcv_lift": "+$3,940.00 MCV"
+  }
+}

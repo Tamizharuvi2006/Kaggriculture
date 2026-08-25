@@ -1,0 +1,657 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "scope": "read-only frozen PPO transfer-value audit",
+  "games_run": false,
+  "ppo_training_run": false,
+  "probe_fit": "offline supervised probes only; frozen PPO weights unchanged",
+  "dataset_rows": 28760,
+  "enriched_rows": 28760,
+  "checkpoint": "reports\\step5b\\PPO_CANDIDATE_FROZEN_32SEED.pt",
+  "checkpoint_sha256": "5dfe80c7c91c485420b1cf4a3b848bf15ed114ec7dbff5bc1a898646507654ad",
+  "numpy_export": "apex_next\\ml_engine\\deployment\\step5b_numpy_inference.py",
+  "export_manifest": {
+    "status": "EXPORTED",
+    "output": "apex_next\\ml_engine\\deployment\\step5b_numpy_inference.py",
+    "selector_checkpoint": "reports\\step5b\\PPO_CANDIDATE_FROZEN_32SEED.pt",
+    "classifier_checkpoint": "apex_next\\ml_engine\\checkpoints\\opponent_classifier\\opponent_classifier.pt",
+    "numpy_dependency_only": true,
+    "decision_step": 120,
+    "control_bounds": [
+      -0.25,
+      0.25
+    ]
+  },
+  "representation": {
+    "input_dim": 133,
+    "shared_hidden_dim": 32,
+    "output_dim": 4,
+    "outputs": [
+      "u_market",
+      "u_route",
+      "confidence",
+      "value"
+    ]
+  },
+  "evaluation": {
+    "all_steps": {
+      "scope": "all_steps",
+      "train_rows": 23008,
+      "validation_rows": 5752,
+      "targets": {
+        "adverse_milk": {
+          "status": "PASS",
+          "probes": {
+            "ppo_hidden32": {
+              "n": 5752,
+              "positive_rate": 0.16411682892906815,
+              "accuracy": 0.8049374130737135,
+              "balanced_accuracy": 0.5087319157336643,
+              "brier": 0.13823219137500548,
+              "ece": 0.03859972729377225,
+              "auc": 0.6979251124538199,
+              "confusion": {
+                "tn": 4566,
+                "fp": 242,
+                "fn": 880,
+                "tp": 64
+              }
+            },
+            "ppo_outputs4": {
+              "n": 5752,
+              "positive_rate": 0.16411682892906815,
+              "accuracy": 0.8358831710709318,
+              "balanced_accuracy": 0.5,
+              "brier": 0.13750841309292508,
+              "ece": 0.008050476321712133,
+              "auc": 0.5027511968047604,
+              "confusion": {
+                "tn": 4808,
+                "fp": 0,
+                "fn": 944,
+                "tp": 0
+              }
+            },
+            "price_trend_baseline": {
+              "n": 5752,
+              "positive_rate": 0.16411682892906815,
+              "accuracy": 0.8355354659248957,
+              "balanced_accuracy": 0.5100080374517048,
+              "brier": 0.12978382260653856,
+              "ece": 0.06532348901446791,
+              "auc": 0.7007465928960207,
+              "confusion": {
+                "tn": 4782,
+                "fp": 26,
+                "fn": 920,
+                "tp": 24
+              }
+            }
+          }
+        },
+        "favorable_milk": {
+          "status": "PASS",
+          "probes": {
+            "ppo_hidden32": {
+              "n": 5752,
+              "positive_rate": 0.1995827538247566,
+              "accuracy": 0.803894297635605,
+              "balanced_accuracy": 0.5404238701689487,
+              "brier": 0.13540537044401102,
+              "ece": 0.09414252035730074,
+              "auc": 0.8446898546030266,
+              "confusion": {
+                "tn": 4507,
+                "fp": 97,
+                "fn": 1031,
+                "tp": 117
+              }
+            },
+            "ppo_outputs4": {
+              "n": 5752,
+              "positive_rate": 0.1995827538247566,
+              "accuracy": 0.8004172461752433,
+              "balanced_accuracy": 0.5,
+              "brier": 0.16379413046774247,
+              "ece": 0.057698000228837434,
+              "auc": 0.4958578285205714,
+              "confusion": {
+                "tn": 4604,
+                "fp": 0,
+                "fn": 1148,
+                "tp": 0
+              }
+            },
+            "price_trend_baseline": {
+              "n": 5752,
+              "positive_rate": 0.1995827538247566,
+              "accuracy": 0.7990264255910987,
+              "balanced_accuracy": 0.50370833421627,
+              "brier": 0.1284612934405387,
+              "ece": 0.056917487497644914,
+              "auc": 0.8088686704789352,
+              "confusion": {
+                "tn": 4582,
+                "fp": 22,
+                "fn": 1134,
+                "tp": 14
+              }
+            }
+          }
+        },
+        "adverse_strawberry": {
+          "status": "PASS",
+          "probes": {
+            "ppo_hidden32": {
+              "n": 5752,
+              "positive_rate": 0.07614742698191933,
+              "accuracy": 0.9132475660639777,
+              "balanced_accuracy": 0.5539657456911441,
+              "brier": 0.06728680659925476,
+              "ece": 0.07500938234486487,
+              "auc": 0.9213338420266617,
+              "confusion": {
+                "tn": 5196,
+                "fp": 118,
+                "fn": 381,
+                "tp": 57
+              }
+            },
+            "ppo_outputs4": {
+              "n": 5752,
+              "positive_rate": 0.07614742698191933,
+              "accuracy": 0.9238525730180807,
+              "balanced_accuracy": 0.5,
+              "brier": 0.07097309938058928,
+              "ece": 0.021308070968290793,
+              "auc": 0.48231216584777353,
+              "confusion": {
+                "tn": 5314,
+                "fp": 0,
+                "fn": 438,
+                "tp": 0
+              }
+            },
+            "price_trend_baseline": {
+              "n": 5752,
+              "positive_rate": 0.07614742698191933,
+              "accuracy": 0.8991655076495132,
+              "balanced_accuracy": 0.5201578324164824,
+              "brier": 0.05523366745946551,
+              "ece": 0.07830509293086034,
+              "auc": 0.9112510590617015,
+              "confusion": {
+                "tn": 5140,
+                "fp": 174,
+                "fn": 406,
+                "tp": 32
+              }
+            }
+          }
+        },
+        "favorable_strawberry": {
+          "status": "PASS",
+          "probes": {
+            "ppo_hidden32": {
+              "n": 5752,
+              "positive_rate": 0.052503477051460364,
+              "accuracy": 0.9471488178025035,
+              "balanced_accuracy": 0.6217996233063977,
+              "brier": 0.046906520023489516,
+              "ece": 0.058136975166185996,
+              "auc": 0.9423719545537396,
+              "confusion": {
+                "tn": 5370,
+                "fp": 80,
+                "fn": 224,
+                "tp": 78
+              }
+            },
+            "ppo_outputs4": {
+              "n": 5752,
+              "positive_rate": 0.052503477051460364,
+              "accuracy": 0.9474965229485396,
+              "balanced_accuracy": 0.5,
+              "brier": 0.049907259294340686,
+              "ece": 0.010384545818612735,
+              "auc": 0.5446223950422261,
+              "confusion": {
+                "tn": 5450,
+                "fp": 0,
+                "fn": 302,
+                "tp": 0
+              }
+            },
+            "price_trend_baseline": {
+              "n": 5752,
+              "positive_rate": 0.052503477051460364,
+              "accuracy": 0.9474965229485396,
+              "balanced_accuracy": 0.5,
+              "brier": 0.03719782968171373,
+              "ece": 0.06455042131138117,
+              "auc": 0.9760258824958989,
+              "confusion": {
+                "tn": 5450,
+                "fp": 0,
+                "fn": 302,
+                "tp": 0
+              }
+            }
+          }
+        },
+        "adverse_wool": {
+          "status": "PASS",
+          "probes": {
+            "ppo_hidden32": {
+              "n": 5752,
+              "positive_rate": 0.06467315716272601,
+              "accuracy": 0.935326842837274,
+              "balanced_accuracy": 0.5,
+              "brier": 0.05779627405962326,
+              "ece": 0.06538291986338864,
+              "auc": 0.8667081384658433,
+              "confusion": {
+                "tn": 5380,
+                "fp": 0,
+                "fn": 372,
+                "tp": 0
+              }
+            },
+            "ppo_outputs4": {
+              "n": 5752,
+              "positive_rate": 0.06467315716272601,
+              "accuracy": 0.935326842837274,
+              "balanced_accuracy": 0.5,
+              "brier": 0.06307297474938299,
+              "ece": 0.05111953373183833,
+              "auc": 0.5264120398129272,
+              "confusion": {
+                "tn": 5380,
+                "fp": 0,
+                "fn": 372,
+                "tp": 0
+              }
+            },
+            "price_trend_baseline": {
+              "n": 5752,
+              "positive_rate": 0.06467315716272601,
+              "accuracy": 0.935326842837274,
+              "balanced_accuracy": 0.5,
+              "brier": 0.05512744465306193,
+              "ece": 0.07948405056052198,
+              "auc": 0.867381180797058,
+              "confusion": {
+                "tn": 5380,
+                "fp": 0,
+                "fn": 372,
+                "tp": 0
+              }
+            }
+          }
+        },
+        "favorable_wool": {
+          "status": "PASS",
+          "probes": {
+            "ppo_hidden32": {
+              "n": 5752,
+              "positive_rate": 0.004172461752433936,
+              "accuracy": 0.9895688456189151,
+              "balanced_accuracy": 0.49685754189944137,
+              "brier": 0.019316306944204834,
+              "ece": 0.09913449401029745,
+              "auc": 0.7387904445996276,
+              "confusion": {
+                "tn": 5692,
+                "fp": 36,
+                "fn": 24,
+                "tp": 0
+              }
+            },
+            "ppo_outputs4": {
+              "n": 5752,
+              "positive_rate": 0.004172461752433936,
+              "accuracy": 0.9958275382475661,
+              "balanced_accuracy": 0.5,
+              "brier": 0.01041146446065413,
+              "ece": 0.07817579444174502,
+              "auc": 0.5191457169459963,
+              "confusion": {
+                "tn": 5728,
+                "fp": 0,
+                "fn": 24,
+                "tp": 0
+              }
+            },
+            "price_trend_baseline": {
+              "n": 5752,
+              "positive_rate": 0.004172461752433936,
+              "accuracy": 0.9958275382475661,
+              "balanced_accuracy": 0.5,
+              "brier": 0.012408170988456048,
+              "ece": 0.07926545134490769,
+              "auc": 0.9247919576350093,
+              "confusion": {
+                "tn": 5728,
+                "fp": 0,
+                "fn": 24,
+                "tp": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "decision_step_120": {
+      "scope": "decision_step_120",
+      "train_rows": 32,
+      "validation_rows": 8,
+      "targets": {
+        "adverse_milk": {
+          "status": "PASS",
+          "probes": {
+            "ppo_hidden32": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            },
+            "ppo_outputs4": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            },
+            "price_trend_baseline": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            }
+          }
+        },
+        "favorable_milk": {
+          "status": "PASS",
+          "probes": {
+            "ppo_hidden32": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            },
+            "ppo_outputs4": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            },
+            "price_trend_baseline": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            }
+          }
+        },
+        "adverse_strawberry": {
+          "status": "PASS",
+          "probes": {
+            "ppo_hidden32": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            },
+            "ppo_outputs4": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            },
+            "price_trend_baseline": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            }
+          }
+        },
+        "favorable_strawberry": {
+          "status": "PASS",
+          "probes": {
+            "ppo_hidden32": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            },
+            "ppo_outputs4": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            },
+            "price_trend_baseline": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            }
+          }
+        },
+        "adverse_wool": {
+          "status": "PASS",
+          "probes": {
+            "ppo_hidden32": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            },
+            "ppo_outputs4": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            },
+            "price_trend_baseline": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            }
+          }
+        },
+        "favorable_wool": {
+          "status": "PASS",
+          "probes": {
+            "ppo_hidden32": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            },
+            "ppo_outputs4": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            },
+            "price_trend_baseline": {
+              "n": 8,
+              "positive_rate": 0.0,
+              "accuracy": 1.0,
+              "balanced_accuracy": 0.5,
+              "brier": 0.0018892662417441908,
+              "ece": 0.04346569039764801,
+              "auc": null,
+              "confusion": {
+                "tn": 8,
+                "fp": 0,
+                "fn": 0,
+                "tp": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "limitations": [
+    "This is predictive transfer evidence, not causal policy evidence.",
+    "The PPO was trained for a step-120 control decision; all-step results are descriptive and the step-120 slice is the relevant view.",
+    "The dataset labels next-clearance price movement, not accepted/rejected market execution or terminal wealth improvement.",
+    "The probes are fit for measurement only and are not exported as production models."
+  ]
+}
