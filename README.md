@@ -549,6 +549,13 @@ python -m kaggle competitions submit -c kaggriculture -f submission.py -m "Varia
 | **EXP082** | [`experiments/exp082_final_wave_event_audit.py`](file:///D:/kaggriculture/experiments/exp082_final_wave_event_audit.py) | Final-Wave Micro-Event Audit | `CLOSED` |
 | **EXP083** | [`experiments/exp083_shadow_market_analyzer.py`](file:///D:/kaggriculture/experiments/exp083_shadow_market_analyzer.py) | Shadow Market-Interaction Analyzer | `DIAGNOSTIC` |
 | **EXP084** | [`experiments/exp084_total_pie_decomposition.py`](file:///D:/kaggriculture/experiments/exp084_total_pie_decomposition.py) | Total Economic Pie Decomposition | `VALIDATED` |
+| **EXP085** | [`experiments/exp085_market_share_loss_decomposition.py`](file:///D:/kaggriculture/experiments/exp085_market_share_loss_decomposition.py) | Competitive Market-Share Loss Decomposition | `VALIDATED` |
+| **EXP086** | [`experiments/exp086_top_agent_signature_mining.py`](file:///D:/kaggriculture/experiments/exp086_top_agent_signature_mining.py) | Top-Agent Signature Mining | `VALIDATED` |
+| **EXP087** | [`experiments/exp087_strategic_archetype_duopoly_audit.py`](file:///D:/kaggriculture/experiments/exp087_strategic_archetype_duopoly_audit.py) | Strategic Archetype Duopoly Audit | `VALIDATED` |
+| **EXP088** | [`experiments/exp088_cross_commodity_opponent_fingerprint.py`](file:///D:/kaggriculture/experiments/exp088_cross_commodity_opponent_fingerprint.py) | Cross-Commodity Demand Spectrum Audit | `DIAGNOSTIC` |
+| **EXP089** | [`experiments/exp089_opponent_commodity_ledger.py`](file:///D:/kaggriculture/experiments/exp089_opponent_commodity_ledger.py) | Opponent Commodity Ledger & Revenue Attribution | `VALIDATED` |
+| **EXP090** | [`experiments/exp090_net_contribution_by_commodity.py`](file:///D:/kaggriculture/experiments/exp090_net_contribution_by_commodity.py) | Net Economic Contribution by Commodity | `VALIDATED` |
+| **EXP091** | [`experiments/exp091_irreversible_divergence_settlement.py`](file:///D:/kaggriculture/experiments/exp091_irreversible_divergence_settlement.py) | Real Irreversible Divergence & Settlement Audit | `VALIDATED` |
 
 ---
 
@@ -575,15 +582,29 @@ Through exhaustive empirical investigation across the live Kaggle ladder network
 - **Fixed Sell-Delay Cadence**: Falsified in EXP080 ($0 alpha across +2, +4, +6, +8 step delays; 0.0% simultaneous sell collisions).
 - **Endgame Liquidation Hacks**: Closed in EXP082. Both `Variant D.1` and top opponents sell continuously up to Step 719, leave 0 stranded shed inventory, and leave identical 7-crop unharvested tile residues.
 
+---
+
+## 23. Production-Closure Checkpoint & Institutional Ground Truth (EXP085–EXP091)
+
+> [!IMPORTANT]
+> ### 🏛️ Canonical Institutional Ground Truth
+> **The production architecture is empirically validated at the saturated physical frontier.**
+>
+> Remaining live-ladder variance has not been fully reduced to a single causal mechanism; the tested evidence increasingly points away from a production-capacity defect and toward opponent-specific / shared-market interaction:
+> - **Real Live Defeat Matches**: When facing asymmetric live ladder opponents playing non-symmetric crop portfolios (e.g. Melons or high-price vegetables), the market clears asymmetrically based on cross-commodity town demand.
+> - **Controlled Saturated Benchmark Replays**: On the exact identical seeds, when `Variant D.1` faces a saturated peer, `Variant D.1` consistently leads and wins with **+$800 to +$5,000 surplus margins**.
+> - **Net Profit Dominance**: In the audited tournament holdouts, `Variant D.1` delivers **+$40,250.40 (+16.5%) higher true net profit** after seed and cow amortization than the saturated baseline (81.9% strawberry net margin, 96.9% dairy milk net margin).
+
 ```text
 ===================================================================================================
                              🏆 FINAL VERDICT & PERMANENT STATE
 ===================================================================================================
 • Production Architecture: Variant D.1 (submission.py) ── 100% LOCKED AND FROZEN 🔒
 • Physical Footprint     : 3 Quadrants (48 Arable Tiles: NW, NE, SW)
-• Crop Engine            : 38 Synchronized Strawberries ($160/tile NPV)
-• Livestock Engine       : 8 Dairy Cows ($1,280/day Continuous Cashflow)
-• Labor Force            : 13 Dedicated Workers (100% Continuous Watering)
-• Liquidation Buffer     : Step 696 (24-Step Queue Drain, 0 Stranded Units)
+• Crop Engine            : 38 Synchronized Strawberries ($160/tile NPV, 81.9% Net Margin)
+• Livestock Engine       : 8 Dairy Cows ($1,280/day Milk Cashflow, 96.9% Net Margin)
+• Labor Force            : 13 Dedicated Workers (100% Continuous Watering Saturation)
+• Liquidation Buffer     : Step 696 (24-Step Minimax Queue Drain, 0 Stranded Units)
+• Research Corpus        : 91 Master Experiments (EXP001–EXP091)
 ===================================================================================================
 ```
