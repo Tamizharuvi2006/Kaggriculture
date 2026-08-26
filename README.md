@@ -59,6 +59,21 @@ Throughout this project's research, four distinct classes of evaluation data are
 
 ## 2. Current Production Champion — Variant D.1
 
+> [!IMPORTANT]
+> ### 🏛️ Canonical Economic Model: Two-Dimensional Wealth Realization
+> `Variant D.1` is **NOT** optimized for a fixed terminal coin value (e.g. attempting to force $150k every match).
+>
+> `Variant D.1` is engineered to:
+> - **Maximize physical production** (38 strawberries + 8 dairy cows + 13 workers).
+> - **Maximize reliable market-share capture** (50.1%–52.0% in duopolies, 65.4%+ in asymmetric matches).
+> - **Preserve the zero-lag harvest → sell → reinvest pipeline** (0 dropped ticks).
+> - **Survive low-demand seeds** (~$110k total economic pie).
+> - **Exploit asymmetric opponents** (+$30k to +$104k margins).
+> - **Remain competitive in saturated duopolies** (+$5.3k average surplus margin).
+>
+> Terminal match wealth is fundamentally defined as:
+> $$\text{Terminal Wealth} \approx \text{Total Economic Pie (Seed Town Demand)} \times \text{D.1 Market Share Capture}$$
+
 **Variant D.1** is the fully converged, empirical production champion of the Kaggriculture project. It represents the structural optimization of the APEX architecture, stripping away speculative heuristic layers in favor of pure, synchronized physical throughput.
 
 ```mermaid
