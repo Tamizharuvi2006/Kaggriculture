@@ -521,3 +521,54 @@ python -m kaggle competitions submit -c kaggriculture -f submission.py -m "Varia
 | **EXP069** | [`experiments/exp069_loss_replay_gauntlet.py`](file:///D:/kaggriculture/experiments/exp069_loss_replay_gauntlet.py) | Local Replay Loss Gauntlet | `VALIDATED` |
 | **EXP070** | [`experiments/exp070_comprehensive_all_loss_gauntlet.py`](file:///D:/kaggriculture/experiments/exp070_comprehensive_all_loss_gauntlet.py) | Live Telemetry Loss Gauntlet | `VALIDATED` |
 | **EXP071** | [`experiments/exp071_all_10_submissions_loss_gauntlet.py`](file:///D:/kaggriculture/experiments/exp071_all_10_submissions_loss_gauntlet.py) | Universal 10-Submission Gauntlet | `VALIDATED` |
+| **EXP072** | [`experiments/analyze_d1_live_telemetry.py`](file:///D:/kaggriculture/experiments/analyze_d1_live_telemetry.py) | Live Telemetry & Opponent Audit | `DIAGNOSTIC` |
+| **EXP073** | [`experiments/forensic_d1_losses.py`](file:///D:/kaggriculture/experiments/forensic_d1_losses.py) | Master Forensic Loss Autopsy | `DIAGNOSTIC` |
+| **EXP074** | [`experiments/hunt_top_leaderboard_replays.py`](file:///D:/kaggriculture/experiments/hunt_top_leaderboard_replays.py) | Live Leaderboard Crawler | `DIAGNOSTIC` |
+| **EXP075** | [`experiments/crawl_top_3100_replays.py`](file:///D:/kaggriculture/experiments/crawl_top_3100_replays.py) | Recursive Grandmaster Match Crawler | `DIAGNOSTIC` |
+| **EXP076** | [`experiments/reverse_engineer_3000_grandmaster.py`](file:///D:/kaggriculture/experiments/reverse_engineer_3000_grandmaster.py) | 3000-Elo Replay Reverse-Engineering | `DIAGNOSTIC` |
+| **EXP077** | [`experiments/test_gm_seed_886661034.py`](file:///D:/kaggriculture/experiments/test_gm_seed_886661034.py) | #1 Grandmaster Match Replay | `VALIDATED` |
+| **EXP078** | [`experiments/exp078_top_grandmaster_fingerprint.py`](file:///D:/kaggriculture/experiments/exp078_top_grandmaster_fingerprint.py) | Top-10 Grandmaster Archetype Audit | `VALIDATED` |
+| **EXP079** | [`experiments/exp079_first_divergence_audit.py`](file:///D:/kaggriculture/experiments/exp079_first_divergence_audit.py) | True Grandmaster Head-to-Head & Divergence | `VALIDATED` |
+| **EXP080** | [`experiments/exp080_market_cadence_counterfactual.py`](file:///D:/kaggriculture/experiments/exp080_market_cadence_counterfactual.py) | Market-Cadence Counterfactual Probe | `CLOSED` |
+| **EXP081** | [`experiments/exp081_live_loss_trajectory_decomposition.py`](file:///D:/kaggriculture/experiments/exp081_live_loss_trajectory_decomposition.py) | Live Defeat Trajectory Decomposition | `VALIDATED` |
+| **EXP082** | [`experiments/exp082_final_wave_event_audit.py`](file:///D:/kaggriculture/experiments/exp082_final_wave_event_audit.py) | Final-Wave Micro-Event Audit | `CLOSED` |
+| **EXP083** | [`experiments/exp083_shadow_market_analyzer.py`](file:///D:/kaggriculture/experiments/exp083_shadow_market_analyzer.py) | Shadow Market-Interaction Analyzer | `DIAGNOSTIC` |
+| **EXP084** | [`experiments/exp084_total_pie_decomposition.py`](file:///D:/kaggriculture/experiments/exp084_total_pie_decomposition.py) | Total Economic Pie Decomposition | `VALIDATED` |
+
+---
+
+## 22. Grandmaster Macroeconomic Insights & Total Pie Decomposition (EXP072–EXP084)
+
+Through exhaustive empirical investigation across the live Kaggle ladder network (4,149 agents, 1,972 high-tier matches) and 84 formal experiments, the macroeconomic principles of elite competition were established:
+
+### 1. The Two Orthogonal Dimensions of Match Realization
+1. **Dimension 1 — Total Shared Economic Pie ($E_{\text{total}}$)**:
+   - Determined by the match seed's inherent town market demand curve ($E_{\text{total}} \in [\$109\text{k}, \$220\text{k}]$).
+   - In low-demand seeds, the town absorbs ~\$110k total across 720 steps (both players receive ~\$55k).
+   - In high-demand seeds, the town absorbs ~\$220k (both players receive ~\$110k).
+   - Absolute coin variance reflects seed demand capacity, not agent agricultural execution.
+2. **Dimension 2 — Market Share Capture ($S_{\text{D.1}}$)**:
+   - **Competitive Duopoly Regime**: In symmetric duopolies against saturated 1000–1200+ Elo agents, `Variant D.1` captures **50.1% to 52.0% of the total shared pie** (+$5,350 mean margin), propelled by a +14.3% physical strawberry volume edge and 8-cow zero-lag milk cashflow.
+   - **Asymmetric Monopoly Regime**: Against sub-saturated ladder opponents, `Variant D.1` captures **65.4% to 90%+ of the total pie** (+$30,000 to +$104,000+ victory margins).
+
+### 2. The 3000-Elo Rating Reality
+- The #1 player on the Kaggle leaderboard (`Tagir Analyzes`, 3014.8 Elo) holds a **70.5% live win rate** and **\$87.9k mean match reward** over 120+ matches (not 99% or $300k).
+- Top Elo ratings emerge from high match-volume conversion across the casual/intermediate ladder combined with small +$5k–$8k margins in saturated duopolies.
+
+### 3. Falsification of Endgame and Cadence Levers
+- **Opening Acceleration**: Falsified in EXP079. `Variant D.1` maintains near-$0 idle capital from Day 1 to Day 5; opening liquidity pipeline is already at physical minimum.
+- **Fixed Sell-Delay Cadence**: Falsified in EXP080 ($0 alpha across +2, +4, +6, +8 step delays; 0.0% simultaneous sell collisions).
+- **Endgame Liquidation Hacks**: Closed in EXP082. Both `Variant D.1` and top opponents sell continuously up to Step 719, leave 0 stranded shed inventory, and leave identical 7-crop unharvested tile residues.
+
+```text
+===================================================================================================
+                             🏆 FINAL VERDICT & PERMANENT STATE
+===================================================================================================
+• Production Architecture: Variant D.1 (submission.py) ── 100% LOCKED AND FROZEN 🔒
+• Physical Footprint     : 3 Quadrants (48 Arable Tiles: NW, NE, SW)
+• Crop Engine            : 38 Synchronized Strawberries ($160/tile NPV)
+• Livestock Engine       : 8 Dairy Cows ($1,280/day Continuous Cashflow)
+• Labor Force            : 13 Dedicated Workers (100% Continuous Watering)
+• Liquidation Buffer     : Step 696 (24-Step Queue Drain, 0 Stranded Units)
+===================================================================================================
+```
