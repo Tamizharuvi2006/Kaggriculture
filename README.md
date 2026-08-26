@@ -458,6 +458,8 @@ Any future AI agent or human engineer working on this repository MUST strictly o
 13. **Document All Failures**: Log every failed experiment and the exact physical/economic mechanism of failure in the graveyard.
 14. **Preserve Reproducibility**: Record exact seeds, seats, configurations, and commit hashes for all experimental runs.
 15. **Never Delete Historical Replay Artifacts**: Maintain the integrity of historical match telemetry datasets.
+16. **D.1 is the Permanent Production Control & Benchmark**: `Variant D.1` is the locked production control and the benchmark against which every future architecture must prove itself. Do not modify `submission.py` merely because a new hypothesis sounds plausible.
+17. **Strict Research Trigger Requirement**: Do not build a `Candidate D.2` casually. A new candidate cycle may only be initiated upon observing **10+ fresh live ladder losses** sharing a common opponent archetype, market state, divergence step, and verified causal mechanism.
 
 ---
 
