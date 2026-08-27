@@ -1,11 +1,12 @@
-"""Candidate D.2-A: Configurable Signal Ablation Engine.
+"""Candidate D.2-A: Step 120 Land-2 Adaptive Melon Hedge Engine.
 
-Supports 5 Ablation Configurations:
-- Mode 'A' (S1 only): Opponent Portfolio Divergence (>= 1 non-strawberry crop/item).
-- Mode 'B' (S1 + S2): Opponent Portfolio + Strawberry Price <= $125.
-- Mode 'C' (S1 + S3): Opponent Portfolio + Melon Price >= $210.
-- Mode 'D' (S2 + S3): Macro Price Divergence only (P_straw <= $120 AND P_melon >= $220).
-- Mode 'E' (S1 + S2 + S3): Strict 3-signal conjunction.
+Implements the EXP106 Early Decision Boundary (t* = Step 120 / Day 5):
+- At Step 120 (when Land #2 is acquired):
+  Checks macro spawn price ratio: P_melon / P_straw >= 1.85.
+- If and ONLY if condition met:
+  Allocates a small hedge (4 or 8 plots) on Land #2 to high-margin Melons.
+- Otherwise:
+  Remains 100% monolithic Variant D.1 (38 Strawberries + 8 Cows + 13 Workers).
 """
 from __future__ import annotations
 from typing import Dict, Any, Optional
@@ -14,94 +15,82 @@ import copy
 from engine.agent import VariantDAgent
 
 class CandidateD2AsymmetricAgent(VariantDAgent):
-    """Candidate D.2-A: Signal Ablation Agent."""
+    """Candidate D.2-A: Step 120 Adaptive Hedge Agent."""
 
-    def __init__(self, mode: str = "A"):
+    def __init__(self, hedge_plots: int = 4, force_off: bool = False):
         super().__init__()
-        self.mode = mode.upper()  # 'A', 'B', 'C', 'D', 'E'
-        self.asymmetric_active = False
+        self.hedge_plots = hedge_plots
+        self.force_off = force_off
+        self.hedge_active = False
         self.melon_seeds_bought = 0
         self.melon_plots_planted = 0
 
-    def evaluate_signals(self, raw_obs: Dict[str, Any]):
-        step = int(raw_obs.get("step", 0) if isinstance(raw_obs, dict) else getattr(raw_obs, "step", 0) or 0)
-        if step < 72 or step > 480:
-            self.asymmetric_active = False
+    def evaluate_step120_trigger(self, raw_obs: Dict[str, Any]):
+        if self.force_off or self.hedge_plots <= 0:
+            self.hedge_active = False
             return
 
-        # S1: Opponent Portfolio Divergence
-        farms = raw_obs.get("farms", [])
-        opp_farm = farms[1] if len(farms) > 1 else {}
-        opp_inventory = opp_farm.get("inventory", {}) if isinstance(opp_farm, dict) else {}
-        opp_plots = opp_farm.get("plots", []) if isinstance(opp_farm, dict) else []
+        step = int(raw_obs.get("step", 0) if isinstance(raw_obs, dict) else getattr(raw_obs, "step", 0) or 0)
+        
+        # We latch the decision at the Step 120 decision boundary (Steps 72 to 192)
+        if step < 72:
+            return
 
-        non_straw_count = 0
-        for p in opp_plots:
-            if isinstance(p, dict):
-                crop_type = p.get("crop_type") or p.get("crop")
-                if crop_type and crop_type not in ["STRAWBERRY", 1, "strawberry", None]:
-                    non_straw_count += 1
-
-        has_alt_inv = any(opp_inventory.get(k, 0) > 0 for k in ["MELON", "MELON_SEED", "TOMATO", "TOMATO_SEED", 3, 2])
-        s1 = (non_straw_count >= 1 or has_alt_inv)
-
-        # S2 & S3: Macro Price Signals
         market = raw_obs.get("market", {}) if isinstance(raw_obs, dict) else {}
         prices = market.get("prices", {}) if isinstance(market, dict) else {}
         p_straw = float(prices.get("STRAWBERRY", prices.get(1, 120.0)) if isinstance(prices, dict) else 120.0)
         p_melon = float(prices.get("MELON", prices.get(3, 220.0)) if isinstance(prices, dict) else 220.0)
 
-        s2 = (p_straw <= 125.0)
-        s3 = (p_melon >= 210.0)
+        ratio = p_melon / p_straw if p_straw > 0 else 1.0
 
-        # Evaluate Mode
-        if self.mode == "A":
-            self.asymmetric_active = s1
-        elif self.mode == "B":
-            self.asymmetric_active = (s1 and s2)
-        elif self.mode == "C":
-            self.asymmetric_active = (s1 and s3)
-        elif self.mode == "D":
-            self.asymmetric_active = (s2 and s3)
-        elif self.mode == "E":
-            self.asymmetric_active = (s1 and s2 and s3)
+        # High-precision ratio threshold from EXP106 (>= 1.85x)
+        if ratio >= 1.85 and p_melon >= 240.0:
+            self.hedge_active = True
         else:
-            self.asymmetric_active = False
+            if step <= 144:
+                self.hedge_active = False
 
     def act(self, raw_obs: Dict[str, Any], raw_config: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
-        self.evaluate_signals(raw_obs)
+        self.evaluate_step120_trigger(raw_obs)
         base_act = super().act(raw_obs, raw_config)
 
-        if not self.asymmetric_active:
+        if not self.hedge_active:
             return base_act
 
         act = copy.deepcopy(base_act)
+        step = int(raw_obs.get("step", 0) if isinstance(raw_obs, dict) else getattr(raw_obs, "step", 0) or 0)
+
         farms = raw_obs.get("farms", [])
         my_farm = farms[0] if farms else {}
         money = float(my_farm.get("money", 0.0))
         inventory = my_farm.get("inventory", {})
 
         melon_seeds = inventory.get("MELON_SEED", inventory.get(3, 0)) if isinstance(inventory, dict) else 0
-        if melon_seeds < 4 and money >= 200.0 and self.melon_seeds_bought < 4:
-            orders = act.get("market_orders", [])
-            has_melon_order = any(o.get("item") in ["MELON_SEED", 3, "melon_seed"] for o in orders if isinstance(o, dict))
-            if not has_melon_order:
-                orders.append({"action": "BUY", "item": "MELON_SEED", "quantity": 4})
-                act["market_orders"] = orders
-                self.melon_seeds_bought += 4
 
-        workers = act.get("worker_orders", [])
-        for w_act in workers:
-            if isinstance(w_act, dict) and self.melon_plots_planted < 4:
-                tool = w_act.get("tool") or w_act.get("item")
-                if tool in ["STRAWBERRY_SEED", 1, "strawberry_seed"] and melon_seeds > 0:
-                    w_act["tool"] = "MELON_SEED"
-                    w_act["item"] = "MELON_SEED"
-                    self.melon_plots_planted += 1
+        # Step 120-200: Procure Melon seeds for Land #2
+        if 96 <= step <= 240:
+            if melon_seeds < self.hedge_plots and money >= 200.0 and self.melon_seeds_bought < self.hedge_plots:
+                needed = self.hedge_plots - self.melon_seeds_bought
+                orders = act.get("market_orders", [])
+                has_melon_order = any(o.get("item") in ["MELON_SEED", 3, "melon_seed"] for o in orders if isinstance(o, dict))
+                if not has_melon_order:
+                    orders.append({"action": "BUY", "item": "MELON_SEED", "quantity": needed})
+                    act["market_orders"] = orders
+                    self.melon_seeds_bought += needed
+
+            # Divert Land #2 strawberry plantings to Melons
+            workers = act.get("worker_orders", [])
+            for w_act in workers:
+                if isinstance(w_act, dict) and self.melon_plots_planted < self.hedge_plots:
+                    tool = w_act.get("tool") or w_act.get("item")
+                    if tool in ["STRAWBERRY_SEED", 1, "strawberry_seed"] and melon_seeds > 0:
+                        w_act["tool"] = "MELON_SEED"
+                        w_act["item"] = "MELON_SEED"
+                        self.melon_plots_planted += 1
 
         return act
 
 def agent(obs, configuration=None):
     if not hasattr(agent, "_instance"):
-        agent._instance = CandidateD2AsymmetricAgent(mode="A")
+        agent._instance = CandidateD2AsymmetricAgent(hedge_plots=4, force_off=False)
     return agent._instance.act(obs, configuration)
