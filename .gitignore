@@ -8,6 +8,8 @@ __pycache__/
 scratch/test_sandbox/
 
 # Datasets and replay archives
+datasets/
+bootstrap_v4/
 competitive_intelligence/
 manifest.csv
 mcv_replay_dataset.json
@@ -27,3 +29,4 @@ apex_next/ml_engine/data/
 reports/live_match_telemetry/all_loss_replays_cache/
 reports/live_match_telemetry/apex35_replays/
 *.ipynb
+
