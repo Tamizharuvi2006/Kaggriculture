@@ -1,0 +1,4662 @@
+[
+  {
+    "episode_id": 93332287,
+    "cluster": 87,
+    "elite_seat": 0,
+    "seed": null,
+    "elite_terminal_reward": 125352.0,
+    "d1_terminal_reward": 125299.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 22.0,
+      "d1_hands": 2,
+      "elite_hands": 5,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 48,
+      "LIVESTOCK_SELECTION_OR_TIMING": 13,
+      "MARKET_SELLING_CADENCE": 274,
+      "FARMER_MICRO_PATHING": 234,
+      "CROP_SEED_PORTFOLIO": 112,
+      "WORKER_TASK_ALLOCATION": 34,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 53.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 23.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 491.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 49.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 639.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 179.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 445.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 1546.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 19
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 16955.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 20313.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 37400.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 50902.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 84736.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 34
+        },
+        "elite": {
+          "money": 91952.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 29
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 124575.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 122653.0,
+          "hands": 8,
+          "cows": 10,
+          "strawberries": 3
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 93351245,
+    "cluster": 87,
+    "elite_seat": 1,
+    "seed": null,
+    "elite_terminal_reward": 95861.0,
+    "d1_terminal_reward": 143529.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 22.0,
+      "d1_hands": 2,
+      "elite_hands": 5,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 48,
+      "LIVESTOCK_SELECTION_OR_TIMING": 13,
+      "MARKET_SELLING_CADENCE": 272,
+      "FARMER_MICRO_PATHING": 235,
+      "CROP_SEED_PORTFOLIO": 112,
+      "WORKER_TASK_ALLOCATION": 35,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 53.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 23.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 491.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 49.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 639.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 179.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 303.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 1199.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 19
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 18696.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 38
+        },
+        "elite": {
+          "money": 18594.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 44558.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 38
+        },
+        "elite": {
+          "money": 41708.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 95262.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 32
+        },
+        "elite": {
+          "money": 71046.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 29
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 142865.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 5
+        },
+        "elite": {
+          "money": 94184.0,
+          "hands": 8,
+          "cows": 10,
+          "strawberries": 3
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 93441990,
+    "cluster": 87,
+    "elite_seat": 0,
+    "seed": null,
+    "elite_terminal_reward": 98954.0,
+    "d1_terminal_reward": 106904.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 22.0,
+      "d1_hands": 2,
+      "elite_hands": 5,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 48,
+      "LIVESTOCK_SELECTION_OR_TIMING": 13,
+      "MARKET_SELLING_CADENCE": 273,
+      "FARMER_MICRO_PATHING": 235,
+      "CROP_SEED_PORTFOLIO": 112,
+      "WORKER_TASK_ALLOCATION": 34,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 53.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 23.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 491.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 49.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 639.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 176.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 463.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 1519.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 19
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 19378.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 19748.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 41963.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 46859.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 77326.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 34
+        },
+        "elite": {
+          "money": 79673.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 29
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 106904.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 97770.0,
+          "hands": 8,
+          "cows": 10,
+          "strawberries": 3
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 93505279,
+    "cluster": 59,
+    "elite_seat": 1,
+    "seed": null,
+    "elite_terminal_reward": 82773.0,
+    "d1_terminal_reward": 138832.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 22.0,
+      "d1_hands": 2,
+      "elite_hands": 5,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 49,
+      "LIVESTOCK_SELECTION_OR_TIMING": 13,
+      "MARKET_SELLING_CADENCE": 326,
+      "FARMER_MICRO_PATHING": 200,
+      "CROP_SEED_PORTFOLIO": 100,
+      "WORKER_TASK_ALLOCATION": 27,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 53.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 23.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 491.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 49.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 639.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 146.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 135.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 2402.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 19
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 16515.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 38
+        },
+        "elite": {
+          "money": 21357.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 39875.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 38
+        },
+        "elite": {
+          "money": 47443.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 87981.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 32
+        },
+        "elite": {
+          "money": 65938.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 28
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 137992.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 82398.0,
+          "hands": 9,
+          "cows": 10,
+          "strawberries": 3
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 93508839,
+    "cluster": 59,
+    "elite_seat": 0,
+    "seed": null,
+    "elite_terminal_reward": 110399.0,
+    "d1_terminal_reward": 132842.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 22.0,
+      "d1_hands": 2,
+      "elite_hands": 5,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 49,
+      "LIVESTOCK_SELECTION_OR_TIMING": 13,
+      "MARKET_SELLING_CADENCE": 326,
+      "FARMER_MICRO_PATHING": 194,
+      "CROP_SEED_PORTFOLIO": 106,
+      "WORKER_TASK_ALLOCATION": 27,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 53.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 23.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 491.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 49.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 639.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 146.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 444.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 1911.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 19
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 19375.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 19743.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 45869.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 43480.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 93194.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 34
+        },
+        "elite": {
+          "money": 87147.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 28
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 132626.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 110108.0,
+          "hands": 9,
+          "cows": 10,
+          "strawberries": 3
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 93510620,
+    "cluster": 59,
+    "elite_seat": 1,
+    "seed": null,
+    "elite_terminal_reward": 74912.0,
+    "d1_terminal_reward": 164872.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 25.0,
+      "d1_hands": 2,
+      "elite_hands": 5,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 49,
+      "LIVESTOCK_SELECTION_OR_TIMING": 13,
+      "MARKET_SELLING_CADENCE": 325,
+      "FARMER_MICRO_PATHING": 195,
+      "CROP_SEED_PORTFOLIO": 106,
+      "WORKER_TASK_ALLOCATION": 27,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 51.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 22.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 489.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 48.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 637.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 147.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 1089.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 2431.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 19
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 21703.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 21169.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 51282.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 43480.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 108664.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 34
+        },
+        "elite": {
+          "money": 60200.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 28
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 164077.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 74657.0,
+          "hands": 9,
+          "cows": 10,
+          "strawberries": 3
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 92733633,
+    "cluster": 84,
+    "elite_seat": 0,
+    "seed": null,
+    "elite_terminal_reward": 79312.0,
+    "d1_terminal_reward": 129457.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 3.0,
+      "d1_hands": 2,
+      "elite_hands": 4,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 63,
+      "LIVESTOCK_SELECTION_OR_TIMING": 12,
+      "MARKET_SELLING_CADENCE": 282,
+      "FARMER_MICRO_PATHING": 257,
+      "CROP_SEED_PORTFOLIO": 76,
+      "WORKER_TASK_ALLOCATION": 25,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 45.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 9.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 488.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 16.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 628.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 369.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 3
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 266.0,
+          "hands": 0,
+          "cows": 5,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 2722.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 20
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 18120.0,
+          "hands": 0,
+          "cows": 7,
+          "strawberries": 39
+        },
+        "elite": {
+          "money": 16995.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 36
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 40298.0,
+          "hands": 0,
+          "cows": 7,
+          "strawberries": 39
+        },
+        "elite": {
+          "money": 39329.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 33
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 87452.0,
+          "hands": 0,
+          "cows": 7,
+          "strawberries": 33
+        },
+        "elite": {
+          "money": 60438.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 16
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 128637.0,
+          "hands": 2,
+          "cows": 7,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 79141.0,
+          "hands": 10,
+          "cows": 8,
+          "strawberries": 0
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 92739218,
+    "cluster": 84,
+    "elite_seat": 0,
+    "seed": null,
+    "elite_terminal_reward": 95125.0,
+    "d1_terminal_reward": 94740.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 3.0,
+      "d1_hands": 2,
+      "elite_hands": 4,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 63,
+      "LIVESTOCK_SELECTION_OR_TIMING": 12,
+      "MARKET_SELLING_CADENCE": 278,
+      "FARMER_MICRO_PATHING": 261,
+      "CROP_SEED_PORTFOLIO": 76,
+      "WORKER_TASK_ALLOCATION": 25,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 45.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 9.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 489.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 18.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 628.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 373.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 3
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 53.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 2596.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 20
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 11747.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 39
+        },
+        "elite": {
+          "money": 12896.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 36
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 28292.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 39
+        },
+        "elite": {
+          "money": 41487.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 33
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 62013.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 33
+        },
+        "elite": {
+          "money": 69194.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 16
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 93950.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 94873.0,
+          "hands": 10,
+          "cows": 8,
+          "strawberries": 0
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 92741996,
+    "cluster": 84,
+    "elite_seat": 1,
+    "seed": null,
+    "elite_terminal_reward": 87446.0,
+    "d1_terminal_reward": 119071.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 3.0,
+      "d1_hands": 2,
+      "elite_hands": 4,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 63,
+      "LIVESTOCK_SELECTION_OR_TIMING": 12,
+      "MARKET_SELLING_CADENCE": 279,
+      "FARMER_MICRO_PATHING": 260,
+      "CROP_SEED_PORTFOLIO": 76,
+      "WORKER_TASK_ALLOCATION": 25,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 45.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 9.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 489.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 18.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 628.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 371.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 3
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 843.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 2311.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 20
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 16073.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 39
+        },
+        "elite": {
+          "money": 10882.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 36
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 37936.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 39
+        },
+        "elite": {
+          "money": 27666.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 33
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 82165.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 33
+        },
+        "elite": {
+          "money": 66248.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 16
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 118538.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 87194.0,
+          "hands": 10,
+          "cows": 8,
+          "strawberries": 0
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 93317864,
+    "cluster": 76,
+    "elite_seat": 0,
+    "seed": null,
+    "elite_terminal_reward": 87001.0,
+    "d1_terminal_reward": 147305.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 22.0,
+      "d1_hands": 2,
+      "elite_hands": 5,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 48,
+      "LIVESTOCK_SELECTION_OR_TIMING": 13,
+      "MARKET_SELLING_CADENCE": 274,
+      "FARMER_MICRO_PATHING": 234,
+      "CROP_SEED_PORTFOLIO": 112,
+      "WORKER_TASK_ALLOCATION": 34,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 53.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 23.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 491.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 49.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 638.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 176.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 901.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 1396.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 19
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 20789.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 38
+        },
+        "elite": {
+          "money": 19027.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 47919.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 38
+        },
+        "elite": {
+          "money": 42094.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 98775.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 32
+        },
+        "elite": {
+          "money": 73689.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 29
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 146608.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 5
+        },
+        "elite": {
+          "money": 85853.0,
+          "hands": 8,
+          "cows": 10,
+          "strawberries": 3
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 93325055,
+    "cluster": 76,
+    "elite_seat": 1,
+    "seed": null,
+    "elite_terminal_reward": 99031.0,
+    "d1_terminal_reward": 119560.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 22.0,
+      "d1_hands": 2,
+      "elite_hands": 5,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 48,
+      "LIVESTOCK_SELECTION_OR_TIMING": 13,
+      "MARKET_SELLING_CADENCE": 271,
+      "FARMER_MICRO_PATHING": 237,
+      "CROP_SEED_PORTFOLIO": 112,
+      "WORKER_TASK_ALLOCATION": 34,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 51.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 22.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 489.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 48.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 637.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 173.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 804.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 1392.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 19
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 18088.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 18609.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 38261.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 40116.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 82042.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 34
+        },
+        "elite": {
+          "money": 75594.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 29
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 118886.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 98163.0,
+          "hands": 8,
+          "cows": 10,
+          "strawberries": 3
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 93327766,
+    "cluster": 76,
+    "elite_seat": 0,
+    "seed": null,
+    "elite_terminal_reward": 55286.0,
+    "d1_terminal_reward": 68126.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 22.0,
+      "d1_hands": 2,
+      "elite_hands": 5,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 48,
+      "LIVESTOCK_SELECTION_OR_TIMING": 13,
+      "MARKET_SELLING_CADENCE": 267,
+      "FARMER_MICRO_PATHING": 241,
+      "CROP_SEED_PORTFOLIO": 112,
+      "WORKER_TASK_ALLOCATION": 34,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 53.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 23.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 491.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 49.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 639.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 176.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 421.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 828.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 19
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 18326.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 39
+        },
+        "elite": {
+          "money": 16298.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 37082.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 39
+        },
+        "elite": {
+          "money": 31369.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 38
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 51266.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 33
+        },
+        "elite": {
+          "money": 45000.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 29
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 68126.0,
+          "hands": 2,
+          "cows": 7,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 54765.0,
+          "hands": 8,
+          "cows": 10,
+          "strawberries": 3
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 92630265,
+    "cluster": 73,
+    "elite_seat": 0,
+    "seed": null,
+    "elite_terminal_reward": 100561.0,
+    "d1_terminal_reward": 127425.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 3.0,
+      "d1_hands": 2,
+      "elite_hands": 4,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 63,
+      "LIVESTOCK_SELECTION_OR_TIMING": 12,
+      "MARKET_SELLING_CADENCE": 292,
+      "FARMER_MICRO_PATHING": 249,
+      "CROP_SEED_PORTFOLIO": 76,
+      "WORKER_TASK_ALLOCATION": 23,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 45.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 9.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 489.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 18.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 628.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 373.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 3
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 1148.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 2595.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 20
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 21726.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 15242.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 36
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 48161.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 50109.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 33
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 87502.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 34
+        },
+        "elite": {
+          "money": 77140.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 16
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 126748.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 100414.0,
+          "hands": 10,
+          "cows": 8,
+          "strawberries": 0
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 92631200,
+    "cluster": 73,
+    "elite_seat": 0,
+    "seed": null,
+    "elite_terminal_reward": 91462.0,
+    "d1_terminal_reward": 98192.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 3.0,
+      "d1_hands": 2,
+      "elite_hands": 4,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 63,
+      "LIVESTOCK_SELECTION_OR_TIMING": 12,
+      "MARKET_SELLING_CADENCE": 293,
+      "FARMER_MICRO_PATHING": 248,
+      "CROP_SEED_PORTFOLIO": 76,
+      "WORKER_TASK_ALLOCATION": 23,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 45.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 9.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 489.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 18.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 628.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 371.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 3
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 568.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 2927.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 19
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 14477.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 16501.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 35
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 34197.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 47268.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 32
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 71916.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 34
+        },
+        "elite": {
+          "money": 70596.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 16
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 97712.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 91259.0,
+          "hands": 10,
+          "cows": 8,
+          "strawberries": 0
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 92635901,
+    "cluster": 73,
+    "elite_seat": 1,
+    "seed": null,
+    "elite_terminal_reward": 100953.0,
+    "d1_terminal_reward": 135618.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 3.0,
+      "d1_hands": 2,
+      "elite_hands": 4,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 63,
+      "LIVESTOCK_SELECTION_OR_TIMING": 12,
+      "MARKET_SELLING_CADENCE": 292,
+      "FARMER_MICRO_PATHING": 250,
+      "CROP_SEED_PORTFOLIO": 76,
+      "WORKER_TASK_ALLOCATION": 22,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 45.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 9.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 489.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 18.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 628.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 371.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 3
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 1106.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 2626.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 20
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 21911.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 12863.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 36
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 49169.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 41162.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 33
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 94368.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 34
+        },
+        "elite": {
+          "money": 73707.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 16
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 135049.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 100701.0,
+          "hands": 10,
+          "cows": 8,
+          "strawberries": 0
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 91760174,
+    "cluster": 51,
+    "elite_seat": 0,
+    "seed": null,
+    "elite_terminal_reward": 115171.0,
+    "d1_terminal_reward": 129977.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 12.0,
+      "d1_hands": 2,
+      "elite_hands": 4,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 63,
+      "LIVESTOCK_SELECTION_OR_TIMING": 13,
+      "MARKET_SELLING_CADENCE": 270,
+      "FARMER_MICRO_PATHING": 252,
+      "CROP_SEED_PORTFOLIO": 81,
+      "WORKER_TASK_ALLOCATION": 36,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 49.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 20.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 489.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 187.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 627.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 658.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 3
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 1258.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 2298.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 20
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 21894.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 11913.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 31
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 48974.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 38041.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 28
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 93105.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 34
+        },
+        "elite": {
+          "money": 82544.0,
+          "hands": 0,
+          "cows": 9,
+          "strawberries": 11
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 129476.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 114614.0,
+          "hands": 10,
+          "cows": 9,
+          "strawberries": 0
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 91763966,
+    "cluster": 51,
+    "elite_seat": 1,
+    "seed": null,
+    "elite_terminal_reward": 142993.0,
+    "d1_terminal_reward": 120694.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 12.0,
+      "d1_hands": 2,
+      "elite_hands": 4,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 63,
+      "LIVESTOCK_SELECTION_OR_TIMING": 13,
+      "MARKET_SELLING_CADENCE": 270,
+      "FARMER_MICRO_PATHING": 254,
+      "CROP_SEED_PORTFOLIO": 81,
+      "WORKER_TASK_ALLOCATION": 34,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 49.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 20.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 489.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 187.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 627.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 658.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 3
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 1131.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 2405.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 20
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 15518.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 12299.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 32
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 37083.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 45876.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 29
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 81119.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 34
+        },
+        "elite": {
+          "money": 102290.0,
+          "hands": 0,
+          "cows": 9,
+          "strawberries": 12
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 119968.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 142678.0,
+          "hands": 10,
+          "cows": 9,
+          "strawberries": 0
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 91764902,
+    "cluster": 51,
+    "elite_seat": 0,
+    "seed": null,
+    "elite_terminal_reward": 62765.0,
+    "d1_terminal_reward": 49536.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 12.0,
+      "d1_hands": 2,
+      "elite_hands": 4,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 63,
+      "LIVESTOCK_SELECTION_OR_TIMING": 13,
+      "MARKET_SELLING_CADENCE": 271,
+      "FARMER_MICRO_PATHING": 252,
+      "CROP_SEED_PORTFOLIO": 81,
+      "WORKER_TASK_ALLOCATION": 35,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 49.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 20.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 489.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 187.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 627.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 658.0,
+          "hands": 0,
+          "cows": 1,
+          "strawberries": 3
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 475.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 2303.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 20
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 17378.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 11849.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 31
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 31750.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 31230.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 28
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 37834.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 34
+        },
+        "elite": {
+          "money": 52565.0,
+          "hands": 0,
+          "cows": 9,
+          "strawberries": 11
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 49536.0,
+          "hands": 2,
+          "cows": 6,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 62435.0,
+          "hands": 10,
+          "cows": 9,
+          "strawberries": 0
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 93180220,
+    "cluster": 95,
+    "elite_seat": 0,
+    "seed": null,
+    "elite_terminal_reward": 58501.0,
+    "d1_terminal_reward": 132453.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 22.0,
+      "d1_hands": 2,
+      "elite_hands": 5,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 50,
+      "LIVESTOCK_SELECTION_OR_TIMING": 12,
+      "MARKET_SELLING_CADENCE": 280,
+      "FARMER_MICRO_PATHING": 236,
+      "CROP_SEED_PORTFOLIO": 105,
+      "WORKER_TASK_ALLOCATION": 32,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 53.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 23.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 491.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 49.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 639.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 159.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 996.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 1617.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 11
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 18722.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 16490.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 33
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 43322.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 40
+        },
+        "elite": {
+          "money": 26563.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 33
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 91807.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 34
+        },
+        "elite": {
+          "money": 46711.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 25
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 132237.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 58265.0,
+          "hands": 8,
+          "cows": 10,
+          "strawberries": 0
+        }
+      }
+    }
+  },
+  {
+    "episode_id": 93191911,
+    "cluster": 95,
+    "elite_seat": 0,
+    "seed": null,
+    "elite_terminal_reward": 81594.0,
+    "d1_terminal_reward": 151186.0,
+    "first_action_divergence": {
+      "step": 0,
+      "day": 1,
+      "hour": 0,
+      "category": "WORKER_HIRING_RAMP",
+      "act_d1": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": [
+          [
+            "HIRE"
+          ],
+          [
+            "HIRE"
+          ],
+          [
+            "BUY_ANIMAL",
+            "COW",
+            1
+          ],
+          [
+            "BUY_SEED",
+            "MELON",
+            6
+          ],
+          [
+            "BUY_SEED",
+            "WHEAT",
+            6
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            3
+          ],
+          [
+            "SELL",
+            "WHEAT",
+            1
+          ]
+        ]
+      },
+      "act_elite": {
+        "farmer": [
+          "PASS"
+        ],
+        "hands": [],
+        "market": []
+      }
+    },
+    "first_state_divergence": {
+      "step": 1,
+      "day": 1,
+      "hour": 1,
+      "d1_money": 2058.0,
+      "elite_money": 22.0,
+      "d1_hands": 2,
+      "elite_hands": 5,
+      "d1_cows": 0,
+      "elite_cows": 0,
+      "d1_crops": {},
+      "elite_crops": {}
+    },
+    "divergences_by_day": {
+      "Day_01": 24,
+      "Day_02": 24,
+      "Day_03": 24,
+      "Day_04": 24,
+      "Day_05": 24,
+      "Day_06": 24,
+      "Day_07": 24,
+      "Day_08": 24,
+      "Day_09": 24,
+      "Day_10": 24,
+      "Day_11": 24,
+      "Day_12": 24,
+      "Day_13": 24,
+      "Day_14": 24,
+      "Day_15": 24,
+      "Day_16": 24,
+      "Day_17": 24,
+      "Day_18": 24,
+      "Day_19": 24,
+      "Day_20": 24,
+      "Day_21": 24,
+      "Day_22": 24,
+      "Day_23": 24,
+      "Day_24": 24,
+      "Day_25": 24,
+      "Day_26": 24,
+      "Day_27": 24,
+      "Day_28": 24,
+      "Day_29": 24,
+      "Day_30": 23
+    },
+    "divergence_categories": {
+      "WORKER_HIRING_RAMP": 50,
+      "LIVESTOCK_SELECTION_OR_TIMING": 12,
+      "MARKET_SELLING_CADENCE": 279,
+      "FARMER_MICRO_PATHING": 237,
+      "CROP_SEED_PORTFOLIO": 105,
+      "WORKER_TASK_ALLOCATION": 32,
+      "LAND_EXPANSION_TIMING": 4
+    },
+    "milestone_snapshots": {
+      "D2": {
+        "d1": {
+          "money": 53.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 23.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D4": {
+        "d1": {
+          "money": 491.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        },
+        "elite": {
+          "money": 49.0,
+          "hands": 0,
+          "cows": 2,
+          "strawberries": 0
+        }
+      },
+      "D6": {
+        "d1": {
+          "money": 639.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 2
+        },
+        "elite": {
+          "money": 156.0,
+          "hands": 0,
+          "cows": 3,
+          "strawberries": 0
+        }
+      },
+      "D11": {
+        "d1": {
+          "money": 1038.0,
+          "hands": 0,
+          "cows": 6,
+          "strawberries": 17
+        },
+        "elite": {
+          "money": 2155.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 11
+        }
+      },
+      "D16": {
+        "d1": {
+          "money": 21749.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 39
+        },
+        "elite": {
+          "money": 19940.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 33
+        }
+      },
+      "D21": {
+        "d1": {
+          "money": 50165.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 39
+        },
+        "elite": {
+          "money": 35161.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 33
+        }
+      },
+      "D26": {
+        "d1": {
+          "money": 101302.0,
+          "hands": 0,
+          "cows": 8,
+          "strawberries": 33
+        },
+        "elite": {
+          "money": 60545.0,
+          "hands": 0,
+          "cows": 10,
+          "strawberries": 25
+        }
+      },
+      "D30": {
+        "d1": {
+          "money": 150596.0,
+          "hands": 2,
+          "cows": 8,
+          "strawberries": 6
+        },
+        "elite": {
+          "money": 81335.0,
+          "hands": 8,
+          "cows": 10,
+          "strawberries": 0
+        }
+      }
+    }
+  }
+]
