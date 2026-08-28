@@ -1,0 +1,3236 @@
+{
+  "summary": [
+    {
+      "arm_name": "Arm B: Price-Only (Wool>=195, Milk<=130)",
+      "loss_to_win": 0,
+      "loss_to_loss": 94,
+      "win_to_loss": 0,
+      "win_to_win": 6,
+      "net_conversion": 0,
+      "mean_delta": -37.63,
+      "median_delta": 0.0,
+      "min_delta": -1886.0,
+      "max_delta": 2354.0,
+      "positive_delta_pct": 5.0,
+      "pivoted_matches": 17,
+      "mean_trigger_step": 245.88235294117646
+    },
+    {
+      "arm_name": "Arm C: Full Opponent (OppSheep>=1 + Price)",
+      "loss_to_win": 0,
+      "loss_to_loss": 94,
+      "win_to_loss": 0,
+      "win_to_win": 6,
+      "net_conversion": 0,
+      "mean_delta": -37.63,
+      "median_delta": 0.0,
+      "min_delta": -1886.0,
+      "max_delta": 2354.0,
+      "positive_delta_pct": 5.0,
+      "pivoted_matches": 17,
+      "mean_trigger_step": 245.88235294117646
+    }
+  ],
+  "matches": [
+    {
+      "match_id": 1,
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 92290.0,
+        "opp_reward": 93334.0,
+        "won": false,
+        "delta": -1044.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 92290.0,
+        "opp_reward": 93334.0,
+        "won": false,
+        "delta": -1044.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 92290.0,
+        "opp_reward": 93334.0,
+        "won": false,
+        "delta": -1044.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 2,
+      "seed": 1000,
+      "seat": 1,
+      "arm_a": {
+        "reward": 88164.0,
+        "opp_reward": 92770.0,
+        "won": false,
+        "delta": -4606.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 88164.0,
+        "opp_reward": 92770.0,
+        "won": false,
+        "delta": -4606.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 88164.0,
+        "opp_reward": 92770.0,
+        "won": false,
+        "delta": -4606.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 3,
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 38524.0,
+        "opp_reward": 37532.0,
+        "won": true,
+        "delta": 992.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 38838.0,
+        "opp_reward": 38033.0,
+        "won": true,
+        "delta": 805.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 38838.0,
+        "opp_reward": 38033.0,
+        "won": true,
+        "delta": 805.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 4,
+      "seed": 1001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 37055.0,
+        "opp_reward": 37341.0,
+        "won": false,
+        "delta": -286.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 37055.0,
+        "opp_reward": 37341.0,
+        "won": false,
+        "delta": -286.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 37055.0,
+        "opp_reward": 37341.0,
+        "won": false,
+        "delta": -286.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 5,
+      "seed": 1002,
+      "seat": 0,
+      "arm_a": {
+        "reward": 66452.0,
+        "opp_reward": 70396.0,
+        "won": false,
+        "delta": -3944.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 64905.0,
+        "opp_reward": 71212.0,
+        "won": false,
+        "delta": -6307.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 64905.0,
+        "opp_reward": 71212.0,
+        "won": false,
+        "delta": -6307.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 6,
+      "seed": 1002,
+      "seat": 1,
+      "arm_a": {
+        "reward": 66722.0,
+        "opp_reward": 68282.0,
+        "won": false,
+        "delta": -1560.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 66722.0,
+        "opp_reward": 68282.0,
+        "won": false,
+        "delta": -1560.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 66722.0,
+        "opp_reward": 68282.0,
+        "won": false,
+        "delta": -1560.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 7,
+      "seed": 1003,
+      "seat": 1,
+      "arm_a": {
+        "reward": 92056.0,
+        "opp_reward": 98945.0,
+        "won": false,
+        "delta": -6889.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 92056.0,
+        "opp_reward": 98945.0,
+        "won": false,
+        "delta": -6889.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 92056.0,
+        "opp_reward": 98945.0,
+        "won": false,
+        "delta": -6889.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 8,
+      "seed": 1004,
+      "seat": 0,
+      "arm_a": {
+        "reward": 53819.0,
+        "opp_reward": 54926.0,
+        "won": false,
+        "delta": -1107.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 53966.0,
+        "opp_reward": 56284.0,
+        "won": false,
+        "delta": -2318.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 53966.0,
+        "opp_reward": 56284.0,
+        "won": false,
+        "delta": -2318.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 9,
+      "seed": 1004,
+      "seat": 1,
+      "arm_a": {
+        "reward": 52166.0,
+        "opp_reward": 54433.0,
+        "won": false,
+        "delta": -2267.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 52166.0,
+        "opp_reward": 54433.0,
+        "won": false,
+        "delta": -2267.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 52166.0,
+        "opp_reward": 54433.0,
+        "won": false,
+        "delta": -2267.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 10,
+      "seed": 1005,
+      "seat": 0,
+      "arm_a": {
+        "reward": 83036.0,
+        "opp_reward": 86638.0,
+        "won": false,
+        "delta": -3602.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 83036.0,
+        "opp_reward": 86638.0,
+        "won": false,
+        "delta": -3602.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 83036.0,
+        "opp_reward": 86638.0,
+        "won": false,
+        "delta": -3602.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 11,
+      "seed": 1005,
+      "seat": 1,
+      "arm_a": {
+        "reward": 82162.0,
+        "opp_reward": 84953.0,
+        "won": false,
+        "delta": -2791.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 82162.0,
+        "opp_reward": 84953.0,
+        "won": false,
+        "delta": -2791.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 82162.0,
+        "opp_reward": 84953.0,
+        "won": false,
+        "delta": -2791.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 12,
+      "seed": 1006,
+      "seat": 0,
+      "arm_a": {
+        "reward": 70116.0,
+        "opp_reward": 74444.0,
+        "won": false,
+        "delta": -4328.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 70116.0,
+        "opp_reward": 74444.0,
+        "won": false,
+        "delta": -4328.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 70116.0,
+        "opp_reward": 74444.0,
+        "won": false,
+        "delta": -4328.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 13,
+      "seed": 1006,
+      "seat": 1,
+      "arm_a": {
+        "reward": 70435.0,
+        "opp_reward": 71480.0,
+        "won": false,
+        "delta": -1045.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 70435.0,
+        "opp_reward": 71480.0,
+        "won": false,
+        "delta": -1045.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 70435.0,
+        "opp_reward": 71480.0,
+        "won": false,
+        "delta": -1045.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 14,
+      "seed": 1007,
+      "seat": 0,
+      "arm_a": {
+        "reward": 135322.0,
+        "opp_reward": 137383.0,
+        "won": false,
+        "delta": -2061.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 135322.0,
+        "opp_reward": 137383.0,
+        "won": false,
+        "delta": -2061.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 135322.0,
+        "opp_reward": 137383.0,
+        "won": false,
+        "delta": -2061.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 15,
+      "seed": 1007,
+      "seat": 1,
+      "arm_a": {
+        "reward": 130169.0,
+        "opp_reward": 137489.0,
+        "won": false,
+        "delta": -7320.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 130169.0,
+        "opp_reward": 137489.0,
+        "won": false,
+        "delta": -7320.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 130169.0,
+        "opp_reward": 137489.0,
+        "won": false,
+        "delta": -7320.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 16,
+      "seed": 1008,
+      "seat": 0,
+      "arm_a": {
+        "reward": 114869.0,
+        "opp_reward": 117620.0,
+        "won": false,
+        "delta": -2751.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 114869.0,
+        "opp_reward": 117620.0,
+        "won": false,
+        "delta": -2751.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 114869.0,
+        "opp_reward": 117620.0,
+        "won": false,
+        "delta": -2751.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 17,
+      "seed": 1008,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108573.0,
+        "opp_reward": 117728.0,
+        "won": false,
+        "delta": -9155.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 108573.0,
+        "opp_reward": 117728.0,
+        "won": false,
+        "delta": -9155.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 108573.0,
+        "opp_reward": 117728.0,
+        "won": false,
+        "delta": -9155.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 18,
+      "seed": 1009,
+      "seat": 0,
+      "arm_a": {
+        "reward": 72623.0,
+        "opp_reward": 73464.0,
+        "won": false,
+        "delta": -841.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 72623.0,
+        "opp_reward": 73464.0,
+        "won": false,
+        "delta": -841.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 72623.0,
+        "opp_reward": 73464.0,
+        "won": false,
+        "delta": -841.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 19,
+      "seed": 1009,
+      "seat": 1,
+      "arm_a": {
+        "reward": 68979.0,
+        "opp_reward": 74885.0,
+        "won": false,
+        "delta": -5906.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 68979.0,
+        "opp_reward": 74885.0,
+        "won": false,
+        "delta": -5906.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 68979.0,
+        "opp_reward": 74885.0,
+        "won": false,
+        "delta": -5906.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 20,
+      "seed": 1010,
+      "seat": 0,
+      "arm_a": {
+        "reward": 83677.0,
+        "opp_reward": 85079.0,
+        "won": false,
+        "delta": -1402.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 83677.0,
+        "opp_reward": 85079.0,
+        "won": false,
+        "delta": -1402.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 83677.0,
+        "opp_reward": 85079.0,
+        "won": false,
+        "delta": -1402.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 21,
+      "seed": 1010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 81761.0,
+        "opp_reward": 85285.0,
+        "won": false,
+        "delta": -3524.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 81761.0,
+        "opp_reward": 85285.0,
+        "won": false,
+        "delta": -3524.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 81761.0,
+        "opp_reward": 85285.0,
+        "won": false,
+        "delta": -3524.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 22,
+      "seed": 1011,
+      "seat": 0,
+      "arm_a": {
+        "reward": 118655.0,
+        "opp_reward": 121892.0,
+        "won": false,
+        "delta": -3237.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 118655.0,
+        "opp_reward": 121892.0,
+        "won": false,
+        "delta": -3237.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 118655.0,
+        "opp_reward": 121892.0,
+        "won": false,
+        "delta": -3237.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 23,
+      "seed": 1011,
+      "seat": 1,
+      "arm_a": {
+        "reward": 116100.0,
+        "opp_reward": 120961.0,
+        "won": false,
+        "delta": -4861.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 116100.0,
+        "opp_reward": 120961.0,
+        "won": false,
+        "delta": -4861.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 116100.0,
+        "opp_reward": 120961.0,
+        "won": false,
+        "delta": -4861.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 24,
+      "seed": 1012,
+      "seat": 0,
+      "arm_a": {
+        "reward": 75262.0,
+        "opp_reward": 76904.0,
+        "won": false,
+        "delta": -1642.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 75262.0,
+        "opp_reward": 76904.0,
+        "won": false,
+        "delta": -1642.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 75262.0,
+        "opp_reward": 76904.0,
+        "won": false,
+        "delta": -1642.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 25,
+      "seed": 1012,
+      "seat": 1,
+      "arm_a": {
+        "reward": 72860.0,
+        "opp_reward": 76921.0,
+        "won": false,
+        "delta": -4061.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 72860.0,
+        "opp_reward": 76921.0,
+        "won": false,
+        "delta": -4061.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 72860.0,
+        "opp_reward": 76921.0,
+        "won": false,
+        "delta": -4061.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 26,
+      "seed": 1013,
+      "seat": 0,
+      "arm_a": {
+        "reward": 91349.0,
+        "opp_reward": 91247.0,
+        "won": true,
+        "delta": 102.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 91349.0,
+        "opp_reward": 91247.0,
+        "won": true,
+        "delta": 102.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 91349.0,
+        "opp_reward": 91247.0,
+        "won": true,
+        "delta": 102.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 27,
+      "seed": 1013,
+      "seat": 1,
+      "arm_a": {
+        "reward": 88126.0,
+        "opp_reward": 93111.0,
+        "won": false,
+        "delta": -4985.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 88126.0,
+        "opp_reward": 93111.0,
+        "won": false,
+        "delta": -4985.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 88126.0,
+        "opp_reward": 93111.0,
+        "won": false,
+        "delta": -4985.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 28,
+      "seed": 1014,
+      "seat": 0,
+      "arm_a": {
+        "reward": 50749.0,
+        "opp_reward": 51316.0,
+        "won": false,
+        "delta": -567.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 50963.0,
+        "opp_reward": 52861.0,
+        "won": false,
+        "delta": -1898.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 50963.0,
+        "opp_reward": 52861.0,
+        "won": false,
+        "delta": -1898.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 29,
+      "seed": 1014,
+      "seat": 1,
+      "arm_a": {
+        "reward": 49988.0,
+        "opp_reward": 50306.0,
+        "won": false,
+        "delta": -318.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 49988.0,
+        "opp_reward": 50306.0,
+        "won": false,
+        "delta": -318.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 49988.0,
+        "opp_reward": 50306.0,
+        "won": false,
+        "delta": -318.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 30,
+      "seed": 1015,
+      "seat": 0,
+      "arm_a": {
+        "reward": 73962.0,
+        "opp_reward": 76877.0,
+        "won": false,
+        "delta": -2915.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 73673.0,
+        "opp_reward": 77810.0,
+        "won": false,
+        "delta": -4137.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$237, Milk=$105, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 73673.0,
+        "opp_reward": 77810.0,
+        "won": false,
+        "delta": -4137.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$237, Milk=$105, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 31,
+      "seed": 1015,
+      "seat": 1,
+      "arm_a": {
+        "reward": 69811.0,
+        "opp_reward": 76414.0,
+        "won": false,
+        "delta": -6603.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 69811.0,
+        "opp_reward": 76414.0,
+        "won": false,
+        "delta": -6603.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 69811.0,
+        "opp_reward": 76414.0,
+        "won": false,
+        "delta": -6603.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 32,
+      "seed": 1016,
+      "seat": 1,
+      "arm_a": {
+        "reward": 97761.0,
+        "opp_reward": 106321.0,
+        "won": false,
+        "delta": -8560.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 97761.0,
+        "opp_reward": 106321.0,
+        "won": false,
+        "delta": -8560.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 97761.0,
+        "opp_reward": 106321.0,
+        "won": false,
+        "delta": -8560.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 33,
+      "seed": 1017,
+      "seat": 0,
+      "arm_a": {
+        "reward": 62474.0,
+        "opp_reward": 65462.0,
+        "won": false,
+        "delta": -2988.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 62474.0,
+        "opp_reward": 65462.0,
+        "won": false,
+        "delta": -2988.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 62474.0,
+        "opp_reward": 65462.0,
+        "won": false,
+        "delta": -2988.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 34,
+      "seed": 1017,
+      "seat": 1,
+      "arm_a": {
+        "reward": 58132.0,
+        "opp_reward": 65284.0,
+        "won": false,
+        "delta": -7152.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 58132.0,
+        "opp_reward": 65284.0,
+        "won": false,
+        "delta": -7152.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 58132.0,
+        "opp_reward": 65284.0,
+        "won": false,
+        "delta": -7152.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 35,
+      "seed": 1018,
+      "seat": 0,
+      "arm_a": {
+        "reward": 72525.0,
+        "opp_reward": 74656.0,
+        "won": false,
+        "delta": -2131.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 72525.0,
+        "opp_reward": 74656.0,
+        "won": false,
+        "delta": -2131.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 72525.0,
+        "opp_reward": 74656.0,
+        "won": false,
+        "delta": -2131.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 36,
+      "seed": 1018,
+      "seat": 1,
+      "arm_a": {
+        "reward": 67974.0,
+        "opp_reward": 74986.0,
+        "won": false,
+        "delta": -7012.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 67974.0,
+        "opp_reward": 74986.0,
+        "won": false,
+        "delta": -7012.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 67974.0,
+        "opp_reward": 74986.0,
+        "won": false,
+        "delta": -7012.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 37,
+      "seed": 1019,
+      "seat": 0,
+      "arm_a": {
+        "reward": 35525.0,
+        "opp_reward": 34434.0,
+        "won": true,
+        "delta": 1091.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 35525.0,
+        "opp_reward": 34434.0,
+        "won": true,
+        "delta": 1091.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 35525.0,
+        "opp_reward": 34434.0,
+        "won": true,
+        "delta": 1091.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 38,
+      "seed": 1019,
+      "seat": 1,
+      "arm_a": {
+        "reward": 34196.0,
+        "opp_reward": 34215.0,
+        "won": false,
+        "delta": -19.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 34196.0,
+        "opp_reward": 34215.0,
+        "won": false,
+        "delta": -19.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 34196.0,
+        "opp_reward": 34215.0,
+        "won": false,
+        "delta": -19.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 39,
+      "seed": 1020,
+      "seat": 0,
+      "arm_a": {
+        "reward": 63909.0,
+        "opp_reward": 64198.0,
+        "won": false,
+        "delta": -289.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 63909.0,
+        "opp_reward": 64198.0,
+        "won": false,
+        "delta": -289.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 63909.0,
+        "opp_reward": 64198.0,
+        "won": false,
+        "delta": -289.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 40,
+      "seed": 1020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 60112.0,
+        "opp_reward": 64201.0,
+        "won": false,
+        "delta": -4089.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 60112.0,
+        "opp_reward": 64201.0,
+        "won": false,
+        "delta": -4089.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 60112.0,
+        "opp_reward": 64201.0,
+        "won": false,
+        "delta": -4089.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 41,
+      "seed": 1021,
+      "seat": 0,
+      "arm_a": {
+        "reward": 77437.0,
+        "opp_reward": 82304.0,
+        "won": false,
+        "delta": -4867.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 77337.0,
+        "opp_reward": 82304.0,
+        "won": false,
+        "delta": -4967.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 77337.0,
+        "opp_reward": 82304.0,
+        "won": false,
+        "delta": -4967.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 42,
+      "seed": 1022,
+      "seat": 0,
+      "arm_a": {
+        "reward": 123340.0,
+        "opp_reward": 124413.0,
+        "won": false,
+        "delta": -1073.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 123340.0,
+        "opp_reward": 124413.0,
+        "won": false,
+        "delta": -1073.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 123340.0,
+        "opp_reward": 124413.0,
+        "won": false,
+        "delta": -1073.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 43,
+      "seed": 1022,
+      "seat": 1,
+      "arm_a": {
+        "reward": 119366.0,
+        "opp_reward": 124441.0,
+        "won": false,
+        "delta": -5075.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 119366.0,
+        "opp_reward": 124441.0,
+        "won": false,
+        "delta": -5075.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 119366.0,
+        "opp_reward": 124441.0,
+        "won": false,
+        "delta": -5075.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 44,
+      "seed": 1023,
+      "seat": 0,
+      "arm_a": {
+        "reward": 107084.0,
+        "opp_reward": 109048.0,
+        "won": false,
+        "delta": -1964.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 107084.0,
+        "opp_reward": 109048.0,
+        "won": false,
+        "delta": -1964.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 107084.0,
+        "opp_reward": 109048.0,
+        "won": false,
+        "delta": -1964.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 45,
+      "seed": 1023,
+      "seat": 1,
+      "arm_a": {
+        "reward": 101873.0,
+        "opp_reward": 109805.0,
+        "won": false,
+        "delta": -7932.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 101873.0,
+        "opp_reward": 109805.0,
+        "won": false,
+        "delta": -7932.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 101873.0,
+        "opp_reward": 109805.0,
+        "won": false,
+        "delta": -7932.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 46,
+      "seed": 1024,
+      "seat": 0,
+      "arm_a": {
+        "reward": 61393.0,
+        "opp_reward": 64034.0,
+        "won": false,
+        "delta": -2641.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 61393.0,
+        "opp_reward": 64034.0,
+        "won": false,
+        "delta": -2641.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 61393.0,
+        "opp_reward": 64034.0,
+        "won": false,
+        "delta": -2641.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 47,
+      "seed": 1024,
+      "seat": 1,
+      "arm_a": {
+        "reward": 59258.0,
+        "opp_reward": 63682.0,
+        "won": false,
+        "delta": -4424.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 59258.0,
+        "opp_reward": 63682.0,
+        "won": false,
+        "delta": -4424.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 59258.0,
+        "opp_reward": 63682.0,
+        "won": false,
+        "delta": -4424.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 48,
+      "seed": 1025,
+      "seat": 0,
+      "arm_a": {
+        "reward": 58140.0,
+        "opp_reward": 59274.0,
+        "won": false,
+        "delta": -1134.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 58140.0,
+        "opp_reward": 59274.0,
+        "won": false,
+        "delta": -1134.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 58140.0,
+        "opp_reward": 59274.0,
+        "won": false,
+        "delta": -1134.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 49,
+      "seed": 1025,
+      "seat": 1,
+      "arm_a": {
+        "reward": 54490.0,
+        "opp_reward": 59031.0,
+        "won": false,
+        "delta": -4541.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 54490.0,
+        "opp_reward": 59031.0,
+        "won": false,
+        "delta": -4541.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 54490.0,
+        "opp_reward": 59031.0,
+        "won": false,
+        "delta": -4541.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 50,
+      "seed": 1026,
+      "seat": 0,
+      "arm_a": {
+        "reward": 136011.0,
+        "opp_reward": 138746.0,
+        "won": false,
+        "delta": -2735.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 136011.0,
+        "opp_reward": 138746.0,
+        "won": false,
+        "delta": -2735.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 136011.0,
+        "opp_reward": 138746.0,
+        "won": false,
+        "delta": -2735.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 51,
+      "seed": 1026,
+      "seat": 1,
+      "arm_a": {
+        "reward": 131869.0,
+        "opp_reward": 138717.0,
+        "won": false,
+        "delta": -6848.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 131869.0,
+        "opp_reward": 138717.0,
+        "won": false,
+        "delta": -6848.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 131869.0,
+        "opp_reward": 138717.0,
+        "won": false,
+        "delta": -6848.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 52,
+      "seed": 1027,
+      "seat": 0,
+      "arm_a": {
+        "reward": 101738.0,
+        "opp_reward": 103178.0,
+        "won": false,
+        "delta": -1440.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 104092.0,
+        "opp_reward": 109971.0,
+        "won": false,
+        "delta": -5879.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$230, Milk=$114, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 104092.0,
+        "opp_reward": 109971.0,
+        "won": false,
+        "delta": -5879.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$230, Milk=$114, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 53,
+      "seed": 1027,
+      "seat": 1,
+      "arm_a": {
+        "reward": 95538.0,
+        "opp_reward": 103543.0,
+        "won": false,
+        "delta": -8005.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 95538.0,
+        "opp_reward": 103543.0,
+        "won": false,
+        "delta": -8005.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 95538.0,
+        "opp_reward": 103543.0,
+        "won": false,
+        "delta": -8005.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 54,
+      "seed": 1028,
+      "seat": 0,
+      "arm_a": {
+        "reward": 73321.0,
+        "opp_reward": 76652.0,
+        "won": false,
+        "delta": -3331.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 73260.0,
+        "opp_reward": 77679.0,
+        "won": false,
+        "delta": -4419.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$241, Milk=$105, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 73260.0,
+        "opp_reward": 77679.0,
+        "won": false,
+        "delta": -4419.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$241, Milk=$105, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 55,
+      "seed": 1028,
+      "seat": 1,
+      "arm_a": {
+        "reward": 69049.0,
+        "opp_reward": 76482.0,
+        "won": false,
+        "delta": -7433.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 69049.0,
+        "opp_reward": 76482.0,
+        "won": false,
+        "delta": -7433.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 69049.0,
+        "opp_reward": 76482.0,
+        "won": false,
+        "delta": -7433.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 56,
+      "seed": 1029,
+      "seat": 0,
+      "arm_a": {
+        "reward": 103848.0,
+        "opp_reward": 104662.0,
+        "won": false,
+        "delta": -814.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 103848.0,
+        "opp_reward": 104662.0,
+        "won": false,
+        "delta": -814.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 103848.0,
+        "opp_reward": 104662.0,
+        "won": false,
+        "delta": -814.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 57,
+      "seed": 1029,
+      "seat": 1,
+      "arm_a": {
+        "reward": 101684.0,
+        "opp_reward": 104810.0,
+        "won": false,
+        "delta": -3126.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 101684.0,
+        "opp_reward": 104810.0,
+        "won": false,
+        "delta": -3126.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 101684.0,
+        "opp_reward": 104810.0,
+        "won": false,
+        "delta": -3126.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 58,
+      "seed": 1030,
+      "seat": 0,
+      "arm_a": {
+        "reward": 85585.0,
+        "opp_reward": 86956.0,
+        "won": false,
+        "delta": -1371.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 85585.0,
+        "opp_reward": 86956.0,
+        "won": false,
+        "delta": -1371.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 85585.0,
+        "opp_reward": 86956.0,
+        "won": false,
+        "delta": -1371.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 59,
+      "seed": 1030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 81637.0,
+        "opp_reward": 86594.0,
+        "won": false,
+        "delta": -4957.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 81637.0,
+        "opp_reward": 86594.0,
+        "won": false,
+        "delta": -4957.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 81637.0,
+        "opp_reward": 86594.0,
+        "won": false,
+        "delta": -4957.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 60,
+      "seed": 1031,
+      "seat": 1,
+      "arm_a": {
+        "reward": 64070.0,
+        "opp_reward": 69447.0,
+        "won": false,
+        "delta": -5377.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 64070.0,
+        "opp_reward": 69447.0,
+        "won": false,
+        "delta": -5377.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 64070.0,
+        "opp_reward": 69447.0,
+        "won": false,
+        "delta": -5377.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 61,
+      "seed": 1032,
+      "seat": 0,
+      "arm_a": {
+        "reward": 83364.0,
+        "opp_reward": 82596.0,
+        "won": true,
+        "delta": 768.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 83364.0,
+        "opp_reward": 82596.0,
+        "won": true,
+        "delta": 768.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 83364.0,
+        "opp_reward": 82596.0,
+        "won": true,
+        "delta": 768.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 62,
+      "seed": 1032,
+      "seat": 1,
+      "arm_a": {
+        "reward": 81729.0,
+        "opp_reward": 82774.0,
+        "won": false,
+        "delta": -1045.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 81729.0,
+        "opp_reward": 82774.0,
+        "won": false,
+        "delta": -1045.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 81729.0,
+        "opp_reward": 82774.0,
+        "won": false,
+        "delta": -1045.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 63,
+      "seed": 1033,
+      "seat": 0,
+      "arm_a": {
+        "reward": 48244.0,
+        "opp_reward": 47626.0,
+        "won": true,
+        "delta": 618.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 48244.0,
+        "opp_reward": 47626.0,
+        "won": true,
+        "delta": 618.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 48244.0,
+        "opp_reward": 47626.0,
+        "won": true,
+        "delta": 618.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 64,
+      "seed": 1033,
+      "seat": 1,
+      "arm_a": {
+        "reward": 45969.0,
+        "opp_reward": 48042.0,
+        "won": false,
+        "delta": -2073.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 45969.0,
+        "opp_reward": 48042.0,
+        "won": false,
+        "delta": -2073.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 45969.0,
+        "opp_reward": 48042.0,
+        "won": false,
+        "delta": -2073.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 65,
+      "seed": 1034,
+      "seat": 0,
+      "arm_a": {
+        "reward": 54437.0,
+        "opp_reward": 54815.0,
+        "won": false,
+        "delta": -378.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 54437.0,
+        "opp_reward": 54815.0,
+        "won": false,
+        "delta": -378.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 54437.0,
+        "opp_reward": 54815.0,
+        "won": false,
+        "delta": -378.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 66,
+      "seed": 1034,
+      "seat": 1,
+      "arm_a": {
+        "reward": 50939.0,
+        "opp_reward": 56661.0,
+        "won": false,
+        "delta": -5722.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 50939.0,
+        "opp_reward": 56661.0,
+        "won": false,
+        "delta": -5722.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 50939.0,
+        "opp_reward": 56661.0,
+        "won": false,
+        "delta": -5722.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 67,
+      "seed": 1035,
+      "seat": 1,
+      "arm_a": {
+        "reward": 69468.0,
+        "opp_reward": 77432.0,
+        "won": false,
+        "delta": -7964.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 69468.0,
+        "opp_reward": 77432.0,
+        "won": false,
+        "delta": -7964.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 69468.0,
+        "opp_reward": 77432.0,
+        "won": false,
+        "delta": -7964.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 68,
+      "seed": 1036,
+      "seat": 0,
+      "arm_a": {
+        "reward": 99297.0,
+        "opp_reward": 102390.0,
+        "won": false,
+        "delta": -3093.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 99297.0,
+        "opp_reward": 102390.0,
+        "won": false,
+        "delta": -3093.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 99297.0,
+        "opp_reward": 102390.0,
+        "won": false,
+        "delta": -3093.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 69,
+      "seed": 1036,
+      "seat": 1,
+      "arm_a": {
+        "reward": 99495.0,
+        "opp_reward": 99828.0,
+        "won": false,
+        "delta": -333.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 99495.0,
+        "opp_reward": 99828.0,
+        "won": false,
+        "delta": -333.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 99495.0,
+        "opp_reward": 99828.0,
+        "won": false,
+        "delta": -333.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 70,
+      "seed": 1037,
+      "seat": 0,
+      "arm_a": {
+        "reward": 127780.0,
+        "opp_reward": 130578.0,
+        "won": false,
+        "delta": -2798.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 127780.0,
+        "opp_reward": 130578.0,
+        "won": false,
+        "delta": -2798.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 127780.0,
+        "opp_reward": 130578.0,
+        "won": false,
+        "delta": -2798.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 71,
+      "seed": 1037,
+      "seat": 1,
+      "arm_a": {
+        "reward": 124054.0,
+        "opp_reward": 130356.0,
+        "won": false,
+        "delta": -6302.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 124054.0,
+        "opp_reward": 130356.0,
+        "won": false,
+        "delta": -6302.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 124054.0,
+        "opp_reward": 130356.0,
+        "won": false,
+        "delta": -6302.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 72,
+      "seed": 1038,
+      "seat": 0,
+      "arm_a": {
+        "reward": 58215.0,
+        "opp_reward": 61276.0,
+        "won": false,
+        "delta": -3061.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 58077.0,
+        "opp_reward": 61908.0,
+        "won": false,
+        "delta": -3831.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$200, Milk=$105, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 58077.0,
+        "opp_reward": 61908.0,
+        "won": false,
+        "delta": -3831.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$200, Milk=$105, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 73,
+      "seed": 1038,
+      "seat": 1,
+      "arm_a": {
+        "reward": 54194.0,
+        "opp_reward": 60891.0,
+        "won": false,
+        "delta": -6697.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 54194.0,
+        "opp_reward": 60891.0,
+        "won": false,
+        "delta": -6697.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 54194.0,
+        "opp_reward": 60891.0,
+        "won": false,
+        "delta": -6697.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 74,
+      "seed": 1039,
+      "seat": 1,
+      "arm_a": {
+        "reward": 78568.0,
+        "opp_reward": 88544.0,
+        "won": false,
+        "delta": -9976.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 78568.0,
+        "opp_reward": 88544.0,
+        "won": false,
+        "delta": -9976.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 78568.0,
+        "opp_reward": 88544.0,
+        "won": false,
+        "delta": -9976.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 75,
+      "seed": 1040,
+      "seat": 0,
+      "arm_a": {
+        "reward": 77567.0,
+        "opp_reward": 79511.0,
+        "won": false,
+        "delta": -1944.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 76250.0,
+        "opp_reward": 80064.0,
+        "won": false,
+        "delta": -3814.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 76250.0,
+        "opp_reward": 80064.0,
+        "won": false,
+        "delta": -3814.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 76,
+      "seed": 1040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 75900.0,
+        "opp_reward": 79536.0,
+        "won": false,
+        "delta": -3636.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 75900.0,
+        "opp_reward": 79536.0,
+        "won": false,
+        "delta": -3636.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 75900.0,
+        "opp_reward": 79536.0,
+        "won": false,
+        "delta": -3636.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 77,
+      "seed": 1041,
+      "seat": 0,
+      "arm_a": {
+        "reward": 76254.0,
+        "opp_reward": 76680.0,
+        "won": false,
+        "delta": -426.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 76139.0,
+        "opp_reward": 78287.0,
+        "won": false,
+        "delta": -2148.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$200, Milk=$105, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 76139.0,
+        "opp_reward": 78287.0,
+        "won": false,
+        "delta": -2148.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$200, Milk=$105, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 78,
+      "seed": 1041,
+      "seat": 1,
+      "arm_a": {
+        "reward": 72100.0,
+        "opp_reward": 78333.0,
+        "won": false,
+        "delta": -6233.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 72100.0,
+        "opp_reward": 78333.0,
+        "won": false,
+        "delta": -6233.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 72100.0,
+        "opp_reward": 78333.0,
+        "won": false,
+        "delta": -6233.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 79,
+      "seed": 1042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 89515.0,
+        "opp_reward": 91396.0,
+        "won": false,
+        "delta": -1881.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 89515.0,
+        "opp_reward": 91396.0,
+        "won": false,
+        "delta": -1881.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 89515.0,
+        "opp_reward": 91396.0,
+        "won": false,
+        "delta": -1881.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 80,
+      "seed": 1042,
+      "seat": 1,
+      "arm_a": {
+        "reward": 84768.0,
+        "opp_reward": 91824.0,
+        "won": false,
+        "delta": -7056.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 84768.0,
+        "opp_reward": 91824.0,
+        "won": false,
+        "delta": -7056.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 84768.0,
+        "opp_reward": 91824.0,
+        "won": false,
+        "delta": -7056.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 81,
+      "seed": 1043,
+      "seat": 0,
+      "arm_a": {
+        "reward": 93080.0,
+        "opp_reward": 95294.0,
+        "won": false,
+        "delta": -2214.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 93045.0,
+        "opp_reward": 97778.0,
+        "won": false,
+        "delta": -4733.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$230, Milk=$105, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 93045.0,
+        "opp_reward": 97778.0,
+        "won": false,
+        "delta": -4733.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$230, Milk=$105, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 82,
+      "seed": 1043,
+      "seat": 1,
+      "arm_a": {
+        "reward": 88866.0,
+        "opp_reward": 95079.0,
+        "won": false,
+        "delta": -6213.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 88866.0,
+        "opp_reward": 95079.0,
+        "won": false,
+        "delta": -6213.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 88866.0,
+        "opp_reward": 95079.0,
+        "won": false,
+        "delta": -6213.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 83,
+      "seed": 1044,
+      "seat": 0,
+      "arm_a": {
+        "reward": 83125.0,
+        "opp_reward": 84572.0,
+        "won": false,
+        "delta": -1447.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 83125.0,
+        "opp_reward": 84572.0,
+        "won": false,
+        "delta": -1447.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 83125.0,
+        "opp_reward": 84572.0,
+        "won": false,
+        "delta": -1447.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 84,
+      "seed": 1044,
+      "seat": 1,
+      "arm_a": {
+        "reward": 78269.0,
+        "opp_reward": 85587.0,
+        "won": false,
+        "delta": -7318.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 78269.0,
+        "opp_reward": 85587.0,
+        "won": false,
+        "delta": -7318.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 78269.0,
+        "opp_reward": 85587.0,
+        "won": false,
+        "delta": -7318.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 85,
+      "seed": 1045,
+      "seat": 0,
+      "arm_a": {
+        "reward": 61229.0,
+        "opp_reward": 62205.0,
+        "won": false,
+        "delta": -976.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 61020.0,
+        "opp_reward": 63656.0,
+        "won": false,
+        "delta": -2636.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 61020.0,
+        "opp_reward": 63656.0,
+        "won": false,
+        "delta": -2636.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 86,
+      "seed": 1045,
+      "seat": 1,
+      "arm_a": {
+        "reward": 60255.0,
+        "opp_reward": 60832.0,
+        "won": false,
+        "delta": -577.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 60255.0,
+        "opp_reward": 60832.0,
+        "won": false,
+        "delta": -577.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 60255.0,
+        "opp_reward": 60832.0,
+        "won": false,
+        "delta": -577.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 87,
+      "seed": 1046,
+      "seat": 0,
+      "arm_a": {
+        "reward": 105864.0,
+        "opp_reward": 107112.0,
+        "won": false,
+        "delta": -1248.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 105864.0,
+        "opp_reward": 107112.0,
+        "won": false,
+        "delta": -1248.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 105864.0,
+        "opp_reward": 107112.0,
+        "won": false,
+        "delta": -1248.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 88,
+      "seed": 1046,
+      "seat": 1,
+      "arm_a": {
+        "reward": 103542.0,
+        "opp_reward": 107036.0,
+        "won": false,
+        "delta": -3494.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 103542.0,
+        "opp_reward": 107036.0,
+        "won": false,
+        "delta": -3494.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 103542.0,
+        "opp_reward": 107036.0,
+        "won": false,
+        "delta": -3494.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 89,
+      "seed": 1047,
+      "seat": 0,
+      "arm_a": {
+        "reward": 67915.0,
+        "opp_reward": 69507.0,
+        "won": false,
+        "delta": -1592.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 67915.0,
+        "opp_reward": 69507.0,
+        "won": false,
+        "delta": -1592.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 67915.0,
+        "opp_reward": 69507.0,
+        "won": false,
+        "delta": -1592.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 90,
+      "seed": 1047,
+      "seat": 1,
+      "arm_a": {
+        "reward": 64211.0,
+        "opp_reward": 69993.0,
+        "won": false,
+        "delta": -5782.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 64211.0,
+        "opp_reward": 69993.0,
+        "won": false,
+        "delta": -5782.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 64211.0,
+        "opp_reward": 69993.0,
+        "won": false,
+        "delta": -5782.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 91,
+      "seed": 1048,
+      "seat": 0,
+      "arm_a": {
+        "reward": 53553.0,
+        "opp_reward": 64921.0,
+        "won": false,
+        "delta": -11368.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 53553.0,
+        "opp_reward": 64921.0,
+        "won": false,
+        "delta": -11368.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 53553.0,
+        "opp_reward": 64921.0,
+        "won": false,
+        "delta": -11368.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 92,
+      "seed": 1049,
+      "seat": 1,
+      "arm_a": {
+        "reward": 55614.0,
+        "opp_reward": 58151.0,
+        "won": false,
+        "delta": -2537.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 55614.0,
+        "opp_reward": 58151.0,
+        "won": false,
+        "delta": -2537.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 55614.0,
+        "opp_reward": 58151.0,
+        "won": false,
+        "delta": -2537.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 93,
+      "seed": 1050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 54242.0,
+        "opp_reward": 55225.0,
+        "won": false,
+        "delta": -983.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 54242.0,
+        "opp_reward": 55225.0,
+        "won": false,
+        "delta": -983.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 54242.0,
+        "opp_reward": 55225.0,
+        "won": false,
+        "delta": -983.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 94,
+      "seed": 1051,
+      "seat": 0,
+      "arm_a": {
+        "reward": 45067.0,
+        "opp_reward": 42533.0,
+        "won": true,
+        "delta": 2534.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 45383.0,
+        "opp_reward": 42796.0,
+        "won": true,
+        "delta": 2587.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 45383.0,
+        "opp_reward": 42796.0,
+        "won": true,
+        "delta": 2587.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 95,
+      "seed": 1051,
+      "seat": 1,
+      "arm_a": {
+        "reward": 37269.0,
+        "opp_reward": 45986.0,
+        "won": false,
+        "delta": -8717.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 37269.0,
+        "opp_reward": 45986.0,
+        "won": false,
+        "delta": -8717.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 37269.0,
+        "opp_reward": 45986.0,
+        "won": false,
+        "delta": -8717.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 96,
+      "seed": 1052,
+      "seat": 0,
+      "arm_a": {
+        "reward": 72529.0,
+        "opp_reward": 75395.0,
+        "won": false,
+        "delta": -2866.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 72111.0,
+        "opp_reward": 76808.0,
+        "won": false,
+        "delta": -4697.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 72111.0,
+        "opp_reward": 76808.0,
+        "won": false,
+        "delta": -4697.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 97,
+      "seed": 1052,
+      "seat": 1,
+      "arm_a": {
+        "reward": 71239.0,
+        "opp_reward": 74701.0,
+        "won": false,
+        "delta": -3462.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 71239.0,
+        "opp_reward": 74701.0,
+        "won": false,
+        "delta": -3462.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 71239.0,
+        "opp_reward": 74701.0,
+        "won": false,
+        "delta": -3462.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 98,
+      "seed": 1053,
+      "seat": 0,
+      "arm_a": {
+        "reward": 77102.0,
+        "opp_reward": 80379.0,
+        "won": false,
+        "delta": -3277.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 75216.0,
+        "opp_reward": 78203.0,
+        "won": false,
+        "delta": -2987.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$200, Milk=$105, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 75216.0,
+        "opp_reward": 78203.0,
+        "won": false,
+        "delta": -2987.0,
+        "pivoted": 1,
+        "trigger_step": 230,
+        "trigger_info": "Day 10 Step 230: Wool=$200, Milk=$105, OppSheep=6"
+      }
+    },
+    {
+      "match_id": 99,
+      "seed": 1053,
+      "seat": 1,
+      "arm_a": {
+        "reward": 72808.0,
+        "opp_reward": 80102.0,
+        "won": false,
+        "delta": -7294.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 72808.0,
+        "opp_reward": 80102.0,
+        "won": false,
+        "delta": -7294.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_c": {
+        "reward": 72808.0,
+        "opp_reward": 80102.0,
+        "won": false,
+        "delta": -7294.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      }
+    },
+    {
+      "match_id": 100,
+      "seed": 1054,
+      "seat": 0,
+      "arm_a": {
+        "reward": 67024.0,
+        "opp_reward": 67257.0,
+        "won": false,
+        "delta": -233.0,
+        "pivoted": 0,
+        "trigger_step": null,
+        "trigger_info": null
+      },
+      "arm_b": {
+        "reward": 66031.0,
+        "opp_reward": 67940.0,
+        "won": false,
+        "delta": -1909.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      },
+      "arm_c": {
+        "reward": 66031.0,
+        "opp_reward": 67940.0,
+        "won": false,
+        "delta": -1909.0,
+        "pivoted": 1,
+        "trigger_step": 257,
+        "trigger_info": "Day 11 Step 257: Wool=$195, Milk=$108, OppSheep=6"
+      }
+    }
+  ]
+}
