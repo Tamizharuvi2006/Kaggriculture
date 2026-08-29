@@ -1,0 +1,11 @@
+{
+  "total_transitions": 28272,
+  "macro_phases": {
+    "p1_win_straw": 5.648745519713262,
+    "p1_loss_straw": 3.9847670250896057,
+    "p2_win_straw": 17.69578853046595,
+    "p2_loss_straw": 14.649193548387096,
+    "p2_win_quad3_pct": 99.19354838709677,
+    "p2_loss_quad3_pct": 92.47311827956989
+  }
+}
