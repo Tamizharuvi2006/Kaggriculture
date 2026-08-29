@@ -1,0 +1,2865 @@
+{
+  "overall": {
+    "wr_a": 81.0,
+    "wr_b": 81.0,
+    "wr_c": 81.0,
+    "wr_d": 81.0,
+    "mean_delta_b": -3355.14,
+    "mean_delta_c": 0.0,
+    "mean_delta_d": -3355.14
+  },
+  "by_opponent": {
+    "kaitofukami-v18.py": {
+      "matches": 20,
+      "wr_a": 5.0,
+      "wr_b": 5.0,
+      "wr_c": 5.0,
+      "wr_d": 5.0,
+      "delta_b": -1697.4,
+      "delta_c": 0.0,
+      "delta_d": -1697.4
+    },
+    "submission_v81.py": {
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "wr_d": 100.0,
+      "delta_b": -4958.9,
+      "delta_c": 0.0,
+      "delta_d": -4958.9
+    },
+    "submission_v82.py": {
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "wr_d": 100.0,
+      "delta_b": -6735.9,
+      "delta_c": 0.0,
+      "delta_d": -6735.9
+    },
+    "submission_v83.py": {
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "wr_d": 100.0,
+      "delta_b": -1691.75,
+      "delta_c": 0.0,
+      "delta_d": -1691.75
+    },
+    "submission_v83_opponent_aware.py": {
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "wr_d": 100.0,
+      "delta_b": -1691.75,
+      "delta_c": 0.0,
+      "delta_d": -1691.75
+    }
+  },
+  "all_matches": [
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 87922.0,
+        "opp": 93383.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 112043.0,
+        "opp": 137518.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 87922.0,
+        "opp": 93383.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 112043.0,
+        "opp": 137518.0,
+        "won": false
+      },
+      "delta_b_vs_a": 24121.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 24121.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 62463.0,
+        "opp": 69600.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 59520.0,
+        "opp": 77569.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 62463.0,
+        "opp": 69600.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 59520.0,
+        "opp": 77569.0,
+        "won": false
+      },
+      "delta_b_vs_a": -2943.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -2943.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 92031.0,
+        "opp": 99162.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 85703.0,
+        "opp": 104776.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 92031.0,
+        "opp": 99162.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 85703.0,
+        "opp": 104776.0,
+        "won": false
+      },
+      "delta_b_vs_a": -6328.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -6328.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 70900.0,
+        "opp": 71932.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 76180.0,
+        "opp": 92344.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 70900.0,
+        "opp": 71932.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 76180.0,
+        "opp": 92344.0,
+        "won": false
+      },
+      "delta_b_vs_a": 5280.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 5280.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 83593.0,
+        "opp": 91703.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 103371.0,
+        "opp": 128041.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 83593.0,
+        "opp": 91703.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 103371.0,
+        "opp": 128041.0,
+        "won": false
+      },
+      "delta_b_vs_a": 19778.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 19778.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 23612.0,
+        "opp": 25169.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 33484.0,
+        "opp": 59603.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 23612.0,
+        "opp": 25169.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 33484.0,
+        "opp": 59603.0,
+        "won": false
+      },
+      "delta_b_vs_a": 9872.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 9872.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 37074.0,
+        "opp": 37563.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 36822.0,
+        "opp": 44957.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 37074.0,
+        "opp": 37563.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 36822.0,
+        "opp": 44957.0,
+        "won": false
+      },
+      "delta_b_vs_a": -252.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -252.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 63123.0,
+        "opp": 63857.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 42375.0,
+        "opp": 50538.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 63123.0,
+        "opp": 63857.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 42375.0,
+        "opp": 50538.0,
+        "won": false
+      },
+      "delta_b_vs_a": -20748.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -20748.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 127875.0,
+        "opp": 134090.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 98743.0,
+        "opp": 120145.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 127875.0,
+        "opp": 134090.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 98743.0,
+        "opp": 120145.0,
+        "won": false
+      },
+      "delta_b_vs_a": -29132.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -29132.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 88486.0,
+        "opp": 92327.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 54890.0,
+        "opp": 95172.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 88486.0,
+        "opp": 92327.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 54890.0,
+        "opp": 95172.0,
+        "won": false
+      },
+      "delta_b_vs_a": -33596.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -33596.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 99058.0,
+        "opp": 102409.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 99058.0,
+        "opp": 102409.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 99058.0,
+        "opp": 102409.0,
+        "won": false
+      },
+      "arm_d": {
+        "reward": 99058.0,
+        "opp": 102409.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 89797.0,
+        "opp": 26454.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 85315.0,
+        "opp": 33693.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 89797.0,
+        "opp": 26454.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 85315.0,
+        "opp": 33693.0,
+        "won": true
+      },
+      "delta_b_vs_a": -4482.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -4482.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 73853.0,
+        "opp": 29964.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 84727.0,
+        "opp": 33990.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 73853.0,
+        "opp": 29964.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 84727.0,
+        "opp": 33990.0,
+        "won": true
+      },
+      "delta_b_vs_a": 10874.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 10874.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 112124.0,
+        "opp": 38162.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 57383.0,
+        "opp": 7004.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 112124.0,
+        "opp": 38162.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 57383.0,
+        "opp": 7004.0,
+        "won": true
+      },
+      "delta_b_vs_a": -54741.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -54741.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 109096.0,
+        "opp": 36395.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 97174.0,
+        "opp": 46272.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 109096.0,
+        "opp": 36395.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 97174.0,
+        "opp": 46272.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11922.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -11922.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 87709.0,
+        "opp": 19938.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 113402.0,
+        "opp": 50826.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 87709.0,
+        "opp": 19938.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 113402.0,
+        "opp": 50826.0,
+        "won": true
+      },
+      "delta_b_vs_a": 25693.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 25693.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 100061.0,
+        "opp": 32218.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 50161.0,
+        "opp": 5491.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 100061.0,
+        "opp": 32218.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 50161.0,
+        "opp": 5491.0,
+        "won": true
+      },
+      "delta_b_vs_a": -49900.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -49900.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 98160.0,
+        "opp": 49276.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 107263.0,
+        "opp": 62917.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 98160.0,
+        "opp": 49276.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 107263.0,
+        "opp": 62917.0,
+        "won": true
+      },
+      "delta_b_vs_a": 9103.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 9103.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 120298.0,
+        "opp": 48945.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 107687.0,
+        "opp": 56105.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 120298.0,
+        "opp": 48945.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 107687.0,
+        "opp": 56105.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12611.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -12611.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 133288.0,
+        "opp": 61071.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 127840.0,
+        "opp": 72231.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 133288.0,
+        "opp": 61071.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 127840.0,
+        "opp": 72231.0,
+        "won": true
+      },
+      "delta_b_vs_a": -5448.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -5448.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 122945.0,
+        "opp": 62584.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 117201.0,
+        "opp": 68038.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 122945.0,
+        "opp": 62584.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 117201.0,
+        "opp": 68038.0,
+        "won": true
+      },
+      "delta_b_vs_a": -5744.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -5744.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108624.0,
+        "opp": 47626.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108624.0,
+        "opp": 47626.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108624.0,
+        "opp": 47626.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 108624.0,
+        "opp": 47626.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 76690.0,
+        "opp": 29445.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 76690.0,
+        "opp": 29445.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 76690.0,
+        "opp": 29445.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 76690.0,
+        "opp": 29445.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 123666.0,
+        "opp": 47661.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 123666.0,
+        "opp": 47661.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 123666.0,
+        "opp": 47661.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 123666.0,
+        "opp": 47661.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 103330.0,
+        "opp": 35535.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 103330.0,
+        "opp": 35535.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 103330.0,
+        "opp": 35535.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 103330.0,
+        "opp": 35535.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 94811.0,
+        "opp": 50726.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 94811.0,
+        "opp": 50726.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 94811.0,
+        "opp": 50726.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 94811.0,
+        "opp": 50726.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108362.0,
+        "opp": 43883.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108362.0,
+        "opp": 43883.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108362.0,
+        "opp": 43883.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 108362.0,
+        "opp": 43883.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 91566.0,
+        "opp": 30899.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 91566.0,
+        "opp": 30899.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 91566.0,
+        "opp": 30899.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 91566.0,
+        "opp": 30899.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 114618.0,
+        "opp": 41286.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 114618.0,
+        "opp": 41286.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 114618.0,
+        "opp": 41286.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 114618.0,
+        "opp": 41286.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 35005.0,
+        "opp": 1205.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 35005.0,
+        "opp": 1205.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 35005.0,
+        "opp": 1205.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 35005.0,
+        "opp": 1205.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 98219.0,
+        "opp": 44743.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 98219.0,
+        "opp": 44743.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 98219.0,
+        "opp": 44743.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 98219.0,
+        "opp": 44743.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 105376.0,
+        "opp": 37689.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 76801.0,
+        "opp": 26465.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 105376.0,
+        "opp": 37689.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 76801.0,
+        "opp": 26465.0,
+        "won": true
+      },
+      "delta_b_vs_a": -28575.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -28575.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 73870.0,
+        "opp": 30084.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 73788.0,
+        "opp": 35820.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 73870.0,
+        "opp": 30084.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 73788.0,
+        "opp": 35820.0,
+        "won": true
+      },
+      "delta_b_vs_a": -82.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -82.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 112135.0,
+        "opp": 38276.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 71531.0,
+        "opp": 14789.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 112135.0,
+        "opp": 38276.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 71531.0,
+        "opp": 14789.0,
+        "won": true
+      },
+      "delta_b_vs_a": -40604.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -40604.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 115973.0,
+        "opp": 38716.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 103493.0,
+        "opp": 41242.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 115973.0,
+        "opp": 38716.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 103493.0,
+        "opp": 41242.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12480.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -12480.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 87727.0,
+        "opp": 20053.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 119132.0,
+        "opp": 61289.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 87727.0,
+        "opp": 20053.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 119132.0,
+        "opp": 61289.0,
+        "won": true
+      },
+      "delta_b_vs_a": 31405.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 31405.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 100082.0,
+        "opp": 32330.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 59585.0,
+        "opp": 10829.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 100082.0,
+        "opp": 32330.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 59585.0,
+        "opp": 10829.0,
+        "won": true
+      },
+      "delta_b_vs_a": -40497.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -40497.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 108966.0,
+        "opp": 50996.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 107266.0,
+        "opp": 63033.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108966.0,
+        "opp": 50996.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 107266.0,
+        "opp": 63033.0,
+        "won": true
+      },
+      "delta_b_vs_a": -1700.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -1700.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 138118.0,
+        "opp": 62083.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 127006.0,
+        "opp": 64877.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 138118.0,
+        "opp": 62083.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 127006.0,
+        "opp": 64877.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11112.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -11112.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 148413.0,
+        "opp": 77067.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 128121.0,
+        "opp": 72511.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 148413.0,
+        "opp": 77067.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 128121.0,
+        "opp": 72511.0,
+        "won": true
+      },
+      "delta_b_vs_a": -20292.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -20292.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 126414.0,
+        "opp": 51239.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 115633.0,
+        "opp": 67428.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 126414.0,
+        "opp": 51239.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 115633.0,
+        "opp": 67428.0,
+        "won": true
+      },
+      "delta_b_vs_a": -10781.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -10781.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108646.0,
+        "opp": 47742.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108646.0,
+        "opp": 47742.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108646.0,
+        "opp": 47742.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 108646.0,
+        "opp": 47742.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 76700.0,
+        "opp": 29563.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 76700.0,
+        "opp": 29563.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 76700.0,
+        "opp": 29563.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 76700.0,
+        "opp": 29563.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 137714.0,
+        "opp": 60815.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 137714.0,
+        "opp": 60815.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 137714.0,
+        "opp": 60815.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 137714.0,
+        "opp": 60815.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 93029.0,
+        "opp": 34579.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 93029.0,
+        "opp": 34579.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 93029.0,
+        "opp": 34579.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 93029.0,
+        "opp": 34579.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 91513.0,
+        "opp": 44544.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 91513.0,
+        "opp": 44544.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 91513.0,
+        "opp": 44544.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 91513.0,
+        "opp": 44544.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 118487.0,
+        "opp": 48270.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 118487.0,
+        "opp": 48270.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 118487.0,
+        "opp": 48270.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 118487.0,
+        "opp": 48270.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 91580.0,
+        "opp": 31023.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 91580.0,
+        "opp": 31023.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 91580.0,
+        "opp": 31023.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 91580.0,
+        "opp": 31023.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 134008.0,
+        "opp": 54072.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 134008.0,
+        "opp": 54072.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 134008.0,
+        "opp": 54072.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 134008.0,
+        "opp": 54072.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 35329.0,
+        "opp": 1174.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 35329.0,
+        "opp": 1174.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 35329.0,
+        "opp": 1174.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 35329.0,
+        "opp": 1174.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 95791.0,
+        "opp": 34238.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 95791.0,
+        "opp": 34238.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 95791.0,
+        "opp": 34238.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 95791.0,
+        "opp": 34238.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 100084.0,
+        "opp": 47250.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 99847.0,
+        "opp": 39386.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 100084.0,
+        "opp": 47250.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 99847.0,
+        "opp": 39386.0,
+        "won": true
+      },
+      "delta_b_vs_a": -237.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -237.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 57420.0,
+        "opp": 12869.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 67408.0,
+        "opp": 17285.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 57420.0,
+        "opp": 12869.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 67408.0,
+        "opp": 17285.0,
+        "won": true
+      },
+      "delta_b_vs_a": 9988.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 9988.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 63538.0,
+        "opp": 10451.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 87260.0,
+        "opp": 25860.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 63538.0,
+        "opp": 10451.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 87260.0,
+        "opp": 25860.0,
+        "won": true
+      },
+      "delta_b_vs_a": 23722.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 23722.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 111278.0,
+        "opp": 48440.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 104033.0,
+        "opp": 52071.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 111278.0,
+        "opp": 48440.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 104033.0,
+        "opp": 52071.0,
+        "won": true
+      },
+      "delta_b_vs_a": -7245.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -7245.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 87796.0,
+        "opp": 25175.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 112972.0,
+        "opp": 50816.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 87796.0,
+        "opp": 25175.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 112972.0,
+        "opp": 50816.0,
+        "won": true
+      },
+      "delta_b_vs_a": 25176.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 25176.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 99913.0,
+        "opp": 36951.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 74828.0,
+        "opp": 21216.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 99913.0,
+        "opp": 36951.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 74828.0,
+        "opp": 21216.0,
+        "won": true
+      },
+      "delta_b_vs_a": -25085.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -25085.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 119974.0,
+        "opp": 60374.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108523.0,
+        "opp": 56983.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 119974.0,
+        "opp": 60374.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 108523.0,
+        "opp": 56983.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11451.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -11451.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 130620.0,
+        "opp": 57543.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 104359.0,
+        "opp": 53310.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 130620.0,
+        "opp": 57543.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 104359.0,
+        "opp": 53310.0,
+        "won": true
+      },
+      "delta_b_vs_a": -26261.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -26261.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 142832.0,
+        "opp": 70827.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 124080.0,
+        "opp": 68844.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 142832.0,
+        "opp": 70827.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 124080.0,
+        "opp": 68844.0,
+        "won": true
+      },
+      "delta_b_vs_a": -18752.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -18752.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 140038.0,
+        "opp": 72291.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 136348.0,
+        "opp": 74629.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 140038.0,
+        "opp": 72291.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 136348.0,
+        "opp": 74629.0,
+        "won": true
+      },
+      "delta_b_vs_a": -3690.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -3690.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 100084.0,
+        "opp": 47250.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 99847.0,
+        "opp": 39386.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 100084.0,
+        "opp": 47250.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 99847.0,
+        "opp": 39386.0,
+        "won": true
+      },
+      "delta_b_vs_a": -237.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -237.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 57420.0,
+        "opp": 12869.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 67408.0,
+        "opp": 17285.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 57420.0,
+        "opp": 12869.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 67408.0,
+        "opp": 17285.0,
+        "won": true
+      },
+      "delta_b_vs_a": 9988.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 9988.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 63538.0,
+        "opp": 10451.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 87260.0,
+        "opp": 25860.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 63538.0,
+        "opp": 10451.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 87260.0,
+        "opp": 25860.0,
+        "won": true
+      },
+      "delta_b_vs_a": 23722.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 23722.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 111278.0,
+        "opp": 48440.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 104033.0,
+        "opp": 52071.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 111278.0,
+        "opp": 48440.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 104033.0,
+        "opp": 52071.0,
+        "won": true
+      },
+      "delta_b_vs_a": -7245.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -7245.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 87796.0,
+        "opp": 25175.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 112972.0,
+        "opp": 50816.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 87796.0,
+        "opp": 25175.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 112972.0,
+        "opp": 50816.0,
+        "won": true
+      },
+      "delta_b_vs_a": 25176.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 25176.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 99913.0,
+        "opp": 36951.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 74828.0,
+        "opp": 21216.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 99913.0,
+        "opp": 36951.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 74828.0,
+        "opp": 21216.0,
+        "won": true
+      },
+      "delta_b_vs_a": -25085.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -25085.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 119974.0,
+        "opp": 60374.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108523.0,
+        "opp": 56983.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 119974.0,
+        "opp": 60374.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 108523.0,
+        "opp": 56983.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11451.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -11451.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 130620.0,
+        "opp": 57543.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 104359.0,
+        "opp": 53310.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 130620.0,
+        "opp": 57543.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 104359.0,
+        "opp": 53310.0,
+        "won": true
+      },
+      "delta_b_vs_a": -26261.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -26261.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 142832.0,
+        "opp": 70827.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 124080.0,
+        "opp": 68844.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 142832.0,
+        "opp": 70827.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 124080.0,
+        "opp": 68844.0,
+        "won": true
+      },
+      "delta_b_vs_a": -18752.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -18752.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 140038.0,
+        "opp": 72291.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 136348.0,
+        "opp": 74629.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 140038.0,
+        "opp": 72291.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 136348.0,
+        "opp": 74629.0,
+        "won": true
+      },
+      "delta_b_vs_a": -3690.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": -3690.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "arm_d": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_d_vs_a": 0.0
+    }
+  ]
+}
