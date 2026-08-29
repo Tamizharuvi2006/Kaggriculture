@@ -1,0 +1,58 @@
+{
+  "farmer_tasks_d1": {
+    "CARE": 2.6,
+    "FEED": 25.0,
+    "WATER": 8.55,
+    "PLANT": 2.4,
+    "HARVEST": 1.95,
+    "INVENTORY": 37.0,
+    "MOVE": 73.85,
+    "IDLE": 10.4,
+    "BUILD": 1.5
+  },
+  "farmer_tasks_opp": {
+    "CARE": 5.8,
+    "FEED": 24.05,
+    "WATER": 10.9,
+    "PLANT": 2.0,
+    "HARVEST": 1.6,
+    "INVENTORY": 32.6,
+    "MOVE": 72.3,
+    "IDLE": 12.15,
+    "BUILD": 1.75
+  },
+  "worker_tasks_d1": {
+    "CARE": 60.95,
+    "FEED": 34.9,
+    "WATER": 171.25,
+    "PLANT": 40.25,
+    "HARVEST": 25.85,
+    "INVENTORY": 47.9,
+    "MOVE": 770.6,
+    "IDLE": 181.25,
+    "BUILD": 7.55
+  },
+  "worker_tasks_opp": {
+    "CARE": 57.3,
+    "FEED": 39.35,
+    "WATER": 166.95,
+    "PLANT": 43.25,
+    "HARVEST": 25.2,
+    "INVENTORY": 50.3,
+    "MOVE": 716.75,
+    "IDLE": 133.2,
+    "BUILD": 7.6
+  },
+  "throughput_d1": {
+    "water": 179.8,
+    "plant": 42.65,
+    "animal": 123.45,
+    "mean_workers": 8.398809523809524
+  },
+  "throughput_opp": {
+    "water": 177.85,
+    "plant": 45.25,
+    "animal": 126.5,
+    "mean_workers": 7.782738095238095
+  }
+}
