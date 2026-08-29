@@ -1,0 +1,1771 @@
+{
+  "total_matches": 40,
+  "n_counts": {
+    "0": 40,
+    "2": 0,
+    "4": 0,
+    "10": 0
+  },
+  "all_matches": [
+    {
+      "bot_key": "T1_v18_mirror",
+      "seed": 1000,
+      "seat": 0,
+      "state_at_696": {
+        "money": 79384.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 7.0,
+        "p_milk": 11.0,
+        "p_wheat": 53.0,
+        "field_potential": 44.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 94786.0,
+          "opp": 93290.0,
+          "margin": 1496.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 90313.0,
+          "opp": 93406.0,
+          "margin": -3093.0,
+          "won": false
+        },
+        "N_4": {
+          "reward": 90753.0,
+          "opp": 93395.0,
+          "margin": -2642.0,
+          "won": false
+        },
+        "N_10": {
+          "reward": 94786.0,
+          "opp": 93290.0,
+          "margin": 1496.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "seed": 42,
+      "seat": 0,
+      "state_at_696": {
+        "money": 53842.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 5.0,
+        "p_milk": 5.0,
+        "p_wheat": 54.0,
+        "field_potential": 20.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 69410.0,
+          "opp": 69504.0,
+          "margin": -94.0,
+          "won": false
+        },
+        "N_2": {
+          "reward": 64939.0,
+          "opp": 69592.0,
+          "margin": -4653.0,
+          "won": false
+        },
+        "N_4": {
+          "reward": 65381.0,
+          "opp": 69585.0,
+          "margin": -4204.0,
+          "won": false
+        },
+        "N_10": {
+          "reward": 69410.0,
+          "opp": 69504.0,
+          "margin": -94.0,
+          "won": false
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "seed": 20001,
+      "seat": 1,
+      "state_at_696": {
+        "money": 81657.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 208.0,
+        "p_milk": 187.0,
+        "p_wheat": 57.0,
+        "field_potential": 748.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 80809.0,
+          "opp": 94607.0,
+          "margin": -13798.0,
+          "won": false
+        },
+        "N_2": {
+          "reward": 80809.0,
+          "opp": 94607.0,
+          "margin": -13798.0,
+          "won": false
+        },
+        "N_4": {
+          "reward": 80809.0,
+          "opp": 94607.0,
+          "margin": -13798.0,
+          "won": false
+        },
+        "N_10": {
+          "reward": 80809.0,
+          "opp": 94607.0,
+          "margin": -13798.0,
+          "won": false
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "seed": 20010,
+      "seat": 1,
+      "state_at_696": {
+        "money": 32015.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 7.0,
+        "p_milk": 1.0,
+        "p_wheat": 56.0,
+        "field_potential": 4.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 36383.0,
+          "opp": 39970.0,
+          "margin": -3587.0,
+          "won": false
+        },
+        "N_2": {
+          "reward": 36383.0,
+          "opp": 39970.0,
+          "margin": -3587.0,
+          "won": false
+        },
+        "N_4": {
+          "reward": 36383.0,
+          "opp": 39970.0,
+          "margin": -3587.0,
+          "won": false
+        },
+        "N_10": {
+          "reward": 36383.0,
+          "opp": 39970.0,
+          "margin": -3587.0,
+          "won": false
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "seed": 1000,
+      "seat": 0,
+      "state_at_696": {
+        "money": 95275.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 22.0,
+        "p_milk": 234.0,
+        "p_wheat": 56.0,
+        "field_potential": 936.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 106178.0,
+          "opp": 47381.0,
+          "margin": 58797.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 101209.0,
+          "opp": 47387.0,
+          "margin": 53822.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 102394.0,
+          "opp": 47387.0,
+          "margin": 55007.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 106178.0,
+          "opp": 47381.0,
+          "margin": 58797.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "seed": 42,
+      "seat": 0,
+      "state_at_696": {
+        "money": 54557.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 26.0,
+        "p_milk": 11.0,
+        "p_wheat": 59.0,
+        "field_potential": 44.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 60970.0,
+          "opp": 12938.0,
+          "margin": 48032.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 57889.0,
+          "opp": 12962.0,
+          "margin": 44927.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 58415.0,
+          "opp": 12962.0,
+          "margin": 45453.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 60970.0,
+          "opp": 12938.0,
+          "margin": 48032.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "seed": 20001,
+      "seat": 1,
+      "state_at_696": {
+        "money": 14098.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 231.0,
+        "p_milk": 91.0,
+        "p_wheat": 56.0,
+        "field_potential": 364.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 87587.0,
+          "opp": 22469.0,
+          "margin": 65118.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 87587.0,
+          "opp": 22469.0,
+          "margin": 65118.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 87587.0,
+          "opp": 22469.0,
+          "margin": 65118.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 87587.0,
+          "opp": 22469.0,
+          "margin": 65118.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "seed": 20010,
+      "seat": 1,
+      "state_at_696": {
+        "money": 920.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 1.0,
+        "p_milk": 1.0,
+        "p_wheat": 53.0,
+        "field_potential": 4.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 53198.0,
+          "opp": 4027.0,
+          "margin": 49171.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 53198.0,
+          "opp": 4027.0,
+          "margin": 49171.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 53198.0,
+          "opp": 4027.0,
+          "margin": 49171.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 53198.0,
+          "opp": 4027.0,
+          "margin": 49171.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "seed": 1000,
+      "seat": 0,
+      "state_at_696": {
+        "money": 89892.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 55.0,
+        "p_milk": 248.0,
+        "p_wheat": 55.0,
+        "field_potential": 992.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 101837.0,
+          "opp": 270.0,
+          "margin": 101567.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 96658.0,
+          "opp": 277.0,
+          "margin": 96381.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 97899.0,
+          "opp": 277.0,
+          "margin": 97622.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 101837.0,
+          "opp": 270.0,
+          "margin": 101567.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "seed": 42,
+      "seat": 0,
+      "state_at_696": {
+        "money": 61799.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 89.0,
+        "p_milk": 1.0,
+        "p_wheat": 57.0,
+        "field_potential": 4.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 68930.0,
+          "opp": 144.0,
+          "margin": 68786.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 65830.0,
+          "opp": 152.0,
+          "margin": 65678.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 66342.0,
+          "opp": 152.0,
+          "margin": 66190.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 68930.0,
+          "opp": 144.0,
+          "margin": 68786.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "seed": 20001,
+      "seat": 1,
+      "state_at_696": {
+        "money": 41701.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 128.0,
+        "p_milk": 183.0,
+        "p_wheat": 55.0,
+        "field_potential": 732.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 108246.0,
+          "opp": 48186.0,
+          "margin": 60060.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 108246.0,
+          "opp": 48186.0,
+          "margin": 60060.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 108246.0,
+          "opp": 48186.0,
+          "margin": 60060.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 108246.0,
+          "opp": 48186.0,
+          "margin": 60060.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "seed": 20010,
+      "seat": 1,
+      "state_at_696": {
+        "money": 17014.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 107.0,
+        "p_milk": 7.0,
+        "p_wheat": 59.0,
+        "field_potential": 28.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 63021.0,
+          "opp": 19984.0,
+          "margin": 43037.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 63021.0,
+          "opp": 19984.0,
+          "margin": 43037.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 63021.0,
+          "opp": 19984.0,
+          "margin": 43037.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 63021.0,
+          "opp": 19984.0,
+          "margin": 43037.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "seed": 1000,
+      "seat": 0,
+      "state_at_696": {
+        "money": 80437.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 9.0,
+        "p_milk": 84.0,
+        "p_wheat": 56.0,
+        "field_potential": 336.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 97376.0,
+          "opp": 26631.0,
+          "margin": 70745.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 92232.0,
+          "opp": 26663.0,
+          "margin": 65569.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 92869.0,
+          "opp": 26663.0,
+          "margin": 66206.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 97376.0,
+          "opp": 26631.0,
+          "margin": 70745.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "seed": 42,
+      "seat": 0,
+      "state_at_696": {
+        "money": 68371.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 182.0,
+        "p_milk": 1.0,
+        "p_wheat": 59.0,
+        "field_potential": 4.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 77240.0,
+          "opp": 30114.0,
+          "margin": 47126.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 73811.0,
+          "opp": 30129.0,
+          "margin": 43682.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 74347.0,
+          "opp": 30129.0,
+          "margin": 44218.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 77240.0,
+          "opp": 30114.0,
+          "margin": 47126.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "seed": 20001,
+      "seat": 1,
+      "state_at_696": {
+        "money": 41161.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 128.0,
+        "p_milk": 183.0,
+        "p_wheat": 55.0,
+        "field_potential": 732.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 108624.0,
+          "opp": 47626.0,
+          "margin": 60998.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 108624.0,
+          "opp": 47626.0,
+          "margin": 60998.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 108624.0,
+          "opp": 47626.0,
+          "margin": 60998.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 108624.0,
+          "opp": 47626.0,
+          "margin": 60998.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "seed": 20010,
+      "seat": 1,
+      "state_at_696": {
+        "money": 24461.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 209.0,
+        "p_milk": 9.0,
+        "p_wheat": 59.0,
+        "field_potential": 36.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 76690.0,
+          "opp": 29445.0,
+          "margin": 47245.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 76690.0,
+          "opp": 29445.0,
+          "margin": 47245.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 76690.0,
+          "opp": 29445.0,
+          "margin": 47245.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 76690.0,
+          "opp": 29445.0,
+          "margin": 47245.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "seed": 1000,
+      "seat": 0,
+      "state_at_696": {
+        "money": 94649.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 9.0,
+        "p_milk": 230.0,
+        "p_wheat": 54.0,
+        "field_potential": 920.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 115073.0,
+          "opp": 37738.0,
+          "margin": 77335.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 108416.0,
+          "opp": 37751.0,
+          "margin": 70665.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 109558.0,
+          "opp": 37751.0,
+          "margin": 71807.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 115073.0,
+          "opp": 37738.0,
+          "margin": 77335.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "seed": 42,
+      "seat": 0,
+      "state_at_696": {
+        "money": 68388.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 182.0,
+        "p_milk": 1.0,
+        "p_wheat": 59.0,
+        "field_potential": 4.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 77254.0,
+          "opp": 30234.0,
+          "margin": 47020.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 73828.0,
+          "opp": 30249.0,
+          "margin": 43579.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 74364.0,
+          "opp": 30249.0,
+          "margin": 44115.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 77254.0,
+          "opp": 30234.0,
+          "margin": 47020.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "seed": 20001,
+      "seat": 1,
+      "state_at_696": {
+        "money": 41277.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 128.0,
+        "p_milk": 183.0,
+        "p_wheat": 55.0,
+        "field_potential": 732.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 108646.0,
+          "opp": 47742.0,
+          "margin": 60904.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 108646.0,
+          "opp": 47742.0,
+          "margin": 60904.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 108646.0,
+          "opp": 47742.0,
+          "margin": 60904.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 108646.0,
+          "opp": 47742.0,
+          "margin": 60904.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "seed": 20010,
+      "seat": 1,
+      "state_at_696": {
+        "money": 24579.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 209.0,
+        "p_milk": 9.0,
+        "p_wheat": 59.0,
+        "field_potential": 36.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 76700.0,
+          "opp": 29563.0,
+          "margin": 47137.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 76700.0,
+          "opp": 29563.0,
+          "margin": 47137.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 76700.0,
+          "opp": 29563.0,
+          "margin": 47137.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 76700.0,
+          "opp": 29563.0,
+          "margin": 47137.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "seed": 1000,
+      "seat": 0,
+      "state_at_696": {
+        "money": 95275.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 22.0,
+        "p_milk": 234.0,
+        "p_wheat": 56.0,
+        "field_potential": 936.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 106178.0,
+          "opp": 47381.0,
+          "margin": 58797.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 101209.0,
+          "opp": 47387.0,
+          "margin": 53822.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 102394.0,
+          "opp": 47387.0,
+          "margin": 55007.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 106178.0,
+          "opp": 47381.0,
+          "margin": 58797.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "seed": 42,
+      "seat": 0,
+      "state_at_696": {
+        "money": 54557.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 26.0,
+        "p_milk": 11.0,
+        "p_wheat": 59.0,
+        "field_potential": 44.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 60970.0,
+          "opp": 12938.0,
+          "margin": 48032.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 57889.0,
+          "opp": 12962.0,
+          "margin": 44927.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 58415.0,
+          "opp": 12962.0,
+          "margin": 45453.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 60970.0,
+          "opp": 12938.0,
+          "margin": 48032.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "seed": 20001,
+      "seat": 1,
+      "state_at_696": {
+        "money": 41700.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 128.0,
+        "p_milk": 183.0,
+        "p_wheat": 55.0,
+        "field_potential": 732.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 108248.0,
+          "opp": 48185.0,
+          "margin": 60063.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 108248.0,
+          "opp": 48185.0,
+          "margin": 60063.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 108248.0,
+          "opp": 48185.0,
+          "margin": 60063.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 108248.0,
+          "opp": 48185.0,
+          "margin": 60063.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "seed": 20010,
+      "seat": 1,
+      "state_at_696": {
+        "money": 17013.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 107.0,
+        "p_milk": 7.0,
+        "p_wheat": 59.0,
+        "field_potential": 28.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 63023.0,
+          "opp": 19983.0,
+          "margin": 43040.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 63023.0,
+          "opp": 19983.0,
+          "margin": 43040.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 63023.0,
+          "opp": 19983.0,
+          "margin": 43040.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 63023.0,
+          "opp": 19983.0,
+          "margin": 43040.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "seed": 1000,
+      "seat": 0,
+      "state_at_696": {
+        "money": 95275.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 22.0,
+        "p_milk": 234.0,
+        "p_wheat": 56.0,
+        "field_potential": 936.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 106178.0,
+          "opp": 47381.0,
+          "margin": 58797.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 101209.0,
+          "opp": 47387.0,
+          "margin": 53822.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 102394.0,
+          "opp": 47387.0,
+          "margin": 55007.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 106178.0,
+          "opp": 47381.0,
+          "margin": 58797.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "seed": 42,
+      "seat": 0,
+      "state_at_696": {
+        "money": 54557.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 26.0,
+        "p_milk": 11.0,
+        "p_wheat": 59.0,
+        "field_potential": 44.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 60970.0,
+          "opp": 12938.0,
+          "margin": 48032.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 57889.0,
+          "opp": 12962.0,
+          "margin": 44927.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 58415.0,
+          "opp": 12962.0,
+          "margin": 45453.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 60970.0,
+          "opp": 12938.0,
+          "margin": 48032.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "seed": 20001,
+      "seat": 1,
+      "state_at_696": {
+        "money": 41700.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 128.0,
+        "p_milk": 183.0,
+        "p_wheat": 55.0,
+        "field_potential": 732.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 108248.0,
+          "opp": 48185.0,
+          "margin": 60063.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 108248.0,
+          "opp": 48185.0,
+          "margin": 60063.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 108248.0,
+          "opp": 48185.0,
+          "margin": 60063.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 108248.0,
+          "opp": 48185.0,
+          "margin": 60063.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "seed": 20010,
+      "seat": 1,
+      "state_at_696": {
+        "money": 17013.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 107.0,
+        "p_milk": 7.0,
+        "p_wheat": 59.0,
+        "field_potential": 28.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 63023.0,
+          "opp": 19983.0,
+          "margin": 43040.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 63023.0,
+          "opp": 19983.0,
+          "margin": 43040.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 63023.0,
+          "opp": 19983.0,
+          "margin": 43040.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 63023.0,
+          "opp": 19983.0,
+          "margin": 43040.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "seed": 1000,
+      "seat": 0,
+      "state_at_696": {
+        "money": 80437.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 9.0,
+        "p_milk": 84.0,
+        "p_wheat": 56.0,
+        "field_potential": 336.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 97376.0,
+          "opp": 26631.0,
+          "margin": 70745.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 92232.0,
+          "opp": 26663.0,
+          "margin": 65569.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 92869.0,
+          "opp": 26663.0,
+          "margin": 66206.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 97376.0,
+          "opp": 26631.0,
+          "margin": 70745.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "seed": 42,
+      "seat": 0,
+      "state_at_696": {
+        "money": 68371.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 182.0,
+        "p_milk": 1.0,
+        "p_wheat": 59.0,
+        "field_potential": 4.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 77240.0,
+          "opp": 30114.0,
+          "margin": 47126.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 73811.0,
+          "opp": 30129.0,
+          "margin": 43682.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 74347.0,
+          "opp": 30129.0,
+          "margin": 44218.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 77240.0,
+          "opp": 30114.0,
+          "margin": 47126.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "seed": 20001,
+      "seat": 1,
+      "state_at_696": {
+        "money": 41161.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 128.0,
+        "p_milk": 183.0,
+        "p_wheat": 55.0,
+        "field_potential": 732.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 108624.0,
+          "opp": 47626.0,
+          "margin": 60998.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 108624.0,
+          "opp": 47626.0,
+          "margin": 60998.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 108624.0,
+          "opp": 47626.0,
+          "margin": 60998.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 108624.0,
+          "opp": 47626.0,
+          "margin": 60998.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "seed": 20010,
+      "seat": 1,
+      "state_at_696": {
+        "money": 24461.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 209.0,
+        "p_milk": 9.0,
+        "p_wheat": 59.0,
+        "field_potential": 36.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 76690.0,
+          "opp": 29445.0,
+          "margin": 47245.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 76690.0,
+          "opp": 29445.0,
+          "margin": 47245.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 76690.0,
+          "opp": 29445.0,
+          "margin": 47245.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 76690.0,
+          "opp": 29445.0,
+          "margin": 47245.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "seed": 1000,
+      "seat": 0,
+      "state_at_696": {
+        "money": 94649.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 9.0,
+        "p_milk": 230.0,
+        "p_wheat": 54.0,
+        "field_potential": 920.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 115073.0,
+          "opp": 37738.0,
+          "margin": 77335.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 108416.0,
+          "opp": 37751.0,
+          "margin": 70665.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 109558.0,
+          "opp": 37751.0,
+          "margin": 71807.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 115073.0,
+          "opp": 37738.0,
+          "margin": 77335.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "seed": 42,
+      "seat": 0,
+      "state_at_696": {
+        "money": 68388.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 182.0,
+        "p_milk": 1.0,
+        "p_wheat": 59.0,
+        "field_potential": 4.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 77254.0,
+          "opp": 30234.0,
+          "margin": 47020.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 73828.0,
+          "opp": 30249.0,
+          "margin": 43579.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 74364.0,
+          "opp": 30249.0,
+          "margin": 44115.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 77254.0,
+          "opp": 30234.0,
+          "margin": 47020.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "seed": 20001,
+      "seat": 1,
+      "state_at_696": {
+        "money": 41277.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 128.0,
+        "p_milk": 183.0,
+        "p_wheat": 55.0,
+        "field_potential": 732.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 108646.0,
+          "opp": 47742.0,
+          "margin": 60904.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 108646.0,
+          "opp": 47742.0,
+          "margin": 60904.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 108646.0,
+          "opp": 47742.0,
+          "margin": 60904.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 108646.0,
+          "opp": 47742.0,
+          "margin": 60904.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "seed": 20010,
+      "seat": 1,
+      "state_at_696": {
+        "money": 24579.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 209.0,
+        "p_milk": 9.0,
+        "p_wheat": 59.0,
+        "field_potential": 36.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 76700.0,
+          "opp": 29563.0,
+          "margin": 47137.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 76700.0,
+          "opp": 29563.0,
+          "margin": 47137.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 76700.0,
+          "opp": 29563.0,
+          "margin": 47137.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 76700.0,
+          "opp": 29563.0,
+          "margin": 47137.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "seed": 1000,
+      "seat": 0,
+      "state_at_696": {
+        "money": 111537.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 169.0,
+        "p_milk": 286.0,
+        "p_wheat": 54.0,
+        "field_potential": 1144.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 127773.0,
+          "opp": 67761.0,
+          "margin": 60012.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 121936.0,
+          "opp": 67770.0,
+          "margin": 54166.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 123276.0,
+          "opp": 67770.0,
+          "margin": 55506.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 127773.0,
+          "opp": 67761.0,
+          "margin": 60012.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "seed": 42,
+      "seat": 0,
+      "state_at_696": {
+        "money": 74411.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 3.0,
+        "p_milk": 87.0,
+        "p_wheat": 55.0,
+        "field_potential": 348.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 91801.0,
+          "opp": 29003.0,
+          "margin": 62798.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 86551.0,
+          "opp": 29102.0,
+          "margin": 57449.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 87208.0,
+          "opp": 29102.0,
+          "margin": 58106.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 91801.0,
+          "opp": 29003.0,
+          "margin": 62798.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "seed": 20001,
+      "seat": 1,
+      "state_at_696": {
+        "money": 38333.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 7,
+        "p_straw": 243.0,
+        "p_milk": 40.0,
+        "p_wheat": 55.0,
+        "field_potential": 140.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 83681.0,
+          "opp": 42053.0,
+          "margin": 41628.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 83681.0,
+          "opp": 42053.0,
+          "margin": 41628.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 83681.0,
+          "opp": 42053.0,
+          "margin": 41628.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 83681.0,
+          "opp": 42053.0,
+          "margin": 41628.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "seed": 20010,
+      "seat": 1,
+      "state_at_696": {
+        "money": 38764.0,
+        "curr_workers": 0,
+        "ripe_straw": 0,
+        "ripe_wheat": 0,
+        "cows": 8,
+        "p_straw": 173.0,
+        "p_milk": 57.0,
+        "p_wheat": 56.0,
+        "field_potential": 228.0
+      },
+      "sweep_rewards": {
+        "N_0": {
+          "reward": 87872.0,
+          "opp": 42483.0,
+          "margin": 45389.0,
+          "won": true
+        },
+        "N_2": {
+          "reward": 87872.0,
+          "opp": 42483.0,
+          "margin": 45389.0,
+          "won": true
+        },
+        "N_4": {
+          "reward": 87872.0,
+          "opp": 42483.0,
+          "margin": 45389.0,
+          "won": true
+        },
+        "N_10": {
+          "reward": 87872.0,
+          "opp": 42483.0,
+          "margin": 45389.0,
+          "won": true
+        }
+      },
+      "best_n": 0,
+      "delta_best_vs_n0": 0.0
+    }
+  ]
+}
