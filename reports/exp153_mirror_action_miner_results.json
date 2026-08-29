@@ -1,0 +1,733 @@
+{
+  "total_matches": 20,
+  "h_late_straw": 0.0,
+  "o_late_straw": 0.0,
+  "h_straw_seeds": 27.0,
+  "o_straw_seeds": 27.0,
+  "h_feed": 192.0,
+  "o_feed": 192.0,
+  "h_sells": 366.55,
+  "o_sells": 366.4,
+  "all_matches": [
+    {
+      "seed": 1000,
+      "seat": 0,
+      "hero_reward": 87922.0,
+      "opp_reward": 93383.0,
+      "margin": -5461.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 372,
+      "o_sell_count": 366
+    },
+    {
+      "seed": 42,
+      "seat": 0,
+      "hero_reward": 62463.0,
+      "opp_reward": 69600.0,
+      "margin": -7137.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 349,
+      "o_sell_count": 371
+    },
+    {
+      "seed": 100,
+      "seat": 0,
+      "hero_reward": 92031.0,
+      "opp_reward": 99162.0,
+      "margin": -7131.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 363,
+      "o_sell_count": 366
+    },
+    {
+      "seed": 200,
+      "seat": 0,
+      "hero_reward": 70900.0,
+      "opp_reward": 71932.0,
+      "margin": -1032.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 371,
+      "o_sell_count": 363
+    },
+    {
+      "seed": 300,
+      "seat": 0,
+      "hero_reward": 83593.0,
+      "opp_reward": 91703.0,
+      "margin": -8110.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 361,
+      "o_sell_count": 363
+    },
+    {
+      "seed": 500,
+      "seat": 0,
+      "hero_reward": 23612.0,
+      "opp_reward": 25169.0,
+      "margin": -1557.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 339,
+      "o_sell_count": 371
+    },
+    {
+      "seed": 1001,
+      "seat": 0,
+      "hero_reward": 37074.0,
+      "opp_reward": 37563.0,
+      "margin": -489.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 345,
+      "o_sell_count": 371
+    },
+    {
+      "seed": 20042,
+      "seat": 0,
+      "hero_reward": 63123.0,
+      "opp_reward": 63857.0,
+      "margin": -734.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 353,
+      "o_sell_count": 369
+    },
+    {
+      "seed": 12345,
+      "seat": 0,
+      "hero_reward": 127875.0,
+      "opp_reward": 134090.0,
+      "margin": -6215.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 394,
+      "o_sell_count": 366
+    },
+    {
+      "seed": 54321,
+      "seat": 0,
+      "hero_reward": 88486.0,
+      "opp_reward": 92327.0,
+      "margin": -3841.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 374,
+      "o_sell_count": 361
+    },
+    {
+      "seed": 20001,
+      "seat": 1,
+      "hero_reward": 80809.0,
+      "opp_reward": 94607.0,
+      "margin": -13798.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 384,
+      "o_sell_count": 366
+    },
+    {
+      "seed": 20010,
+      "seat": 1,
+      "hero_reward": 36383.0,
+      "opp_reward": 39970.0,
+      "margin": -3587.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 353,
+      "o_sell_count": 371
+    },
+    {
+      "seed": 20020,
+      "seat": 1,
+      "hero_reward": 107919.0,
+      "opp_reward": 113168.0,
+      "margin": -5249.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 394,
+      "o_sell_count": 362
+    },
+    {
+      "seed": 20030,
+      "seat": 1,
+      "hero_reward": 70980.0,
+      "opp_reward": 78310.0,
+      "margin": -7330.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 365,
+      "o_sell_count": 366
+    },
+    {
+      "seed": 20040,
+      "seat": 1,
+      "hero_reward": 74715.0,
+      "opp_reward": 77728.0,
+      "margin": -3013.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 377,
+      "o_sell_count": 366
+    },
+    {
+      "seed": 20050,
+      "seat": 1,
+      "hero_reward": 79033.0,
+      "opp_reward": 75939.0,
+      "margin": 3094.0,
+      "won": true,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 362,
+      "o_sell_count": 366
+    },
+    {
+      "seed": 20060,
+      "seat": 1,
+      "hero_reward": 82373.0,
+      "opp_reward": 84411.0,
+      "margin": -2038.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 356,
+      "o_sell_count": 366
+    },
+    {
+      "seed": 20070,
+      "seat": 1,
+      "hero_reward": 105398.0,
+      "opp_reward": 113914.0,
+      "margin": -8516.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 386,
+      "o_sell_count": 366
+    },
+    {
+      "seed": 20080,
+      "seat": 1,
+      "hero_reward": 52207.0,
+      "opp_reward": 56962.0,
+      "margin": -4755.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 343,
+      "o_sell_count": 366
+    },
+    {
+      "seed": 20090,
+      "seat": 1,
+      "hero_reward": 99058.0,
+      "opp_reward": 102409.0,
+      "margin": -3351.0,
+      "won": false,
+      "h_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "o_seed_buys": {
+        "STRAWBERRY": 27,
+        "CARROT": 0,
+        "WHEAT": 38,
+        "WATERMELON": 0,
+        "MELON": 10
+      },
+      "h_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "o_plants_late": {
+        "STRAWBERRY": 0,
+        "CARROT": 0,
+        "WHEAT": 32
+      },
+      "h_feed_cows": 192,
+      "o_feed_cows": 192,
+      "h_sell_count": 390,
+      "o_sell_count": 366
+    }
+  ]
+}
