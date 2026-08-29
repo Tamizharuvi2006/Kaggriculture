@@ -1,0 +1,1413 @@
+{
+  "mean_hero_reward": 76297.7,
+  "mean_opp_reward": 80810.2,
+  "mean_margin": -4512.5,
+  "hero_straw_rev": 110564.65,
+  "opp_straw_rev": 91680.35,
+  "hero_milk_rev": 70599.75,
+  "opp_milk_rev": 59517.8,
+  "realized_p_straw_hero": 166.3877351392024,
+  "realized_p_straw_opp": 151.11315312345477,
+  "all_matches": [
+    {
+      "seed": 1000,
+      "seat": 0,
+      "hero_reward": 87922.0,
+      "opp_reward": 93383.0,
+      "margin": -5461.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 604,
+      "opp_straw_sold_qty": 605,
+      "hero_straw_revenue": 73797.0,
+      "opp_straw_revenue": 64465.0,
+      "hero_milk_sold_qty": 706,
+      "opp_milk_sold_qty": 645,
+      "hero_milk_revenue": 97526.0,
+      "opp_milk_revenue": 80657.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 1260.0,
+        "step_240": 1080.0,
+        "step_360": 19646.0,
+        "step_480": 45072.0,
+        "step_600": 74832.0,
+        "step_672": 79424.0,
+        "step_696": 79384.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 1257.0,
+        "step_240": 1077.0,
+        "step_360": 18397.0,
+        "step_480": 45068.0,
+        "step_600": 71950.0,
+        "step_672": 77585.0,
+        "step_696": 77557.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 164.0,
+          "p_milk": 205.0
+        },
+        "step_240": {
+          "p_straw": 173.0,
+          "p_milk": 215.0
+        },
+        "step_360": {
+          "p_straw": 206.0,
+          "p_milk": 222.0
+        },
+        "step_480": {
+          "p_straw": 201.0,
+          "p_milk": 193.0
+        },
+        "step_600": {
+          "p_straw": 1.0,
+          "p_milk": 78.0
+        },
+        "step_672": {
+          "p_straw": 1.0,
+          "p_milk": 13.0
+        },
+        "step_696": {
+          "p_straw": 7.0,
+          "p_milk": 11.0
+        }
+      }
+    },
+    {
+      "seed": 42,
+      "seat": 0,
+      "hero_reward": 62463.0,
+      "opp_reward": 69600.0,
+      "margin": -7137.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 591,
+      "opp_straw_sold_qty": 616,
+      "hero_straw_revenue": 68093.0,
+      "opp_straw_revenue": 60533.0,
+      "hero_milk_sold_qty": 540,
+      "opp_milk_sold_qty": 669,
+      "hero_milk_revenue": 5450.0,
+      "opp_milk_revenue": 7097.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 323.0,
+        "step_240": 276.0,
+        "step_360": 15279.0,
+        "step_480": 31477.0,
+        "step_600": 50386.0,
+        "step_672": 53935.0,
+        "step_696": 53842.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 320.0,
+        "step_240": 273.0,
+        "step_360": 15345.0,
+        "step_480": 31557.0,
+        "step_600": 50263.0,
+        "step_672": 54117.0,
+        "step_696": 54010.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 176.0,
+          "p_milk": 103.0
+        },
+        "step_240": {
+          "p_straw": 181.0,
+          "p_milk": 105.0
+        },
+        "step_360": {
+          "p_straw": 198.0,
+          "p_milk": 17.0
+        },
+        "step_480": {
+          "p_straw": 193.0,
+          "p_milk": 1.0
+        },
+        "step_600": {
+          "p_straw": 1.0,
+          "p_milk": 15.0
+        },
+        "step_672": {
+          "p_straw": 1.0,
+          "p_milk": 5.0
+        },
+        "step_696": {
+          "p_straw": 5.0,
+          "p_milk": 5.0
+        }
+      }
+    },
+    {
+      "seed": 100,
+      "seat": 0,
+      "hero_reward": 92031.0,
+      "opp_reward": 99162.0,
+      "margin": -7131.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 620,
+      "opp_straw_sold_qty": 605,
+      "hero_straw_revenue": 94599.0,
+      "opp_straw_revenue": 83559.0,
+      "hero_milk_sold_qty": 610,
+      "opp_milk_sold_qty": 645,
+      "hero_milk_revenue": 65238.0,
+      "opp_milk_revenue": 57691.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 745.0,
+        "step_240": 745.0,
+        "step_360": 20437.0,
+        "step_480": 44673.0,
+        "step_600": 76817.0,
+        "step_672": 83262.0,
+        "step_696": 83327.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 742.0,
+        "step_240": 742.0,
+        "step_360": 19401.0,
+        "step_480": 44592.0,
+        "step_600": 76367.0,
+        "step_672": 83107.0,
+        "step_696": 83207.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 164.0,
+          "p_milk": 141.0
+        },
+        "step_240": {
+          "p_straw": 169.0,
+          "p_milk": 177.0
+        },
+        "step_360": {
+          "p_straw": 198.0,
+          "p_milk": 194.0
+        },
+        "step_480": {
+          "p_straw": 211.0,
+          "p_milk": 114.0
+        },
+        "step_600": {
+          "p_straw": 99.0,
+          "p_milk": 55.0
+        },
+        "step_672": {
+          "p_straw": 3.0,
+          "p_milk": 19.0
+        },
+        "step_696": {
+          "p_straw": 9.0,
+          "p_milk": 17.0
+        }
+      }
+    },
+    {
+      "seed": 200,
+      "seat": 0,
+      "hero_reward": 70900.0,
+      "opp_reward": 71932.0,
+      "margin": -1032.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 616,
+      "opp_straw_sold_qty": 613,
+      "hero_straw_revenue": 95585.0,
+      "opp_straw_revenue": 83675.0,
+      "hero_milk_sold_qty": 676,
+      "opp_milk_sold_qty": 645,
+      "hero_milk_revenue": 97208.0,
+      "opp_milk_revenue": 80006.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 1250.0,
+        "step_240": 1061.0,
+        "step_360": 16780.0,
+        "step_480": 35918.0,
+        "step_600": 67112.0,
+        "step_672": 68766.0,
+        "step_696": 68806.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 1247.0,
+        "step_240": 1058.0,
+        "step_360": 15531.0,
+        "step_480": 35968.0,
+        "step_600": 64451.0,
+        "step_672": 65894.0,
+        "step_696": 65932.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 164.0,
+          "p_milk": 205.0
+        },
+        "step_240": {
+          "p_straw": 173.0,
+          "p_milk": 215.0
+        },
+        "step_360": {
+          "p_straw": 206.0,
+          "p_milk": 222.0
+        },
+        "step_480": {
+          "p_straw": 214.0,
+          "p_milk": 193.0
+        },
+        "step_600": {
+          "p_straw": 99.0,
+          "p_milk": 78.0
+        },
+        "step_672": {
+          "p_straw": 1.0,
+          "p_milk": 13.0
+        },
+        "step_696": {
+          "p_straw": 9.0,
+          "p_milk": 11.0
+        }
+      }
+    },
+    {
+      "seed": 300,
+      "seat": 0,
+      "hero_reward": 83593.0,
+      "opp_reward": 91703.0,
+      "margin": -8110.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 613,
+      "opp_straw_sold_qty": 598,
+      "hero_straw_revenue": 79967.0,
+      "opp_straw_revenue": 69562.0,
+      "hero_milk_sold_qty": 598,
+      "opp_milk_sold_qty": 654,
+      "hero_milk_revenue": 63941.0,
+      "opp_milk_revenue": 55951.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 745.0,
+        "step_240": 748.0,
+        "step_360": 19393.0,
+        "step_480": 43793.0,
+        "step_600": 70137.0,
+        "step_672": 74992.0,
+        "step_696": 75038.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 742.0,
+        "step_240": 745.0,
+        "step_360": 19542.0,
+        "step_480": 44821.0,
+        "step_600": 71438.0,
+        "step_672": 76559.0,
+        "step_696": 76605.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 164.0,
+          "p_milk": 141.0
+        },
+        "step_240": {
+          "p_straw": 173.0,
+          "p_milk": 177.0
+        },
+        "step_360": {
+          "p_straw": 206.0,
+          "p_milk": 194.0
+        },
+        "step_480": {
+          "p_straw": 201.0,
+          "p_milk": 114.0
+        },
+        "step_600": {
+          "p_straw": 16.0,
+          "p_milk": 42.0
+        },
+        "step_672": {
+          "p_straw": 1.0,
+          "p_milk": 13.0
+        },
+        "step_696": {
+          "p_straw": 9.0,
+          "p_milk": 9.0
+        }
+      }
+    },
+    {
+      "seed": 500,
+      "seat": 0,
+      "hero_reward": 23612.0,
+      "opp_reward": 25169.0,
+      "margin": -1557.0,
+      "won": false,
+      "hero_cows": 7,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 512,
+      "opp_straw_sold_qty": 616,
+      "hero_straw_revenue": 24496.0,
+      "opp_straw_revenue": 22632.0,
+      "hero_milk_sold_qty": 524,
+      "opp_milk_sold_qty": 669,
+      "hero_milk_revenue": 6362.0,
+      "opp_milk_revenue": 7759.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 261.0,
+        "step_240": 87.0,
+        "step_360": 10827.0,
+        "step_480": 16816.0,
+        "step_600": 19375.0,
+        "step_672": 19273.0,
+        "step_696": 19193.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 358.0,
+        "step_240": 184.0,
+        "step_360": 10920.0,
+        "step_480": 16601.0,
+        "step_600": 17810.0,
+        "step_672": 17743.0,
+        "step_696": 17657.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 145.0,
+          "p_milk": 103.0
+        },
+        "step_240": {
+          "p_straw": 147.0,
+          "p_milk": 105.0
+        },
+        "step_360": {
+          "p_straw": 153.0,
+          "p_milk": 17.0
+        },
+        "step_480": {
+          "p_straw": 70.0,
+          "p_milk": 1.0
+        },
+        "step_600": {
+          "p_straw": 1.0,
+          "p_milk": 15.0
+        },
+        "step_672": {
+          "p_straw": 5.0,
+          "p_milk": 7.0
+        },
+        "step_696": {
+          "p_straw": 5.0,
+          "p_milk": 5.0
+        }
+      }
+    },
+    {
+      "seed": 1001,
+      "seat": 0,
+      "hero_reward": 37074.0,
+      "opp_reward": 37563.0,
+      "margin": -489.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 571,
+      "opp_straw_sold_qty": 616,
+      "hero_straw_revenue": 54493.0,
+      "opp_straw_revenue": 49290.0,
+      "hero_milk_sold_qty": 515,
+      "opp_milk_sold_qty": 669,
+      "hero_milk_revenue": 7322.0,
+      "opp_milk_revenue": 9000.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 261.0,
+        "step_240": 96.0,
+        "step_360": 10875.0,
+        "step_480": 20389.0,
+        "step_600": 32307.0,
+        "step_672": 32754.0,
+        "step_696": 32768.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 358.0,
+        "step_240": 193.0,
+        "step_360": 10963.0,
+        "step_480": 20443.0,
+        "step_600": 29460.0,
+        "step_672": 29967.0,
+        "step_696": 30005.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 164.0,
+          "p_milk": 103.0
+        },
+        "step_240": {
+          "p_straw": 169.0,
+          "p_milk": 105.0
+        },
+        "step_360": {
+          "p_straw": 190.0,
+          "p_milk": 17.0
+        },
+        "step_480": {
+          "p_straw": 173.0,
+          "p_milk": 1.0
+        },
+        "step_600": {
+          "p_straw": 1.0,
+          "p_milk": 28.0
+        },
+        "step_672": {
+          "p_straw": 7.0,
+          "p_milk": 17.0
+        },
+        "step_696": {
+          "p_straw": 7.0,
+          "p_milk": 11.0
+        }
+      }
+    },
+    {
+      "seed": 20042,
+      "seat": 0,
+      "hero_reward": 63123.0,
+      "opp_reward": 63857.0,
+      "margin": -734.0,
+      "won": false,
+      "hero_cows": 6,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 587,
+      "opp_straw_sold_qty": 601,
+      "hero_straw_revenue": 63683.0,
+      "opp_straw_revenue": 57566.0,
+      "hero_milk_sold_qty": 554,
+      "opp_milk_sold_qty": 663,
+      "hero_milk_revenue": 53442.0,
+      "opp_milk_revenue": 51198.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 1046.0,
+        "step_240": 857.0,
+        "step_360": 18201.0,
+        "step_480": 36749.0,
+        "step_600": 54803.0,
+        "step_672": 57097.0,
+        "step_696": 57477.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 1043.0,
+        "step_240": 854.0,
+        "step_360": 17253.0,
+        "step_480": 36370.0,
+        "step_600": 52613.0,
+        "step_672": 55852.0,
+        "step_696": 56292.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 164.0,
+          "p_milk": 186.0
+        },
+        "step_240": {
+          "p_straw": 169.0,
+          "p_milk": 195.0
+        },
+        "step_360": {
+          "p_straw": 190.0,
+          "p_milk": 154.0
+        },
+        "step_480": {
+          "p_straw": 184.0,
+          "p_milk": 76.0
+        },
+        "step_600": {
+          "p_straw": 14.0,
+          "p_milk": 68.0
+        },
+        "step_672": {
+          "p_straw": 9.0,
+          "p_milk": 34.0
+        },
+        "step_696": {
+          "p_straw": 9.0,
+          "p_milk": 28.0
+        }
+      }
+    },
+    {
+      "seed": 12345,
+      "seat": 0,
+      "hero_reward": 127875.0,
+      "opp_reward": 134090.0,
+      "margin": -6215.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 797,
+      "opp_straw_sold_qty": 605,
+      "hero_straw_revenue": 179654.0,
+      "opp_straw_revenue": 138064.0,
+      "hero_milk_sold_qty": 808,
+      "opp_milk_sold_qty": 645,
+      "hero_milk_revenue": 171419.0,
+      "opp_milk_revenue": 136140.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 564.0,
+        "step_240": 378.0,
+        "step_360": 18057.0,
+        "step_480": 42185.0,
+        "step_600": 89827.0,
+        "step_672": 111370.0,
+        "step_696": 117779.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 561.0,
+        "step_240": 375.0,
+        "step_360": 17018.0,
+        "step_480": 42396.0,
+        "step_600": 85906.0,
+        "step_672": 111611.0,
+        "step_696": 117985.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 187.0,
+          "p_milk": 141.0
+        },
+        "step_240": {
+          "p_straw": 196.0,
+          "p_milk": 177.0
+        },
+        "step_360": {
+          "p_straw": 232.0,
+          "p_milk": 194.0
+        },
+        "step_480": {
+          "p_straw": 250.0,
+          "p_milk": 199.0
+        },
+        "step_600": {
+          "p_straw": 219.0,
+          "p_milk": 226.0
+        },
+        "step_672": {
+          "p_straw": 198.0,
+          "p_milk": 245.0
+        },
+        "step_696": {
+          "p_straw": 198.0,
+          "p_milk": 248.0
+        }
+      }
+    },
+    {
+      "seed": 54321,
+      "seat": 0,
+      "hero_reward": 88486.0,
+      "opp_reward": 92327.0,
+      "margin": -3841.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 797,
+      "opp_straw_sold_qty": 598,
+      "hero_straw_revenue": 177304.0,
+      "opp_straw_revenue": 134657.0,
+      "hero_milk_sold_qty": 598,
+      "opp_milk_sold_qty": 639,
+      "hero_milk_revenue": 62086.0,
+      "opp_milk_revenue": 58015.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 564.0,
+        "step_240": 375.0,
+        "step_360": 13742.0,
+        "step_480": 28237.0,
+        "step_600": 61851.0,
+        "step_672": 77420.0,
+        "step_696": 81915.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 561.0,
+        "step_240": 372.0,
+        "step_360": 13063.0,
+        "step_480": 28199.0,
+        "step_600": 59964.0,
+        "step_672": 76336.0,
+        "step_696": 80696.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 187.0,
+          "p_milk": 141.0
+        },
+        "step_240": {
+          "p_straw": 193.0,
+          "p_milk": 156.0
+        },
+        "step_360": {
+          "p_straw": 226.0,
+          "p_milk": 116.0
+        },
+        "step_480": {
+          "p_straw": 245.0,
+          "p_milk": 63.0
+        },
+        "step_600": {
+          "p_straw": 215.0,
+          "p_milk": 78.0
+        },
+        "step_672": {
+          "p_straw": 199.0,
+          "p_milk": 122.0
+        },
+        "step_696": {
+          "p_straw": 202.0,
+          "p_milk": 124.0
+        }
+      }
+    },
+    {
+      "seed": 20001,
+      "seat": 1,
+      "hero_reward": 80809.0,
+      "opp_reward": 94607.0,
+      "margin": -13798.0,
+      "won": false,
+      "hero_cows": 7,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 765,
+      "opp_straw_sold_qty": 605,
+      "hero_straw_revenue": 168822.0,
+      "opp_straw_revenue": 134443.0,
+      "hero_milk_sold_qty": 718,
+      "opp_milk_sold_qty": 645,
+      "hero_milk_revenue": 90788.0,
+      "opp_milk_revenue": 77600.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 265.0,
+        "step_240": 79.0,
+        "step_360": 10961.0,
+        "step_480": 25253.0,
+        "step_600": 55526.0,
+        "step_672": 69103.0,
+        "step_696": 73811.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 345.0,
+        "step_240": 159.0,
+        "step_360": 12509.0,
+        "step_480": 28461.0,
+        "step_600": 59088.0,
+        "step_672": 76373.0,
+        "step_696": 81657.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 187.0,
+          "p_milk": 103.0
+        },
+        "step_240": {
+          "p_straw": 193.0,
+          "p_milk": 118.0
+        },
+        "step_360": {
+          "p_straw": 226.0,
+          "p_milk": 129.0
+        },
+        "step_480": {
+          "p_straw": 236.0,
+          "p_milk": 89.0
+        },
+        "step_600": {
+          "p_straw": 212.0,
+          "p_milk": 122.0
+        },
+        "step_672": {
+          "p_straw": 205.0,
+          "p_milk": 181.0
+        },
+        "step_696": {
+          "p_straw": 208.0,
+          "p_milk": 187.0
+        }
+      }
+    },
+    {
+      "seed": 20010,
+      "seat": 1,
+      "hero_reward": 36383.0,
+      "opp_reward": 39970.0,
+      "margin": -3587.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 567,
+      "opp_straw_sold_qty": 616,
+      "hero_straw_revenue": 57833.0,
+      "opp_straw_revenue": 53761.0,
+      "hero_milk_sold_qty": 586,
+      "opp_milk_sold_qty": 669,
+      "hero_milk_revenue": 4886.0,
+      "opp_milk_revenue": 6199.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 342.0,
+        "step_240": 156.0,
+        "step_360": 10732.0,
+        "step_480": 20133.0,
+        "step_600": 31995.0,
+        "step_672": 31990.0,
+        "step_696": 31920.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 339.0,
+        "step_240": 153.0,
+        "step_360": 10798.0,
+        "step_480": 20168.0,
+        "step_600": 32016.0,
+        "step_672": 32035.0,
+        "step_696": 32015.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 164.0,
+          "p_milk": 103.0
+        },
+        "step_240": {
+          "p_straw": 169.0,
+          "p_milk": 105.0
+        },
+        "step_360": {
+          "p_straw": 190.0,
+          "p_milk": 17.0
+        },
+        "step_480": {
+          "p_straw": 173.0,
+          "p_milk": 1.0
+        },
+        "step_600": {
+          "p_straw": 3.0,
+          "p_milk": 3.0
+        },
+        "step_672": {
+          "p_straw": 7.0,
+          "p_milk": 1.0
+        },
+        "step_696": {
+          "p_straw": 7.0,
+          "p_milk": 1.0
+        }
+      }
+    },
+    {
+      "seed": 20020,
+      "seat": 1,
+      "hero_reward": 107919.0,
+      "opp_reward": 113168.0,
+      "margin": -5249.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 790,
+      "opp_straw_sold_qty": 605,
+      "hero_straw_revenue": 162904.0,
+      "opp_straw_revenue": 127167.0,
+      "hero_milk_sold_qty": 828,
+      "opp_milk_sold_qty": 630,
+      "hero_milk_revenue": 174855.0,
+      "opp_milk_revenue": 132862.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 1283.0,
+        "step_240": 1128.0,
+        "step_360": 17017.0,
+        "step_480": 37272.0,
+        "step_600": 78755.0,
+        "step_672": 95620.0,
+        "step_696": 101177.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 1280.0,
+        "step_240": 1125.0,
+        "step_360": 15773.0,
+        "step_480": 37379.0,
+        "step_600": 74989.0,
+        "step_672": 95379.0,
+        "step_696": 100890.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 187.0,
+          "p_milk": 205.0
+        },
+        "step_240": {
+          "p_straw": 196.0,
+          "p_milk": 215.0
+        },
+        "step_360": {
+          "p_straw": 232.0,
+          "p_milk": 222.0
+        },
+        "step_480": {
+          "p_straw": 241.0,
+          "p_milk": 204.0
+        },
+        "step_600": {
+          "p_straw": 197.0,
+          "p_milk": 210.0
+        },
+        "step_672": {
+          "p_straw": 164.0,
+          "p_milk": 224.0
+        },
+        "step_696": {
+          "p_straw": 165.0,
+          "p_milk": 224.0
+        }
+      }
+    },
+    {
+      "seed": 20030,
+      "seat": 1,
+      "hero_reward": 70980.0,
+      "opp_reward": 78310.0,
+      "margin": -7330.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 624,
+      "opp_straw_sold_qty": 605,
+      "hero_straw_revenue": 103570.0,
+      "opp_straw_revenue": 92740.0,
+      "hero_milk_sold_qty": 642,
+      "opp_milk_sold_qty": 645,
+      "hero_milk_revenue": 79277.0,
+      "opp_milk_revenue": 70470.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 1046.0,
+        "step_240": 860.0,
+        "step_360": 16237.0,
+        "step_480": 34828.0,
+        "step_600": 63843.0,
+        "step_672": 67237.0,
+        "step_696": 67223.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 1043.0,
+        "step_240": 857.0,
+        "step_360": 15072.0,
+        "step_480": 34839.0,
+        "step_600": 63519.0,
+        "step_672": 68812.0,
+        "step_696": 69001.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 164.0,
+          "p_milk": 186.0
+        },
+        "step_240": {
+          "p_straw": 173.0,
+          "p_milk": 201.0
+        },
+        "step_360": {
+          "p_straw": 213.0,
+          "p_milk": 210.0
+        },
+        "step_480": {
+          "p_straw": 220.0,
+          "p_milk": 152.0
+        },
+        "step_600": {
+          "p_straw": 144.0,
+          "p_milk": 80.0
+        },
+        "step_672": {
+          "p_straw": 11.0,
+          "p_milk": 13.0
+        },
+        "step_696": {
+          "p_straw": 9.0,
+          "p_milk": 17.0
+        }
+      }
+    },
+    {
+      "seed": 20040,
+      "seat": 1,
+      "hero_reward": 74715.0,
+      "opp_reward": 77728.0,
+      "margin": -3013.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 613,
+      "opp_straw_sold_qty": 605,
+      "hero_straw_revenue": 96467.0,
+      "opp_straw_revenue": 86869.0,
+      "hero_milk_sold_qty": 778,
+      "opp_milk_sold_qty": 645,
+      "hero_milk_revenue": 115600.0,
+      "opp_milk_revenue": 93762.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 1053.0,
+        "step_240": 868.0,
+        "step_360": 16873.0,
+        "step_480": 35144.0,
+        "step_600": 67186.0,
+        "step_672": 70539.0,
+        "step_696": 71611.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 848.0,
+        "step_240": 663.0,
+        "step_360": 14104.0,
+        "step_480": 34038.0,
+        "step_600": 63661.0,
+        "step_672": 69732.0,
+        "step_696": 71068.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 176.0,
+          "p_milk": 186.0
+        },
+        "step_240": {
+          "p_straw": 184.0,
+          "p_milk": 201.0
+        },
+        "step_360": {
+          "p_straw": 213.0,
+          "p_milk": 210.0
+        },
+        "step_480": {
+          "p_straw": 214.0,
+          "p_milk": 185.0
+        },
+        "step_600": {
+          "p_straw": 112.0,
+          "p_milk": 129.0
+        },
+        "step_672": {
+          "p_straw": 1.0,
+          "p_milk": 97.0
+        },
+        "step_696": {
+          "p_straw": 9.0,
+          "p_milk": 74.0
+        }
+      }
+    },
+    {
+      "seed": 20050,
+      "seat": 1,
+      "hero_reward": 79033.0,
+      "opp_reward": 75939.0,
+      "margin": 3094.0,
+      "won": true,
+      "hero_cows": 8,
+      "opp_cows": 7,
+      "hero_straw_sold_qty": 783,
+      "opp_straw_sold_qty": 605,
+      "hero_straw_revenue": 155054.0,
+      "opp_straw_revenue": 121558.0,
+      "hero_milk_sold_qty": 523,
+      "opp_milk_sold_qty": 645,
+      "hero_milk_revenue": 6642.0,
+      "opp_milk_revenue": 7898.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 348.0,
+        "step_240": 162.0,
+        "step_360": 13730.0,
+        "step_480": 28111.0,
+        "step_600": 57237.0,
+        "step_672": 69297.0,
+        "step_696": 71488.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 262.0,
+        "step_240": 76.0,
+        "step_360": 12049.0,
+        "step_480": 26066.0,
+        "step_600": 51971.0,
+        "step_672": 62780.0,
+        "step_696": 64987.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 176.0,
+          "p_milk": 103.0
+        },
+        "step_240": {
+          "p_straw": 184.0,
+          "p_milk": 105.0
+        },
+        "step_360": {
+          "p_straw": 213.0,
+          "p_milk": 28.0
+        },
+        "step_480": {
+          "p_straw": 225.0,
+          "p_milk": 1.0
+        },
+        "step_600": {
+          "p_straw": 187.0,
+          "p_milk": 15.0
+        },
+        "step_672": {
+          "p_straw": 168.0,
+          "p_milk": 7.0
+        },
+        "step_696": {
+          "p_straw": 170.0,
+          "p_milk": 5.0
+        }
+      }
+    },
+    {
+      "seed": 20060,
+      "seat": 1,
+      "hero_reward": 82373.0,
+      "opp_reward": 84411.0,
+      "margin": -2038.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 790,
+      "opp_straw_sold_qty": 605,
+      "hero_straw_revenue": 190742.0,
+      "opp_straw_revenue": 147330.0,
+      "hero_milk_sold_qty": 486,
+      "opp_milk_sold_qty": 645,
+      "hero_milk_revenue": 20840.0,
+      "opp_milk_revenue": 24195.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 342.0,
+        "step_240": 153.0,
+        "step_360": 11916.0,
+        "step_480": 25143.0,
+        "step_600": 56000.0,
+        "step_672": 70874.0,
+        "step_696": 74149.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 339.0,
+        "step_240": 150.0,
+        "step_360": 11949.0,
+        "step_480": 25380.0,
+        "step_600": 54945.0,
+        "step_672": 69501.0,
+        "step_696": 72755.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 187.0,
+          "p_milk": 103.0
+        },
+        "step_240": {
+          "p_straw": 196.0,
+          "p_milk": 118.0
+        },
+        "step_360": {
+          "p_straw": 237.0,
+          "p_milk": 91.0
+        },
+        "step_480": {
+          "p_straw": 259.0,
+          "p_milk": 1.0
+        },
+        "step_600": {
+          "p_straw": 236.0,
+          "p_milk": 47.0
+        },
+        "step_672": {
+          "p_straw": 221.0,
+          "p_milk": 19.0
+        },
+        "step_696": {
+          "p_straw": 222.0,
+          "p_milk": 17.0
+        }
+      }
+    },
+    {
+      "seed": 20070,
+      "seat": 1,
+      "hero_reward": 105398.0,
+      "opp_reward": 113914.0,
+      "margin": -8516.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 620,
+      "opp_straw_sold_qty": 605,
+      "hero_straw_revenue": 84959.0,
+      "opp_straw_revenue": 73987.0,
+      "hero_milk_sold_qty": 823,
+      "opp_milk_sold_qty": 645,
+      "hero_milk_revenue": 158719.0,
+      "opp_milk_revenue": 123646.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 1260.0,
+        "step_240": 1134.0,
+        "step_360": 21129.0,
+        "step_480": 46912.0,
+        "step_600": 83976.0,
+        "step_672": 92814.0,
+        "step_696": 95344.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 1257.0,
+        "step_240": 1131.0,
+        "step_360": 19882.0,
+        "step_480": 47008.0,
+        "step_600": 80593.0,
+        "step_672": 92294.0,
+        "step_696": 94832.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 164.0,
+          "p_milk": 205.0
+        },
+        "step_240": {
+          "p_straw": 169.0,
+          "p_milk": 215.0
+        },
+        "step_360": {
+          "p_straw": 198.0,
+          "p_milk": 222.0
+        },
+        "step_480": {
+          "p_straw": 206.0,
+          "p_milk": 204.0
+        },
+        "step_600": {
+          "p_straw": 30.0,
+          "p_milk": 186.0
+        },
+        "step_672": {
+          "p_straw": 3.0,
+          "p_milk": 190.0
+        },
+        "step_696": {
+          "p_straw": 9.0,
+          "p_milk": 183.0
+        }
+      }
+    },
+    {
+      "seed": 20080,
+      "seat": 1,
+      "hero_reward": 52207.0,
+      "opp_reward": 56962.0,
+      "margin": -4755.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 640,
+      "opp_straw_sold_qty": 605,
+      "hero_straw_revenue": 110804.0,
+      "opp_straw_revenue": 101266.0,
+      "hero_milk_sold_qty": 488,
+      "opp_milk_sold_qty": 645,
+      "hero_milk_revenue": 9616.0,
+      "opp_milk_revenue": 12840.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 342.0,
+        "step_240": 153.0,
+        "step_360": 10831.0,
+        "step_480": 19977.0,
+        "step_600": 41739.0,
+        "step_672": 47420.0,
+        "step_696": 48370.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 339.0,
+        "step_240": 150.0,
+        "step_360": 10828.0,
+        "step_480": 19994.0,
+        "step_600": 42529.0,
+        "step_672": 48670.0,
+        "step_696": 50044.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 164.0,
+          "p_milk": 103.0
+        },
+        "step_240": {
+          "p_straw": 169.0,
+          "p_milk": 105.0
+        },
+        "step_360": {
+          "p_straw": 198.0,
+          "p_milk": 17.0
+        },
+        "step_480": {
+          "p_straw": 211.0,
+          "p_milk": 1.0
+        },
+        "step_600": {
+          "p_straw": 157.0,
+          "p_milk": 49.0
+        },
+        "step_672": {
+          "p_straw": 78.0,
+          "p_milk": 22.0
+        },
+        "step_696": {
+          "p_straw": 85.0,
+          "p_milk": 26.0
+        }
+      }
+    },
+    {
+      "seed": 20090,
+      "seat": 1,
+      "hero_reward": 99058.0,
+      "opp_reward": 102409.0,
+      "margin": -3351.0,
+      "won": false,
+      "hero_cows": 8,
+      "opp_cows": 8,
+      "hero_straw_sold_qty": 790,
+      "opp_straw_sold_qty": 605,
+      "hero_straw_revenue": 168467.0,
+      "opp_straw_revenue": 130483.0,
+      "hero_milk_sold_qty": 791,
+      "opp_milk_sold_qty": 645,
+      "hero_milk_revenue": 120778.0,
+      "opp_milk_revenue": 97370.0,
+      "hero_leftover_straw": 0,
+      "opp_leftover_straw": 0,
+      "hero_leftover_milk": 0,
+      "opp_leftover_milk": 0,
+      "hero_cash_timeline": {
+        "step_216": 1250.0,
+        "step_240": 1061.0,
+        "step_360": 16771.0,
+        "step_480": 36437.0,
+        "step_600": 74416.0,
+        "step_672": 89530.0,
+        "step_696": 93309.0
+      },
+      "opp_cash_timeline": {
+        "step_216": 1247.0,
+        "step_240": 1058.0,
+        "step_360": 15522.0,
+        "step_480": 36540.0,
+        "step_600": 71676.0,
+        "step_672": 88447.0,
+        "step_696": 92281.0
+      },
+      "price_timeline": {
+        "step_216": {
+          "p_straw": 164.0,
+          "p_milk": 205.0
+        },
+        "step_240": {
+          "p_straw": 173.0,
+          "p_milk": 215.0
+        },
+        "step_360": {
+          "p_straw": 213.0,
+          "p_milk": 222.0
+        },
+        "step_480": {
+          "p_straw": 234.0,
+          "p_milk": 193.0
+        },
+        "step_600": {
+          "p_straw": 208.0,
+          "p_milk": 129.0
+        },
+        "step_672": {
+          "p_straw": 190.0,
+          "p_milk": 97.0
+        },
+        "step_696": {
+          "p_straw": 194.0,
+          "p_milk": 74.0
+        }
+      }
+    }
+  ]
+}
