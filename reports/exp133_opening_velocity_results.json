@@ -1,0 +1,92 @@
+{
+  "d1_milestones": [
+    {
+      "seed": 1000,
+      "cash_1000": 0,
+      "buyland_submitted": null,
+      "land2_unlocked": 169,
+      "land2_first_plant": 169,
+      "land3_unlocked": 260
+    },
+    {
+      "seed": 1001,
+      "cash_1000": 0,
+      "buyland_submitted": null,
+      "land2_unlocked": 169,
+      "land2_first_plant": 169,
+      "land3_unlocked": 260
+    },
+    {
+      "seed": 1002,
+      "cash_1000": 0,
+      "buyland_submitted": null,
+      "land2_unlocked": 169,
+      "land2_first_plant": 169,
+      "land3_unlocked": 260
+    },
+    {
+      "seed": 1003,
+      "cash_1000": 0,
+      "buyland_submitted": null,
+      "land2_unlocked": 169,
+      "land2_first_plant": 169,
+      "land3_unlocked": 260
+    },
+    {
+      "seed": 1004,
+      "cash_1000": 0,
+      "buyland_submitted": null,
+      "land2_unlocked": 169,
+      "land2_first_plant": 169,
+      "land3_unlocked": 260
+    },
+    {
+      "seed": 42,
+      "cash_1000": 0,
+      "buyland_submitted": null,
+      "land2_unlocked": 169,
+      "land2_first_plant": 169,
+      "land3_unlocked": 260
+    },
+    {
+      "seed": 20042,
+      "cash_1000": 0,
+      "buyland_submitted": null,
+      "land2_unlocked": 169,
+      "land2_first_plant": 169,
+      "land3_unlocked": 260
+    }
+  ],
+  "cohort_milestones": [
+    {
+      "cohort": "BRIEF_SPIKERS ($60k-$80k)",
+      "count": 13,
+      "mean_money": 72067.0,
+      "step_cash_1000": 0.0,
+      "step_buyland": NaN,
+      "step_land2_unlocked": 164.15384615384616,
+      "step_land2_first_plant": 164.53846153846155,
+      "step_land3_unlocked": 261.15384615384613
+    },
+    {
+      "cohort": "ELITE_TITANS (>$80k)",
+      "count": 15,
+      "mean_money": 98254.0,
+      "step_cash_1000": 0.0,
+      "step_buyland": NaN,
+      "step_land2_unlocked": 170.13333333333333,
+      "step_land2_first_plant": 170.13333333333333,
+      "step_land3_unlocked": 261.46666666666664
+    },
+    {
+      "cohort": "WALL_TRAPPED (<$60k)",
+      "count": 12,
+      "mean_money": 47211.166666666664,
+      "step_cash_1000": 0.0,
+      "step_buyland": NaN,
+      "step_land2_unlocked": 173.58333333333334,
+      "step_land2_first_plant": 173.58333333333334,
+      "step_land3_unlocked": 250.8181818181818
+    }
+  ]
+}
