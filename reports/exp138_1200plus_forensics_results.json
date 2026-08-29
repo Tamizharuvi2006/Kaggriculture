@@ -1,0 +1,55 @@
+{
+  "band_summary": {
+    "SUB_900 (< 900)": {
+      "matches": 177,
+      "wins": 113,
+      "win_rate": 63.84180790960452,
+      "mean_hero_reward": 65562.66101694915,
+      "mean_opp_reward": 53127.41242937853,
+      "mean_margin": 12435.248587570619
+    },
+    "WALL_BAND (900-1200)": {
+      "matches": 367,
+      "wins": 174,
+      "win_rate": 47.41144414168937,
+      "mean_hero_reward": 78776.16621253407,
+      "mean_opp_reward": 80289.0272479564,
+      "mean_margin": -1512.8610354223347
+    },
+    "TIER_1 (1200-1400)": {
+      "matches": 115,
+      "wins": 34,
+      "win_rate": 29.565217391304348,
+      "mean_hero_reward": 79472.50434782609,
+      "mean_opp_reward": 84072.79130434783,
+      "mean_margin": -4600.286956521741
+    },
+    "TIER_2 (1400-1800)": {
+      "matches": 90,
+      "wins": 11,
+      "win_rate": 12.222222222222221,
+      "mean_hero_reward": 90948.38888888889,
+      "mean_opp_reward": 96749.83333333333,
+      "mean_margin": -5801.444444444438
+    },
+    "TIER_3 (1800-2200)": {
+      "matches": 114,
+      "wins": 31,
+      "win_rate": 27.192982456140353,
+      "mean_hero_reward": 126647.90350877192,
+      "mean_opp_reward": 129018.74561403508,
+      "mean_margin": -2370.84210526316
+    },
+    "TITANS (2200+)": {
+      "matches": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "mean_hero_reward": 127159.0,
+      "mean_opp_reward": 130277.0,
+      "mean_margin": -3118.0
+    }
+  },
+  "replay_checkpoints": {},
+  "total_matches_analyzed": 864,
+  "total_replays_analyzed": 0
+}
