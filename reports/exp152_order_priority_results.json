@@ -1,0 +1,4948 @@
+{
+  "overall": {
+    "total_matches": 200,
+    "wr_a": 90.5,
+    "wr_b": 90.5,
+    "wr_c": 90.5,
+    "mean_delta_b": -4796.715,
+    "mean_delta_c": -4796.715
+  },
+  "by_tier": {
+    "900-1200 (Foundation)": {
+      "matches": 60,
+      "wr_a": 68.33333333333333,
+      "wr_b": 68.33333333333333,
+      "wr_c": 68.33333333333333,
+      "delta_b": -4326.983333333334,
+      "delta_c": -4326.983333333334
+    },
+    "1200-1400 (Dynamic Ladder)": {
+      "matches": 40,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "delta_b": -5261.775,
+      "delta_c": -5261.775
+    },
+    "1400-1800 (High-Yield Agro)": {
+      "matches": 80,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "delta_b": -4930.0625,
+      "delta_c": -4930.0625
+    },
+    "1800+ (Multi-Asset Elite)": {
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "delta_b": -4742.4,
+      "delta_c": -4742.4
+    }
+  },
+  "by_archetype": {
+    "T1_v18_mirror": {
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "matches": 20,
+      "wr_a": 5.0,
+      "wr_b": 5.0,
+      "wr_c": 5.0,
+      "delta_b": -3565.5,
+      "delta_c": -3565.5
+    },
+    "T1_carrot_rusher": {
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "delta_b": -4598.35,
+      "delta_c": -4598.35
+    },
+    "T1_livestock_rusher": {
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "delta_b": -4817.1,
+      "delta_c": -4817.1
+    },
+    "T2_dynamic_v81": {
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "delta_b": -5070.45,
+      "delta_c": -5070.45
+    },
+    "T2_rebound_v82": {
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "delta_b": -5453.1,
+      "delta_c": -5453.1
+    },
+    "T3_high_yield_v83": {
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "delta_b": -4598.35,
+      "delta_c": -4598.35
+    },
+    "T3_opponent_aware_v83": {
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "delta_b": -4598.35,
+      "delta_c": -4598.35
+    },
+    "T3_cows12_herd": {
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "delta_b": -5070.45,
+      "delta_c": -5070.45
+    },
+    "T3_cows13_herd": {
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "delta_b": -5453.1,
+      "delta_c": -5453.1
+    },
+    "T4_experimental_v84": {
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "delta_b": -4742.4,
+      "delta_c": -4742.4
+    }
+  },
+  "all_matches": [
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 87922.0,
+        "opp": 93383.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 79008.0,
+        "opp": 93614.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 79008.0,
+        "opp": 93614.0,
+        "won": false
+      },
+      "delta_b_vs_a": -8914.0,
+      "delta_c_vs_a": -8914.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 62463.0,
+        "opp": 69600.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 53466.0,
+        "opp": 69737.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 53466.0,
+        "opp": 69737.0,
+        "won": false
+      },
+      "delta_b_vs_a": -8997.0,
+      "delta_c_vs_a": -8997.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 92031.0,
+        "opp": 99162.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 82951.0,
+        "opp": 99543.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 82951.0,
+        "opp": 99543.0,
+        "won": false
+      },
+      "delta_b_vs_a": -9080.0,
+      "delta_c_vs_a": -9080.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 70900.0,
+        "opp": 71932.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 68430.0,
+        "opp": 72126.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 68430.0,
+        "opp": 72126.0,
+        "won": false
+      },
+      "delta_b_vs_a": -2470.0,
+      "delta_c_vs_a": -2470.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 83593.0,
+        "opp": 91703.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 74662.0,
+        "opp": 91941.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 74662.0,
+        "opp": 91941.0,
+        "won": false
+      },
+      "delta_b_vs_a": -8931.0,
+      "delta_c_vs_a": -8931.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 23612.0,
+        "opp": 25169.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 18817.0,
+        "opp": 27999.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 18817.0,
+        "opp": 27999.0,
+        "won": false
+      },
+      "delta_b_vs_a": -4795.0,
+      "delta_c_vs_a": -4795.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 37074.0,
+        "opp": 37563.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 32392.0,
+        "opp": 40455.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 32392.0,
+        "opp": 40455.0,
+        "won": false
+      },
+      "delta_b_vs_a": -4682.0,
+      "delta_c_vs_a": -4682.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 63123.0,
+        "opp": 63857.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 57101.0,
+        "opp": 68339.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 57101.0,
+        "opp": 68339.0,
+        "won": false
+      },
+      "delta_b_vs_a": -6022.0,
+      "delta_c_vs_a": -6022.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 127875.0,
+        "opp": 134090.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 117403.0,
+        "opp": 137348.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 117403.0,
+        "opp": 137348.0,
+        "won": false
+      },
+      "delta_b_vs_a": -10472.0,
+      "delta_c_vs_a": -10472.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 88486.0,
+        "opp": 92327.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 81539.0,
+        "opp": 92899.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 81539.0,
+        "opp": 92899.0,
+        "won": false
+      },
+      "delta_b_vs_a": -6947.0,
+      "delta_c_vs_a": -6947.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_v18_mirror",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Mirror Saturated Strawberry Control",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 99058.0,
+        "opp": 102409.0,
+        "won": false
+      },
+      "arm_b": {
+        "reward": 99058.0,
+        "opp": 102409.0,
+        "won": false
+      },
+      "arm_c": {
+        "reward": 99058.0,
+        "opp": 102409.0,
+        "won": false
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 100084.0,
+        "opp": 47250.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 94899.0,
+        "opp": 47451.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 94899.0,
+        "opp": 47451.0,
+        "won": true
+      },
+      "delta_b_vs_a": -5185.0,
+      "delta_c_vs_a": -5185.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 57420.0,
+        "opp": 12869.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 54181.0,
+        "opp": 13026.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 54181.0,
+        "opp": 13026.0,
+        "won": true
+      },
+      "delta_b_vs_a": -3239.0,
+      "delta_c_vs_a": -3239.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 63538.0,
+        "opp": 10451.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 54197.0,
+        "opp": 10538.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 54197.0,
+        "opp": 10538.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9341.0,
+      "delta_c_vs_a": -9341.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 111278.0,
+        "opp": 48440.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 105216.0,
+        "opp": 49002.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 105216.0,
+        "opp": 49002.0,
+        "won": true
+      },
+      "delta_b_vs_a": -6062.0,
+      "delta_c_vs_a": -6062.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 87796.0,
+        "opp": 25175.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 78450.0,
+        "opp": 25260.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 78450.0,
+        "opp": 25260.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9346.0,
+      "delta_c_vs_a": -9346.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 99913.0,
+        "opp": 36951.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 88703.0,
+        "opp": 37262.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 88703.0,
+        "opp": 37262.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11210.0,
+      "delta_c_vs_a": -11210.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 119974.0,
+        "opp": 60374.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 111919.0,
+        "opp": 60622.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 111919.0,
+        "opp": 60622.0,
+        "won": true
+      },
+      "delta_b_vs_a": -8055.0,
+      "delta_c_vs_a": -8055.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 130620.0,
+        "opp": 57543.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 118215.0,
+        "opp": 57898.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 118215.0,
+        "opp": 57898.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12405.0,
+      "delta_c_vs_a": -12405.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 142832.0,
+        "opp": 70827.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 128686.0,
+        "opp": 71002.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 128686.0,
+        "opp": 71002.0,
+        "won": true
+      },
+      "delta_b_vs_a": -14146.0,
+      "delta_c_vs_a": -14146.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 140038.0,
+        "opp": 72291.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 127060.0,
+        "opp": 72730.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 127060.0,
+        "opp": 72730.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12978.0,
+      "delta_c_vs_a": -12978.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 87587.0,
+        "opp": 22469.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 87587.0,
+        "opp": 22469.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 87587.0,
+        "opp": 22469.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 53198.0,
+        "opp": 4027.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 53198.0,
+        "opp": 4027.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 53198.0,
+        "opp": 4027.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 145981.0,
+        "opp": 51831.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 145981.0,
+        "opp": 51831.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 145981.0,
+        "opp": 51831.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 122253.0,
+        "opp": 38845.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 122253.0,
+        "opp": 38845.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 122253.0,
+        "opp": 38845.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 107105.0,
+        "opp": 41935.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 107105.0,
+        "opp": 41935.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 107105.0,
+        "opp": 41935.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 62197.0,
+        "opp": 3110.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 62197.0,
+        "opp": 3110.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 62197.0,
+        "opp": 3110.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 97541.0,
+        "opp": 21929.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 97541.0,
+        "opp": 21929.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 97541.0,
+        "opp": 21929.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 71223.0,
+        "opp": 5309.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 71223.0,
+        "opp": 5309.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 71223.0,
+        "opp": 5309.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 87397.0,
+        "opp": 9098.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 87397.0,
+        "opp": 9098.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 87397.0,
+        "opp": 9098.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_carrot_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Fast-Cash Carrot Rusher",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 124625.0,
+        "opp": 42859.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 124625.0,
+        "opp": 42859.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 124625.0,
+        "opp": 42859.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 95346.0,
+        "opp": 277.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 89516.0,
+        "opp": 340.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 89516.0,
+        "opp": 340.0,
+        "won": true
+      },
+      "delta_b_vs_a": -5830.0,
+      "delta_c_vs_a": -5830.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 65493.0,
+        "opp": 82.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 61423.0,
+        "opp": 177.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 61423.0,
+        "opp": 177.0,
+        "won": true
+      },
+      "delta_b_vs_a": -4070.0,
+      "delta_c_vs_a": -4070.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 64035.0,
+        "opp": 232.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 54778.0,
+        "opp": 362.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 54778.0,
+        "opp": 362.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9257.0,
+      "delta_c_vs_a": -9257.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 112922.0,
+        "opp": 82.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 105463.0,
+        "opp": 157.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 105463.0,
+        "opp": 157.0,
+        "won": true
+      },
+      "delta_b_vs_a": -7459.0,
+      "delta_c_vs_a": -7459.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 114638.0,
+        "opp": 21.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 102081.0,
+        "opp": 244.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 102081.0,
+        "opp": 244.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12557.0,
+      "delta_c_vs_a": -12557.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 100826.0,
+        "opp": 298.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 89930.0,
+        "opp": 22.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 89930.0,
+        "opp": 22.0,
+        "won": true
+      },
+      "delta_b_vs_a": -10896.0,
+      "delta_c_vs_a": -10896.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 118898.0,
+        "opp": 253.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 110155.0,
+        "opp": 310.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 110155.0,
+        "opp": 310.0,
+        "won": true
+      },
+      "delta_b_vs_a": -8743.0,
+      "delta_c_vs_a": -8743.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 132793.0,
+        "opp": 155.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 119476.0,
+        "opp": 300.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 119476.0,
+        "opp": 300.0,
+        "won": true
+      },
+      "delta_b_vs_a": -13317.0,
+      "delta_c_vs_a": -13317.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 133690.0,
+        "opp": 28.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 123828.0,
+        "opp": 78.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 123828.0,
+        "opp": 78.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9862.0,
+      "delta_c_vs_a": -9862.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 143087.0,
+        "opp": 134.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 128736.0,
+        "opp": 306.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 128736.0,
+        "opp": 306.0,
+        "won": true
+      },
+      "delta_b_vs_a": -14351.0,
+      "delta_c_vs_a": -14351.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108246.0,
+        "opp": 48186.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108246.0,
+        "opp": 48186.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108246.0,
+        "opp": 48186.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 63021.0,
+        "opp": 19984.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 63021.0,
+        "opp": 19984.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 63021.0,
+        "opp": 19984.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 146755.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 146755.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 146755.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 83178.0,
+        "opp": 30914.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 83178.0,
+        "opp": 30914.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 83178.0,
+        "opp": 30914.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 112858.0,
+        "opp": 64509.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 112858.0,
+        "opp": 64509.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 112858.0,
+        "opp": 64509.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 110025.0,
+        "opp": 51809.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 110025.0,
+        "opp": 51809.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 110025.0,
+        "opp": 51809.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 75595.0,
+        "opp": 28637.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 75595.0,
+        "opp": 28637.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 75595.0,
+        "opp": 28637.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 143764.0,
+        "opp": 66461.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 143764.0,
+        "opp": 66461.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 143764.0,
+        "opp": 66461.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 78960.0,
+        "opp": 21495.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 78960.0,
+        "opp": 21495.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 78960.0,
+        "opp": 21495.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T1_livestock_rusher",
+      "tier": "900-1200 (Foundation)",
+      "archetype": "Early Livestock / Milk Rusher",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 82338.0,
+        "opp": 24490.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 82338.0,
+        "opp": 24490.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 82338.0,
+        "opp": 24490.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 89797.0,
+        "opp": 26454.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 80061.0,
+        "opp": 26767.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 80061.0,
+        "opp": 26767.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9736.0,
+      "delta_c_vs_a": -9736.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 73853.0,
+        "opp": 29964.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 67995.0,
+        "opp": 30174.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 67995.0,
+        "opp": 30174.0,
+        "won": true
+      },
+      "delta_b_vs_a": -5858.0,
+      "delta_c_vs_a": -5858.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 112124.0,
+        "opp": 38162.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 100378.0,
+        "opp": 38882.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 100378.0,
+        "opp": 38882.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11746.0,
+      "delta_c_vs_a": -11746.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 109096.0,
+        "opp": 36395.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 98694.0,
+        "opp": 36568.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 98694.0,
+        "opp": 36568.0,
+        "won": true
+      },
+      "delta_b_vs_a": -10402.0,
+      "delta_c_vs_a": -10402.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 87709.0,
+        "opp": 19938.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 78265.0,
+        "opp": 20045.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 78265.0,
+        "opp": 20045.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9444.0,
+      "delta_c_vs_a": -9444.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 100061.0,
+        "opp": 32218.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 88692.0,
+        "opp": 32545.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 88692.0,
+        "opp": 32545.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11369.0,
+      "delta_c_vs_a": -11369.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 98160.0,
+        "opp": 49276.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 91249.0,
+        "opp": 49482.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 91249.0,
+        "opp": 49482.0,
+        "won": true
+      },
+      "delta_b_vs_a": -6911.0,
+      "delta_c_vs_a": -6911.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 120298.0,
+        "opp": 48945.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 110074.0,
+        "opp": 49175.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 110074.0,
+        "opp": 49175.0,
+        "won": true
+      },
+      "delta_b_vs_a": -10224.0,
+      "delta_c_vs_a": -10224.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 133288.0,
+        "opp": 61071.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 119304.0,
+        "opp": 61272.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 119304.0,
+        "opp": 61272.0,
+        "won": true
+      },
+      "delta_b_vs_a": -13984.0,
+      "delta_c_vs_a": -13984.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 122945.0,
+        "opp": 62584.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 111210.0,
+        "opp": 63014.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 111210.0,
+        "opp": 63014.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11735.0,
+      "delta_c_vs_a": -11735.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108624.0,
+        "opp": 47626.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108624.0,
+        "opp": 47626.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108624.0,
+        "opp": 47626.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 76690.0,
+        "opp": 29445.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 76690.0,
+        "opp": 29445.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 76690.0,
+        "opp": 29445.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 123666.0,
+        "opp": 47661.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 123666.0,
+        "opp": 47661.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 123666.0,
+        "opp": 47661.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 103330.0,
+        "opp": 35535.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 103330.0,
+        "opp": 35535.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 103330.0,
+        "opp": 35535.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 94811.0,
+        "opp": 50726.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 94811.0,
+        "opp": 50726.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 94811.0,
+        "opp": 50726.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108362.0,
+        "opp": 43883.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108362.0,
+        "opp": 43883.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108362.0,
+        "opp": 43883.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 91566.0,
+        "opp": 30899.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 91566.0,
+        "opp": 30899.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 91566.0,
+        "opp": 30899.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 114618.0,
+        "opp": 41286.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 114618.0,
+        "opp": 41286.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 114618.0,
+        "opp": 41286.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 35005.0,
+        "opp": 1205.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 35005.0,
+        "opp": 1205.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 35005.0,
+        "opp": 1205.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_dynamic_v81",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Dynamic Market Liquidator",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 98219.0,
+        "opp": 44743.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 98219.0,
+        "opp": 44743.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 98219.0,
+        "opp": 44743.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 105376.0,
+        "opp": 37689.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 94273.0,
+        "opp": 37800.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 94273.0,
+        "opp": 37800.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11103.0,
+      "delta_c_vs_a": -11103.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 73870.0,
+        "opp": 30084.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 68012.0,
+        "opp": 30294.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 68012.0,
+        "opp": 30294.0,
+        "won": true
+      },
+      "delta_b_vs_a": -5858.0,
+      "delta_c_vs_a": -5858.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 112135.0,
+        "opp": 38276.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 100392.0,
+        "opp": 38996.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 100392.0,
+        "opp": 38996.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11743.0,
+      "delta_c_vs_a": -11743.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 115973.0,
+        "opp": 38716.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 104971.0,
+        "opp": 38783.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 104971.0,
+        "opp": 38783.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11002.0,
+      "delta_c_vs_a": -11002.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 87727.0,
+        "opp": 20053.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 78283.0,
+        "opp": 20160.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 78283.0,
+        "opp": 20160.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9444.0,
+      "delta_c_vs_a": -9444.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 100082.0,
+        "opp": 32330.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 88713.0,
+        "opp": 32657.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 88713.0,
+        "opp": 32657.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11369.0,
+      "delta_c_vs_a": -11369.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 108966.0,
+        "opp": 50996.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 101029.0,
+        "opp": 51193.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 101029.0,
+        "opp": 51193.0,
+        "won": true
+      },
+      "delta_b_vs_a": -7937.0,
+      "delta_c_vs_a": -7937.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 138118.0,
+        "opp": 62083.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 125151.0,
+        "opp": 62452.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 125151.0,
+        "opp": 62452.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12967.0,
+      "delta_c_vs_a": -12967.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 148413.0,
+        "opp": 77067.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 133591.0,
+        "opp": 77193.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 133591.0,
+        "opp": 77193.0,
+        "won": true
+      },
+      "delta_b_vs_a": -14822.0,
+      "delta_c_vs_a": -14822.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 126414.0,
+        "opp": 51239.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 113597.0,
+        "opp": 51538.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 113597.0,
+        "opp": 51538.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12817.0,
+      "delta_c_vs_a": -12817.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108646.0,
+        "opp": 47742.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108646.0,
+        "opp": 47742.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108646.0,
+        "opp": 47742.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 76700.0,
+        "opp": 29563.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 76700.0,
+        "opp": 29563.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 76700.0,
+        "opp": 29563.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 137714.0,
+        "opp": 60815.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 137714.0,
+        "opp": 60815.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 137714.0,
+        "opp": 60815.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 93029.0,
+        "opp": 34579.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 93029.0,
+        "opp": 34579.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 93029.0,
+        "opp": 34579.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 91513.0,
+        "opp": 44544.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 91513.0,
+        "opp": 44544.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 91513.0,
+        "opp": 44544.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 118487.0,
+        "opp": 48270.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 118487.0,
+        "opp": 48270.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 118487.0,
+        "opp": 48270.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 91580.0,
+        "opp": 31023.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 91580.0,
+        "opp": 31023.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 91580.0,
+        "opp": 31023.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 134008.0,
+        "opp": 54072.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 134008.0,
+        "opp": 54072.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 134008.0,
+        "opp": 54072.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 35329.0,
+        "opp": 1174.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 35329.0,
+        "opp": 1174.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 35329.0,
+        "opp": 1174.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T2_rebound_v82",
+      "tier": "1200-1400 (Dynamic Ladder)",
+      "archetype": "Market Rebound Timer",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 95791.0,
+        "opp": 34238.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 95791.0,
+        "opp": 34238.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 95791.0,
+        "opp": 34238.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 100084.0,
+        "opp": 47250.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 94899.0,
+        "opp": 47451.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 94899.0,
+        "opp": 47451.0,
+        "won": true
+      },
+      "delta_b_vs_a": -5185.0,
+      "delta_c_vs_a": -5185.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 57420.0,
+        "opp": 12869.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 54181.0,
+        "opp": 13026.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 54181.0,
+        "opp": 13026.0,
+        "won": true
+      },
+      "delta_b_vs_a": -3239.0,
+      "delta_c_vs_a": -3239.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 63538.0,
+        "opp": 10451.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 54197.0,
+        "opp": 10538.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 54197.0,
+        "opp": 10538.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9341.0,
+      "delta_c_vs_a": -9341.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 111278.0,
+        "opp": 48440.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 105216.0,
+        "opp": 49002.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 105216.0,
+        "opp": 49002.0,
+        "won": true
+      },
+      "delta_b_vs_a": -6062.0,
+      "delta_c_vs_a": -6062.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 87796.0,
+        "opp": 25175.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 78450.0,
+        "opp": 25260.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 78450.0,
+        "opp": 25260.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9346.0,
+      "delta_c_vs_a": -9346.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 99913.0,
+        "opp": 36951.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 88703.0,
+        "opp": 37262.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 88703.0,
+        "opp": 37262.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11210.0,
+      "delta_c_vs_a": -11210.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 119974.0,
+        "opp": 60374.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 111919.0,
+        "opp": 60622.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 111919.0,
+        "opp": 60622.0,
+        "won": true
+      },
+      "delta_b_vs_a": -8055.0,
+      "delta_c_vs_a": -8055.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 130620.0,
+        "opp": 57543.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 118215.0,
+        "opp": 57898.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 118215.0,
+        "opp": 57898.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12405.0,
+      "delta_c_vs_a": -12405.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 142832.0,
+        "opp": 70827.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 128686.0,
+        "opp": 71002.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 128686.0,
+        "opp": 71002.0,
+        "won": true
+      },
+      "delta_b_vs_a": -14146.0,
+      "delta_c_vs_a": -14146.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 140038.0,
+        "opp": 72291.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 127060.0,
+        "opp": 72730.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 127060.0,
+        "opp": 72730.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12978.0,
+      "delta_c_vs_a": -12978.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_high_yield_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "High-Yield Strawberry Agro Engine",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 100084.0,
+        "opp": 47250.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 94899.0,
+        "opp": 47451.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 94899.0,
+        "opp": 47451.0,
+        "won": true
+      },
+      "delta_b_vs_a": -5185.0,
+      "delta_c_vs_a": -5185.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 57420.0,
+        "opp": 12869.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 54181.0,
+        "opp": 13026.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 54181.0,
+        "opp": 13026.0,
+        "won": true
+      },
+      "delta_b_vs_a": -3239.0,
+      "delta_c_vs_a": -3239.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 63538.0,
+        "opp": 10451.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 54197.0,
+        "opp": 10538.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 54197.0,
+        "opp": 10538.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9341.0,
+      "delta_c_vs_a": -9341.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 111278.0,
+        "opp": 48440.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 105216.0,
+        "opp": 49002.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 105216.0,
+        "opp": 49002.0,
+        "won": true
+      },
+      "delta_b_vs_a": -6062.0,
+      "delta_c_vs_a": -6062.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 87796.0,
+        "opp": 25175.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 78450.0,
+        "opp": 25260.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 78450.0,
+        "opp": 25260.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9346.0,
+      "delta_c_vs_a": -9346.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 99913.0,
+        "opp": 36951.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 88703.0,
+        "opp": 37262.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 88703.0,
+        "opp": 37262.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11210.0,
+      "delta_c_vs_a": -11210.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 119974.0,
+        "opp": 60374.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 111919.0,
+        "opp": 60622.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 111919.0,
+        "opp": 60622.0,
+        "won": true
+      },
+      "delta_b_vs_a": -8055.0,
+      "delta_c_vs_a": -8055.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 130620.0,
+        "opp": 57543.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 118215.0,
+        "opp": 57898.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 118215.0,
+        "opp": 57898.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12405.0,
+      "delta_c_vs_a": -12405.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 142832.0,
+        "opp": 70827.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 128686.0,
+        "opp": 71002.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 128686.0,
+        "opp": 71002.0,
+        "won": true
+      },
+      "delta_b_vs_a": -14146.0,
+      "delta_c_vs_a": -14146.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 140038.0,
+        "opp": 72291.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 127060.0,
+        "opp": 72730.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 127060.0,
+        "opp": 72730.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12978.0,
+      "delta_c_vs_a": -12978.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108248.0,
+        "opp": 48185.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 63023.0,
+        "opp": 19983.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 146754.0,
+        "opp": 62540.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 83180.0,
+        "opp": 30913.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 88701.0,
+        "opp": 44393.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 116703.0,
+        "opp": 60066.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 75597.0,
+        "opp": 28636.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 143766.0,
+        "opp": 66460.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 78962.0,
+        "opp": 21494.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_opponent_aware_v83",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "Adversarial Opponent-Aware Policy",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 74640.0,
+        "opp": 28088.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 89797.0,
+        "opp": 26454.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 80061.0,
+        "opp": 26767.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 80061.0,
+        "opp": 26767.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9736.0,
+      "delta_c_vs_a": -9736.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 73853.0,
+        "opp": 29964.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 67995.0,
+        "opp": 30174.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 67995.0,
+        "opp": 30174.0,
+        "won": true
+      },
+      "delta_b_vs_a": -5858.0,
+      "delta_c_vs_a": -5858.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 112124.0,
+        "opp": 38162.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 100378.0,
+        "opp": 38882.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 100378.0,
+        "opp": 38882.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11746.0,
+      "delta_c_vs_a": -11746.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 109096.0,
+        "opp": 36395.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 98694.0,
+        "opp": 36568.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 98694.0,
+        "opp": 36568.0,
+        "won": true
+      },
+      "delta_b_vs_a": -10402.0,
+      "delta_c_vs_a": -10402.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 87709.0,
+        "opp": 19938.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 78265.0,
+        "opp": 20045.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 78265.0,
+        "opp": 20045.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9444.0,
+      "delta_c_vs_a": -9444.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 100061.0,
+        "opp": 32218.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 88692.0,
+        "opp": 32545.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 88692.0,
+        "opp": 32545.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11369.0,
+      "delta_c_vs_a": -11369.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 98160.0,
+        "opp": 49276.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 91249.0,
+        "opp": 49482.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 91249.0,
+        "opp": 49482.0,
+        "won": true
+      },
+      "delta_b_vs_a": -6911.0,
+      "delta_c_vs_a": -6911.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 120298.0,
+        "opp": 48945.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 110074.0,
+        "opp": 49175.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 110074.0,
+        "opp": 49175.0,
+        "won": true
+      },
+      "delta_b_vs_a": -10224.0,
+      "delta_c_vs_a": -10224.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 133288.0,
+        "opp": 61071.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 119304.0,
+        "opp": 61272.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 119304.0,
+        "opp": 61272.0,
+        "won": true
+      },
+      "delta_b_vs_a": -13984.0,
+      "delta_c_vs_a": -13984.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 122945.0,
+        "opp": 62584.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 111210.0,
+        "opp": 63014.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 111210.0,
+        "opp": 63014.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11735.0,
+      "delta_c_vs_a": -11735.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108624.0,
+        "opp": 47626.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108624.0,
+        "opp": 47626.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108624.0,
+        "opp": 47626.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 76690.0,
+        "opp": 29445.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 76690.0,
+        "opp": 29445.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 76690.0,
+        "opp": 29445.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 123666.0,
+        "opp": 47661.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 123666.0,
+        "opp": 47661.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 123666.0,
+        "opp": 47661.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 103330.0,
+        "opp": 35535.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 103330.0,
+        "opp": 35535.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 103330.0,
+        "opp": 35535.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 94811.0,
+        "opp": 50726.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 94811.0,
+        "opp": 50726.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 94811.0,
+        "opp": 50726.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108362.0,
+        "opp": 43883.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108362.0,
+        "opp": 43883.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108362.0,
+        "opp": 43883.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 91566.0,
+        "opp": 30899.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 91566.0,
+        "opp": 30899.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 91566.0,
+        "opp": 30899.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 114618.0,
+        "opp": 41286.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 114618.0,
+        "opp": 41286.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 114618.0,
+        "opp": 41286.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 35005.0,
+        "opp": 1205.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 35005.0,
+        "opp": 1205.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 35005.0,
+        "opp": 1205.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows12_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "12-Cow Dual-Asset Mixed Engine",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 98219.0,
+        "opp": 44743.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 98219.0,
+        "opp": 44743.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 98219.0,
+        "opp": 44743.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 105376.0,
+        "opp": 37689.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 94273.0,
+        "opp": 37800.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 94273.0,
+        "opp": 37800.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11103.0,
+      "delta_c_vs_a": -11103.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 73870.0,
+        "opp": 30084.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 68012.0,
+        "opp": 30294.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 68012.0,
+        "opp": 30294.0,
+        "won": true
+      },
+      "delta_b_vs_a": -5858.0,
+      "delta_c_vs_a": -5858.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 112135.0,
+        "opp": 38276.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 100392.0,
+        "opp": 38996.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 100392.0,
+        "opp": 38996.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11743.0,
+      "delta_c_vs_a": -11743.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 115973.0,
+        "opp": 38716.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 104971.0,
+        "opp": 38783.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 104971.0,
+        "opp": 38783.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11002.0,
+      "delta_c_vs_a": -11002.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 87727.0,
+        "opp": 20053.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 78283.0,
+        "opp": 20160.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 78283.0,
+        "opp": 20160.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9444.0,
+      "delta_c_vs_a": -9444.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 100082.0,
+        "opp": 32330.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 88713.0,
+        "opp": 32657.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 88713.0,
+        "opp": 32657.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11369.0,
+      "delta_c_vs_a": -11369.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 108966.0,
+        "opp": 50996.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 101029.0,
+        "opp": 51193.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 101029.0,
+        "opp": 51193.0,
+        "won": true
+      },
+      "delta_b_vs_a": -7937.0,
+      "delta_c_vs_a": -7937.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 138118.0,
+        "opp": 62083.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 125151.0,
+        "opp": 62452.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 125151.0,
+        "opp": 62452.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12967.0,
+      "delta_c_vs_a": -12967.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 148413.0,
+        "opp": 77067.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 133591.0,
+        "opp": 77193.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 133591.0,
+        "opp": 77193.0,
+        "won": true
+      },
+      "delta_b_vs_a": -14822.0,
+      "delta_c_vs_a": -14822.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 126414.0,
+        "opp": 51239.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 113597.0,
+        "opp": 51538.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 113597.0,
+        "opp": 51538.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12817.0,
+      "delta_c_vs_a": -12817.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 108646.0,
+        "opp": 47742.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 108646.0,
+        "opp": 47742.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 108646.0,
+        "opp": 47742.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 76700.0,
+        "opp": 29563.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 76700.0,
+        "opp": 29563.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 76700.0,
+        "opp": 29563.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 137714.0,
+        "opp": 60815.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 137714.0,
+        "opp": 60815.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 137714.0,
+        "opp": 60815.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 93029.0,
+        "opp": 34579.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 93029.0,
+        "opp": 34579.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 93029.0,
+        "opp": 34579.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 91513.0,
+        "opp": 44544.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 91513.0,
+        "opp": 44544.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 91513.0,
+        "opp": 44544.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 118487.0,
+        "opp": 48270.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 118487.0,
+        "opp": 48270.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 118487.0,
+        "opp": 48270.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 91580.0,
+        "opp": 31023.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 91580.0,
+        "opp": 31023.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 91580.0,
+        "opp": 31023.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 134008.0,
+        "opp": 54072.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 134008.0,
+        "opp": 54072.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 134008.0,
+        "opp": 54072.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 35329.0,
+        "opp": 1174.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 35329.0,
+        "opp": 1174.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 35329.0,
+        "opp": 1174.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T3_cows13_herd",
+      "tier": "1400-1800 (High-Yield Agro)",
+      "archetype": "13-Cow High-Capacity Livestock Engine",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 95791.0,
+        "opp": 34238.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 95791.0,
+        "opp": 34238.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 95791.0,
+        "opp": 34238.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward": 121042.0,
+        "opp": 67693.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 111161.0,
+        "opp": 68641.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 111161.0,
+        "opp": 68641.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9881.0,
+      "delta_c_vs_a": -9881.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward": 83892.0,
+        "opp": 29007.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 74035.0,
+        "opp": 29320.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 74035.0,
+        "opp": 29320.0,
+        "won": true
+      },
+      "delta_b_vs_a": -9857.0,
+      "delta_c_vs_a": -9857.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward": 118915.0,
+        "opp": 60580.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 107799.0,
+        "opp": 60813.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 107799.0,
+        "opp": 60813.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11116.0,
+      "delta_c_vs_a": -11116.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward": 111084.0,
+        "opp": 48883.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 100149.0,
+        "opp": 48986.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 100149.0,
+        "opp": 48986.0,
+        "won": true
+      },
+      "delta_b_vs_a": -10935.0,
+      "delta_c_vs_a": -10935.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward": 137800.0,
+        "opp": 72706.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 124942.0,
+        "opp": 72932.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 124942.0,
+        "opp": 72932.0,
+        "won": true
+      },
+      "delta_b_vs_a": -12858.0,
+      "delta_c_vs_a": -12858.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward": 67107.0,
+        "opp": 20326.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 58329.0,
+        "opp": 20394.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 58329.0,
+        "opp": 20394.0,
+        "won": true
+      },
+      "delta_b_vs_a": -8778.0,
+      "delta_c_vs_a": -8778.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward": 83952.0,
+        "opp": 27753.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 78965.0,
+        "opp": 27921.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 78965.0,
+        "opp": 27921.0,
+        "won": true
+      },
+      "delta_b_vs_a": -4987.0,
+      "delta_c_vs_a": -4987.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward": 110449.0,
+        "opp": 56651.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 102966.0,
+        "opp": 56844.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 102966.0,
+        "opp": 56844.0,
+        "won": true
+      },
+      "delta_b_vs_a": -7483.0,
+      "delta_c_vs_a": -7483.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward": 117464.0,
+        "opp": 58161.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 110025.0,
+        "opp": 58581.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 110025.0,
+        "opp": 58581.0,
+        "won": true
+      },
+      "delta_b_vs_a": -7439.0,
+      "delta_c_vs_a": -7439.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward": 113073.0,
+        "opp": 57109.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 101559.0,
+        "opp": 57303.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 101559.0,
+        "opp": 57303.0,
+        "won": true
+      },
+      "delta_b_vs_a": -11514.0,
+      "delta_c_vs_a": -11514.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward": 83681.0,
+        "opp": 42053.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 83681.0,
+        "opp": 42053.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 83681.0,
+        "opp": 42053.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward": 87872.0,
+        "opp": 42483.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 87872.0,
+        "opp": 42483.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 87872.0,
+        "opp": 42483.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward": 143593.0,
+        "opp": 78233.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 143593.0,
+        "opp": 78233.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 143593.0,
+        "opp": 78233.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward": 132414.0,
+        "opp": 66449.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 132414.0,
+        "opp": 66449.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 132414.0,
+        "opp": 66449.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward": 86772.0,
+        "opp": 40713.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 86772.0,
+        "opp": 40713.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 86772.0,
+        "opp": 40713.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward": 102111.0,
+        "opp": 53299.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 102111.0,
+        "opp": 53299.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 102111.0,
+        "opp": 53299.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward": 87841.0,
+        "opp": 46617.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 87841.0,
+        "opp": 46617.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 87841.0,
+        "opp": 46617.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward": 109004.0,
+        "opp": 56440.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 109004.0,
+        "opp": 56440.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 109004.0,
+        "opp": 56440.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward": 87939.0,
+        "opp": 44629.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 87939.0,
+        "opp": 44629.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 87939.0,
+        "opp": 44629.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    },
+    {
+      "bot_key": "T4_experimental_v84",
+      "tier": "1800+ (Multi-Asset Elite)",
+      "archetype": "Multi-Asset Scaled Experimental Engine",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward": 103455.0,
+        "opp": 49636.0,
+        "won": true
+      },
+      "arm_b": {
+        "reward": 103455.0,
+        "opp": 49636.0,
+        "won": true
+      },
+      "arm_c": {
+        "reward": 103455.0,
+        "opp": 49636.0,
+        "won": true
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0
+    }
+  ]
+}
