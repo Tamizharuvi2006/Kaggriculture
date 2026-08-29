@@ -1,0 +1,11 @@
+{
+  "d1_wheat_sold_units": 745.6,
+  "opp_wheat_sold_units": 774.85,
+  "retained_wheat_units": -29.25,
+  "immediate_wheat_price": 42.58817427385892,
+  "cow_feed_downstream_value": 115.38355809128632,
+  "sheep_feed_downstream_value": 111.22527904564316,
+  "value_multiplier_cow": 2.7092863232249424,
+  "value_multiplier_sheep": 2.611647034465961,
+  "total_downstream_value_gap": -2129.264976659751
+}
