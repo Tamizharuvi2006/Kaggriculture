@@ -1,0 +1,3277 @@
+{
+  "overall": {
+    "wr_a": 81.0,
+    "wr_b": 81.0,
+    "wr_c": 81.0,
+    "mean_delta_b": 0.0,
+    "mean_delta_c": 0.0,
+    "l2w_b": 0,
+    "l2w_c": 0,
+    "w2l_b": 0,
+    "w2l_c": 0
+  },
+  "by_opponent": {
+    "kaitofukami-v18.py": {
+      "matches": 20,
+      "wr_a": 5.0,
+      "wr_b": 5.0,
+      "wr_c": 5.0,
+      "mean_delta_b": 0.0,
+      "mean_delta_c": 0.0,
+      "l2w_b": 0,
+      "l2w_c": 0,
+      "w2l_b": 0,
+      "w2l_c": 0
+    },
+    "submission_v81.py": {
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "mean_delta_b": 0.0,
+      "mean_delta_c": 0.0,
+      "l2w_b": 0,
+      "l2w_c": 0,
+      "w2l_b": 0,
+      "w2l_c": 0
+    },
+    "submission_v82.py": {
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "mean_delta_b": 0.0,
+      "mean_delta_c": 0.0,
+      "l2w_b": 0,
+      "l2w_c": 0,
+      "w2l_b": 0,
+      "w2l_c": 0
+    },
+    "submission_v83.py": {
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "mean_delta_b": 0.0,
+      "mean_delta_c": 0.0,
+      "l2w_b": 0,
+      "l2w_c": 0,
+      "w2l_b": 0,
+      "w2l_c": 0
+    },
+    "submission_v83_opponent_aware.py": {
+      "matches": 20,
+      "wr_a": 100.0,
+      "wr_b": 100.0,
+      "wr_c": 100.0,
+      "mean_delta_b": 0.0,
+      "mean_delta_c": 0.0,
+      "l2w_b": 0,
+      "l2w_c": 0,
+      "w2l_b": 0,
+      "w2l_c": 0
+    }
+  },
+  "all_matches": [
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 87922.0,
+        "reward_opp": 93383.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 1249.0,
+        "d20_margin": 4.0
+      },
+      "arm_b": {
+        "reward_hero": 87922.0,
+        "reward_opp": 93383.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 1249.0,
+        "d20_margin": 4.0
+      },
+      "arm_c": {
+        "reward_hero": 87922.0,
+        "reward_opp": 93383.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 1249.0,
+        "d20_margin": 4.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 62463.0,
+        "reward_opp": 69600.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": -66.0,
+        "d20_margin": -80.0
+      },
+      "arm_b": {
+        "reward_hero": 62463.0,
+        "reward_opp": 69600.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": -66.0,
+        "d20_margin": -80.0
+      },
+      "arm_c": {
+        "reward_hero": 62463.0,
+        "reward_opp": 69600.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": -66.0,
+        "d20_margin": -80.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 92031.0,
+        "reward_opp": 99162.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 1036.0,
+        "d20_margin": 81.0
+      },
+      "arm_b": {
+        "reward_hero": 92031.0,
+        "reward_opp": 99162.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 1036.0,
+        "d20_margin": 81.0
+      },
+      "arm_c": {
+        "reward_hero": 92031.0,
+        "reward_opp": 99162.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 1036.0,
+        "d20_margin": 81.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 70900.0,
+        "reward_opp": 71932.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 1249.0,
+        "d20_margin": -50.0
+      },
+      "arm_b": {
+        "reward_hero": 70900.0,
+        "reward_opp": 71932.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 1249.0,
+        "d20_margin": -50.0
+      },
+      "arm_c": {
+        "reward_hero": 70900.0,
+        "reward_opp": 71932.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 1249.0,
+        "d20_margin": -50.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 83593.0,
+        "reward_opp": 91703.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": -149.0,
+        "d20_margin": -1028.0
+      },
+      "arm_b": {
+        "reward_hero": 83593.0,
+        "reward_opp": 91703.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": -149.0,
+        "d20_margin": -1028.0
+      },
+      "arm_c": {
+        "reward_hero": 83593.0,
+        "reward_opp": 91703.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": -149.0,
+        "d20_margin": -1028.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 23612.0,
+        "reward_opp": 25169.0,
+        "won": false,
+        "d10_margin": -97.0,
+        "d15_margin": -93.0,
+        "d20_margin": 215.0
+      },
+      "arm_b": {
+        "reward_hero": 23612.0,
+        "reward_opp": 25169.0,
+        "won": false,
+        "d10_margin": -97.0,
+        "d15_margin": -93.0,
+        "d20_margin": 215.0
+      },
+      "arm_c": {
+        "reward_hero": 23612.0,
+        "reward_opp": 25169.0,
+        "won": false,
+        "d10_margin": -97.0,
+        "d15_margin": -93.0,
+        "d20_margin": 215.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 37074.0,
+        "reward_opp": 37563.0,
+        "won": false,
+        "d10_margin": -97.0,
+        "d15_margin": -88.0,
+        "d20_margin": -54.0
+      },
+      "arm_b": {
+        "reward_hero": 37074.0,
+        "reward_opp": 37563.0,
+        "won": false,
+        "d10_margin": -97.0,
+        "d15_margin": -88.0,
+        "d20_margin": -54.0
+      },
+      "arm_c": {
+        "reward_hero": 37074.0,
+        "reward_opp": 37563.0,
+        "won": false,
+        "d10_margin": -97.0,
+        "d15_margin": -88.0,
+        "d20_margin": -54.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 63123.0,
+        "reward_opp": 63857.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 948.0,
+        "d20_margin": 379.0
+      },
+      "arm_b": {
+        "reward_hero": 63123.0,
+        "reward_opp": 63857.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 948.0,
+        "d20_margin": 379.0
+      },
+      "arm_c": {
+        "reward_hero": 63123.0,
+        "reward_opp": 63857.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 948.0,
+        "d20_margin": 379.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 127875.0,
+        "reward_opp": 134090.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 1039.0,
+        "d20_margin": -211.0
+      },
+      "arm_b": {
+        "reward_hero": 127875.0,
+        "reward_opp": 134090.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 1039.0,
+        "d20_margin": -211.0
+      },
+      "arm_c": {
+        "reward_hero": 127875.0,
+        "reward_opp": 134090.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 1039.0,
+        "d20_margin": -211.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 88486.0,
+        "reward_opp": 92327.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 679.0,
+        "d20_margin": 38.0
+      },
+      "arm_b": {
+        "reward_hero": 88486.0,
+        "reward_opp": 92327.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 679.0,
+        "d20_margin": 38.0
+      },
+      "arm_c": {
+        "reward_hero": 88486.0,
+        "reward_opp": 92327.0,
+        "won": false,
+        "d10_margin": 3.0,
+        "d15_margin": 679.0,
+        "d20_margin": 38.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 80809.0,
+        "reward_opp": 94607.0,
+        "won": false,
+        "d10_margin": 80.0,
+        "d15_margin": 1548.0,
+        "d20_margin": 3208.0
+      },
+      "arm_b": {
+        "reward_hero": 80809.0,
+        "reward_opp": 94607.0,
+        "won": false,
+        "d10_margin": 80.0,
+        "d15_margin": 1548.0,
+        "d20_margin": 3208.0
+      },
+      "arm_c": {
+        "reward_hero": 80809.0,
+        "reward_opp": 94607.0,
+        "won": false,
+        "d10_margin": 80.0,
+        "d15_margin": 1548.0,
+        "d20_margin": 3208.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 36383.0,
+        "reward_opp": 39970.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": 66.0,
+        "d20_margin": 35.0
+      },
+      "arm_b": {
+        "reward_hero": 36383.0,
+        "reward_opp": 39970.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": 66.0,
+        "d20_margin": 35.0
+      },
+      "arm_c": {
+        "reward_hero": 36383.0,
+        "reward_opp": 39970.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": 66.0,
+        "d20_margin": 35.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 107919.0,
+        "reward_opp": 113168.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -1244.0,
+        "d20_margin": 107.0
+      },
+      "arm_b": {
+        "reward_hero": 107919.0,
+        "reward_opp": 113168.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -1244.0,
+        "d20_margin": 107.0
+      },
+      "arm_c": {
+        "reward_hero": 107919.0,
+        "reward_opp": 113168.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -1244.0,
+        "d20_margin": 107.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 70980.0,
+        "reward_opp": 78310.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -1165.0,
+        "d20_margin": 11.0
+      },
+      "arm_b": {
+        "reward_hero": 70980.0,
+        "reward_opp": 78310.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -1165.0,
+        "d20_margin": 11.0
+      },
+      "arm_c": {
+        "reward_hero": 70980.0,
+        "reward_opp": 78310.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -1165.0,
+        "d20_margin": 11.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 74715.0,
+        "reward_opp": 77728.0,
+        "won": false,
+        "d10_margin": -205.0,
+        "d15_margin": -2769.0,
+        "d20_margin": -1106.0
+      },
+      "arm_b": {
+        "reward_hero": 74715.0,
+        "reward_opp": 77728.0,
+        "won": false,
+        "d10_margin": -205.0,
+        "d15_margin": -2769.0,
+        "d20_margin": -1106.0
+      },
+      "arm_c": {
+        "reward_hero": 74715.0,
+        "reward_opp": 77728.0,
+        "won": false,
+        "d10_margin": -205.0,
+        "d15_margin": -2769.0,
+        "d20_margin": -1106.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 79033.0,
+        "reward_opp": 75939.0,
+        "won": true,
+        "d10_margin": -86.0,
+        "d15_margin": -1681.0,
+        "d20_margin": -2045.0
+      },
+      "arm_b": {
+        "reward_hero": 79033.0,
+        "reward_opp": 75939.0,
+        "won": true,
+        "d10_margin": -86.0,
+        "d15_margin": -1681.0,
+        "d20_margin": -2045.0
+      },
+      "arm_c": {
+        "reward_hero": 79033.0,
+        "reward_opp": 75939.0,
+        "won": true,
+        "d10_margin": -86.0,
+        "d15_margin": -1681.0,
+        "d20_margin": -2045.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 82373.0,
+        "reward_opp": 84411.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": 33.0,
+        "d20_margin": 237.0
+      },
+      "arm_b": {
+        "reward_hero": 82373.0,
+        "reward_opp": 84411.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": 33.0,
+        "d20_margin": 237.0
+      },
+      "arm_c": {
+        "reward_hero": 82373.0,
+        "reward_opp": 84411.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": 33.0,
+        "d20_margin": 237.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 105398.0,
+        "reward_opp": 113914.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -1247.0,
+        "d20_margin": 96.0
+      },
+      "arm_b": {
+        "reward_hero": 105398.0,
+        "reward_opp": 113914.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -1247.0,
+        "d20_margin": 96.0
+      },
+      "arm_c": {
+        "reward_hero": 105398.0,
+        "reward_opp": 113914.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -1247.0,
+        "d20_margin": 96.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 52207.0,
+        "reward_opp": 56962.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -3.0,
+        "d20_margin": 17.0
+      },
+      "arm_b": {
+        "reward_hero": 52207.0,
+        "reward_opp": 56962.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -3.0,
+        "d20_margin": 17.0
+      },
+      "arm_c": {
+        "reward_hero": 52207.0,
+        "reward_opp": 56962.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -3.0,
+        "d20_margin": 17.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "kaitofukami-v18.py",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 99058.0,
+        "reward_opp": 102409.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -1249.0,
+        "d20_margin": 103.0
+      },
+      "arm_b": {
+        "reward_hero": 99058.0,
+        "reward_opp": 102409.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -1249.0,
+        "d20_margin": 103.0
+      },
+      "arm_c": {
+        "reward_hero": 99058.0,
+        "reward_opp": 102409.0,
+        "won": false,
+        "d10_margin": -3.0,
+        "d15_margin": -1249.0,
+        "d20_margin": 103.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 89797.0,
+        "reward_opp": 26454.0,
+        "won": true,
+        "d10_margin": 1051.0,
+        "d15_margin": 14642.0,
+        "d20_margin": 33722.0
+      },
+      "arm_b": {
+        "reward_hero": 89797.0,
+        "reward_opp": 26454.0,
+        "won": true,
+        "d10_margin": 1051.0,
+        "d15_margin": 14642.0,
+        "d20_margin": 33722.0
+      },
+      "arm_c": {
+        "reward_hero": 89797.0,
+        "reward_opp": 26454.0,
+        "won": true,
+        "d10_margin": 1051.0,
+        "d15_margin": 14642.0,
+        "d20_margin": 33722.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 73853.0,
+        "reward_opp": 29964.0,
+        "won": true,
+        "d10_margin": 62.0,
+        "d15_margin": 11028.0,
+        "d20_margin": 25419.0
+      },
+      "arm_b": {
+        "reward_hero": 73853.0,
+        "reward_opp": 29964.0,
+        "won": true,
+        "d10_margin": 62.0,
+        "d15_margin": 11028.0,
+        "d20_margin": 25419.0
+      },
+      "arm_c": {
+        "reward_hero": 73853.0,
+        "reward_opp": 29964.0,
+        "won": true,
+        "d10_margin": 62.0,
+        "d15_margin": 11028.0,
+        "d20_margin": 25419.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 112124.0,
+        "reward_opp": 38162.0,
+        "won": true,
+        "d10_margin": 346.0,
+        "d15_margin": 14393.0,
+        "d20_margin": 36159.0
+      },
+      "arm_b": {
+        "reward_hero": 112124.0,
+        "reward_opp": 38162.0,
+        "won": true,
+        "d10_margin": 346.0,
+        "d15_margin": 14393.0,
+        "d20_margin": 36159.0
+      },
+      "arm_c": {
+        "reward_hero": 112124.0,
+        "reward_opp": 38162.0,
+        "won": true,
+        "d10_margin": 346.0,
+        "d15_margin": 14393.0,
+        "d20_margin": 36159.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 109096.0,
+        "reward_opp": 36395.0,
+        "won": true,
+        "d10_margin": 1253.0,
+        "d15_margin": 14981.0,
+        "d20_margin": 37814.0
+      },
+      "arm_b": {
+        "reward_hero": 109096.0,
+        "reward_opp": 36395.0,
+        "won": true,
+        "d10_margin": 1253.0,
+        "d15_margin": 14981.0,
+        "d20_margin": 37814.0
+      },
+      "arm_c": {
+        "reward_hero": 109096.0,
+        "reward_opp": 36395.0,
+        "won": true,
+        "d10_margin": 1253.0,
+        "d15_margin": 14981.0,
+        "d20_margin": 37814.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 87709.0,
+        "reward_opp": 19938.0,
+        "won": true,
+        "d10_margin": 346.0,
+        "d15_margin": 13541.0,
+        "d20_margin": 34476.0
+      },
+      "arm_b": {
+        "reward_hero": 87709.0,
+        "reward_opp": 19938.0,
+        "won": true,
+        "d10_margin": 346.0,
+        "d15_margin": 13541.0,
+        "d20_margin": 34476.0
+      },
+      "arm_c": {
+        "reward_hero": 87709.0,
+        "reward_opp": 19938.0,
+        "won": true,
+        "d10_margin": 346.0,
+        "d15_margin": 13541.0,
+        "d20_margin": 34476.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 100061.0,
+        "reward_opp": 32218.0,
+        "won": true,
+        "d10_margin": 274.0,
+        "d15_margin": 13918.0,
+        "d20_margin": 34218.0
+      },
+      "arm_b": {
+        "reward_hero": 100061.0,
+        "reward_opp": 32218.0,
+        "won": true,
+        "d10_margin": 274.0,
+        "d15_margin": 13918.0,
+        "d20_margin": 34218.0
+      },
+      "arm_c": {
+        "reward_hero": 100061.0,
+        "reward_opp": 32218.0,
+        "won": true,
+        "d10_margin": 274.0,
+        "d15_margin": 13918.0,
+        "d20_margin": 34218.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 98160.0,
+        "reward_opp": 49276.0,
+        "won": true,
+        "d10_margin": 647.0,
+        "d15_margin": 12125.0,
+        "d20_margin": 28337.0
+      },
+      "arm_b": {
+        "reward_hero": 98160.0,
+        "reward_opp": 49276.0,
+        "won": true,
+        "d10_margin": 647.0,
+        "d15_margin": 12125.0,
+        "d20_margin": 28337.0
+      },
+      "arm_c": {
+        "reward_hero": 98160.0,
+        "reward_opp": 49276.0,
+        "won": true,
+        "d10_margin": 647.0,
+        "d15_margin": 12125.0,
+        "d20_margin": 28337.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 120298.0,
+        "reward_opp": 48945.0,
+        "won": true,
+        "d10_margin": 1224.0,
+        "d15_margin": 13725.0,
+        "d20_margin": 35310.0
+      },
+      "arm_b": {
+        "reward_hero": 120298.0,
+        "reward_opp": 48945.0,
+        "won": true,
+        "d10_margin": 1224.0,
+        "d15_margin": 13725.0,
+        "d20_margin": 35310.0
+      },
+      "arm_c": {
+        "reward_hero": 120298.0,
+        "reward_opp": 48945.0,
+        "won": true,
+        "d10_margin": 1224.0,
+        "d15_margin": 13725.0,
+        "d20_margin": 35310.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 133288.0,
+        "reward_opp": 61071.0,
+        "won": true,
+        "d10_margin": 640.0,
+        "d15_margin": 13471.0,
+        "d20_margin": 37369.0
+      },
+      "arm_b": {
+        "reward_hero": 133288.0,
+        "reward_opp": 61071.0,
+        "won": true,
+        "d10_margin": 640.0,
+        "d15_margin": 13471.0,
+        "d20_margin": 37369.0
+      },
+      "arm_c": {
+        "reward_hero": 133288.0,
+        "reward_opp": 61071.0,
+        "won": true,
+        "d10_margin": 640.0,
+        "d15_margin": 13471.0,
+        "d20_margin": 37369.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 122945.0,
+        "reward_opp": 62584.0,
+        "won": true,
+        "d10_margin": 611.0,
+        "d15_margin": 12406.0,
+        "d20_margin": 30830.0
+      },
+      "arm_b": {
+        "reward_hero": 122945.0,
+        "reward_opp": 62584.0,
+        "won": true,
+        "d10_margin": 611.0,
+        "d15_margin": 12406.0,
+        "d20_margin": 30830.0
+      },
+      "arm_c": {
+        "reward_hero": 122945.0,
+        "reward_opp": 62584.0,
+        "won": true,
+        "d10_margin": 611.0,
+        "d15_margin": 12406.0,
+        "d20_margin": 30830.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 108624.0,
+        "reward_opp": 47626.0,
+        "won": true,
+        "d10_margin": -192.0,
+        "d15_margin": -12474.0,
+        "d20_margin": -29873.0
+      },
+      "arm_b": {
+        "reward_hero": 108624.0,
+        "reward_opp": 47626.0,
+        "won": true,
+        "d10_margin": -192.0,
+        "d15_margin": -12474.0,
+        "d20_margin": -29873.0
+      },
+      "arm_c": {
+        "reward_hero": 108624.0,
+        "reward_opp": 47626.0,
+        "won": true,
+        "d10_margin": -192.0,
+        "d15_margin": -12474.0,
+        "d20_margin": -29873.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 76690.0,
+        "reward_opp": 29445.0,
+        "won": true,
+        "d10_margin": -62.0,
+        "d15_margin": -11030.0,
+        "d20_margin": -26162.0
+      },
+      "arm_b": {
+        "reward_hero": 76690.0,
+        "reward_opp": 29445.0,
+        "won": true,
+        "d10_margin": -62.0,
+        "d15_margin": -11030.0,
+        "d20_margin": -26162.0
+      },
+      "arm_c": {
+        "reward_hero": 76690.0,
+        "reward_opp": 29445.0,
+        "won": true,
+        "d10_margin": -62.0,
+        "d15_margin": -11030.0,
+        "d20_margin": -26162.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 123666.0,
+        "reward_opp": 47661.0,
+        "won": true,
+        "d10_margin": -1265.0,
+        "d15_margin": -14594.0,
+        "d20_margin": -38556.0
+      },
+      "arm_b": {
+        "reward_hero": 123666.0,
+        "reward_opp": 47661.0,
+        "won": true,
+        "d10_margin": -1265.0,
+        "d15_margin": -14594.0,
+        "d20_margin": -38556.0
+      },
+      "arm_c": {
+        "reward_hero": 123666.0,
+        "reward_opp": 47661.0,
+        "won": true,
+        "d10_margin": -1265.0,
+        "d15_margin": -14594.0,
+        "d20_margin": -38556.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 103330.0,
+        "reward_opp": 35535.0,
+        "won": true,
+        "d10_margin": -1208.0,
+        "d15_margin": -14498.0,
+        "d20_margin": -36763.0
+      },
+      "arm_b": {
+        "reward_hero": 103330.0,
+        "reward_opp": 35535.0,
+        "won": true,
+        "d10_margin": -1208.0,
+        "d15_margin": -14498.0,
+        "d20_margin": -36763.0
+      },
+      "arm_c": {
+        "reward_hero": 103330.0,
+        "reward_opp": 35535.0,
+        "won": true,
+        "d10_margin": -1208.0,
+        "d15_margin": -14498.0,
+        "d20_margin": -36763.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 94811.0,
+        "reward_opp": 50726.0,
+        "won": true,
+        "d10_margin": -894.0,
+        "d15_margin": -11676.0,
+        "d20_margin": -27551.0
+      },
+      "arm_b": {
+        "reward_hero": 94811.0,
+        "reward_opp": 50726.0,
+        "won": true,
+        "d10_margin": -894.0,
+        "d15_margin": -11676.0,
+        "d20_margin": -27551.0
+      },
+      "arm_c": {
+        "reward_hero": 94811.0,
+        "reward_opp": 50726.0,
+        "won": true,
+        "d10_margin": -894.0,
+        "d15_margin": -11676.0,
+        "d20_margin": -27551.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 108362.0,
+        "reward_opp": 43883.0,
+        "won": true,
+        "d10_margin": -640.0,
+        "d15_margin": -13730.0,
+        "d20_margin": -32594.0
+      },
+      "arm_b": {
+        "reward_hero": 108362.0,
+        "reward_opp": 43883.0,
+        "won": true,
+        "d10_margin": -640.0,
+        "d15_margin": -13730.0,
+        "d20_margin": -32594.0
+      },
+      "arm_c": {
+        "reward_hero": 108362.0,
+        "reward_opp": 43883.0,
+        "won": true,
+        "d10_margin": -640.0,
+        "d15_margin": -13730.0,
+        "d20_margin": -32594.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 91566.0,
+        "reward_opp": 30899.0,
+        "won": true,
+        "d10_margin": -62.0,
+        "d15_margin": -11222.0,
+        "d20_margin": -28478.0
+      },
+      "arm_b": {
+        "reward_hero": 91566.0,
+        "reward_opp": 30899.0,
+        "won": true,
+        "d10_margin": -62.0,
+        "d15_margin": -11222.0,
+        "d20_margin": -28478.0
+      },
+      "arm_c": {
+        "reward_hero": 91566.0,
+        "reward_opp": 30899.0,
+        "won": true,
+        "d10_margin": -62.0,
+        "d15_margin": -11222.0,
+        "d20_margin": -28478.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 114618.0,
+        "reward_opp": 41286.0,
+        "won": true,
+        "d10_margin": -1271.0,
+        "d15_margin": -15185.0,
+        "d20_margin": -38321.0
+      },
+      "arm_b": {
+        "reward_hero": 114618.0,
+        "reward_opp": 41286.0,
+        "won": true,
+        "d10_margin": -1271.0,
+        "d15_margin": -15185.0,
+        "d20_margin": -38321.0
+      },
+      "arm_c": {
+        "reward_hero": 114618.0,
+        "reward_opp": 41286.0,
+        "won": true,
+        "d10_margin": -1271.0,
+        "d15_margin": -15185.0,
+        "d20_margin": -38321.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 35005.0,
+        "reward_opp": 1205.0,
+        "won": true,
+        "d10_margin": -64.0,
+        "d15_margin": -11019.0,
+        "d20_margin": -23415.0
+      },
+      "arm_b": {
+        "reward_hero": 35005.0,
+        "reward_opp": 1205.0,
+        "won": true,
+        "d10_margin": -64.0,
+        "d15_margin": -11019.0,
+        "d20_margin": -23415.0
+      },
+      "arm_c": {
+        "reward_hero": 35005.0,
+        "reward_opp": 1205.0,
+        "won": true,
+        "d10_margin": -64.0,
+        "d15_margin": -11019.0,
+        "d20_margin": -23415.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v81.py",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 98219.0,
+        "reward_opp": 44743.0,
+        "won": true,
+        "d10_margin": -1026.0,
+        "d15_margin": -13404.0,
+        "d20_margin": -30270.0
+      },
+      "arm_b": {
+        "reward_hero": 98219.0,
+        "reward_opp": 44743.0,
+        "won": true,
+        "d10_margin": -1026.0,
+        "d15_margin": -13404.0,
+        "d20_margin": -30270.0
+      },
+      "arm_c": {
+        "reward_hero": 98219.0,
+        "reward_opp": 44743.0,
+        "won": true,
+        "d10_margin": -1026.0,
+        "d15_margin": -13404.0,
+        "d20_margin": -30270.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 105376.0,
+        "reward_opp": 37689.0,
+        "won": true,
+        "d10_margin": 481.0,
+        "d15_margin": 14822.0,
+        "d20_margin": 36695.0
+      },
+      "arm_b": {
+        "reward_hero": 105376.0,
+        "reward_opp": 37689.0,
+        "won": true,
+        "d10_margin": 481.0,
+        "d15_margin": 14822.0,
+        "d20_margin": 36695.0
+      },
+      "arm_c": {
+        "reward_hero": 105376.0,
+        "reward_opp": 37689.0,
+        "won": true,
+        "d10_margin": 481.0,
+        "d15_margin": 14822.0,
+        "d20_margin": 36695.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 73870.0,
+        "reward_opp": 30084.0,
+        "won": true,
+        "d10_margin": -43.0,
+        "d15_margin": 10911.0,
+        "d20_margin": 25311.0
+      },
+      "arm_b": {
+        "reward_hero": 73870.0,
+        "reward_opp": 30084.0,
+        "won": true,
+        "d10_margin": -43.0,
+        "d15_margin": 10911.0,
+        "d20_margin": 25311.0
+      },
+      "arm_c": {
+        "reward_hero": 73870.0,
+        "reward_opp": 30084.0,
+        "won": true,
+        "d10_margin": -43.0,
+        "d15_margin": 10911.0,
+        "d20_margin": 25311.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 112135.0,
+        "reward_opp": 38276.0,
+        "won": true,
+        "d10_margin": 248.0,
+        "d15_margin": 14288.0,
+        "d20_margin": 36057.0
+      },
+      "arm_b": {
+        "reward_hero": 112135.0,
+        "reward_opp": 38276.0,
+        "won": true,
+        "d10_margin": 248.0,
+        "d15_margin": 14288.0,
+        "d20_margin": 36057.0
+      },
+      "arm_c": {
+        "reward_hero": 112135.0,
+        "reward_opp": 38276.0,
+        "won": true,
+        "d10_margin": 248.0,
+        "d15_margin": 14288.0,
+        "d20_margin": 36057.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 115973.0,
+        "reward_opp": 38716.0,
+        "won": true,
+        "d10_margin": 1019.0,
+        "d15_margin": 15465.0,
+        "d20_margin": 38977.0
+      },
+      "arm_b": {
+        "reward_hero": 115973.0,
+        "reward_opp": 38716.0,
+        "won": true,
+        "d10_margin": 1019.0,
+        "d15_margin": 15465.0,
+        "d20_margin": 38977.0
+      },
+      "arm_c": {
+        "reward_hero": 115973.0,
+        "reward_opp": 38716.0,
+        "won": true,
+        "d10_margin": 1019.0,
+        "d15_margin": 15465.0,
+        "d20_margin": 38977.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 87727.0,
+        "reward_opp": 20053.0,
+        "won": true,
+        "d10_margin": 248.0,
+        "d15_margin": 13436.0,
+        "d20_margin": 34375.0
+      },
+      "arm_b": {
+        "reward_hero": 87727.0,
+        "reward_opp": 20053.0,
+        "won": true,
+        "d10_margin": 248.0,
+        "d15_margin": 13436.0,
+        "d20_margin": 34375.0
+      },
+      "arm_c": {
+        "reward_hero": 87727.0,
+        "reward_opp": 20053.0,
+        "won": true,
+        "d10_margin": 248.0,
+        "d15_margin": 13436.0,
+        "d20_margin": 34375.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 100082.0,
+        "reward_opp": 32330.0,
+        "won": true,
+        "d10_margin": 177.0,
+        "d15_margin": 13825.0,
+        "d20_margin": 34133.0
+      },
+      "arm_b": {
+        "reward_hero": 100082.0,
+        "reward_opp": 32330.0,
+        "won": true,
+        "d10_margin": 177.0,
+        "d15_margin": 13825.0,
+        "d20_margin": 34133.0
+      },
+      "arm_c": {
+        "reward_hero": 100082.0,
+        "reward_opp": 32330.0,
+        "won": true,
+        "d10_margin": 177.0,
+        "d15_margin": 13825.0,
+        "d20_margin": 34133.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 108966.0,
+        "reward_opp": 50996.0,
+        "won": true,
+        "d10_margin": 518.0,
+        "d15_margin": 12605.0,
+        "d20_margin": 31225.0
+      },
+      "arm_b": {
+        "reward_hero": 108966.0,
+        "reward_opp": 50996.0,
+        "won": true,
+        "d10_margin": 518.0,
+        "d15_margin": 12605.0,
+        "d20_margin": 31225.0
+      },
+      "arm_c": {
+        "reward_hero": 108966.0,
+        "reward_opp": 50996.0,
+        "won": true,
+        "d10_margin": 518.0,
+        "d15_margin": 12605.0,
+        "d20_margin": 31225.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 138118.0,
+        "reward_opp": 62083.0,
+        "won": true,
+        "d10_margin": 990.0,
+        "d15_margin": 13974.0,
+        "d20_margin": 35710.0
+      },
+      "arm_b": {
+        "reward_hero": 138118.0,
+        "reward_opp": 62083.0,
+        "won": true,
+        "d10_margin": 990.0,
+        "d15_margin": 13974.0,
+        "d20_margin": 35710.0
+      },
+      "arm_c": {
+        "reward_hero": 138118.0,
+        "reward_opp": 62083.0,
+        "won": true,
+        "d10_margin": 990.0,
+        "d15_margin": 13974.0,
+        "d20_margin": 35710.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 148413.0,
+        "reward_opp": 77067.0,
+        "won": true,
+        "d10_margin": 502.0,
+        "d15_margin": 14411.0,
+        "d20_margin": 35149.0
+      },
+      "arm_b": {
+        "reward_hero": 148413.0,
+        "reward_opp": 77067.0,
+        "won": true,
+        "d10_margin": 502.0,
+        "d15_margin": 14411.0,
+        "d20_margin": 35149.0
+      },
+      "arm_c": {
+        "reward_hero": 148413.0,
+        "reward_opp": 77067.0,
+        "won": true,
+        "d10_margin": 502.0,
+        "d15_margin": 14411.0,
+        "d20_margin": 35149.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 126414.0,
+        "reward_opp": 51239.0,
+        "won": true,
+        "d10_margin": 479.0,
+        "d15_margin": 13659.0,
+        "d20_margin": 36084.0
+      },
+      "arm_b": {
+        "reward_hero": 126414.0,
+        "reward_opp": 51239.0,
+        "won": true,
+        "d10_margin": 479.0,
+        "d15_margin": 13659.0,
+        "d20_margin": 36084.0
+      },
+      "arm_c": {
+        "reward_hero": 126414.0,
+        "reward_opp": 51239.0,
+        "won": true,
+        "d10_margin": 479.0,
+        "d15_margin": 13659.0,
+        "d20_margin": 36084.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 108646.0,
+        "reward_opp": 47742.0,
+        "won": true,
+        "d10_margin": -93.0,
+        "d15_margin": -12375.0,
+        "d20_margin": -29780.0
+      },
+      "arm_b": {
+        "reward_hero": 108646.0,
+        "reward_opp": 47742.0,
+        "won": true,
+        "d10_margin": -93.0,
+        "d15_margin": -12375.0,
+        "d20_margin": -29780.0
+      },
+      "arm_c": {
+        "reward_hero": 108646.0,
+        "reward_opp": 47742.0,
+        "won": true,
+        "d10_margin": -93.0,
+        "d15_margin": -12375.0,
+        "d20_margin": -29780.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 76700.0,
+        "reward_opp": 29563.0,
+        "won": true,
+        "d10_margin": 43.0,
+        "d15_margin": -10913.0,
+        "d20_margin": -26053.0
+      },
+      "arm_b": {
+        "reward_hero": 76700.0,
+        "reward_opp": 29563.0,
+        "won": true,
+        "d10_margin": 43.0,
+        "d15_margin": -10913.0,
+        "d20_margin": -26053.0
+      },
+      "arm_c": {
+        "reward_hero": 76700.0,
+        "reward_opp": 29563.0,
+        "won": true,
+        "d10_margin": 43.0,
+        "d15_margin": -10913.0,
+        "d20_margin": -26053.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 137714.0,
+        "reward_opp": 60815.0,
+        "won": true,
+        "d10_margin": -1033.0,
+        "d15_margin": -13967.0,
+        "d20_margin": -35986.0
+      },
+      "arm_b": {
+        "reward_hero": 137714.0,
+        "reward_opp": 60815.0,
+        "won": true,
+        "d10_margin": -1033.0,
+        "d15_margin": -13967.0,
+        "d20_margin": -35986.0
+      },
+      "arm_c": {
+        "reward_hero": 137714.0,
+        "reward_opp": 60815.0,
+        "won": true,
+        "d10_margin": -1033.0,
+        "d15_margin": -13967.0,
+        "d20_margin": -35986.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 93029.0,
+        "reward_opp": 34579.0,
+        "won": true,
+        "d10_margin": -972.0,
+        "d15_margin": -13775.0,
+        "d20_margin": -33108.0
+      },
+      "arm_b": {
+        "reward_hero": 93029.0,
+        "reward_opp": 34579.0,
+        "won": true,
+        "d10_margin": -972.0,
+        "d15_margin": -13775.0,
+        "d20_margin": -33108.0
+      },
+      "arm_c": {
+        "reward_hero": 93029.0,
+        "reward_opp": 34579.0,
+        "won": true,
+        "d10_margin": -972.0,
+        "d15_margin": -13775.0,
+        "d20_margin": -33108.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 91513.0,
+        "reward_opp": 44544.0,
+        "won": true,
+        "d10_margin": -323.0,
+        "d15_margin": -11680.0,
+        "d20_margin": -28983.0
+      },
+      "arm_b": {
+        "reward_hero": 91513.0,
+        "reward_opp": 44544.0,
+        "won": true,
+        "d10_margin": -323.0,
+        "d15_margin": -11680.0,
+        "d20_margin": -28983.0
+      },
+      "arm_c": {
+        "reward_hero": 91513.0,
+        "reward_opp": 44544.0,
+        "won": true,
+        "d10_margin": -323.0,
+        "d15_margin": -11680.0,
+        "d20_margin": -28983.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 118487.0,
+        "reward_opp": 48270.0,
+        "won": true,
+        "d10_margin": -502.0,
+        "d15_margin": -14308.0,
+        "d20_margin": -37594.0
+      },
+      "arm_b": {
+        "reward_hero": 118487.0,
+        "reward_opp": 48270.0,
+        "won": true,
+        "d10_margin": -502.0,
+        "d15_margin": -14308.0,
+        "d20_margin": -37594.0
+      },
+      "arm_c": {
+        "reward_hero": 118487.0,
+        "reward_opp": 48270.0,
+        "won": true,
+        "d10_margin": -502.0,
+        "d15_margin": -14308.0,
+        "d20_margin": -37594.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 91580.0,
+        "reward_opp": 31023.0,
+        "won": true,
+        "d10_margin": 43.0,
+        "d15_margin": -11105.0,
+        "d20_margin": -28370.0
+      },
+      "arm_b": {
+        "reward_hero": 91580.0,
+        "reward_opp": 31023.0,
+        "won": true,
+        "d10_margin": 43.0,
+        "d15_margin": -11105.0,
+        "d20_margin": -28370.0
+      },
+      "arm_c": {
+        "reward_hero": 91580.0,
+        "reward_opp": 31023.0,
+        "won": true,
+        "d10_margin": 43.0,
+        "d15_margin": -11105.0,
+        "d20_margin": -28370.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 134008.0,
+        "reward_opp": 54072.0,
+        "won": true,
+        "d10_margin": -1038.0,
+        "d15_margin": -15437.0,
+        "d20_margin": -39395.0
+      },
+      "arm_b": {
+        "reward_hero": 134008.0,
+        "reward_opp": 54072.0,
+        "won": true,
+        "d10_margin": -1038.0,
+        "d15_margin": -15437.0,
+        "d20_margin": -39395.0
+      },
+      "arm_c": {
+        "reward_hero": 134008.0,
+        "reward_opp": 54072.0,
+        "won": true,
+        "d10_margin": -1038.0,
+        "d15_margin": -15437.0,
+        "d20_margin": -39395.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 35329.0,
+        "reward_opp": 1174.0,
+        "won": true,
+        "d10_margin": 38.0,
+        "d15_margin": -10921.0,
+        "d20_margin": -23318.0
+      },
+      "arm_b": {
+        "reward_hero": 35329.0,
+        "reward_opp": 1174.0,
+        "won": true,
+        "d10_margin": 38.0,
+        "d15_margin": -10921.0,
+        "d20_margin": -23318.0
+      },
+      "arm_c": {
+        "reward_hero": 35329.0,
+        "reward_opp": 1174.0,
+        "won": true,
+        "d10_margin": 38.0,
+        "d15_margin": -10921.0,
+        "d20_margin": -23318.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v82.py",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 95791.0,
+        "reward_opp": 34238.0,
+        "won": true,
+        "d10_margin": -458.0,
+        "d15_margin": -13421.0,
+        "d20_margin": -33918.0
+      },
+      "arm_b": {
+        "reward_hero": 95791.0,
+        "reward_opp": 34238.0,
+        "won": true,
+        "d10_margin": -458.0,
+        "d15_margin": -13421.0,
+        "d20_margin": -33918.0
+      },
+      "arm_c": {
+        "reward_hero": 95791.0,
+        "reward_opp": 34238.0,
+        "won": true,
+        "d10_margin": -458.0,
+        "d15_margin": -13421.0,
+        "d20_margin": -33918.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 100084.0,
+        "reward_opp": 47250.0,
+        "won": true,
+        "d10_margin": 1026.0,
+        "d15_margin": 13264.0,
+        "d20_margin": 32661.0
+      },
+      "arm_b": {
+        "reward_hero": 100084.0,
+        "reward_opp": 47250.0,
+        "won": true,
+        "d10_margin": 1026.0,
+        "d15_margin": 13264.0,
+        "d20_margin": 32661.0
+      },
+      "arm_c": {
+        "reward_hero": 100084.0,
+        "reward_opp": 47250.0,
+        "won": true,
+        "d10_margin": 1026.0,
+        "d15_margin": 13264.0,
+        "d20_margin": 32661.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 57420.0,
+        "reward_opp": 12869.0,
+        "won": true,
+        "d10_margin": 77.0,
+        "d15_margin": 11063.0,
+        "d20_margin": 27069.0
+      },
+      "arm_b": {
+        "reward_hero": 57420.0,
+        "reward_opp": 12869.0,
+        "won": true,
+        "d10_margin": 77.0,
+        "d15_margin": 11063.0,
+        "d20_margin": 27069.0
+      },
+      "arm_c": {
+        "reward_hero": 57420.0,
+        "reward_opp": 12869.0,
+        "won": true,
+        "d10_margin": 77.0,
+        "d15_margin": 11063.0,
+        "d20_margin": 27069.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 63538.0,
+        "reward_opp": 10451.0,
+        "won": true,
+        "d10_margin": 334.0,
+        "d15_margin": 14173.0,
+        "d20_margin": 30335.0
+      },
+      "arm_b": {
+        "reward_hero": 63538.0,
+        "reward_opp": 10451.0,
+        "won": true,
+        "d10_margin": 334.0,
+        "d15_margin": 14173.0,
+        "d20_margin": 30335.0
+      },
+      "arm_c": {
+        "reward_hero": 63538.0,
+        "reward_opp": 10451.0,
+        "won": true,
+        "d10_margin": 334.0,
+        "d15_margin": 14173.0,
+        "d20_margin": 30335.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 111278.0,
+        "reward_opp": 48440.0,
+        "won": true,
+        "d10_margin": 658.0,
+        "d15_margin": 13597.0,
+        "d20_margin": 33867.0
+      },
+      "arm_b": {
+        "reward_hero": 111278.0,
+        "reward_opp": 48440.0,
+        "won": true,
+        "d10_margin": 658.0,
+        "d15_margin": 13597.0,
+        "d20_margin": 33867.0
+      },
+      "arm_c": {
+        "reward_hero": 111278.0,
+        "reward_opp": 48440.0,
+        "won": true,
+        "d10_margin": 658.0,
+        "d15_margin": 13597.0,
+        "d20_margin": 33867.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 87796.0,
+        "reward_opp": 25175.0,
+        "won": true,
+        "d10_margin": 334.0,
+        "d15_margin": 13564.0,
+        "d20_margin": 32343.0
+      },
+      "arm_b": {
+        "reward_hero": 87796.0,
+        "reward_opp": 25175.0,
+        "won": true,
+        "d10_margin": 334.0,
+        "d15_margin": 13564.0,
+        "d20_margin": 32343.0
+      },
+      "arm_c": {
+        "reward_hero": 87796.0,
+        "reward_opp": 25175.0,
+        "won": true,
+        "d10_margin": 334.0,
+        "d15_margin": 13564.0,
+        "d20_margin": 32343.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 99913.0,
+        "reward_opp": 36951.0,
+        "won": true,
+        "d10_margin": 266.0,
+        "d15_margin": 13958.0,
+        "d20_margin": 32012.0
+      },
+      "arm_b": {
+        "reward_hero": 99913.0,
+        "reward_opp": 36951.0,
+        "won": true,
+        "d10_margin": 266.0,
+        "d15_margin": 13958.0,
+        "d20_margin": 32012.0
+      },
+      "arm_c": {
+        "reward_hero": 99913.0,
+        "reward_opp": 36951.0,
+        "won": true,
+        "d10_margin": 266.0,
+        "d15_margin": 13958.0,
+        "d20_margin": 32012.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 119974.0,
+        "reward_opp": 60374.0,
+        "won": true,
+        "d10_margin": 604.0,
+        "d15_margin": 13538.0,
+        "d20_margin": 33305.0
+      },
+      "arm_b": {
+        "reward_hero": 119974.0,
+        "reward_opp": 60374.0,
+        "won": true,
+        "d10_margin": 604.0,
+        "d15_margin": 13538.0,
+        "d20_margin": 33305.0
+      },
+      "arm_c": {
+        "reward_hero": 119974.0,
+        "reward_opp": 60374.0,
+        "won": true,
+        "d10_margin": 604.0,
+        "d15_margin": 13538.0,
+        "d20_margin": 33305.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 130620.0,
+        "reward_opp": 57543.0,
+        "won": true,
+        "d10_margin": 677.0,
+        "d15_margin": 13545.0,
+        "d20_margin": 34639.0
+      },
+      "arm_b": {
+        "reward_hero": 130620.0,
+        "reward_opp": 57543.0,
+        "won": true,
+        "d10_margin": 677.0,
+        "d15_margin": 13545.0,
+        "d20_margin": 34639.0
+      },
+      "arm_c": {
+        "reward_hero": 130620.0,
+        "reward_opp": 57543.0,
+        "won": true,
+        "d10_margin": 677.0,
+        "d15_margin": 13545.0,
+        "d20_margin": 34639.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 142832.0,
+        "reward_opp": 70827.0,
+        "won": true,
+        "d10_margin": 575.0,
+        "d15_margin": 14338.0,
+        "d20_margin": 33912.0
+      },
+      "arm_b": {
+        "reward_hero": 142832.0,
+        "reward_opp": 70827.0,
+        "won": true,
+        "d10_margin": 575.0,
+        "d15_margin": 14338.0,
+        "d20_margin": 33912.0
+      },
+      "arm_c": {
+        "reward_hero": 142832.0,
+        "reward_opp": 70827.0,
+        "won": true,
+        "d10_margin": 575.0,
+        "d15_margin": 14338.0,
+        "d20_margin": 33912.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 140038.0,
+        "reward_opp": 72291.0,
+        "won": true,
+        "d10_margin": 599.0,
+        "d15_margin": 13399.0,
+        "d20_margin": 34254.0
+      },
+      "arm_b": {
+        "reward_hero": 140038.0,
+        "reward_opp": 72291.0,
+        "won": true,
+        "d10_margin": 599.0,
+        "d15_margin": 13399.0,
+        "d20_margin": 34254.0
+      },
+      "arm_c": {
+        "reward_hero": 140038.0,
+        "reward_opp": 72291.0,
+        "won": true,
+        "d10_margin": 599.0,
+        "d15_margin": 13399.0,
+        "d20_margin": 34254.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 108248.0,
+        "reward_opp": 48185.0,
+        "won": true,
+        "d10_margin": -32.0,
+        "d15_margin": -12117.0,
+        "d20_margin": -29522.0
+      },
+      "arm_b": {
+        "reward_hero": 108248.0,
+        "reward_opp": 48185.0,
+        "won": true,
+        "d10_margin": -32.0,
+        "d15_margin": -12117.0,
+        "d20_margin": -29522.0
+      },
+      "arm_c": {
+        "reward_hero": 108248.0,
+        "reward_opp": 48185.0,
+        "won": true,
+        "d10_margin": -32.0,
+        "d15_margin": -12117.0,
+        "d20_margin": -29522.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 63023.0,
+        "reward_opp": 19983.0,
+        "won": true,
+        "d10_margin": -77.0,
+        "d15_margin": -11090.0,
+        "d20_margin": -23898.0
+      },
+      "arm_b": {
+        "reward_hero": 63023.0,
+        "reward_opp": 19983.0,
+        "won": true,
+        "d10_margin": -77.0,
+        "d15_margin": -11090.0,
+        "d20_margin": -23898.0
+      },
+      "arm_c": {
+        "reward_hero": 63023.0,
+        "reward_opp": 19983.0,
+        "won": true,
+        "d10_margin": -77.0,
+        "d15_margin": -11090.0,
+        "d20_margin": -23898.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 146754.0,
+        "reward_opp": 62540.0,
+        "won": true,
+        "d10_margin": -733.0,
+        "d15_margin": -15288.0,
+        "d20_margin": -40489.0
+      },
+      "arm_b": {
+        "reward_hero": 146754.0,
+        "reward_opp": 62540.0,
+        "won": true,
+        "d10_margin": -733.0,
+        "d15_margin": -15288.0,
+        "d20_margin": -40489.0
+      },
+      "arm_c": {
+        "reward_hero": 146754.0,
+        "reward_opp": 62540.0,
+        "won": true,
+        "d10_margin": -733.0,
+        "d15_margin": -15288.0,
+        "d20_margin": -40489.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 83180.0,
+        "reward_opp": 30913.0,
+        "won": true,
+        "d10_margin": -658.0,
+        "d15_margin": -13896.0,
+        "d20_margin": -32616.0
+      },
+      "arm_b": {
+        "reward_hero": 83180.0,
+        "reward_opp": 30913.0,
+        "won": true,
+        "d10_margin": -658.0,
+        "d15_margin": -13896.0,
+        "d20_margin": -32616.0
+      },
+      "arm_c": {
+        "reward_hero": 83180.0,
+        "reward_opp": 30913.0,
+        "won": true,
+        "d10_margin": -658.0,
+        "d15_margin": -13896.0,
+        "d20_margin": -32616.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 88701.0,
+        "reward_opp": 44393.0,
+        "won": true,
+        "d10_margin": -913.0,
+        "d15_margin": -11573.0,
+        "d20_margin": -29157.0
+      },
+      "arm_b": {
+        "reward_hero": 88701.0,
+        "reward_opp": 44393.0,
+        "won": true,
+        "d10_margin": -913.0,
+        "d15_margin": -11573.0,
+        "d20_margin": -29157.0
+      },
+      "arm_c": {
+        "reward_hero": 88701.0,
+        "reward_opp": 44393.0,
+        "won": true,
+        "d10_margin": -913.0,
+        "d15_margin": -11573.0,
+        "d20_margin": -29157.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 116703.0,
+        "reward_opp": 60066.0,
+        "won": true,
+        "d10_margin": -575.0,
+        "d15_margin": -13124.0,
+        "d20_margin": -34122.0
+      },
+      "arm_b": {
+        "reward_hero": 116703.0,
+        "reward_opp": 60066.0,
+        "won": true,
+        "d10_margin": -575.0,
+        "d15_margin": -13124.0,
+        "d20_margin": -34122.0
+      },
+      "arm_c": {
+        "reward_hero": 116703.0,
+        "reward_opp": 60066.0,
+        "won": true,
+        "d10_margin": -575.0,
+        "d15_margin": -13124.0,
+        "d20_margin": -34122.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 75597.0,
+        "reward_opp": 28636.0,
+        "won": true,
+        "d10_margin": -82.0,
+        "d15_margin": -11284.0,
+        "d20_margin": -26156.0
+      },
+      "arm_b": {
+        "reward_hero": 75597.0,
+        "reward_opp": 28636.0,
+        "won": true,
+        "d10_margin": -82.0,
+        "d15_margin": -11284.0,
+        "d20_margin": -26156.0
+      },
+      "arm_c": {
+        "reward_hero": 75597.0,
+        "reward_opp": 28636.0,
+        "won": true,
+        "d10_margin": -82.0,
+        "d15_margin": -11284.0,
+        "d20_margin": -26156.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 143766.0,
+        "reward_opp": 66460.0,
+        "won": true,
+        "d10_margin": -682.0,
+        "d15_margin": -13952.0,
+        "d20_margin": -35884.0
+      },
+      "arm_b": {
+        "reward_hero": 143766.0,
+        "reward_opp": 66460.0,
+        "won": true,
+        "d10_margin": -682.0,
+        "d15_margin": -13952.0,
+        "d20_margin": -35884.0
+      },
+      "arm_c": {
+        "reward_hero": 143766.0,
+        "reward_opp": 66460.0,
+        "won": true,
+        "d10_margin": -682.0,
+        "d15_margin": -13952.0,
+        "d20_margin": -35884.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 78962.0,
+        "reward_opp": 21494.0,
+        "won": true,
+        "d10_margin": -77.0,
+        "d15_margin": -12206.0,
+        "d20_margin": -27433.0
+      },
+      "arm_b": {
+        "reward_hero": 78962.0,
+        "reward_opp": 21494.0,
+        "won": true,
+        "d10_margin": -77.0,
+        "d15_margin": -12206.0,
+        "d20_margin": -27433.0
+      },
+      "arm_c": {
+        "reward_hero": 78962.0,
+        "reward_opp": 21494.0,
+        "won": true,
+        "d10_margin": -77.0,
+        "d15_margin": -12206.0,
+        "d20_margin": -27433.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83.py",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 74640.0,
+        "reward_opp": 28088.0,
+        "won": true,
+        "d10_margin": -1042.0,
+        "d15_margin": -12966.0,
+        "d20_margin": -29910.0
+      },
+      "arm_b": {
+        "reward_hero": 74640.0,
+        "reward_opp": 28088.0,
+        "won": true,
+        "d10_margin": -1042.0,
+        "d15_margin": -12966.0,
+        "d20_margin": -29910.0
+      },
+      "arm_c": {
+        "reward_hero": 74640.0,
+        "reward_opp": 28088.0,
+        "won": true,
+        "d10_margin": -1042.0,
+        "d15_margin": -12966.0,
+        "d20_margin": -29910.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 1000,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 100084.0,
+        "reward_opp": 47250.0,
+        "won": true,
+        "d10_margin": 1026.0,
+        "d15_margin": 13264.0,
+        "d20_margin": 32661.0
+      },
+      "arm_b": {
+        "reward_hero": 100084.0,
+        "reward_opp": 47250.0,
+        "won": true,
+        "d10_margin": 1026.0,
+        "d15_margin": 13264.0,
+        "d20_margin": 32661.0
+      },
+      "arm_c": {
+        "reward_hero": 100084.0,
+        "reward_opp": 47250.0,
+        "won": true,
+        "d10_margin": 1026.0,
+        "d15_margin": 13264.0,
+        "d20_margin": 32661.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 42,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 57420.0,
+        "reward_opp": 12869.0,
+        "won": true,
+        "d10_margin": 77.0,
+        "d15_margin": 11063.0,
+        "d20_margin": 27069.0
+      },
+      "arm_b": {
+        "reward_hero": 57420.0,
+        "reward_opp": 12869.0,
+        "won": true,
+        "d10_margin": 77.0,
+        "d15_margin": 11063.0,
+        "d20_margin": 27069.0
+      },
+      "arm_c": {
+        "reward_hero": 57420.0,
+        "reward_opp": 12869.0,
+        "won": true,
+        "d10_margin": 77.0,
+        "d15_margin": 11063.0,
+        "d20_margin": 27069.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 100,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 63538.0,
+        "reward_opp": 10451.0,
+        "won": true,
+        "d10_margin": 334.0,
+        "d15_margin": 14173.0,
+        "d20_margin": 30335.0
+      },
+      "arm_b": {
+        "reward_hero": 63538.0,
+        "reward_opp": 10451.0,
+        "won": true,
+        "d10_margin": 334.0,
+        "d15_margin": 14173.0,
+        "d20_margin": 30335.0
+      },
+      "arm_c": {
+        "reward_hero": 63538.0,
+        "reward_opp": 10451.0,
+        "won": true,
+        "d10_margin": 334.0,
+        "d15_margin": 14173.0,
+        "d20_margin": 30335.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 200,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 111278.0,
+        "reward_opp": 48440.0,
+        "won": true,
+        "d10_margin": 658.0,
+        "d15_margin": 13597.0,
+        "d20_margin": 33867.0
+      },
+      "arm_b": {
+        "reward_hero": 111278.0,
+        "reward_opp": 48440.0,
+        "won": true,
+        "d10_margin": 658.0,
+        "d15_margin": 13597.0,
+        "d20_margin": 33867.0
+      },
+      "arm_c": {
+        "reward_hero": 111278.0,
+        "reward_opp": 48440.0,
+        "won": true,
+        "d10_margin": 658.0,
+        "d15_margin": 13597.0,
+        "d20_margin": 33867.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 300,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 87796.0,
+        "reward_opp": 25175.0,
+        "won": true,
+        "d10_margin": 334.0,
+        "d15_margin": 13564.0,
+        "d20_margin": 32343.0
+      },
+      "arm_b": {
+        "reward_hero": 87796.0,
+        "reward_opp": 25175.0,
+        "won": true,
+        "d10_margin": 334.0,
+        "d15_margin": 13564.0,
+        "d20_margin": 32343.0
+      },
+      "arm_c": {
+        "reward_hero": 87796.0,
+        "reward_opp": 25175.0,
+        "won": true,
+        "d10_margin": 334.0,
+        "d15_margin": 13564.0,
+        "d20_margin": 32343.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 500,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 99913.0,
+        "reward_opp": 36951.0,
+        "won": true,
+        "d10_margin": 266.0,
+        "d15_margin": 13958.0,
+        "d20_margin": 32012.0
+      },
+      "arm_b": {
+        "reward_hero": 99913.0,
+        "reward_opp": 36951.0,
+        "won": true,
+        "d10_margin": 266.0,
+        "d15_margin": 13958.0,
+        "d20_margin": 32012.0
+      },
+      "arm_c": {
+        "reward_hero": 99913.0,
+        "reward_opp": 36951.0,
+        "won": true,
+        "d10_margin": 266.0,
+        "d15_margin": 13958.0,
+        "d20_margin": 32012.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 1001,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 119974.0,
+        "reward_opp": 60374.0,
+        "won": true,
+        "d10_margin": 604.0,
+        "d15_margin": 13538.0,
+        "d20_margin": 33305.0
+      },
+      "arm_b": {
+        "reward_hero": 119974.0,
+        "reward_opp": 60374.0,
+        "won": true,
+        "d10_margin": 604.0,
+        "d15_margin": 13538.0,
+        "d20_margin": 33305.0
+      },
+      "arm_c": {
+        "reward_hero": 119974.0,
+        "reward_opp": 60374.0,
+        "won": true,
+        "d10_margin": 604.0,
+        "d15_margin": 13538.0,
+        "d20_margin": 33305.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20042,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 130620.0,
+        "reward_opp": 57543.0,
+        "won": true,
+        "d10_margin": 677.0,
+        "d15_margin": 13545.0,
+        "d20_margin": 34639.0
+      },
+      "arm_b": {
+        "reward_hero": 130620.0,
+        "reward_opp": 57543.0,
+        "won": true,
+        "d10_margin": 677.0,
+        "d15_margin": 13545.0,
+        "d20_margin": 34639.0
+      },
+      "arm_c": {
+        "reward_hero": 130620.0,
+        "reward_opp": 57543.0,
+        "won": true,
+        "d10_margin": 677.0,
+        "d15_margin": 13545.0,
+        "d20_margin": 34639.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 12345,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 142832.0,
+        "reward_opp": 70827.0,
+        "won": true,
+        "d10_margin": 575.0,
+        "d15_margin": 14338.0,
+        "d20_margin": 33912.0
+      },
+      "arm_b": {
+        "reward_hero": 142832.0,
+        "reward_opp": 70827.0,
+        "won": true,
+        "d10_margin": 575.0,
+        "d15_margin": 14338.0,
+        "d20_margin": 33912.0
+      },
+      "arm_c": {
+        "reward_hero": 142832.0,
+        "reward_opp": 70827.0,
+        "won": true,
+        "d10_margin": 575.0,
+        "d15_margin": 14338.0,
+        "d20_margin": 33912.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 54321,
+      "seat": 0,
+      "arm_a": {
+        "reward_hero": 140038.0,
+        "reward_opp": 72291.0,
+        "won": true,
+        "d10_margin": 599.0,
+        "d15_margin": 13399.0,
+        "d20_margin": 34254.0
+      },
+      "arm_b": {
+        "reward_hero": 140038.0,
+        "reward_opp": 72291.0,
+        "won": true,
+        "d10_margin": 599.0,
+        "d15_margin": 13399.0,
+        "d20_margin": 34254.0
+      },
+      "arm_c": {
+        "reward_hero": 140038.0,
+        "reward_opp": 72291.0,
+        "won": true,
+        "d10_margin": 599.0,
+        "d15_margin": 13399.0,
+        "d20_margin": 34254.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20001,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 108248.0,
+        "reward_opp": 48185.0,
+        "won": true,
+        "d10_margin": -32.0,
+        "d15_margin": -12117.0,
+        "d20_margin": -29522.0
+      },
+      "arm_b": {
+        "reward_hero": 108248.0,
+        "reward_opp": 48185.0,
+        "won": true,
+        "d10_margin": -32.0,
+        "d15_margin": -12117.0,
+        "d20_margin": -29522.0
+      },
+      "arm_c": {
+        "reward_hero": 108248.0,
+        "reward_opp": 48185.0,
+        "won": true,
+        "d10_margin": -32.0,
+        "d15_margin": -12117.0,
+        "d20_margin": -29522.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20010,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 63023.0,
+        "reward_opp": 19983.0,
+        "won": true,
+        "d10_margin": -77.0,
+        "d15_margin": -11090.0,
+        "d20_margin": -23898.0
+      },
+      "arm_b": {
+        "reward_hero": 63023.0,
+        "reward_opp": 19983.0,
+        "won": true,
+        "d10_margin": -77.0,
+        "d15_margin": -11090.0,
+        "d20_margin": -23898.0
+      },
+      "arm_c": {
+        "reward_hero": 63023.0,
+        "reward_opp": 19983.0,
+        "won": true,
+        "d10_margin": -77.0,
+        "d15_margin": -11090.0,
+        "d20_margin": -23898.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20020,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 146754.0,
+        "reward_opp": 62540.0,
+        "won": true,
+        "d10_margin": -733.0,
+        "d15_margin": -15288.0,
+        "d20_margin": -40489.0
+      },
+      "arm_b": {
+        "reward_hero": 146754.0,
+        "reward_opp": 62540.0,
+        "won": true,
+        "d10_margin": -733.0,
+        "d15_margin": -15288.0,
+        "d20_margin": -40489.0
+      },
+      "arm_c": {
+        "reward_hero": 146754.0,
+        "reward_opp": 62540.0,
+        "won": true,
+        "d10_margin": -733.0,
+        "d15_margin": -15288.0,
+        "d20_margin": -40489.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20030,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 83180.0,
+        "reward_opp": 30913.0,
+        "won": true,
+        "d10_margin": -658.0,
+        "d15_margin": -13896.0,
+        "d20_margin": -32616.0
+      },
+      "arm_b": {
+        "reward_hero": 83180.0,
+        "reward_opp": 30913.0,
+        "won": true,
+        "d10_margin": -658.0,
+        "d15_margin": -13896.0,
+        "d20_margin": -32616.0
+      },
+      "arm_c": {
+        "reward_hero": 83180.0,
+        "reward_opp": 30913.0,
+        "won": true,
+        "d10_margin": -658.0,
+        "d15_margin": -13896.0,
+        "d20_margin": -32616.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20040,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 88701.0,
+        "reward_opp": 44393.0,
+        "won": true,
+        "d10_margin": -913.0,
+        "d15_margin": -11573.0,
+        "d20_margin": -29157.0
+      },
+      "arm_b": {
+        "reward_hero": 88701.0,
+        "reward_opp": 44393.0,
+        "won": true,
+        "d10_margin": -913.0,
+        "d15_margin": -11573.0,
+        "d20_margin": -29157.0
+      },
+      "arm_c": {
+        "reward_hero": 88701.0,
+        "reward_opp": 44393.0,
+        "won": true,
+        "d10_margin": -913.0,
+        "d15_margin": -11573.0,
+        "d20_margin": -29157.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20050,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 116703.0,
+        "reward_opp": 60066.0,
+        "won": true,
+        "d10_margin": -575.0,
+        "d15_margin": -13124.0,
+        "d20_margin": -34122.0
+      },
+      "arm_b": {
+        "reward_hero": 116703.0,
+        "reward_opp": 60066.0,
+        "won": true,
+        "d10_margin": -575.0,
+        "d15_margin": -13124.0,
+        "d20_margin": -34122.0
+      },
+      "arm_c": {
+        "reward_hero": 116703.0,
+        "reward_opp": 60066.0,
+        "won": true,
+        "d10_margin": -575.0,
+        "d15_margin": -13124.0,
+        "d20_margin": -34122.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20060,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 75597.0,
+        "reward_opp": 28636.0,
+        "won": true,
+        "d10_margin": -82.0,
+        "d15_margin": -11284.0,
+        "d20_margin": -26156.0
+      },
+      "arm_b": {
+        "reward_hero": 75597.0,
+        "reward_opp": 28636.0,
+        "won": true,
+        "d10_margin": -82.0,
+        "d15_margin": -11284.0,
+        "d20_margin": -26156.0
+      },
+      "arm_c": {
+        "reward_hero": 75597.0,
+        "reward_opp": 28636.0,
+        "won": true,
+        "d10_margin": -82.0,
+        "d15_margin": -11284.0,
+        "d20_margin": -26156.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20070,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 143766.0,
+        "reward_opp": 66460.0,
+        "won": true,
+        "d10_margin": -682.0,
+        "d15_margin": -13952.0,
+        "d20_margin": -35884.0
+      },
+      "arm_b": {
+        "reward_hero": 143766.0,
+        "reward_opp": 66460.0,
+        "won": true,
+        "d10_margin": -682.0,
+        "d15_margin": -13952.0,
+        "d20_margin": -35884.0
+      },
+      "arm_c": {
+        "reward_hero": 143766.0,
+        "reward_opp": 66460.0,
+        "won": true,
+        "d10_margin": -682.0,
+        "d15_margin": -13952.0,
+        "d20_margin": -35884.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20080,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 78962.0,
+        "reward_opp": 21494.0,
+        "won": true,
+        "d10_margin": -77.0,
+        "d15_margin": -12206.0,
+        "d20_margin": -27433.0
+      },
+      "arm_b": {
+        "reward_hero": 78962.0,
+        "reward_opp": 21494.0,
+        "won": true,
+        "d10_margin": -77.0,
+        "d15_margin": -12206.0,
+        "d20_margin": -27433.0
+      },
+      "arm_c": {
+        "reward_hero": 78962.0,
+        "reward_opp": 21494.0,
+        "won": true,
+        "d10_margin": -77.0,
+        "d15_margin": -12206.0,
+        "d20_margin": -27433.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    },
+    {
+      "opponent": "submission_v83_opponent_aware.py",
+      "seed": 20090,
+      "seat": 1,
+      "arm_a": {
+        "reward_hero": 74640.0,
+        "reward_opp": 28088.0,
+        "won": true,
+        "d10_margin": -1042.0,
+        "d15_margin": -12966.0,
+        "d20_margin": -29910.0
+      },
+      "arm_b": {
+        "reward_hero": 74640.0,
+        "reward_opp": 28088.0,
+        "won": true,
+        "d10_margin": -1042.0,
+        "d15_margin": -12966.0,
+        "d20_margin": -29910.0
+      },
+      "arm_c": {
+        "reward_hero": 74640.0,
+        "reward_opp": 28088.0,
+        "won": true,
+        "d10_margin": -1042.0,
+        "d15_margin": -12966.0,
+        "d20_margin": -29910.0
+      },
+      "delta_b_vs_a": 0.0,
+      "delta_c_vs_a": 0.0,
+      "delta_c_vs_b": 0.0
+    }
+  ]
+}
