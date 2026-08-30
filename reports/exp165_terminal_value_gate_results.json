@@ -1,0 +1,3922 @@
+[
+  {
+    "bot_key": "T1_v18_mirror",
+    "cluster_name": "Strawberry_Duopoly_Clones",
+    "elo_band": "900-1100 (Core Meta)",
+    "seed": 1000,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 94786.0,
+        "opp_reward": 93290.0,
+        "margin": 1496.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 94409.0,
+        "opp_reward": 93290.0,
+        "margin": 1119.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 93422.0,
+        "opp_reward": 93290.0,
+        "margin": 132.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 90838.0,
+        "opp_reward": 93290.0,
+        "margin": -2452.0,
+        "won": false,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 84073.0,
+        "opp_reward": 93290.0,
+        "margin": -9217.0,
+        "won": false,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 66362.0,
+        "opp_reward": 93290.0,
+        "margin": -26928.0,
+        "won": false,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "cluster_name": "Strawberry_Duopoly_Clones",
+    "elo_band": "900-1100 (Core Meta)",
+    "seed": 42,
+    "seat": 0,
+    "v_field_step695": 1060.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": false,
+    "best_n_won": false,
+    "sweeps": {
+      "0": {
+        "hero_reward": 69410.0,
+        "opp_reward": 69504.0,
+        "margin": -94.0,
+        "won": false,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 69033.0,
+        "opp_reward": 69504.0,
+        "margin": -471.0,
+        "won": false,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 68046.0,
+        "opp_reward": 69504.0,
+        "margin": -1458.0,
+        "won": false,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 65462.0,
+        "opp_reward": 69504.0,
+        "margin": -4042.0,
+        "won": false,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 58697.0,
+        "opp_reward": 69504.0,
+        "margin": -10807.0,
+        "won": false,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 40986.0,
+        "opp_reward": 69504.0,
+        "margin": -28518.0,
+        "won": false,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "cluster_name": "Strawberry_Duopoly_Clones",
+    "elo_band": "900-1100 (Core Meta)",
+    "seed": 100,
+    "seat": 0,
+    "v_field_step695": 1120.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 99229.0,
+        "opp_reward": 99109.0,
+        "margin": 120.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 98852.0,
+        "opp_reward": 99109.0,
+        "margin": -257.0,
+        "won": false,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 97865.0,
+        "opp_reward": 99109.0,
+        "margin": -1244.0,
+        "won": false,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 95281.0,
+        "opp_reward": 99109.0,
+        "margin": -3828.0,
+        "won": false,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 88516.0,
+        "opp_reward": 99109.0,
+        "margin": -10593.0,
+        "won": false,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 70805.0,
+        "opp_reward": 99109.0,
+        "margin": -28304.0,
+        "won": false,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "cluster_name": "Strawberry_Duopoly_Clones",
+    "elo_band": "900-1100 (Core Meta)",
+    "seed": 200,
+    "seat": 0,
+    "v_field_step695": 1060.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 74666.0,
+        "opp_reward": 71857.0,
+        "margin": 2809.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 74289.0,
+        "opp_reward": 71857.0,
+        "margin": 2432.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 73302.0,
+        "opp_reward": 71857.0,
+        "margin": 1445.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 70718.0,
+        "opp_reward": 71857.0,
+        "margin": -1139.0,
+        "won": false,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 63953.0,
+        "opp_reward": 71857.0,
+        "margin": -7904.0,
+        "won": false,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 46242.0,
+        "opp_reward": 71857.0,
+        "margin": -25615.0,
+        "won": false,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "cluster_name": "Strawberry_Duopoly_Clones",
+    "elo_band": "900-1100 (Core Meta)",
+    "seed": 300,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": false,
+    "best_n_won": false,
+    "sweeps": {
+      "0": {
+        "hero_reward": 90495.0,
+        "opp_reward": 91613.0,
+        "margin": -1118.0,
+        "won": false,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 90118.0,
+        "opp_reward": 91613.0,
+        "margin": -1495.0,
+        "won": false,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 89131.0,
+        "opp_reward": 91613.0,
+        "margin": -2482.0,
+        "won": false,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 86547.0,
+        "opp_reward": 91613.0,
+        "margin": -5066.0,
+        "won": false,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 79782.0,
+        "opp_reward": 91613.0,
+        "margin": -11831.0,
+        "won": false,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 62071.0,
+        "opp_reward": 91613.0,
+        "margin": -29542.0,
+        "won": false,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "cluster_name": "Strawberry_Duopoly_Clones",
+    "elo_band": "900-1100 (Core Meta)",
+    "seed": 500,
+    "seat": 1,
+    "v_field_step695": 1020.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 26634.0,
+        "opp_reward": 25053.0,
+        "margin": 1581.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 26257.0,
+        "opp_reward": 25053.0,
+        "margin": 1204.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 25270.0,
+        "opp_reward": 25053.0,
+        "margin": 217.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 22686.0,
+        "opp_reward": 25053.0,
+        "margin": -2367.0,
+        "won": false,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 15921.0,
+        "opp_reward": 25053.0,
+        "margin": -9132.0,
+        "won": false,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 9156.0,
+        "opp_reward": 25053.0,
+        "margin": -15897.0,
+        "won": false,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "cluster_name": "Strawberry_Duopoly_Clones",
+    "elo_band": "900-1100 (Core Meta)",
+    "seed": 1001,
+    "seat": 1,
+    "v_field_step695": 1060.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 40248.0,
+        "opp_reward": 37267.0,
+        "margin": 2981.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 39871.0,
+        "opp_reward": 37267.0,
+        "margin": 2604.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 38884.0,
+        "opp_reward": 37267.0,
+        "margin": 1617.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 36300.0,
+        "opp_reward": 37267.0,
+        "margin": -967.0,
+        "won": false,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 29535.0,
+        "opp_reward": 37267.0,
+        "margin": -7732.0,
+        "won": false,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 11824.0,
+        "opp_reward": 37267.0,
+        "margin": -25443.0,
+        "won": false,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "cluster_name": "Strawberry_Duopoly_Clones",
+    "elo_band": "900-1100 (Core Meta)",
+    "seed": 20042,
+    "seat": 1,
+    "v_field_step695": 1060.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 65435.0,
+        "opp_reward": 65213.0,
+        "margin": 222.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 65058.0,
+        "opp_reward": 65213.0,
+        "margin": -155.0,
+        "won": false,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 64071.0,
+        "opp_reward": 65213.0,
+        "margin": -1142.0,
+        "won": false,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 61487.0,
+        "opp_reward": 65213.0,
+        "margin": -3726.0,
+        "won": false,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 54722.0,
+        "opp_reward": 65213.0,
+        "margin": -10491.0,
+        "won": false,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 37011.0,
+        "opp_reward": 65213.0,
+        "margin": -28202.0,
+        "won": false,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "cluster_name": "Strawberry_Duopoly_Clones",
+    "elo_band": "900-1100 (Core Meta)",
+    "seed": 12345,
+    "seat": 1,
+    "v_field_step695": 1120.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": false,
+    "best_n_won": false,
+    "sweeps": {
+      "0": {
+        "hero_reward": 134126.0,
+        "opp_reward": 134257.0,
+        "margin": -131.0,
+        "won": false,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 133749.0,
+        "opp_reward": 134257.0,
+        "margin": -508.0,
+        "won": false,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 132762.0,
+        "opp_reward": 134257.0,
+        "margin": -1495.0,
+        "won": false,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 130178.0,
+        "opp_reward": 134257.0,
+        "margin": -4079.0,
+        "won": false,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 123413.0,
+        "opp_reward": 134257.0,
+        "margin": -10844.0,
+        "won": false,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 105702.0,
+        "opp_reward": 134257.0,
+        "margin": -28555.0,
+        "won": false,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "cluster_name": "Strawberry_Duopoly_Clones",
+    "elo_band": "900-1100 (Core Meta)",
+    "seed": 54321,
+    "seat": 1,
+    "v_field_step695": 1120.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 93291.0,
+        "opp_reward": 92161.0,
+        "margin": 1130.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 92914.0,
+        "opp_reward": 92161.0,
+        "margin": 753.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 91927.0,
+        "opp_reward": 92161.0,
+        "margin": -234.0,
+        "won": false,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 89343.0,
+        "opp_reward": 92161.0,
+        "margin": -2818.0,
+        "won": false,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 82578.0,
+        "opp_reward": 92161.0,
+        "margin": -9583.0,
+        "won": false,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 64867.0,
+        "opp_reward": 92161.0,
+        "margin": -27294.0,
+        "won": false,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 1000,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 97376.0,
+        "opp_reward": 26631.0,
+        "margin": 70745.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 96999.0,
+        "opp_reward": 26631.0,
+        "margin": 70368.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 96012.0,
+        "opp_reward": 26631.0,
+        "margin": 69381.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 93428.0,
+        "opp_reward": 26631.0,
+        "margin": 66797.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 86663.0,
+        "opp_reward": 26631.0,
+        "margin": 60032.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 68952.0,
+        "opp_reward": 26631.0,
+        "margin": 42321.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 42,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 77240.0,
+        "opp_reward": 30114.0,
+        "margin": 47126.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 76863.0,
+        "opp_reward": 30114.0,
+        "margin": 46749.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 75876.0,
+        "opp_reward": 30114.0,
+        "margin": 45762.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 73292.0,
+        "opp_reward": 30114.0,
+        "margin": 43178.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 66527.0,
+        "opp_reward": 30114.0,
+        "margin": 36413.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 48816.0,
+        "opp_reward": 30114.0,
+        "margin": 18702.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 100,
+    "seat": 0,
+    "v_field_step695": 1120.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 121105.0,
+        "opp_reward": 38638.0,
+        "margin": 82467.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 120728.0,
+        "opp_reward": 38638.0,
+        "margin": 82090.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 119741.0,
+        "opp_reward": 38638.0,
+        "margin": 81103.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 117157.0,
+        "opp_reward": 38638.0,
+        "margin": 78519.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 110392.0,
+        "opp_reward": 38638.0,
+        "margin": 71754.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 92681.0,
+        "opp_reward": 38638.0,
+        "margin": 54043.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 200,
+    "seat": 0,
+    "v_field_step695": 1060.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 118603.0,
+        "opp_reward": 36505.0,
+        "margin": 82098.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 118226.0,
+        "opp_reward": 36505.0,
+        "margin": 81721.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 117239.0,
+        "opp_reward": 36505.0,
+        "margin": 80734.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 114655.0,
+        "opp_reward": 36505.0,
+        "margin": 78150.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 107890.0,
+        "opp_reward": 36505.0,
+        "margin": 71385.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 90179.0,
+        "opp_reward": 36505.0,
+        "margin": 53674.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 300,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 95268.0,
+        "opp_reward": 19944.0,
+        "margin": 75324.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 94891.0,
+        "opp_reward": 19944.0,
+        "margin": 74947.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 93904.0,
+        "opp_reward": 19944.0,
+        "margin": 73960.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 91320.0,
+        "opp_reward": 19944.0,
+        "margin": 71376.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 84555.0,
+        "opp_reward": 19944.0,
+        "margin": 64611.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 66844.0,
+        "opp_reward": 19944.0,
+        "margin": 46900.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 500,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 107383.0,
+        "opp_reward": 32482.0,
+        "margin": 74901.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 107006.0,
+        "opp_reward": 32482.0,
+        "margin": 74524.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 106019.0,
+        "opp_reward": 32482.0,
+        "margin": 73537.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 103435.0,
+        "opp_reward": 32482.0,
+        "margin": 70953.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 96670.0,
+        "opp_reward": 32482.0,
+        "margin": 64188.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 78959.0,
+        "opp_reward": 32482.0,
+        "margin": 46477.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 1001,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 103927.0,
+        "opp_reward": 49360.0,
+        "margin": 54567.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 103550.0,
+        "opp_reward": 49360.0,
+        "margin": 54190.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 102563.0,
+        "opp_reward": 49360.0,
+        "margin": 53203.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 99979.0,
+        "opp_reward": 49360.0,
+        "margin": 50619.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 93214.0,
+        "opp_reward": 49360.0,
+        "margin": 43854.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 75503.0,
+        "opp_reward": 49360.0,
+        "margin": 26143.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 20042,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 129919.0,
+        "opp_reward": 48942.0,
+        "margin": 80977.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 129542.0,
+        "opp_reward": 48942.0,
+        "margin": 80600.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 128555.0,
+        "opp_reward": 48942.0,
+        "margin": 79613.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 125971.0,
+        "opp_reward": 48942.0,
+        "margin": 77029.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 119206.0,
+        "opp_reward": 48942.0,
+        "margin": 70264.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 101495.0,
+        "opp_reward": 48942.0,
+        "margin": 52553.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 12345,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 142312.0,
+        "opp_reward": 64731.0,
+        "margin": 77581.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 141935.0,
+        "opp_reward": 64731.0,
+        "margin": 77204.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 140948.0,
+        "opp_reward": 64731.0,
+        "margin": 76217.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 138364.0,
+        "opp_reward": 64731.0,
+        "margin": 73633.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 131599.0,
+        "opp_reward": 64731.0,
+        "margin": 66868.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 113888.0,
+        "opp_reward": 64731.0,
+        "margin": 49157.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 54321,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 130527.0,
+        "opp_reward": 62618.0,
+        "margin": 67909.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 130150.0,
+        "opp_reward": 62618.0,
+        "margin": 67532.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 129163.0,
+        "opp_reward": 62618.0,
+        "margin": 66545.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 126579.0,
+        "opp_reward": 62618.0,
+        "margin": 63961.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 119814.0,
+        "opp_reward": 62618.0,
+        "margin": 57196.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 102103.0,
+        "opp_reward": 62618.0,
+        "margin": 39485.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 1000,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 115073.0,
+        "opp_reward": 37738.0,
+        "margin": 77335.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 114696.0,
+        "opp_reward": 37738.0,
+        "margin": 76958.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 113709.0,
+        "opp_reward": 37738.0,
+        "margin": 75971.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 111125.0,
+        "opp_reward": 37738.0,
+        "margin": 73387.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 104360.0,
+        "opp_reward": 37738.0,
+        "margin": 66622.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 86649.0,
+        "opp_reward": 37738.0,
+        "margin": 48911.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 42,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 77254.0,
+        "opp_reward": 30234.0,
+        "margin": 47020.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 76877.0,
+        "opp_reward": 30234.0,
+        "margin": 46643.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 75890.0,
+        "opp_reward": 30234.0,
+        "margin": 45656.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 73306.0,
+        "opp_reward": 30234.0,
+        "margin": 43072.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 66541.0,
+        "opp_reward": 30234.0,
+        "margin": 36307.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 48830.0,
+        "opp_reward": 30234.0,
+        "margin": 18596.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 100,
+    "seat": 0,
+    "v_field_step695": 1120.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 121113.0,
+        "opp_reward": 38752.0,
+        "margin": 82361.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 120736.0,
+        "opp_reward": 38752.0,
+        "margin": 81984.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 119749.0,
+        "opp_reward": 38752.0,
+        "margin": 80997.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 117165.0,
+        "opp_reward": 38752.0,
+        "margin": 78413.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 110400.0,
+        "opp_reward": 38752.0,
+        "margin": 71648.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 92689.0,
+        "opp_reward": 38752.0,
+        "margin": 53937.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 200,
+    "seat": 0,
+    "v_field_step695": 1060.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 126515.0,
+        "opp_reward": 38743.0,
+        "margin": 87772.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 126138.0,
+        "opp_reward": 38743.0,
+        "margin": 87395.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 125151.0,
+        "opp_reward": 38743.0,
+        "margin": 86408.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 122567.0,
+        "opp_reward": 38743.0,
+        "margin": 83824.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 115802.0,
+        "opp_reward": 38743.0,
+        "margin": 77059.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 98091.0,
+        "opp_reward": 38743.0,
+        "margin": 59348.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 300,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 95283.0,
+        "opp_reward": 20059.0,
+        "margin": 75224.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 94906.0,
+        "opp_reward": 20059.0,
+        "margin": 74847.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 93919.0,
+        "opp_reward": 20059.0,
+        "margin": 73860.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 91335.0,
+        "opp_reward": 20059.0,
+        "margin": 71276.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 84570.0,
+        "opp_reward": 20059.0,
+        "margin": 64511.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 66859.0,
+        "opp_reward": 20059.0,
+        "margin": 46800.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 500,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 107401.0,
+        "opp_reward": 32594.0,
+        "margin": 74807.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 107024.0,
+        "opp_reward": 32594.0,
+        "margin": 74430.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 106037.0,
+        "opp_reward": 32594.0,
+        "margin": 73443.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 103453.0,
+        "opp_reward": 32594.0,
+        "margin": 70859.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 96688.0,
+        "opp_reward": 32594.0,
+        "margin": 64094.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 78977.0,
+        "opp_reward": 32594.0,
+        "margin": 46383.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 1001,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 114787.0,
+        "opp_reward": 51063.0,
+        "margin": 63724.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 114410.0,
+        "opp_reward": 51063.0,
+        "margin": 63347.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 113423.0,
+        "opp_reward": 51063.0,
+        "margin": 62360.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 110839.0,
+        "opp_reward": 51063.0,
+        "margin": 59776.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 104074.0,
+        "opp_reward": 51063.0,
+        "margin": 53011.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 86363.0,
+        "opp_reward": 51063.0,
+        "margin": 35300.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 20042,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 147997.0,
+        "opp_reward": 62286.0,
+        "margin": 85711.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 147620.0,
+        "opp_reward": 62286.0,
+        "margin": 85334.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 146633.0,
+        "opp_reward": 62286.0,
+        "margin": 84347.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 144049.0,
+        "opp_reward": 62286.0,
+        "margin": 81763.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 137284.0,
+        "opp_reward": 62286.0,
+        "margin": 74998.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 119573.0,
+        "opp_reward": 62286.0,
+        "margin": 57287.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 12345,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 161005.0,
+        "opp_reward": 67937.0,
+        "margin": 93068.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 160628.0,
+        "opp_reward": 67937.0,
+        "margin": 92691.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 159641.0,
+        "opp_reward": 67937.0,
+        "margin": 91704.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 157057.0,
+        "opp_reward": 67937.0,
+        "margin": 89120.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 150292.0,
+        "opp_reward": 67937.0,
+        "margin": 82355.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 132581.0,
+        "opp_reward": 67937.0,
+        "margin": 64644.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "cluster_name": "Price_Responsive_Hybrids",
+    "elo_band": "1100-1300 (Dynamic Intermediate)",
+    "seed": 54321,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 134614.0,
+        "opp_reward": 51345.0,
+        "margin": 83269.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 134237.0,
+        "opp_reward": 51345.0,
+        "margin": 82892.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 133250.0,
+        "opp_reward": 51345.0,
+        "margin": 81905.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 130666.0,
+        "opp_reward": 51345.0,
+        "margin": 79321.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 123901.0,
+        "opp_reward": 51345.0,
+        "margin": 72556.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 106190.0,
+        "opp_reward": 51345.0,
+        "margin": 54845.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1300-1800 (Advanced Dairy/Agro)",
+    "seed": 1000,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 97376.0,
+        "opp_reward": 26631.0,
+        "margin": 70745.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 96999.0,
+        "opp_reward": 26631.0,
+        "margin": 70368.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 96012.0,
+        "opp_reward": 26631.0,
+        "margin": 69381.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 93428.0,
+        "opp_reward": 26631.0,
+        "margin": 66797.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 86663.0,
+        "opp_reward": 26631.0,
+        "margin": 60032.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 68952.0,
+        "opp_reward": 26631.0,
+        "margin": 42321.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1300-1800 (Advanced Dairy/Agro)",
+    "seed": 42,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 77240.0,
+        "opp_reward": 30114.0,
+        "margin": 47126.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 76863.0,
+        "opp_reward": 30114.0,
+        "margin": 46749.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 75876.0,
+        "opp_reward": 30114.0,
+        "margin": 45762.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 73292.0,
+        "opp_reward": 30114.0,
+        "margin": 43178.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 66527.0,
+        "opp_reward": 30114.0,
+        "margin": 36413.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 48816.0,
+        "opp_reward": 30114.0,
+        "margin": 18702.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1300-1800 (Advanced Dairy/Agro)",
+    "seed": 100,
+    "seat": 0,
+    "v_field_step695": 1120.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 121105.0,
+        "opp_reward": 38638.0,
+        "margin": 82467.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 120728.0,
+        "opp_reward": 38638.0,
+        "margin": 82090.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 119741.0,
+        "opp_reward": 38638.0,
+        "margin": 81103.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 117157.0,
+        "opp_reward": 38638.0,
+        "margin": 78519.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 110392.0,
+        "opp_reward": 38638.0,
+        "margin": 71754.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 92681.0,
+        "opp_reward": 38638.0,
+        "margin": 54043.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1300-1800 (Advanced Dairy/Agro)",
+    "seed": 200,
+    "seat": 0,
+    "v_field_step695": 1060.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 118603.0,
+        "opp_reward": 36505.0,
+        "margin": 82098.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 118226.0,
+        "opp_reward": 36505.0,
+        "margin": 81721.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 117239.0,
+        "opp_reward": 36505.0,
+        "margin": 80734.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 114655.0,
+        "opp_reward": 36505.0,
+        "margin": 78150.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 107890.0,
+        "opp_reward": 36505.0,
+        "margin": 71385.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 90179.0,
+        "opp_reward": 36505.0,
+        "margin": 53674.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1300-1800 (Advanced Dairy/Agro)",
+    "seed": 300,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 95268.0,
+        "opp_reward": 19944.0,
+        "margin": 75324.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 94891.0,
+        "opp_reward": 19944.0,
+        "margin": 74947.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 93904.0,
+        "opp_reward": 19944.0,
+        "margin": 73960.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 91320.0,
+        "opp_reward": 19944.0,
+        "margin": 71376.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 84555.0,
+        "opp_reward": 19944.0,
+        "margin": 64611.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 66844.0,
+        "opp_reward": 19944.0,
+        "margin": 46900.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1300-1800 (Advanced Dairy/Agro)",
+    "seed": 500,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 107383.0,
+        "opp_reward": 32482.0,
+        "margin": 74901.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 107006.0,
+        "opp_reward": 32482.0,
+        "margin": 74524.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 106019.0,
+        "opp_reward": 32482.0,
+        "margin": 73537.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 103435.0,
+        "opp_reward": 32482.0,
+        "margin": 70953.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 96670.0,
+        "opp_reward": 32482.0,
+        "margin": 64188.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 78959.0,
+        "opp_reward": 32482.0,
+        "margin": 46477.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1300-1800 (Advanced Dairy/Agro)",
+    "seed": 1001,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 103927.0,
+        "opp_reward": 49360.0,
+        "margin": 54567.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 103550.0,
+        "opp_reward": 49360.0,
+        "margin": 54190.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 102563.0,
+        "opp_reward": 49360.0,
+        "margin": 53203.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 99979.0,
+        "opp_reward": 49360.0,
+        "margin": 50619.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 93214.0,
+        "opp_reward": 49360.0,
+        "margin": 43854.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 75503.0,
+        "opp_reward": 49360.0,
+        "margin": 26143.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1300-1800 (Advanced Dairy/Agro)",
+    "seed": 20042,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 129919.0,
+        "opp_reward": 48942.0,
+        "margin": 80977.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 129542.0,
+        "opp_reward": 48942.0,
+        "margin": 80600.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 128555.0,
+        "opp_reward": 48942.0,
+        "margin": 79613.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 125971.0,
+        "opp_reward": 48942.0,
+        "margin": 77029.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 119206.0,
+        "opp_reward": 48942.0,
+        "margin": 70264.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 101495.0,
+        "opp_reward": 48942.0,
+        "margin": 52553.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1300-1800 (Advanced Dairy/Agro)",
+    "seed": 12345,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 142312.0,
+        "opp_reward": 64731.0,
+        "margin": 77581.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 141935.0,
+        "opp_reward": 64731.0,
+        "margin": 77204.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 140948.0,
+        "opp_reward": 64731.0,
+        "margin": 76217.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 138364.0,
+        "opp_reward": 64731.0,
+        "margin": 73633.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 131599.0,
+        "opp_reward": 64731.0,
+        "margin": 66868.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 113888.0,
+        "opp_reward": 64731.0,
+        "margin": 49157.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1300-1800 (Advanced Dairy/Agro)",
+    "seed": 54321,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 130527.0,
+        "opp_reward": 62618.0,
+        "margin": 67909.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 130150.0,
+        "opp_reward": 62618.0,
+        "margin": 67532.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 129163.0,
+        "opp_reward": 62618.0,
+        "margin": 66545.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 126579.0,
+        "opp_reward": 62618.0,
+        "margin": 63961.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 119814.0,
+        "opp_reward": 62618.0,
+        "margin": 57196.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 102103.0,
+        "opp_reward": 62618.0,
+        "margin": 39485.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1800+ (Multi-Asset Elite)",
+    "seed": 1000,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 127773.0,
+        "opp_reward": 67761.0,
+        "margin": 60012.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 127396.0,
+        "opp_reward": 67761.0,
+        "margin": 59635.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 126409.0,
+        "opp_reward": 67761.0,
+        "margin": 58648.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 123825.0,
+        "opp_reward": 67761.0,
+        "margin": 56064.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 117060.0,
+        "opp_reward": 67761.0,
+        "margin": 49299.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 99349.0,
+        "opp_reward": 67761.0,
+        "margin": 31588.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1800+ (Multi-Asset Elite)",
+    "seed": 42,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 91801.0,
+        "opp_reward": 29003.0,
+        "margin": 62798.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 91424.0,
+        "opp_reward": 29003.0,
+        "margin": 62421.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 90437.0,
+        "opp_reward": 29003.0,
+        "margin": 61434.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 87853.0,
+        "opp_reward": 29003.0,
+        "margin": 58850.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 81088.0,
+        "opp_reward": 29003.0,
+        "margin": 52085.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 63377.0,
+        "opp_reward": 29003.0,
+        "margin": 34374.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1800+ (Multi-Asset Elite)",
+    "seed": 100,
+    "seat": 0,
+    "v_field_step695": 1120.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 128329.0,
+        "opp_reward": 60691.0,
+        "margin": 67638.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 127952.0,
+        "opp_reward": 60691.0,
+        "margin": 67261.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 126965.0,
+        "opp_reward": 60691.0,
+        "margin": 66274.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 124381.0,
+        "opp_reward": 60691.0,
+        "margin": 63690.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 117616.0,
+        "opp_reward": 60691.0,
+        "margin": 56925.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 99905.0,
+        "opp_reward": 60691.0,
+        "margin": 39214.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1800+ (Multi-Asset Elite)",
+    "seed": 200,
+    "seat": 0,
+    "v_field_step695": 1060.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 121393.0,
+        "opp_reward": 48914.0,
+        "margin": 72479.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 121016.0,
+        "opp_reward": 48914.0,
+        "margin": 72102.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 120029.0,
+        "opp_reward": 48914.0,
+        "margin": 71115.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 117445.0,
+        "opp_reward": 48914.0,
+        "margin": 68531.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 110680.0,
+        "opp_reward": 48914.0,
+        "margin": 61766.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 92969.0,
+        "opp_reward": 48914.0,
+        "margin": 44055.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1800+ (Multi-Asset Elite)",
+    "seed": 300,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 148198.0,
+        "opp_reward": 72875.0,
+        "margin": 75323.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 147821.0,
+        "opp_reward": 72875.0,
+        "margin": 74946.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 146834.0,
+        "opp_reward": 72875.0,
+        "margin": 73959.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 144250.0,
+        "opp_reward": 72875.0,
+        "margin": 71375.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 137485.0,
+        "opp_reward": 72875.0,
+        "margin": 64610.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 119774.0,
+        "opp_reward": 72875.0,
+        "margin": 46899.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1800+ (Multi-Asset Elite)",
+    "seed": 500,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 72324.0,
+        "opp_reward": 19232.0,
+        "margin": 53092.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 71947.0,
+        "opp_reward": 19232.0,
+        "margin": 52715.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 70960.0,
+        "opp_reward": 19232.0,
+        "margin": 51728.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 68376.0,
+        "opp_reward": 19232.0,
+        "margin": 49144.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 61611.0,
+        "opp_reward": 19232.0,
+        "margin": 42379.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 43900.0,
+        "opp_reward": 19232.0,
+        "margin": 24668.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1800+ (Multi-Asset Elite)",
+    "seed": 1001,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 90492.0,
+        "opp_reward": 28062.0,
+        "margin": 62430.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 90115.0,
+        "opp_reward": 28062.0,
+        "margin": 62053.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 89128.0,
+        "opp_reward": 28062.0,
+        "margin": 61066.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 86544.0,
+        "opp_reward": 28062.0,
+        "margin": 58482.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 79779.0,
+        "opp_reward": 28062.0,
+        "margin": 51717.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 62068.0,
+        "opp_reward": 28062.0,
+        "margin": 34006.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1800+ (Multi-Asset Elite)",
+    "seed": 20042,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 117027.0,
+        "opp_reward": 56791.0,
+        "margin": 60236.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 116650.0,
+        "opp_reward": 56791.0,
+        "margin": 59859.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 115663.0,
+        "opp_reward": 56791.0,
+        "margin": 58872.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 113079.0,
+        "opp_reward": 56791.0,
+        "margin": 56288.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 106314.0,
+        "opp_reward": 56791.0,
+        "margin": 49523.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 88603.0,
+        "opp_reward": 56791.0,
+        "margin": 31812.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1800+ (Multi-Asset Elite)",
+    "seed": 12345,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 124156.0,
+        "opp_reward": 58525.0,
+        "margin": 65631.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 123779.0,
+        "opp_reward": 58525.0,
+        "margin": 65254.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 122792.0,
+        "opp_reward": 58525.0,
+        "margin": 64267.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 120208.0,
+        "opp_reward": 58525.0,
+        "margin": 61683.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 113443.0,
+        "opp_reward": 58525.0,
+        "margin": 54918.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 95732.0,
+        "opp_reward": 58525.0,
+        "margin": 37207.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "cluster_name": "Cattle_Agro_Conglomerates",
+    "elo_band": "1800+ (Multi-Asset Elite)",
+    "seed": 54321,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 119983.0,
+        "opp_reward": 57168.0,
+        "margin": 62815.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 119606.0,
+        "opp_reward": 57168.0,
+        "margin": 62438.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 118619.0,
+        "opp_reward": 57168.0,
+        "margin": 61451.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 116035.0,
+        "opp_reward": 57168.0,
+        "margin": 58867.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 109270.0,
+        "opp_reward": 57168.0,
+        "margin": 52102.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 91559.0,
+        "opp_reward": 57168.0,
+        "margin": 34391.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 1000,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 106178.0,
+        "opp_reward": 47381.0,
+        "margin": 58797.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 105801.0,
+        "opp_reward": 47381.0,
+        "margin": 58420.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 104814.0,
+        "opp_reward": 47381.0,
+        "margin": 57433.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 102230.0,
+        "opp_reward": 47381.0,
+        "margin": 54849.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 95465.0,
+        "opp_reward": 47381.0,
+        "margin": 48084.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 77754.0,
+        "opp_reward": 47381.0,
+        "margin": 30373.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 42,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 60970.0,
+        "opp_reward": 12938.0,
+        "margin": 48032.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 60593.0,
+        "opp_reward": 12938.0,
+        "margin": 47655.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 59606.0,
+        "opp_reward": 12938.0,
+        "margin": 46668.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 57022.0,
+        "opp_reward": 12938.0,
+        "margin": 44084.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 50257.0,
+        "opp_reward": 12938.0,
+        "margin": 37319.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 32546.0,
+        "opp_reward": 12938.0,
+        "margin": 19608.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 100,
+    "seat": 0,
+    "v_field_step695": 1120.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 70887.0,
+        "opp_reward": 10468.0,
+        "margin": 60419.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 70510.0,
+        "opp_reward": 10468.0,
+        "margin": 60042.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 69523.0,
+        "opp_reward": 10468.0,
+        "margin": 59055.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 66939.0,
+        "opp_reward": 10468.0,
+        "margin": 56471.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 60174.0,
+        "opp_reward": 10468.0,
+        "margin": 49706.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 42463.0,
+        "opp_reward": 10468.0,
+        "margin": 31995.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 200,
+    "seat": 0,
+    "v_field_step695": 1060.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 117927.0,
+        "opp_reward": 48937.0,
+        "margin": 68990.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 117550.0,
+        "opp_reward": 48937.0,
+        "margin": 68613.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 116563.0,
+        "opp_reward": 48937.0,
+        "margin": 67626.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 113979.0,
+        "opp_reward": 48937.0,
+        "margin": 65042.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 107214.0,
+        "opp_reward": 48937.0,
+        "margin": 58277.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 89503.0,
+        "opp_reward": 48937.0,
+        "margin": 40566.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 300,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 95239.0,
+        "opp_reward": 25175.0,
+        "margin": 70064.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 94862.0,
+        "opp_reward": 25175.0,
+        "margin": 69687.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 93875.0,
+        "opp_reward": 25175.0,
+        "margin": 68700.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 91291.0,
+        "opp_reward": 25175.0,
+        "margin": 66116.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 84526.0,
+        "opp_reward": 25175.0,
+        "margin": 59351.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 66815.0,
+        "opp_reward": 25175.0,
+        "margin": 41640.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 500,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 74512.0,
+        "opp_reward": 2461.0,
+        "margin": 72051.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 74135.0,
+        "opp_reward": 2461.0,
+        "margin": 71674.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 73148.0,
+        "opp_reward": 2461.0,
+        "margin": 70687.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 70564.0,
+        "opp_reward": 2461.0,
+        "margin": 68103.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 63799.0,
+        "opp_reward": 2461.0,
+        "margin": 61338.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 46088.0,
+        "opp_reward": 2461.0,
+        "margin": 43627.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 1001,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 120300.0,
+        "opp_reward": 24732.0,
+        "margin": 95568.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 119923.0,
+        "opp_reward": 24732.0,
+        "margin": 95191.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 118936.0,
+        "opp_reward": 24732.0,
+        "margin": 94204.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 116352.0,
+        "opp_reward": 24732.0,
+        "margin": 91620.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 109587.0,
+        "opp_reward": 24732.0,
+        "margin": 84855.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 91876.0,
+        "opp_reward": 24732.0,
+        "margin": 67144.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 20042,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 77020.0,
+        "opp_reward": 10562.0,
+        "margin": 66458.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 76643.0,
+        "opp_reward": 10562.0,
+        "margin": 66081.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 75656.0,
+        "opp_reward": 10562.0,
+        "margin": 65094.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 73072.0,
+        "opp_reward": 10562.0,
+        "margin": 62510.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 66307.0,
+        "opp_reward": 10562.0,
+        "margin": 55745.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 48596.0,
+        "opp_reward": 10562.0,
+        "margin": 38034.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 12345,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 120816.0,
+        "opp_reward": 38558.0,
+        "margin": 82258.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 120439.0,
+        "opp_reward": 38558.0,
+        "margin": 81881.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 119452.0,
+        "opp_reward": 38558.0,
+        "margin": 80894.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 116868.0,
+        "opp_reward": 38558.0,
+        "margin": 78310.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 110103.0,
+        "opp_reward": 38558.0,
+        "margin": 71545.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 92392.0,
+        "opp_reward": 38558.0,
+        "margin": 53834.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 54321,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 78112.0,
+        "opp_reward": 11182.0,
+        "margin": 66930.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 77735.0,
+        "opp_reward": 11182.0,
+        "margin": 66553.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 76748.0,
+        "opp_reward": 11182.0,
+        "margin": 65566.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 74164.0,
+        "opp_reward": 11182.0,
+        "margin": 62982.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 67399.0,
+        "opp_reward": 11182.0,
+        "margin": 56217.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 49688.0,
+        "opp_reward": 11182.0,
+        "margin": 38506.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 1000,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 101837.0,
+        "opp_reward": 270.0,
+        "margin": 101567.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 101460.0,
+        "opp_reward": 270.0,
+        "margin": 101190.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 100473.0,
+        "opp_reward": 270.0,
+        "margin": 100203.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 97889.0,
+        "opp_reward": 270.0,
+        "margin": 97619.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 91124.0,
+        "opp_reward": 270.0,
+        "margin": 90854.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 73413.0,
+        "opp_reward": 270.0,
+        "margin": 73143.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 42,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 68930.0,
+        "opp_reward": 144.0,
+        "margin": 68786.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 68553.0,
+        "opp_reward": 144.0,
+        "margin": 68409.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 67566.0,
+        "opp_reward": 144.0,
+        "margin": 67422.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 64982.0,
+        "opp_reward": 144.0,
+        "margin": 64838.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 58217.0,
+        "opp_reward": 144.0,
+        "margin": 58073.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 40506.0,
+        "opp_reward": 144.0,
+        "margin": 40362.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 100,
+    "seat": 0,
+    "v_field_step695": 1120.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 71336.0,
+        "opp_reward": 208.0,
+        "margin": 71128.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 70959.0,
+        "opp_reward": 208.0,
+        "margin": 70751.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 69972.0,
+        "opp_reward": 208.0,
+        "margin": 69764.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 67388.0,
+        "opp_reward": 208.0,
+        "margin": 67180.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 60623.0,
+        "opp_reward": 208.0,
+        "margin": 60415.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 42912.0,
+        "opp_reward": 208.0,
+        "margin": 42704.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 200,
+    "seat": 0,
+    "v_field_step695": 1060.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 119342.0,
+        "opp_reward": 70.0,
+        "margin": 119272.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 118965.0,
+        "opp_reward": 70.0,
+        "margin": 118895.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 117978.0,
+        "opp_reward": 70.0,
+        "margin": 117908.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 115394.0,
+        "opp_reward": 70.0,
+        "margin": 115324.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 108629.0,
+        "opp_reward": 70.0,
+        "margin": 108559.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 90918.0,
+        "opp_reward": 70.0,
+        "margin": 90848.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 300,
+    "seat": 0,
+    "v_field_step695": 1080.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 123358.0,
+        "opp_reward": 30.0,
+        "margin": 123328.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 122981.0,
+        "opp_reward": 30.0,
+        "margin": 122951.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 121994.0,
+        "opp_reward": 30.0,
+        "margin": 121964.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 119410.0,
+        "opp_reward": 30.0,
+        "margin": 119380.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 112645.0,
+        "opp_reward": 30.0,
+        "margin": 112615.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 94934.0,
+        "opp_reward": 30.0,
+        "margin": 94904.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 500,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 107259.0,
+        "opp_reward": 37201.0,
+        "margin": 70058.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 106882.0,
+        "opp_reward": 37201.0,
+        "margin": 69681.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 105895.0,
+        "opp_reward": 37201.0,
+        "margin": 68694.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 103311.0,
+        "opp_reward": 37201.0,
+        "margin": 66110.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 96546.0,
+        "opp_reward": 37201.0,
+        "margin": 59345.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 78835.0,
+        "opp_reward": 37201.0,
+        "margin": 41634.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 1001,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 103592.0,
+        "opp_reward": 43189.0,
+        "margin": 60403.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 103215.0,
+        "opp_reward": 43189.0,
+        "margin": 60026.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 102228.0,
+        "opp_reward": 43189.0,
+        "margin": 59039.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 99644.0,
+        "opp_reward": 43189.0,
+        "margin": 56455.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 92879.0,
+        "opp_reward": 43189.0,
+        "margin": 49690.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 75168.0,
+        "opp_reward": 43189.0,
+        "margin": 31979.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 20042,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 139787.0,
+        "opp_reward": 57701.0,
+        "margin": 82086.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 139410.0,
+        "opp_reward": 57701.0,
+        "margin": 81709.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 138423.0,
+        "opp_reward": 57701.0,
+        "margin": 80722.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 135839.0,
+        "opp_reward": 57701.0,
+        "margin": 78138.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 129074.0,
+        "opp_reward": 57701.0,
+        "margin": 71373.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 111363.0,
+        "opp_reward": 57701.0,
+        "margin": 53662.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 12345,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 154348.0,
+        "opp_reward": 70678.0,
+        "margin": 83670.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 153971.0,
+        "opp_reward": 70678.0,
+        "margin": 83293.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 152984.0,
+        "opp_reward": 70678.0,
+        "margin": 82306.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 150400.0,
+        "opp_reward": 70678.0,
+        "margin": 79722.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 143635.0,
+        "opp_reward": 70678.0,
+        "margin": 72957.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 125924.0,
+        "opp_reward": 70678.0,
+        "margin": 55246.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "cluster_name": "Primitive_Legacy_Rushers",
+    "elo_band": "Under 900 (Entry Level)",
+    "seed": 54321,
+    "seat": 1,
+    "v_field_step695": 0.0,
+    "best_n": 0,
+    "net_ev": 0.0,
+    "baseline_won": true,
+    "best_n_won": true,
+    "sweeps": {
+      "0": {
+        "hero_reward": 147489.0,
+        "opp_reward": 74612.0,
+        "margin": 72877.0,
+        "won": true,
+        "labor_cost": 0.0
+      },
+      "2": {
+        "hero_reward": 147112.0,
+        "opp_reward": 74612.0,
+        "margin": 72500.0,
+        "won": true,
+        "labor_cost": 1000.0
+      },
+      "4": {
+        "hero_reward": 146125.0,
+        "opp_reward": 74612.0,
+        "margin": 71513.0,
+        "won": true,
+        "labor_cost": 2000.0
+      },
+      "6": {
+        "hero_reward": 143541.0,
+        "opp_reward": 74612.0,
+        "margin": 68929.0,
+        "won": true,
+        "labor_cost": 3000.0
+      },
+      "8": {
+        "hero_reward": 136776.0,
+        "opp_reward": 74612.0,
+        "margin": 62164.0,
+        "won": true,
+        "labor_cost": 4000.0
+      },
+      "10": {
+        "hero_reward": 119065.0,
+        "opp_reward": 74612.0,
+        "margin": 44453.0,
+        "won": true,
+        "labor_cost": 5000.0
+      }
+    }
+  }
+]
