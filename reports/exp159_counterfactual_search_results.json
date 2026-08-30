@@ -1,0 +1,2244 @@
+[
+  {
+    "seed": 1000,
+    "seat": 0,
+    "base_reward": 87922.0,
+    "base_opp": 93383.0,
+    "base_margin": -5461.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Flush_Inventory_Step_240",
+      "step": 240,
+      "reward": 87922.0,
+      "opp": 93383.0,
+      "margin": -5461.0,
+      "delta_vs_baseline": 0.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 87922.0,
+        "opp": 93383.0,
+        "margin": -5461.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 87922.0,
+        "opp": 93383.0,
+        "margin": -5461.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 87922.0,
+        "opp": 93383.0,
+        "margin": -5461.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 87922.0,
+        "opp": 93383.0,
+        "margin": -5461.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 87922.0,
+        "opp": 93383.0,
+        "margin": -5461.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 87922.0,
+        "opp": 93383.0,
+        "margin": -5461.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 87922.0,
+        "opp": 93383.0,
+        "margin": -5461.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 118980.0,
+        "opp": 128857.0,
+        "margin": -9877.0,
+        "delta_vs_baseline": -4416.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 87322.0,
+        "opp": 93383.0,
+        "margin": -6061.0,
+        "delta_vs_baseline": -600.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 86603.0,
+        "opp": 93148.0,
+        "margin": -6545.0,
+        "delta_vs_baseline": -1084.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 87922.0,
+        "opp": 93383.0,
+        "margin": -5461.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 42,
+    "seat": 0,
+    "base_reward": 62463.0,
+    "base_opp": 69600.0,
+    "base_margin": -7137.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Flush_Inventory_Step_240",
+      "step": 240,
+      "reward": 62463.0,
+      "opp": 69600.0,
+      "margin": -7137.0,
+      "delta_vs_baseline": 0.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 62463.0,
+        "opp": 69600.0,
+        "margin": -7137.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 62463.0,
+        "opp": 69600.0,
+        "margin": -7137.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 62463.0,
+        "opp": 69600.0,
+        "margin": -7137.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 62463.0,
+        "opp": 69600.0,
+        "margin": -7137.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 62463.0,
+        "opp": 69600.0,
+        "margin": -7137.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 62463.0,
+        "opp": 69600.0,
+        "margin": -7137.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 62463.0,
+        "opp": 69600.0,
+        "margin": -7137.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 57496.0,
+        "opp": 65822.0,
+        "margin": -8326.0,
+        "delta_vs_baseline": -1189.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 43129.0,
+        "opp": 79475.0,
+        "margin": -36346.0,
+        "delta_vs_baseline": -29209.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 47311.0,
+        "opp": 77930.0,
+        "margin": -30619.0,
+        "delta_vs_baseline": -23482.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 62463.0,
+        "opp": 69600.0,
+        "margin": -7137.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 100,
+    "seat": 0,
+    "base_reward": 92031.0,
+    "base_opp": 99162.0,
+    "base_margin": -7131.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Flush_Inventory_Step_240",
+      "step": 240,
+      "reward": 92031.0,
+      "opp": 99162.0,
+      "margin": -7131.0,
+      "delta_vs_baseline": 0.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 92031.0,
+        "opp": 99162.0,
+        "margin": -7131.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 92031.0,
+        "opp": 99162.0,
+        "margin": -7131.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 92031.0,
+        "opp": 99162.0,
+        "margin": -7131.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 92031.0,
+        "opp": 99162.0,
+        "margin": -7131.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 92031.0,
+        "opp": 99162.0,
+        "margin": -7131.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 92031.0,
+        "opp": 99162.0,
+        "margin": -7131.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 92031.0,
+        "opp": 99162.0,
+        "margin": -7131.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 108626.0,
+        "opp": 117807.0,
+        "margin": -9181.0,
+        "delta_vs_baseline": -2050.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 91172.0,
+        "opp": 99192.0,
+        "margin": -8020.0,
+        "delta_vs_baseline": -889.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 90657.0,
+        "opp": 100016.0,
+        "margin": -9359.0,
+        "delta_vs_baseline": -2228.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 92031.0,
+        "opp": 99162.0,
+        "margin": -7131.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 200,
+    "seat": 0,
+    "base_reward": 70900.0,
+    "base_opp": 71932.0,
+    "base_margin": -1032.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Flush_Inventory_Step_240",
+      "step": 240,
+      "reward": 70900.0,
+      "opp": 71932.0,
+      "margin": -1032.0,
+      "delta_vs_baseline": 0.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 70900.0,
+        "opp": 71932.0,
+        "margin": -1032.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 70900.0,
+        "opp": 71932.0,
+        "margin": -1032.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 70900.0,
+        "opp": 71932.0,
+        "margin": -1032.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 70900.0,
+        "opp": 71932.0,
+        "margin": -1032.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 70900.0,
+        "opp": 71932.0,
+        "margin": -1032.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 70900.0,
+        "opp": 71932.0,
+        "margin": -1032.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 70900.0,
+        "opp": 71932.0,
+        "margin": -1032.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 82596.0,
+        "opp": 86497.0,
+        "margin": -3901.0,
+        "delta_vs_baseline": -2869.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 70300.0,
+        "opp": 71932.0,
+        "margin": -1632.0,
+        "delta_vs_baseline": -600.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 84592.0,
+        "opp": 92677.0,
+        "margin": -8085.0,
+        "delta_vs_baseline": -7053.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 70900.0,
+        "opp": 71932.0,
+        "margin": -1032.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 300,
+    "seat": 0,
+    "base_reward": 83593.0,
+    "base_opp": 91703.0,
+    "base_margin": -8110.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Seed_Purchase_Delta_-6_Step_216",
+      "step": 216,
+      "reward": 83602.0,
+      "opp": 91678.0,
+      "margin": -8076.0,
+      "delta_vs_baseline": 34.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 83593.0,
+        "opp": 91703.0,
+        "margin": -8110.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 83593.0,
+        "opp": 91703.0,
+        "margin": -8110.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 83593.0,
+        "opp": 91703.0,
+        "margin": -8110.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 83593.0,
+        "opp": 91703.0,
+        "margin": -8110.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 83593.0,
+        "opp": 91703.0,
+        "margin": -8110.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 83593.0,
+        "opp": 91703.0,
+        "margin": -8110.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 83593.0,
+        "opp": 91703.0,
+        "margin": -8110.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 83602.0,
+        "opp": 91678.0,
+        "margin": -8076.0,
+        "delta_vs_baseline": 34.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 82727.0,
+        "opp": 91717.0,
+        "margin": -8990.0,
+        "delta_vs_baseline": -880.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 82117.0,
+        "opp": 92497.0,
+        "margin": -10380.0,
+        "delta_vs_baseline": -2270.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 83593.0,
+        "opp": 91703.0,
+        "margin": -8110.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 500,
+    "seat": 0,
+    "base_reward": 23612.0,
+    "base_opp": 25169.0,
+    "base_margin": -1557.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Flush_Inventory_Step_240",
+      "step": 240,
+      "reward": 23612.0,
+      "opp": 25169.0,
+      "margin": -1557.0,
+      "delta_vs_baseline": 0.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 23612.0,
+        "opp": 25169.0,
+        "margin": -1557.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 23612.0,
+        "opp": 25169.0,
+        "margin": -1557.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 23612.0,
+        "opp": 25169.0,
+        "margin": -1557.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 23612.0,
+        "opp": 25169.0,
+        "margin": -1557.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 23612.0,
+        "opp": 25169.0,
+        "margin": -1557.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 23612.0,
+        "opp": 25169.0,
+        "margin": -1557.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 23612.0,
+        "opp": 25169.0,
+        "margin": -1557.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 18847.0,
+        "opp": 21491.0,
+        "margin": -2644.0,
+        "delta_vs_baseline": -1087.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 19121.0,
+        "opp": 24544.0,
+        "margin": -5423.0,
+        "delta_vs_baseline": -3866.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 19121.0,
+        "opp": 24544.0,
+        "margin": -5423.0,
+        "delta_vs_baseline": -3866.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 23612.0,
+        "opp": 25169.0,
+        "margin": -1557.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 1001,
+    "seat": 0,
+    "base_reward": 37074.0,
+    "base_opp": 37563.0,
+    "base_margin": -489.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Flush_Inventory_Step_240",
+      "step": 240,
+      "reward": 37074.0,
+      "opp": 37563.0,
+      "margin": -489.0,
+      "delta_vs_baseline": 0.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 37074.0,
+        "opp": 37563.0,
+        "margin": -489.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 37074.0,
+        "opp": 37563.0,
+        "margin": -489.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 37074.0,
+        "opp": 37563.0,
+        "margin": -489.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 37074.0,
+        "opp": 37563.0,
+        "margin": -489.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 37074.0,
+        "opp": 37563.0,
+        "margin": -489.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 37074.0,
+        "opp": 37563.0,
+        "margin": -489.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 37074.0,
+        "opp": 37563.0,
+        "margin": -489.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 40475.0,
+        "opp": 42725.0,
+        "margin": -2250.0,
+        "delta_vs_baseline": -1761.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 38905.0,
+        "opp": 44309.0,
+        "margin": -5404.0,
+        "delta_vs_baseline": -4915.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 38905.0,
+        "opp": 44309.0,
+        "margin": -5404.0,
+        "delta_vs_baseline": -4915.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 37074.0,
+        "opp": 37563.0,
+        "margin": -489.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 20042,
+    "seat": 0,
+    "base_reward": 63123.0,
+    "base_opp": 63857.0,
+    "base_margin": -734.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Flush_Inventory_Step_240",
+      "step": 240,
+      "reward": 63123.0,
+      "opp": 63857.0,
+      "margin": -734.0,
+      "delta_vs_baseline": 0.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 63123.0,
+        "opp": 63857.0,
+        "margin": -734.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 63123.0,
+        "opp": 63857.0,
+        "margin": -734.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 63123.0,
+        "opp": 63857.0,
+        "margin": -734.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 63123.0,
+        "opp": 63857.0,
+        "margin": -734.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 63123.0,
+        "opp": 63857.0,
+        "margin": -734.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 63123.0,
+        "opp": 63857.0,
+        "margin": -734.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 63123.0,
+        "opp": 63857.0,
+        "margin": -734.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 42682.0,
+        "opp": 46466.0,
+        "margin": -3784.0,
+        "delta_vs_baseline": -3050.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 62682.0,
+        "opp": 64372.0,
+        "margin": -1690.0,
+        "delta_vs_baseline": -956.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 54366.0,
+        "opp": 62010.0,
+        "margin": -7644.0,
+        "delta_vs_baseline": -6910.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 63123.0,
+        "opp": 63857.0,
+        "margin": -734.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 12345,
+    "seat": 0,
+    "base_reward": 127875.0,
+    "base_opp": 134090.0,
+    "base_margin": -6215.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Flush_Inventory_Step_240",
+      "step": 240,
+      "reward": 127875.0,
+      "opp": 134090.0,
+      "margin": -6215.0,
+      "delta_vs_baseline": 0.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 127875.0,
+        "opp": 134090.0,
+        "margin": -6215.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 127875.0,
+        "opp": 134090.0,
+        "margin": -6215.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 127875.0,
+        "opp": 134090.0,
+        "margin": -6215.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 127875.0,
+        "opp": 134090.0,
+        "margin": -6215.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 127875.0,
+        "opp": 134090.0,
+        "margin": -6215.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 127875.0,
+        "opp": 134090.0,
+        "margin": -6215.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 127875.0,
+        "opp": 134090.0,
+        "margin": -6215.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 122693.0,
+        "opp": 131116.0,
+        "margin": -8423.0,
+        "delta_vs_baseline": -2208.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 88349.0,
+        "opp": 110281.0,
+        "margin": -21932.0,
+        "delta_vs_baseline": -15717.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 120463.0,
+        "opp": 132443.0,
+        "margin": -11980.0,
+        "delta_vs_baseline": -5765.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 127875.0,
+        "opp": 134090.0,
+        "margin": -6215.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 54321,
+    "seat": 0,
+    "base_reward": 88486.0,
+    "base_opp": 92327.0,
+    "base_margin": -3841.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Seed_Purchase_Delta_-6_Step_216",
+      "step": 216,
+      "reward": 88109.0,
+      "opp": 89910.0,
+      "margin": -1801.0,
+      "delta_vs_baseline": 2040.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 88486.0,
+        "opp": 92327.0,
+        "margin": -3841.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 88486.0,
+        "opp": 92327.0,
+        "margin": -3841.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 88486.0,
+        "opp": 92327.0,
+        "margin": -3841.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 88486.0,
+        "opp": 92327.0,
+        "margin": -3841.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 88486.0,
+        "opp": 92327.0,
+        "margin": -3841.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 88486.0,
+        "opp": 92327.0,
+        "margin": -3841.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 88486.0,
+        "opp": 92327.0,
+        "margin": -3841.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 88109.0,
+        "opp": 89910.0,
+        "margin": -1801.0,
+        "delta_vs_baseline": 2040.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 41982.0,
+        "opp": 56775.0,
+        "margin": -14793.0,
+        "delta_vs_baseline": -10952.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 94733.0,
+        "opp": 100194.0,
+        "margin": -5461.0,
+        "delta_vs_baseline": -1620.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 88486.0,
+        "opp": 92327.0,
+        "margin": -3841.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 20001,
+    "seat": 1,
+    "base_reward": 80809.0,
+    "base_opp": 94607.0,
+    "base_margin": -13798.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Flush_Inventory_Step_240",
+      "step": 240,
+      "reward": 80809.0,
+      "opp": 94607.0,
+      "margin": -13798.0,
+      "delta_vs_baseline": 0.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "margin": -13798.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "margin": -13798.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "margin": -13798.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "margin": -13798.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "margin": -13798.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "margin": -13798.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "margin": -13798.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 94125.0,
+        "opp": 109531.0,
+        "margin": -15406.0,
+        "delta_vs_baseline": -1608.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 65881.0,
+        "opp": 99766.0,
+        "margin": -33885.0,
+        "delta_vs_baseline": -20087.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 65881.0,
+        "opp": 99766.0,
+        "margin": -33885.0,
+        "delta_vs_baseline": -20087.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 80809.0,
+        "opp": 94607.0,
+        "margin": -13798.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 20010,
+    "seat": 1,
+    "base_reward": 36383.0,
+    "base_opp": 39970.0,
+    "base_margin": -3587.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Flush_Inventory_Step_240",
+      "step": 240,
+      "reward": 36383.0,
+      "opp": 39970.0,
+      "margin": -3587.0,
+      "delta_vs_baseline": 0.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "margin": -3587.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "margin": -3587.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "margin": -3587.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "margin": -3587.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "margin": -3587.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "margin": -3587.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "margin": -3587.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 54481.0,
+        "opp": 58347.0,
+        "margin": -3866.0,
+        "delta_vs_baseline": -279.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 55407.0,
+        "opp": 85514.0,
+        "margin": -30107.0,
+        "delta_vs_baseline": -26520.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 30384.0,
+        "opp": 52377.0,
+        "margin": -21993.0,
+        "delta_vs_baseline": -18406.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 36383.0,
+        "opp": 39970.0,
+        "margin": -3587.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 20020,
+    "seat": 1,
+    "base_reward": 107919.0,
+    "base_opp": 113168.0,
+    "base_margin": -5249.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Seed_Purchase_Delta_-6_Step_216",
+      "step": 216,
+      "reward": 120631.0,
+      "opp": 125717.0,
+      "margin": -5086.0,
+      "delta_vs_baseline": 163.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "margin": -5249.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "margin": -5249.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "margin": -5249.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "margin": -5249.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "margin": -5249.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "margin": -5249.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "margin": -5249.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 120631.0,
+        "opp": 125717.0,
+        "margin": -5086.0,
+        "delta_vs_baseline": 163.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 107319.0,
+        "opp": 113168.0,
+        "margin": -5849.0,
+        "delta_vs_baseline": -600.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 120075.0,
+        "opp": 127906.0,
+        "margin": -7831.0,
+        "delta_vs_baseline": -2582.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 107919.0,
+        "opp": 113168.0,
+        "margin": -5249.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 20030,
+    "seat": 1,
+    "base_reward": 70980.0,
+    "base_opp": 78310.0,
+    "base_margin": -7330.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Seed_Purchase_Delta_-6_Step_216",
+      "step": 216,
+      "reward": 78040.0,
+      "opp": 84518.0,
+      "margin": -6478.0,
+      "delta_vs_baseline": 852.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "margin": -7330.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "margin": -7330.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "margin": -7330.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "margin": -7330.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "margin": -7330.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "margin": -7330.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "margin": -7330.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 78040.0,
+        "opp": 84518.0,
+        "margin": -6478.0,
+        "delta_vs_baseline": 852.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 70305.0,
+        "opp": 78379.0,
+        "margin": -8074.0,
+        "delta_vs_baseline": -744.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 69048.0,
+        "opp": 79721.0,
+        "margin": -10673.0,
+        "delta_vs_baseline": -3343.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 70980.0,
+        "opp": 78310.0,
+        "margin": -7330.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 20040,
+    "seat": 1,
+    "base_reward": 74715.0,
+    "base_opp": 77728.0,
+    "base_margin": -3013.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Seed_Purchase_Delta_-6_Step_216",
+      "step": 216,
+      "reward": 74815.0,
+      "opp": 77728.0,
+      "margin": -2913.0,
+      "delta_vs_baseline": 100.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "margin": -3013.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "margin": -3013.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "margin": -3013.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "margin": -3013.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "margin": -3013.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "margin": -3013.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "margin": -3013.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 74815.0,
+        "opp": 77728.0,
+        "margin": -2913.0,
+        "delta_vs_baseline": 100.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 73997.0,
+        "opp": 77803.0,
+        "margin": -3806.0,
+        "delta_vs_baseline": -793.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 72418.0,
+        "opp": 91473.0,
+        "margin": -19055.0,
+        "delta_vs_baseline": -16042.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 74715.0,
+        "opp": 77728.0,
+        "margin": -3013.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 20050,
+    "seat": 1,
+    "base_reward": 79033.0,
+    "base_opp": 75939.0,
+    "base_margin": 3094.0,
+    "base_won": true,
+    "best_branch": {
+      "name": "Flush_Inventory_Step_240",
+      "step": 240,
+      "reward": 79033.0,
+      "opp": 75939.0,
+      "margin": 3094.0,
+      "delta_vs_baseline": 0.0,
+      "won": true
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "margin": 3094.0,
+        "delta_vs_baseline": 0.0,
+        "won": true
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "margin": 3094.0,
+        "delta_vs_baseline": 0.0,
+        "won": true
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "margin": 3094.0,
+        "delta_vs_baseline": 0.0,
+        "won": true
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "margin": 3094.0,
+        "delta_vs_baseline": 0.0,
+        "won": true
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "margin": 3094.0,
+        "delta_vs_baseline": 0.0,
+        "won": true
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "margin": 3094.0,
+        "delta_vs_baseline": 0.0,
+        "won": true
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "margin": 3094.0,
+        "delta_vs_baseline": 0.0,
+        "won": true
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 62994.0,
+        "opp": 63214.0,
+        "margin": -220.0,
+        "delta_vs_baseline": -3314.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 35627.0,
+        "opp": 78379.0,
+        "margin": -42752.0,
+        "delta_vs_baseline": -45846.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 65697.0,
+        "opp": 74634.0,
+        "margin": -8937.0,
+        "delta_vs_baseline": -12031.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 79033.0,
+        "opp": 75939.0,
+        "margin": 3094.0,
+        "delta_vs_baseline": 0.0,
+        "won": true
+      }
+    ]
+  },
+  {
+    "seed": 20060,
+    "seat": 1,
+    "base_reward": 82373.0,
+    "base_opp": 84411.0,
+    "base_margin": -2038.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Flush_Inventory_Step_240",
+      "step": 240,
+      "reward": 82373.0,
+      "opp": 84411.0,
+      "margin": -2038.0,
+      "delta_vs_baseline": 0.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "margin": -2038.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "margin": -2038.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "margin": -2038.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "margin": -2038.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "margin": -2038.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "margin": -2038.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "margin": -2038.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 81374.0,
+        "opp": 85762.0,
+        "margin": -4388.0,
+        "delta_vs_baseline": -2350.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 72995.0,
+        "opp": 110109.0,
+        "margin": -37114.0,
+        "delta_vs_baseline": -35076.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 43567.0,
+        "opp": 95708.0,
+        "margin": -52141.0,
+        "delta_vs_baseline": -50103.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 82373.0,
+        "opp": 84411.0,
+        "margin": -2038.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 20070,
+    "seat": 1,
+    "base_reward": 105398.0,
+    "base_opp": 113914.0,
+    "base_margin": -8516.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Seed_Purchase_Delta_-6_Step_216",
+      "step": 216,
+      "reward": 94210.0,
+      "opp": 100412.0,
+      "margin": -6202.0,
+      "delta_vs_baseline": 2314.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "margin": -8516.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "margin": -8516.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "margin": -8516.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "margin": -8516.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "margin": -8516.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "margin": -8516.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "margin": -8516.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 94210.0,
+        "opp": 100412.0,
+        "margin": -6202.0,
+        "delta_vs_baseline": 2314.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 104798.0,
+        "opp": 113914.0,
+        "margin": -9116.0,
+        "delta_vs_baseline": -600.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 103844.0,
+        "opp": 113959.0,
+        "margin": -10115.0,
+        "delta_vs_baseline": -1599.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 105398.0,
+        "opp": 113914.0,
+        "margin": -8516.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  },
+  {
+    "seed": 20080,
+    "seat": 1,
+    "base_reward": 52207.0,
+    "base_opp": 56962.0,
+    "base_margin": -4755.0,
+    "base_won": false,
+    "best_branch": {
+      "name": "Flush_Inventory_Step_240",
+      "step": 240,
+      "reward": 52207.0,
+      "opp": 56962.0,
+      "margin": -4755.0,
+      "delta_vs_baseline": 0.0,
+      "won": false
+    },
+    "all_branches": [
+      {
+        "name": "Flush_Inventory_Step_240",
+        "step": 240,
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "margin": -4755.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_288",
+        "step": 288,
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "margin": -4755.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_360",
+        "step": 360,
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "margin": -4755.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_480",
+        "step": 480,
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "margin": -4755.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_600",
+        "step": 600,
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "margin": -4755.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_648",
+        "step": 648,
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "margin": -4755.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Flush_Inventory_Step_672",
+        "step": 672,
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "margin": -4755.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_-6_Step_216",
+        "step": 216,
+        "reward": 33696.0,
+        "opp": 38600.0,
+        "margin": -4904.0,
+        "delta_vs_baseline": -149.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+6_Step_216",
+        "step": 216,
+        "reward": 45196.0,
+        "opp": 72159.0,
+        "margin": -26963.0,
+        "delta_vs_baseline": -22208.0,
+        "won": false
+      },
+      {
+        "name": "Seed_Purchase_Delta_+12_Step_216",
+        "step": 216,
+        "reward": 37786.0,
+        "opp": 72161.0,
+        "margin": -34375.0,
+        "delta_vs_baseline": -29620.0,
+        "won": false
+      },
+      {
+        "name": "Pre_Sell_Flush_Step_695",
+        "step": 695,
+        "reward": 52207.0,
+        "opp": 56962.0,
+        "margin": -4755.0,
+        "delta_vs_baseline": 0.0,
+        "won": false
+      }
+    ]
+  }
+]
