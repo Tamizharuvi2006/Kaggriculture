@@ -1,0 +1,252 @@
+[
+  {
+    "seed": 1000,
+    "seat": 0,
+    "step695": {
+      "hero_cash": 79384.0,
+      "opp_cash": 77557.0,
+      "cash_delta": 1827.0,
+      "hero_straw_tiles": 11,
+      "hero_straw_yield_units": 0,
+      "opp_straw_tiles": 12,
+      "opp_straw_yield_units": 0,
+      "p_straw": 7
+    },
+    "day30_activity": {
+      "hero_hires": 2,
+      "opp_hires": 12,
+      "hero_cash_delta_day30": 8538.0,
+      "opp_cash_delta_day30": 15826.0
+    },
+    "step720": {
+      "hero_reward": 87922.0,
+      "opp_reward": 93383.0,
+      "final_margin": -5461.0
+    }
+  },
+  {
+    "seed": 42,
+    "seat": 0,
+    "step695": {
+      "hero_cash": 53842.0,
+      "opp_cash": 54010.0,
+      "cash_delta": -168.0,
+      "hero_straw_tiles": 12,
+      "hero_straw_yield_units": 0,
+      "opp_straw_tiles": 12,
+      "opp_straw_yield_units": 0,
+      "p_straw": 5
+    },
+    "day30_activity": {
+      "hero_hires": 2,
+      "opp_hires": 12,
+      "hero_cash_delta_day30": 8621.0,
+      "opp_cash_delta_day30": 15590.0
+    },
+    "step720": {
+      "hero_reward": 62463.0,
+      "opp_reward": 69600.0,
+      "final_margin": -7137.0
+    }
+  },
+  {
+    "seed": 100,
+    "seat": 0,
+    "step695": {
+      "hero_cash": 83327.0,
+      "opp_cash": 83207.0,
+      "cash_delta": 120.0,
+      "hero_straw_tiles": 12,
+      "hero_straw_yield_units": 0,
+      "opp_straw_tiles": 12,
+      "opp_straw_yield_units": 0,
+      "p_straw": 9
+    },
+    "day30_activity": {
+      "hero_hires": 2,
+      "opp_hires": 12,
+      "hero_cash_delta_day30": 8704.0,
+      "opp_cash_delta_day30": 15955.0
+    },
+    "step720": {
+      "hero_reward": 92031.0,
+      "opp_reward": 99162.0,
+      "final_margin": -7131.0
+    }
+  },
+  {
+    "seed": 200,
+    "seat": 0,
+    "step695": {
+      "hero_cash": 68806.0,
+      "opp_cash": 65932.0,
+      "cash_delta": 2874.0,
+      "hero_straw_tiles": 12,
+      "hero_straw_yield_units": 0,
+      "opp_straw_tiles": 12,
+      "opp_straw_yield_units": 0,
+      "p_straw": 9
+    },
+    "day30_activity": {
+      "hero_hires": 2,
+      "opp_hires": 12,
+      "hero_cash_delta_day30": 2094.0,
+      "opp_cash_delta_day30": 6000.0
+    },
+    "step720": {
+      "hero_reward": 70900.0,
+      "opp_reward": 71932.0,
+      "final_margin": -1032.0
+    }
+  },
+  {
+    "seed": 300,
+    "seat": 0,
+    "step695": {
+      "hero_cash": 75038.0,
+      "opp_cash": 76605.0,
+      "cash_delta": -1567.0,
+      "hero_straw_tiles": 10,
+      "hero_straw_yield_units": 0,
+      "opp_straw_tiles": 12,
+      "opp_straw_yield_units": 0,
+      "p_straw": 9
+    },
+    "day30_activity": {
+      "hero_hires": 2,
+      "opp_hires": 12,
+      "hero_cash_delta_day30": 8555.0,
+      "opp_cash_delta_day30": 15098.0
+    },
+    "step720": {
+      "hero_reward": 83593.0,
+      "opp_reward": 91703.0,
+      "final_margin": -8110.0
+    }
+  },
+  {
+    "seed": 500,
+    "seat": 0,
+    "step695": {
+      "hero_cash": 19193.0,
+      "opp_cash": 17657.0,
+      "cash_delta": 1536.0,
+      "hero_straw_tiles": 12,
+      "hero_straw_yield_units": 0,
+      "opp_straw_tiles": 12,
+      "opp_straw_yield_units": 0,
+      "p_straw": 5
+    },
+    "day30_activity": {
+      "hero_hires": 2,
+      "opp_hires": 12,
+      "hero_cash_delta_day30": 4419.0,
+      "opp_cash_delta_day30": 7512.0
+    },
+    "step720": {
+      "hero_reward": 23612.0,
+      "opp_reward": 25169.0,
+      "final_margin": -1557.0
+    }
+  },
+  {
+    "seed": 1001,
+    "seat": 0,
+    "step695": {
+      "hero_cash": 32768.0,
+      "opp_cash": 30005.0,
+      "cash_delta": 2763.0,
+      "hero_straw_tiles": 12,
+      "hero_straw_yield_units": 0,
+      "opp_straw_tiles": 12,
+      "opp_straw_yield_units": 0,
+      "p_straw": 7
+    },
+    "day30_activity": {
+      "hero_hires": 2,
+      "opp_hires": 12,
+      "hero_cash_delta_day30": 4306.0,
+      "opp_cash_delta_day30": 7558.0
+    },
+    "step720": {
+      "hero_reward": 37074.0,
+      "opp_reward": 37563.0,
+      "final_margin": -489.0
+    }
+  },
+  {
+    "seed": 20042,
+    "seat": 0,
+    "step695": {
+      "hero_cash": 57477.0,
+      "opp_cash": 56292.0,
+      "cash_delta": 1185.0,
+      "hero_straw_tiles": 12,
+      "hero_straw_yield_units": 0,
+      "opp_straw_tiles": 12,
+      "opp_straw_yield_units": 0,
+      "p_straw": 9
+    },
+    "day30_activity": {
+      "hero_hires": 2,
+      "opp_hires": 12,
+      "hero_cash_delta_day30": 5646.0,
+      "opp_cash_delta_day30": 7565.0
+    },
+    "step720": {
+      "hero_reward": 63123.0,
+      "opp_reward": 63857.0,
+      "final_margin": -734.0
+    }
+  },
+  {
+    "seed": 12345,
+    "seat": 0,
+    "step695": {
+      "hero_cash": 117779.0,
+      "opp_cash": 117985.0,
+      "cash_delta": -206.0,
+      "hero_straw_tiles": 12,
+      "hero_straw_yield_units": 0,
+      "opp_straw_tiles": 11,
+      "opp_straw_yield_units": 0,
+      "p_straw": 198
+    },
+    "day30_activity": {
+      "hero_hires": 2,
+      "opp_hires": 12,
+      "hero_cash_delta_day30": 10096.0,
+      "opp_cash_delta_day30": 16105.0
+    },
+    "step720": {
+      "hero_reward": 127875.0,
+      "opp_reward": 134090.0,
+      "final_margin": -6215.0
+    }
+  },
+  {
+    "seed": 54321,
+    "seat": 0,
+    "step695": {
+      "hero_cash": 81915.0,
+      "opp_cash": 80696.0,
+      "cash_delta": 1219.0,
+      "hero_straw_tiles": 12,
+      "hero_straw_yield_units": 0,
+      "opp_straw_tiles": 12,
+      "opp_straw_yield_units": 0,
+      "p_straw": 202
+    },
+    "day30_activity": {
+      "hero_hires": 2,
+      "opp_hires": 12,
+      "hero_cash_delta_day30": 6571.0,
+      "opp_cash_delta_day30": 11631.0
+    },
+    "step720": {
+      "hero_reward": 88486.0,
+      "opp_reward": 92327.0,
+      "final_margin": -3841.0
+    }
+  }
+]
