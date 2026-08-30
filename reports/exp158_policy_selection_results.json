@@ -1,0 +1,7602 @@
+[
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 1000,
+    "seat": 0,
+    "arm_a": {
+      "hero": 87922.0,
+      "opp": 93383.0,
+      "won": false,
+      "margin": -5461.0
+    },
+    "arm_b": {
+      "hero": 87922.0,
+      "opp": 93383.0,
+      "won": false,
+      "margin": -5461.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 1260.0,
+        "o_cash": 1260.0,
+        "h_shed": {},
+        "p_straw": 164.0,
+        "p_milk": 205.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 1080.0,
+        "o_cash": 1080.0,
+        "h_shed": {},
+        "p_straw": 173.0,
+        "p_milk": 215.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2856.0,
+        "o_cash": 2856.0,
+        "h_shed": {},
+        "p_straw": 181.0,
+        "p_milk": 223.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 8137.0,
+        "o_cash": 8137.0,
+        "h_shed": {},
+        "p_straw": 188.0,
+        "p_milk": 226.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 13428.0,
+        "o_cash": 13428.0,
+        "h_shed": {},
+        "p_straw": 195.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 11643.0,
+        "o_cash": 11643.0,
+        "h_shed": {},
+        "p_straw": 201.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 19646.0,
+        "o_cash": 19646.0,
+        "h_shed": {},
+        "p_straw": 206.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 22701.0,
+        "o_cash": 22701.0,
+        "h_shed": {},
+        "p_straw": 210.0,
+        "p_milk": 223.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 25105.0,
+        "o_cash": 25105.0,
+        "h_shed": {},
+        "p_straw": 215.0,
+        "p_milk": 220.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 31399.0,
+        "o_cash": 31399.0,
+        "h_shed": {},
+        "p_straw": 215.0,
+        "p_milk": 212.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 37874.0,
+        "o_cash": 37874.0,
+        "h_shed": {},
+        "p_straw": 210.0,
+        "p_milk": 208.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 45072.0,
+        "o_cash": 45072.0,
+        "h_shed": {},
+        "p_straw": 201.0,
+        "p_milk": 193.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 53574.0,
+        "o_cash": 53574.0,
+        "h_shed": {},
+        "p_straw": 187.0,
+        "p_milk": 141.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 57767.0,
+        "o_cash": 57767.0,
+        "h_shed": {},
+        "p_straw": 176.0,
+        "p_milk": 141.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 67040.0,
+        "o_cash": 67040.0,
+        "h_shed": {},
+        "p_straw": 128.0,
+        "p_milk": 112.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 72496.0,
+        "o_cash": 72496.0,
+        "h_shed": {},
+        "p_straw": 62.0,
+        "p_milk": 89.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 74832.0,
+        "o_cash": 74832.0,
+        "h_shed": {},
+        "p_straw": 1.0,
+        "p_milk": 78.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 78777.0,
+        "o_cash": 78777.0,
+        "h_shed": {},
+        "p_straw": 7.0,
+        "p_milk": 55.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 79278.0,
+        "o_cash": 79278.0,
+        "h_shed": {},
+        "p_straw": 16.0,
+        "p_milk": 19.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 79424.0,
+        "o_cash": 79424.0,
+        "h_shed": {},
+        "p_straw": 1.0,
+        "p_milk": 13.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 79384.0,
+        "o_cash": 79384.0,
+        "h_shed": {},
+        "p_straw": 7.0,
+        "p_milk": 11.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 42,
+    "seat": 0,
+    "arm_a": {
+      "hero": 62463.0,
+      "opp": 69600.0,
+      "won": false,
+      "margin": -7137.0
+    },
+    "arm_b": {
+      "hero": 62463.0,
+      "opp": 69600.0,
+      "won": false,
+      "margin": -7137.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 323.0,
+        "o_cash": 323.0,
+        "h_shed": {},
+        "p_straw": 176.0,
+        "p_milk": 103.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 276.0,
+        "o_cash": 276.0,
+        "h_shed": {},
+        "p_straw": 181.0,
+        "p_milk": 105.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2196.0,
+        "o_cash": 2196.0,
+        "h_shed": {},
+        "p_straw": 185.0,
+        "p_milk": 108.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 5760.0,
+        "o_cash": 5760.0,
+        "h_shed": {},
+        "p_straw": 188.0,
+        "p_milk": 110.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 11154.0,
+        "o_cash": 11154.0,
+        "h_shed": {},
+        "p_straw": 192.0,
+        "p_milk": 53.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 7956.0,
+        "o_cash": 7956.0,
+        "h_shed": {},
+        "p_straw": 195.0,
+        "p_milk": 36.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 15279.0,
+        "o_cash": 15279.0,
+        "h_shed": {},
+        "p_straw": 198.0,
+        "p_milk": 17.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 18064.0,
+        "o_cash": 18064.0,
+        "h_shed": {},
+        "p_straw": 202.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 18767.0,
+        "o_cash": 18767.0,
+        "h_shed": {},
+        "p_straw": 208.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 21996.0,
+        "o_cash": 21996.0,
+        "h_shed": {},
+        "p_straw": 208.0,
+        "p_milk": 3.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 27247.0,
+        "o_cash": 27247.0,
+        "h_shed": {},
+        "p_straw": 203.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 31477.0,
+        "o_cash": 31477.0,
+        "h_shed": {},
+        "p_straw": 193.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 35480.0,
+        "o_cash": 35480.0,
+        "h_shed": {},
+        "p_straw": 181.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 38810.0,
+        "o_cash": 38810.0,
+        "h_shed": {},
+        "p_straw": 169.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 46333.0,
+        "o_cash": 46333.0,
+        "h_shed": {},
+        "p_straw": 103.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 50059.0,
+        "o_cash": 50059.0,
+        "h_shed": {},
+        "p_straw": 51.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 50386.0,
+        "o_cash": 50386.0,
+        "h_shed": {},
+        "p_straw": 1.0,
+        "p_milk": 15.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 54195.0,
+        "o_cash": 54195.0,
+        "h_shed": {},
+        "p_straw": 5.0,
+        "p_milk": 7.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 54074.0,
+        "o_cash": 54074.0,
+        "h_shed": {},
+        "p_straw": 11.0,
+        "p_milk": 5.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 53935.0,
+        "o_cash": 53935.0,
+        "h_shed": {},
+        "p_straw": 1.0,
+        "p_milk": 5.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 53842.0,
+        "o_cash": 53842.0,
+        "h_shed": {},
+        "p_straw": 5.0,
+        "p_milk": 5.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 100,
+    "seat": 0,
+    "arm_a": {
+      "hero": 92031.0,
+      "opp": 99162.0,
+      "won": false,
+      "margin": -7131.0
+    },
+    "arm_b": {
+      "hero": 92031.0,
+      "opp": 99162.0,
+      "won": false,
+      "margin": -7131.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 745.0,
+        "o_cash": 745.0,
+        "h_shed": {},
+        "p_straw": 164.0,
+        "p_milk": 141.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 745.0,
+        "o_cash": 745.0,
+        "h_shed": {},
+        "p_straw": 169.0,
+        "p_milk": 177.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2570.0,
+        "o_cash": 2570.0,
+        "h_shed": {},
+        "p_straw": 174.0,
+        "p_milk": 196.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 7936.0,
+        "o_cash": 7936.0,
+        "h_shed": {},
+        "p_straw": 178.0,
+        "p_milk": 200.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 13167.0,
+        "o_cash": 13167.0,
+        "h_shed": {},
+        "p_straw": 186.0,
+        "p_milk": 194.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 11305.0,
+        "o_cash": 11305.0,
+        "h_shed": {},
+        "p_straw": 192.0,
+        "p_milk": 194.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 20437.0,
+        "o_cash": 20437.0,
+        "h_shed": {},
+        "p_straw": 198.0,
+        "p_milk": 194.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 23770.0,
+        "o_cash": 23770.0,
+        "h_shed": {},
+        "p_straw": 205.0,
+        "p_milk": 195.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 26187.0,
+        "o_cash": 26187.0,
+        "h_shed": {},
+        "p_straw": 212.0,
+        "p_milk": 189.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 31965.0,
+        "o_cash": 31965.0,
+        "h_shed": {},
+        "p_straw": 215.0,
+        "p_milk": 160.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 38245.0,
+        "o_cash": 38245.0,
+        "h_shed": {},
+        "p_straw": 215.0,
+        "p_milk": 150.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 44673.0,
+        "o_cash": 44673.0,
+        "h_shed": {},
+        "p_straw": 211.0,
+        "p_milk": 114.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 51422.0,
+        "o_cash": 51422.0,
+        "h_shed": {},
+        "p_straw": 204.0,
+        "p_milk": 78.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 55523.0,
+        "o_cash": 55523.0,
+        "h_shed": {},
+        "p_straw": 201.0,
+        "p_milk": 80.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 65378.0,
+        "o_cash": 65378.0,
+        "h_shed": {},
+        "p_straw": 186.0,
+        "p_milk": 36.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 71865.0,
+        "o_cash": 71865.0,
+        "h_shed": {},
+        "p_straw": 173.0,
+        "p_milk": 15.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 76817.0,
+        "o_cash": 76817.0,
+        "h_shed": {},
+        "p_straw": 99.0,
+        "p_milk": 55.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 82671.0,
+        "o_cash": 82671.0,
+        "h_shed": {},
+        "p_straw": 24.0,
+        "p_milk": 7.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 82916.0,
+        "o_cash": 82916.0,
+        "h_shed": {},
+        "p_straw": 22.0,
+        "p_milk": 17.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 83262.0,
+        "o_cash": 83262.0,
+        "h_shed": {},
+        "p_straw": 3.0,
+        "p_milk": 19.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 83327.0,
+        "o_cash": 83327.0,
+        "h_shed": {},
+        "p_straw": 9.0,
+        "p_milk": 17.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 200,
+    "seat": 0,
+    "arm_a": {
+      "hero": 70900.0,
+      "opp": 71932.0,
+      "won": false,
+      "margin": -1032.0
+    },
+    "arm_b": {
+      "hero": 70900.0,
+      "opp": 71932.0,
+      "won": false,
+      "margin": -1032.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 1250.0,
+        "o_cash": 1250.0,
+        "h_shed": {},
+        "p_straw": 164.0,
+        "p_milk": 205.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 1061.0,
+        "o_cash": 1061.0,
+        "h_shed": {},
+        "p_straw": 173.0,
+        "p_milk": 215.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2808.0,
+        "o_cash": 2808.0,
+        "h_shed": {},
+        "p_straw": 181.0,
+        "p_milk": 223.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 8057.0,
+        "o_cash": 8057.0,
+        "h_shed": {},
+        "p_straw": 188.0,
+        "p_milk": 226.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 13325.0,
+        "o_cash": 13325.0,
+        "h_shed": {},
+        "p_straw": 195.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 11447.0,
+        "o_cash": 11447.0,
+        "h_shed": {},
+        "p_straw": 201.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 16780.0,
+        "o_cash": 16780.0,
+        "h_shed": {},
+        "p_straw": 206.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 19260.0,
+        "o_cash": 19260.0,
+        "h_shed": {},
+        "p_straw": 212.0,
+        "p_milk": 223.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 20972.0,
+        "o_cash": 20972.0,
+        "h_shed": {},
+        "p_straw": 219.0,
+        "p_milk": 220.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 25771.0,
+        "o_cash": 25771.0,
+        "h_shed": {},
+        "p_straw": 221.0,
+        "p_milk": 212.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 30583.0,
+        "o_cash": 30583.0,
+        "h_shed": {},
+        "p_straw": 219.0,
+        "p_milk": 208.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 35918.0,
+        "o_cash": 35918.0,
+        "h_shed": {},
+        "p_straw": 214.0,
+        "p_milk": 193.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 44744.0,
+        "o_cash": 44744.0,
+        "h_shed": {},
+        "p_straw": 204.0,
+        "p_milk": 141.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 49246.0,
+        "o_cash": 49246.0,
+        "h_shed": {},
+        "p_straw": 201.0,
+        "p_milk": 141.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 53709.0,
+        "o_cash": 53709.0,
+        "h_shed": {},
+        "p_straw": 186.0,
+        "p_milk": 112.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 60436.0,
+        "o_cash": 60436.0,
+        "h_shed": {},
+        "p_straw": 173.0,
+        "p_milk": 89.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 67112.0,
+        "o_cash": 67112.0,
+        "h_shed": {},
+        "p_straw": 99.0,
+        "p_milk": 78.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 67535.0,
+        "o_cash": 67535.0,
+        "h_shed": {},
+        "p_straw": 24.0,
+        "p_milk": 55.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 68791.0,
+        "o_cash": 68791.0,
+        "h_shed": {},
+        "p_straw": 24.0,
+        "p_milk": 19.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 68766.0,
+        "o_cash": 68766.0,
+        "h_shed": {},
+        "p_straw": 1.0,
+        "p_milk": 13.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 68806.0,
+        "o_cash": 68806.0,
+        "h_shed": {},
+        "p_straw": 9.0,
+        "p_milk": 11.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 300,
+    "seat": 0,
+    "arm_a": {
+      "hero": 83593.0,
+      "opp": 91703.0,
+      "won": false,
+      "margin": -8110.0
+    },
+    "arm_b": {
+      "hero": 83593.0,
+      "opp": 91703.0,
+      "won": false,
+      "margin": -8110.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 745.0,
+        "o_cash": 745.0,
+        "h_shed": {},
+        "p_straw": 164.0,
+        "p_milk": 141.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 748.0,
+        "o_cash": 748.0,
+        "h_shed": {},
+        "p_straw": 173.0,
+        "p_milk": 177.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2584.0,
+        "o_cash": 2584.0,
+        "h_shed": {},
+        "p_straw": 181.0,
+        "p_milk": 196.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 7967.0,
+        "o_cash": 7967.0,
+        "h_shed": {},
+        "p_straw": 188.0,
+        "p_milk": 200.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 11989.0,
+        "o_cash": 11989.0,
+        "h_shed": {},
+        "p_straw": 195.0,
+        "p_milk": 194.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 10221.0,
+        "o_cash": 10221.0,
+        "h_shed": {},
+        "p_straw": 201.0,
+        "p_milk": 194.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 19393.0,
+        "o_cash": 19393.0,
+        "h_shed": {},
+        "p_straw": 206.0,
+        "p_milk": 194.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 22835.0,
+        "o_cash": 22835.0,
+        "h_shed": {},
+        "p_straw": 210.0,
+        "p_milk": 195.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 25282.0,
+        "o_cash": 25282.0,
+        "h_shed": {},
+        "p_straw": 215.0,
+        "p_milk": 189.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 31133.0,
+        "o_cash": 31133.0,
+        "h_shed": {},
+        "p_straw": 215.0,
+        "p_milk": 160.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 37386.0,
+        "o_cash": 37386.0,
+        "h_shed": {},
+        "p_straw": 210.0,
+        "p_milk": 150.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 43793.0,
+        "o_cash": 43793.0,
+        "h_shed": {},
+        "p_straw": 201.0,
+        "p_milk": 114.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 50248.0,
+        "o_cash": 50248.0,
+        "h_shed": {},
+        "p_straw": 187.0,
+        "p_milk": 78.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 54156.0,
+        "o_cash": 54156.0,
+        "h_shed": {},
+        "p_straw": 179.0,
+        "p_milk": 80.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 63246.0,
+        "o_cash": 63246.0,
+        "h_shed": {},
+        "p_straw": 153.0,
+        "p_milk": 36.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 68442.0,
+        "o_cash": 68442.0,
+        "h_shed": {},
+        "p_straw": 101.0,
+        "p_milk": 15.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 70137.0,
+        "o_cash": 70137.0,
+        "h_shed": {},
+        "p_straw": 16.0,
+        "p_milk": 42.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 74580.0,
+        "o_cash": 74580.0,
+        "h_shed": {},
+        "p_straw": 7.0,
+        "p_milk": 7.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 74518.0,
+        "o_cash": 74518.0,
+        "h_shed": {},
+        "p_straw": 24.0,
+        "p_milk": 9.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 74992.0,
+        "o_cash": 74992.0,
+        "h_shed": {},
+        "p_straw": 1.0,
+        "p_milk": 13.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 75038.0,
+        "o_cash": 75038.0,
+        "h_shed": {},
+        "p_straw": 9.0,
+        "p_milk": 9.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 500,
+    "seat": 0,
+    "arm_a": {
+      "hero": 23612.0,
+      "opp": 25169.0,
+      "won": false,
+      "margin": -1557.0
+    },
+    "arm_b": {
+      "hero": 23612.0,
+      "opp": 25169.0,
+      "won": false,
+      "margin": -1557.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 261.0,
+        "o_cash": 261.0,
+        "h_shed": {},
+        "p_straw": 145.0,
+        "p_milk": 103.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 87.0,
+        "o_cash": 87.0,
+        "h_shed": {},
+        "p_straw": 147.0,
+        "p_milk": 105.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2115.0,
+        "o_cash": 2115.0,
+        "h_shed": {},
+        "p_straw": 148.0,
+        "p_milk": 108.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 5428.0,
+        "o_cash": 5428.0,
+        "h_shed": {},
+        "p_straw": 149.0,
+        "p_milk": 110.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 10519.0,
+        "o_cash": 10519.0,
+        "h_shed": {},
+        "p_straw": 150.0,
+        "p_milk": 53.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 7354.0,
+        "o_cash": 7354.0,
+        "h_shed": {},
+        "p_straw": 151.0,
+        "p_milk": 36.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 10827.0,
+        "o_cash": 10827.0,
+        "h_shed": {},
+        "p_straw": 153.0,
+        "p_milk": 17.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 12486.0,
+        "o_cash": 12486.0,
+        "h_shed": {},
+        "p_straw": 156.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 12241.0,
+        "o_cash": 12241.0,
+        "h_shed": {},
+        "p_straw": 162.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 13611.0,
+        "o_cash": 13611.0,
+        "h_shed": {},
+        "p_straw": 158.0,
+        "p_milk": 3.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 16015.0,
+        "o_cash": 16015.0,
+        "h_shed": {},
+        "p_straw": 132.0,
+        "p_milk": 9.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 16816.0,
+        "o_cash": 16816.0,
+        "h_shed": {},
+        "p_straw": 70.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 18244.0,
+        "o_cash": 18244.0,
+        "h_shed": {},
+        "p_straw": 18.0,
+        "p_milk": 9.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 18749.0,
+        "o_cash": 18749.0,
+        "h_shed": {},
+        "p_straw": 5.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 17772.0,
+        "o_cash": 17772.0,
+        "h_shed": {},
+        "p_straw": 1.0,
+        "p_milk": 5.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 19396.0,
+        "o_cash": 19396.0,
+        "h_shed": {},
+        "p_straw": 1.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 19375.0,
+        "o_cash": 19375.0,
+        "h_shed": {},
+        "p_straw": 1.0,
+        "p_milk": 15.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 19682.0,
+        "o_cash": 19682.0,
+        "h_shed": {},
+        "p_straw": 3.0,
+        "p_milk": 7.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 19569.0,
+        "o_cash": 19569.0,
+        "h_shed": {},
+        "p_straw": 12.0,
+        "p_milk": 9.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 19273.0,
+        "o_cash": 19273.0,
+        "h_shed": {},
+        "p_straw": 5.0,
+        "p_milk": 7.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 19193.0,
+        "o_cash": 19193.0,
+        "h_shed": {},
+        "p_straw": 5.0,
+        "p_milk": 5.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 1001,
+    "seat": 0,
+    "arm_a": {
+      "hero": 37074.0,
+      "opp": 37563.0,
+      "won": false,
+      "margin": -489.0
+    },
+    "arm_b": {
+      "hero": 37074.0,
+      "opp": 37563.0,
+      "won": false,
+      "margin": -489.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 261.0,
+        "o_cash": 261.0,
+        "h_shed": {},
+        "p_straw": 164.0,
+        "p_milk": 103.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 96.0,
+        "o_cash": 96.0,
+        "h_shed": {},
+        "p_straw": 169.0,
+        "p_milk": 105.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2132.0,
+        "o_cash": 2132.0,
+        "h_shed": {},
+        "p_straw": 174.0,
+        "p_milk": 108.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 5461.0,
+        "o_cash": 5461.0,
+        "h_shed": {},
+        "p_straw": 178.0,
+        "p_milk": 110.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 10516.0,
+        "o_cash": 10516.0,
+        "h_shed": {},
+        "p_straw": 182.0,
+        "p_milk": 53.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 7415.0,
+        "o_cash": 7415.0,
+        "h_shed": {},
+        "p_straw": 186.0,
+        "p_milk": 36.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 10875.0,
+        "o_cash": 10875.0,
+        "h_shed": {},
+        "p_straw": 190.0,
+        "p_milk": 17.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 12740.0,
+        "o_cash": 12740.0,
+        "h_shed": {},
+        "p_straw": 191.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 12604.0,
+        "o_cash": 12604.0,
+        "h_shed": {},
+        "p_straw": 195.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 14699.0,
+        "o_cash": 14699.0,
+        "h_shed": {},
+        "p_straw": 192.0,
+        "p_milk": 3.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 18362.0,
+        "o_cash": 18362.0,
+        "h_shed": {},
+        "p_straw": 186.0,
+        "p_milk": 9.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 20389.0,
+        "o_cash": 20389.0,
+        "h_shed": {},
+        "p_straw": 173.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 23976.0,
+        "o_cash": 23976.0,
+        "h_shed": {},
+        "p_straw": 157.0,
+        "p_milk": 9.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 26582.0,
+        "o_cash": 26582.0,
+        "h_shed": {},
+        "p_straw": 120.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 29870.0,
+        "o_cash": 29870.0,
+        "h_shed": {},
+        "p_straw": 53.0,
+        "p_milk": 5.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 32217.0,
+        "o_cash": 32217.0,
+        "h_shed": {},
+        "p_straw": 1.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 32307.0,
+        "o_cash": 32307.0,
+        "h_shed": {},
+        "p_straw": 1.0,
+        "p_milk": 28.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 32897.0,
+        "o_cash": 32897.0,
+        "h_shed": {},
+        "p_straw": 7.0,
+        "p_milk": 9.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 32839.0,
+        "o_cash": 32839.0,
+        "h_shed": {},
+        "p_straw": 16.0,
+        "p_milk": 15.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 32754.0,
+        "o_cash": 32754.0,
+        "h_shed": {},
+        "p_straw": 7.0,
+        "p_milk": 17.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 32768.0,
+        "o_cash": 32768.0,
+        "h_shed": {},
+        "p_straw": 7.0,
+        "p_milk": 11.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20042,
+    "seat": 0,
+    "arm_a": {
+      "hero": 63123.0,
+      "opp": 63857.0,
+      "won": false,
+      "margin": -734.0
+    },
+    "arm_b": {
+      "hero": 63123.0,
+      "opp": 63857.0,
+      "won": false,
+      "margin": -734.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 1046.0,
+        "o_cash": 1046.0,
+        "h_shed": {},
+        "p_straw": 164.0,
+        "p_milk": 186.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 857.0,
+        "o_cash": 857.0,
+        "h_shed": {},
+        "p_straw": 169.0,
+        "p_milk": 195.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2604.0,
+        "o_cash": 2604.0,
+        "h_shed": {},
+        "p_straw": 174.0,
+        "p_milk": 202.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 7648.0,
+        "o_cash": 7648.0,
+        "h_shed": {},
+        "p_straw": 178.0,
+        "p_milk": 200.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 12845.0,
+        "o_cash": 12845.0,
+        "h_shed": {},
+        "p_straw": 182.0,
+        "p_milk": 186.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 10689.0,
+        "o_cash": 10689.0,
+        "h_shed": {},
+        "p_straw": 186.0,
+        "p_milk": 175.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 18201.0,
+        "o_cash": 18201.0,
+        "h_shed": {},
+        "p_straw": 190.0,
+        "p_milk": 154.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 20936.0,
+        "o_cash": 20936.0,
+        "h_shed": {},
+        "p_straw": 194.0,
+        "p_milk": 156.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 22506.0,
+        "o_cash": 22506.0,
+        "h_shed": {},
+        "p_straw": 200.0,
+        "p_milk": 145.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 27077.0,
+        "o_cash": 27077.0,
+        "h_shed": {},
+        "p_straw": 201.0,
+        "p_milk": 122.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 32240.0,
+        "o_cash": 32240.0,
+        "h_shed": {},
+        "p_straw": 195.0,
+        "p_milk": 112.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 36749.0,
+        "o_cash": 36749.0,
+        "h_shed": {},
+        "p_straw": 184.0,
+        "p_milk": 76.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 42021.0,
+        "o_cash": 42021.0,
+        "h_shed": {},
+        "p_straw": 164.0,
+        "p_milk": 40.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 45235.0,
+        "o_cash": 45235.0,
+        "h_shed": {},
+        "p_straw": 151.0,
+        "p_milk": 55.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 50520.0,
+        "o_cash": 50520.0,
+        "h_shed": {},
+        "p_straw": 87.0,
+        "p_milk": 24.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 54594.0,
+        "o_cash": 54594.0,
+        "h_shed": {},
+        "p_straw": 24.0,
+        "p_milk": 15.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 54803.0,
+        "o_cash": 54803.0,
+        "h_shed": {},
+        "p_straw": 14.0,
+        "p_milk": 68.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 56921.0,
+        "o_cash": 56921.0,
+        "h_shed": {},
+        "p_straw": 9.0,
+        "p_milk": 30.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 57179.0,
+        "o_cash": 57179.0,
+        "h_shed": {},
+        "p_straw": 22.0,
+        "p_milk": 19.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 57097.0,
+        "o_cash": 57097.0,
+        "h_shed": {},
+        "p_straw": 9.0,
+        "p_milk": 34.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 57477.0,
+        "o_cash": 57477.0,
+        "h_shed": {},
+        "p_straw": 9.0,
+        "p_milk": 28.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 12345,
+    "seat": 0,
+    "arm_a": {
+      "hero": 127875.0,
+      "opp": 134090.0,
+      "won": false,
+      "margin": -6215.0
+    },
+    "arm_b": {
+      "hero": 127875.0,
+      "opp": 134090.0,
+      "won": false,
+      "margin": -6215.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 564.0,
+        "o_cash": 564.0,
+        "h_shed": {},
+        "p_straw": 187.0,
+        "p_milk": 141.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 378.0,
+        "o_cash": 378.0,
+        "h_shed": {},
+        "p_straw": 196.0,
+        "p_milk": 177.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2135.0,
+        "o_cash": 2135.0,
+        "h_shed": {},
+        "p_straw": 204.0,
+        "p_milk": 196.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 7131.0,
+        "o_cash": 7131.0,
+        "h_shed": {},
+        "p_straw": 212.0,
+        "p_milk": 200.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 12315.0,
+        "o_cash": 12315.0,
+        "h_shed": {},
+        "p_straw": 219.0,
+        "p_milk": 194.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 10289.0,
+        "o_cash": 10289.0,
+        "h_shed": {},
+        "p_straw": 226.0,
+        "p_milk": 194.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 18057.0,
+        "o_cash": 18057.0,
+        "h_shed": {},
+        "p_straw": 232.0,
+        "p_milk": 194.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 21080.0,
+        "o_cash": 21080.0,
+        "h_shed": {},
+        "p_straw": 238.0,
+        "p_milk": 201.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 23107.0,
+        "o_cash": 23107.0,
+        "h_shed": {},
+        "p_straw": 245.0,
+        "p_milk": 202.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 28878.0,
+        "o_cash": 28878.0,
+        "h_shed": {},
+        "p_straw": 249.0,
+        "p_milk": 197.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 35335.0,
+        "o_cash": 35335.0,
+        "h_shed": {},
+        "p_straw": 251.0,
+        "p_milk": 203.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 42185.0,
+        "o_cash": 42185.0,
+        "h_shed": {},
+        "p_straw": 250.0,
+        "p_milk": 199.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 52247.0,
+        "o_cash": 52247.0,
+        "h_shed": {},
+        "p_straw": 246.0,
+        "p_milk": 186.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 57732.0,
+        "o_cash": 57732.0,
+        "h_shed": {},
+        "p_straw": 246.0,
+        "p_milk": 205.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 69248.0,
+        "o_cash": 69248.0,
+        "h_shed": {},
+        "p_straw": 238.0,
+        "p_milk": 203.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 77589.0,
+        "o_cash": 77589.0,
+        "h_shed": {},
+        "p_straw": 234.0,
+        "p_milk": 214.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 89827.0,
+        "o_cash": 89827.0,
+        "h_shed": {},
+        "p_straw": 219.0,
+        "p_milk": 226.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 97528.0,
+        "o_cash": 97528.0,
+        "h_shed": {},
+        "p_straw": 207.0,
+        "p_milk": 233.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 105117.0,
+        "o_cash": 105117.0,
+        "h_shed": {},
+        "p_straw": 204.0,
+        "p_milk": 236.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 111370.0,
+        "o_cash": 111370.0,
+        "h_shed": {},
+        "p_straw": 198.0,
+        "p_milk": 245.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 117779.0,
+        "o_cash": 117779.0,
+        "h_shed": {},
+        "p_straw": 198.0,
+        "p_milk": 248.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 54321,
+    "seat": 0,
+    "arm_a": {
+      "hero": 88486.0,
+      "opp": 92327.0,
+      "won": false,
+      "margin": -3841.0
+    },
+    "arm_b": {
+      "hero": 88486.0,
+      "opp": 92327.0,
+      "won": false,
+      "margin": -3841.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 564.0,
+        "o_cash": 564.0,
+        "h_shed": {},
+        "p_straw": 187.0,
+        "p_milk": 141.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 375.0,
+        "o_cash": 375.0,
+        "h_shed": {},
+        "p_straw": 193.0,
+        "p_milk": 156.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2122.0,
+        "o_cash": 2122.0,
+        "h_shed": {},
+        "p_straw": 199.0,
+        "p_milk": 179.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 6884.0,
+        "o_cash": 6884.0,
+        "h_shed": {},
+        "p_straw": 205.0,
+        "p_milk": 175.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 11791.0,
+        "o_cash": 11791.0,
+        "h_shed": {},
+        "p_straw": 212.0,
+        "p_milk": 141.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 9294.0,
+        "o_cash": 9294.0,
+        "h_shed": {},
+        "p_straw": 219.0,
+        "p_milk": 129.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 13742.0,
+        "o_cash": 13742.0,
+        "h_shed": {},
+        "p_straw": 226.0,
+        "p_milk": 116.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 15990.0,
+        "o_cash": 15990.0,
+        "h_shed": {},
+        "p_straw": 233.0,
+        "p_milk": 118.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 16702.0,
+        "o_cash": 16702.0,
+        "h_shed": {},
+        "p_straw": 240.0,
+        "p_milk": 108.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 19201.0,
+        "o_cash": 19201.0,
+        "h_shed": {},
+        "p_straw": 244.0,
+        "p_milk": 97.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 24214.0,
+        "o_cash": 24214.0,
+        "h_shed": {},
+        "p_straw": 246.0,
+        "p_milk": 87.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 28237.0,
+        "o_cash": 28237.0,
+        "h_shed": {},
+        "p_straw": 245.0,
+        "p_milk": 63.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 34826.0,
+        "o_cash": 34826.0,
+        "h_shed": {},
+        "p_straw": 241.0,
+        "p_milk": 40.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 39743.0,
+        "o_cash": 39743.0,
+        "h_shed": {},
+        "p_straw": 241.0,
+        "p_milk": 59.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 44609.0,
+        "o_cash": 44609.0,
+        "h_shed": {},
+        "p_straw": 233.0,
+        "p_milk": 49.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 51961.0,
+        "o_cash": 51961.0,
+        "h_shed": {},
+        "p_straw": 228.0,
+        "p_milk": 51.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 61851.0,
+        "o_cash": 61851.0,
+        "h_shed": {},
+        "p_straw": 215.0,
+        "p_milk": 78.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 67200.0,
+        "o_cash": 67200.0,
+        "h_shed": {},
+        "p_straw": 204.0,
+        "p_milk": 93.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 72595.0,
+        "o_cash": 72595.0,
+        "h_shed": {},
+        "p_straw": 203.0,
+        "p_milk": 95.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 77420.0,
+        "o_cash": 77420.0,
+        "h_shed": {},
+        "p_straw": 199.0,
+        "p_milk": 122.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 81915.0,
+        "o_cash": 81915.0,
+        "h_shed": {},
+        "p_straw": 202.0,
+        "p_milk": 124.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20001,
+    "seat": 1,
+    "arm_a": {
+      "hero": 80809.0,
+      "opp": 94607.0,
+      "won": false,
+      "margin": -13798.0
+    },
+    "arm_b": {
+      "hero": 80809.0,
+      "opp": 94607.0,
+      "won": false,
+      "margin": -13798.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 345.0,
+        "o_cash": 345.0,
+        "h_shed": {},
+        "p_straw": 187.0,
+        "p_milk": 103.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 159.0,
+        "o_cash": 159.0,
+        "h_shed": {},
+        "p_straw": 193.0,
+        "p_milk": 118.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2065.0,
+        "o_cash": 2065.0,
+        "h_shed": {},
+        "p_straw": 199.0,
+        "p_milk": 133.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 5446.0,
+        "o_cash": 5446.0,
+        "h_shed": {},
+        "p_straw": 205.0,
+        "p_milk": 129.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 11318.0,
+        "o_cash": 11318.0,
+        "h_shed": {},
+        "p_straw": 212.0,
+        "p_milk": 116.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 8591.0,
+        "o_cash": 8591.0,
+        "h_shed": {},
+        "p_straw": 219.0,
+        "p_milk": 122.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 12509.0,
+        "o_cash": 12509.0,
+        "h_shed": {},
+        "p_straw": 226.0,
+        "p_milk": 129.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 14705.0,
+        "o_cash": 14705.0,
+        "h_shed": {},
+        "p_straw": 231.0,
+        "p_milk": 131.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 15487.0,
+        "o_cash": 15487.0,
+        "h_shed": {},
+        "p_straw": 237.0,
+        "p_milk": 126.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 19152.0,
+        "o_cash": 19152.0,
+        "h_shed": {},
+        "p_straw": 239.0,
+        "p_milk": 103.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 22587.0,
+        "o_cash": 22587.0,
+        "h_shed": {},
+        "p_straw": 239.0,
+        "p_milk": 112.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 28461.0,
+        "o_cash": 28461.0,
+        "h_shed": {},
+        "p_straw": 236.0,
+        "p_milk": 89.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 33907.0,
+        "o_cash": 33907.0,
+        "h_shed": {},
+        "p_straw": 234.0,
+        "p_milk": 72.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 39019.0,
+        "o_cash": 39019.0,
+        "h_shed": {},
+        "p_straw": 234.0,
+        "p_milk": 91.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 43687.0,
+        "o_cash": 43687.0,
+        "h_shed": {},
+        "p_straw": 227.0,
+        "p_milk": 87.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 50842.0,
+        "o_cash": 50842.0,
+        "h_shed": {},
+        "p_straw": 225.0,
+        "p_milk": 89.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 59088.0,
+        "o_cash": 59088.0,
+        "h_shed": {},
+        "p_straw": 212.0,
+        "p_milk": 122.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 65639.0,
+        "o_cash": 65639.0,
+        "h_shed": {},
+        "p_straw": 206.0,
+        "p_milk": 137.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 71481.0,
+        "o_cash": 71481.0,
+        "h_shed": {},
+        "p_straw": 206.0,
+        "p_milk": 145.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 76373.0,
+        "o_cash": 76373.0,
+        "h_shed": {},
+        "p_straw": 205.0,
+        "p_milk": 181.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 81657.0,
+        "o_cash": 81657.0,
+        "h_shed": {},
+        "p_straw": 208.0,
+        "p_milk": 187.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20010,
+    "seat": 1,
+    "arm_a": {
+      "hero": 36383.0,
+      "opp": 39970.0,
+      "won": false,
+      "margin": -3587.0
+    },
+    "arm_b": {
+      "hero": 36383.0,
+      "opp": 39970.0,
+      "won": false,
+      "margin": -3587.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 339.0,
+        "o_cash": 339.0,
+        "h_shed": {},
+        "p_straw": 164.0,
+        "p_milk": 103.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 153.0,
+        "o_cash": 153.0,
+        "h_shed": {},
+        "p_straw": 169.0,
+        "p_milk": 105.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2054.0,
+        "o_cash": 2054.0,
+        "h_shed": {},
+        "p_straw": 174.0,
+        "p_milk": 108.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 5329.0,
+        "o_cash": 5329.0,
+        "h_shed": {},
+        "p_straw": 178.0,
+        "p_milk": 110.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 10491.0,
+        "o_cash": 10491.0,
+        "h_shed": {},
+        "p_straw": 182.0,
+        "p_milk": 53.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 7358.0,
+        "o_cash": 7358.0,
+        "h_shed": {},
+        "p_straw": 186.0,
+        "p_milk": 36.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 10798.0,
+        "o_cash": 10798.0,
+        "h_shed": {},
+        "p_straw": 190.0,
+        "p_milk": 17.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 11888.0,
+        "o_cash": 11888.0,
+        "h_shed": {},
+        "p_straw": 191.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 11724.0,
+        "o_cash": 11724.0,
+        "h_shed": {},
+        "p_straw": 195.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 14588.0,
+        "o_cash": 14588.0,
+        "h_shed": {},
+        "p_straw": 192.0,
+        "p_milk": 3.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 16972.0,
+        "o_cash": 16972.0,
+        "h_shed": {},
+        "p_straw": 186.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 20168.0,
+        "o_cash": 20168.0,
+        "h_shed": {},
+        "p_straw": 173.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 23453.0,
+        "o_cash": 23453.0,
+        "h_shed": {},
+        "p_straw": 158.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 26215.0,
+        "o_cash": 26215.0,
+        "h_shed": {},
+        "p_straw": 144.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 28895.0,
+        "o_cash": 28895.0,
+        "h_shed": {},
+        "p_straw": 84.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 31747.0,
+        "o_cash": 31747.0,
+        "h_shed": {},
+        "p_straw": 36.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 32016.0,
+        "o_cash": 32016.0,
+        "h_shed": {},
+        "p_straw": 3.0,
+        "p_milk": 3.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 32277.0,
+        "o_cash": 32277.0,
+        "h_shed": {},
+        "p_straw": 5.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 32202.0,
+        "o_cash": 32202.0,
+        "h_shed": {},
+        "p_straw": 18.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 32035.0,
+        "o_cash": 32035.0,
+        "h_shed": {},
+        "p_straw": 7.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 32015.0,
+        "o_cash": 32015.0,
+        "h_shed": {},
+        "p_straw": 7.0,
+        "p_milk": 1.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20020,
+    "seat": 1,
+    "arm_a": {
+      "hero": 107919.0,
+      "opp": 113168.0,
+      "won": false,
+      "margin": -5249.0
+    },
+    "arm_b": {
+      "hero": 107919.0,
+      "opp": 113168.0,
+      "won": false,
+      "margin": -5249.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 1280.0,
+        "o_cash": 1280.0,
+        "h_shed": {},
+        "p_straw": 187.0,
+        "p_milk": 205.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 1125.0,
+        "o_cash": 1125.0,
+        "h_shed": {},
+        "p_straw": 196.0,
+        "p_milk": 215.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2950.0,
+        "o_cash": 2950.0,
+        "h_shed": {},
+        "p_straw": 204.0,
+        "p_milk": 223.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 6299.0,
+        "o_cash": 6299.0,
+        "h_shed": {},
+        "p_straw": 212.0,
+        "p_milk": 226.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 13468.0,
+        "o_cash": 13468.0,
+        "h_shed": {},
+        "p_straw": 219.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 11593.0,
+        "o_cash": 11593.0,
+        "h_shed": {},
+        "p_straw": 226.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 15773.0,
+        "o_cash": 15773.0,
+        "h_shed": {},
+        "p_straw": 232.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 18776.0,
+        "o_cash": 18776.0,
+        "h_shed": {},
+        "p_straw": 236.0,
+        "p_milk": 223.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 20486.0,
+        "o_cash": 20486.0,
+        "h_shed": {},
+        "p_straw": 242.0,
+        "p_milk": 220.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 25072.0,
+        "o_cash": 25072.0,
+        "h_shed": {},
+        "p_straw": 244.0,
+        "p_milk": 212.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 29813.0,
+        "o_cash": 29813.0,
+        "h_shed": {},
+        "p_straw": 244.0,
+        "p_milk": 213.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 37379.0,
+        "o_cash": 37379.0,
+        "h_shed": {},
+        "p_straw": 241.0,
+        "p_milk": 204.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 45947.0,
+        "o_cash": 45947.0,
+        "h_shed": {},
+        "p_straw": 235.0,
+        "p_milk": 186.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 51796.0,
+        "o_cash": 51796.0,
+        "h_shed": {},
+        "p_straw": 233.0,
+        "p_milk": 200.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 58679.0,
+        "o_cash": 58679.0,
+        "h_shed": {},
+        "p_straw": 223.0,
+        "p_milk": 191.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 67391.0,
+        "o_cash": 67391.0,
+        "h_shed": {},
+        "p_straw": 216.0,
+        "p_milk": 199.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 74989.0,
+        "o_cash": 74989.0,
+        "h_shed": {},
+        "p_straw": 197.0,
+        "p_milk": 210.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 83931.0,
+        "o_cash": 83931.0,
+        "h_shed": {},
+        "p_straw": 181.0,
+        "p_milk": 215.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 90317.0,
+        "o_cash": 90317.0,
+        "h_shed": {},
+        "p_straw": 175.0,
+        "p_milk": 216.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 95379.0,
+        "o_cash": 95379.0,
+        "h_shed": {},
+        "p_straw": 164.0,
+        "p_milk": 224.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 100890.0,
+        "o_cash": 100890.0,
+        "h_shed": {},
+        "p_straw": 165.0,
+        "p_milk": 224.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20030,
+    "seat": 1,
+    "arm_a": {
+      "hero": 70980.0,
+      "opp": 78310.0,
+      "won": false,
+      "margin": -7330.0
+    },
+    "arm_b": {
+      "hero": 70980.0,
+      "opp": 78310.0,
+      "won": false,
+      "margin": -7330.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 1043.0,
+        "o_cash": 1043.0,
+        "h_shed": {},
+        "p_straw": 164.0,
+        "p_milk": 186.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 857.0,
+        "o_cash": 857.0,
+        "h_shed": {},
+        "p_straw": 173.0,
+        "p_milk": 201.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2614.0,
+        "o_cash": 2614.0,
+        "h_shed": {},
+        "p_straw": 181.0,
+        "p_milk": 211.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 5889.0,
+        "o_cash": 5889.0,
+        "h_shed": {},
+        "p_straw": 188.0,
+        "p_milk": 214.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 13037.0,
+        "o_cash": 13037.0,
+        "h_shed": {},
+        "p_straw": 197.0,
+        "p_milk": 210.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 10909.0,
+        "o_cash": 10909.0,
+        "h_shed": {},
+        "p_straw": 206.0,
+        "p_milk": 210.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 15072.0,
+        "o_cash": 15072.0,
+        "h_shed": {},
+        "p_straw": 213.0,
+        "p_milk": 210.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 17940.0,
+        "o_cash": 17940.0,
+        "h_shed": {},
+        "p_straw": 219.0,
+        "p_milk": 211.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 19501.0,
+        "o_cash": 19501.0,
+        "h_shed": {},
+        "p_straw": 225.0,
+        "p_milk": 207.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 23817.0,
+        "o_cash": 23817.0,
+        "h_shed": {},
+        "p_straw": 228.0,
+        "p_milk": 197.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 28189.0,
+        "o_cash": 28189.0,
+        "h_shed": {},
+        "p_straw": 226.0,
+        "p_milk": 191.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 34839.0,
+        "o_cash": 34839.0,
+        "h_shed": {},
+        "p_straw": 220.0,
+        "p_milk": 152.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 41846.0,
+        "o_cash": 41846.0,
+        "h_shed": {},
+        "p_straw": 211.0,
+        "p_milk": 103.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 46570.0,
+        "o_cash": 46570.0,
+        "h_shed": {},
+        "p_straw": 208.0,
+        "p_milk": 103.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 50985.0,
+        "o_cash": 50985.0,
+        "h_shed": {},
+        "p_straw": 195.0,
+        "p_milk": 74.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 57524.0,
+        "o_cash": 57524.0,
+        "h_shed": {},
+        "p_straw": 185.0,
+        "p_milk": 53.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 63519.0,
+        "o_cash": 63519.0,
+        "h_shed": {},
+        "p_straw": 144.0,
+        "p_milk": 80.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 66781.0,
+        "o_cash": 66781.0,
+        "h_shed": {},
+        "p_straw": 64.0,
+        "p_milk": 17.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 68280.0,
+        "o_cash": 68280.0,
+        "h_shed": {},
+        "p_straw": 36.0,
+        "p_milk": 13.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 68812.0,
+        "o_cash": 68812.0,
+        "h_shed": {},
+        "p_straw": 11.0,
+        "p_milk": 13.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 69001.0,
+        "o_cash": 69001.0,
+        "h_shed": {},
+        "p_straw": 9.0,
+        "p_milk": 17.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20040,
+    "seat": 1,
+    "arm_a": {
+      "hero": 74715.0,
+      "opp": 77728.0,
+      "won": false,
+      "margin": -3013.0
+    },
+    "arm_b": {
+      "hero": 74715.0,
+      "opp": 77728.0,
+      "won": false,
+      "margin": -3013.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 848.0,
+        "o_cash": 848.0,
+        "h_shed": {},
+        "p_straw": 176.0,
+        "p_milk": 186.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 663.0,
+        "o_cash": 663.0,
+        "h_shed": {},
+        "p_straw": 184.0,
+        "p_milk": 201.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2334.0,
+        "o_cash": 2334.0,
+        "h_shed": {},
+        "p_straw": 191.0,
+        "p_milk": 211.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 4390.0,
+        "o_cash": 4390.0,
+        "h_shed": {},
+        "p_straw": 197.0,
+        "p_milk": 214.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 11621.0,
+        "o_cash": 11621.0,
+        "h_shed": {},
+        "p_straw": 203.0,
+        "p_milk": 210.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 9462.0,
+        "o_cash": 9462.0,
+        "h_shed": {},
+        "p_straw": 208.0,
+        "p_milk": 210.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 14104.0,
+        "o_cash": 14104.0,
+        "h_shed": {},
+        "p_straw": 213.0,
+        "p_milk": 210.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 16921.0,
+        "o_cash": 16921.0,
+        "h_shed": {},
+        "p_straw": 217.0,
+        "p_milk": 211.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 18435.0,
+        "o_cash": 18435.0,
+        "h_shed": {},
+        "p_straw": 221.0,
+        "p_milk": 207.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 22626.0,
+        "o_cash": 22626.0,
+        "h_shed": {},
+        "p_straw": 221.0,
+        "p_milk": 197.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 27272.0,
+        "o_cash": 27272.0,
+        "h_shed": {},
+        "p_straw": 220.0,
+        "p_milk": 198.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 34038.0,
+        "o_cash": 34038.0,
+        "h_shed": {},
+        "p_straw": 214.0,
+        "p_milk": 185.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 41357.0,
+        "o_cash": 41357.0,
+        "h_shed": {},
+        "p_straw": 204.0,
+        "p_milk": 141.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 46496.0,
+        "o_cash": 46496.0,
+        "h_shed": {},
+        "p_straw": 202.0,
+        "p_milk": 154.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 51191.0,
+        "o_cash": 51191.0,
+        "h_shed": {},
+        "p_straw": 188.0,
+        "p_milk": 124.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 58387.0,
+        "o_cash": 58387.0,
+        "h_shed": {},
+        "p_straw": 178.0,
+        "p_milk": 126.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 63661.0,
+        "o_cash": 63661.0,
+        "h_shed": {},
+        "p_straw": 112.0,
+        "p_milk": 129.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 66764.0,
+        "o_cash": 66764.0,
+        "h_shed": {},
+        "p_straw": 41.0,
+        "p_milk": 118.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 68828.0,
+        "o_cash": 68828.0,
+        "h_shed": {},
+        "p_straw": 24.0,
+        "p_milk": 95.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 69732.0,
+        "o_cash": 69732.0,
+        "h_shed": {},
+        "p_straw": 1.0,
+        "p_milk": 97.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 71068.0,
+        "o_cash": 71068.0,
+        "h_shed": {},
+        "p_straw": 9.0,
+        "p_milk": 74.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20050,
+    "seat": 1,
+    "arm_a": {
+      "hero": 79033.0,
+      "opp": 75939.0,
+      "won": true,
+      "margin": 3094.0
+    },
+    "arm_b": {
+      "hero": 79033.0,
+      "opp": 75939.0,
+      "won": true,
+      "margin": 3094.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 262.0,
+        "o_cash": 262.0,
+        "h_shed": {},
+        "p_straw": 176.0,
+        "p_milk": 103.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 76.0,
+        "o_cash": 76.0,
+        "h_shed": {},
+        "p_straw": 184.0,
+        "p_milk": 105.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 546.0,
+        "o_cash": 546.0,
+        "h_shed": {},
+        "p_straw": 191.0,
+        "p_milk": 108.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 3849.0,
+        "o_cash": 3849.0,
+        "h_shed": {},
+        "p_straw": 197.0,
+        "p_milk": 110.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 9245.0,
+        "o_cash": 9245.0,
+        "h_shed": {},
+        "p_straw": 203.0,
+        "p_milk": 53.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 6087.0,
+        "o_cash": 6087.0,
+        "h_shed": {},
+        "p_straw": 208.0,
+        "p_milk": 40.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 12049.0,
+        "o_cash": 12049.0,
+        "h_shed": {},
+        "p_straw": 213.0,
+        "p_milk": 28.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 13720.0,
+        "o_cash": 13720.0,
+        "h_shed": {},
+        "p_straw": 219.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 13957.0,
+        "o_cash": 13957.0,
+        "h_shed": {},
+        "p_straw": 225.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 17690.0,
+        "o_cash": 17690.0,
+        "h_shed": {},
+        "p_straw": 228.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 21090.0,
+        "o_cash": 21090.0,
+        "h_shed": {},
+        "p_straw": 228.0,
+        "p_milk": 7.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 26066.0,
+        "o_cash": 26066.0,
+        "h_shed": {},
+        "p_straw": 225.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 30177.0,
+        "o_cash": 30177.0,
+        "h_shed": {},
+        "p_straw": 222.0,
+        "p_milk": 11.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 33960.0,
+        "o_cash": 33960.0,
+        "h_shed": {},
+        "p_straw": 220.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 39932.0,
+        "o_cash": 39932.0,
+        "h_shed": {},
+        "p_straw": 210.0,
+        "p_milk": 5.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 45515.0,
+        "o_cash": 45515.0,
+        "h_shed": {},
+        "p_straw": 206.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 51971.0,
+        "o_cash": 51971.0,
+        "h_shed": {},
+        "p_straw": 187.0,
+        "p_milk": 15.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 57560.0,
+        "o_cash": 57560.0,
+        "h_shed": {},
+        "p_straw": 176.0,
+        "p_milk": 7.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 60117.0,
+        "o_cash": 60117.0,
+        "h_shed": {},
+        "p_straw": 173.0,
+        "p_milk": 5.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 62780.0,
+        "o_cash": 62780.0,
+        "h_shed": {},
+        "p_straw": 168.0,
+        "p_milk": 7.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 64987.0,
+        "o_cash": 64987.0,
+        "h_shed": {},
+        "p_straw": 170.0,
+        "p_milk": 5.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20060,
+    "seat": 1,
+    "arm_a": {
+      "hero": 82373.0,
+      "opp": 84411.0,
+      "won": false,
+      "margin": -2038.0
+    },
+    "arm_b": {
+      "hero": 82373.0,
+      "opp": 84411.0,
+      "won": false,
+      "margin": -2038.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 339.0,
+        "o_cash": 339.0,
+        "h_shed": {},
+        "p_straw": 187.0,
+        "p_milk": 103.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 150.0,
+        "o_cash": 150.0,
+        "h_shed": {},
+        "p_straw": 196.0,
+        "p_milk": 118.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2130.0,
+        "o_cash": 2130.0,
+        "h_shed": {},
+        "p_straw": 204.0,
+        "p_milk": 133.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 5392.0,
+        "o_cash": 5392.0,
+        "h_shed": {},
+        "p_straw": 212.0,
+        "p_milk": 129.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 11116.0,
+        "o_cash": 11116.0,
+        "h_shed": {},
+        "p_straw": 221.0,
+        "p_milk": 103.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 8256.0,
+        "o_cash": 8256.0,
+        "h_shed": {},
+        "p_straw": 230.0,
+        "p_milk": 93.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 11949.0,
+        "o_cash": 11949.0,
+        "h_shed": {},
+        "p_straw": 237.0,
+        "p_milk": 91.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 13678.0,
+        "o_cash": 13678.0,
+        "h_shed": {},
+        "p_straw": 245.0,
+        "p_milk": 80.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 14021.0,
+        "o_cash": 14021.0,
+        "h_shed": {},
+        "p_straw": 254.0,
+        "p_milk": 70.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 17248.0,
+        "o_cash": 17248.0,
+        "h_shed": {},
+        "p_straw": 259.0,
+        "p_milk": 59.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 20231.0,
+        "o_cash": 20231.0,
+        "h_shed": {},
+        "p_straw": 260.0,
+        "p_milk": 36.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 25380.0,
+        "o_cash": 25380.0,
+        "h_shed": {},
+        "p_straw": 259.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 30168.0,
+        "o_cash": 30168.0,
+        "h_shed": {},
+        "p_straw": 258.0,
+        "p_milk": 19.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 34938.0,
+        "o_cash": 34938.0,
+        "h_shed": {},
+        "p_straw": 258.0,
+        "p_milk": 34.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 39329.0,
+        "o_cash": 39329.0,
+        "h_shed": {},
+        "p_straw": 252.0,
+        "p_milk": 15.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 45915.0,
+        "o_cash": 45915.0,
+        "h_shed": {},
+        "p_straw": 250.0,
+        "p_milk": 7.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 54945.0,
+        "o_cash": 54945.0,
+        "h_shed": {},
+        "p_straw": 236.0,
+        "p_milk": 47.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 60790.0,
+        "o_cash": 60790.0,
+        "h_shed": {},
+        "p_straw": 228.0,
+        "p_milk": 7.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 65202.0,
+        "o_cash": 65202.0,
+        "h_shed": {},
+        "p_straw": 225.0,
+        "p_milk": 17.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 69501.0,
+        "o_cash": 69501.0,
+        "h_shed": {},
+        "p_straw": 221.0,
+        "p_milk": 19.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 72755.0,
+        "o_cash": 72755.0,
+        "h_shed": {},
+        "p_straw": 222.0,
+        "p_milk": 17.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20070,
+    "seat": 1,
+    "arm_a": {
+      "hero": 105398.0,
+      "opp": 113914.0,
+      "won": false,
+      "margin": -8516.0
+    },
+    "arm_b": {
+      "hero": 105398.0,
+      "opp": 113914.0,
+      "won": false,
+      "margin": -8516.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 1257.0,
+        "o_cash": 1257.0,
+        "h_shed": {},
+        "p_straw": 164.0,
+        "p_milk": 205.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 1131.0,
+        "o_cash": 1131.0,
+        "h_shed": {},
+        "p_straw": 169.0,
+        "p_milk": 215.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2914.0,
+        "o_cash": 2914.0,
+        "h_shed": {},
+        "p_straw": 174.0,
+        "p_milk": 223.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 6439.0,
+        "o_cash": 6439.0,
+        "h_shed": {},
+        "p_straw": 178.0,
+        "p_milk": 226.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 13903.0,
+        "o_cash": 13903.0,
+        "h_shed": {},
+        "p_straw": 186.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 11944.0,
+        "o_cash": 11944.0,
+        "h_shed": {},
+        "p_straw": 192.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 19882.0,
+        "o_cash": 19882.0,
+        "h_shed": {},
+        "p_straw": 198.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 23691.0,
+        "o_cash": 23691.0,
+        "h_shed": {},
+        "p_straw": 205.0,
+        "p_milk": 223.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 26209.0,
+        "o_cash": 26209.0,
+        "h_shed": {},
+        "p_straw": 212.0,
+        "p_milk": 220.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 32097.0,
+        "o_cash": 32097.0,
+        "h_shed": {},
+        "p_straw": 215.0,
+        "p_milk": 212.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 38332.0,
+        "o_cash": 38332.0,
+        "h_shed": {},
+        "p_straw": 213.0,
+        "p_milk": 213.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 47008.0,
+        "o_cash": 47008.0,
+        "h_shed": {},
+        "p_straw": 206.0,
+        "p_milk": 204.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 54761.0,
+        "o_cash": 54761.0,
+        "h_shed": {},
+        "p_straw": 196.0,
+        "p_milk": 186.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 59894.0,
+        "o_cash": 59894.0,
+        "h_shed": {},
+        "p_straw": 189.0,
+        "p_milk": 194.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 70515.0,
+        "o_cash": 70515.0,
+        "h_shed": {},
+        "p_straw": 167.0,
+        "p_milk": 169.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 78187.0,
+        "o_cash": 78187.0,
+        "h_shed": {},
+        "p_straw": 137.0,
+        "p_milk": 172.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 80593.0,
+        "o_cash": 80593.0,
+        "h_shed": {},
+        "p_straw": 30.0,
+        "p_milk": 186.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 88049.0,
+        "o_cash": 88049.0,
+        "h_shed": {},
+        "p_straw": 9.0,
+        "p_milk": 187.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 90513.0,
+        "o_cash": 90513.0,
+        "h_shed": {},
+        "p_straw": 22.0,
+        "p_milk": 179.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 92294.0,
+        "o_cash": 92294.0,
+        "h_shed": {},
+        "p_straw": 3.0,
+        "p_milk": 190.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 94832.0,
+        "o_cash": 94832.0,
+        "h_shed": {},
+        "p_straw": 9.0,
+        "p_milk": 183.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20080,
+    "seat": 1,
+    "arm_a": {
+      "hero": 52207.0,
+      "opp": 56962.0,
+      "won": false,
+      "margin": -4755.0
+    },
+    "arm_b": {
+      "hero": 52207.0,
+      "opp": 56962.0,
+      "won": false,
+      "margin": -4755.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 339.0,
+        "o_cash": 339.0,
+        "h_shed": {},
+        "p_straw": 164.0,
+        "p_milk": 103.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 150.0,
+        "o_cash": 150.0,
+        "h_shed": {},
+        "p_straw": 169.0,
+        "p_milk": 105.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2130.0,
+        "o_cash": 2130.0,
+        "h_shed": {},
+        "p_straw": 174.0,
+        "p_milk": 108.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 5392.0,
+        "o_cash": 5392.0,
+        "h_shed": {},
+        "p_straw": 178.0,
+        "p_milk": 110.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 10583.0,
+        "o_cash": 10583.0,
+        "h_shed": {},
+        "p_straw": 186.0,
+        "p_milk": 53.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 7381.0,
+        "o_cash": 7381.0,
+        "h_shed": {},
+        "p_straw": 192.0,
+        "p_milk": 36.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 10828.0,
+        "o_cash": 10828.0,
+        "h_shed": {},
+        "p_straw": 198.0,
+        "p_milk": 17.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 11877.0,
+        "o_cash": 11877.0,
+        "h_shed": {},
+        "p_straw": 205.0,
+        "p_milk": 7.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 11616.0,
+        "o_cash": 11616.0,
+        "h_shed": {},
+        "p_straw": 212.0,
+        "p_milk": 9.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 14046.0,
+        "o_cash": 14046.0,
+        "h_shed": {},
+        "p_straw": 215.0,
+        "p_milk": 15.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 16104.0,
+        "o_cash": 16104.0,
+        "h_shed": {},
+        "p_straw": 215.0,
+        "p_milk": 13.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 19994.0,
+        "o_cash": 19994.0,
+        "h_shed": {},
+        "p_straw": 211.0,
+        "p_milk": 1.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 23983.0,
+        "o_cash": 23983.0,
+        "h_shed": {},
+        "p_straw": 208.0,
+        "p_milk": 22.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 27942.0,
+        "o_cash": 27942.0,
+        "h_shed": {},
+        "p_straw": 206.0,
+        "p_milk": 36.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 30938.0,
+        "o_cash": 30938.0,
+        "h_shed": {},
+        "p_straw": 194.0,
+        "p_milk": 17.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 36324.0,
+        "o_cash": 36324.0,
+        "h_shed": {},
+        "p_straw": 186.0,
+        "p_milk": 9.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 42529.0,
+        "o_cash": 42529.0,
+        "h_shed": {},
+        "p_straw": 157.0,
+        "p_milk": 49.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 45076.0,
+        "o_cash": 45076.0,
+        "h_shed": {},
+        "p_straw": 112.0,
+        "p_milk": 7.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 46823.0,
+        "o_cash": 46823.0,
+        "h_shed": {},
+        "p_straw": 95.0,
+        "p_milk": 19.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 48670.0,
+        "o_cash": 48670.0,
+        "h_shed": {},
+        "p_straw": 78.0,
+        "p_milk": 22.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 50044.0,
+        "o_cash": 50044.0,
+        "h_shed": {},
+        "p_straw": 85.0,
+        "p_milk": 26.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_v18_mirror",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20090,
+    "seat": 1,
+    "arm_a": {
+      "hero": 99058.0,
+      "opp": 102409.0,
+      "won": false,
+      "margin": -3351.0
+    },
+    "arm_b": {
+      "hero": 99058.0,
+      "opp": 102409.0,
+      "won": false,
+      "margin": -3351.0
+    },
+    "mirror_trace": [
+      {
+        "step": 216,
+        "day": 9,
+        "h_cash": 1247.0,
+        "o_cash": 1247.0,
+        "h_shed": {},
+        "p_straw": 164.0,
+        "p_milk": 205.0
+      },
+      {
+        "step": 240,
+        "day": 10,
+        "h_cash": 1058.0,
+        "o_cash": 1058.0,
+        "h_shed": {},
+        "p_straw": 173.0,
+        "p_milk": 215.0
+      },
+      {
+        "step": 264,
+        "day": 11,
+        "h_cash": 2805.0,
+        "o_cash": 2805.0,
+        "h_shed": {},
+        "p_straw": 181.0,
+        "p_milk": 223.0
+      },
+      {
+        "step": 288,
+        "day": 12,
+        "h_cash": 6067.0,
+        "o_cash": 6067.0,
+        "h_shed": {},
+        "p_straw": 188.0,
+        "p_milk": 226.0
+      },
+      {
+        "step": 312,
+        "day": 13,
+        "h_cash": 13411.0,
+        "o_cash": 13411.0,
+        "h_shed": {},
+        "p_straw": 197.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 336,
+        "day": 14,
+        "h_cash": 11299.0,
+        "o_cash": 11299.0,
+        "h_shed": {},
+        "p_straw": 206.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 360,
+        "day": 15,
+        "h_cash": 15522.0,
+        "o_cash": 15522.0,
+        "h_shed": {},
+        "p_straw": 213.0,
+        "p_milk": 222.0
+      },
+      {
+        "step": 384,
+        "day": 16,
+        "h_cash": 18496.0,
+        "o_cash": 18496.0,
+        "h_shed": {},
+        "p_straw": 221.0,
+        "p_milk": 223.0
+      },
+      {
+        "step": 408,
+        "day": 17,
+        "h_cash": 20168.0,
+        "o_cash": 20168.0,
+        "h_shed": {},
+        "p_straw": 229.0,
+        "p_milk": 220.0
+      },
+      {
+        "step": 432,
+        "day": 18,
+        "h_cash": 24654.0,
+        "o_cash": 24654.0,
+        "h_shed": {},
+        "p_straw": 233.0,
+        "p_milk": 212.0
+      },
+      {
+        "step": 456,
+        "day": 19,
+        "h_cash": 29309.0,
+        "o_cash": 29309.0,
+        "h_shed": {},
+        "p_straw": 235.0,
+        "p_milk": 208.0
+      },
+      {
+        "step": 480,
+        "day": 20,
+        "h_cash": 36540.0,
+        "o_cash": 36540.0,
+        "h_shed": {},
+        "p_straw": 234.0,
+        "p_milk": 193.0
+      },
+      {
+        "step": 504,
+        "day": 21,
+        "h_cash": 44499.0,
+        "o_cash": 44499.0,
+        "h_shed": {},
+        "p_straw": 230.0,
+        "p_milk": 141.0
+      },
+      {
+        "step": 528,
+        "day": 22,
+        "h_cash": 49970.0,
+        "o_cash": 49970.0,
+        "h_shed": {},
+        "p_straw": 231.0,
+        "p_milk": 154.0
+      },
+      {
+        "step": 552,
+        "day": 23,
+        "h_cash": 55731.0,
+        "o_cash": 55731.0,
+        "h_shed": {},
+        "p_straw": 225.0,
+        "p_milk": 124.0
+      },
+      {
+        "step": 576,
+        "day": 24,
+        "h_cash": 63836.0,
+        "o_cash": 63836.0,
+        "h_shed": {},
+        "p_straw": 222.0,
+        "p_milk": 126.0
+      },
+      {
+        "step": 600,
+        "day": 25,
+        "h_cash": 71676.0,
+        "o_cash": 71676.0,
+        "h_shed": {},
+        "p_straw": 208.0,
+        "p_milk": 129.0
+      },
+      {
+        "step": 624,
+        "day": 26,
+        "h_cash": 78905.0,
+        "o_cash": 78905.0,
+        "h_shed": {},
+        "p_straw": 196.0,
+        "p_milk": 118.0
+      },
+      {
+        "step": 648,
+        "day": 27,
+        "h_cash": 83943.0,
+        "o_cash": 83943.0,
+        "h_shed": {},
+        "p_straw": 195.0,
+        "p_milk": 95.0
+      },
+      {
+        "step": 672,
+        "day": 28,
+        "h_cash": 88447.0,
+        "o_cash": 88447.0,
+        "h_shed": {},
+        "p_straw": 190.0,
+        "p_milk": 97.0
+      },
+      {
+        "step": 696,
+        "day": 29,
+        "h_cash": 92281.0,
+        "o_cash": 92281.0,
+        "h_shed": {},
+        "p_straw": 194.0,
+        "p_milk": 74.0
+      }
+    ]
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 1000,
+    "seat": 0,
+    "arm_a": {
+      "hero": 100084.0,
+      "opp": 47250.0,
+      "won": true,
+      "margin": 52834.0
+    },
+    "arm_b": {
+      "hero": 100084.0,
+      "opp": 47250.0,
+      "won": true,
+      "margin": 52834.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 42,
+    "seat": 0,
+    "arm_a": {
+      "hero": 57420.0,
+      "opp": 12869.0,
+      "won": true,
+      "margin": 44551.0
+    },
+    "arm_b": {
+      "hero": 57420.0,
+      "opp": 12869.0,
+      "won": true,
+      "margin": 44551.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 100,
+    "seat": 0,
+    "arm_a": {
+      "hero": 63538.0,
+      "opp": 10451.0,
+      "won": true,
+      "margin": 53087.0
+    },
+    "arm_b": {
+      "hero": 63538.0,
+      "opp": 10451.0,
+      "won": true,
+      "margin": 53087.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 200,
+    "seat": 0,
+    "arm_a": {
+      "hero": 111278.0,
+      "opp": 48440.0,
+      "won": true,
+      "margin": 62838.0
+    },
+    "arm_b": {
+      "hero": 111278.0,
+      "opp": 48440.0,
+      "won": true,
+      "margin": 62838.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 300,
+    "seat": 0,
+    "arm_a": {
+      "hero": 87796.0,
+      "opp": 25175.0,
+      "won": true,
+      "margin": 62621.0
+    },
+    "arm_b": {
+      "hero": 87796.0,
+      "opp": 25175.0,
+      "won": true,
+      "margin": 62621.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 500,
+    "seat": 0,
+    "arm_a": {
+      "hero": 99913.0,
+      "opp": 36951.0,
+      "won": true,
+      "margin": 62962.0
+    },
+    "arm_b": {
+      "hero": 99913.0,
+      "opp": 36951.0,
+      "won": true,
+      "margin": 62962.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 1001,
+    "seat": 0,
+    "arm_a": {
+      "hero": 119974.0,
+      "opp": 60374.0,
+      "won": true,
+      "margin": 59600.0
+    },
+    "arm_b": {
+      "hero": 119974.0,
+      "opp": 60374.0,
+      "won": true,
+      "margin": 59600.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20042,
+    "seat": 0,
+    "arm_a": {
+      "hero": 130620.0,
+      "opp": 57543.0,
+      "won": true,
+      "margin": 73077.0
+    },
+    "arm_b": {
+      "hero": 130620.0,
+      "opp": 57543.0,
+      "won": true,
+      "margin": 73077.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 12345,
+    "seat": 0,
+    "arm_a": {
+      "hero": 142832.0,
+      "opp": 70827.0,
+      "won": true,
+      "margin": 72005.0
+    },
+    "arm_b": {
+      "hero": 142832.0,
+      "opp": 70827.0,
+      "won": true,
+      "margin": 72005.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 54321,
+    "seat": 0,
+    "arm_a": {
+      "hero": 140038.0,
+      "opp": 72291.0,
+      "won": true,
+      "margin": 67747.0
+    },
+    "arm_b": {
+      "hero": 140038.0,
+      "opp": 72291.0,
+      "won": true,
+      "margin": 67747.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20001,
+    "seat": 1,
+    "arm_a": {
+      "hero": 87587.0,
+      "opp": 22469.0,
+      "won": true,
+      "margin": 65118.0
+    },
+    "arm_b": {
+      "hero": 87587.0,
+      "opp": 22469.0,
+      "won": true,
+      "margin": 65118.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20010,
+    "seat": 1,
+    "arm_a": {
+      "hero": 53198.0,
+      "opp": 4027.0,
+      "won": true,
+      "margin": 49171.0
+    },
+    "arm_b": {
+      "hero": 53198.0,
+      "opp": 4027.0,
+      "won": true,
+      "margin": 49171.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20020,
+    "seat": 1,
+    "arm_a": {
+      "hero": 145981.0,
+      "opp": 51831.0,
+      "won": true,
+      "margin": 94150.0
+    },
+    "arm_b": {
+      "hero": 145981.0,
+      "opp": 51831.0,
+      "won": true,
+      "margin": 94150.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20030,
+    "seat": 1,
+    "arm_a": {
+      "hero": 122253.0,
+      "opp": 38845.0,
+      "won": true,
+      "margin": 83408.0
+    },
+    "arm_b": {
+      "hero": 122253.0,
+      "opp": 38845.0,
+      "won": true,
+      "margin": 83408.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20040,
+    "seat": 1,
+    "arm_a": {
+      "hero": 107105.0,
+      "opp": 41935.0,
+      "won": true,
+      "margin": 65170.0
+    },
+    "arm_b": {
+      "hero": 107105.0,
+      "opp": 41935.0,
+      "won": true,
+      "margin": 65170.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20050,
+    "seat": 1,
+    "arm_a": {
+      "hero": 62197.0,
+      "opp": 3110.0,
+      "won": true,
+      "margin": 59087.0
+    },
+    "arm_b": {
+      "hero": 62197.0,
+      "opp": 3110.0,
+      "won": true,
+      "margin": 59087.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20060,
+    "seat": 1,
+    "arm_a": {
+      "hero": 97541.0,
+      "opp": 21929.0,
+      "won": true,
+      "margin": 75612.0
+    },
+    "arm_b": {
+      "hero": 97541.0,
+      "opp": 21929.0,
+      "won": true,
+      "margin": 75612.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20070,
+    "seat": 1,
+    "arm_a": {
+      "hero": 71223.0,
+      "opp": 5309.0,
+      "won": true,
+      "margin": 65914.0
+    },
+    "arm_b": {
+      "hero": 71223.0,
+      "opp": 5309.0,
+      "won": true,
+      "margin": 65914.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20080,
+    "seat": 1,
+    "arm_a": {
+      "hero": 87397.0,
+      "opp": 9098.0,
+      "won": true,
+      "margin": 78299.0
+    },
+    "arm_b": {
+      "hero": 87397.0,
+      "opp": 9098.0,
+      "won": true,
+      "margin": 78299.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_carrot_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20090,
+    "seat": 1,
+    "arm_a": {
+      "hero": 124625.0,
+      "opp": 42859.0,
+      "won": true,
+      "margin": 81766.0
+    },
+    "arm_b": {
+      "hero": 124625.0,
+      "opp": 42859.0,
+      "won": true,
+      "margin": 81766.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 1000,
+    "seat": 0,
+    "arm_a": {
+      "hero": 95346.0,
+      "opp": 277.0,
+      "won": true,
+      "margin": 95069.0
+    },
+    "arm_b": {
+      "hero": 95346.0,
+      "opp": 277.0,
+      "won": true,
+      "margin": 95069.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 42,
+    "seat": 0,
+    "arm_a": {
+      "hero": 65493.0,
+      "opp": 82.0,
+      "won": true,
+      "margin": 65411.0
+    },
+    "arm_b": {
+      "hero": 65493.0,
+      "opp": 82.0,
+      "won": true,
+      "margin": 65411.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 100,
+    "seat": 0,
+    "arm_a": {
+      "hero": 64035.0,
+      "opp": 232.0,
+      "won": true,
+      "margin": 63803.0
+    },
+    "arm_b": {
+      "hero": 64035.0,
+      "opp": 232.0,
+      "won": true,
+      "margin": 63803.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 200,
+    "seat": 0,
+    "arm_a": {
+      "hero": 112922.0,
+      "opp": 82.0,
+      "won": true,
+      "margin": 112840.0
+    },
+    "arm_b": {
+      "hero": 112922.0,
+      "opp": 82.0,
+      "won": true,
+      "margin": 112840.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 300,
+    "seat": 0,
+    "arm_a": {
+      "hero": 114638.0,
+      "opp": 21.0,
+      "won": true,
+      "margin": 114617.0
+    },
+    "arm_b": {
+      "hero": 114638.0,
+      "opp": 21.0,
+      "won": true,
+      "margin": 114617.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 500,
+    "seat": 0,
+    "arm_a": {
+      "hero": 100826.0,
+      "opp": 298.0,
+      "won": true,
+      "margin": 100528.0
+    },
+    "arm_b": {
+      "hero": 100826.0,
+      "opp": 298.0,
+      "won": true,
+      "margin": 100528.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 1001,
+    "seat": 0,
+    "arm_a": {
+      "hero": 118898.0,
+      "opp": 253.0,
+      "won": true,
+      "margin": 118645.0
+    },
+    "arm_b": {
+      "hero": 118898.0,
+      "opp": 253.0,
+      "won": true,
+      "margin": 118645.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20042,
+    "seat": 0,
+    "arm_a": {
+      "hero": 132793.0,
+      "opp": 155.0,
+      "won": true,
+      "margin": 132638.0
+    },
+    "arm_b": {
+      "hero": 132793.0,
+      "opp": 155.0,
+      "won": true,
+      "margin": 132638.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 12345,
+    "seat": 0,
+    "arm_a": {
+      "hero": 133690.0,
+      "opp": 28.0,
+      "won": true,
+      "margin": 133662.0
+    },
+    "arm_b": {
+      "hero": 133690.0,
+      "opp": 28.0,
+      "won": true,
+      "margin": 133662.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 54321,
+    "seat": 0,
+    "arm_a": {
+      "hero": 143087.0,
+      "opp": 134.0,
+      "won": true,
+      "margin": 142953.0
+    },
+    "arm_b": {
+      "hero": 143087.0,
+      "opp": 134.0,
+      "won": true,
+      "margin": 142953.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20001,
+    "seat": 1,
+    "arm_a": {
+      "hero": 108246.0,
+      "opp": 48186.0,
+      "won": true,
+      "margin": 60060.0
+    },
+    "arm_b": {
+      "hero": 108246.0,
+      "opp": 48186.0,
+      "won": true,
+      "margin": 60060.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20010,
+    "seat": 1,
+    "arm_a": {
+      "hero": 63021.0,
+      "opp": 19984.0,
+      "won": true,
+      "margin": 43037.0
+    },
+    "arm_b": {
+      "hero": 63021.0,
+      "opp": 19984.0,
+      "won": true,
+      "margin": 43037.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20020,
+    "seat": 1,
+    "arm_a": {
+      "hero": 146755.0,
+      "opp": 62540.0,
+      "won": true,
+      "margin": 84215.0
+    },
+    "arm_b": {
+      "hero": 146755.0,
+      "opp": 62540.0,
+      "won": true,
+      "margin": 84215.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20030,
+    "seat": 1,
+    "arm_a": {
+      "hero": 83178.0,
+      "opp": 30914.0,
+      "won": true,
+      "margin": 52264.0
+    },
+    "arm_b": {
+      "hero": 83178.0,
+      "opp": 30914.0,
+      "won": true,
+      "margin": 52264.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20040,
+    "seat": 1,
+    "arm_a": {
+      "hero": 112858.0,
+      "opp": 64509.0,
+      "won": true,
+      "margin": 48349.0
+    },
+    "arm_b": {
+      "hero": 112858.0,
+      "opp": 64509.0,
+      "won": true,
+      "margin": 48349.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20050,
+    "seat": 1,
+    "arm_a": {
+      "hero": 110025.0,
+      "opp": 51809.0,
+      "won": true,
+      "margin": 58216.0
+    },
+    "arm_b": {
+      "hero": 110025.0,
+      "opp": 51809.0,
+      "won": true,
+      "margin": 58216.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20060,
+    "seat": 1,
+    "arm_a": {
+      "hero": 75595.0,
+      "opp": 28637.0,
+      "won": true,
+      "margin": 46958.0
+    },
+    "arm_b": {
+      "hero": 75595.0,
+      "opp": 28637.0,
+      "won": true,
+      "margin": 46958.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20070,
+    "seat": 1,
+    "arm_a": {
+      "hero": 143764.0,
+      "opp": 66461.0,
+      "won": true,
+      "margin": 77303.0
+    },
+    "arm_b": {
+      "hero": 143764.0,
+      "opp": 66461.0,
+      "won": true,
+      "margin": 77303.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20080,
+    "seat": 1,
+    "arm_a": {
+      "hero": 78960.0,
+      "opp": 21495.0,
+      "won": true,
+      "margin": 57465.0
+    },
+    "arm_b": {
+      "hero": 78960.0,
+      "opp": 21495.0,
+      "won": true,
+      "margin": 57465.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T1_livestock_rusher",
+    "tier": "900-1200 (Foundation)",
+    "seed": 20090,
+    "seat": 1,
+    "arm_a": {
+      "hero": 82338.0,
+      "opp": 24490.0,
+      "won": true,
+      "margin": 57848.0
+    },
+    "arm_b": {
+      "hero": 82338.0,
+      "opp": 24490.0,
+      "won": true,
+      "margin": 57848.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 1000,
+    "seat": 0,
+    "arm_a": {
+      "hero": 89797.0,
+      "opp": 26454.0,
+      "won": true,
+      "margin": 63343.0
+    },
+    "arm_b": {
+      "hero": 89797.0,
+      "opp": 26454.0,
+      "won": true,
+      "margin": 63343.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 42,
+    "seat": 0,
+    "arm_a": {
+      "hero": 73853.0,
+      "opp": 29964.0,
+      "won": true,
+      "margin": 43889.0
+    },
+    "arm_b": {
+      "hero": 73853.0,
+      "opp": 29964.0,
+      "won": true,
+      "margin": 43889.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 100,
+    "seat": 0,
+    "arm_a": {
+      "hero": 112124.0,
+      "opp": 38162.0,
+      "won": true,
+      "margin": 73962.0
+    },
+    "arm_b": {
+      "hero": 112124.0,
+      "opp": 38162.0,
+      "won": true,
+      "margin": 73962.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 200,
+    "seat": 0,
+    "arm_a": {
+      "hero": 109096.0,
+      "opp": 36395.0,
+      "won": true,
+      "margin": 72701.0
+    },
+    "arm_b": {
+      "hero": 109096.0,
+      "opp": 36395.0,
+      "won": true,
+      "margin": 72701.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 300,
+    "seat": 0,
+    "arm_a": {
+      "hero": 87709.0,
+      "opp": 19938.0,
+      "won": true,
+      "margin": 67771.0
+    },
+    "arm_b": {
+      "hero": 87709.0,
+      "opp": 19938.0,
+      "won": true,
+      "margin": 67771.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 500,
+    "seat": 0,
+    "arm_a": {
+      "hero": 100061.0,
+      "opp": 32218.0,
+      "won": true,
+      "margin": 67843.0
+    },
+    "arm_b": {
+      "hero": 100061.0,
+      "opp": 32218.0,
+      "won": true,
+      "margin": 67843.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 1001,
+    "seat": 0,
+    "arm_a": {
+      "hero": 98160.0,
+      "opp": 49276.0,
+      "won": true,
+      "margin": 48884.0
+    },
+    "arm_b": {
+      "hero": 98160.0,
+      "opp": 49276.0,
+      "won": true,
+      "margin": 48884.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20042,
+    "seat": 0,
+    "arm_a": {
+      "hero": 120298.0,
+      "opp": 48945.0,
+      "won": true,
+      "margin": 71353.0
+    },
+    "arm_b": {
+      "hero": 120298.0,
+      "opp": 48945.0,
+      "won": true,
+      "margin": 71353.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 12345,
+    "seat": 0,
+    "arm_a": {
+      "hero": 133288.0,
+      "opp": 61071.0,
+      "won": true,
+      "margin": 72217.0
+    },
+    "arm_b": {
+      "hero": 133288.0,
+      "opp": 61071.0,
+      "won": true,
+      "margin": 72217.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 54321,
+    "seat": 0,
+    "arm_a": {
+      "hero": 122945.0,
+      "opp": 62584.0,
+      "won": true,
+      "margin": 60361.0
+    },
+    "arm_b": {
+      "hero": 122945.0,
+      "opp": 62584.0,
+      "won": true,
+      "margin": 60361.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20001,
+    "seat": 1,
+    "arm_a": {
+      "hero": 108624.0,
+      "opp": 47626.0,
+      "won": true,
+      "margin": 60998.0
+    },
+    "arm_b": {
+      "hero": 108624.0,
+      "opp": 47626.0,
+      "won": true,
+      "margin": 60998.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20010,
+    "seat": 1,
+    "arm_a": {
+      "hero": 76690.0,
+      "opp": 29445.0,
+      "won": true,
+      "margin": 47245.0
+    },
+    "arm_b": {
+      "hero": 76690.0,
+      "opp": 29445.0,
+      "won": true,
+      "margin": 47245.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20020,
+    "seat": 1,
+    "arm_a": {
+      "hero": 123666.0,
+      "opp": 47661.0,
+      "won": true,
+      "margin": 76005.0
+    },
+    "arm_b": {
+      "hero": 123666.0,
+      "opp": 47661.0,
+      "won": true,
+      "margin": 76005.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20030,
+    "seat": 1,
+    "arm_a": {
+      "hero": 103330.0,
+      "opp": 35535.0,
+      "won": true,
+      "margin": 67795.0
+    },
+    "arm_b": {
+      "hero": 103330.0,
+      "opp": 35535.0,
+      "won": true,
+      "margin": 67795.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20040,
+    "seat": 1,
+    "arm_a": {
+      "hero": 94811.0,
+      "opp": 50726.0,
+      "won": true,
+      "margin": 44085.0
+    },
+    "arm_b": {
+      "hero": 94811.0,
+      "opp": 50726.0,
+      "won": true,
+      "margin": 44085.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20050,
+    "seat": 1,
+    "arm_a": {
+      "hero": 108362.0,
+      "opp": 43883.0,
+      "won": true,
+      "margin": 64479.0
+    },
+    "arm_b": {
+      "hero": 108362.0,
+      "opp": 43883.0,
+      "won": true,
+      "margin": 64479.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20060,
+    "seat": 1,
+    "arm_a": {
+      "hero": 91566.0,
+      "opp": 30899.0,
+      "won": true,
+      "margin": 60667.0
+    },
+    "arm_b": {
+      "hero": 91566.0,
+      "opp": 30899.0,
+      "won": true,
+      "margin": 60667.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20070,
+    "seat": 1,
+    "arm_a": {
+      "hero": 114618.0,
+      "opp": 41286.0,
+      "won": true,
+      "margin": 73332.0
+    },
+    "arm_b": {
+      "hero": 114618.0,
+      "opp": 41286.0,
+      "won": true,
+      "margin": 73332.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20080,
+    "seat": 1,
+    "arm_a": {
+      "hero": 35005.0,
+      "opp": 1205.0,
+      "won": true,
+      "margin": 33800.0
+    },
+    "arm_b": {
+      "hero": 35005.0,
+      "opp": 1205.0,
+      "won": true,
+      "margin": 33800.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_dynamic_v81",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20090,
+    "seat": 1,
+    "arm_a": {
+      "hero": 98219.0,
+      "opp": 44743.0,
+      "won": true,
+      "margin": 53476.0
+    },
+    "arm_b": {
+      "hero": 98219.0,
+      "opp": 44743.0,
+      "won": true,
+      "margin": 53476.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 1000,
+    "seat": 0,
+    "arm_a": {
+      "hero": 105376.0,
+      "opp": 37689.0,
+      "won": true,
+      "margin": 67687.0
+    },
+    "arm_b": {
+      "hero": 105376.0,
+      "opp": 37689.0,
+      "won": true,
+      "margin": 67687.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 42,
+    "seat": 0,
+    "arm_a": {
+      "hero": 73870.0,
+      "opp": 30084.0,
+      "won": true,
+      "margin": 43786.0
+    },
+    "arm_b": {
+      "hero": 73870.0,
+      "opp": 30084.0,
+      "won": true,
+      "margin": 43786.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 100,
+    "seat": 0,
+    "arm_a": {
+      "hero": 112135.0,
+      "opp": 38276.0,
+      "won": true,
+      "margin": 73859.0
+    },
+    "arm_b": {
+      "hero": 112135.0,
+      "opp": 38276.0,
+      "won": true,
+      "margin": 73859.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 200,
+    "seat": 0,
+    "arm_a": {
+      "hero": 115973.0,
+      "opp": 38716.0,
+      "won": true,
+      "margin": 77257.0
+    },
+    "arm_b": {
+      "hero": 115973.0,
+      "opp": 38716.0,
+      "won": true,
+      "margin": 77257.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 300,
+    "seat": 0,
+    "arm_a": {
+      "hero": 87727.0,
+      "opp": 20053.0,
+      "won": true,
+      "margin": 67674.0
+    },
+    "arm_b": {
+      "hero": 87727.0,
+      "opp": 20053.0,
+      "won": true,
+      "margin": 67674.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 500,
+    "seat": 0,
+    "arm_a": {
+      "hero": 100082.0,
+      "opp": 32330.0,
+      "won": true,
+      "margin": 67752.0
+    },
+    "arm_b": {
+      "hero": 100082.0,
+      "opp": 32330.0,
+      "won": true,
+      "margin": 67752.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 1001,
+    "seat": 0,
+    "arm_a": {
+      "hero": 108966.0,
+      "opp": 50996.0,
+      "won": true,
+      "margin": 57970.0
+    },
+    "arm_b": {
+      "hero": 108966.0,
+      "opp": 50996.0,
+      "won": true,
+      "margin": 57970.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20042,
+    "seat": 0,
+    "arm_a": {
+      "hero": 138118.0,
+      "opp": 62083.0,
+      "won": true,
+      "margin": 76035.0
+    },
+    "arm_b": {
+      "hero": 138118.0,
+      "opp": 62083.0,
+      "won": true,
+      "margin": 76035.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 12345,
+    "seat": 0,
+    "arm_a": {
+      "hero": 148413.0,
+      "opp": 77067.0,
+      "won": true,
+      "margin": 71346.0
+    },
+    "arm_b": {
+      "hero": 148413.0,
+      "opp": 77067.0,
+      "won": true,
+      "margin": 71346.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 54321,
+    "seat": 0,
+    "arm_a": {
+      "hero": 126414.0,
+      "opp": 51239.0,
+      "won": true,
+      "margin": 75175.0
+    },
+    "arm_b": {
+      "hero": 126414.0,
+      "opp": 51239.0,
+      "won": true,
+      "margin": 75175.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20001,
+    "seat": 1,
+    "arm_a": {
+      "hero": 108646.0,
+      "opp": 47742.0,
+      "won": true,
+      "margin": 60904.0
+    },
+    "arm_b": {
+      "hero": 108646.0,
+      "opp": 47742.0,
+      "won": true,
+      "margin": 60904.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20010,
+    "seat": 1,
+    "arm_a": {
+      "hero": 76700.0,
+      "opp": 29563.0,
+      "won": true,
+      "margin": 47137.0
+    },
+    "arm_b": {
+      "hero": 76700.0,
+      "opp": 29563.0,
+      "won": true,
+      "margin": 47137.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20020,
+    "seat": 1,
+    "arm_a": {
+      "hero": 137714.0,
+      "opp": 60815.0,
+      "won": true,
+      "margin": 76899.0
+    },
+    "arm_b": {
+      "hero": 137714.0,
+      "opp": 60815.0,
+      "won": true,
+      "margin": 76899.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20030,
+    "seat": 1,
+    "arm_a": {
+      "hero": 93029.0,
+      "opp": 34579.0,
+      "won": true,
+      "margin": 58450.0
+    },
+    "arm_b": {
+      "hero": 93029.0,
+      "opp": 34579.0,
+      "won": true,
+      "margin": 58450.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20040,
+    "seat": 1,
+    "arm_a": {
+      "hero": 91513.0,
+      "opp": 44544.0,
+      "won": true,
+      "margin": 46969.0
+    },
+    "arm_b": {
+      "hero": 91513.0,
+      "opp": 44544.0,
+      "won": true,
+      "margin": 46969.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20050,
+    "seat": 1,
+    "arm_a": {
+      "hero": 118487.0,
+      "opp": 48270.0,
+      "won": true,
+      "margin": 70217.0
+    },
+    "arm_b": {
+      "hero": 118487.0,
+      "opp": 48270.0,
+      "won": true,
+      "margin": 70217.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20060,
+    "seat": 1,
+    "arm_a": {
+      "hero": 91580.0,
+      "opp": 31023.0,
+      "won": true,
+      "margin": 60557.0
+    },
+    "arm_b": {
+      "hero": 91580.0,
+      "opp": 31023.0,
+      "won": true,
+      "margin": 60557.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20070,
+    "seat": 1,
+    "arm_a": {
+      "hero": 134008.0,
+      "opp": 54072.0,
+      "won": true,
+      "margin": 79936.0
+    },
+    "arm_b": {
+      "hero": 134008.0,
+      "opp": 54072.0,
+      "won": true,
+      "margin": 79936.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20080,
+    "seat": 1,
+    "arm_a": {
+      "hero": 35329.0,
+      "opp": 1174.0,
+      "won": true,
+      "margin": 34155.0
+    },
+    "arm_b": {
+      "hero": 35329.0,
+      "opp": 1174.0,
+      "won": true,
+      "margin": 34155.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T2_rebound_v82",
+    "tier": "1200-1400 (Dynamic Ladder)",
+    "seed": 20090,
+    "seat": 1,
+    "arm_a": {
+      "hero": 95791.0,
+      "opp": 34238.0,
+      "won": true,
+      "margin": 61553.0
+    },
+    "arm_b": {
+      "hero": 95791.0,
+      "opp": 34238.0,
+      "won": true,
+      "margin": 61553.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 1000,
+    "seat": 0,
+    "arm_a": {
+      "hero": 100084.0,
+      "opp": 47250.0,
+      "won": true,
+      "margin": 52834.0
+    },
+    "arm_b": {
+      "hero": 100084.0,
+      "opp": 47250.0,
+      "won": true,
+      "margin": 52834.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 42,
+    "seat": 0,
+    "arm_a": {
+      "hero": 57420.0,
+      "opp": 12869.0,
+      "won": true,
+      "margin": 44551.0
+    },
+    "arm_b": {
+      "hero": 57420.0,
+      "opp": 12869.0,
+      "won": true,
+      "margin": 44551.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 100,
+    "seat": 0,
+    "arm_a": {
+      "hero": 63538.0,
+      "opp": 10451.0,
+      "won": true,
+      "margin": 53087.0
+    },
+    "arm_b": {
+      "hero": 63538.0,
+      "opp": 10451.0,
+      "won": true,
+      "margin": 53087.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 200,
+    "seat": 0,
+    "arm_a": {
+      "hero": 111278.0,
+      "opp": 48440.0,
+      "won": true,
+      "margin": 62838.0
+    },
+    "arm_b": {
+      "hero": 111278.0,
+      "opp": 48440.0,
+      "won": true,
+      "margin": 62838.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 300,
+    "seat": 0,
+    "arm_a": {
+      "hero": 87796.0,
+      "opp": 25175.0,
+      "won": true,
+      "margin": 62621.0
+    },
+    "arm_b": {
+      "hero": 87796.0,
+      "opp": 25175.0,
+      "won": true,
+      "margin": 62621.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 500,
+    "seat": 0,
+    "arm_a": {
+      "hero": 99913.0,
+      "opp": 36951.0,
+      "won": true,
+      "margin": 62962.0
+    },
+    "arm_b": {
+      "hero": 99913.0,
+      "opp": 36951.0,
+      "won": true,
+      "margin": 62962.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 1001,
+    "seat": 0,
+    "arm_a": {
+      "hero": 119974.0,
+      "opp": 60374.0,
+      "won": true,
+      "margin": 59600.0
+    },
+    "arm_b": {
+      "hero": 119974.0,
+      "opp": 60374.0,
+      "won": true,
+      "margin": 59600.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20042,
+    "seat": 0,
+    "arm_a": {
+      "hero": 130620.0,
+      "opp": 57543.0,
+      "won": true,
+      "margin": 73077.0
+    },
+    "arm_b": {
+      "hero": 130620.0,
+      "opp": 57543.0,
+      "won": true,
+      "margin": 73077.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 12345,
+    "seat": 0,
+    "arm_a": {
+      "hero": 142832.0,
+      "opp": 70827.0,
+      "won": true,
+      "margin": 72005.0
+    },
+    "arm_b": {
+      "hero": 142832.0,
+      "opp": 70827.0,
+      "won": true,
+      "margin": 72005.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 54321,
+    "seat": 0,
+    "arm_a": {
+      "hero": 140038.0,
+      "opp": 72291.0,
+      "won": true,
+      "margin": 67747.0
+    },
+    "arm_b": {
+      "hero": 140038.0,
+      "opp": 72291.0,
+      "won": true,
+      "margin": 67747.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20001,
+    "seat": 1,
+    "arm_a": {
+      "hero": 108248.0,
+      "opp": 48185.0,
+      "won": true,
+      "margin": 60063.0
+    },
+    "arm_b": {
+      "hero": 108248.0,
+      "opp": 48185.0,
+      "won": true,
+      "margin": 60063.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20010,
+    "seat": 1,
+    "arm_a": {
+      "hero": 63023.0,
+      "opp": 19983.0,
+      "won": true,
+      "margin": 43040.0
+    },
+    "arm_b": {
+      "hero": 63023.0,
+      "opp": 19983.0,
+      "won": true,
+      "margin": 43040.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20020,
+    "seat": 1,
+    "arm_a": {
+      "hero": 146754.0,
+      "opp": 62540.0,
+      "won": true,
+      "margin": 84214.0
+    },
+    "arm_b": {
+      "hero": 146754.0,
+      "opp": 62540.0,
+      "won": true,
+      "margin": 84214.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20030,
+    "seat": 1,
+    "arm_a": {
+      "hero": 83180.0,
+      "opp": 30913.0,
+      "won": true,
+      "margin": 52267.0
+    },
+    "arm_b": {
+      "hero": 83180.0,
+      "opp": 30913.0,
+      "won": true,
+      "margin": 52267.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20040,
+    "seat": 1,
+    "arm_a": {
+      "hero": 88701.0,
+      "opp": 44393.0,
+      "won": true,
+      "margin": 44308.0
+    },
+    "arm_b": {
+      "hero": 88701.0,
+      "opp": 44393.0,
+      "won": true,
+      "margin": 44308.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20050,
+    "seat": 1,
+    "arm_a": {
+      "hero": 116703.0,
+      "opp": 60066.0,
+      "won": true,
+      "margin": 56637.0
+    },
+    "arm_b": {
+      "hero": 116703.0,
+      "opp": 60066.0,
+      "won": true,
+      "margin": 56637.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20060,
+    "seat": 1,
+    "arm_a": {
+      "hero": 75597.0,
+      "opp": 28636.0,
+      "won": true,
+      "margin": 46961.0
+    },
+    "arm_b": {
+      "hero": 75597.0,
+      "opp": 28636.0,
+      "won": true,
+      "margin": 46961.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20070,
+    "seat": 1,
+    "arm_a": {
+      "hero": 143766.0,
+      "opp": 66460.0,
+      "won": true,
+      "margin": 77306.0
+    },
+    "arm_b": {
+      "hero": 143766.0,
+      "opp": 66460.0,
+      "won": true,
+      "margin": 77306.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20080,
+    "seat": 1,
+    "arm_a": {
+      "hero": 78962.0,
+      "opp": 21494.0,
+      "won": true,
+      "margin": 57468.0
+    },
+    "arm_b": {
+      "hero": 78962.0,
+      "opp": 21494.0,
+      "won": true,
+      "margin": 57468.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_high_yield_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20090,
+    "seat": 1,
+    "arm_a": {
+      "hero": 74640.0,
+      "opp": 28088.0,
+      "won": true,
+      "margin": 46552.0
+    },
+    "arm_b": {
+      "hero": 74640.0,
+      "opp": 28088.0,
+      "won": true,
+      "margin": 46552.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 1000,
+    "seat": 0,
+    "arm_a": {
+      "hero": 100084.0,
+      "opp": 47250.0,
+      "won": true,
+      "margin": 52834.0
+    },
+    "arm_b": {
+      "hero": 100084.0,
+      "opp": 47250.0,
+      "won": true,
+      "margin": 52834.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 42,
+    "seat": 0,
+    "arm_a": {
+      "hero": 57420.0,
+      "opp": 12869.0,
+      "won": true,
+      "margin": 44551.0
+    },
+    "arm_b": {
+      "hero": 57420.0,
+      "opp": 12869.0,
+      "won": true,
+      "margin": 44551.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 100,
+    "seat": 0,
+    "arm_a": {
+      "hero": 63538.0,
+      "opp": 10451.0,
+      "won": true,
+      "margin": 53087.0
+    },
+    "arm_b": {
+      "hero": 63538.0,
+      "opp": 10451.0,
+      "won": true,
+      "margin": 53087.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 200,
+    "seat": 0,
+    "arm_a": {
+      "hero": 111278.0,
+      "opp": 48440.0,
+      "won": true,
+      "margin": 62838.0
+    },
+    "arm_b": {
+      "hero": 111278.0,
+      "opp": 48440.0,
+      "won": true,
+      "margin": 62838.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 300,
+    "seat": 0,
+    "arm_a": {
+      "hero": 87796.0,
+      "opp": 25175.0,
+      "won": true,
+      "margin": 62621.0
+    },
+    "arm_b": {
+      "hero": 87796.0,
+      "opp": 25175.0,
+      "won": true,
+      "margin": 62621.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 500,
+    "seat": 0,
+    "arm_a": {
+      "hero": 99913.0,
+      "opp": 36951.0,
+      "won": true,
+      "margin": 62962.0
+    },
+    "arm_b": {
+      "hero": 99913.0,
+      "opp": 36951.0,
+      "won": true,
+      "margin": 62962.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 1001,
+    "seat": 0,
+    "arm_a": {
+      "hero": 119974.0,
+      "opp": 60374.0,
+      "won": true,
+      "margin": 59600.0
+    },
+    "arm_b": {
+      "hero": 119974.0,
+      "opp": 60374.0,
+      "won": true,
+      "margin": 59600.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20042,
+    "seat": 0,
+    "arm_a": {
+      "hero": 130620.0,
+      "opp": 57543.0,
+      "won": true,
+      "margin": 73077.0
+    },
+    "arm_b": {
+      "hero": 130620.0,
+      "opp": 57543.0,
+      "won": true,
+      "margin": 73077.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 12345,
+    "seat": 0,
+    "arm_a": {
+      "hero": 142832.0,
+      "opp": 70827.0,
+      "won": true,
+      "margin": 72005.0
+    },
+    "arm_b": {
+      "hero": 142832.0,
+      "opp": 70827.0,
+      "won": true,
+      "margin": 72005.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 54321,
+    "seat": 0,
+    "arm_a": {
+      "hero": 140038.0,
+      "opp": 72291.0,
+      "won": true,
+      "margin": 67747.0
+    },
+    "arm_b": {
+      "hero": 140038.0,
+      "opp": 72291.0,
+      "won": true,
+      "margin": 67747.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20001,
+    "seat": 1,
+    "arm_a": {
+      "hero": 108248.0,
+      "opp": 48185.0,
+      "won": true,
+      "margin": 60063.0
+    },
+    "arm_b": {
+      "hero": 108248.0,
+      "opp": 48185.0,
+      "won": true,
+      "margin": 60063.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20010,
+    "seat": 1,
+    "arm_a": {
+      "hero": 63023.0,
+      "opp": 19983.0,
+      "won": true,
+      "margin": 43040.0
+    },
+    "arm_b": {
+      "hero": 63023.0,
+      "opp": 19983.0,
+      "won": true,
+      "margin": 43040.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20020,
+    "seat": 1,
+    "arm_a": {
+      "hero": 146754.0,
+      "opp": 62540.0,
+      "won": true,
+      "margin": 84214.0
+    },
+    "arm_b": {
+      "hero": 146754.0,
+      "opp": 62540.0,
+      "won": true,
+      "margin": 84214.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20030,
+    "seat": 1,
+    "arm_a": {
+      "hero": 83180.0,
+      "opp": 30913.0,
+      "won": true,
+      "margin": 52267.0
+    },
+    "arm_b": {
+      "hero": 83180.0,
+      "opp": 30913.0,
+      "won": true,
+      "margin": 52267.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20040,
+    "seat": 1,
+    "arm_a": {
+      "hero": 88701.0,
+      "opp": 44393.0,
+      "won": true,
+      "margin": 44308.0
+    },
+    "arm_b": {
+      "hero": 88701.0,
+      "opp": 44393.0,
+      "won": true,
+      "margin": 44308.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20050,
+    "seat": 1,
+    "arm_a": {
+      "hero": 116703.0,
+      "opp": 60066.0,
+      "won": true,
+      "margin": 56637.0
+    },
+    "arm_b": {
+      "hero": 116703.0,
+      "opp": 60066.0,
+      "won": true,
+      "margin": 56637.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20060,
+    "seat": 1,
+    "arm_a": {
+      "hero": 75597.0,
+      "opp": 28636.0,
+      "won": true,
+      "margin": 46961.0
+    },
+    "arm_b": {
+      "hero": 75597.0,
+      "opp": 28636.0,
+      "won": true,
+      "margin": 46961.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20070,
+    "seat": 1,
+    "arm_a": {
+      "hero": 143766.0,
+      "opp": 66460.0,
+      "won": true,
+      "margin": 77306.0
+    },
+    "arm_b": {
+      "hero": 143766.0,
+      "opp": 66460.0,
+      "won": true,
+      "margin": 77306.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20080,
+    "seat": 1,
+    "arm_a": {
+      "hero": 78962.0,
+      "opp": 21494.0,
+      "won": true,
+      "margin": 57468.0
+    },
+    "arm_b": {
+      "hero": 78962.0,
+      "opp": 21494.0,
+      "won": true,
+      "margin": 57468.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_opponent_aware_v83",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20090,
+    "seat": 1,
+    "arm_a": {
+      "hero": 74640.0,
+      "opp": 28088.0,
+      "won": true,
+      "margin": 46552.0
+    },
+    "arm_b": {
+      "hero": 74640.0,
+      "opp": 28088.0,
+      "won": true,
+      "margin": 46552.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 1000,
+    "seat": 0,
+    "arm_a": {
+      "hero": 89797.0,
+      "opp": 26454.0,
+      "won": true,
+      "margin": 63343.0
+    },
+    "arm_b": {
+      "hero": 89797.0,
+      "opp": 26454.0,
+      "won": true,
+      "margin": 63343.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 42,
+    "seat": 0,
+    "arm_a": {
+      "hero": 73853.0,
+      "opp": 29964.0,
+      "won": true,
+      "margin": 43889.0
+    },
+    "arm_b": {
+      "hero": 73853.0,
+      "opp": 29964.0,
+      "won": true,
+      "margin": 43889.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 100,
+    "seat": 0,
+    "arm_a": {
+      "hero": 112124.0,
+      "opp": 38162.0,
+      "won": true,
+      "margin": 73962.0
+    },
+    "arm_b": {
+      "hero": 112124.0,
+      "opp": 38162.0,
+      "won": true,
+      "margin": 73962.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 200,
+    "seat": 0,
+    "arm_a": {
+      "hero": 109096.0,
+      "opp": 36395.0,
+      "won": true,
+      "margin": 72701.0
+    },
+    "arm_b": {
+      "hero": 109096.0,
+      "opp": 36395.0,
+      "won": true,
+      "margin": 72701.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 300,
+    "seat": 0,
+    "arm_a": {
+      "hero": 87709.0,
+      "opp": 19938.0,
+      "won": true,
+      "margin": 67771.0
+    },
+    "arm_b": {
+      "hero": 87709.0,
+      "opp": 19938.0,
+      "won": true,
+      "margin": 67771.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 500,
+    "seat": 0,
+    "arm_a": {
+      "hero": 100061.0,
+      "opp": 32218.0,
+      "won": true,
+      "margin": 67843.0
+    },
+    "arm_b": {
+      "hero": 100061.0,
+      "opp": 32218.0,
+      "won": true,
+      "margin": 67843.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 1001,
+    "seat": 0,
+    "arm_a": {
+      "hero": 98160.0,
+      "opp": 49276.0,
+      "won": true,
+      "margin": 48884.0
+    },
+    "arm_b": {
+      "hero": 98160.0,
+      "opp": 49276.0,
+      "won": true,
+      "margin": 48884.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20042,
+    "seat": 0,
+    "arm_a": {
+      "hero": 120298.0,
+      "opp": 48945.0,
+      "won": true,
+      "margin": 71353.0
+    },
+    "arm_b": {
+      "hero": 120298.0,
+      "opp": 48945.0,
+      "won": true,
+      "margin": 71353.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 12345,
+    "seat": 0,
+    "arm_a": {
+      "hero": 133288.0,
+      "opp": 61071.0,
+      "won": true,
+      "margin": 72217.0
+    },
+    "arm_b": {
+      "hero": 133288.0,
+      "opp": 61071.0,
+      "won": true,
+      "margin": 72217.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 54321,
+    "seat": 0,
+    "arm_a": {
+      "hero": 122945.0,
+      "opp": 62584.0,
+      "won": true,
+      "margin": 60361.0
+    },
+    "arm_b": {
+      "hero": 122945.0,
+      "opp": 62584.0,
+      "won": true,
+      "margin": 60361.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20001,
+    "seat": 1,
+    "arm_a": {
+      "hero": 108624.0,
+      "opp": 47626.0,
+      "won": true,
+      "margin": 60998.0
+    },
+    "arm_b": {
+      "hero": 108624.0,
+      "opp": 47626.0,
+      "won": true,
+      "margin": 60998.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20010,
+    "seat": 1,
+    "arm_a": {
+      "hero": 76690.0,
+      "opp": 29445.0,
+      "won": true,
+      "margin": 47245.0
+    },
+    "arm_b": {
+      "hero": 76690.0,
+      "opp": 29445.0,
+      "won": true,
+      "margin": 47245.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20020,
+    "seat": 1,
+    "arm_a": {
+      "hero": 123666.0,
+      "opp": 47661.0,
+      "won": true,
+      "margin": 76005.0
+    },
+    "arm_b": {
+      "hero": 123666.0,
+      "opp": 47661.0,
+      "won": true,
+      "margin": 76005.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20030,
+    "seat": 1,
+    "arm_a": {
+      "hero": 103330.0,
+      "opp": 35535.0,
+      "won": true,
+      "margin": 67795.0
+    },
+    "arm_b": {
+      "hero": 103330.0,
+      "opp": 35535.0,
+      "won": true,
+      "margin": 67795.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20040,
+    "seat": 1,
+    "arm_a": {
+      "hero": 94811.0,
+      "opp": 50726.0,
+      "won": true,
+      "margin": 44085.0
+    },
+    "arm_b": {
+      "hero": 94811.0,
+      "opp": 50726.0,
+      "won": true,
+      "margin": 44085.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20050,
+    "seat": 1,
+    "arm_a": {
+      "hero": 108362.0,
+      "opp": 43883.0,
+      "won": true,
+      "margin": 64479.0
+    },
+    "arm_b": {
+      "hero": 108362.0,
+      "opp": 43883.0,
+      "won": true,
+      "margin": 64479.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20060,
+    "seat": 1,
+    "arm_a": {
+      "hero": 91566.0,
+      "opp": 30899.0,
+      "won": true,
+      "margin": 60667.0
+    },
+    "arm_b": {
+      "hero": 91566.0,
+      "opp": 30899.0,
+      "won": true,
+      "margin": 60667.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20070,
+    "seat": 1,
+    "arm_a": {
+      "hero": 114618.0,
+      "opp": 41286.0,
+      "won": true,
+      "margin": 73332.0
+    },
+    "arm_b": {
+      "hero": 114618.0,
+      "opp": 41286.0,
+      "won": true,
+      "margin": 73332.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20080,
+    "seat": 1,
+    "arm_a": {
+      "hero": 35005.0,
+      "opp": 1205.0,
+      "won": true,
+      "margin": 33800.0
+    },
+    "arm_b": {
+      "hero": 35005.0,
+      "opp": 1205.0,
+      "won": true,
+      "margin": 33800.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows12_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20090,
+    "seat": 1,
+    "arm_a": {
+      "hero": 98219.0,
+      "opp": 44743.0,
+      "won": true,
+      "margin": 53476.0
+    },
+    "arm_b": {
+      "hero": 98219.0,
+      "opp": 44743.0,
+      "won": true,
+      "margin": 53476.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 1000,
+    "seat": 0,
+    "arm_a": {
+      "hero": 105376.0,
+      "opp": 37689.0,
+      "won": true,
+      "margin": 67687.0
+    },
+    "arm_b": {
+      "hero": 105376.0,
+      "opp": 37689.0,
+      "won": true,
+      "margin": 67687.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 42,
+    "seat": 0,
+    "arm_a": {
+      "hero": 73870.0,
+      "opp": 30084.0,
+      "won": true,
+      "margin": 43786.0
+    },
+    "arm_b": {
+      "hero": 73870.0,
+      "opp": 30084.0,
+      "won": true,
+      "margin": 43786.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 100,
+    "seat": 0,
+    "arm_a": {
+      "hero": 112135.0,
+      "opp": 38276.0,
+      "won": true,
+      "margin": 73859.0
+    },
+    "arm_b": {
+      "hero": 112135.0,
+      "opp": 38276.0,
+      "won": true,
+      "margin": 73859.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 200,
+    "seat": 0,
+    "arm_a": {
+      "hero": 115973.0,
+      "opp": 38716.0,
+      "won": true,
+      "margin": 77257.0
+    },
+    "arm_b": {
+      "hero": 115973.0,
+      "opp": 38716.0,
+      "won": true,
+      "margin": 77257.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 300,
+    "seat": 0,
+    "arm_a": {
+      "hero": 87727.0,
+      "opp": 20053.0,
+      "won": true,
+      "margin": 67674.0
+    },
+    "arm_b": {
+      "hero": 87727.0,
+      "opp": 20053.0,
+      "won": true,
+      "margin": 67674.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 500,
+    "seat": 0,
+    "arm_a": {
+      "hero": 100082.0,
+      "opp": 32330.0,
+      "won": true,
+      "margin": 67752.0
+    },
+    "arm_b": {
+      "hero": 100082.0,
+      "opp": 32330.0,
+      "won": true,
+      "margin": 67752.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 1001,
+    "seat": 0,
+    "arm_a": {
+      "hero": 108966.0,
+      "opp": 50996.0,
+      "won": true,
+      "margin": 57970.0
+    },
+    "arm_b": {
+      "hero": 108966.0,
+      "opp": 50996.0,
+      "won": true,
+      "margin": 57970.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20042,
+    "seat": 0,
+    "arm_a": {
+      "hero": 138118.0,
+      "opp": 62083.0,
+      "won": true,
+      "margin": 76035.0
+    },
+    "arm_b": {
+      "hero": 138118.0,
+      "opp": 62083.0,
+      "won": true,
+      "margin": 76035.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 12345,
+    "seat": 0,
+    "arm_a": {
+      "hero": 148413.0,
+      "opp": 77067.0,
+      "won": true,
+      "margin": 71346.0
+    },
+    "arm_b": {
+      "hero": 148413.0,
+      "opp": 77067.0,
+      "won": true,
+      "margin": 71346.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 54321,
+    "seat": 0,
+    "arm_a": {
+      "hero": 126414.0,
+      "opp": 51239.0,
+      "won": true,
+      "margin": 75175.0
+    },
+    "arm_b": {
+      "hero": 126414.0,
+      "opp": 51239.0,
+      "won": true,
+      "margin": 75175.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20001,
+    "seat": 1,
+    "arm_a": {
+      "hero": 108646.0,
+      "opp": 47742.0,
+      "won": true,
+      "margin": 60904.0
+    },
+    "arm_b": {
+      "hero": 108646.0,
+      "opp": 47742.0,
+      "won": true,
+      "margin": 60904.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20010,
+    "seat": 1,
+    "arm_a": {
+      "hero": 76700.0,
+      "opp": 29563.0,
+      "won": true,
+      "margin": 47137.0
+    },
+    "arm_b": {
+      "hero": 76700.0,
+      "opp": 29563.0,
+      "won": true,
+      "margin": 47137.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20020,
+    "seat": 1,
+    "arm_a": {
+      "hero": 137714.0,
+      "opp": 60815.0,
+      "won": true,
+      "margin": 76899.0
+    },
+    "arm_b": {
+      "hero": 137714.0,
+      "opp": 60815.0,
+      "won": true,
+      "margin": 76899.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20030,
+    "seat": 1,
+    "arm_a": {
+      "hero": 93029.0,
+      "opp": 34579.0,
+      "won": true,
+      "margin": 58450.0
+    },
+    "arm_b": {
+      "hero": 93029.0,
+      "opp": 34579.0,
+      "won": true,
+      "margin": 58450.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20040,
+    "seat": 1,
+    "arm_a": {
+      "hero": 91513.0,
+      "opp": 44544.0,
+      "won": true,
+      "margin": 46969.0
+    },
+    "arm_b": {
+      "hero": 91513.0,
+      "opp": 44544.0,
+      "won": true,
+      "margin": 46969.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20050,
+    "seat": 1,
+    "arm_a": {
+      "hero": 118487.0,
+      "opp": 48270.0,
+      "won": true,
+      "margin": 70217.0
+    },
+    "arm_b": {
+      "hero": 118487.0,
+      "opp": 48270.0,
+      "won": true,
+      "margin": 70217.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20060,
+    "seat": 1,
+    "arm_a": {
+      "hero": 91580.0,
+      "opp": 31023.0,
+      "won": true,
+      "margin": 60557.0
+    },
+    "arm_b": {
+      "hero": 91580.0,
+      "opp": 31023.0,
+      "won": true,
+      "margin": 60557.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20070,
+    "seat": 1,
+    "arm_a": {
+      "hero": 134008.0,
+      "opp": 54072.0,
+      "won": true,
+      "margin": 79936.0
+    },
+    "arm_b": {
+      "hero": 134008.0,
+      "opp": 54072.0,
+      "won": true,
+      "margin": 79936.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20080,
+    "seat": 1,
+    "arm_a": {
+      "hero": 35329.0,
+      "opp": 1174.0,
+      "won": true,
+      "margin": 34155.0
+    },
+    "arm_b": {
+      "hero": 35329.0,
+      "opp": 1174.0,
+      "won": true,
+      "margin": 34155.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T3_cows13_herd",
+    "tier": "1400-1800 (High-Yield Agro)",
+    "seed": 20090,
+    "seat": 1,
+    "arm_a": {
+      "hero": 95791.0,
+      "opp": 34238.0,
+      "won": true,
+      "margin": 61553.0
+    },
+    "arm_b": {
+      "hero": 95791.0,
+      "opp": 34238.0,
+      "won": true,
+      "margin": 61553.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 1000,
+    "seat": 0,
+    "arm_a": {
+      "hero": 121042.0,
+      "opp": 67693.0,
+      "won": true,
+      "margin": 53349.0
+    },
+    "arm_b": {
+      "hero": 121042.0,
+      "opp": 67693.0,
+      "won": true,
+      "margin": 53349.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 42,
+    "seat": 0,
+    "arm_a": {
+      "hero": 83892.0,
+      "opp": 29007.0,
+      "won": true,
+      "margin": 54885.0
+    },
+    "arm_b": {
+      "hero": 83892.0,
+      "opp": 29007.0,
+      "won": true,
+      "margin": 54885.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 100,
+    "seat": 0,
+    "arm_a": {
+      "hero": 118915.0,
+      "opp": 60580.0,
+      "won": true,
+      "margin": 58335.0
+    },
+    "arm_b": {
+      "hero": 118915.0,
+      "opp": 60580.0,
+      "won": true,
+      "margin": 58335.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 200,
+    "seat": 0,
+    "arm_a": {
+      "hero": 111084.0,
+      "opp": 48883.0,
+      "won": true,
+      "margin": 62201.0
+    },
+    "arm_b": {
+      "hero": 111084.0,
+      "opp": 48883.0,
+      "won": true,
+      "margin": 62201.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 300,
+    "seat": 0,
+    "arm_a": {
+      "hero": 137800.0,
+      "opp": 72706.0,
+      "won": true,
+      "margin": 65094.0
+    },
+    "arm_b": {
+      "hero": 137800.0,
+      "opp": 72706.0,
+      "won": true,
+      "margin": 65094.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 500,
+    "seat": 0,
+    "arm_a": {
+      "hero": 67107.0,
+      "opp": 20326.0,
+      "won": true,
+      "margin": 46781.0
+    },
+    "arm_b": {
+      "hero": 67107.0,
+      "opp": 20326.0,
+      "won": true,
+      "margin": 46781.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 1001,
+    "seat": 0,
+    "arm_a": {
+      "hero": 83952.0,
+      "opp": 27753.0,
+      "won": true,
+      "margin": 56199.0
+    },
+    "arm_b": {
+      "hero": 83952.0,
+      "opp": 27753.0,
+      "won": true,
+      "margin": 56199.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 20042,
+    "seat": 0,
+    "arm_a": {
+      "hero": 110449.0,
+      "opp": 56651.0,
+      "won": true,
+      "margin": 53798.0
+    },
+    "arm_b": {
+      "hero": 110449.0,
+      "opp": 56651.0,
+      "won": true,
+      "margin": 53798.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 12345,
+    "seat": 0,
+    "arm_a": {
+      "hero": 117464.0,
+      "opp": 58161.0,
+      "won": true,
+      "margin": 59303.0
+    },
+    "arm_b": {
+      "hero": 117464.0,
+      "opp": 58161.0,
+      "won": true,
+      "margin": 59303.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 54321,
+    "seat": 0,
+    "arm_a": {
+      "hero": 113073.0,
+      "opp": 57109.0,
+      "won": true,
+      "margin": 55964.0
+    },
+    "arm_b": {
+      "hero": 113073.0,
+      "opp": 57109.0,
+      "won": true,
+      "margin": 55964.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 20001,
+    "seat": 1,
+    "arm_a": {
+      "hero": 83681.0,
+      "opp": 42053.0,
+      "won": true,
+      "margin": 41628.0
+    },
+    "arm_b": {
+      "hero": 83681.0,
+      "opp": 42053.0,
+      "won": true,
+      "margin": 41628.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 20010,
+    "seat": 1,
+    "arm_a": {
+      "hero": 87872.0,
+      "opp": 42483.0,
+      "won": true,
+      "margin": 45389.0
+    },
+    "arm_b": {
+      "hero": 87872.0,
+      "opp": 42483.0,
+      "won": true,
+      "margin": 45389.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 20020,
+    "seat": 1,
+    "arm_a": {
+      "hero": 143593.0,
+      "opp": 78233.0,
+      "won": true,
+      "margin": 65360.0
+    },
+    "arm_b": {
+      "hero": 143593.0,
+      "opp": 78233.0,
+      "won": true,
+      "margin": 65360.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 20030,
+    "seat": 1,
+    "arm_a": {
+      "hero": 132414.0,
+      "opp": 66449.0,
+      "won": true,
+      "margin": 65965.0
+    },
+    "arm_b": {
+      "hero": 132414.0,
+      "opp": 66449.0,
+      "won": true,
+      "margin": 65965.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 20040,
+    "seat": 1,
+    "arm_a": {
+      "hero": 86772.0,
+      "opp": 40713.0,
+      "won": true,
+      "margin": 46059.0
+    },
+    "arm_b": {
+      "hero": 86772.0,
+      "opp": 40713.0,
+      "won": true,
+      "margin": 46059.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 20050,
+    "seat": 1,
+    "arm_a": {
+      "hero": 102111.0,
+      "opp": 53299.0,
+      "won": true,
+      "margin": 48812.0
+    },
+    "arm_b": {
+      "hero": 102111.0,
+      "opp": 53299.0,
+      "won": true,
+      "margin": 48812.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 20060,
+    "seat": 1,
+    "arm_a": {
+      "hero": 87841.0,
+      "opp": 46617.0,
+      "won": true,
+      "margin": 41224.0
+    },
+    "arm_b": {
+      "hero": 87841.0,
+      "opp": 46617.0,
+      "won": true,
+      "margin": 41224.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 20070,
+    "seat": 1,
+    "arm_a": {
+      "hero": 109004.0,
+      "opp": 56440.0,
+      "won": true,
+      "margin": 52564.0
+    },
+    "arm_b": {
+      "hero": 109004.0,
+      "opp": 56440.0,
+      "won": true,
+      "margin": 52564.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 20080,
+    "seat": 1,
+    "arm_a": {
+      "hero": 87939.0,
+      "opp": 44629.0,
+      "won": true,
+      "margin": 43310.0
+    },
+    "arm_b": {
+      "hero": 87939.0,
+      "opp": 44629.0,
+      "won": true,
+      "margin": 43310.0
+    },
+    "mirror_trace": null
+  },
+  {
+    "bot_key": "T4_experimental_v84",
+    "tier": "1800+ (Multi-Asset Elite)",
+    "seed": 20090,
+    "seat": 1,
+    "arm_a": {
+      "hero": 103455.0,
+      "opp": 49636.0,
+      "won": true,
+      "margin": 53819.0
+    },
+    "arm_b": {
+      "hero": 103455.0,
+      "opp": 49636.0,
+      "won": true,
+      "margin": 53819.0
+    },
+    "mirror_trace": null
+  }
+]
