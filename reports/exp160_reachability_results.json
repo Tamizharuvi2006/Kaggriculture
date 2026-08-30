@@ -1,0 +1,420 @@
+[
+  {
+    "seed": 1000,
+    "seat": 0,
+    "base_reward": 87922.0,
+    "base_opp": 93383.0,
+    "base_margin": -5461.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -5461.0,
+      "won": false,
+      "reward": 87922.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 42,
+    "seat": 0,
+    "base_reward": 62463.0,
+    "base_opp": 69600.0,
+    "base_margin": -7137.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -7137.0,
+      "won": false,
+      "reward": 62463.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 100,
+    "seat": 0,
+    "base_reward": 92031.0,
+    "base_opp": 99162.0,
+    "base_margin": -7131.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -7131.0,
+      "won": false,
+      "reward": 92031.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 200,
+    "seat": 0,
+    "base_reward": 70900.0,
+    "base_opp": 71932.0,
+    "base_margin": -1032.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -1032.0,
+      "won": false,
+      "reward": 70900.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 300,
+    "seat": 0,
+    "base_reward": 83593.0,
+    "base_opp": 91703.0,
+    "base_margin": -8110.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -8110.0,
+      "won": false,
+      "reward": 83593.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 500,
+    "seat": 0,
+    "base_reward": 23612.0,
+    "base_opp": 25169.0,
+    "base_margin": -1557.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -1557.0,
+      "won": false,
+      "reward": 23612.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 1001,
+    "seat": 0,
+    "base_reward": 37074.0,
+    "base_opp": 37563.0,
+    "base_margin": -489.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -489.0,
+      "won": false,
+      "reward": 37074.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 20042,
+    "seat": 0,
+    "base_reward": 63123.0,
+    "base_opp": 63857.0,
+    "base_margin": -734.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -734.0,
+      "won": false,
+      "reward": 63123.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 12345,
+    "seat": 0,
+    "base_reward": 127875.0,
+    "base_opp": 134090.0,
+    "base_margin": -6215.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -6215.0,
+      "won": false,
+      "reward": 127875.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 54321,
+    "seat": 0,
+    "base_reward": 88486.0,
+    "base_opp": 92327.0,
+    "base_margin": -3841.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -3841.0,
+      "won": false,
+      "reward": 88486.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 20001,
+    "seat": 1,
+    "base_reward": 80809.0,
+    "base_opp": 94607.0,
+    "base_margin": -13798.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -13798.0,
+      "won": false,
+      "reward": 80809.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 20010,
+    "seat": 1,
+    "base_reward": 36383.0,
+    "base_opp": 39970.0,
+    "base_margin": -3587.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -3587.0,
+      "won": false,
+      "reward": 36383.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 20020,
+    "seat": 1,
+    "base_reward": 107919.0,
+    "base_opp": 113168.0,
+    "base_margin": -5249.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -5249.0,
+      "won": false,
+      "reward": 107919.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 20030,
+    "seat": 1,
+    "base_reward": 70980.0,
+    "base_opp": 78310.0,
+    "base_margin": -7330.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_264",
+      "step": 264,
+      "margin": -6533.0,
+      "won": false,
+      "reward": 60738.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 20040,
+    "seat": 1,
+    "base_reward": 74715.0,
+    "base_opp": 77728.0,
+    "base_margin": -3013.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -3013.0,
+      "won": false,
+      "reward": 74715.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 20050,
+    "seat": 1,
+    "base_reward": 79033.0,
+    "base_opp": 75939.0,
+    "base_margin": 3094.0,
+    "base_won": true,
+    "win_reachable": true,
+    "num_winning_branches": 7,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": 3094.0,
+      "won": true,
+      "reward": 79033.0
+    },
+    "winning_branches": [
+      {
+        "category": "LAND_TIMING",
+        "name": "Buy_Land_Step_216",
+        "step": 216,
+        "margin": 3094.0,
+        "won": true,
+        "reward": 79033.0
+      },
+      {
+        "category": "LAND_TIMING",
+        "name": "Buy_Land_Step_240",
+        "step": 240,
+        "margin": 3094.0,
+        "won": true,
+        "reward": 79033.0
+      },
+      {
+        "category": "LIVESTOCK_EXPANSION",
+        "name": "Buy_COW_Step_264",
+        "step": 264,
+        "margin": 2698.0,
+        "won": true,
+        "reward": 78634.0
+      },
+      {
+        "category": "LIVESTOCK_EXPANSION",
+        "name": "Buy_SHEEP_Step_264",
+        "step": 264,
+        "margin": 2598.0,
+        "won": true,
+        "reward": 78534.0
+      },
+      {
+        "category": "MILK_LIQUIDATION",
+        "name": "Flush_Milk_Step_312",
+        "step": 312,
+        "margin": 3094.0,
+        "won": true,
+        "reward": 79033.0
+      },
+      {
+        "category": "MILK_LIQUIDATION",
+        "name": "Flush_Milk_Step_360",
+        "step": 360,
+        "margin": 3094.0,
+        "won": true,
+        "reward": 79033.0
+      },
+      {
+        "category": "MILK_LIQUIDATION",
+        "name": "Flush_Milk_Step_480",
+        "step": 480,
+        "margin": 3094.0,
+        "won": true,
+        "reward": 79033.0
+      }
+    ]
+  },
+  {
+    "seed": 20060,
+    "seat": 1,
+    "base_reward": 82373.0,
+    "base_opp": 84411.0,
+    "base_margin": -2038.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -2038.0,
+      "won": false,
+      "reward": 82373.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 20070,
+    "seat": 1,
+    "base_reward": 105398.0,
+    "base_opp": 113914.0,
+    "base_margin": -8516.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -8516.0,
+      "won": false,
+      "reward": 105398.0
+    },
+    "winning_branches": []
+  },
+  {
+    "seed": 20080,
+    "seat": 1,
+    "base_reward": 52207.0,
+    "base_opp": 56962.0,
+    "base_margin": -4755.0,
+    "base_won": false,
+    "win_reachable": false,
+    "num_winning_branches": 0,
+    "best_branch": {
+      "category": "LAND_TIMING",
+      "name": "Buy_Land_Step_216",
+      "step": 216,
+      "margin": -4755.0,
+      "won": false,
+      "reward": 52207.0
+    },
+    "winning_branches": []
+  }
+]
