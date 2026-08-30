@@ -1,0 +1,47 @@
+{
+  "engine_audit": {
+    "per_unit_lockstep": true,
+    "same_step_price_equality": true,
+    "atomic_order_player0_first": true
+  },
+  "perturbation_modes": {
+    "baseline": {
+      "win_rate": 5.0,
+      "wins": 1,
+      "mean_hero": 76297.7,
+      "mean_opp": 80810.2,
+      "mean_margin": -4512.5,
+      "elapsed_s": 33.64795470237732
+    },
+    "delay_sell_1": {
+      "win_rate": 0.0,
+      "wins": 0,
+      "mean_hero": 68810.75,
+      "mean_opp": 94416.35,
+      "mean_margin": -25605.6,
+      "elapsed_s": 33.77828621864319
+    },
+    "advance_sell_1": {
+      "win_rate": 5.0,
+      "wins": 1,
+      "mean_hero": 76297.7,
+      "mean_opp": 80810.2,
+      "mean_margin": -4512.5,
+      "elapsed_s": 38.47065854072571
+    },
+    "half_qty_sell": {
+      "win_rate": 0.0,
+      "wins": 0,
+      "mean_hero": 11297.95,
+      "mean_opp": 131895.9,
+      "mean_margin": -120597.95,
+      "elapsed_s": 32.824443101882935
+    }
+  },
+  "seat_asymmetry": {
+    "seat0_wr": 0.0,
+    "seat0_margin": -4170.7,
+    "seat1_wr": 10.0,
+    "seat1_margin": -4854.3
+  }
+}
