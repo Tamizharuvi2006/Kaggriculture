@@ -1242,7 +1242,5 @@ def agent(obs, configuration=None):
         act["market"] = final_orders
 
         return act
-    except Exception as e:
-        import traceback
-        traceback.print_exc()
+    except Exception:
         return {"farmer": ["PASS"], "hands": [], "market": []}
