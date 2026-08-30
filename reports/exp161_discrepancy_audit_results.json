@@ -1,0 +1,19 @@
+{
+  "total_replays": 129,
+  "elo_stats": {
+    "min": 362.8667109243876,
+    "median": 1124.5985072434382,
+    "mean": 1411.5588445409774,
+    "max": 3063.9126671459426
+  },
+  "reward_stats": {
+    "mean": 75256.35658914728,
+    "median": 73756.5,
+    "mean_margin": 16289.550387596899
+  },
+  "discrepancy_attribution": {
+    "benchmark_composition_bias_pct": 85.0,
+    "missing_hybrid_competitors_pct": 15.0,
+    "simulator_engine_mismatch_pct": 0.0
+  }
+}
