@@ -1,0 +1,72 @@
+[
+  {
+    "rank": 1,
+    "candidate_id": "EXP208_Champ_840",
+    "gpu_score": 8832.984375,
+    "fert_cadence_hours": 3,
+    "fert_min_qty": 2,
+    "fert_min_price": 47.53190994262695,
+    "sheep_wool_cutoff": 130.39344787597656,
+    "q3_cash_thresh": 810.3115234375,
+    "cow_reinvest_thresh": 1038.5516357421875,
+    "straw_late_seeds": 14,
+    "endgame_step": 631.599609375,
+    "margin_gate": 160.39859008789062
+  },
+  {
+    "rank": 2,
+    "candidate_id": "EXP208_Champ_417",
+    "gpu_score": 8818.298828125,
+    "fert_cadence_hours": 5,
+    "fert_min_qty": 2,
+    "fert_min_price": 45.54999542236328,
+    "sheep_wool_cutoff": 130.69033813476562,
+    "q3_cash_thresh": 891.7138671875,
+    "cow_reinvest_thresh": 853.55419921875,
+    "straw_late_seeds": 11,
+    "endgame_step": 657.1827392578125,
+    "margin_gate": 258.537841796875
+  },
+  {
+    "rank": 3,
+    "candidate_id": "EXP208_Champ_576",
+    "gpu_score": 8771.6044921875,
+    "fert_cadence_hours": 6,
+    "fert_min_qty": 2,
+    "fert_min_price": 48.668724060058594,
+    "sheep_wool_cutoff": 131.25254821777344,
+    "q3_cash_thresh": 978.0848388671875,
+    "cow_reinvest_thresh": 1000.8973388671875,
+    "straw_late_seeds": 15,
+    "endgame_step": 629.6325073242188,
+    "margin_gate": 244.42044067382812
+  },
+  {
+    "rank": 4,
+    "candidate_id": "EXP208_Champ_579",
+    "gpu_score": 8765.1962890625,
+    "fert_cadence_hours": 8,
+    "fert_min_qty": 4,
+    "fert_min_price": 47.61009216308594,
+    "sheep_wool_cutoff": 132.98602294921875,
+    "q3_cash_thresh": 816.6945190429688,
+    "cow_reinvest_thresh": 928.307861328125,
+    "straw_late_seeds": 11,
+    "endgame_step": 689.3023071289062,
+    "margin_gate": 228.10946655273438
+  },
+  {
+    "rank": 5,
+    "candidate_id": "EXP208_Champ_538",
+    "gpu_score": 8750.0888671875,
+    "fert_cadence_hours": 4,
+    "fert_min_qty": 1,
+    "fert_min_price": 51.008087158203125,
+    "sheep_wool_cutoff": 132.18092346191406,
+    "q3_cash_thresh": 976.2705078125,
+    "cow_reinvest_thresh": 933.1090087890625,
+    "straw_late_seeds": 24,
+    "endgame_step": 672.9785766601562,
+    "margin_gate": 235.14511108398438
+  }
+]

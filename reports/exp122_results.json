@@ -1,0 +1,2410 @@
+{
+  "A: D.1 Control": [
+    {
+      "cash": {
+        "D22": 46265.0,
+        "D27": 93242.0,
+        "D30": 128898.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 129744.0,
+      "opp_reward": 24061.0,
+      "share": 84.35616527421085,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93332287,
+      "cluster": 87
+    },
+    {
+      "cash": {
+        "D22": 37783.0,
+        "D27": 52019.0,
+        "D30": 67333.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 67333.0,
+      "opp_reward": 18023.0,
+      "share": 78.88490557195745,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93351245,
+      "cluster": 87
+    },
+    {
+      "cash": {
+        "D22": 26764.0,
+        "D27": 56241.0,
+        "D30": 77312.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 38,
+        "D27": 26,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 77312.0,
+      "opp_reward": 16213.0,
+      "share": 82.66452820101577,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93441990,
+      "cluster": 87
+    },
+    {
+      "cash": {
+        "D22": 46819.0,
+        "D27": 91617.0,
+        "D30": 123253.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 123843.0,
+      "opp_reward": 25481.0,
+      "share": 82.935763842383,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93505279,
+      "cluster": 59
+    },
+    {
+      "cash": {
+        "D22": 48741.0,
+        "D27": 97047.0,
+        "D30": 130971.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 39,
+        "D27": 27,
+        "D30": 5
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 131665.0,
+      "opp_reward": 25537.0,
+      "share": 83.75529573415096,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93508839,
+      "cluster": 59
+    },
+    {
+      "cash": {
+        "D22": 60081.0,
+        "D27": 112994.0,
+        "D30": 149793.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 150428.0,
+      "opp_reward": 33663.0,
+      "share": 81.7139349560815,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93510620,
+      "cluster": 59
+    },
+    {
+      "cash": {
+        "D22": 64369.0,
+        "D27": 121459.0,
+        "D30": 161888.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 162480.0,
+      "opp_reward": 0.0,
+      "share": 100.0,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 92733633,
+      "cluster": 84
+    },
+    {
+      "cash": {
+        "D22": 40016.0,
+        "D27": 60816.0,
+        "D30": 67995.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 67995.0,
+      "opp_reward": 75505.0,
+      "share": 47.383275261324044,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 92739218,
+      "cluster": 84
+    },
+    {
+      "cash": {
+        "D22": 42817.0,
+        "D27": 54356.0,
+        "D30": 62340.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 62367.0,
+      "opp_reward": 71008.0,
+      "share": 46.76063730084349,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 92741996,
+      "cluster": 84
+    },
+    {
+      "cash": {
+        "D22": 49049.0,
+        "D27": 96272.0,
+        "D30": 130108.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 130959.0,
+      "opp_reward": 24085.0,
+      "share": 84.46570005933799,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93317864,
+      "cluster": 76
+    },
+    {
+      "cash": {
+        "D22": 49976.0,
+        "D27": 91232.0,
+        "D30": 122628.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 38,
+        "D27": 27,
+        "D30": 5
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 123343.0,
+      "opp_reward": 25634.0,
+      "share": 82.79331708921511,
+      "won": true,
+      "stranded_crops": 1,
+      "episode_id": 93325055,
+      "cluster": 76
+    },
+    {
+      "cash": {
+        "D22": 39877.0,
+        "D27": 70220.0,
+        "D30": 82602.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 82602.0,
+      "opp_reward": 36668.0,
+      "share": 69.25630921438753,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93327766,
+      "cluster": 76
+    },
+    {
+      "cash": {
+        "D22": 28165.0,
+        "D27": 28586.0,
+        "D30": 32153.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 32153.0,
+      "opp_reward": 50867.0,
+      "share": 38.72922187424717,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 92630265,
+      "cluster": 73
+    },
+    {
+      "cash": {
+        "D22": 54028.0,
+        "D27": 96836.0,
+        "D30": 126886.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 127522.0,
+      "opp_reward": 109782.0,
+      "share": 53.737821528503524,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 92631200,
+      "cluster": 73
+    },
+    {
+      "cash": {
+        "D22": 49648.0,
+        "D27": 90643.0,
+        "D30": 119345.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 120088.0,
+      "opp_reward": 105344.0,
+      "share": 53.27016572625004,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 92635901,
+      "cluster": 73
+    },
+    {
+      "cash": {
+        "D22": 56812.0,
+        "D27": 97232.0,
+        "D30": 120327.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 120919.0,
+      "opp_reward": 114720.0,
+      "share": 51.31535951179559,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 91760174,
+      "cluster": 51
+    },
+    {
+      "cash": {
+        "D22": 41048.0,
+        "D27": 55158.0,
+        "D30": 63602.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 63709.0,
+      "opp_reward": 73995.0,
+      "share": 46.26517748213559,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 91763966,
+      "cluster": 51
+    },
+    {
+      "cash": {
+        "D22": 25361.0,
+        "D27": 30979.0,
+        "D30": 32504.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 32504.0,
+      "opp_reward": 50711.0,
+      "share": 39.06026557711951,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 91764902,
+      "cluster": 51
+    },
+    {
+      "cash": {
+        "D22": 31900.0,
+        "D27": 45690.0,
+        "D30": 57129.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 57129.0,
+      "opp_reward": 19495.0,
+      "share": 74.55757987053666,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93180220,
+      "cluster": 95
+    },
+    {
+      "cash": {
+        "D22": 50075.0,
+        "D27": 101804.0,
+        "D30": 139191.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 139882.0,
+      "opp_reward": 26911.0,
+      "share": 83.86562985257176,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93191911,
+      "cluster": 95
+    }
+  ],
+  "B: Late Crop Retirement": [
+    {
+      "cash": {
+        "D22": 46265.0,
+        "D27": 93242.0,
+        "D30": 128898.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 129744.0,
+      "opp_reward": 24061.0,
+      "share": 84.35616527421085,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93332287,
+      "cluster": 87
+    },
+    {
+      "cash": {
+        "D22": 37783.0,
+        "D27": 52019.0,
+        "D30": 67333.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 67333.0,
+      "opp_reward": 18023.0,
+      "share": 78.88490557195745,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93351245,
+      "cluster": 87
+    },
+    {
+      "cash": {
+        "D22": 26764.0,
+        "D27": 56241.0,
+        "D30": 77312.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 38,
+        "D27": 26,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 77312.0,
+      "opp_reward": 16213.0,
+      "share": 82.66452820101577,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93441990,
+      "cluster": 87
+    },
+    {
+      "cash": {
+        "D22": 46819.0,
+        "D27": 91617.0,
+        "D30": 123253.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 123843.0,
+      "opp_reward": 25481.0,
+      "share": 82.935763842383,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93505279,
+      "cluster": 59
+    },
+    {
+      "cash": {
+        "D22": 48741.0,
+        "D27": 97047.0,
+        "D30": 130971.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 39,
+        "D27": 27,
+        "D30": 5
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 131665.0,
+      "opp_reward": 25537.0,
+      "share": 83.75529573415096,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93508839,
+      "cluster": 59
+    },
+    {
+      "cash": {
+        "D22": 60081.0,
+        "D27": 112994.0,
+        "D30": 149793.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 150428.0,
+      "opp_reward": 33663.0,
+      "share": 81.7139349560815,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93510620,
+      "cluster": 59
+    },
+    {
+      "cash": {
+        "D22": 64369.0,
+        "D27": 121459.0,
+        "D30": 161888.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 162480.0,
+      "opp_reward": 0.0,
+      "share": 100.0,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 92733633,
+      "cluster": 84
+    },
+    {
+      "cash": {
+        "D22": 40016.0,
+        "D27": 60816.0,
+        "D30": 67995.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 67995.0,
+      "opp_reward": 75505.0,
+      "share": 47.383275261324044,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 92739218,
+      "cluster": 84
+    },
+    {
+      "cash": {
+        "D22": 42817.0,
+        "D27": 54356.0,
+        "D30": 62340.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 62367.0,
+      "opp_reward": 71008.0,
+      "share": 46.76063730084349,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 92741996,
+      "cluster": 84
+    },
+    {
+      "cash": {
+        "D22": 49049.0,
+        "D27": 96272.0,
+        "D30": 130108.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 130959.0,
+      "opp_reward": 24085.0,
+      "share": 84.46570005933799,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93317864,
+      "cluster": 76
+    },
+    {
+      "cash": {
+        "D22": 49976.0,
+        "D27": 91232.0,
+        "D30": 122628.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 38,
+        "D27": 27,
+        "D30": 5
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 123343.0,
+      "opp_reward": 25634.0,
+      "share": 82.79331708921511,
+      "won": true,
+      "stranded_crops": 1,
+      "episode_id": 93325055,
+      "cluster": 76
+    },
+    {
+      "cash": {
+        "D22": 39877.0,
+        "D27": 70220.0,
+        "D30": 82602.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 82602.0,
+      "opp_reward": 36668.0,
+      "share": 69.25630921438753,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93327766,
+      "cluster": 76
+    },
+    {
+      "cash": {
+        "D22": 28165.0,
+        "D27": 28586.0,
+        "D30": 32153.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 32153.0,
+      "opp_reward": 50867.0,
+      "share": 38.72922187424717,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 92630265,
+      "cluster": 73
+    },
+    {
+      "cash": {
+        "D22": 54028.0,
+        "D27": 96836.0,
+        "D30": 126886.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 127522.0,
+      "opp_reward": 109782.0,
+      "share": 53.737821528503524,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 92631200,
+      "cluster": 73
+    },
+    {
+      "cash": {
+        "D22": 49648.0,
+        "D27": 90643.0,
+        "D30": 119345.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 120088.0,
+      "opp_reward": 105344.0,
+      "share": 53.27016572625004,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 92635901,
+      "cluster": 73
+    },
+    {
+      "cash": {
+        "D22": 56812.0,
+        "D27": 97232.0,
+        "D30": 120327.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 120919.0,
+      "opp_reward": 114720.0,
+      "share": 51.31535951179559,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 91760174,
+      "cluster": 51
+    },
+    {
+      "cash": {
+        "D22": 41048.0,
+        "D27": 55158.0,
+        "D30": 63602.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 63709.0,
+      "opp_reward": 73995.0,
+      "share": 46.26517748213559,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 91763966,
+      "cluster": 51
+    },
+    {
+      "cash": {
+        "D22": 25361.0,
+        "D27": 30979.0,
+        "D30": 32504.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 32504.0,
+      "opp_reward": 50711.0,
+      "share": 39.06026557711951,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 91764902,
+      "cluster": 51
+    },
+    {
+      "cash": {
+        "D22": 31900.0,
+        "D27": 45690.0,
+        "D30": 57129.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 57129.0,
+      "opp_reward": 19495.0,
+      "share": 74.55757987053666,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93180220,
+      "cluster": 95
+    },
+    {
+      "cash": {
+        "D22": 50075.0,
+        "D27": 101804.0,
+        "D30": 139191.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 2
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 139882.0,
+      "opp_reward": 26911.0,
+      "share": 83.86562985257176,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93191911,
+      "cluster": 95
+    }
+  ],
+  "C: Late Worker Burst": [
+    {
+      "cash": {
+        "D22": 46265.0,
+        "D27": 93242.0,
+        "D30": 133620.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 135057.0,
+      "opp_reward": 24055.0,
+      "share": 84.88171853788526,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93332287,
+      "cluster": 87
+    },
+    {
+      "cash": {
+        "D22": 37783.0,
+        "D27": 52019.0,
+        "D30": 71622.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 71698.0,
+      "opp_reward": 18023.0,
+      "share": 79.91217217819685,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93351245,
+      "cluster": 87
+    },
+    {
+      "cash": {
+        "D22": 26764.0,
+        "D27": 56241.0,
+        "D30": 80288.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 38,
+        "D27": 26,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 80364.0,
+      "opp_reward": 16211.0,
+      "share": 83.21408231944085,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93441990,
+      "cluster": 87
+    },
+    {
+      "cash": {
+        "D22": 46819.0,
+        "D27": 91617.0,
+        "D30": 128675.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 129856.0,
+      "opp_reward": 25475.0,
+      "share": 83.59953904886983,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93505279,
+      "cluster": 59
+    },
+    {
+      "cash": {
+        "D22": 48741.0,
+        "D27": 97047.0,
+        "D30": 137232.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 39,
+        "D27": 27,
+        "D30": 5
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 138517.0,
+      "opp_reward": 25531.0,
+      "share": 84.43687213498488,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93508839,
+      "cluster": 59
+    },
+    {
+      "cash": {
+        "D22": 60081.0,
+        "D27": 112994.0,
+        "D30": 156606.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 158028.0,
+      "opp_reward": 33660.0,
+      "share": 82.44021534994366,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93510620,
+      "cluster": 59
+    },
+    {
+      "cash": {
+        "D22": 64369.0,
+        "D27": 121459.0,
+        "D30": 169237.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 170740.0,
+      "opp_reward": 0.0,
+      "share": 100.0,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 92733633,
+      "cluster": 84
+    },
+    {
+      "cash": {
+        "D22": 40016.0,
+        "D27": 60816.0,
+        "D30": 70502.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 70538.0,
+      "opp_reward": 75439.0,
+      "share": 48.321310891441804,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 92739218,
+      "cluster": 84
+    },
+    {
+      "cash": {
+        "D22": 42817.0,
+        "D27": 54356.0,
+        "D30": 66705.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 66732.0,
+      "opp_reward": 70896.0,
+      "share": 48.48722643648095,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 92741996,
+      "cluster": 84
+    },
+    {
+      "cash": {
+        "D22": 49049.0,
+        "D27": 96272.0,
+        "D30": 133978.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 135622.0,
+      "opp_reward": 24079.0,
+      "share": 84.92244882624405,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93317864,
+      "cluster": 76
+    },
+    {
+      "cash": {
+        "D22": 49976.0,
+        "D27": 91232.0,
+        "D30": 126543.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 38,
+        "D27": 27,
+        "D30": 5
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 127980.0,
+      "opp_reward": 25628.0,
+      "share": 83.31597312639967,
+      "won": true,
+      "stranded_crops": 1,
+      "episode_id": 93325055,
+      "cluster": 76
+    },
+    {
+      "cash": {
+        "D22": 39877.0,
+        "D27": 70220.0,
+        "D30": 87153.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 87209.0,
+      "opp_reward": 36660.0,
+      "share": 70.40421735866117,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93327766,
+      "cluster": 76
+    },
+    {
+      "cash": {
+        "D22": 28165.0,
+        "D27": 28586.0,
+        "D30": 33989.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 34027.0,
+      "opp_reward": 50816.0,
+      "share": 40.10584255625096,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 92630265,
+      "cluster": 73
+    },
+    {
+      "cash": {
+        "D22": 54028.0,
+        "D27": 96836.0,
+        "D30": 132940.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 134176.0,
+      "opp_reward": 109732.0,
+      "share": 55.01090575134887,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 92631200,
+      "cluster": 73
+    },
+    {
+      "cash": {
+        "D22": 49648.0,
+        "D27": 90643.0,
+        "D30": 122608.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 124098.0,
+      "opp_reward": 105282.0,
+      "share": 54.10149097567355,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 92635901,
+      "cluster": 73
+    },
+    {
+      "cash": {
+        "D22": 56812.0,
+        "D27": 97232.0,
+        "D30": 124826.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 125427.0,
+      "opp_reward": 114540.0,
+      "share": 52.26843691007513,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 91760174,
+      "cluster": 51
+    },
+    {
+      "cash": {
+        "D22": 41048.0,
+        "D27": 55158.0,
+        "D30": 67843.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 67950.0,
+      "opp_reward": 73859.0,
+      "share": 47.916563828811995,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 91763966,
+      "cluster": 51
+    },
+    {
+      "cash": {
+        "D22": 25361.0,
+        "D27": 30979.0,
+        "D30": 33934.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 33962.0,
+      "opp_reward": 50540.0,
+      "share": 40.19076471562803,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 91764902,
+      "cluster": 51
+    },
+    {
+      "cash": {
+        "D22": 31900.0,
+        "D27": 45690.0,
+        "D30": 61722.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 61798.0,
+      "opp_reward": 19489.0,
+      "share": 76.02445655516871,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93180220,
+      "cluster": 95
+    },
+    {
+      "cash": {
+        "D22": 50075.0,
+        "D27": 101804.0,
+        "D30": 145303.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 146806.0,
+      "opp_reward": 26905.0,
+      "share": 84.51163138776474,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93191911,
+      "cluster": 95
+    }
+  ],
+  "D: Combined Retirement+Burst": [
+    {
+      "cash": {
+        "D22": 46265.0,
+        "D27": 93242.0,
+        "D30": 133620.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 135057.0,
+      "opp_reward": 24055.0,
+      "share": 84.88171853788526,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93332287,
+      "cluster": 87
+    },
+    {
+      "cash": {
+        "D22": 37783.0,
+        "D27": 52019.0,
+        "D30": 71622.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 71698.0,
+      "opp_reward": 18023.0,
+      "share": 79.91217217819685,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93351245,
+      "cluster": 87
+    },
+    {
+      "cash": {
+        "D22": 26764.0,
+        "D27": 56241.0,
+        "D30": 80288.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 38,
+        "D27": 26,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 80364.0,
+      "opp_reward": 16211.0,
+      "share": 83.21408231944085,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93441990,
+      "cluster": 87
+    },
+    {
+      "cash": {
+        "D22": 46819.0,
+        "D27": 91617.0,
+        "D30": 128675.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 129856.0,
+      "opp_reward": 25475.0,
+      "share": 83.59953904886983,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93505279,
+      "cluster": 59
+    },
+    {
+      "cash": {
+        "D22": 48741.0,
+        "D27": 97047.0,
+        "D30": 137232.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 39,
+        "D27": 27,
+        "D30": 5
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 138517.0,
+      "opp_reward": 25531.0,
+      "share": 84.43687213498488,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93508839,
+      "cluster": 59
+    },
+    {
+      "cash": {
+        "D22": 60081.0,
+        "D27": 112994.0,
+        "D30": 156606.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 158028.0,
+      "opp_reward": 33660.0,
+      "share": 82.44021534994366,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93510620,
+      "cluster": 59
+    },
+    {
+      "cash": {
+        "D22": 64369.0,
+        "D27": 121459.0,
+        "D30": 169237.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 170740.0,
+      "opp_reward": 0.0,
+      "share": 100.0,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 92733633,
+      "cluster": 84
+    },
+    {
+      "cash": {
+        "D22": 40016.0,
+        "D27": 60816.0,
+        "D30": 70502.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 70538.0,
+      "opp_reward": 75439.0,
+      "share": 48.321310891441804,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 92739218,
+      "cluster": 84
+    },
+    {
+      "cash": {
+        "D22": 42817.0,
+        "D27": 54356.0,
+        "D30": 66705.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 66732.0,
+      "opp_reward": 70896.0,
+      "share": 48.48722643648095,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 92741996,
+      "cluster": 84
+    },
+    {
+      "cash": {
+        "D22": 49049.0,
+        "D27": 96272.0,
+        "D30": 133978.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 135622.0,
+      "opp_reward": 24079.0,
+      "share": 84.92244882624405,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93317864,
+      "cluster": 76
+    },
+    {
+      "cash": {
+        "D22": 49976.0,
+        "D27": 91232.0,
+        "D30": 126543.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 38,
+        "D27": 27,
+        "D30": 5
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 127980.0,
+      "opp_reward": 25628.0,
+      "share": 83.31597312639967,
+      "won": true,
+      "stranded_crops": 1,
+      "episode_id": 93325055,
+      "cluster": 76
+    },
+    {
+      "cash": {
+        "D22": 39877.0,
+        "D27": 70220.0,
+        "D30": 87153.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 87209.0,
+      "opp_reward": 36660.0,
+      "share": 70.40421735866117,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93327766,
+      "cluster": 76
+    },
+    {
+      "cash": {
+        "D22": 28165.0,
+        "D27": 28586.0,
+        "D30": 33989.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 34027.0,
+      "opp_reward": 50816.0,
+      "share": 40.10584255625096,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 92630265,
+      "cluster": 73
+    },
+    {
+      "cash": {
+        "D22": 54028.0,
+        "D27": 96836.0,
+        "D30": 132940.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 134176.0,
+      "opp_reward": 109732.0,
+      "share": 55.01090575134887,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 92631200,
+      "cluster": 73
+    },
+    {
+      "cash": {
+        "D22": 49648.0,
+        "D27": 90643.0,
+        "D30": 122608.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 124098.0,
+      "opp_reward": 105282.0,
+      "share": 54.10149097567355,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 92635901,
+      "cluster": 73
+    },
+    {
+      "cash": {
+        "D22": 56812.0,
+        "D27": 97232.0,
+        "D30": 124826.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 125427.0,
+      "opp_reward": 114540.0,
+      "share": 52.26843691007513,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 91760174,
+      "cluster": 51
+    },
+    {
+      "cash": {
+        "D22": 41048.0,
+        "D27": 55158.0,
+        "D30": 67843.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 67950.0,
+      "opp_reward": 73859.0,
+      "share": 47.916563828811995,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 91763966,
+      "cluster": 51
+    },
+    {
+      "cash": {
+        "D22": 25361.0,
+        "D27": 30979.0,
+        "D30": 33934.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 33962.0,
+      "opp_reward": 50540.0,
+      "share": 40.19076471562803,
+      "won": false,
+      "stranded_crops": 2,
+      "episode_id": 91764902,
+      "cluster": 51
+    },
+    {
+      "cash": {
+        "D22": 31900.0,
+        "D27": 45690.0,
+        "D30": 61722.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 717,
+      "terminal_reward": 61798.0,
+      "opp_reward": 19489.0,
+      "share": 76.02445655516871,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93180220,
+      "cluster": 95
+    },
+    {
+      "cash": {
+        "D22": 50075.0,
+        "D27": 101804.0,
+        "D30": 145303.0
+      },
+      "workers": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 12
+      },
+      "strawberries": {
+        "D22": 40,
+        "D27": 28,
+        "D30": 6
+      },
+      "doomed": {
+        "D22": 0,
+        "D27": 0,
+        "D30": 0
+      },
+      "last_harvest": 718,
+      "terminal_reward": 146806.0,
+      "opp_reward": 26905.0,
+      "share": 84.51163138776474,
+      "won": true,
+      "stranded_crops": 2,
+      "episode_id": 93191911,
+      "cluster": 95
+    }
+  ]
+}

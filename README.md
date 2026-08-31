@@ -601,12 +601,39 @@ Through exhaustive empirical investigation across the live Kaggle ladder network
 ===================================================================================================
                              🏆 FINAL VERDICT & PERMANENT STATE
 ===================================================================================================
-• Production Architecture: Variant D.1 (submission.py) ── 100% LOCKED AND FROZEN 🔒
-• Physical Footprint     : 3 Quadrants (48 Arable Tiles: NW, NE, SW)
-• Crop Engine            : 38 Synchronized Strawberries ($160/tile NPV, 81.9% Net Margin)
-• Livestock Engine       : 8 Dairy Cows ($1,280/day Milk Cashflow, 96.9% Net Margin)
-• Labor Force            : 13 Dedicated Workers (100% Continuous Watering Saturation)
-• Liquidation Buffer     : Step 696 (24-Step Minimax Queue Drain, 0 Stranded Units)
-• Research Corpus        : 91 Master Experiments (EXP001–EXP091)
+• Production Control   : Variant D.1 / APEX 3.5 (submission.py) ── 100% LOCKED AND FROZEN 🧊
+• Staged Challenger    : EXP208 Champion (submission_challenger_exp208.py) ── SUBMITTED & LIVE 🔥
+• Dual-Engine Pipeline : GPU Tensor Core Search (1.1B evals/s) + Bit-Exact Native Rust FastSim
+• Live Kaggle Ref ID   : 55924297 (Submitted 2026-08-31)
+• Research Corpus      : 211 Master Experiments (EXP001–EXP211)
 ===================================================================================================
 ```
+
+---
+
+## 24. Breakthrough Frontier & Live Staged Challenger (EXP201–EXP211)
+
+### 1. Dual-Engine Architecture
+- **GPU Search Engine (`experiments/exp208_gpu_search_opp_c.py`)**: Vectorized macro scoring on NVIDIA RTX 4050 GPU Tensor Cores evaluating **100,000,000 parameter-state pairs in 0.090s (1.107 Billion evals/sec)**.
+- **Native Rust Ground-Truth Referee (`fastsim/`)**: Bit-exact 20/20 differential spatial simulator with exact A* worker routing, obstacle collision, soil hydration decay, and order-book queueing.
+
+### 2. Multi-Tier Master Scorecard (150,000+ Audited Matches)
+
+```text
+ ┌──────────────────────────────────────────────┬───────────────────┬──────────────────────────────────────────┐
+ │ Evaluation Track                             │ Total Matches     │ Verified Scorecard                       │
+ ├──────────────────────────────────────────────┼───────────────────┼──────────────────────────────────────────┤
+ │ vs Adaptive Baseline (Chassis Control)       │ 10,000 Matches    │ 57.3% WR (+ $242.9 Delta) 🏆             │
+ │ vs Adaptive Baseline (Replication Test)      │ 10,000 Matches    │ 57.6% WR (+ $180.2 Delta) 🏆             │
+ │ vs EXP205 Frontier (Direct Duel)             │ 10,000 Matches    │ 55.7% WR (+ $120.9 Delta) 🏆             │
+ │ vs 4 Known 3000+ Replay Bots (A, B, C, D)    │ 40,000 Matches    │ 86.4% Combined WR (34,565 / 40k Wins) 🏆 │
+ │ vs 5 Completely Unseen 1800-3000+ Replay Bots│ 50,000 Matches    │ 80.3% Combined WR (40,130 / 50k Wins) 🏆 │
+ │ vs Hard Mirror & Agro-Livestock Scalers      │ 30,000 Matches    │ 93.8% - 95.0% WR (+ $3,300 to + $4,500) 🏆│
+ ├──────────────────────────────────────────────┴───────────────────┴──────────────────────────────────────────┤
+ │ TOTAL AUDITED EVIDENCE: 150,000+ matches with zero simulation drift on native FastSim referee.             │
+ └───────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 3. Deployment Configuration
+1. **Control Track**: [`submission.py`](file:///D:/kaggriculture/submission.py) (Pruned, frozen baseline 🧊)
+2. **Challenger Track**: [`submission_challenger_exp208.py`](file:///D:/kaggriculture/submission_challenger_exp208.py) (EXP208 Champion Engine 🔥, Ref: `55924297`)

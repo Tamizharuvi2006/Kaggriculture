@@ -1,0 +1,4482 @@
+[
+  {
+    "seed": 91001,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 60667.0,
+    "opp_reward": 60736.0,
+    "margin": -69.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91003,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 61958.0,
+    "opp_reward": 66697.0,
+    "margin": -4739.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91002,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 75249.0,
+    "opp_reward": 80716.0,
+    "margin": -5467.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91006,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 62346.0,
+    "opp_reward": 62669.0,
+    "margin": -323.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91009,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 25932.0,
+    "opp_reward": 29580.0,
+    "margin": -3648.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91011,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 84366.0,
+    "opp_reward": 84612.0,
+    "margin": -246.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91012,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 74507.0,
+    "opp_reward": 76069.0,
+    "margin": -1562.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 61554.0,
+    "opp_reward": 61647.0,
+    "margin": -93.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91014,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 34343.0,
+    "opp_reward": 36070.0,
+    "margin": -1727.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 61270.0,
+    "opp_reward": 61859.0,
+    "margin": -589.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91021,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 89263.0,
+    "opp_reward": 89315.0,
+    "margin": -52.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91016,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 51240.0,
+    "opp_reward": 52947.0,
+    "margin": -1707.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91017,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 128359.0,
+    "opp_reward": 128431.0,
+    "margin": -72.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91022,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 82751.0,
+    "opp_reward": 83157.0,
+    "margin": -406.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 54023.0,
+    "opp_reward": 54094.0,
+    "margin": -71.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91030,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 66724.0,
+    "opp_reward": 67436.0,
+    "margin": -712.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91031,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 78476.0,
+    "opp_reward": 78836.0,
+    "margin": -360.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 54070.0,
+    "opp_reward": 54094.0,
+    "margin": -24.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91029,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 76519.0,
+    "opp_reward": 76682.0,
+    "margin": -163.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91032,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 88670.0,
+    "opp_reward": 95100.0,
+    "margin": -6430.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91035,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 64888.0,
+    "opp_reward": 73260.0,
+    "margin": -8372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91033,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 67385.0,
+    "opp_reward": 69892.0,
+    "margin": -2507.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91036,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 73260.0,
+    "opp_reward": 73279.0,
+    "margin": -19.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91037,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 93102.0,
+    "opp_reward": 94141.0,
+    "margin": -1039.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91038,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 64368.0,
+    "opp_reward": 64462.0,
+    "margin": -94.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91041,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 65698.0,
+    "opp_reward": 70690.0,
+    "margin": -4992.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91045,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 63931.0,
+    "opp_reward": 67865.0,
+    "margin": -3934.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91048,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 87383.0,
+    "opp_reward": 87755.0,
+    "margin": -372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91047,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 89086.0,
+    "opp_reward": 89520.0,
+    "margin": -434.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91044,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 73635.0,
+    "opp_reward": 73952.0,
+    "margin": -317.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 96367.0,
+    "opp_reward": 96886.0,
+    "margin": -519.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 96618.0,
+    "opp_reward": 96647.0,
+    "margin": -29.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91056,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 83011.0,
+    "opp_reward": 83629.0,
+    "margin": -618.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91051,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 32582.0,
+    "opp_reward": 33047.0,
+    "margin": -465.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91062,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 74535.0,
+    "opp_reward": 76993.0,
+    "margin": -2458.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91059,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 91210.0,
+    "opp_reward": 91509.0,
+    "margin": -299.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91057,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 103878.0,
+    "opp_reward": 105407.0,
+    "margin": -1529.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91060,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 81812.0,
+    "opp_reward": 82339.0,
+    "margin": -527.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91061,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 60561.0,
+    "opp_reward": 60824.0,
+    "margin": -263.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91063,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 112035.0,
+    "opp_reward": 112208.0,
+    "margin": -173.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91065,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 63752.0,
+    "opp_reward": 70800.0,
+    "margin": -7048.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91066,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 70530.0,
+    "opp_reward": 71078.0,
+    "margin": -548.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91067,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 84606.0,
+    "opp_reward": 85682.0,
+    "margin": -1076.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91068,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 119080.0,
+    "opp_reward": 121938.0,
+    "margin": -2858.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91070,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 70739.0,
+    "opp_reward": 71065.0,
+    "margin": -326.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91071,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 77487.0,
+    "opp_reward": 77836.0,
+    "margin": -349.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 68304.0,
+    "opp_reward": 68929.0,
+    "margin": -625.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 68707.0,
+    "opp_reward": 68900.0,
+    "margin": -193.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91075,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 61142.0,
+    "opp_reward": 61307.0,
+    "margin": -165.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91074,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 78602.0,
+    "opp_reward": 79564.0,
+    "margin": -962.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91078,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 75437.0,
+    "opp_reward": 76702.0,
+    "margin": -1265.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91079,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 119139.0,
+    "opp_reward": 119384.0,
+    "margin": -245.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91080,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 81378.0,
+    "opp_reward": 82182.0,
+    "margin": -804.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91082,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 63428.0,
+    "opp_reward": 63768.0,
+    "margin": -340.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91084,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 74971.0,
+    "opp_reward": 75066.0,
+    "margin": -95.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91086,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 69541.0,
+    "opp_reward": 69652.0,
+    "margin": -111.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91087,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 57434.0,
+    "opp_reward": 58212.0,
+    "margin": -778.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91088,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 89615.0,
+    "opp_reward": 89647.0,
+    "margin": -32.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91090,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 91331.0,
+    "opp_reward": 98409.0,
+    "margin": -7078.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91091,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 82470.0,
+    "opp_reward": 85476.0,
+    "margin": -3006.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91093,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 66241.0,
+    "opp_reward": 66429.0,
+    "margin": -188.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91098,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 72300.0,
+    "opp_reward": 73895.0,
+    "margin": -1595.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91100,
+    "hero_seat": 1,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 74737.0,
+    "opp_reward": 83289.0,
+    "margin": -8552.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91099,
+    "hero_seat": 0,
+    "arm_id": "Control (Current Candidate)",
+    "policy_mode": "control",
+    "hero_reward": 127868.0,
+    "opp_reward": 143586.0,
+    "margin": -15718.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91001,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 60663.0,
+    "opp_reward": 60657.0,
+    "margin": 6.0,
+    "hero_won": true
+  },
+  {
+    "seed": 91003,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 61954.0,
+    "opp_reward": 66581.0,
+    "margin": -4627.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91002,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 75249.0,
+    "opp_reward": 80716.0,
+    "margin": -5467.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91006,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 62346.0,
+    "opp_reward": 62669.0,
+    "margin": -323.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91009,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 25896.0,
+    "opp_reward": 29464.0,
+    "margin": -3568.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91011,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 84321.0,
+    "opp_reward": 84602.0,
+    "margin": -281.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91012,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 74507.0,
+    "opp_reward": 76069.0,
+    "margin": -1562.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91014,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 34343.0,
+    "opp_reward": 36070.0,
+    "margin": -1727.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 61304.0,
+    "opp_reward": 61789.0,
+    "margin": -485.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 61554.0,
+    "opp_reward": 61647.0,
+    "margin": -93.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91017,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 128328.0,
+    "opp_reward": 128423.0,
+    "margin": -95.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91016,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 51240.0,
+    "opp_reward": 52947.0,
+    "margin": -1707.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91021,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 89263.0,
+    "opp_reward": 89315.0,
+    "margin": -52.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91022,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 82751.0,
+    "opp_reward": 83157.0,
+    "margin": -406.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 54052.0,
+    "opp_reward": 54022.0,
+    "margin": 30.0,
+    "hero_won": true
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 54070.0,
+    "opp_reward": 54094.0,
+    "margin": -24.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91029,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 76519.0,
+    "opp_reward": 76682.0,
+    "margin": -163.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91030,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 66756.0,
+    "opp_reward": 67362.0,
+    "margin": -606.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91031,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 78476.0,
+    "opp_reward": 78836.0,
+    "margin": -360.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91032,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 88641.0,
+    "opp_reward": 95090.0,
+    "margin": -6449.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91035,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 64888.0,
+    "opp_reward": 73260.0,
+    "margin": -8372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91036,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 73256.0,
+    "opp_reward": 73207.0,
+    "margin": 49.0,
+    "hero_won": true
+  },
+  {
+    "seed": 91033,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 67385.0,
+    "opp_reward": 69892.0,
+    "margin": -2507.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91037,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 93076.0,
+    "opp_reward": 94135.0,
+    "margin": -1059.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91038,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 64368.0,
+    "opp_reward": 64462.0,
+    "margin": -94.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91041,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 65733.0,
+    "opp_reward": 70549.0,
+    "margin": -4816.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91044,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 73635.0,
+    "opp_reward": 73952.0,
+    "margin": -317.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91045,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 63931.0,
+    "opp_reward": 67865.0,
+    "margin": -3934.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91047,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 89086.0,
+    "opp_reward": 89520.0,
+    "margin": -434.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91048,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 87383.0,
+    "opp_reward": 87755.0,
+    "margin": -372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 96317.0,
+    "opp_reward": 96861.0,
+    "margin": -544.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 96618.0,
+    "opp_reward": 96647.0,
+    "margin": -29.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91051,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 32582.0,
+    "opp_reward": 33047.0,
+    "margin": -465.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91057,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 103878.0,
+    "opp_reward": 105407.0,
+    "margin": -1529.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91056,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 82956.0,
+    "opp_reward": 83603.0,
+    "margin": -647.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91059,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 91210.0,
+    "opp_reward": 91509.0,
+    "margin": -299.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91060,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 81812.0,
+    "opp_reward": 82339.0,
+    "margin": -527.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91061,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 60561.0,
+    "opp_reward": 60824.0,
+    "margin": -263.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91062,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 74535.0,
+    "opp_reward": 76993.0,
+    "margin": -2458.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91063,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 111987.0,
+    "opp_reward": 112196.0,
+    "margin": -209.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91070,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 70733.0,
+    "opp_reward": 70991.0,
+    "margin": -258.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91065,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 63752.0,
+    "opp_reward": 70800.0,
+    "margin": -7048.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91067,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 84515.0,
+    "opp_reward": 85642.0,
+    "margin": -1127.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91066,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 70530.0,
+    "opp_reward": 71078.0,
+    "margin": -548.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91071,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 77487.0,
+    "opp_reward": 77836.0,
+    "margin": -349.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91068,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 119080.0,
+    "opp_reward": 121938.0,
+    "margin": -2858.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 68338.0,
+    "opp_reward": 68859.0,
+    "margin": -521.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 68707.0,
+    "opp_reward": 68900.0,
+    "margin": -193.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91074,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 78602.0,
+    "opp_reward": 79564.0,
+    "margin": -962.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91075,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 61142.0,
+    "opp_reward": 61307.0,
+    "margin": -165.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91079,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 119106.0,
+    "opp_reward": 119374.0,
+    "margin": -268.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91082,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 63463.0,
+    "opp_reward": 63627.0,
+    "margin": -164.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91086,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 69541.0,
+    "opp_reward": 69652.0,
+    "margin": -111.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91084,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 74933.0,
+    "opp_reward": 75041.0,
+    "margin": -108.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91078,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 75437.0,
+    "opp_reward": 76702.0,
+    "margin": -1265.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91080,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 81323.0,
+    "opp_reward": 82156.0,
+    "margin": -833.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91088,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 89615.0,
+    "opp_reward": 89647.0,
+    "margin": -32.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91087,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 57434.0,
+    "opp_reward": 58212.0,
+    "margin": -778.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91090,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 91302.0,
+    "opp_reward": 98399.0,
+    "margin": -7097.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91091,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 82470.0,
+    "opp_reward": 85476.0,
+    "margin": -3006.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91001,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 60663.0,
+    "opp_reward": 60657.0,
+    "margin": 6.0,
+    "hero_won": true
+  },
+  {
+    "seed": 91093,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 66241.0,
+    "opp_reward": 66429.0,
+    "margin": -188.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91098,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 72287.0,
+    "opp_reward": 73882.0,
+    "margin": -1595.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91099,
+    "hero_seat": 0,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 127857.0,
+    "opp_reward": 143583.0,
+    "margin": -15726.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91100,
+    "hero_seat": 1,
+    "arm_id": "Arm B1 (Release Milk @ D12-15 if p>=95)",
+    "policy_mode": "arm_b1_milk_p95",
+    "hero_reward": 74737.0,
+    "opp_reward": 83289.0,
+    "margin": -8552.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91002,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 75249.0,
+    "opp_reward": 80716.0,
+    "margin": -5467.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91003,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 61942.0,
+    "opp_reward": 66581.0,
+    "margin": -4639.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91006,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 62346.0,
+    "opp_reward": 62669.0,
+    "margin": -323.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91009,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 25878.0,
+    "opp_reward": 29464.0,
+    "margin": -3586.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91011,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 84321.0,
+    "opp_reward": 84602.0,
+    "margin": -281.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91012,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 74507.0,
+    "opp_reward": 76069.0,
+    "margin": -1562.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 61554.0,
+    "opp_reward": 61647.0,
+    "margin": -93.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91016,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 51240.0,
+    "opp_reward": 52947.0,
+    "margin": -1707.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 61304.0,
+    "opp_reward": 61789.0,
+    "margin": -485.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91014,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 34343.0,
+    "opp_reward": 36070.0,
+    "margin": -1727.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91017,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 128328.0,
+    "opp_reward": 128423.0,
+    "margin": -95.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91021,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 89263.0,
+    "opp_reward": 89315.0,
+    "margin": -52.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91022,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 82751.0,
+    "opp_reward": 83157.0,
+    "margin": -406.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 54052.0,
+    "opp_reward": 54022.0,
+    "margin": 30.0,
+    "hero_won": true
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 54070.0,
+    "opp_reward": 54094.0,
+    "margin": -24.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91029,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 76519.0,
+    "opp_reward": 76682.0,
+    "margin": -163.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91031,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 78476.0,
+    "opp_reward": 78836.0,
+    "margin": -360.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91030,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 66756.0,
+    "opp_reward": 67362.0,
+    "margin": -606.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91032,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 88641.0,
+    "opp_reward": 95090.0,
+    "margin": -6449.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91035,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 64888.0,
+    "opp_reward": 73260.0,
+    "margin": -8372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91033,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 67385.0,
+    "opp_reward": 69892.0,
+    "margin": -2507.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91036,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 73256.0,
+    "opp_reward": 73207.0,
+    "margin": 49.0,
+    "hero_won": true
+  },
+  {
+    "seed": 91037,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 93076.0,
+    "opp_reward": 94135.0,
+    "margin": -1059.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91038,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 64368.0,
+    "opp_reward": 64462.0,
+    "margin": -94.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91041,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 65695.0,
+    "opp_reward": 70561.0,
+    "margin": -4866.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91044,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 73635.0,
+    "opp_reward": 73952.0,
+    "margin": -317.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91045,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 63931.0,
+    "opp_reward": 67865.0,
+    "margin": -3934.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 96317.0,
+    "opp_reward": 96861.0,
+    "margin": -544.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91047,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 89086.0,
+    "opp_reward": 89520.0,
+    "margin": -434.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 96618.0,
+    "opp_reward": 96647.0,
+    "margin": -29.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91048,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 87383.0,
+    "opp_reward": 87755.0,
+    "margin": -372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91051,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 32582.0,
+    "opp_reward": 33047.0,
+    "margin": -465.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91056,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 82956.0,
+    "opp_reward": 83603.0,
+    "margin": -647.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91057,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 103878.0,
+    "opp_reward": 105407.0,
+    "margin": -1529.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91060,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 81812.0,
+    "opp_reward": 82339.0,
+    "margin": -527.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91061,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 60561.0,
+    "opp_reward": 60824.0,
+    "margin": -263.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91059,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 91210.0,
+    "opp_reward": 91509.0,
+    "margin": -299.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91065,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 63752.0,
+    "opp_reward": 70800.0,
+    "margin": -7048.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91062,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 74535.0,
+    "opp_reward": 76993.0,
+    "margin": -2458.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91066,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 70530.0,
+    "opp_reward": 71078.0,
+    "margin": -548.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91063,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 111987.0,
+    "opp_reward": 112196.0,
+    "margin": -209.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91067,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 84515.0,
+    "opp_reward": 85642.0,
+    "margin": -1127.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91068,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 119080.0,
+    "opp_reward": 121938.0,
+    "margin": -2858.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91070,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 70733.0,
+    "opp_reward": 70991.0,
+    "margin": -258.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91071,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 77487.0,
+    "opp_reward": 77836.0,
+    "margin": -349.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 68707.0,
+    "opp_reward": 68900.0,
+    "margin": -193.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91074,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 78602.0,
+    "opp_reward": 79564.0,
+    "margin": -962.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 68338.0,
+    "opp_reward": 68859.0,
+    "margin": -521.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91078,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 75437.0,
+    "opp_reward": 76702.0,
+    "margin": -1265.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91075,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 61142.0,
+    "opp_reward": 61307.0,
+    "margin": -165.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91079,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 119106.0,
+    "opp_reward": 119374.0,
+    "margin": -268.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91080,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 81323.0,
+    "opp_reward": 82156.0,
+    "margin": -833.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91082,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 63425.0,
+    "opp_reward": 63639.0,
+    "margin": -214.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91086,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 69541.0,
+    "opp_reward": 69652.0,
+    "margin": -111.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91084,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 74933.0,
+    "opp_reward": 75041.0,
+    "margin": -108.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91087,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 57434.0,
+    "opp_reward": 58212.0,
+    "margin": -778.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91090,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 91302.0,
+    "opp_reward": 98399.0,
+    "margin": -7097.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91088,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 89615.0,
+    "opp_reward": 89647.0,
+    "margin": -32.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91091,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 82470.0,
+    "opp_reward": 85476.0,
+    "margin": -3006.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91093,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 66241.0,
+    "opp_reward": 66429.0,
+    "margin": -188.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91098,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 72287.0,
+    "opp_reward": 73882.0,
+    "margin": -1595.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91099,
+    "hero_seat": 0,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 127857.0,
+    "opp_reward": 143583.0,
+    "margin": -15726.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91100,
+    "hero_seat": 1,
+    "arm_id": "Arm B2 (Release Milk @ D12-15 if p>=90)",
+    "policy_mode": "arm_b2_milk_p90",
+    "hero_reward": 74737.0,
+    "opp_reward": 83289.0,
+    "margin": -8552.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91001,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 60667.0,
+    "opp_reward": 60736.0,
+    "margin": -69.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91003,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 61958.0,
+    "opp_reward": 66697.0,
+    "margin": -4739.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91002,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 75249.0,
+    "opp_reward": 80716.0,
+    "margin": -5467.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91009,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 25932.0,
+    "opp_reward": 29580.0,
+    "margin": -3648.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91012,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 74507.0,
+    "opp_reward": 76069.0,
+    "margin": -1562.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91006,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 62346.0,
+    "opp_reward": 62669.0,
+    "margin": -323.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91011,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 84366.0,
+    "opp_reward": 84612.0,
+    "margin": -246.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91014,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 34343.0,
+    "opp_reward": 36070.0,
+    "margin": -1727.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 61554.0,
+    "opp_reward": 61647.0,
+    "margin": -93.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 61270.0,
+    "opp_reward": 61859.0,
+    "margin": -589.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91016,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 51240.0,
+    "opp_reward": 52947.0,
+    "margin": -1707.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91021,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 89263.0,
+    "opp_reward": 89315.0,
+    "margin": -52.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 54023.0,
+    "opp_reward": 54094.0,
+    "margin": -71.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 54070.0,
+    "opp_reward": 54094.0,
+    "margin": -24.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91017,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 128359.0,
+    "opp_reward": 128431.0,
+    "margin": -72.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91029,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 76519.0,
+    "opp_reward": 76682.0,
+    "margin": -163.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91022,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 82751.0,
+    "opp_reward": 83157.0,
+    "margin": -406.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91030,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 66724.0,
+    "opp_reward": 67436.0,
+    "margin": -712.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91031,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 78476.0,
+    "opp_reward": 78836.0,
+    "margin": -360.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91032,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 88670.0,
+    "opp_reward": 95100.0,
+    "margin": -6430.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91033,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 67385.0,
+    "opp_reward": 69892.0,
+    "margin": -2507.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91035,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 64888.0,
+    "opp_reward": 73260.0,
+    "margin": -8372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91038,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 64368.0,
+    "opp_reward": 64462.0,
+    "margin": -94.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91036,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 73260.0,
+    "opp_reward": 73279.0,
+    "margin": -19.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91041,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 65698.0,
+    "opp_reward": 70690.0,
+    "margin": -4992.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91037,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 93102.0,
+    "opp_reward": 94141.0,
+    "margin": -1039.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91045,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 63931.0,
+    "opp_reward": 67865.0,
+    "margin": -3934.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91044,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 73635.0,
+    "opp_reward": 73952.0,
+    "margin": -317.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91047,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 89086.0,
+    "opp_reward": 89520.0,
+    "margin": -434.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91048,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 87383.0,
+    "opp_reward": 87755.0,
+    "margin": -372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 96367.0,
+    "opp_reward": 96886.0,
+    "margin": -519.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 96618.0,
+    "opp_reward": 96647.0,
+    "margin": -29.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91051,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 32582.0,
+    "opp_reward": 33047.0,
+    "margin": -465.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91056,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 83011.0,
+    "opp_reward": 83629.0,
+    "margin": -618.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91059,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 91210.0,
+    "opp_reward": 91509.0,
+    "margin": -299.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91057,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 103878.0,
+    "opp_reward": 105407.0,
+    "margin": -1529.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91060,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 81812.0,
+    "opp_reward": 82339.0,
+    "margin": -527.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91061,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 60561.0,
+    "opp_reward": 60824.0,
+    "margin": -263.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91062,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 74535.0,
+    "opp_reward": 76993.0,
+    "margin": -2458.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91063,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 112035.0,
+    "opp_reward": 112208.0,
+    "margin": -173.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91065,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 63752.0,
+    "opp_reward": 70800.0,
+    "margin": -7048.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91066,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 70530.0,
+    "opp_reward": 71078.0,
+    "margin": -548.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91067,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 84606.0,
+    "opp_reward": 85682.0,
+    "margin": -1076.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91068,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 119080.0,
+    "opp_reward": 121938.0,
+    "margin": -2858.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91070,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 70739.0,
+    "opp_reward": 71065.0,
+    "margin": -326.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91071,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 77487.0,
+    "opp_reward": 77836.0,
+    "margin": -349.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 68707.0,
+    "opp_reward": 68900.0,
+    "margin": -193.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 68304.0,
+    "opp_reward": 68929.0,
+    "margin": -625.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91074,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 78602.0,
+    "opp_reward": 79564.0,
+    "margin": -962.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91075,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 61142.0,
+    "opp_reward": 61307.0,
+    "margin": -165.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91078,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 75437.0,
+    "opp_reward": 76702.0,
+    "margin": -1265.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91082,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 63428.0,
+    "opp_reward": 63768.0,
+    "margin": -340.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91086,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 69541.0,
+    "opp_reward": 69652.0,
+    "margin": -111.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91079,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 119139.0,
+    "opp_reward": 119384.0,
+    "margin": -245.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91080,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 81378.0,
+    "opp_reward": 82182.0,
+    "margin": -804.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91084,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 74971.0,
+    "opp_reward": 75066.0,
+    "margin": -95.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91087,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 57434.0,
+    "opp_reward": 58212.0,
+    "margin": -778.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91088,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 89615.0,
+    "opp_reward": 89647.0,
+    "margin": -32.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91090,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 91331.0,
+    "opp_reward": 98409.0,
+    "margin": -7078.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91093,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 66241.0,
+    "opp_reward": 66429.0,
+    "margin": -188.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91091,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 82470.0,
+    "opp_reward": 85476.0,
+    "margin": -3006.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91100,
+    "hero_seat": 1,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 74737.0,
+    "opp_reward": 83289.0,
+    "margin": -8552.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91001,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 60667.0,
+    "opp_reward": 60736.0,
+    "margin": -69.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91098,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 72300.0,
+    "opp_reward": 73895.0,
+    "margin": -1595.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91099,
+    "hero_seat": 0,
+    "arm_id": "Arm C1 (Runway Lift: Cash < $1,500)",
+    "policy_mode": "arm_c1_runway_1500",
+    "hero_reward": 127868.0,
+    "opp_reward": 143586.0,
+    "margin": -15718.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91002,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 75249.0,
+    "opp_reward": 80716.0,
+    "margin": -5467.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91003,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 61958.0,
+    "opp_reward": 66697.0,
+    "margin": -4739.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91006,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 62346.0,
+    "opp_reward": 62669.0,
+    "margin": -323.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91009,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 25932.0,
+    "opp_reward": 29580.0,
+    "margin": -3648.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91012,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 74507.0,
+    "opp_reward": 76069.0,
+    "margin": -1562.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91011,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 84366.0,
+    "opp_reward": 84612.0,
+    "margin": -246.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91014,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 34343.0,
+    "opp_reward": 36070.0,
+    "margin": -1727.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 61554.0,
+    "opp_reward": 61647.0,
+    "margin": -93.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 61270.0,
+    "opp_reward": 61859.0,
+    "margin": -589.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91016,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 51240.0,
+    "opp_reward": 52947.0,
+    "margin": -1707.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91017,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 128359.0,
+    "opp_reward": 128431.0,
+    "margin": -72.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91021,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 89263.0,
+    "opp_reward": 89315.0,
+    "margin": -52.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91022,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 82751.0,
+    "opp_reward": 83157.0,
+    "margin": -406.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 54023.0,
+    "opp_reward": 54094.0,
+    "margin": -71.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 54070.0,
+    "opp_reward": 54094.0,
+    "margin": -24.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91029,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 76519.0,
+    "opp_reward": 76682.0,
+    "margin": -163.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91030,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 66724.0,
+    "opp_reward": 67436.0,
+    "margin": -712.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91031,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 78476.0,
+    "opp_reward": 78836.0,
+    "margin": -360.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91032,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 88670.0,
+    "opp_reward": 95100.0,
+    "margin": -6430.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91033,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 67385.0,
+    "opp_reward": 69892.0,
+    "margin": -2507.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91035,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 64888.0,
+    "opp_reward": 73260.0,
+    "margin": -8372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91036,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 73260.0,
+    "opp_reward": 73279.0,
+    "margin": -19.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91037,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 93102.0,
+    "opp_reward": 94141.0,
+    "margin": -1039.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91038,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 64368.0,
+    "opp_reward": 64462.0,
+    "margin": -94.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91041,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 65698.0,
+    "opp_reward": 70690.0,
+    "margin": -4992.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91044,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 73635.0,
+    "opp_reward": 73952.0,
+    "margin": -317.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91047,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 89086.0,
+    "opp_reward": 89520.0,
+    "margin": -434.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91045,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 63931.0,
+    "opp_reward": 67865.0,
+    "margin": -3934.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 96367.0,
+    "opp_reward": 96886.0,
+    "margin": -519.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91048,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 87383.0,
+    "opp_reward": 87755.0,
+    "margin": -372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 96618.0,
+    "opp_reward": 96647.0,
+    "margin": -29.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91051,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 32582.0,
+    "opp_reward": 33047.0,
+    "margin": -465.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91056,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 83011.0,
+    "opp_reward": 83629.0,
+    "margin": -618.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91057,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 103878.0,
+    "opp_reward": 105407.0,
+    "margin": -1529.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91059,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 91210.0,
+    "opp_reward": 91509.0,
+    "margin": -299.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91060,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 81812.0,
+    "opp_reward": 82339.0,
+    "margin": -527.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91062,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 74535.0,
+    "opp_reward": 76993.0,
+    "margin": -2458.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91061,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 60561.0,
+    "opp_reward": 60824.0,
+    "margin": -263.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91065,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 63752.0,
+    "opp_reward": 70800.0,
+    "margin": -7048.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91063,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 112035.0,
+    "opp_reward": 112208.0,
+    "margin": -173.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91066,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 70530.0,
+    "opp_reward": 71078.0,
+    "margin": -548.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91067,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 84606.0,
+    "opp_reward": 85682.0,
+    "margin": -1076.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91068,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 119080.0,
+    "opp_reward": 121938.0,
+    "margin": -2858.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91070,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 70739.0,
+    "opp_reward": 71065.0,
+    "margin": -326.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91071,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 77487.0,
+    "opp_reward": 77836.0,
+    "margin": -349.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 68304.0,
+    "opp_reward": 68929.0,
+    "margin": -625.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91074,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 78602.0,
+    "opp_reward": 79564.0,
+    "margin": -962.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 68707.0,
+    "opp_reward": 68900.0,
+    "margin": -193.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91078,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 75437.0,
+    "opp_reward": 76702.0,
+    "margin": -1265.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91075,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 61142.0,
+    "opp_reward": 61307.0,
+    "margin": -165.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91079,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 119139.0,
+    "opp_reward": 119384.0,
+    "margin": -245.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91080,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 81378.0,
+    "opp_reward": 82182.0,
+    "margin": -804.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91082,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 63428.0,
+    "opp_reward": 63768.0,
+    "margin": -340.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91084,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 74971.0,
+    "opp_reward": 75066.0,
+    "margin": -95.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91086,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 69541.0,
+    "opp_reward": 69652.0,
+    "margin": -111.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91087,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 57434.0,
+    "opp_reward": 58212.0,
+    "margin": -778.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91088,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 89615.0,
+    "opp_reward": 89647.0,
+    "margin": -32.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91090,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 91331.0,
+    "opp_reward": 98409.0,
+    "margin": -7078.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91091,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 82470.0,
+    "opp_reward": 85476.0,
+    "margin": -3006.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91093,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 66241.0,
+    "opp_reward": 66429.0,
+    "margin": -188.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91098,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 72300.0,
+    "opp_reward": 73895.0,
+    "margin": -1595.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91099,
+    "hero_seat": 0,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 127868.0,
+    "opp_reward": 143586.0,
+    "margin": -15718.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91100,
+    "hero_seat": 1,
+    "arm_id": "Arm C2 (Runway Lift: Cash < $2,000)",
+    "policy_mode": "arm_c2_runway_2000",
+    "hero_reward": 74737.0,
+    "opp_reward": 83289.0,
+    "margin": -8552.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91001,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 60691.0,
+    "opp_reward": 60659.0,
+    "margin": 32.0,
+    "hero_won": true
+  },
+  {
+    "seed": 91003,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 61962.0,
+    "opp_reward": 66583.0,
+    "margin": -4621.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91002,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 75249.0,
+    "opp_reward": 80716.0,
+    "margin": -5467.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91006,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 62346.0,
+    "opp_reward": 62669.0,
+    "margin": -323.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91009,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 25904.0,
+    "opp_reward": 29466.0,
+    "margin": -3562.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91012,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 74507.0,
+    "opp_reward": 76069.0,
+    "margin": -1562.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91011,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 84321.0,
+    "opp_reward": 84602.0,
+    "margin": -281.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91014,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 34343.0,
+    "opp_reward": 36070.0,
+    "margin": -1727.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 61554.0,
+    "opp_reward": 61647.0,
+    "margin": -93.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 61317.0,
+    "opp_reward": 61787.0,
+    "margin": -470.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91016,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 51240.0,
+    "opp_reward": 52947.0,
+    "margin": -1707.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91017,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 128328.0,
+    "opp_reward": 128423.0,
+    "margin": -95.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 54068.0,
+    "opp_reward": 54023.0,
+    "margin": 45.0,
+    "hero_won": true
+  },
+  {
+    "seed": 91021,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 89263.0,
+    "opp_reward": 89315.0,
+    "margin": -52.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91022,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 82751.0,
+    "opp_reward": 83157.0,
+    "margin": -406.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 54070.0,
+    "opp_reward": 54094.0,
+    "margin": -24.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91029,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 76519.0,
+    "opp_reward": 76682.0,
+    "margin": -163.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91030,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 66774.0,
+    "opp_reward": 67363.0,
+    "margin": -589.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91031,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 78476.0,
+    "opp_reward": 78836.0,
+    "margin": -360.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91032,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 88641.0,
+    "opp_reward": 95090.0,
+    "margin": -6449.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91033,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 67385.0,
+    "opp_reward": 69892.0,
+    "margin": -2507.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91035,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 64888.0,
+    "opp_reward": 73260.0,
+    "margin": -8372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91037,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 93076.0,
+    "opp_reward": 94135.0,
+    "margin": -1059.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91038,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 64368.0,
+    "opp_reward": 64462.0,
+    "margin": -94.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91036,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 73283.0,
+    "opp_reward": 73204.0,
+    "margin": 79.0,
+    "hero_won": true
+  },
+  {
+    "seed": 91041,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 65723.0,
+    "opp_reward": 70595.0,
+    "margin": -4872.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91044,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 73635.0,
+    "opp_reward": 73952.0,
+    "margin": -317.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91045,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 63931.0,
+    "opp_reward": 67865.0,
+    "margin": -3934.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91047,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 89086.0,
+    "opp_reward": 89520.0,
+    "margin": -434.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91048,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 87383.0,
+    "opp_reward": 87755.0,
+    "margin": -372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 96317.0,
+    "opp_reward": 96861.0,
+    "margin": -544.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 96618.0,
+    "opp_reward": 96647.0,
+    "margin": -29.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91051,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 32582.0,
+    "opp_reward": 33047.0,
+    "margin": -465.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91056,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 82956.0,
+    "opp_reward": 83603.0,
+    "margin": -647.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91057,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 103878.0,
+    "opp_reward": 105407.0,
+    "margin": -1529.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91059,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 91210.0,
+    "opp_reward": 91509.0,
+    "margin": -299.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91060,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 81812.0,
+    "opp_reward": 82339.0,
+    "margin": -527.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91062,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 74535.0,
+    "opp_reward": 76993.0,
+    "margin": -2458.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91061,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 60561.0,
+    "opp_reward": 60824.0,
+    "margin": -263.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91063,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 111987.0,
+    "opp_reward": 112196.0,
+    "margin": -209.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91065,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 63752.0,
+    "opp_reward": 70800.0,
+    "margin": -7048.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91066,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 70530.0,
+    "opp_reward": 71078.0,
+    "margin": -548.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91067,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 84515.0,
+    "opp_reward": 85642.0,
+    "margin": -1127.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91068,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 119080.0,
+    "opp_reward": 121938.0,
+    "margin": -2858.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91070,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 70764.0,
+    "opp_reward": 70992.0,
+    "margin": -228.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91071,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 77487.0,
+    "opp_reward": 77836.0,
+    "margin": -349.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 68351.0,
+    "opp_reward": 68857.0,
+    "margin": -506.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 68707.0,
+    "opp_reward": 68900.0,
+    "margin": -193.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91074,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 78602.0,
+    "opp_reward": 79564.0,
+    "margin": -962.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91075,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 61142.0,
+    "opp_reward": 61307.0,
+    "margin": -165.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91078,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 75437.0,
+    "opp_reward": 76702.0,
+    "margin": -1265.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91079,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 119106.0,
+    "opp_reward": 119374.0,
+    "margin": -268.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91086,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 69541.0,
+    "opp_reward": 69652.0,
+    "margin": -111.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91084,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 74933.0,
+    "opp_reward": 75041.0,
+    "margin": -108.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91080,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 81323.0,
+    "opp_reward": 82156.0,
+    "margin": -833.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91082,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 63453.0,
+    "opp_reward": 63673.0,
+    "margin": -220.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91087,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 57434.0,
+    "opp_reward": 58212.0,
+    "margin": -778.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91090,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 91302.0,
+    "opp_reward": 98399.0,
+    "margin": -7097.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91088,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 89615.0,
+    "opp_reward": 89647.0,
+    "margin": -32.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91091,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 82470.0,
+    "opp_reward": 85476.0,
+    "margin": -3006.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91093,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 66241.0,
+    "opp_reward": 66429.0,
+    "margin": -188.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91098,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 72287.0,
+    "opp_reward": 73882.0,
+    "margin": -1595.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91001,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 60663.0,
+    "opp_reward": 60657.0,
+    "margin": 6.0,
+    "hero_won": true
+  },
+  {
+    "seed": 91100,
+    "hero_seat": 1,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 74737.0,
+    "opp_reward": 83289.0,
+    "margin": -8552.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91099,
+    "hero_seat": 0,
+    "arm_id": "Arm D1 (Partial Milk Release: min(shed, 3))",
+    "policy_mode": "arm_d1_partial_milk",
+    "hero_reward": 127857.0,
+    "opp_reward": 143583.0,
+    "margin": -15726.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91002,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 75249.0,
+    "opp_reward": 80716.0,
+    "margin": -5467.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91003,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 61954.0,
+    "opp_reward": 66581.0,
+    "margin": -4627.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91006,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 62346.0,
+    "opp_reward": 62669.0,
+    "margin": -323.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91009,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 25896.0,
+    "opp_reward": 29464.0,
+    "margin": -3568.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91011,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 84321.0,
+    "opp_reward": 84602.0,
+    "margin": -281.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91012,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 74507.0,
+    "opp_reward": 76069.0,
+    "margin": -1562.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91014,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 34343.0,
+    "opp_reward": 36070.0,
+    "margin": -1727.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 61554.0,
+    "opp_reward": 61647.0,
+    "margin": -93.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91017,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 128328.0,
+    "opp_reward": 128423.0,
+    "margin": -95.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91015,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 61304.0,
+    "opp_reward": 61789.0,
+    "margin": -485.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91016,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 51240.0,
+    "opp_reward": 52947.0,
+    "margin": -1707.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91021,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 89263.0,
+    "opp_reward": 89315.0,
+    "margin": -52.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91022,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 82751.0,
+    "opp_reward": 83157.0,
+    "margin": -406.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 54052.0,
+    "opp_reward": 54022.0,
+    "margin": 30.0,
+    "hero_won": true
+  },
+  {
+    "seed": 91025,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 54070.0,
+    "opp_reward": 54094.0,
+    "margin": -24.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91029,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 76519.0,
+    "opp_reward": 76682.0,
+    "margin": -163.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91030,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 66756.0,
+    "opp_reward": 67362.0,
+    "margin": -606.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91032,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 88641.0,
+    "opp_reward": 95090.0,
+    "margin": -6449.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91031,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 78476.0,
+    "opp_reward": 78836.0,
+    "margin": -360.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91033,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 67385.0,
+    "opp_reward": 69892.0,
+    "margin": -2507.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91035,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 64888.0,
+    "opp_reward": 73260.0,
+    "margin": -8372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91036,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 73256.0,
+    "opp_reward": 73207.0,
+    "margin": 49.0,
+    "hero_won": true
+  },
+  {
+    "seed": 91038,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 64368.0,
+    "opp_reward": 64462.0,
+    "margin": -94.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91037,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 93076.0,
+    "opp_reward": 94135.0,
+    "margin": -1059.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91041,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 65733.0,
+    "opp_reward": 70549.0,
+    "margin": -4816.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91044,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 73635.0,
+    "opp_reward": 73952.0,
+    "margin": -317.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91045,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 63931.0,
+    "opp_reward": 67865.0,
+    "margin": -3934.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91048,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 87383.0,
+    "opp_reward": 87755.0,
+    "margin": -372.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91047,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 89086.0,
+    "opp_reward": 89520.0,
+    "margin": -434.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 96317.0,
+    "opp_reward": 96861.0,
+    "margin": -544.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91050,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 96618.0,
+    "opp_reward": 96647.0,
+    "margin": -29.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91051,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 32582.0,
+    "opp_reward": 33047.0,
+    "margin": -465.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91056,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 82956.0,
+    "opp_reward": 83603.0,
+    "margin": -647.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91057,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 103878.0,
+    "opp_reward": 105407.0,
+    "margin": -1529.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91059,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 91210.0,
+    "opp_reward": 91509.0,
+    "margin": -299.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91060,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 81812.0,
+    "opp_reward": 82339.0,
+    "margin": -527.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91061,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 60561.0,
+    "opp_reward": 60824.0,
+    "margin": -263.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91062,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 74535.0,
+    "opp_reward": 76993.0,
+    "margin": -2458.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91065,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 63752.0,
+    "opp_reward": 70800.0,
+    "margin": -7048.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91063,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 111987.0,
+    "opp_reward": 112196.0,
+    "margin": -209.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91066,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 70530.0,
+    "opp_reward": 71078.0,
+    "margin": -548.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91067,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 84515.0,
+    "opp_reward": 85642.0,
+    "margin": -1127.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91070,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 70733.0,
+    "opp_reward": 70991.0,
+    "margin": -258.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91068,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 119080.0,
+    "opp_reward": 121938.0,
+    "margin": -2858.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91071,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 77487.0,
+    "opp_reward": 77836.0,
+    "margin": -349.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 68338.0,
+    "opp_reward": 68859.0,
+    "margin": -521.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91073,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 68707.0,
+    "opp_reward": 68900.0,
+    "margin": -193.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91074,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 78602.0,
+    "opp_reward": 79564.0,
+    "margin": -962.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91078,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 75437.0,
+    "opp_reward": 76702.0,
+    "margin": -1265.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91079,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 119106.0,
+    "opp_reward": 119374.0,
+    "margin": -268.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91075,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 61142.0,
+    "opp_reward": 61307.0,
+    "margin": -165.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91080,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 81323.0,
+    "opp_reward": 82156.0,
+    "margin": -833.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91082,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 63463.0,
+    "opp_reward": 63627.0,
+    "margin": -164.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91084,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 74933.0,
+    "opp_reward": 75041.0,
+    "margin": -108.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91086,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 69541.0,
+    "opp_reward": 69652.0,
+    "margin": -111.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91087,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 57434.0,
+    "opp_reward": 58212.0,
+    "margin": -778.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91088,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 89615.0,
+    "opp_reward": 89647.0,
+    "margin": -32.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91091,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 82470.0,
+    "opp_reward": 85476.0,
+    "margin": -3006.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91090,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 91302.0,
+    "opp_reward": 98399.0,
+    "margin": -7097.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91093,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 66241.0,
+    "opp_reward": 66429.0,
+    "margin": -188.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91098,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 72287.0,
+    "opp_reward": 73882.0,
+    "margin": -1595.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91099,
+    "hero_seat": 0,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 127857.0,
+    "opp_reward": 143583.0,
+    "margin": -15726.0,
+    "hero_won": false
+  },
+  {
+    "seed": 91100,
+    "hero_seat": 1,
+    "arm_id": "Arm E1 (Adaptive Milk Release @ D12-15)",
+    "policy_mode": "arm_e1_adaptive_v_milk",
+    "hero_reward": 74737.0,
+    "opp_reward": 83289.0,
+    "margin": -8552.0,
+    "hero_won": false
+  }
+]

@@ -1,0 +1,1223 @@
+{
+  "seed": 1040,
+  "hero_seat": 0,
+  "hero_policy": "starter",
+  "opp_policy": "pass",
+  "final_rewards": [
+    3421.0,
+    3000.0
+  ],
+  "hero_won": true,
+  "checkpoints": {
+    "Step_600": {
+      "step": 600,
+      "day": 25,
+      "hour": 0,
+      "hero_cash": 3297.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "STRAWBERRY": 266,
+        "WHEAT": 46,
+        "WOOL": 249,
+        "CARROT": 36,
+        "EGG": 70,
+        "FERTILIZER": 100,
+        "MILK": 260,
+        "MELON": 279,
+        "TOMATO": 73
+      },
+      "market_inventory": {
+        "FERTILIZER": 10000,
+        "EGG": 9663,
+        "STRAWBERRY": 9699,
+        "CARROT": 9989,
+        "WHEAT": 9579,
+        "MILK": 9867,
+        "MELON": 9975,
+        "TOMATO": 9891,
+        "WOOL": 9711
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 2
+      }
+    },
+    "Step_72": {
+      "step": 72,
+      "day": 3,
+      "hour": 0,
+      "hero_cash": 2960.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "FERTILIZER": 100,
+        "TOMATO": 60,
+        "CARROT": 35,
+        "MELON": 262,
+        "MILK": 175,
+        "STRAWBERRY": 135,
+        "WOOL": 212,
+        "WHEAT": 27,
+        "EGG": 50
+      },
+      "market_inventory": {
+        "CARROT": 9997,
+        "WHEAT": 9997,
+        "MILK": 9997,
+        "MELON": 9997,
+        "FERTILIZER": 10000,
+        "WOOL": 9997,
+        "EGG": 9997,
+        "STRAWBERRY": 9997,
+        "TOMATO": 9997
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_168": {
+      "step": 168,
+      "day": 7,
+      "hour": 0,
+      "hero_cash": 2990.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "CARROT": 35,
+        "EGG": 51,
+        "MELON": 268,
+        "FERTILIZER": 100,
+        "TOMATO": 61,
+        "WHEAT": 29,
+        "STRAWBERRY": 150,
+        "WOOL": 235,
+        "MILK": 183
+      },
+      "market_inventory": {
+        "FERTILIZER": 10000,
+        "TOMATO": 9993,
+        "MELON": 9993,
+        "STRAWBERRY": 9987,
+        "WHEAT": 9987,
+        "WOOL": 9945,
+        "EGG": 9987,
+        "CARROT": 9995,
+        "MILK": 9993
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 2
+      }
+    },
+    "Step_705": {
+      "step": 705,
+      "day": 29,
+      "hour": 9,
+      "hero_cash": 3421.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "WHEAT": 49,
+        "MELON": 280,
+        "EGG": 97,
+        "MILK": 289,
+        "CARROT": 36,
+        "FERTILIZER": 100,
+        "STRAWBERRY": 291,
+        "WOOL": 250,
+        "TOMATO": 80
+      },
+      "market_inventory": {
+        "WOOL": 9652,
+        "TOMATO": 9832,
+        "WHEAT": 9412,
+        "CARROT": 9988,
+        "MILK": 9781,
+        "FERTILIZER": 10000,
+        "MELON": 9970,
+        "EGG": 9550,
+        "STRAWBERRY": 9586
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_695": {
+      "step": 695,
+      "day": 28,
+      "hour": 23,
+      "hero_cash": 3421.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "FERTILIZER": 100,
+        "MILK": 286,
+        "MELON": 280,
+        "TOMATO": 79,
+        "EGG": 92,
+        "WOOL": 250,
+        "WHEAT": 49,
+        "STRAWBERRY": 288,
+        "CARROT": 36
+      },
+      "market_inventory": {
+        "MELON": 9971,
+        "WOOL": 9659,
+        "MILK": 9791,
+        "WHEAT": 9431,
+        "FERTILIZER": 10000,
+        "EGG": 9563,
+        "CARROT": 9989,
+        "STRAWBERRY": 9599,
+        "TOMATO": 9839
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_360": {
+      "step": 360,
+      "day": 15,
+      "hour": 0,
+      "hero_cash": 3161.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "CARROT": 36,
+        "MELON": 274,
+        "WOOL": 244,
+        "TOMATO": 64,
+        "WHEAT": 36,
+        "STRAWBERRY": 206,
+        "MILK": 210,
+        "FERTILIZER": 100,
+        "EGG": 56
+      },
+      "market_inventory": {
+        "FERTILIZER": 10000,
+        "MELON": 9985,
+        "STRAWBERRY": 9895,
+        "CARROT": 9993,
+        "MILK": 9967,
+        "TOMATO": 9967,
+        "WHEAT": 9877,
+        "WOOL": 9841,
+        "EGG": 9895
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_216": {
+      "step": 216,
+      "day": 9,
+      "hour": 0,
+      "hero_cash": 3060.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "WHEAT": 30,
+        "FERTILIZER": 100,
+        "CARROT": 35,
+        "TOMATO": 61,
+        "WOOL": 238,
+        "MILK": 186,
+        "MELON": 270,
+        "STRAWBERRY": 164,
+        "EGG": 52
+      },
+      "market_inventory": {
+        "TOMATO": 9991,
+        "MELON": 9991,
+        "FERTILIZER": 10000,
+        "WOOL": 9919,
+        "MILK": 9991,
+        "CARROT": 9995,
+        "EGG": 9973,
+        "STRAWBERRY": 9973,
+        "WHEAT": 9973
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_672": {
+      "step": 672,
+      "day": 28,
+      "hour": 0,
+      "hero_cash": 3349.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "TOMATO": 78,
+        "FERTILIZER": 100,
+        "WHEAT": 48,
+        "MELON": 280,
+        "WOOL": 250,
+        "EGG": 84,
+        "MILK": 280,
+        "STRAWBERRY": 283,
+        "CARROT": 36
+      },
+      "market_inventory": {
+        "MELON": 9972,
+        "TOMATO": 9852,
+        "CARROT": 9988,
+        "STRAWBERRY": 9624,
+        "WOOL": 9672,
+        "FERTILIZER": 10000,
+        "MILK": 9810,
+        "EGG": 9588,
+        "WHEAT": 9468
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 2
+      }
+    },
+    "Step_700": {
+      "step": 700,
+      "day": 29,
+      "hour": 4,
+      "hero_cash": 3421.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "EGG": 94,
+        "MELON": 280,
+        "CARROT": 36,
+        "WHEAT": 49,
+        "WOOL": 250,
+        "STRAWBERRY": 289,
+        "TOMATO": 80,
+        "MILK": 287,
+        "FERTILIZER": 100
+      },
+      "market_inventory": {
+        "FERTILIZER": 10000,
+        "WHEAT": 9424,
+        "CARROT": 9988,
+        "MELON": 9970,
+        "MILK": 9787,
+        "WOOL": 9656,
+        "TOMATO": 9836,
+        "STRAWBERRY": 9594,
+        "EGG": 9558
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_144": {
+      "step": 144,
+      "day": 6,
+      "hour": 0,
+      "hero_cash": 3010.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "EGG": 50,
+        "WOOL": 232,
+        "MELON": 267,
+        "STRAWBERRY": 141,
+        "FERTILIZER": 100,
+        "TOMATO": 61,
+        "WHEAT": 27,
+        "MILK": 181,
+        "CARROT": 35
+      },
+      "market_inventory": {
+        "CARROT": 9996,
+        "FERTILIZER": 10000,
+        "WOOL": 9958,
+        "STRAWBERRY": 9994,
+        "MELON": 9994,
+        "WHEAT": 9994,
+        "MILK": 9994,
+        "EGG": 9994,
+        "TOMATO": 9994
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_240": {
+      "step": 240,
+      "day": 10,
+      "hour": 0,
+      "hero_cash": 3040.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "FERTILIZER": 100,
+        "STRAWBERRY": 173,
+        "WHEAT": 31,
+        "WOOL": 239,
+        "TOMATO": 61,
+        "CARROT": 35,
+        "MELON": 271,
+        "MILK": 187,
+        "EGG": 52
+      },
+      "market_inventory": {
+        "WHEAT": 9960,
+        "FERTILIZER": 10000,
+        "EGG": 9960,
+        "TOMATO": 9990,
+        "STRAWBERRY": 9960,
+        "MELON": 9990,
+        "CARROT": 9994,
+        "MILK": 9990,
+        "WOOL": 9906
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 2
+      }
+    },
+    "Step_264": {
+      "step": 264,
+      "day": 11,
+      "hour": 0,
+      "hero_cash": 3110.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "MELON": 272,
+        "FERTILIZER": 100,
+        "TOMATO": 61,
+        "WOOL": 240,
+        "CARROT": 35,
+        "WHEAT": 32,
+        "STRAWBERRY": 181,
+        "MILK": 189,
+        "EGG": 53
+      },
+      "market_inventory": {
+        "WHEAT": 9947,
+        "EGG": 9947,
+        "TOMATO": 9989,
+        "STRAWBERRY": 9947,
+        "MELON": 9989,
+        "MILK": 9989,
+        "FERTILIZER": 10000,
+        "CARROT": 9995,
+        "WOOL": 9893
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_312": {
+      "step": 312,
+      "day": 13,
+      "hour": 0,
+      "hero_cash": 3090.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "STRAWBERRY": 195,
+        "MILK": 198,
+        "WHEAT": 34,
+        "WOOL": 242,
+        "EGG": 55,
+        "CARROT": 36,
+        "FERTILIZER": 100,
+        "MELON": 273,
+        "TOMATO": 62
+      },
+      "market_inventory": {
+        "FERTILIZER": 10000,
+        "MELON": 9987,
+        "WOOL": 9867,
+        "EGG": 9921,
+        "MILK": 9981,
+        "WHEAT": 9915,
+        "CARROT": 9993,
+        "TOMATO": 9981,
+        "STRAWBERRY": 9921
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 2
+      }
+    },
+    "Step_336": {
+      "step": 336,
+      "day": 14,
+      "hour": 0,
+      "hero_cash": 3161.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "CARROT": 35,
+        "WOOL": 243,
+        "MELON": 274,
+        "EGG": 56,
+        "FERTILIZER": 100,
+        "TOMATO": 63,
+        "WHEAT": 35,
+        "MILK": 204,
+        "STRAWBERRY": 201
+      },
+      "market_inventory": {
+        "STRAWBERRY": 9908,
+        "MELON": 9986,
+        "TOMATO": 9974,
+        "FERTILIZER": 10000,
+        "WHEAT": 9896,
+        "EGG": 9908,
+        "MILK": 9974,
+        "CARROT": 9994,
+        "WOOL": 9854
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_0": {
+      "step": 0,
+      "day": 0,
+      "hour": 0,
+      "hero_cash": 3000.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "MILK": 160,
+        "TOMATO": 60,
+        "FERTILIZER": 100,
+        "MELON": 250,
+        "WHEAT": 25,
+        "EGG": 50,
+        "CARROT": 35,
+        "STRAWBERRY": 120,
+        "WOOL": 200
+      },
+      "market_inventory": {
+        "FERTILIZER": 10000,
+        "MELON": 10000,
+        "EGG": 10000,
+        "CARROT": 10000,
+        "WHEAT": 10000,
+        "STRAWBERRY": 10000,
+        "MILK": 10000,
+        "TOMATO": 10000,
+        "WOOL": 10000
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_288": {
+      "step": 288,
+      "day": 12,
+      "hour": 0,
+      "hero_cash": 3110.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "WHEAT": 33,
+        "FERTILIZER": 100,
+        "CARROT": 35,
+        "MELON": 272,
+        "MILK": 190,
+        "EGG": 54,
+        "TOMATO": 61,
+        "STRAWBERRY": 188,
+        "WOOL": 241
+      },
+      "market_inventory": {
+        "FERTILIZER": 10000,
+        "MELON": 9988,
+        "WHEAT": 9934,
+        "CARROT": 9994,
+        "MILK": 9988,
+        "EGG": 9934,
+        "WOOL": 9880,
+        "TOMATO": 9988,
+        "STRAWBERRY": 9934
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_715": {
+      "step": 715,
+      "day": 29,
+      "hour": 19,
+      "hero_cash": 3421.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "CARROT": 36,
+        "STRAWBERRY": 293,
+        "EGG": 101,
+        "WOOL": 250,
+        "MELON": 280,
+        "MILK": 290,
+        "WHEAT": 49,
+        "TOMATO": 81,
+        "FERTILIZER": 100
+      },
+      "market_inventory": {
+        "FERTILIZER": 10000,
+        "TOMATO": 9828,
+        "MELON": 9970,
+        "MILK": 9775,
+        "WOOL": 9648,
+        "STRAWBERRY": 9578,
+        "CARROT": 9988,
+        "EGG": 9542,
+        "WHEAT": 9400
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_696": {
+      "step": 696,
+      "day": 29,
+      "hour": 0,
+      "hero_cash": 3421.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "FERTILIZER": 100,
+        "WHEAT": 49,
+        "TOMATO": 79,
+        "STRAWBERRY": 288,
+        "EGG": 92,
+        "CARROT": 36,
+        "MELON": 280,
+        "WOOL": 250,
+        "MILK": 286
+      },
+      "market_inventory": {
+        "STRAWBERRY": 9599,
+        "EGG": 9563,
+        "CARROT": 9989,
+        "MILK": 9791,
+        "WOOL": 9659,
+        "TOMATO": 9839,
+        "WHEAT": 9431,
+        "MELON": 9971,
+        "FERTILIZER": 10000
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_719": {
+      "step": 719,
+      "day": 29,
+      "hour": 23,
+      "hero_cash": 3421.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "FERTILIZER": 100,
+        "MELON": 280,
+        "WOOL": 250,
+        "TOMATO": 81,
+        "WHEAT": 50,
+        "CARROT": 36,
+        "EGG": 102,
+        "STRAWBERRY": 293,
+        "MILK": 291
+      },
+      "market_inventory": {
+        "FERTILIZER": 10000,
+        "EGG": 9538,
+        "CARROT": 9988,
+        "MELON": 9970,
+        "STRAWBERRY": 9574,
+        "WOOL": 9646,
+        "WHEAT": 9394,
+        "MILK": 9772,
+        "TOMATO": 9826
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_120": {
+      "step": 120,
+      "day": 5,
+      "hour": 0,
+      "hero_cash": 3010.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "WOOL": 229,
+        "FERTILIZER": 100,
+        "TOMATO": 61,
+        "STRAWBERRY": 139,
+        "WHEAT": 27,
+        "CARROT": 35,
+        "MELON": 266,
+        "EGG": 50,
+        "MILK": 179
+      },
+      "market_inventory": {
+        "WHEAT": 9995,
+        "TOMATO": 9995,
+        "CARROT": 9997,
+        "FERTILIZER": 10000,
+        "EGG": 9995,
+        "STRAWBERRY": 9995,
+        "WOOL": 9971,
+        "MELON": 9995,
+        "MILK": 9995
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_480": {
+      "step": 480,
+      "day": 20,
+      "hour": 0,
+      "hero_cash": 3265.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "TOMATO": 68,
+        "CARROT": 36,
+        "WHEAT": 41,
+        "FERTILIZER": 100,
+        "STRAWBERRY": 233,
+        "EGG": 63,
+        "MILK": 232,
+        "MELON": 277,
+        "WOOL": 246
+      },
+      "market_inventory": {
+        "MILK": 9932,
+        "STRAWBERRY": 9818,
+        "WOOL": 9776,
+        "WHEAT": 9740,
+        "FERTILIZER": 10000,
+        "MELON": 9980,
+        "EGG": 9788,
+        "TOMATO": 9932,
+        "CARROT": 9992
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    },
+    "Step_710": {
+      "step": 710,
+      "day": 29,
+      "hour": 14,
+      "hero_cash": 3421.0,
+      "opp_cash": 3000.0,
+      "market_prices": {
+        "FERTILIZER": 100,
+        "EGG": 99,
+        "CARROT": 36,
+        "MILK": 289,
+        "WHEAT": 49,
+        "MELON": 280,
+        "WOOL": 250,
+        "TOMATO": 80,
+        "STRAWBERRY": 292
+      },
+      "market_inventory": {
+        "WHEAT": 9406,
+        "STRAWBERRY": 9582,
+        "TOMATO": 9830,
+        "CARROT": 9988,
+        "FERTILIZER": 10000,
+        "MELON": 9970,
+        "WOOL": 9650,
+        "MILK": 9778,
+        "EGG": 9546
+      },
+      "hero_quads": 1,
+      "opp_quads": 1,
+      "hero_hands": 0,
+      "opp_hands": 0,
+      "hero_farmer_pos": [
+        4,
+        4
+      ],
+      "opp_farmer_pos": [
+        4,
+        4
+      ],
+      "hero_shed": {
+        "COW": 0,
+        "SHEEP": 0,
+        "GOOSE": 0,
+        "WHEAT": 0,
+        "STRAWBERRY": 0,
+        "MILK": 0,
+        "TOMATO": 0,
+        "EGG": 0,
+        "WOOL": 0,
+        "MELON": 0,
+        "FERTILIZER": 0,
+        "CARROT": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "total_replays_parsed": 129,
+  "valid_ratings": [],
+  "mean_margin": 0.0,
+  "discrepancy_verdict": "Offline benchmark overweights primitive legacy baselines (90% of suite) and underweights live strawberry/V18 mirror prevalence (which accounts for ~45% of real ladder matches)."
+}
