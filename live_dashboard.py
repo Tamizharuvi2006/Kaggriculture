@@ -199,6 +199,7 @@ def analyze_matches(
         "biggest_loss": biggest_loss,
         "low_elo_losses": low_elo_losses,
         "recent_matches": matches[-8:],
+        "matches": matches,
     }
 
 
