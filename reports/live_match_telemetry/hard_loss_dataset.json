@@ -1,0 +1,147 @@
+[
+  {
+    "episode_id": 104379472,
+    "seed": 1624303674,
+    "hero_name": "Tamizharuvi",
+    "opp_name": "arao",
+    "opp_elo": 600.0,
+    "hero_wealth": 40642.0,
+    "opp_wealth": 55146.0,
+    "deficit": -14504.0,
+    "divergence_step": 492,
+    "divergence_day": 20,
+    "divergence_hour": 12,
+    "temporal_phase": "Day 13-20 (Compounding Engine Deficit)",
+    "opp_archetype": "Aggressive Livestock Swarm",
+    "hero_state_at_divergence": {
+      "money": 19115.0,
+      "quads": 3,
+      "animals": 14,
+      "workers": 12
+    },
+    "opp_state_at_divergence": {
+      "money": 22773.0,
+      "quads": 3,
+      "animals": 11,
+      "workers": 11
+    },
+    "failure_mode": "Market Feed Exhaustion (Cash drained buying open-market feed)",
+    "prescribed_counter_response": "Cap late feed buying and enforce self-sustaining wheat grain cycle"
+  },
+  {
+    "episode_id": 104388418,
+    "seed": 711226357,
+    "hero_name": "Tamizharuvi",
+    "opp_name": "Soumi Ghosh",
+    "opp_elo": 600.0,
+    "hero_wealth": 30130.0,
+    "opp_wealth": 57089.0,
+    "deficit": -26959.0,
+    "divergence_step": 434,
+    "divergence_day": 18,
+    "divergence_hour": 2,
+    "temporal_phase": "Day 13-20 (Compounding Engine Deficit)",
+    "opp_archetype": "Aggressive Livestock Swarm",
+    "hero_state_at_divergence": {
+      "money": 15304.0,
+      "quads": 3,
+      "animals": 14,
+      "workers": 6
+    },
+    "opp_state_at_divergence": {
+      "money": 20189.0,
+      "quads": 3,
+      "animals": 13,
+      "workers": 6
+    },
+    "failure_mode": "Market Feed Exhaustion (Cash drained buying open-market feed)",
+    "prescribed_counter_response": "Cap late feed buying and enforce self-sustaining wheat grain cycle"
+  },
+  {
+    "episode_id": 104424149,
+    "seed": 529528835,
+    "hero_name": "Tamizharuvi",
+    "opp_name": "JZ",
+    "opp_elo": 600.0,
+    "hero_wealth": 64276.0,
+    "opp_wealth": 103254.0,
+    "deficit": -38978.0,
+    "divergence_step": 386,
+    "divergence_day": 16,
+    "divergence_hour": 2,
+    "temporal_phase": "Day 13-20 (Compounding Engine Deficit)",
+    "opp_archetype": "Aggressive Livestock Swarm",
+    "hero_state_at_divergence": {
+      "money": 21150.0,
+      "quads": 3,
+      "animals": 14,
+      "workers": 6
+    },
+    "opp_state_at_divergence": {
+      "money": 23834.0,
+      "quads": 2,
+      "animals": 16,
+      "workers": 11
+    },
+    "failure_mode": "Land Expansion Lag (Opponent unlocked Q2 earlier and seized tile lead)",
+    "prescribed_counter_response": "Preempt Q2 expansion when opp_quads >= 2 and cash >= $750"
+  },
+  {
+    "episode_id": 104433117,
+    "seed": 198057751,
+    "hero_name": "Tamizharuvi",
+    "opp_name": "ayman elamin",
+    "opp_elo": 600.0,
+    "hero_wealth": 75049.0,
+    "opp_wealth": 104008.0,
+    "deficit": -28959.0,
+    "divergence_step": 320,
+    "divergence_day": 13,
+    "divergence_hour": 8,
+    "temporal_phase": "Day 13-20 (Compounding Engine Deficit)",
+    "opp_archetype": "Aggressive Livestock Swarm",
+    "hero_state_at_divergence": {
+      "money": 11701.0,
+      "quads": 3,
+      "animals": 14,
+      "workers": 12
+    },
+    "opp_state_at_divergence": {
+      "money": 14274.0,
+      "quads": 3,
+      "animals": 26,
+      "workers": 8
+    },
+    "failure_mode": "Livestock Capacity Deficit (Opponent scaled 3+ more producing cows/sheep)",
+    "prescribed_counter_response": "Reinvest surplus cash (>= $550) into Cow Matching on unlocked land"
+  },
+  {
+    "episode_id": 104475527,
+    "seed": 1362511072,
+    "hero_name": "Tamizharuvi",
+    "opp_name": "RicardoL\u00f3pez",
+    "opp_elo": 600.0,
+    "hero_wealth": 29724.0,
+    "opp_wealth": 72950.0,
+    "deficit": -43226.0,
+    "divergence_step": 250,
+    "divergence_day": 10,
+    "divergence_hour": 10,
+    "temporal_phase": "Day 8-12 (Livestock / Quadrant Scaling)",
+    "opp_archetype": "Aggressive Livestock Swarm",
+    "hero_state_at_divergence": {
+      "money": 68.0,
+      "quads": 2,
+      "animals": 12,
+      "workers": 11
+    },
+    "opp_state_at_divergence": {
+      "money": 3065.0,
+      "quads": 2,
+      "animals": 13,
+      "workers": 11
+    },
+    "failure_mode": "Market Feed Exhaustion (Cash drained buying open-market feed)",
+    "prescribed_counter_response": "Cap late feed buying and enforce self-sustaining wheat grain cycle"
+  }
+]
