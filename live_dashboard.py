@@ -60,21 +60,11 @@ def api_request(endpoint: str, payload: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def get_episode_replay(episode_id: int) -> Optional[Dict[str, Any]]:
-    token = load_token()
-    url = f"https://www.kaggle.com/api/i/competitions.EpisodeService/ShowEpisode"
-    data = json.dumps({"episodeId": episode_id}).encode("utf-8")
-    req = urllib.request.Request(
-        url,
-        data=data,
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Content-Type": "application/json",
-            "User-Agent": "KaggricultureLiveDashboard/1.0",
-        },
-        method="POST",
-    )
+    # Replays are stored directly on GCS
+    gcs_url = f"https://storage.googleapis.com/kaggle-episodes/{episode_id}.json"
+    req = urllib.request.Request(gcs_url, headers={"User-Agent": "Mozilla/5.0"})
     try:
-        with urllib.request.urlopen(req, timeout=45) as resp:
+        with urllib.request.urlopen(req, timeout=30) as resp:
             return json.loads(resp.read().decode("utf-8"))
     except Exception as e:
         return None
@@ -226,15 +216,15 @@ def auto_save_and_download_losses(low_losses: List[Dict[str, Any]]) -> int:
         if eid not in registry:
             registry[eid] = {
                 **loss,
-                "recorded_at": datetime.utcnow().isoformat(),
+                "recorded_at": datetime.now().isoformat(),
             }
-            # Download full replay for offline forensics
-            replay_file = OUTPUT_DIR / f"episode-{eid}-replay.json"
-            if not replay_file.exists():
-                rep_data = get_episode_replay(loss["episode_id"])
-                if rep_data:
-                    replay_file.write_text(json.dumps(rep_data, indent=2), encoding="utf-8")
-                    downloaded += 1
+        # Download full replay for offline forensics if not present
+        replay_file = OUTPUT_DIR / f"episode-{eid}-replay.json"
+        if not replay_file.exists():
+            rep_data = get_episode_replay(loss["episode_id"])
+            if rep_data:
+                replay_file.write_text(json.dumps(rep_data, indent=2), encoding="utf-8")
+                downloaded += 1
 
     LOSS_REGISTRY_PATH.write_text(json.dumps(registry, indent=2), encoding="utf-8")
     return downloaded
