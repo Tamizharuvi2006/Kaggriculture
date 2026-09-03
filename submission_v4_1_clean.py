@@ -357,42 +357,29 @@ _MATCH_LEDGER = {
 
 
 def _evaluate_crop_scores(day, prices):
-    """Calculate Terminal Horizon Net Value per Tile-Day (LTV) for every candidate crop."""
+    """Calculate Net Marginal Return per Tile-Day (MR/TD) for every candidate crop."""
     remaining_days = max(1, 29 - day)
     scores = {}
     for crop, spec in CROPS.items():
         first_harvest = spec["first"]
         max_day = spec["max_day"]
-        last_plant = spec.get("last_plant", 24)
-        
-        # Feasibility check: Can this crop complete at least ONE harvest before Day 29?
-        if remaining_days < first_harvest or day > last_plant:
+        if remaining_days < first_harvest:
             scores[crop] = -999.0
             continue
-            
         p_unit = float(prices.get(crop, 20.0) or 20.0)
         seed_cost = spec["seed"]
-        labor_rate = 12.0 # Daily watering & weeding labor overhead
         
         if spec["ongoing"]:
-            # Ongoing multi-harvest crop (Strawberry, Tomato)
-            # First harvest at first_harvest, subsequent harvests every 2 days
+            # Ongoing crop: multi-harvest valuation
             cycles = 1 + max(0, (remaining_days - first_harvest) // 2)
             total_yield = cycles * spec["max_yield"]
-            total_revenue = total_yield * p_unit
-            total_cost = seed_cost + (remaining_days * labor_rate)
-            net_profit = total_revenue - total_cost
-            scores[crop] = net_profit / remaining_days
+            # Daily labour overhead (~12/day)
+            net_profit = (total_yield * p_unit) - seed_cost - (remaining_days * 12.0)
+            scores[crop] = net_profit / max(1, remaining_days)
         else:
-            # One-time crop (Melon, Carrot, Wheat)
-            # Calculate full cycles that fit inside remaining horizon
-            full_cycles = max(1, remaining_days // max_day)
-            total_yield = full_cycles * spec["max_yield"]
-            total_revenue = total_yield * p_unit
-            active_days = full_cycles * max_day
-            total_cost = (full_cycles * seed_cost) + (active_days * labor_rate)
-            net_profit = total_revenue - total_cost
-            scores[crop] = net_profit / remaining_days
+            # One-time crop
+            net_profit = (spec["max_yield"] * p_unit) - seed_cost - (max_day * 12.0)
+            scores[crop] = net_profit / max(1, max_day)
             
     return scores
 
@@ -407,25 +394,24 @@ def _crop_plan(day):
     animal_plan = _animal_plan()
     
     # 1. Dynamic feed plot requirement derived from living herd & commercial town demand
+    # Active herd size: cows + sheep planned/active
+    # Each wheat plot yields 6 wheat every 4 days = 1.5 wheat/day.
+    # We ensure farm grain production covers 100% of herd feed consumption.
     num_animals = len(animal_plan) if day >= 10 else (4 if day >= 6 else 2)
     feed_wheat_plots = max(4, math.ceil(num_animals / 1.5))
     surplus_wheat_plots = 3 if p_wheat >= 32.0 else 0
     total_wheat_plots = feed_wheat_plots + surplus_wheat_plots
     
-    # 2. Evaluate competing cash crops (Terminal Horizon LTV)
+    # 2. Evaluate competing cash crops (MR/TD)
     crop_scores = _evaluate_crop_scores(day, prices)
-    # Sort non-wheat crops by terminal profitability
+    # Sort non-wheat crops by profitability
     cash_candidates = [c for c in ("STRAWBERRY", "MELON", "CARROT", "TOMATO") if crop_scores.get(c, -999.0) > 0]
     cash_candidates.sort(key=lambda c: crop_scores.get(c, -999.0), reverse=True)
     primary_cash_crop = cash_candidates[0] if cash_candidates else "CARROT"
     secondary_cash_crop = cash_candidates[1] if len(cash_candidates) > 1 else "CARROT"
 
     # 3. Formulate tile plan
-    # Retain dedicated melon plots only as long as Melon has positive feasible horizon score
-    plan = {}
-    if crop_scores.get("MELON", -999.0) > 0:
-        plan = {pos: crop for pos, crop in OPENING_CROP_PLAN.items() if crop == "MELON"}
-        
+    plan = {pos: crop for pos, crop in OPENING_CROP_PLAN.items() if crop == "MELON" and day <= 12}
     candidates = [
         (x, y)
         for y in range(10)

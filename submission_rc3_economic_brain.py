@@ -21,11 +21,11 @@ import math
 import math
 
 CROPS = {
-    "WHEAT": {"seed": 10, "first": 2, "max_day": 4, "max_yield": 6, "ongoing": False, "last_plant": 24},
-    "CARROT": {"seed": 20, "first": 2, "max_day": 3, "max_yield": 4, "ongoing": False, "last_plant": 25},
-    "TOMATO": {"seed": 50, "first": 8, "max_day": 8, "max_yield": 4, "ongoing": True, "last_plant": 17},
-    "STRAWBERRY": {"seed": 100, "first": 10, "max_day": 10, "max_yield": 4, "ongoing": True, "last_plant": 14},
-    "MELON": {"seed": 80, "first": 10, "max_day": 12, "max_yield": 6, "ongoing": False, "last_plant": 16},
+    "WHEAT": {"seed": 10, "first": 2, "max_day": 4, "max_yield": 6, "interval": 0, "ongoing": False, "last_plant": 24},
+    "CARROT": {"seed": 20, "first": 2, "max_day": 3, "max_yield": 4, "interval": 0, "ongoing": False, "last_plant": 25},
+    "TOMATO": {"seed": 50, "first": 8, "max_day": 8, "max_yield": 4, "interval": 1, "ongoing": True, "last_plant": 17},
+    "STRAWBERRY": {"seed": 100, "first": 10, "max_day": 10, "max_yield": 4, "interval": 2, "ongoing": True, "last_plant": 14},
+    "MELON": {"seed": 80, "first": 10, "max_day": 12, "max_yield": 6, "interval": 0, "ongoing": False, "last_plant": 16},
 }
 
 ANIMALS = {
@@ -357,7 +357,7 @@ _MATCH_LEDGER = {
 
 
 def _evaluate_crop_scores(day, prices):
-    """Calculate Terminal Horizon Net Value per Tile-Day (LTV) for every candidate crop."""
+    """Calculate Terminal Horizon Net Value per Tile-Day (LTV) with Amortization Payback."""
     remaining_days = max(1, 29 - day)
     scores = {}
     for crop, spec in CROPS.items():
@@ -365,7 +365,7 @@ def _evaluate_crop_scores(day, prices):
         max_day = spec["max_day"]
         last_plant = spec.get("last_plant", 24)
         
-        # Feasibility check: Can this crop complete at least ONE harvest before Day 29?
+        # 1. Feasibility check: Can this crop complete at least ONE harvest before Day 29?
         if remaining_days < first_harvest or day > last_plant:
             scores[crop] = -999.0
             continue
@@ -375,24 +375,42 @@ def _evaluate_crop_scores(day, prices):
         labor_rate = 12.0 # Daily watering & weeding labor overhead
         
         if spec["ongoing"]:
-            # Ongoing multi-harvest crop (Strawberry, Tomato)
-            # First harvest at first_harvest, subsequent harvests every 2 days
-            cycles = 1 + max(0, (remaining_days - first_harvest) // 2)
-            total_yield = cycles * spec["max_yield"]
-            total_revenue = total_yield * p_unit
-            total_cost = seed_cost + (remaining_days * labor_rate)
+            # Ongoing crop (Strawberry, Tomato):
+            # Produces at most max_yield times with regrowth interval
+            interval = max(1, spec.get("interval", 2))
+            max_yield = spec["max_yield"]
+            available_after_first = max(0, remaining_days - first_harvest)
+            productions = min(max_yield, 1 + (available_after_first // interval))
+            
+            # Expected yield units: ~1.25 units per production (accounting for care & fertilizer)
+            expected_units = productions * 1.25
+            total_revenue = expected_units * p_unit
+            active_days = first_harvest + (productions - 1) * interval
+            total_cost = seed_cost + (active_days * labor_rate)
             net_profit = total_revenue - total_cost
-            scores[crop] = net_profit / remaining_days
+            
+            # Slow-crop Amortization Filter:
+            # If a high-lag crop (first_harvest >= 8) cannot clear its seed cost + labor with a healthy margin,
+            # reject it in favor of fast 3-day/4-day cash crops.
+            if net_profit <= 40.0:
+                scores[crop] = -999.0
+                continue
+                
+            scores[crop] = net_profit / max(1, remaining_days)
         else:
             # One-time crop (Melon, Carrot, Wheat)
-            # Calculate full cycles that fit inside remaining horizon
             full_cycles = max(1, remaining_days // max_day)
-            total_yield = full_cycles * spec["max_yield"]
-            total_revenue = total_yield * p_unit
+            total_units = full_cycles * spec["max_yield"]
+            total_revenue = total_units * p_unit
             active_days = full_cycles * max_day
             total_cost = (full_cycles * seed_cost) + (active_days * labor_rate)
             net_profit = total_revenue - total_cost
-            scores[crop] = net_profit / remaining_days
+            
+            if net_profit <= 0:
+                scores[crop] = -999.0
+                continue
+                
+            scores[crop] = net_profit / max(1, remaining_days)
             
     return scores
 

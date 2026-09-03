@@ -32,3 +32,7 @@ reports/live_match_telemetry/apex35_replays/
 target/
 **/target/
 .utim_tmp/
+data/hf_il/
+topreply/
+reports/live_match_telemetry/*.json
+reports/live_match_telemetry/downloaded_losses/

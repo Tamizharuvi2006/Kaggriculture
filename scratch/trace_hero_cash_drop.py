@@ -1,0 +1,39 @@
+import json
+import kaggle_environments
+
+replay_path = r"D:\kaggriculture\reports\live_match_telemetry\episode-104379472-replay.json"
+with open(replay_path, "r", encoding="utf-8") as f:
+    replay = json.load(f)
+
+steps = replay.get("steps", [])
+info = replay.get("info", {})
+seed = info.get("seed")
+
+arao_actions = [frame[0].get("action") for frame in steps[1:]]
+
+import sys
+sys.path.insert(0, r"D:\kaggriculture")
+import submission_challenger_exp208_clean as challenger
+
+env = kaggle_environments.make("kaggriculture", configuration={"episodeSteps": 720, "seed": seed})
+env.reset()
+
+challenger._V18_SELECTED_MARKET = {0: None, 1: None}
+challenger._V18_SELECTED_DAY = {0: None, 1: None}
+challenger._V18_SELECTED_BOARD = {0: None, 1: None}
+
+for s in range(len(arao_actions)):
+    if env.done: break
+    obs1 = env.state[1].observation
+    step = int(obs1.get("step") if obs1.get("step") is not None else int(obs1.get("day", 0))*24 + int(obs1.get("hour", 0)))
+    obs1["step"] = step
+    
+    act1 = challenger.agent(obs1)
+    act0 = arao_actions[s]
+    env.step([act0, act1])
+    
+    c1 = env.state[1].observation["farms"][1]["money"]
+    if c1 <= 0:
+        print(f"Step {s} (D{s//24} h{s%24}): Hero cash dropped to ${c1}!")
+        print(f"  Action taken by Hero: {act1}")
+        break

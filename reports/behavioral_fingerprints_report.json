@@ -1,0 +1,1650 @@
+{
+  "Tier 1 (Sub-$60k)": [
+    {
+      "agent": "JeovaAnderson",
+      "final_reward": 55386.0,
+      "opening_orders": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          2
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          2
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          12
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          5
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          1
+        ]
+      ],
+      "land_ne_day": 7,
+      "land_sw_day": 11,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 4,
+        "8": 6,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14,
+        "28": 14
+      },
+      "market_wheat_bought": 265,
+      "fertilizer_sold": 209,
+      "fertilizer_used": 84,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 7,
+        "MELON": 12
+      },
+      "crops_d12": {
+        "WHEAT": 7,
+        "STRAWBERRY": 42,
+        "MELON": 12
+      },
+      "crops_d20": {
+        "WHEAT": 7,
+        "STRAWBERRY": 42,
+        "MELON": 12
+      },
+      "crops_d24": {
+        "WHEAT": 32,
+        "STRAWBERRY": 27
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 407,
+        "8": 215,
+        "12": 11622,
+        "16": 15510,
+        "20": 34615,
+        "24": 42332,
+        "28": 45911
+      }
+    },
+    {
+      "agent": "TIM",
+      "final_reward": 51547.0,
+      "opening_orders": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          19
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          4
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          5
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          5
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          14
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          1
+        ]
+      ],
+      "land_ne_day": 6,
+      "land_sw_day": 10,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 5,
+        "8": 10,
+        "12": 15,
+        "16": 17,
+        "20": 17,
+        "24": 17,
+        "28": 17
+      },
+      "market_wheat_bought": 264,
+      "fertilizer_sold": 323,
+      "fertilizer_used": 62,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 6,
+        "MELON": 4,
+        "STRAWBERRY": 1
+      },
+      "crops_d12": {
+        "WHEAT": 13,
+        "STRAWBERRY": 31,
+        "MELON": 14
+      },
+      "crops_d20": {
+        "WHEAT": 13,
+        "STRAWBERRY": 30,
+        "MELON": 14
+      },
+      "crops_d24": {
+        "WHEAT": 44,
+        "STRAWBERRY": 14
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 18,
+        "8": 40,
+        "12": 4107,
+        "16": 17347,
+        "20": 32006,
+        "24": 39973,
+        "28": 42983
+      }
+    },
+    {
+      "agent": "Gekkotron",
+      "final_reward": 54385.0,
+      "opening_orders": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          2
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          2
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          12
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          6
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ]
+      ],
+      "land_ne_day": 6,
+      "land_sw_day": 11,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 5,
+        "8": 9,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14,
+        "28": 14
+      },
+      "market_wheat_bought": 522,
+      "fertilizer_sold": 1906,
+      "fertilizer_used": 64,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 7,
+        "MELON": 12
+      },
+      "crops_d12": {
+        "STRAWBERRY": 27,
+        "WHEAT": 17,
+        "MELON": 8
+      },
+      "crops_d20": {
+        "STRAWBERRY": 33,
+        "WHEAT": 26
+      },
+      "crops_d24": {
+        "CARROT": 3,
+        "WHEAT": 24,
+        "STRAWBERRY": 26
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 10,
+        "8": 1,
+        "12": 10458,
+        "16": 18888,
+        "20": 30643,
+        "24": 41404,
+        "28": 46718
+      }
+    },
+    {
+      "agent": "\u30ab\u30ef\u30b7\u30ae",
+      "final_reward": 54486.0,
+      "opening_orders": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          2
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          2
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          12
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          6
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ]
+      ],
+      "land_ne_day": 6,
+      "land_sw_day": 11,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 5,
+        "8": 9,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14,
+        "28": 14
+      },
+      "market_wheat_bought": 728,
+      "fertilizer_sold": 1660,
+      "fertilizer_used": 79,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 7,
+        "MELON": 12
+      },
+      "crops_d12": {
+        "STRAWBERRY": 38,
+        "WHEAT": 17
+      },
+      "crops_d20": {
+        "STRAWBERRY": 42,
+        "WHEAT": 19
+      },
+      "crops_d24": {
+        "CARROT": 4,
+        "WHEAT": 21,
+        "STRAWBERRY": 34
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 30,
+        "8": 16,
+        "12": 10243,
+        "16": 17052,
+        "20": 28932,
+        "24": 44035,
+        "28": 47722
+      }
+    }
+  ],
+  "Tier 2 ($75k-$100k)": [
+    {
+      "agent": "Chloe",
+      "final_reward": 94063.0,
+      "opening_orders": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          2
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          2
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          12
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          2
+        ]
+      ],
+      "land_ne_day": 7,
+      "land_sw_day": 11,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14,
+        "28": 14
+      },
+      "market_wheat_bought": 980,
+      "fertilizer_sold": 233,
+      "fertilizer_used": 80,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 7,
+        "MELON": 12
+      },
+      "crops_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      },
+      "crops_d20": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 42
+      },
+      "crops_d24": {
+        "WHEAT": 19,
+        "STRAWBERRY": 37
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 62,
+        "8": 291,
+        "12": 11221,
+        "16": 19507,
+        "20": 35242,
+        "24": 66136,
+        "28": 80807
+      }
+    },
+    {
+      "agent": "researchstudio.site",
+      "final_reward": 96065.0,
+      "opening_orders": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          2
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          2
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          9
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          7
+        ]
+      ],
+      "land_ne_day": 6,
+      "land_sw_day": 9,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 5,
+        "8": 9,
+        "12": 10,
+        "16": 13,
+        "20": 13,
+        "24": 13,
+        "28": 12
+      },
+      "market_wheat_bought": 826,
+      "fertilizer_sold": 155,
+      "fertilizer_used": 151,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 7,
+        "MELON": 9
+      },
+      "crops_d12": {
+        "WHEAT": 13,
+        "STRAWBERRY": 32,
+        "MELON": 9
+      },
+      "crops_d20": {
+        "STRAWBERRY": 32,
+        "WHEAT": 13
+      },
+      "crops_d24": {
+        "WHEAT": 21,
+        "STRAWBERRY": 28
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 272,
+        "8": 557,
+        "12": 15603,
+        "16": 22905,
+        "20": 50548,
+        "24": 72563,
+        "28": 83762
+      }
+    },
+    {
+      "agent": "peikopon",
+      "final_reward": 79852.0,
+      "opening_orders": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          2
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          2
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          12
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          6
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ]
+      ],
+      "land_ne_day": 6,
+      "land_sw_day": 11,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 5,
+        "8": 9,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14,
+        "28": 14
+      },
+      "market_wheat_bought": 522,
+      "fertilizer_sold": 1872,
+      "fertilizer_used": 64,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 7,
+        "MELON": 12
+      },
+      "crops_d12": {
+        "STRAWBERRY": 27,
+        "WHEAT": 17,
+        "MELON": 8
+      },
+      "crops_d20": {
+        "STRAWBERRY": 33,
+        "WHEAT": 26
+      },
+      "crops_d24": {
+        "CARROT": 3,
+        "WHEAT": 24,
+        "STRAWBERRY": 26
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 7,
+        "8": 3,
+        "12": 11323,
+        "16": 17246,
+        "20": 26913,
+        "24": 50621,
+        "28": 68914
+      }
+    },
+    {
+      "agent": "Excluding",
+      "final_reward": 84437.0,
+      "opening_orders": [
+        [
+          "BUY_SEED",
+          "WHEAT",
+          6
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          4
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          4
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          1
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          1
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          1
+        ]
+      ],
+      "land_ne_day": 6,
+      "land_sw_day": 9,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 4,
+        "8": 7,
+        "12": 16,
+        "16": 16,
+        "20": 15,
+        "24": 15,
+        "28": 15
+      },
+      "market_wheat_bought": 155,
+      "fertilizer_sold": 251,
+      "fertilizer_used": 82,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 12,
+        "MELON": 7
+      },
+      "crops_d12": {
+        "STRAWBERRY": 28,
+        "MELON": 10,
+        "TOMATO": 2
+      },
+      "crops_d20": {
+        "WHEAT": 28,
+        "STRAWBERRY": 28,
+        "TOMATO": 2
+      },
+      "crops_d24": {
+        "WHEAT": 33,
+        "STRAWBERRY": 24
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 465,
+        "8": 520,
+        "12": 8663,
+        "16": 18994,
+        "20": 52189,
+        "24": 72730,
+        "28": 75337
+      }
+    }
+  ],
+  "Tier 3 ($105k-$125k)": [
+    {
+      "agent": "Just a moroccan",
+      "final_reward": 120521.0,
+      "opening_orders": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          2
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          2
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          12
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          2
+        ]
+      ],
+      "land_ne_day": 7,
+      "land_sw_day": 11,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14,
+        "28": 14
+      },
+      "market_wheat_bought": 980,
+      "fertilizer_sold": 233,
+      "fertilizer_used": 80,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 7,
+        "MELON": 12
+      },
+      "crops_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      },
+      "crops_d20": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 42
+      },
+      "crops_d24": {
+        "WHEAT": 19,
+        "STRAWBERRY": 37
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 61,
+        "8": 294,
+        "12": 11869,
+        "16": 22996,
+        "20": 44905,
+        "24": 78424,
+        "28": 106370
+      }
+    },
+    {
+      "agent": "Raoul Biagioni",
+      "final_reward": 116567.0,
+      "opening_orders": [
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          11
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          1
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          4
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          5
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          5
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          6
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          2
+        ]
+      ],
+      "land_ne_day": 6,
+      "land_sw_day": 10,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 5,
+        "8": 10,
+        "12": 12,
+        "16": 12,
+        "20": 12,
+        "24": 14,
+        "28": 14
+      },
+      "market_wheat_bought": 246,
+      "fertilizer_sold": 294,
+      "fertilizer_used": 71,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 6,
+        "MELON": 5,
+        "STRAWBERRY": 3
+      },
+      "crops_d12": {
+        "WHEAT": 13,
+        "STRAWBERRY": 36,
+        "MELON": 14
+      },
+      "crops_d20": {
+        "WHEAT": 16,
+        "STRAWBERRY": 33,
+        "MELON": 14
+      },
+      "crops_d24": {
+        "WHEAT": 41,
+        "STRAWBERRY": 17
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 196,
+        "8": 766,
+        "12": 7382,
+        "16": 18689,
+        "20": 42656,
+        "24": 79011,
+        "28": 96933
+      }
+    },
+    {
+      "agent": "Thomas Tschinkel",
+      "final_reward": 113067.0,
+      "opening_orders": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          2
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          2
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          12
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          6
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ]
+      ],
+      "land_ne_day": 6,
+      "land_sw_day": 11,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 5,
+        "8": 9,
+        "12": 14,
+        "16": 17,
+        "20": 18,
+        "24": 18,
+        "28": 18
+      },
+      "market_wheat_bought": 838,
+      "fertilizer_sold": 291,
+      "fertilizer_used": 56,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 7,
+        "MELON": 12
+      },
+      "crops_d12": {
+        "STRAWBERRY": 31,
+        "WHEAT": 17,
+        "MELON": 8
+      },
+      "crops_d20": {
+        "STRAWBERRY": 33,
+        "WHEAT": 36
+      },
+      "crops_d24": {
+        "WHEAT": 19,
+        "STRAWBERRY": 28
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 10,
+        "8": 240,
+        "12": 12613,
+        "16": 19343,
+        "20": 45621,
+        "24": 70203,
+        "28": 92673
+      }
+    },
+    {
+      "agent": "MiMi",
+      "final_reward": 109187.0,
+      "opening_orders": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          2
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          2
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          12
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          6
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ]
+      ],
+      "land_ne_day": 5,
+      "land_sw_day": 10,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 4,
+        "8": 6,
+        "12": 14,
+        "16": 12,
+        "20": 12,
+        "24": 12,
+        "28": 12
+      },
+      "market_wheat_bought": 123,
+      "fertilizer_sold": 163,
+      "fertilizer_used": 110,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 8,
+        "MELON": 12
+      },
+      "crops_d12": {
+        "STRAWBERRY": 23,
+        "CARROT": 3,
+        "WHEAT": 14
+      },
+      "crops_d20": {
+        "TOMATO": 6,
+        "STRAWBERRY": 31,
+        "WHEAT": 35
+      },
+      "crops_d24": {
+        "WHEAT": 37,
+        "STRAWBERRY": 17,
+        "TOMATO": 4
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 354,
+        "8": 223,
+        "12": 13154,
+        "16": 22123,
+        "20": 48783,
+        "24": 73207,
+        "28": 98702
+      }
+    }
+  ],
+  "Tier 4 ($130k-$155k)": [
+    {
+      "agent": "Kaito Fukami",
+      "final_reward": 150620.0,
+      "opening_orders": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          2
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          2
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          12
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          2
+        ]
+      ],
+      "land_ne_day": 7,
+      "land_sw_day": 11,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14,
+        "28": 14
+      },
+      "market_wheat_bought": 980,
+      "fertilizer_sold": 233,
+      "fertilizer_used": 80,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 7,
+        "MELON": 12
+      },
+      "crops_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      },
+      "crops_d20": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 42
+      },
+      "crops_d24": {
+        "WHEAT": 19,
+        "STRAWBERRY": 37
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 62,
+        "8": 291,
+        "12": 12479,
+        "16": 25784,
+        "20": 58423,
+        "24": 99597,
+        "28": 130649
+      }
+    },
+    {
+      "agent": "\u9752\u70df",
+      "final_reward": 140633.0,
+      "opening_orders": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          1
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          4
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          5
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          5
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          5
+        ]
+      ],
+      "land_ne_day": 6,
+      "land_sw_day": 10,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 5,
+        "8": 10,
+        "12": 12,
+        "16": 12,
+        "20": 12,
+        "24": 13,
+        "28": 13
+      },
+      "market_wheat_bought": 234,
+      "fertilizer_sold": 245,
+      "fertilizer_used": 72,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 6,
+        "MELON": 5,
+        "STRAWBERRY": 3
+      },
+      "crops_d12": {
+        "WHEAT": 13,
+        "STRAWBERRY": 29,
+        "MELON": 11
+      },
+      "crops_d20": {
+        "WHEAT": 16,
+        "STRAWBERRY": 26,
+        "MELON": 11
+      },
+      "crops_d24": {
+        "WHEAT": 40,
+        "STRAWBERRY": 13
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 186,
+        "8": 720,
+        "12": 6143,
+        "16": 17701,
+        "20": 49350,
+        "24": 90899,
+        "28": 121537
+      }
+    },
+    {
+      "agent": "GUGUGAGA",
+      "final_reward": 145135.0,
+      "opening_orders": [
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          2
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          2
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          7
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          12
+        ],
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          6
+        ],
+        [
+          "SELL",
+          "WHEAT",
+          3
+        ]
+      ],
+      "land_ne_day": 6,
+      "land_sw_day": 11,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 5,
+        "8": 9,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14,
+        "28": 14
+      },
+      "market_wheat_bought": 522,
+      "fertilizer_sold": 1906,
+      "fertilizer_used": 64,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 7,
+        "MELON": 12
+      },
+      "crops_d12": {
+        "STRAWBERRY": 27,
+        "WHEAT": 17,
+        "MELON": 8
+      },
+      "crops_d20": {
+        "STRAWBERRY": 33,
+        "WHEAT": 26
+      },
+      "crops_d24": {
+        "CARROT": 3,
+        "WHEAT": 24,
+        "STRAWBERRY": 26
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 10,
+        "8": 9,
+        "12": 11917,
+        "16": 25719,
+        "20": 45359,
+        "24": 86434,
+        "28": 120122
+      }
+    },
+    {
+      "agent": "ReCurSiON",
+      "final_reward": 141498.0,
+      "opening_orders": [
+        [
+          "BUY_PRODUCT",
+          "WHEAT",
+          8
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "HIRE"
+        ],
+        [
+          "BUY_ANIMAL",
+          "COW",
+          1
+        ],
+        [
+          "BUY_ANIMAL",
+          "SHEEP",
+          4
+        ],
+        [
+          "BUY_SEED",
+          "MELON",
+          5
+        ],
+        [
+          "BUY_SEED",
+          "WHEAT",
+          5
+        ]
+      ],
+      "land_ne_day": 6,
+      "land_sw_day": 10,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "animal_curve": {
+        "0": 0,
+        "4": 5,
+        "8": 10,
+        "12": 12,
+        "16": 12,
+        "20": 12,
+        "24": 13,
+        "28": 13
+      },
+      "market_wheat_bought": 216,
+      "fertilizer_sold": 265,
+      "fertilizer_used": 72,
+      "animal_deaths": 0,
+      "crops_d04": {
+        "WHEAT": 6,
+        "MELON": 4,
+        "STRAWBERRY": 3
+      },
+      "crops_d12": {
+        "WHEAT": 13,
+        "STRAWBERRY": 36,
+        "MELON": 14
+      },
+      "crops_d20": {
+        "WHEAT": 16,
+        "STRAWBERRY": 33,
+        "MELON": 14
+      },
+      "crops_d24": {
+        "WHEAT": 44,
+        "STRAWBERRY": 18
+      },
+      "cash_trajectory": {
+        "0": 3000,
+        "4": 211,
+        "8": 921,
+        "12": 6834,
+        "16": 20937,
+        "20": 51361,
+        "24": 93418,
+        "28": 125990
+      }
+    }
+  ]
+}

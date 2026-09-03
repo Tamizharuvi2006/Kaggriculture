@@ -1,0 +1,797 @@
+{
+  "tier_1000_1400": [],
+  "tier_3000_plus": [
+    {
+      "seat": 0,
+      "name": "Kaito Fukami",
+      "elo": 3047.48587,
+      "final_reward": 150620.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 1,
+      "name": "Chloe",
+      "elo": 3047.48587,
+      "final_reward": 150620.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 0,
+      "name": "BEETRiX\ud83e\udd8b",
+      "elo": 3042.683742,
+      "final_reward": 135701.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 1,
+      "name": "Raj Aryan",
+      "elo": 3042.683742,
+      "final_reward": 139989.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 0,
+      "name": "fmind",
+      "elo": 3024.760745,
+      "final_reward": 139165.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 1,
+      "name": "Chloe",
+      "elo": 3024.760745,
+      "final_reward": 139165.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 0,
+      "name": "Just a moroccan",
+      "elo": 3017.449128,
+      "final_reward": 120521.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 1,
+      "name": "fmind",
+      "elo": 3017.449128,
+      "final_reward": 117445.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 0,
+      "name": "Juste Me (\u25cf'\u25e1'\u25cf)",
+      "elo": 3033.712782,
+      "final_reward": 140187.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 1,
+      "name": "Raj Aryan",
+      "elo": 3033.712782,
+      "final_reward": 140226.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 0,
+      "name": "Akhil Chinta",
+      "elo": 3033.279457,
+      "final_reward": 113168.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 1,
+      "name": "Chloe",
+      "elo": 3033.279457,
+      "final_reward": 110911.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 0,
+      "name": "Just a moroccan",
+      "elo": 3067.23416,
+      "final_reward": 131644.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 1,
+      "name": "Raj Aryan",
+      "elo": 3067.23416,
+      "final_reward": 128363.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 0,
+      "name": "Tagir Analyzes",
+      "elo": 3020.626871,
+      "final_reward": 111832.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 1,
+      "name": "Mengfei Li",
+      "elo": 3020.626871,
+      "final_reward": 111832.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 0,
+      "name": "Chloe",
+      "elo": 3058.81922,
+      "final_reward": 94063.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 1,
+      "name": "Raj Aryan",
+      "elo": 3058.81922,
+      "final_reward": 94034.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 11,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 0,
+      "name": "THUNDER THUNDER",
+      "elo": 3091.332144,
+      "final_reward": 131038.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 265,
+      "animal_counts_by_day": {
+        "4": 4,
+        "8": 6,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "STRAWBERRY": 42,
+        "MELON": 12
+      }
+    },
+    {
+      "seat": 1,
+      "name": "Raj Aryan",
+      "elo": 3091.332144,
+      "final_reward": 130534.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 0,
+      "name": "Chloe",
+      "elo": 3021.056605,
+      "final_reward": 103164.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 1,
+      "name": "parv goyal2",
+      "elo": 3021.056605,
+      "final_reward": 101080.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 11,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 0,
+      "name": "Just a moroccan",
+      "elo": 3070.841859,
+      "final_reward": 97285.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 980,
+      "animal_counts_by_day": {
+        "4": 5,
+        "8": 10,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "MELON": 12,
+        "STRAWBERRY": 39
+      }
+    },
+    {
+      "seat": 1,
+      "name": "THUNDER THUNDER",
+      "elo": 3070.841859,
+      "final_reward": 101406.0,
+      "first_animal_day": 0,
+      "first_land_day": 7,
+      "max_workers": 14,
+      "worker_curve": {
+        "0": 0,
+        "4": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "20": 0,
+        "24": 0,
+        "28": 0
+      },
+      "market_wheat_bought": 266,
+      "animal_counts_by_day": {
+        "4": 4,
+        "8": 6,
+        "12": 14,
+        "16": 14,
+        "20": 14,
+        "24": 14
+      },
+      "crop_profile_d12": {
+        "WHEAT": 7,
+        "STRAWBERRY": 42,
+        "MELON": 12
+      }
+    }
+  ]
+}
