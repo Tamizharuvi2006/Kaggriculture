@@ -1118,38 +1118,24 @@ def _market_orders(obs):
     # If strawberry price < 60, fertilizing strawberries has lower ROI than selling fertilizer at $40-$50!
     fert_reserve = min(fertilizer, len(_fertilizer_positions(obs))) if p_straw >= 70.0 and day <= 24 else 0
     fert_sale = max(0, fertilizer - fert_reserve)
-
-    # Shared order book is interleaved slot-by-slot. High-value goods must occupy
-    # slot 0 so they clear before the opponent's dump. Fertilizer is cash but
-    # must never preempt milk/strawberry/wool.
-    sell_rank = {"MILK": 0, "STRAWBERRY": 1, "WOOL": 2, "MELON": 3, "TOMATO": 4, "CARROT": 5, "EGG": 6, "FERTILIZER": 7}
-    pending_sells = []
     if fert_sale > 0:
-        pending_sells.append((sell_rank["FERTILIZER"], "FERTILIZER", fert_sale, p_fert))
+        orders.append(["SELL", "FERTILIZER", fert_sale])
+        budget += fert_sale * p_fert * 0.95
+        _MATCH_LEDGER["fertilizer_revenue"] += fert_sale * p_fert * 0.95
+
     for item in SELLABLE:
         quantity = int(shed.get(item, 0))
-        if quantity <= 0:
-            continue
-        p = float(prices.get(item, 1))
-        # Protect against catastrophic fire-sale market dumps (< $25) before Day 28 liquidation
-        if day < 28 and p < 25.0:
-            continue
-        pending_sells.append((sell_rank.get(item, 8), item, quantity, p))
-    pending_sells.sort(key=lambda row: row[0])
-    for _, item, quantity, p in pending_sells:
-        if len(orders) >= MAX_ORDERS:
-            break
-        orders.append(["SELL", item, quantity])
-        unit_val = p * 0.95
-        budget += quantity * unit_val
-        if item == "MILK":
-            _MATCH_LEDGER["milk_revenue"] += quantity * unit_val
-        elif item == "WOOL":
-            _MATCH_LEDGER["wool_revenue"] += quantity * unit_val
-        elif item == "FERTILIZER":
-            _MATCH_LEDGER["fertilizer_revenue"] += quantity * unit_val
-        elif item == "WHEAT":
-            _MATCH_LEDGER["wheat_sold"] += quantity
+        if quantity > 0:
+            p = float(prices.get(item, 1))
+            # Protect against catastrophic fire-sale market dumps (< $25) before Day 28 liquidation
+            if day < 28 and p < 25.0:
+                continue
+            orders.append(["SELL", item, quantity])
+            unit_val = p * 0.95
+            budget += quantity * unit_val
+            if item == "MILK": _MATCH_LEDGER["milk_revenue"] += quantity * unit_val
+            elif item == "WOOL": _MATCH_LEDGER["wool_revenue"] += quantity * unit_val
+            elif item == "WHEAT": _MATCH_LEDGER["wheat_sold"] += quantity
 
     # Surplus Wheat Sales: preserve feed buffer (animal_count * 2), sell all excess wheat into town shops!
     counts = _asset_counts(obs)
@@ -1240,10 +1226,9 @@ def _market_orders(obs):
 
     remaining_animal_slots = _animal_purchase_cap()
     shed_animals = int(shed.get("COW", 0)) + int(shed.get("SHEEP", 0))
-    opp_money = float(_get(_get(obs, "farms", [])[1 - player], "money", 0))
     for animal in ("COW", "SHEEP"):
-        # Armored Horizon Gate: Never buy animals after Day 10 if rival has > $8,000 cash (market dump risk)
-        if day > 10 and opp_money > 8000: break
+        # Payback gate below already blocks late buys. Do NOT freeze the herd
+        # just because a peer has cash — that is exactly when we need milk/wool.
         needed = max(0, target_counts[animal] - counts[animal])
         if needed <= 0 or remaining_days < 7: continue
         

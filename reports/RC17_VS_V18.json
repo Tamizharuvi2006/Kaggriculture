@@ -1,0 +1,428 @@
+{
+  "summary": {
+    "rc15": {
+      "n": 20,
+      "W": 0,
+      "L": 20,
+      "T": 0,
+      "wr": 0.0,
+      "mean_delta": -53008.6,
+      "mean_cand": 54665.35,
+      "mean_opp": 107673.95,
+      "errors": 0
+    },
+    "rc17": {
+      "n": 20,
+      "W": 0,
+      "L": 20,
+      "T": 0,
+      "wr": 0.0,
+      "mean_delta": -50575.25,
+      "mean_cand": 52376.35,
+      "mean_opp": 102951.6,
+      "errors": 0
+    }
+  },
+  "rows": [
+    {
+      "bot": "rc15",
+      "seed": 3000,
+      "seat": 0,
+      "cand": 64255.0,
+      "opp": 114505.0,
+      "delta": -50250.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 3000,
+      "seat": 1,
+      "cand": 64376.0,
+      "opp": 114017.0,
+      "delta": -49641.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 3211,
+      "seat": 0,
+      "cand": 54312.0,
+      "opp": 97544.0,
+      "delta": -43232.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 3211,
+      "seat": 1,
+      "cand": 54161.0,
+      "opp": 91435.0,
+      "delta": -37274.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 3422,
+      "seat": 0,
+      "cand": 41625.0,
+      "opp": 90628.0,
+      "delta": -49003.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 3422,
+      "seat": 1,
+      "cand": 31608.0,
+      "opp": 74390.0,
+      "delta": -42782.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 3633,
+      "seat": 0,
+      "cand": 80396.0,
+      "opp": 163448.0,
+      "delta": -83052.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 3633,
+      "seat": 1,
+      "cand": 80396.0,
+      "opp": 163469.0,
+      "delta": -83073.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 3844,
+      "seat": 0,
+      "cand": 46187.0,
+      "opp": 93908.0,
+      "delta": -47721.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 3844,
+      "seat": 1,
+      "cand": 47246.0,
+      "opp": 93836.0,
+      "delta": -46590.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 4055,
+      "seat": 0,
+      "cand": 77015.0,
+      "opp": 118561.0,
+      "delta": -41546.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 4055,
+      "seat": 1,
+      "cand": 76361.0,
+      "opp": 119039.0,
+      "delta": -42678.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 4266,
+      "seat": 0,
+      "cand": 75961.0,
+      "opp": 161821.0,
+      "delta": -85860.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 4266,
+      "seat": 1,
+      "cand": 75961.0,
+      "opp": 161725.0,
+      "delta": -85764.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 4477,
+      "seat": 0,
+      "cand": 40848.0,
+      "opp": 97485.0,
+      "delta": -56637.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 4477,
+      "seat": 1,
+      "cand": 40172.0,
+      "opp": 97785.0,
+      "delta": -57613.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 4688,
+      "seat": 0,
+      "cand": 38711.0,
+      "opp": 76782.0,
+      "delta": -38071.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 4688,
+      "seat": 1,
+      "cand": 38655.0,
+      "opp": 76416.0,
+      "delta": -37761.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 4899,
+      "seat": 0,
+      "cand": 32038.0,
+      "opp": 72953.0,
+      "delta": -40915.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc15",
+      "seed": 4899,
+      "seat": 1,
+      "cand": 33023.0,
+      "opp": 73732.0,
+      "delta": -40709.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 3000,
+      "seat": 0,
+      "cand": 64354.0,
+      "opp": 114419.0,
+      "delta": -50065.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 3000,
+      "seat": 1,
+      "cand": 64436.0,
+      "opp": 113985.0,
+      "delta": -49549.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 3211,
+      "seat": 0,
+      "cand": 52509.0,
+      "opp": 103947.0,
+      "delta": -51438.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 3211,
+      "seat": 1,
+      "cand": 56391.0,
+      "opp": 98706.0,
+      "delta": -42315.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 3422,
+      "seat": 0,
+      "cand": 42329.0,
+      "opp": 89966.0,
+      "delta": -47637.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 3422,
+      "seat": 1,
+      "cand": 32121.0,
+      "opp": 73911.0,
+      "delta": -41790.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 3633,
+      "seat": 0,
+      "cand": 80320.0,
+      "opp": 163520.0,
+      "delta": -83200.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 3633,
+      "seat": 1,
+      "cand": 80320.0,
+      "opp": 163541.0,
+      "delta": -83221.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 3844,
+      "seat": 0,
+      "cand": 46220.0,
+      "opp": 93858.0,
+      "delta": -47638.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 3844,
+      "seat": 1,
+      "cand": 47294.0,
+      "opp": 93775.0,
+      "delta": -46481.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 4055,
+      "seat": 0,
+      "cand": 76959.0,
+      "opp": 118608.0,
+      "delta": -41649.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 4055,
+      "seat": 1,
+      "cand": 76314.0,
+      "opp": 119077.0,
+      "delta": -42763.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 4266,
+      "seat": 0,
+      "cand": 75899.0,
+      "opp": 161879.0,
+      "delta": -85980.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 4266,
+      "seat": 1,
+      "cand": 75899.0,
+      "opp": 161783.0,
+      "delta": -85884.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 4477,
+      "seat": 0,
+      "cand": 41423.0,
+      "opp": 96939.0,
+      "delta": -55516.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 4477,
+      "seat": 1,
+      "cand": 40746.0,
+      "opp": 97241.0,
+      "delta": -56495.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 4688,
+      "seat": 0,
+      "cand": 14516.0,
+      "opp": 23539.0,
+      "delta": -9023.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 4688,
+      "seat": 1,
+      "cand": 14514.0,
+      "opp": 23563.0,
+      "delta": -9049.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 4899,
+      "seat": 0,
+      "cand": 31991.0,
+      "opp": 72997.0,
+      "delta": -41006.0,
+      "outcome": "L",
+      "status": "DONE"
+    },
+    {
+      "bot": "rc17",
+      "seed": 4899,
+      "seat": 1,
+      "cand": 32972.0,
+      "opp": 73778.0,
+      "delta": -40806.0,
+      "outcome": "L",
+      "status": "DONE"
+    }
+  ]
+}
