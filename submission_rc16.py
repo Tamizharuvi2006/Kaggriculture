@@ -77,7 +77,7 @@ DEFAULT_STRATEGY = {
     'cow_expert_cows': 2,
     'cow_expert_sheep': 0,
     'cows': 2,
-    'crop_transition_day': 3,
+    'crop_transition_day': 5,
     'drop_load_threshold': 30,
     'early_liquidity_floor': 0,
     'feed_days_buffer': 1,
@@ -92,7 +92,7 @@ DEFAULT_STRATEGY = {
     'livestock_sheep': 0,
     'livestock_strawberries': 34,
     'livestock_tomatoes': 0,
-    'ongoing_harvest_threshold': 1,
+    'ongoing_harvest_threshold': 3,
     'opening_animals': 2,
     'opening_carrots': 2,
     'opening_cows': 2,
@@ -115,7 +115,7 @@ DEFAULT_STRATEGY = {
     'sheep_expert_sheep': 12,
     'strawberries': 34,
     'strawberry_activation_day': 4,
-    'strawberry_last_plant': 19,
+    'strawberry_last_plant': 18,
     'strawberry_staging': False,
     'top_hire_ramp': False,
     'wheat_rush_animal_cap': 1,
@@ -427,10 +427,9 @@ def _crop_plan(day):
     secondary_cash_crop = cash_candidates[1] if len(cash_candidates) > 1 else "CARROT"
 
     # 3. Formulate tile plan
-    # One melon cycle only. After Day 12 those 9 NW tiles become strawberries
-    # so a full 4-yield strawberry generation still finishes before Day 29.
+    # Retain dedicated melon plots only as long as Melon has positive feasible horizon score
     plan = {}
-    if day < 12 and crop_scores.get("MELON", -999.0) > 0:
+    if crop_scores.get("MELON", -999.0) > 0:
         plan = {pos: crop for pos, crop in OPENING_CROP_PLAN.items() if crop == "MELON"}
         
     candidates = [
@@ -701,7 +700,7 @@ def _build_tasks(obs, positions, inventories):
                     ev = p_unit * 1.5
                     tasks.append(_task(2, (x, y), ["CARE"], None, "care", ev))
                 if tile.get("fertilizer_available", False):
-                    tasks.append(_task(2, (x, y), ["COLLECT_FERTILIZER"], None, "fertilizer", p_fert * 1.5))
+                    tasks.append(_task(4, (x, y), ["COLLECT_FERTILIZER"], None, "fertilizer", p_fert * 0.95))
 
     # Crop preservation and harvest precede new construction.
     for (x, y), desired in crop_plan.items():
@@ -716,17 +715,15 @@ def _build_tasks(obs, positions, inventories):
             if _crop_is_ripe(tile, day, hour):
                 ev = yield_qty * p_unit * 0.95
                 tasks.append(_task(1, (x, y), ["HARVEST"], None, "harvest", ev))
-            elif not tile.get("watered_today", False) and day < 29:
-                # Engine: two missed waters turn the tile into a weed. Ongoing
-                # strawberries only yield 4 times (ages 10/12/14/16) then die.
-                # Waiting until hour 16 left 3 of 4 harvests on the table vs v18.
+            elif not tile.get("watered_today", False):
                 age = day - int(tile.get("planted_day", day))
                 in_bonus = not spec["ongoing"] and (spec["max_day"] + 1) // 2 <= age <= spec["max_day"]
-                urgent = int(tile.get("consecutive_unwatered", 0)) >= 1 or hour >= 18
+                urgent = int(tile.get("consecutive_unwatered", 0)) >= 1 or hour >= 16
                 needs_fertilizer_water = (x, y) in fertilizer_positions or int(tile.get("fertilized_until_day", -1)) >= day
-                prio = 0 if urgent else 2 if (spec.get("ongoing") or needs_fertilizer_water or in_bonus) else 3
-                ev = 350.0 if urgent else (140.0 if spec.get("ongoing") else 90.0 if in_bonus else 50.0)
-                tasks.append(_task(prio, (x, y), ["WATER"], None, "water", ev))
+                if urgent or in_bonus or needs_fertilizer_water:
+                    prio = 0 if urgent else 2 if needs_fertilizer_water else 3
+                    ev = 350.0 if urgent else (90.0 if in_bonus else 60.0 if needs_fertilizer_water else 25.0)
+                    tasks.append(_task(prio, (x, y), ["WATER"], None, "water", ev))
             if (x, y) in fertilizer_positions:
                 tasks.append(_task(2, (x, y), ["FERTILIZE"], "FERTILIZER", "fertilize", 120.0))
 
@@ -996,7 +993,8 @@ def _hire_target(day):
     if day <= 4: return 5
     if day <= 7: return 7
     if day <= 11: return 9
-    return 12
+    if day <= 28: return 12
+    return 6
 
 
 def _hire_costs(target, already):
@@ -1120,38 +1118,24 @@ def _market_orders(obs):
     # If strawberry price < 60, fertilizing strawberries has lower ROI than selling fertilizer at $40-$50!
     fert_reserve = min(fertilizer, len(_fertilizer_positions(obs))) if p_straw >= 70.0 and day <= 24 else 0
     fert_sale = max(0, fertilizer - fert_reserve)
-
-    # Shared order book is interleaved slot-by-slot. High-value goods must occupy
-    # slot 0 so they clear before the opponent's dump. Fertilizer is cash but
-    # must never preempt milk/strawberry/wool.
-    sell_rank = {"MILK": 0, "STRAWBERRY": 1, "WOOL": 2, "MELON": 3, "TOMATO": 4, "CARROT": 5, "EGG": 6, "FERTILIZER": 7}
-    pending_sells = []
     if fert_sale > 0:
-        pending_sells.append((sell_rank["FERTILIZER"], "FERTILIZER", fert_sale, p_fert))
+        orders.append(["SELL", "FERTILIZER", fert_sale])
+        budget += fert_sale * p_fert * 0.95
+        _MATCH_LEDGER["fertilizer_revenue"] += fert_sale * p_fert * 0.95
+
     for item in SELLABLE:
         quantity = int(shed.get(item, 0))
-        if quantity <= 0:
-            continue
-        p = float(prices.get(item, 1))
-        # Protect against catastrophic fire-sale market dumps (< $25) before Day 28 liquidation
-        if day < 28 and p < 25.0:
-            continue
-        pending_sells.append((sell_rank.get(item, 8), item, quantity, p))
-    pending_sells.sort(key=lambda row: row[0])
-    for _, item, quantity, p in pending_sells:
-        if len(orders) >= MAX_ORDERS:
-            break
-        orders.append(["SELL", item, quantity])
-        unit_val = p * 0.95
-        budget += quantity * unit_val
-        if item == "MILK":
-            _MATCH_LEDGER["milk_revenue"] += quantity * unit_val
-        elif item == "WOOL":
-            _MATCH_LEDGER["wool_revenue"] += quantity * unit_val
-        elif item == "FERTILIZER":
-            _MATCH_LEDGER["fertilizer_revenue"] += quantity * unit_val
-        elif item == "WHEAT":
-            _MATCH_LEDGER["wheat_sold"] += quantity
+        if quantity > 0:
+            p = float(prices.get(item, 1))
+            # Protect against catastrophic fire-sale market dumps (< $25) before Day 28 liquidation
+            if day < 28 and p < 25.0:
+                continue
+            orders.append(["SELL", item, quantity])
+            unit_val = p * 0.95
+            budget += quantity * unit_val
+            if item == "MILK": _MATCH_LEDGER["milk_revenue"] += quantity * unit_val
+            elif item == "WOOL": _MATCH_LEDGER["wool_revenue"] += quantity * unit_val
+            elif item == "WHEAT": _MATCH_LEDGER["wheat_sold"] += quantity
 
     # Surplus Wheat Sales: preserve feed buffer (animal_count * 2), sell all excess wheat into town shops!
     counts = _asset_counts(obs)
@@ -1242,10 +1226,9 @@ def _market_orders(obs):
 
     remaining_animal_slots = _animal_purchase_cap()
     shed_animals = int(shed.get("COW", 0)) + int(shed.get("SHEEP", 0))
-    opp_money = float(_get(_get(obs, "farms", [])[1 - player], "money", 0))
     for animal in ("COW", "SHEEP"):
-        # Armored Horizon Gate: Never buy animals after Day 10 if rival has > $8,000 cash (market dump risk)
-        if day > 10 and opp_money > 8000: break
+        # Payback gate below already blocks late buys. Do NOT freeze the herd
+        # just because a peer has cash — that is exactly when we need milk/wool.
         needed = max(0, target_counts[animal] - counts[animal])
         if needed <= 0 or remaining_days < 7: continue
         
