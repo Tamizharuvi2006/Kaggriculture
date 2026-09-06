@@ -93,13 +93,13 @@ DEFAULT_STRATEGY = {
     'livestock_strawberries': 34,
     'livestock_tomatoes': 0,
     'ongoing_harvest_threshold': 3,
-    'opening_animals': 2,
+    'opening_animals': 4,
     'opening_carrots': 2,
-    'opening_cows': 2,
+    'opening_cows': 3,
     'opening_melon_day0_cap': None,
     'opening_melon_early_cap': None,
-    'opening_melons': 9,
-    'opening_sheep': 0,
+    'opening_melons': 7,
+    'opening_sheep': 1,
     'opening_wheat': 10,
     'premium_animal_cap': 3,
     'premium_cash_reserve': 250,
@@ -476,7 +476,7 @@ def _crop_plan(day):
     return plan
 
 def _animal_plan():
-    return _build_animal_plan(8, 4)
+    return _build_animal_plan(8, 6)
 
 
 def _style_setting(base):
@@ -990,10 +990,11 @@ def _quadrant_crop_deficits(obs):
 def _hire_target(day):
     """Dynamic labor requirement sized to active workload (plants + animals)."""
     if day <= 1: return 4
-    if day <= 4: return 5
-    if day <= 7: return 7
-    if day <= 11: return 9
-    if day <= 28: return 12
+    if day <= 3: return 5
+    if day <= 5: return 6
+    if day <= 7: return 8
+    if day <= 10: return 10
+    if day <= 28: return 13
     return 6
 
 
@@ -1093,7 +1094,7 @@ def _observe_opponent(obs):
 
 
 def _animal_purchase_cap():
-    return 4
+    return 6
 
 
 def _market_orders(obs):
@@ -1126,12 +1127,14 @@ def _market_orders(obs):
     for item in SELLABLE:
         quantity = int(shed.get(item, 0))
         if quantity > 0:
-            p = float(prices.get(item, 1))
-            # Protect against catastrophic fire-sale market dumps (< $25) before Day 28 liquidation
-            if day < 28 and p < 25.0:
-                continue
+            unit_p = float(prices.get(item, 1))
+            # Protect against selling into temporary market crashes before Day 28 liquidation
+            if day < 28:
+                if item == "STRAWBERRY" and unit_p < 70.0: continue
+                if item in ("MILK", "WOOL") and unit_p < 60.0: continue
+                if item == "MELON" and unit_p < 100.0: continue
             orders.append(["SELL", item, quantity])
-            unit_val = p * 0.95
+            unit_val = unit_p * 0.95
             budget += quantity * unit_val
             if item == "MILK": _MATCH_LEDGER["milk_revenue"] += quantity * unit_val
             elif item == "WOOL": _MATCH_LEDGER["wool_revenue"] += quantity * unit_val
@@ -1141,8 +1144,7 @@ def _market_orders(obs):
     counts = _asset_counts(obs)
     animal_count = sum(counts.values())
     wheat_shed = int(shed.get("WHEAT", 0))
-    # Two-Stage Graduated Wheat Liquidation (Day 28: 1 feed buffer, Day 29: full liquidation)
-    wheat_feed_buffer = 0 if day >= 29 else (animal_count if day >= 28 else (animal_count * 2 + 2))
+    wheat_feed_buffer = 0 if day >= 29 else (animal_count * 2 + 2)
     wheat_surplus = max(0, wheat_shed - wheat_feed_buffer)
     if wheat_surplus > 0 and len(orders) < MAX_ORDERS:
         orders.append(["SELL", "WHEAT", wheat_surplus])
@@ -1151,11 +1153,11 @@ def _market_orders(obs):
         _MATCH_LEDGER["wheat_sold"] += wheat_surplus
 
     # === 2. CRITICAL FEED & LABOUR MAINTENANCE ===
-    # Emergency Feed Protection: NEVER allow an existing animal to starve!
-    # Sunk capital is $400-$500 per animal. A missed feed destroys the entire animal.
+    # Dynamic Feed Protection: maintain 2-day on-farm grain buffer
     wheat_total = wheat_shed + sum(int(inv.get("WHEAT", 0)) for inv in inventories if isinstance(inv, dict))
-    if wheat_total < animal_count and day < 28:
-        feed_needed = animal_count - wheat_total
+    target_grain_buffer = min(20, animal_count * 2) if day < 27 else animal_count
+    if wheat_total < target_grain_buffer and day < 28:
+        feed_needed = target_grain_buffer - wheat_total
         p_wheat_buy = _safe_buy_price(prices.get("WHEAT", 25))
         buy_q = min(feed_needed, int(budget // p_wheat_buy))
         if buy_q > 0 and len(orders) < MAX_ORDERS:
@@ -1166,7 +1168,7 @@ def _market_orders(obs):
     target_hires = _hire_target(day)
     already = int(_get(farm, "hires_today", 0))
     hire_costs = _hire_costs(target_hires, already)
-    critical_target = min(target_hires, 4 if day <= 1 else 5 if day <= 4 else 7 if day <= 7 else 9 if day <= 11 else 12)
+    critical_target = min(target_hires, 4 if day <= 1 else 5 if day <= 3 else 6 if day <= 5 else 8 if day <= 7 else 10 if day <= 10 else 13)
     critical_costs = _hire_costs(critical_target, already)
     hired_costs = 0
     for cost in critical_costs:
@@ -1226,10 +1228,7 @@ def _market_orders(obs):
 
     remaining_animal_slots = _animal_purchase_cap()
     shed_animals = int(shed.get("COW", 0)) + int(shed.get("SHEEP", 0))
-    opp_money = float(_get(_get(obs, "farms", [])[1 - player], "money", 0))
     for animal in ("COW", "SHEEP"):
-        # Armored Horizon Gate: Never buy animals after Day 10 if rival has > $8,000 cash (market dump risk)
-        if day > 10 and opp_money > 8000: break
         needed = max(0, target_counts[animal] - counts[animal])
         if needed <= 0 or remaining_days < 7: continue
         

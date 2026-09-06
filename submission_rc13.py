@@ -15,6 +15,18 @@ Principles-First Observation-Driven Architecture:
    - Zero replay tapes, zero hardcoded August schedules.
 """
 from __future__ import annotations
+
+_LATEST_OBS = {}
+
+def _get_opp_livestock():
+    global _LATEST_OBS
+    if not _LATEST_OBS: return 0
+    farms = _LATEST_OBS.get("farms", [{}, {}]) if isinstance(_LATEST_OBS, dict) else getattr(_LATEST_OBS, "farms", [{}, {}])
+    p = _LATEST_OBS.get("player", 0) if isinstance(_LATEST_OBS, dict) else getattr(_LATEST_OBS, "player", 0)
+    opp_farm = farms[1 - p] if len(farms) > 1 else {}
+    opp_tiles = opp_farm.get("tiles", []) if isinstance(opp_farm, dict) else getattr(opp_farm, "tiles", [])
+    return sum(1 for r in opp_tiles for t in r if isinstance(t, dict) and t.get("animal"))
+
 _OPP_STRAWBERRIES = 0
 _OPP_STRAWBERRIES_LOCKED = False
 _POTENTIAL_STRAWBERRY_RISK = False
@@ -476,7 +488,15 @@ def _crop_plan(day):
     return plan
 
 def _animal_plan():
-    return _build_animal_plan(8, 4)
+    opp_animals = _get_opp_livestock()
+    # Opponent-Adaptive Sizing: If opponent is heavy livestock (>=3), cap herd at 3 cows to avoid milk glut
+    if opp_animals >= 3:
+        return _build_animal_plan(3, 0)
+    elif opp_animals >= 2:
+        return _build_animal_plan(5, 1)
+    else:
+        # Uncontested monopoly: capture full 8 cows + 2 sheep
+        return _build_animal_plan(8, 2)
 
 
 def _style_setting(base):
@@ -1141,8 +1161,7 @@ def _market_orders(obs):
     counts = _asset_counts(obs)
     animal_count = sum(counts.values())
     wheat_shed = int(shed.get("WHEAT", 0))
-    # Two-Stage Graduated Wheat Liquidation (Day 28: 1 feed buffer, Day 29: full liquidation)
-    wheat_feed_buffer = 0 if day >= 29 else (animal_count if day >= 28 else (animal_count * 2 + 2))
+    wheat_feed_buffer = 0 if day >= 29 else (animal_count * 2 + 2)
     wheat_surplus = max(0, wheat_shed - wheat_feed_buffer)
     if wheat_surplus > 0 and len(orders) < MAX_ORDERS:
         orders.append(["SELL", "WHEAT", wheat_surplus])
@@ -1226,10 +1245,9 @@ def _market_orders(obs):
 
     remaining_animal_slots = _animal_purchase_cap()
     shed_animals = int(shed.get("COW", 0)) + int(shed.get("SHEEP", 0))
-    opp_money = float(_get(_get(obs, "farms", [])[1 - player], "money", 0))
     for animal in ("COW", "SHEEP"):
-        # Armored Horizon Gate: Never buy animals after Day 10 if rival has > $8,000 cash (market dump risk)
-        if day > 10 and opp_money > 8000: break
+        # Day-10 Amortization Horizon: Never buy animals after Day 10 (cows take 8+ days to yield!)
+        if day > 10: break
         needed = max(0, target_counts[animal] - counts[animal])
         if needed <= 0 or remaining_days < 7: continue
         
@@ -1268,7 +1286,8 @@ def _market_orders(obs):
 def agent(obs):
     """Kaggle competition entry point — 100% Observation-Driven Controller."""
     try:
-        global _LATEST_PRICES
+        global _LATEST_PRICES, _LATEST_OBS
+        _LATEST_OBS = obs
         if isinstance(obs, dict):
             _LATEST_PRICES = (obs.get("market", {}) or {}).get("prices", {}) or {}
         elif hasattr(obs, "market"):

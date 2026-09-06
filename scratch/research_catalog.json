@@ -1,0 +1,2252 @@
+[
+  {
+    "path": "APEX4_CURRENT_GATE1_RUN_READINESS.md",
+    "title": "Current APEX 4.0 Gate 1 Run Readiness",
+    "category": "ml_apex",
+    "lines_count": 19
+  },
+  {
+    "path": "APEX4_GATE1_BINDING_FINDING.md",
+    "title": "APEX 4.0 Gate 1 Binding Finding",
+    "category": "ml_apex",
+    "lines_count": 42
+  },
+  {
+    "path": "APEX4_GATE1_ENVIRONMENT_BINDING_AUDIT.md",
+    "title": "APEX 4.0 Gate 1 Environment Binding Audit",
+    "category": "audit_governance",
+    "lines_count": 76
+  },
+  {
+    "path": "APEX4_GATE1_PROVENANCE_AUDIT.md",
+    "title": "APEX 4.0 Gate 1 Provenance Audit",
+    "category": "audit_governance",
+    "lines_count": 63
+  },
+  {
+    "path": "APEX4_GATE1_PROVENANCE_RECONCILIATION.md",
+    "title": "APEX 4.0 Gate 1 Provenance Reconciliation",
+    "category": "ml_apex",
+    "lines_count": 99
+  },
+  {
+    "path": "APEX4_LIVE_VALIDATION_READINESS_AUDIT.md",
+    "title": "APEX 4.0 Live-Validation Readiness Audit",
+    "category": "audit_governance",
+    "lines_count": 49
+  },
+  {
+    "path": "BASELINE_CONTRACT.md",
+    "title": "\ud83c\udfdb\ufe0f APEX PRODUCTION RELEASE CONTRACT & WORKFLOW",
+    "category": "audit_governance",
+    "lines_count": 133
+  },
+  {
+    "path": "DATA_INDEX.md",
+    "title": "\ud83d\udcc2 Kaggriculture Project \u2014 Data & File Index",
+    "category": "other",
+    "lines_count": 221
+  },
+  {
+    "path": "environment_registration_diagnostic.md",
+    "title": "Kaggriculture Environment Registration Diagnostic",
+    "category": "other",
+    "lines_count": 54
+  },
+  {
+    "path": "historical_environment_reconstruction.md",
+    "title": "Historical Kaggriculture Environment Reconstruction",
+    "category": "other",
+    "lines_count": 51
+  },
+  {
+    "path": "KAGGLE_RATING_TIMELINE_RECONSTRUCTION.md",
+    "title": "\ud83d\udcdc Authoritative Kaggle Rating, Rank Timeline & Submission History",
+    "category": "other",
+    "lines_count": 56
+  },
+  {
+    "path": "KAGGLE_SUBMISSION_READINESS.md",
+    "title": "Kaggle Submission Readiness",
+    "category": "other",
+    "lines_count": 73
+  },
+  {
+    "path": "KAGGLE_SUBMISSION_READINESS_FIXED.md",
+    "title": "APEX 4.0 Fixed Submission Readiness",
+    "category": "other",
+    "lines_count": 60
+  },
+  {
+    "path": "KAGGRICULTURE_CURRENT_STATE.md",
+    "title": "KAGGRICULTURE CURRENT STATE",
+    "category": "other",
+    "lines_count": 277
+  },
+  {
+    "path": "KAGGRICULTURE_FOLDER_ORGANIZATION_REPORT.md",
+    "title": "Kaggriculture Folder Organization Report",
+    "category": "other",
+    "lines_count": 381
+  },
+  {
+    "path": "KAGGRICULTURE_PROJECT_MAP.md",
+    "title": "Kaggriculture Project Map",
+    "category": "other",
+    "lines_count": 221
+  },
+  {
+    "path": "KAGGRICULTURE_RESEARCH_INDEX.md",
+    "title": "Kaggriculture Research Index",
+    "category": "other",
+    "lines_count": 172
+  },
+  {
+    "path": "LPLUS_ML_ARCHITECTURE_PROPOSAL.md",
+    "title": "L+ + ML Research Architecture Proposal",
+    "category": "other",
+    "lines_count": 151
+  },
+  {
+    "path": "LPLUS_ML_DATASET_AUDIT.md",
+    "title": "L+ ML Dataset Audit",
+    "category": "audit_governance",
+    "lines_count": 38
+  },
+  {
+    "path": "LPLUS_ML_DOWNSTREAM_LABEL_AUDIT.md",
+    "title": "L+ ML Downstream Label Audit",
+    "category": "audit_governance",
+    "lines_count": 27
+  },
+  {
+    "path": "LPLUS_ML_TARGET_VALIDITY_AUDIT.md",
+    "title": "L+ ML Target Validity Audit",
+    "category": "audit_governance",
+    "lines_count": 35
+  },
+  {
+    "path": "market_artifact_recovery_audit.md",
+    "title": "Market Artifact Recovery Audit",
+    "category": "audit_governance",
+    "lines_count": 82
+  },
+  {
+    "path": "market_regime_causal_audit.md",
+    "title": "Market-Regime Causal Audit",
+    "category": "audit_governance",
+    "lines_count": 156
+  },
+  {
+    "path": "MATCHED_DECISION_DATA_SPEC.md",
+    "title": "Matched Decision Data Specification",
+    "category": "other",
+    "lines_count": 136
+  },
+  {
+    "path": "PPO_TRANSFER_VALUE_MARKET_LABELS.md",
+    "title": "Frozen PPO Transfer-Value Audit",
+    "category": "ml_apex",
+    "lines_count": 42
+  },
+  {
+    "path": "README.md",
+    "title": "\ud83c\udf3e Kaggriculture \u2014 Variant D.1 Production System",
+    "category": "other",
+    "lines_count": 640
+  },
+  {
+    "path": "RELEASE_CHECKLIST.md",
+    "title": "\ud83d\udccb APEX 4.0 FINAL PRE-LAUNCH RELEASE CHECKLIST",
+    "category": "other",
+    "lines_count": 26
+  },
+  {
+    "path": "TODO.md",
+    "title": "\ud83d\udccb KAGGRICULTURE APEX: OPERATIONAL ROADMAP & TODO",
+    "category": "other",
+    "lines_count": 52
+  },
+  {
+    "path": "VARIANT_D1_SPECIFICATION.md",
+    "title": "\ud83c\udf3e Variant D.1 Production Champion \u2014 Comprehensive Technical Specification",
+    "category": "other",
+    "lines_count": 148
+  },
+  {
+    "path": "apex/README.md",
+    "title": "\ud83c\udfdb\ufe0f L+ APEX \u2014 Autonomous Kaggriculture Discovery Engine",
+    "category": "ml_apex",
+    "lines_count": 15
+  },
+  {
+    "path": "APEX35_ROLLBACK_ARCHIVE/ROLLBACK_INSTRUCTIONS.md",
+    "title": "\ud83d\udee1\ufe0f APEX 3.5 ROLLBACK PROCEDURE & ARCHIVE",
+    "category": "ml_apex",
+    "lines_count": 22
+  },
+  {
+    "path": "apex_next/AGENT_README.md",
+    "title": "\ud83e\udd16 APEX NEXT \u2014 Self-Improving Kaggriculture Research Agent (Full System Spec)",
+    "category": "ml_apex",
+    "lines_count": 618
+  },
+  {
+    "path": "apex_next/gpu_engine/README.md",
+    "title": "\u26a1 APEX Fast Research Engine v1 (Python Reference + CUDA Batch Architecture)",
+    "category": "ml_apex",
+    "lines_count": 93
+  },
+  {
+    "path": "apex_next/gpu_engine/docs/EVIDENCE_INDEX.md",
+    "title": "Step 3H Evidence Index",
+    "category": "ml_apex",
+    "lines_count": 110
+  },
+  {
+    "path": "apex_next/gpu_engine/docs/FOLDER_MAP.md",
+    "title": "GPU Engine Folder Map",
+    "category": "ml_apex",
+    "lines_count": 159
+  },
+  {
+    "path": "apex_next/gpu_engine/docs/NEXT_ACTIONS.md",
+    "title": "Next Actions",
+    "category": "ml_apex",
+    "lines_count": 91
+  },
+  {
+    "path": "apex_next/gpu_engine/docs/README.md",
+    "title": "GPU Engine Documentation Index",
+    "category": "ml_apex",
+    "lines_count": 20
+  },
+  {
+    "path": "apex_next/gpu_engine/docs/STEP3H_GPU_CUDA_PROGRESS_REPORT.md",
+    "title": "Step 3H GPU/CUDA Progress Report",
+    "category": "ml_apex",
+    "lines_count": 430
+  },
+  {
+    "path": "apex_next/ml_engine/ARTIFACT_MAP.md",
+    "title": "APEX 4.1 ML Artifact Map",
+    "category": "ml_apex",
+    "lines_count": 62
+  },
+  {
+    "path": "apex_next/ml_engine/README_ML_PLAN.md",
+    "title": "\ud83e\udde0 APEX 4.1 HYBRID ML \u2014 Complete Implementation Specification",
+    "category": "ml_apex",
+    "lines_count": 1158
+  },
+  {
+    "path": "apex_next/ml_engine/checkpoints/README.md",
+    "title": "ML Checkpoints Layout",
+    "category": "ml_apex",
+    "lines_count": 7
+  },
+  {
+    "path": "apex_next/ml_engine/data/README.md",
+    "title": "ML Data Layout",
+    "category": "ml_apex",
+    "lines_count": 10
+  },
+  {
+    "path": "apex_next/ml_engine/data/invalidated/original_seat_bug/EXPERT_DEMOS_INVALIDATION_NOTE.md",
+    "title": "expert_demos.npz invalidation note",
+    "category": "experiments",
+    "lines_count": 13
+  },
+  {
+    "path": "apex_next/ml_engine/evaluation/README.md",
+    "title": "ML Evaluation Layout",
+    "category": "ml_apex",
+    "lines_count": 8
+  },
+  {
+    "path": "apex_next/ml_engine/evaluation/step3_diagnostics/step3b_label_diagnostics.md",
+    "title": "Step 3B Label Diagnostics",
+    "category": "ml_apex",
+    "lines_count": 35
+  },
+  {
+    "path": "apex_next/ml_engine/evaluation/step3_diagnostics/step3c_opponent_observation_probe.md",
+    "title": "Step 3C Opponent Observation Probe",
+    "category": "ml_apex",
+    "lines_count": 47
+  },
+  {
+    "path": "apex_next/ml_engine/evaluation/step3_diagnostics/step3d_adapter_pilot.md",
+    "title": "Step 3C Opponent Observation Probe",
+    "category": "ml_apex",
+    "lines_count": 49
+  },
+  {
+    "path": "apex_next/ml_engine/evaluation/step3_diagnostics/step3e_replacement_pilot_25_with_old_diagnostics.md",
+    "title": "Step 3B Label Diagnostics",
+    "category": "ml_apex",
+    "lines_count": 35
+  },
+  {
+    "path": "apex_next/ml_engine/evaluation/step3_diagnostics/step3e_replacement_pilot_diagnostics.md",
+    "title": "Step 3B Label Diagnostics",
+    "category": "ml_apex",
+    "lines_count": 35
+  },
+  {
+    "path": "apex_next/ml_engine/evaluation/step3_diagnostics/step3f_targeted_pilot_25_diagnostics.md",
+    "title": "Step 3B Label Diagnostics",
+    "category": "ml_apex",
+    "lines_count": 35
+  },
+  {
+    "path": "apex_next/ml_engine/INVALIDATED/README_INVALIDATED.md",
+    "title": "\u274c APEX 4.1 ML ENGINE \u2014 INVALIDATED",
+    "category": "ml_apex",
+    "lines_count": 58
+  },
+  {
+    "path": "apex_next/ml_engine/INVALIDATED/reports/APEX41_RELEASE_DECISION.md",
+    "title": "\ud83c\udfdb\ufe0f APEX 4.1 Master Release Decision Document",
+    "category": "ml_apex",
+    "lines_count": 9
+  },
+  {
+    "path": "apex_next/ml_engine/INVALIDATED/reports/APEX41_STAGE2_PPO_REPORT.md",
+    "title": "\u26a1 APEX 4.1 ML Stage 2: GPU Self-Play & PPO Training Report",
+    "category": "ml_apex",
+    "lines_count": 8
+  },
+  {
+    "path": "apex_next/ml_engine/INVALIDATED/reports/APEX41_STAGE3_CURRICULUM_REPORT.md",
+    "title": "\u26a1 APEX 4.1 ML Stage 3: Population Curriculum & Confidence Calibration Report",
+    "category": "ml_apex",
+    "lines_count": 8
+  },
+  {
+    "path": "apex_next/ml_engine/INVALIDATED/reports/APEX41_STAGE4_LADDER_REPORT.md",
+    "title": "\u26a1 APEX 4.1 ML Stage 4: Population Ladder & Rating Wall Report",
+    "category": "ml_apex",
+    "lines_count": 9
+  },
+  {
+    "path": "apex_next/ml_engine/INVALIDATED/reports/APEX41_STAGE5_FORENSIC_REPORT.md",
+    "title": "\u26a1 APEX 4.1 ML Stage 5: Tier-4 Rating Wall Forensic Report",
+    "category": "replay_forensics",
+    "lines_count": 8
+  },
+  {
+    "path": "apex_next/ml_engine/INVALIDATED/reports/APEX41_STAGE6_GRANDMASTER_REPORT.md",
+    "title": "\u26a1 APEX 4.1 ML Stage 6: Tier-5 Grandmaster Forensic Report",
+    "category": "ml_apex",
+    "lines_count": 8
+  },
+  {
+    "path": "apex_next/ml_engine/INVALIDATED/reports/APEX41_STAGE8_VALIDATION_REPORT.md",
+    "title": "\ud83c\udfdb\ufe0f APEX 4.1 ML Stage 8: Final Inference & Packaging Report",
+    "category": "ml_apex",
+    "lines_count": 10
+  },
+  {
+    "path": "apex_next/research/EXP-0113_HYPOTHESIS_CARD.md",
+    "title": "\ud83e\uddea EXP-0113 \u2014 HYPOTHESIS CARD (First Contract-Compliant Research Cycle)",
+    "category": "experiments",
+    "lines_count": 61
+  },
+  {
+    "path": "apex_next/research/EXP-0114_HYPOTHESIS_CARD.md",
+    "title": "\ud83e\uddea EXP-0114 \u2014 HYPOTHESIS CARD (Second Research Cycle)",
+    "category": "experiments",
+    "lines_count": 46
+  },
+  {
+    "path": "apex_next/research/EXP-0115_HYPOTHESIS_CARD.md",
+    "title": "\ud83e\uddea EXP-0115 \u2014 HYPOTHESIS CARD (Third Research Cycle)",
+    "category": "experiments",
+    "lines_count": 49
+  },
+  {
+    "path": "apex_next/research/EXP-0116_HYPOTHESIS_CARD.md",
+    "title": "\ud83e\uddea EXP-0116 \u2014 HYPOTHESIS CARD (Fourth Research Cycle)",
+    "category": "experiments",
+    "lines_count": 54
+  },
+  {
+    "path": "apex_next/research/EXP-0117_HYPOTHESIS_CARD.md",
+    "title": "\ud83e\uddea EXP-0117: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 43
+  },
+  {
+    "path": "apex_next/research/EXP-0118_HYPOTHESIS_CARD.md",
+    "title": "\ud83e\uddea EXP-0118: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 54
+  },
+  {
+    "path": "apex_next/research/EXP-0119_HYPOTHESIS_CARD.md",
+    "title": "\ud83e\uddea EXP-0119: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 55
+  },
+  {
+    "path": "apex_next/research/EXP-0120_HYPOTHESIS_CARD.md",
+    "title": "\ud83e\uddea EXP-0120: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 56
+  },
+  {
+    "path": "apex_next/research/EXP-0124_HYPOTHESIS_CARD.md",
+    "title": "EXP-0124: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 35
+  },
+  {
+    "path": "apex_next/research/EXP-0125_HYPOTHESIS_CARD.md",
+    "title": "EXP-0125: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 35
+  },
+  {
+    "path": "apex_next/research/EXP-0129_HYPOTHESIS_CARD.md",
+    "title": "EXP-0129: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 35
+  },
+  {
+    "path": "apex_next/research/EXP-0130_HYPOTHESIS_CARD.md",
+    "title": "EXP-0130: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 34
+  },
+  {
+    "path": "apex_next/research/EXP-0131_HYPOTHESIS_CARD.md",
+    "title": "EXP-0131: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 35
+  },
+  {
+    "path": "apex_next/research/EXP-0136_HYPOTHESIS_CARD.md",
+    "title": "EXP-0136: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 35
+  },
+  {
+    "path": "apex_next/research/EXP-0137_HYPOTHESIS_CARD.md",
+    "title": "EXP-0137: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 35
+  },
+  {
+    "path": "apex_next/research/EXP-0141_HYPOTHESIS_CARD.md",
+    "title": "EXP-0141: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 36
+  },
+  {
+    "path": "apex_next/research/EXP-0142_HYPOTHESIS_CARD.md",
+    "title": "EXP-0142: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 36
+  },
+  {
+    "path": "apex_next/research/EXP-0148_HYPOTHESIS_CARD.md",
+    "title": "EXP-0148: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 36
+  },
+  {
+    "path": "apex_next/research/EXP-0149_HYPOTHESIS_CARD.md",
+    "title": "EXP-0149: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 36
+  },
+  {
+    "path": "apex_next/research/EXP-0150_HYPOTHESIS_CARD.md",
+    "title": "EXP-0150: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 36
+  },
+  {
+    "path": "apex_next/research/EXP-0151_HYPOTHESIS_CARD.md",
+    "title": "EXP-0151: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 36
+  },
+  {
+    "path": "apex_next/research/EXP-0152_HYPOTHESIS_CARD.md",
+    "title": "EXP-0152: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 36
+  },
+  {
+    "path": "apex_next/research/EXP-0154_HYPOTHESIS_CARD.md",
+    "title": "EXP-0154: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 36
+  },
+  {
+    "path": "apex_next/research/EXP-0155_HYPOTHESIS_CARD.md",
+    "title": "EXP-0155: PRE-REGISTERED HYPOTHESIS CARD",
+    "category": "experiments",
+    "lines_count": 36
+  },
+  {
+    "path": "apex_next/research/OPPONENT_DIFFERENTIAL_STUDY.md",
+    "title": "\ud83e\uddea OPPONENT-DIFFERENTIAL STUDY \u2014 SUPPLY_COLLAPSE ATTRIBUTION (2026-08-14)",
+    "category": "ml_apex",
+    "lines_count": 97
+  },
+  {
+    "path": "apex_next/research/PHASE1_APEX35_FINGERPRINT_REPORT.md",
+    "title": "\ud83d\udcca PHASE 1 \u2014 APEX 3.5 EMPIRICAL FINGERPRINT (Research Cycle #1)",
+    "category": "phase_market",
+    "lines_count": 84
+  },
+  {
+    "path": "docs/APEX_ARCHITECTURE.md",
+    "title": "\ud83c\udfd7\ufe0f APEX System Architecture & Technical Specification",
+    "category": "ml_apex",
+    "lines_count": 76
+  },
+  {
+    "path": "docs/APEX_EXPERIMENT_HISTORY.md",
+    "title": "\ud83d\udcdc APEX Complete Experiment & Phase History",
+    "category": "experiments",
+    "lines_count": 122
+  },
+  {
+    "path": "docs/COMPREHENSIVE_RESEARCH_SYNTHESIS_PHASES_1_TO_65.md",
+    "title": "\ud83d\udcdc Comprehensive Research & Architectural Synthesis: Phases 1 to 65",
+    "category": "phase_market",
+    "lines_count": 172
+  },
+  {
+    "path": "docs/COMPREHENSIVE_RESEARCH_SYNTHESIS_PHASES_1_TO_74.md",
+    "title": "\ud83d\udcdc Kaggriculture APEX: Master Grand Comprehensive Research Synthesis (Phases 1 to",
+    "category": "phase_market",
+    "lines_count": 185
+  },
+  {
+    "path": "docs/DAY12_CLEARANCE_FORENSICS_REPORT.md",
+    "title": "\ud83d\udcdc Phase 21: Day 11\u201312 (Steps 264\u2013318) Microscopic Clearance Forensics Report",
+    "category": "replay_forensics",
+    "lines_count": 80
+  },
+  {
+    "path": "docs/DAY12_MILK_CONSOLIDATION_LAB_REPORT.md",
+    "title": "\ud83d\udcdc Phase 21: Day 11\u201312 Milk Consolidation Counterfactual Lab Report",
+    "category": "other",
+    "lines_count": 53
+  },
+  {
+    "path": "docs/EARLY_DIVERGENCE_WINDOW_REPORT.md",
+    "title": "\ud83d\udcdc Phase 24: Early Divergence Forensics Report (Steps 60\u2013110)",
+    "category": "other",
+    "lines_count": 66
+  },
+  {
+    "path": "docs/ENVIRONMENT_PARITY_FORENSICS_REPORT.md",
+    "title": "\ud83d\udd2c ENVIRONMENT PARITY FORENSICS REPORT",
+    "category": "replay_forensics",
+    "lines_count": 12
+  },
+  {
+    "path": "docs/KAGGLE_DIVERGENCE_FORENSICS_REPORT.md",
+    "title": "\ud83d\udd2c PHASE 10: KAGGLE DIVERGENCE FORENSICS REPORT",
+    "category": "replay_forensics",
+    "lines_count": 14
+  },
+  {
+    "path": "docs/KAGGLE_REPLAY_ASYMMETRY_REPORT.md",
+    "title": "\ud83d\udcdc Real Kaggle Competition Replay Positional & Dynamics Audit",
+    "category": "replay_forensics",
+    "lines_count": 74
+  },
+  {
+    "path": "docs/KAGGLE_SUBMISSION_REGISTRY.md",
+    "title": "\ud83d\udcca Kaggle Submission Registry & Artifact Tracking",
+    "category": "other",
+    "lines_count": 44
+  },
+  {
+    "path": "docs/KAGGRICULTURE_COMPETITION_OVERVIEW_AND_META_STRATEGY.md",
+    "title": "\ud83c\udf3e Kaggriculture: Complete Competition Overview, Game-Theoretic Mechanics & Meta-",
+    "category": "other",
+    "lines_count": 181
+  },
+  {
+    "path": "docs/KAGGRICULTURE_DATA_STRATEGY.md",
+    "title": "\ud83c\udf3e Kaggriculture Historical Replay Data Strategy (APEX-HIST)",
+    "category": "other",
+    "lines_count": 91
+  },
+  {
+    "path": "docs/LAND4_PROFITABILITY_REPORT.md",
+    "title": "\ud83d\udcdc Phase 29: Land #4 Profitability & ROI Lab Report",
+    "category": "other",
+    "lines_count": 66
+  },
+  {
+    "path": "docs/LAND_EXPANSION_FORENSICS_REPORT.md",
+    "title": "\ud83d\udd2c LAND EXPANSION FORENSICS REPORT",
+    "category": "experiments",
+    "lines_count": 8
+  },
+  {
+    "path": "docs/LATE_STRAWBERRY_ROOT_CAUSE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 26: Late-Strawberry (>120 Steps) Root-Cause Forensics Report",
+    "category": "other",
+    "lines_count": 59
+  },
+  {
+    "path": "docs/LOSS_1200_FORENSICS_REPORT.md",
+    "title": "\ud83d\udcdc Phase 21: 1200+ Loss Forensics & Multi-Signal Divergence Report",
+    "category": "replay_forensics",
+    "lines_count": 148
+  },
+  {
+    "path": "docs/LOSS_CEILING_FORENSICS_REPORT.md",
+    "title": "\ud83d\udd2c KAGGLE LOSS CEILING FORENSICS REPORT & 50-SEED TOURNAMENT SUMMARY",
+    "category": "replay_forensics",
+    "lines_count": 33
+  },
+  {
+    "path": "docs/PHASE14_COMPETITIVE_MARKET_LAB_REPORT.md",
+    "title": "\ud83d\udcdc Phase 14: Competitive Market Collision-Resistance & Synchronization Lab Report",
+    "category": "phase_market",
+    "lines_count": 39
+  },
+  {
+    "path": "docs/PHASE15_PRODUCTION_CAPACITY_REPORT.md",
+    "title": "\ud83d\udcdc Phase 15: Production Capacity & Worker Utilization Forensics Report",
+    "category": "phase_market",
+    "lines_count": 57
+  },
+  {
+    "path": "docs/PHASE16_ANIMAL_STAGING_LAB_REPORT.md",
+    "title": "\ud83d\udcdc Phase 16: Animal Staging & Capital Allocation Counterfactual Tournament Report",
+    "category": "phase_market",
+    "lines_count": 37
+  },
+  {
+    "path": "docs/PHASE17_STRAWBERRY_WORKER_FORENSICS_REPORT.md",
+    "title": "\ud83d\udcdc Phase 17: Strawberry Production & Worker Allocation Forensics Report",
+    "category": "phase_market",
+    "lines_count": 41
+  },
+  {
+    "path": "docs/PHASE18_LIVE_COMPETITIVE_INTELLIGENCE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 18: Live Competitive Intelligence Loss Window & Market Preemption Report",
+    "category": "phase_market",
+    "lines_count": 48
+  },
+  {
+    "path": "docs/PHASE18_MARKET_PREEMPTION_FORENSICS_REPORT.md",
+    "title": "\ud83d\udcdc Phase 18: Real Match Loss Window & Market Preemption Forensics Report",
+    "category": "phase_market",
+    "lines_count": 45
+  },
+  {
+    "path": "docs/PHASE19_CLEARANCE_PREEMPTION_LAB_REPORT.md",
+    "title": "\ud83d\udcdc Phase 19: Clearance Preemption Counterfactual Lab Report",
+    "category": "phase_market",
+    "lines_count": 36
+  },
+  {
+    "path": "docs/PHASE20_MULTI_OPPONENT_VALIDATION_GATE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 20: APEX 3.3 Multi-Opponent Validation Gate Report",
+    "category": "phase_market",
+    "lines_count": 31
+  },
+  {
+    "path": "docs/PHASE20_STRONG_REPLAY_OPPONENT_GATE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 20: Strong 2600-3200+ Replay-Derived Opponent Validation Gate Report",
+    "category": "phase_market",
+    "lines_count": 31
+  },
+  {
+    "path": "docs/PHASE22_INVENTORY_PROTECTED_PREEMPTION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 22: Inventory-Protected Preemption Lab Report",
+    "category": "phase_market",
+    "lines_count": 46
+  },
+  {
+    "path": "docs/PHASE27_LAND2_RESCUE_LAB_REPORT.md",
+    "title": "\ud83d\udcdc Phase 27: Land #2 Targeted Liquidity Rescue Lab Report",
+    "category": "phase_market",
+    "lines_count": 55
+  },
+  {
+    "path": "docs/PHASE28_SENSITIVITY_GRID_REPORT.md",
+    "title": "\ud83d\udcdc Phase 28: Step & Threshold Sensitivity Grid Report",
+    "category": "phase_market",
+    "lines_count": 44
+  },
+  {
+    "path": "docs/PHASE30_APEX34_TOURNAMENT_REPORT.md",
+    "title": "\ud83d\udcdc Phase 30: APEX 3.4 100+ Seed Adversarial Tournament Gauntlet Report",
+    "category": "phase_market",
+    "lines_count": 92
+  },
+  {
+    "path": "docs/PHASE31_FRESH_HOLDOUT_FORENSIC_REPORT.md",
+    "title": "\ud83d\udcdc Phase 31: APEX 3.4 Fresh Holdout Forensic Dissection Report",
+    "category": "phase_market",
+    "lines_count": 65
+  },
+  {
+    "path": "docs/PHASE32_STRAWBERRY_PIPELINE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 32: Days 14\u201320 (Steps 336\u2013480) Strawberry Pipeline Forensic Report",
+    "category": "phase_market",
+    "lines_count": 55
+  },
+  {
+    "path": "docs/PHASE33_OPPONENT_ASYMMETRY_REPORT.md",
+    "title": "\ud83d\udcdc Phase 33: Opponent Asymmetry & Market Realization Report",
+    "category": "phase_market",
+    "lines_count": 36
+  },
+  {
+    "path": "docs/PHASE34_REAL_KAGGLE_POPULATION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 34: Real Kaggle 3000+ Population Empirical Study Report",
+    "category": "phase_market",
+    "lines_count": 62
+  },
+  {
+    "path": "docs/PHASE35_MARKET_EQUILIBRIUM_REPORT.md",
+    "title": "\ud83d\udcdc Phase 35: Market Equilibrium & Cross-Commodity Pricing Forensic Report",
+    "category": "phase_market",
+    "lines_count": 47
+  },
+  {
+    "path": "docs/PHASE36_REGIME_ADAPTIVE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 36: Market Regime Detection & Adaptive Allocation Lab Report",
+    "category": "phase_market",
+    "lines_count": 50
+  },
+  {
+    "path": "docs/PHASE36_REGIME_ROUTING_REPORT.md",
+    "title": "\ud83d\udcdc Phase 36: Regime Routing & Batch Protection Lab Report",
+    "category": "phase_market",
+    "lines_count": 32
+  },
+  {
+    "path": "docs/PHASE37_PRODUCTION_ALLOCATION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 37: Production Allocation & Livestock Scaling Lab Report",
+    "category": "phase_market",
+    "lines_count": 41
+  },
+  {
+    "path": "docs/PHASE38_WINNER_MICRO_PRODUCTION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 38: Real Winner Micro-Production & Labor Efficiency Forensic Report",
+    "category": "phase_market",
+    "lines_count": 64
+  },
+  {
+    "path": "docs/PHASE39_PASS_TAXONOMY_REPORT.md",
+    "title": "\ud83d\udcdc Phase 39: PASS Turn Taxonomy & Worker Utilization Forensic Report",
+    "category": "phase_market",
+    "lines_count": 40
+  },
+  {
+    "path": "docs/PHASE40_TASK_COVERAGE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 40: Temporal Pipeline Staggering & Task Coverage Forensic Report",
+    "category": "phase_market",
+    "lines_count": 40
+  },
+  {
+    "path": "docs/PHASE41_SPATIAL_PATHING_REPORT.md",
+    "title": "\ud83d\udcdc Phase 41: Spatial Worker Kinematics & Pathing Forensic Report",
+    "category": "phase_market",
+    "lines_count": 39
+  },
+  {
+    "path": "docs/PHASE42_LAND3_SERVICING_REPORT.md",
+    "title": "\ud83d\udcdc Phase 42: Land #3 / SW Quadrant Servicing Lab Report",
+    "category": "phase_market",
+    "lines_count": 33
+  },
+  {
+    "path": "docs/PHASE43_CROP_ARCHITECTURE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 43: Real Winner Crop Architecture & Staggered Wave Forensic Report",
+    "category": "phase_market",
+    "lines_count": 43
+  },
+  {
+    "path": "docs/PHASE44_NE_CADENCE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 44: NE Strawberry Activation Cadence Lab Report",
+    "category": "phase_market",
+    "lines_count": 33
+  },
+  {
+    "path": "docs/PHASE45_WINNER_PATH_REPORT.md",
+    "title": "\ud83d\udcdc Phase 45: Real Winner Steps 160\u2013200 Path Reconstruction Report",
+    "category": "phase_market",
+    "lines_count": 36
+  },
+  {
+    "path": "docs/PHASE46_REPLANTING_DIVERGENCE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 46: Steps 216\u2013360 Replanting-Cycle & Reinvestment Divergence Report",
+    "category": "phase_market",
+    "lines_count": 58
+  },
+  {
+    "path": "docs/PHASE47_TILE_LIFECYCLE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 47: Steps 170\u2013240 NW Tile Lifecycle & Conversion Report",
+    "category": "phase_market",
+    "lines_count": 52
+  },
+  {
+    "path": "docs/PHASE48_TILE_KINEMATICS_REPORT.md",
+    "title": "\ud83d\udcdc Phase 48: NW Tile Kinematics & Geometry Forensic Report",
+    "category": "phase_market",
+    "lines_count": 42
+  },
+  {
+    "path": "docs/PHASE49_TILE_PREFERENCE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 49: NW Tile-Preference Counterfactual Lab Report",
+    "category": "phase_market",
+    "lines_count": 34
+  },
+  {
+    "path": "docs/PHASE50_CROP_CYCLE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 50: Micro-Crop Cycle Turnaround & Replanting Latency Report",
+    "category": "phase_market",
+    "lines_count": 39
+  },
+  {
+    "path": "docs/PHASE51_CAPACITY_DIVERGENCE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 51: Upstream Capacity & First Missing Opportunity Report",
+    "category": "phase_market",
+    "lines_count": 49
+  },
+  {
+    "path": "docs/PHASE52_OPPORTUNITY_REPORT.md",
+    "title": "\ud83d\udcdc Phase 52: Turn-by-Turn Planting Opportunity Classification Report",
+    "category": "phase_market",
+    "lines_count": 36
+  },
+  {
+    "path": "docs/PHASE53_WORKER_ALLOCATION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 53: Worker Allocation at Planting Opportunity Report",
+    "category": "phase_market",
+    "lines_count": 48
+  },
+  {
+    "path": "docs/PHASE54_PASS_TRANSITION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 54: Hand-1 PASS -> WATER Transition & Micro-Scheduling Report",
+    "category": "phase_market",
+    "lines_count": 38
+  },
+  {
+    "path": "docs/PHASE55_FIRST_PLANT_REPORT.md",
+    "title": "\ud83d\udcdc Phase 55: First Exact Strawberry Planting Divergence (T_plant1) Report",
+    "category": "phase_market",
+    "lines_count": 49
+  },
+  {
+    "path": "docs/PHASE56_OPENING_FACTORIAL_REPORT.md",
+    "title": "\ud83d\udcdc Phase 56: Opening Seed x Early Land Unlock 2x2 Factorial Report",
+    "category": "phase_market",
+    "lines_count": 35
+  },
+  {
+    "path": "docs/PHASE57_POST240_REPLANT_REPORT.md",
+    "title": "\ud83d\udcdc Phase 57: First Post-240 Strawberry Replanting Divergence Report",
+    "category": "phase_market",
+    "lines_count": 47
+  },
+  {
+    "path": "docs/PHASE58_MIDGAME_FACTORIAL_REPORT.md",
+    "title": "\ud83d\udcdc Phase 58: Land #3 Unlock Velocity x NW Harvest Clearance Factorial Report",
+    "category": "phase_market",
+    "lines_count": 36
+  },
+  {
+    "path": "docs/PHASE59_REALIZATION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 59: Post-Production Economic Realization Report",
+    "category": "phase_market",
+    "lines_count": 41
+  },
+  {
+    "path": "docs/PHASE60_SALE_DECISION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 60: Strawberry & Milk Sale-Decision Reconstruction Report",
+    "category": "phase_market",
+    "lines_count": 47
+  },
+  {
+    "path": "docs/PHASE61_MARKET_VELOCITY_REPORT.md",
+    "title": "\ud83d\udcdc Phase 61: Market Price Trajectory, Velocity & Multi-Commodity Regime Report",
+    "category": "phase_market",
+    "lines_count": 46
+  },
+  {
+    "path": "docs/PHASE62_MARKET_REGIME_REPORT.md",
+    "title": "\ud83d\udcdc Phase 62: Price-Velocity Market Regime Counterfactual Report",
+    "category": "phase_market",
+    "lines_count": 32
+  },
+  {
+    "path": "docs/PHASE63_LIQUIDITY_BUFFER_REPORT.md",
+    "title": "\ud83d\udcdc Phase 63: Cash-Constrained Sale Timing & Dynamic Liquidity Buffer Report",
+    "category": "phase_market",
+    "lines_count": 32
+  },
+  {
+    "path": "docs/PHASE64_HOLDOUT_REPORT.md",
+    "title": "\ud83d\udcdc Phase 64: Independent Holdout Gauntlet Validation Report",
+    "category": "phase_market",
+    "lines_count": 38
+  },
+  {
+    "path": "docs/PHASE65_ADVERSARIAL_STRESS_REPORT.md",
+    "title": "\ud83d\udcdc Phase 65: Adversarial Market Regime Stress Report",
+    "category": "phase_market",
+    "lines_count": 44
+  },
+  {
+    "path": "docs/RESEARCH_LESSONS.md",
+    "title": "\ud83d\udca1 Key Empirical Research Lessons & Core Invariants",
+    "category": "other",
+    "lines_count": 352
+  },
+  {
+    "path": "docs/STRAWBERRY_ACTIVATION_POPULATION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 25: Strawberry Activation Population Study Report",
+    "category": "other",
+    "lines_count": 32
+  },
+  {
+    "path": "docs/TOP_TIER_COUNTERFACTUAL_LAB_REPORT.md",
+    "title": "\ud83d\udd2c PHASE 12: TOP-TIER COUNTERFACTUAL STRATEGY LAB REPORT",
+    "category": "other",
+    "lines_count": 21
+  },
+  {
+    "path": "docs/TOP_TIER_PRODUCTION_FORENSICS_REPORT.md",
+    "title": "\ud83d\udcdc Phase 13: Top-Tier Production Pipeline Forensics Report",
+    "category": "replay_forensics",
+    "lines_count": 51
+  },
+  {
+    "path": "docs/TOP_TIER_STRATEGY_FORENSICS_REPORT.md",
+    "title": "\ud83d\udd2c TOP-TIER STRATEGY FORENSICS REPORT",
+    "category": "replay_forensics",
+    "lines_count": 10
+  },
+  {
+    "path": "economic_brain_v2/README.md",
+    "title": "Economic Brain V2 \u2014 Autonomous Production System",
+    "category": "other",
+    "lines_count": 75
+  },
+  {
+    "path": "experiments/EXP-8140956/hypothesis.md",
+    "title": "Hypothesis for EXP-8140956",
+    "category": "experiments",
+    "lines_count": 6
+  },
+  {
+    "path": "experiments/EXP-8141034/hypothesis.md",
+    "title": "Hypothesis for EXP-8141034",
+    "category": "experiments",
+    "lines_count": 6
+  },
+  {
+    "path": "fastsim/docs/ENGINE_REFERENCE.md",
+    "title": "FastSim Engine Reference Manual: Official Kaggriculture Specification",
+    "category": "other",
+    "lines_count": 92
+  },
+  {
+    "path": "l+reviews/newl/README.md",
+    "title": "\ud83d\udd2c L+ & L++ REPLAY LOG MATRIX & SCIENTIFIC RESEARCH AUDIT",
+    "category": "other",
+    "lines_count": 47
+  },
+  {
+    "path": "reports/60K_70K_COMPETITIVE_BAND_FORENSICS.md",
+    "title": "\ud83d\udd2c 60K\u201370K COMPETITIVE BAND FORENSICS REPORT",
+    "category": "replay_forensics",
+    "lines_count": 47
+  },
+  {
+    "path": "reports/AGGRESSIVE_HYBRID_V2_FINAL_VERIFICATION_GATE.md",
+    "title": "\ud83d\udd2c AGGRESSIVE HYBRID V2 FINAL VERIFICATION GATE REPORT",
+    "category": "other",
+    "lines_count": 107
+  },
+  {
+    "path": "reports/AGGRESSIVE_HYBRID_V2_PRE_TRAJECTORY_MINING.md",
+    "title": "\ud83d\udd2c PRE-TRAJECTORY DECISION MINING & AGGRESSIVE HYBRID V2 REPORT",
+    "category": "other",
+    "lines_count": 89
+  },
+  {
+    "path": "reports/ALTERNATIVE_WIN_91288415_FORENSICS.md",
+    "title": "\ud83d\udd2c GOLDEN ALTERNATIVE WIN FORENSICS REPORT (`91288415.json`)",
+    "category": "replay_forensics",
+    "lines_count": 41
+  },
+  {
+    "path": "reports/APEX41_RELEASE_DECISION.md",
+    "title": "\ud83c\udfdb\ufe0f APEX 4.1 Master Release Decision Document",
+    "category": "ml_apex",
+    "lines_count": 9
+  },
+  {
+    "path": "reports/APEX41_STAGE2_PPO_REPORT.md",
+    "title": "\u26a1 APEX 4.1 ML Stage 2: GPU Self-Play & PPO Training Report",
+    "category": "ml_apex",
+    "lines_count": 8
+  },
+  {
+    "path": "reports/APEX41_STAGE3_CURRICULUM_REPORT.md",
+    "title": "\u26a1 APEX 4.1 ML Stage 3: Population Curriculum & Confidence Calibration Report",
+    "category": "ml_apex",
+    "lines_count": 8
+  },
+  {
+    "path": "reports/APEX41_STAGE4_LADDER_REPORT.md",
+    "title": "\u26a1 APEX 4.1 ML Stage 4: Population Ladder & Rating Wall Report",
+    "category": "ml_apex",
+    "lines_count": 9
+  },
+  {
+    "path": "reports/APEX41_STAGE5_FORENSIC_REPORT.md",
+    "title": "\u26a1 APEX 4.1 ML Stage 5: Tier-4 Rating Wall Forensic Report",
+    "category": "replay_forensics",
+    "lines_count": 8
+  },
+  {
+    "path": "reports/APEX41_STAGE6_GRANDMASTER_REPORT.md",
+    "title": "\u26a1 APEX 4.1 ML Stage 6: Tier-5 Grandmaster Forensic Report",
+    "category": "ml_apex",
+    "lines_count": 8
+  },
+  {
+    "path": "reports/APEX41_STAGE8_VALIDATION_REPORT.md",
+    "title": "\ud83c\udfdb\ufe0f APEX 4.1 ML Stage 8: Final Inference & Packaging Report",
+    "category": "ml_apex",
+    "lines_count": 10
+  },
+  {
+    "path": "reports/APEX4_ARCHITECTURE.md",
+    "title": "\ud83e\udde0 APEX 4.0: CLOSED-LOOP RESEARCH AGENT ARCHITECTURE",
+    "category": "ml_apex",
+    "lines_count": 44
+  },
+  {
+    "path": "reports/APEX4_LIVE_LOSS_REGRESSION.md",
+    "title": "\ud83d\udcca APEX 4.0 Live-Loss Regression Test Report",
+    "category": "ml_apex",
+    "lines_count": 100
+  },
+  {
+    "path": "reports/APEX4_LOSS2POLICY.md",
+    "title": "\ud83e\udde0 APEX 4.0: COMPLETE LOSS2POLICY RESEARCH CORPUS REPORT",
+    "category": "ml_apex",
+    "lines_count": 49
+  },
+  {
+    "path": "reports/APEX4_MACRO_ECONOMIC_REPORT.md",
+    "title": "\ud83e\udde0 APEX 4.0: MACRO ECONOMIC MODEL DISCOVERY REPORT",
+    "category": "ml_apex",
+    "lines_count": 47
+  },
+  {
+    "path": "reports/APEX4_NE_4TILE_FEASIBILITY.md",
+    "title": "\ud83d\udd2c APEX 4.0: 4-TILE NE QUADRANT PHYSICAL FEASIBILITY REPORT",
+    "category": "ml_apex",
+    "lines_count": 40
+  },
+  {
+    "path": "reports/APEX4_RELEASE_DECISION.md",
+    "title": "\ud83d\udee1\ufe0f APEX 4.0 MASTER RELEASE DECISION & RESEARCH REPORT",
+    "category": "ml_apex",
+    "lines_count": 68
+  },
+  {
+    "path": "reports/APEX4_WORLD_MODEL.md",
+    "title": "\ud83c\udf10 APEX 4.0: WORLD MODEL SPECIFICATION",
+    "category": "ml_apex",
+    "lines_count": 14
+  },
+  {
+    "path": "reports/CANDIDATE_LPLUS_PLUS_PLUS_FINAL_STRESS_TEST.md",
+    "title": "\ud83d\udd2c CANDIDATE L+++ FINAL ADVERSARIAL STRESS-TEST REPORT",
+    "category": "other",
+    "lines_count": 66
+  },
+  {
+    "path": "reports/CANDIDATE_LPLUS_PLUS_PLUS_VERIFICATION.md",
+    "title": "\ud83d\udd2c CANDIDATE L+++ IMPLEMENTATION VERIFICATION & AUDIT REPORT",
+    "category": "other",
+    "lines_count": 99
+  },
+  {
+    "path": "reports/CLOSED_LOOP_CONTROLLER.md",
+    "title": "\ud83d\udee0\ufe0f CLOSED_LOOP_CONTROLLER: IMPLEMENTATION SPECIFICATION",
+    "category": "other",
+    "lines_count": 12
+  },
+  {
+    "path": "reports/CLOSE_LOSS_91282953_DISSECTION.md",
+    "title": "\ud83d\udd2c 3-WAY COMPARATIVE DISSECTION REPORT: CLOSE LOSS `91282953.json`",
+    "category": "replay_forensics",
+    "lines_count": 87
+  },
+  {
+    "path": "reports/COMPETITIVE_HYBRID_V3_MASTER_AUDIT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V3 MASTER AUDIT & VERIFICATION REPORT",
+    "category": "audit_governance",
+    "lines_count": 108
+  },
+  {
+    "path": "reports/COMPETITIVE_HYBRID_V4_WEALTH_ENGINE_REPORT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V4 MASTER AUDIT & VERIFICATION REPORT",
+    "category": "other",
+    "lines_count": 109
+  },
+  {
+    "path": "reports/COMPETITIVE_HYBRID_V5_CEILING_ANALYSIS_REPORT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V5 MASTER AUDIT & VERIFICATION REPORT",
+    "category": "other",
+    "lines_count": 110
+  },
+  {
+    "path": "reports/COMPETITIVE_REPLAY_CLASSIFICATION_MATRIX.md",
+    "title": "\ud83d\udd2c OPPONENT-AWARE REPLAY CLASSIFICATION & WEALTH GRADIENT MATRIX",
+    "category": "replay_forensics",
+    "lines_count": 34
+  },
+  {
+    "path": "reports/D1_CONTROL_MAP.md",
+    "title": "\ud83c\udfdb\ufe0f Variant D.1 Control Authority & Constant Classification Map",
+    "category": "other",
+    "lines_count": 46
+  },
+  {
+    "path": "reports/DAYS_8_15_ACTION_DISSECTION.md",
+    "title": "\ud83d\udd2c DAYS 8\u201315 ACTION-LEVEL DISSECTION REPORT",
+    "category": "replay_forensics",
+    "lines_count": 51
+  },
+  {
+    "path": "reports/EXP001_FORENSIC_SUMMARY.md",
+    "title": "\ud83d\udd2c Forensic Match Audit (match_forensic)",
+    "category": "experiments",
+    "lines_count": 23151
+  },
+  {
+    "path": "reports/EXP0119_GPU_SCREENING.md",
+    "title": "\u26a1 EXP-0119: GPU SCREENING REPORT (CROP_DRIFT / CROP_PRIORITY)",
+    "category": "experiments",
+    "lines_count": 28
+  },
+  {
+    "path": "reports/EXP0119_HISTORICAL_ROBUSTNESS.md",
+    "title": "\ud83d\udcda EXP-0119: HISTORICAL ROBUSTNESS ANALYSIS",
+    "category": "experiments",
+    "lines_count": 23
+  },
+  {
+    "path": "reports/EXP0120_GPU_SCREENING.md",
+    "title": "\u26a1 EXP-0120: GPU SCREENING REPORT (CROP_PORTFOLIO_DIVERSITY)",
+    "category": "experiments",
+    "lines_count": 27
+  },
+  {
+    "path": "reports/EXP0121_PAIRED_GPU_SCREENING.md",
+    "title": "\u26a1 EXP-0121: PAIRED GPU V2 SCREENING REPORT (LAND_EXPANSION_PACING)",
+    "category": "experiments",
+    "lines_count": 27
+  },
+  {
+    "path": "reports/EXP0122_OBSERVABILITY_AUDIT.md",
+    "title": "\ud83d\udee1\ufe0f EXP-0122: OBSERVATION SCHEMA & LEGALITY AUDIT",
+    "category": "experiments",
+    "lines_count": 50
+  },
+  {
+    "path": "reports/EXP0123_MECHANISM_AUDIT.md",
+    "title": "\ud83d\udee1\ufe0f EXP-0123: MECHANISM & RESOURCE-DENIAL FEASIBILITY AUDIT",
+    "category": "experiments",
+    "lines_count": 32
+  },
+  {
+    "path": "reports/EXP0124_PAIRED_GPU_SCREENING.md",
+    "title": "\u26a1 EXP-0124: PAIRED GPU V2 SCREENING REPORT (SOLVENCY_GATED_LAND_EXPANSION)",
+    "category": "experiments",
+    "lines_count": 27
+  },
+  {
+    "path": "reports/EXP0124_SOLVENCY_FORENSIC_AUDIT.md",
+    "title": "EXP-0124: SOLVENCY & CAPITAL PRESERVATION FORENSIC AUDIT",
+    "category": "experiments",
+    "lines_count": 52
+  },
+  {
+    "path": "reports/EXP0125_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0125: PHASE 1 FORENSIC VALIDATION REPORT",
+    "category": "experiments",
+    "lines_count": 45
+  },
+  {
+    "path": "reports/EXP0125_PAIRED_GPU_SCREENING.md",
+    "title": "\u26a1 EXP-0125: PAIRED GPU V2 SCREENING REPORT (OPPONENT_RIPE_CROP_FRONT_RUNNING)",
+    "category": "experiments",
+    "lines_count": 28
+  },
+  {
+    "path": "reports/EXP0126_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udee1\ufe0f EXP-0126: PHASE 1 FORENSIC VALIDATION REPORT",
+    "category": "experiments",
+    "lines_count": 33
+  },
+  {
+    "path": "reports/EXP0129_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0129: PHASE 1 FORENSIC & MATHEMATICAL VALIDATION REPORT",
+    "category": "experiments",
+    "lines_count": 38
+  },
+  {
+    "path": "reports/EXP0129_PAIRED_GPU_SCREENING.md",
+    "title": "\u26a1 EXP-0129: PAIRED_GPU_V2.5 CANDIDATE SCREENING REPORT",
+    "category": "experiments",
+    "lines_count": 34
+  },
+  {
+    "path": "reports/EXP0130_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udee1\ufe0f EXP-0130: PHASE 1 FORENSIC VALIDATION REPORT",
+    "category": "experiments",
+    "lines_count": 49
+  },
+  {
+    "path": "reports/EXP0131_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0131: PHASE 1 FORENSIC & TERMINATION ACCOUNTING REPORT",
+    "category": "experiments",
+    "lines_count": 37
+  },
+  {
+    "path": "reports/EXP0131_PAIRED_GPU_SCREENING.md",
+    "title": "\u26a1 EXP-0131: PAIRED_GPU_V2.5 CANDIDATE SCREENING REPORT",
+    "category": "experiments",
+    "lines_count": 32
+  },
+  {
+    "path": "reports/EXP0136_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0136: PHASE 1 FORENSIC & ASSET ALLOCATION VALIDATION REPORT",
+    "category": "experiments",
+    "lines_count": 44
+  },
+  {
+    "path": "reports/EXP0136_PAIRED_GPU_SCREENING.md",
+    "title": "\u26a1 EXP-0136: PAIRED_GPU_V2.5 CANDIDATE SCREENING REPORT",
+    "category": "experiments",
+    "lines_count": 33
+  },
+  {
+    "path": "reports/EXP0137_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0137: PHASE 1 FORENSIC & CAPITAL PACING VALIDATION REPORT",
+    "category": "experiments",
+    "lines_count": 44
+  },
+  {
+    "path": "reports/EXP0137_PAIRED_GPU_SCREENING.md",
+    "title": "\u26a1 EXP-0137: PAIRED_GPU_V2.5 CANDIDATE SCREENING REPORT",
+    "category": "experiments",
+    "lines_count": 33
+  },
+  {
+    "path": "reports/EXP0138_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0138: PHASE 1 FORENSIC & SPATIAL INFRASTRUCTURE REPORT",
+    "category": "experiments",
+    "lines_count": 44
+  },
+  {
+    "path": "reports/EXP0139_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0139: PHASE 1 FORENSIC & TERMINATION VALUATION REPORT",
+    "category": "experiments",
+    "lines_count": 47
+  },
+  {
+    "path": "reports/EXP0140_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0140: PHASE 1 FORENSIC & AGRICULTURAL CYCLE REPORT",
+    "category": "experiments",
+    "lines_count": 43
+  },
+  {
+    "path": "reports/EXP0141_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0141: PHASE 1 DEEP FORENSIC & CAUSAL EVIDENCE REPORT",
+    "category": "experiments",
+    "lines_count": 44
+  },
+  {
+    "path": "reports/EXP0141_PAIRED_GPU_SCREENING.md",
+    "title": "\u26a1 EXP-0141: PAIRED_GPU_V2.5 CANDIDATE SCREENING REPORT",
+    "category": "experiments",
+    "lines_count": 33
+  },
+  {
+    "path": "reports/EXP0142_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0142: PHASE 1 DEEP FORENSIC & CAUSAL MECHANISM REPORT",
+    "category": "experiments",
+    "lines_count": 38
+  },
+  {
+    "path": "reports/EXP0143_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0143: PHASE 1 FORENSIC & MARKET SEMANTICS REPORT",
+    "category": "experiments",
+    "lines_count": 50
+  },
+  {
+    "path": "reports/EXP0144_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0144: PHASE 1 FORENSIC & LIQUIDITY AUDIT REPORT",
+    "category": "experiments",
+    "lines_count": 43
+  },
+  {
+    "path": "reports/EXP0146_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0146: PHASE 1 FORENSIC & FEED ECONOMICS REPORT",
+    "category": "experiments",
+    "lines_count": 48
+  },
+  {
+    "path": "reports/EXP0148_FORENSIC_VALIDATION.md",
+    "title": "\ud83d\udd2c EXP-0148: PHASE 1 CAUSAL DISENTANGLEMENT & FACTORIAL FORENSIC REPORT",
+    "category": "experiments",
+    "lines_count": 43
+  },
+  {
+    "path": "reports/EXP0148_PAIRED_GPU_SCREENING.md",
+    "title": "\u26a1 EXP-0148: PAIRED_GPU_V2.5 CANDIDATE SCREENING REPORT",
+    "category": "experiments",
+    "lines_count": 36
+  },
+  {
+    "path": "reports/EXP0154_WORKER_ELIGIBILITY.md",
+    "title": "\ud83d\udd2c EXP-0154: PHASE 1 WORKER ELIGIBILITY & HEADCOUNT REPORT",
+    "category": "experiments",
+    "lines_count": 44
+  },
+  {
+    "path": "reports/EXP0155_SEED_LIFECYCLE.md",
+    "title": "\ud83d\udd2c EXP-0155: PHASE 1 SEED LIFECYCLE & SYNCHRONIZATION REPORT",
+    "category": "experiments",
+    "lines_count": 37
+  },
+  {
+    "path": "reports/EXPERT_META_STRATEGY_ANALYSIS.md",
+    "title": "\ud83d\udd2c PHASE 1 EXPERT META-GAME & FINGERPRINT ANALYSIS REPORT",
+    "category": "experiments",
+    "lines_count": 52
+  },
+  {
+    "path": "reports/FAST_ENGINE_COMPETITOR_AUDIT.md",
+    "title": "\u26a1 FAST ENGINE COMPETITOR AUDIT: 4000x VECTORIZED ARCHITECTURE vs PAIRED_GPU_V2",
+    "category": "audit_governance",
+    "lines_count": 47
+  },
+  {
+    "path": "reports/FINAL_HYBRID_SUBMISSION_GATE_REPORT.md",
+    "title": "\ud83d\udd2c FINAL HYBRID SUBMISSION GATEWAY AUDIT REPORT",
+    "category": "other",
+    "lines_count": 59
+  },
+  {
+    "path": "reports/FINAL_KAGGLE_REALISM_GAUNTLET.md",
+    "title": "\ud83d\udd2c FINAL PRE-KAGGLE REALISM GAUNTLET REPORT",
+    "category": "other",
+    "lines_count": 93
+  },
+  {
+    "path": "reports/FINAL_KAGGRICULTURE_CHAMPIONSHIP_REPORT.md",
+    "title": "\ud83c\udfc6 THE MASTER KAGGRICULTURE CHAMPIONSHIP REPORT (ALL 17 STRATEGY GENERATIONS)",
+    "category": "other",
+    "lines_count": 88
+  },
+  {
+    "path": "reports/FINAL_V13_DEPLOYMENT_REHEARSAL_REPORT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V13 FINAL DEPLOYMENT REHEARSAL REPORT",
+    "category": "other",
+    "lines_count": 66
+  },
+  {
+    "path": "reports/GLM52_LATE_GAME_RETIREMENT_REAUDIT.md",
+    "title": "\ufeff# GLM 5.2 Re-Audit: Late-Game Production Retirement Hypothesis",
+    "category": "audit_governance",
+    "lines_count": 243
+  },
+  {
+    "path": "reports/GLM52_POST_FALSIFICATION_REAUDIT.md",
+    "title": "\ufeff# GLM 5.2 Re-Audit: Post-Falsification Forensic Analysis",
+    "category": "audit_governance",
+    "lines_count": 285
+  },
+  {
+    "path": "reports/GLM52_WALL_FORENSIC_ANALYSIS.md",
+    "title": "\ufeff# GLM 5.2 Independent Forensic Analysis: The 1200+ Rating Wall",
+    "category": "replay_forensics",
+    "lines_count": 405
+  },
+  {
+    "path": "reports/GOLDEN_REPLAY_91272656_DISSECTION.md",
+    "title": "\ud83d\udd2c GOLDEN REPLAY DISSECTION REPORT (`91272656.json`)",
+    "category": "replay_forensics",
+    "lines_count": 36
+  },
+  {
+    "path": "reports/HIGH_TIER_LOSS_855978439_FORENSICS.md",
+    "title": "\ud83d\udd2c HIGH-TIER LOSS FORENSICS REPORT (`91292018.json` / SEED 855978439)",
+    "category": "replay_forensics",
+    "lines_count": 74
+  },
+  {
+    "path": "reports/HYBRID_200K_HIGH_WEALTH_STRESS_GATE.md",
+    "title": "\ud83d\udd2c HYBRID $200K HIGH-WEALTH STRESS GATE & BLUEPRINT REPORT",
+    "category": "other",
+    "lines_count": 72
+  },
+  {
+    "path": "reports/HYBRID_ADAPTIVE_CONTROLLER_BLUEPRINT.md",
+    "title": "\ud83d\udd2c HYBRID ADAPTIVE ECONOMIC CONTROLLER BLUEPRINT",
+    "category": "other",
+    "lines_count": 97
+  },
+  {
+    "path": "reports/HYBRID_ADAPTIVE_VERIFICATION_AUDIT.md",
+    "title": "\ud83d\udd2c CANDIDATE HYBRID ADAPTIVE IMPLEMENTATION & VERIFICATION AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 105
+  },
+  {
+    "path": "reports/HYBRID_PROTOTYPE_COUNTERFACTUAL_AUDIT.md",
+    "title": "\ud83d\udd2c OFFLINE HYBRID ADAPTIVE PROTOTYPE & COUNTERFACTUAL AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 57
+  },
+  {
+    "path": "reports/INDEPENDENT_LOCKED_TEST_EVALUATION_REPORT.md",
+    "title": "\ud83d\udd2c INDEPENDENT LOCKED-TEST EVALUATION AUDIT REPORT",
+    "category": "other",
+    "lines_count": 124
+  },
+  {
+    "path": "reports/KAGGLE_RATING_TIMELINE_RECONSTRUCTION.md",
+    "title": "\ud83d\udcdc Authoritative Kaggle Rating, Rank Timeline & Submission History",
+    "category": "other",
+    "lines_count": 56
+  },
+  {
+    "path": "reports/KAGGLE_SEED_1974003290_AUDIT.md",
+    "title": "\ud83d\udd2c CANONICAL KAGGLE SEED 1974003290 HEAD-TO-HEAD AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 75
+  },
+  {
+    "path": "reports/L4_ADAPTIVE_ECONOMIC_CONTROLLER_BLUEPRINT.md",
+    "title": "\ud83d\udd2c L4 ADAPTIVE ECONOMIC CONTROLLER ARCHITECTURE BLUEPRINT",
+    "category": "other",
+    "lines_count": 83
+  },
+  {
+    "path": "reports/LAND_EXPANSION_FORENSIC_AUDIT.md",
+    "title": "TASK A: LAND_EXPANSION_PACING FORENSIC AUDIT",
+    "category": "experiments",
+    "lines_count": 26
+  },
+  {
+    "path": "reports/LIVE_APEX35_MATCH_TRACKER.md",
+    "title": "\ud83d\udcca APEX 3.5 Live Match Tracker & Loss Forensics",
+    "category": "ml_apex",
+    "lines_count": 62
+  },
+  {
+    "path": "reports/LIVE_KAGGLE_MATCH_FORENSICS_AUDIT.md",
+    "title": "\ud83d\udcdc Forensic Audit Report: 736 Live Kaggle Tournament Matches",
+    "category": "audit_governance",
+    "lines_count": 57
+  },
+  {
+    "path": "reports/LIVE_KAGGLE_MATCH_TELEMETRY.md",
+    "title": "\ud83d\udcdc Live Kaggle Tournament Match Telemetry Report",
+    "category": "other",
+    "lines_count": 55
+  },
+  {
+    "path": "reports/LOSS2POLICY_ANALYSIS.md",
+    "title": "\ud83e\udde0 LOSS2POLICY-1: LOSS-DRIVEN STRATEGY DISCOVERY REPORT",
+    "category": "other",
+    "lines_count": 60
+  },
+  {
+    "path": "reports/LOSS_1745977583_FORENSICS.md",
+    "title": "\ud83d\udd2c FORENSIC DISSECTION REPORT: $40K-BAND LOSS `91292907.json` (SEED 1745977583)",
+    "category": "replay_forensics",
+    "lines_count": 91
+  },
+  {
+    "path": "reports/LOSS_DIR_AUTHORITATIVE_COMPARISON.md",
+    "title": "\ud83d\udd2c COMPLETE AUTHORITATIVE REPLAY COMPARISON REPORT (`newl/` & `newl/loss/`)",
+    "category": "other",
+    "lines_count": 46
+  },
+  {
+    "path": "reports/LOSS_FAILURE_MODE_FORENSICS.md",
+    "title": "\ud83d\udd2c LOSS FAILURE MODE FORENSICS & TAXONOMY REPORT",
+    "category": "replay_forensics",
+    "lines_count": 57
+  },
+  {
+    "path": "reports/LPLUS_CAUSAL_DECISION_TREE.md",
+    "title": "\ud83c\udf32 L++ REPLAY-DERIVED CAUSAL DECISION TREE",
+    "category": "other",
+    "lines_count": 62
+  },
+  {
+    "path": "reports/LPLUS_MECHANISM_ATTRIBUTION.md",
+    "title": "V4.1 to L+ Mechanism Attribution Audit",
+    "category": "other",
+    "lines_count": 93
+  },
+  {
+    "path": "reports/LPLUS_NEW_LOSS_FORENSICS.md",
+    "title": "\ud83d\udd2c LIVE CANDIDATE L++ REPLAY FORENSICS REPORT (`91305315.json` & `91307126.json`)",
+    "category": "replay_forensics",
+    "lines_count": 86
+  },
+  {
+    "path": "reports/LPLUS_PLUS_IMPLEMENTATION_VERIFICATION.md",
+    "title": "\ud83d\udd2c CANDIDATE L++ REAL IMPLEMENTATION VERIFICATION REPORT",
+    "category": "other",
+    "lines_count": 94
+  },
+  {
+    "path": "reports/LPLUS_PLUS_INVARIANT_AUDIT.md",
+    "title": "\ud83d\udd2c CANDIDATE L++ STATIC & RUNTIME INVARIANT AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 109
+  },
+  {
+    "path": "reports/LPLUS_V41_LINEAGE_RECONSTRUCTION.md",
+    "title": "V4.1 to L+ Lineage Reconstruction",
+    "category": "other",
+    "lines_count": 122
+  },
+  {
+    "path": "reports/MARKET_QUEUE_OPPORTUNITY_FORENSICS.md",
+    "title": "\ud83d\udd2c MARKET QUEUE OPPORTUNITY FORENSICS REPORT",
+    "category": "replay_forensics",
+    "lines_count": 54
+  },
+  {
+    "path": "reports/MASTER_HEAD_TO_HEAD_BENCHMARK_REPORT.md",
+    "title": "\ud83d\udd2c MASTER HEAD-TO-HEAD BENCHMARK REPORT (ALL 7 STRATEGY GENERATIONS)",
+    "category": "other",
+    "lines_count": 76
+  },
+  {
+    "path": "reports/MASTER_LPLUS_PLUS_CROSS_VALIDATION.md",
+    "title": "\ud83d\udd2c MASTER L++ ADAPTIVE CONTROLLER CROSS-VALIDATION REPORT",
+    "category": "other",
+    "lines_count": 77
+  },
+  {
+    "path": "reports/MASTER_RETROSPECTIVE_FORENSIC_SWEEP.md",
+    "title": "\ud83d\udd2c MASTER RETROSPECTIVE FORENSIC SWEEP REPORT",
+    "category": "replay_forensics",
+    "lines_count": 110
+  },
+  {
+    "path": "reports/ML_STAGE0_ENGINE_BENCHMARK.md",
+    "title": "\u26a1 ML Stage 0: Hardware & Engine Validation Report",
+    "category": "other",
+    "lines_count": 8
+  },
+  {
+    "path": "reports/NEW_40K_LOSS_91296498_FORENSICS.md",
+    "title": "\ud83d\udd2c FORENSIC DISSECTION REPORT: NEW $40K-BAND LOSS `91296498.json`",
+    "category": "replay_forensics",
+    "lines_count": 92
+  },
+  {
+    "path": "reports/NEW_73K_LOSS_AND_94K_WIN_FORENSICS.md",
+    "title": "\ud83d\udd2c NEW LIVE REPLAY FORENSICS REPORT: $73.7K LOSS & $94.9K CLOSE WIN",
+    "category": "replay_forensics",
+    "lines_count": 77
+  },
+  {
+    "path": "reports/NEW_HIGH_SCORE_REPLAY_ANALYSIS.md",
+    "title": "\ud83d\udd2c DEEP TRAJECTORY ANALYSIS: NEW HIGH-SCORE LIVE REPLAYS",
+    "category": "replay_forensics",
+    "lines_count": 60
+  },
+  {
+    "path": "reports/NEW_LIVE_LPLUS_PLUS_MATCHES_FORENSICS.md",
+    "title": "\ud83d\udd2c NEW LIVE CANDIDATE L++ REPLAY FORENSICS REPORT",
+    "category": "replay_forensics",
+    "lines_count": 83
+  },
+  {
+    "path": "reports/OFFLINE_LPLUS_PLUS_SIMULATION.md",
+    "title": "\ud83d\udd2c OFFLINE L++ ADAPTIVE CONTROLLER SIMULATION REPORT",
+    "category": "other",
+    "lines_count": 76
+  },
+  {
+    "path": "reports/OPPONENT_RELATIVE_SURVIVAL_MATRIX.md",
+    "title": "\ud83d\udd2c MASTER OPPONENT-RELATIVE SURVIVAL MATRIX AUDIT REPORT",
+    "category": "ml_apex",
+    "lines_count": 104
+  },
+  {
+    "path": "reports/OPP_DIFF_2_REPORT.md",
+    "title": "\ud83e\udde0 OPP-DIFF-2: WINNER ACTION DIFFERENTIAL FORENSIC STUDY",
+    "category": "other",
+    "lines_count": 35
+  },
+  {
+    "path": "reports/PAIRED_GPU_V25_ANIMAL_LIFECYCLE_PATCH_REPORT.md",
+    "title": "\ud83d\udee1\ufe0f PAIRED_GPU_V2.5: ANIMAL LIFECYCLE PARITY REPAIR & RE-CERTIFICATION REPORT",
+    "category": "other",
+    "lines_count": 43
+  },
+  {
+    "path": "reports/PAIRED_GPU_V25_BENCHMARK.md",
+    "title": "PAIRED_GPU_V2.5 MULTI-BATCH SCALING BENCHMARK REPORT",
+    "category": "other",
+    "lines_count": 41
+  },
+  {
+    "path": "reports/PAIRED_GPU_V25_DECISION.md",
+    "title": "PAIRED_GPU_V2.5 ENGINEERING DECISION & CERTIFICATION",
+    "category": "other",
+    "lines_count": 24
+  },
+  {
+    "path": "reports/PAIRED_GPU_V25_DESIGN.md",
+    "title": "PAIRED_GPU_V2.5 VECTORIZED ARCHITECTURE DESIGN",
+    "category": "other",
+    "lines_count": 55
+  },
+  {
+    "path": "reports/PAIRED_GPU_V25_PARITY.md",
+    "title": "\ud83d\udee1\ufe0f PAIRED_GPU_V2.5 DIFFERENTIAL TRAJECTORY PARITY REPORT",
+    "category": "other",
+    "lines_count": 30
+  },
+  {
+    "path": "reports/PAIRED_GPU_V25_PROFILING_AUDIT.md",
+    "title": "\ud83d\udd2c PAIRED_GPU_V2.5 PROFILING AUDIT & BOTTLENECK ANALYSIS",
+    "category": "audit_governance",
+    "lines_count": 37
+  },
+  {
+    "path": "reports/PAIRED_GPU_V26_OPTIMIZATION_BENCHMARK.md",
+    "title": "\u26a1 PAIRED_GPU_V2.5 OPTIMIZED MULTI-BATCH BENCHMARK REPORT",
+    "category": "other",
+    "lines_count": 34
+  },
+  {
+    "path": "reports/PAIRED_GPU_V2_DESIGN.md",
+    "title": "\u26a1 PAIRED_GPU_V2: PAIRED ACCELERATOR ARCHITECTURE & DESIGN SPECIFICATION",
+    "category": "other",
+    "lines_count": 73
+  },
+  {
+    "path": "reports/PAIRED_GPU_V2_PARITY_REPORT.md",
+    "title": "PAIRED_GPU_V2: DIFFERENTIAL PARITY REPORT",
+    "category": "other",
+    "lines_count": 34
+  },
+  {
+    "path": "reports/PAIRED_GPU_V2_TRAJECTORY_PARITY.md",
+    "title": "\ud83d\udee1\ufe0f PAIRED_GPU_V2: TRAJECTORY-LEVEL PARITY REPORT",
+    "category": "other",
+    "lines_count": 39
+  },
+  {
+    "path": "reports/PHASE100_SEAT_ASYMMETRY_CAUSAL_VALIDATION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 100: Seat-Asymmetry Causal Validation Report",
+    "category": "phase_market",
+    "lines_count": 51
+  },
+  {
+    "path": "reports/PHASE101_STRUCTURAL_LOSS_REPORT.md",
+    "title": "\ud83d\udcdc Phase 101: Structural Loss Deep-Dive Report (Bucket C Forensics)",
+    "category": "phase_market",
+    "lines_count": 43
+  },
+  {
+    "path": "reports/PHASE102_C2_C4_CAUSAL_REPORT.md",
+    "title": "\ud83d\udcdc Phase 102: C2 & C4 Non-Crash Structural Deficit Causal Report",
+    "category": "phase_market",
+    "lines_count": 39
+  },
+  {
+    "path": "reports/PHASE103_EARLY_SHOP_LIVESTOCK_REGIME_REPORT.md",
+    "title": "\ud83d\udcdc Phase 103: Early-Shop & Livestock Regime Causal Report",
+    "category": "phase_market",
+    "lines_count": 34
+  },
+  {
+    "path": "reports/PHASE104_SEAT1_COMPENSATION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 104: Seat-1 Compensation Feasibility Report",
+    "category": "phase_market",
+    "lines_count": 31
+  },
+  {
+    "path": "reports/PHASE105_SEAT_CONDITIONED_VALIDATION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 105: Seat-Conditioned Dual-Regime 6-Gate Audit Report",
+    "category": "phase_market",
+    "lines_count": 37
+  },
+  {
+    "path": "reports/PHASE106_MASTER_VALIDATION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 106: Master Validation Battery Report (APEX 3.5 vs APEX 3.6)",
+    "category": "phase_market",
+    "lines_count": 43
+  },
+  {
+    "path": "reports/PHASE107_FIXED_VS_DYNAMIC_ENGINE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 107: Fixed vs Dynamic Core Engine Benchmark Report",
+    "category": "phase_market",
+    "lines_count": 54
+  },
+  {
+    "path": "reports/PHASE66_MID_TIER_FAILURE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 66: Mid-Tier Opponent Failure Decomposition Report",
+    "category": "phase_market",
+    "lines_count": 66
+  },
+  {
+    "path": "reports/PHASE67_REAL_LOSS_COUNTERFACTUAL_REPORT.md",
+    "title": "\ud83d\udcdc Phase 67: Real Live Defeat Counterfactual Replay Report",
+    "category": "phase_market",
+    "lines_count": 48
+  },
+  {
+    "path": "reports/PHASE68_OPPONENT_CLUSTERING_REPORT.md",
+    "title": "\ud83d\udcdc Phase 68: Opponent Policy Clustering & High-Tier Behavioral Fingerprinting Rep",
+    "category": "phase_market",
+    "lines_count": 70
+  },
+  {
+    "path": "reports/PHASE69_ELITE_TIER_DECOMPOSITION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 69: Elite-Tier (>1300 Elo) Behavioral & Production Decomposition Report",
+    "category": "phase_market",
+    "lines_count": 67
+  },
+  {
+    "path": "reports/PHASE70_LIVESTOCK_THROUGHPUT_REPORT.md",
+    "title": "\ud83d\udcdc Phase 70: Livestock Throughput & Zero-Interference Cow Servicing Report",
+    "category": "phase_market",
+    "lines_count": 33
+  },
+  {
+    "path": "reports/PHASE71_MILK_REVENUE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 71: Milk Revenue Decomposition & Price Monetization Report",
+    "category": "phase_market",
+    "lines_count": 37
+  },
+  {
+    "path": "reports/PHASE72_ECONOMIC_WATERFALL_REPORT.md",
+    "title": "\ud83d\udcdc Phase 72: Economic Cost Waterfall & Strawberry Realization Report",
+    "category": "phase_market",
+    "lines_count": 37
+  },
+  {
+    "path": "reports/PHASE73_FERTILIZER_YIELD_REPORT.md",
+    "title": "\ud83d\udcdc Phase 73: Paired Wealth Attribution & Fertilizer Yield Report",
+    "category": "phase_market",
+    "lines_count": 33
+  },
+  {
+    "path": "reports/PHASE74_GRANULAR_WATERFALL_REPORT.md",
+    "title": "\ud83d\udcdc Phase 74: Granular Physical Yield & Full Economic Attribution Waterfall Report",
+    "category": "phase_market",
+    "lines_count": 56
+  },
+  {
+    "path": "reports/PHASE75_ELITE_MARKET_POLICY_RECONSTRUCTION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 75: Elite Market-Policy Reconstruction Report",
+    "category": "phase_market",
+    "lines_count": 59
+  },
+  {
+    "path": "reports/PHASE76_ELITE_POLICY_RECONSTRUCTION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 76: Elite Policy Reconstruction Counterfactual Lab Report",
+    "category": "phase_market",
+    "lines_count": 53
+  },
+  {
+    "path": "reports/PHASE77_FORWARD_LIQUIDITY_ALLOCATION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 77: Forward-Looking Liquidity & Inventory Allocation Lab Report",
+    "category": "phase_market",
+    "lines_count": 51
+  },
+  {
+    "path": "reports/PHASE78_PHYSICAL_COUNTERFACTUAL_REPORT.md",
+    "title": "\ud83d\udcdc Phase 78: Physical Production Counterfactual Lab Report",
+    "category": "phase_market",
+    "lines_count": 45
+  },
+  {
+    "path": "reports/PHASE78_PHYSICAL_PRODUCTION_LEAKAGE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 78: Physical Production Leakage Accounting Report",
+    "category": "phase_market",
+    "lines_count": 52
+  },
+  {
+    "path": "reports/PHASE79_MARKET_CAUSALITY_REPORT.md",
+    "title": "\ud83d\udcdc Phase 79: Market Dynamics & Price-Path Causality Report",
+    "category": "phase_market",
+    "lines_count": 50
+  },
+  {
+    "path": "reports/PHASE80_SALE_IMPACT_ELASTICITY_REPORT.md",
+    "title": "\ud83d\udcdc Phase 80: Sale-Impact Elasticity & Market Preservation Report",
+    "category": "phase_market",
+    "lines_count": 58
+  },
+  {
+    "path": "reports/PHASE81_OPPONENT_AWARE_EQUILIBRIUM_REPORT.md",
+    "title": "\ud83d\udcdc Phase 81: Opponent-Aware Market Equilibrium Report",
+    "category": "phase_market",
+    "lines_count": 48
+  },
+  {
+    "path": "reports/PHASE82_ELITE_VS_NORMAL_CAUSAL_DECOMPOSITION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 82: Elite Seed vs Elite Opponent Causal Decomposition Report",
+    "category": "phase_market",
+    "lines_count": 87
+  },
+  {
+    "path": "reports/PHASE82_MARKET_CAPTURE_FORENSICS_REPORT.md",
+    "title": "\ud83d\udcdc Phase 82: Causal Elite-vs-Normal Tournament Decomposition Report",
+    "category": "phase_market",
+    "lines_count": 38
+  },
+  {
+    "path": "reports/PHASE83_CAUSAL_SOURCE_LOCALIZATION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 83: Causal Source Localization Report",
+    "category": "phase_market",
+    "lines_count": 58
+  },
+  {
+    "path": "reports/PHASE84_FACTORIAL_DECOMPOSITION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 84: Opponent-Strength x Market-Potential 2x2 Factorial Report",
+    "category": "phase_market",
+    "lines_count": 72
+  },
+  {
+    "path": "reports/PHASE85_OPPONENT_ADAPTIVE_EXPLOITATION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 85: Opponent-Strength Adaptive Exploitation Report",
+    "category": "phase_market",
+    "lines_count": 48
+  },
+  {
+    "path": "reports/PHASE86_SUBMISSION_READINESS_AUDIT_REPORT.md",
+    "title": "\ud83d\udcdc Phase 86: Submission Readiness Audit & Master Evidence Package",
+    "category": "phase_market",
+    "lines_count": 39
+  },
+  {
+    "path": "reports/PHASE87_LIVE_LOSS_1186264919_REPORT.md",
+    "title": "\ud83d\udcdc Phase 87: Live Loss Forensics \u2014 Seed 1186264919",
+    "category": "phase_market",
+    "lines_count": 48
+  },
+  {
+    "path": "reports/PHASE88_LIVE_LOSS_1205390807_REPORT.md",
+    "title": "\ud83d\udcdc Phase 88: Live Loss Forensics \u2014 Seed 1205390807",
+    "category": "phase_market",
+    "lines_count": 54
+  },
+  {
+    "path": "reports/PHASE89_ENDGAME_REBOUND_SURVIVABILITY_REPORT.md",
+    "title": "\ud83d\udcdc Phase 89: Endgame Rebound Survivability Report",
+    "category": "phase_market",
+    "lines_count": 24
+  },
+  {
+    "path": "reports/PHASE90_ALL_LOSSES_MASTER_AUDIT_REPORT.md",
+    "title": "\ud83d\udcdc Phase 90: All Live Losses Master Forensic Audit",
+    "category": "phase_market",
+    "lines_count": 85
+  },
+  {
+    "path": "reports/PHASE91_LIVE_APEX35_TELEMETRY_REPORT.md",
+    "title": "\ud83d\udcdc Phase 91: Live APEX 3.5 Match Telemetry & Loss Forensics Report",
+    "category": "phase_market",
+    "lines_count": 60
+  },
+  {
+    "path": "reports/PHASE92_MID_TIER_LOSS_FINGERPRINT_REPORT.md",
+    "title": "\ud83d\udcdc Phase 92: 1100\u20131300 Live Loss Fingerprint & Divergence Report",
+    "category": "phase_market",
+    "lines_count": 95
+  },
+  {
+    "path": "reports/PHASE93_ELITE_CHAMPION_REVERSE_ENGINEERING_REPORT.md",
+    "title": "\ud83d\udcdc Phase 93: 3100+ Elite Winner Replay Reverse-Engineering Report",
+    "category": "phase_market",
+    "lines_count": 72
+  },
+  {
+    "path": "reports/PHASE94_CLEARANCE_MICRO_EDGE_REPORT.md",
+    "title": "\ud83d\udcdc Phase 94: Champion Clearance Micro-Edge Reconstruction Report",
+    "category": "phase_market",
+    "lines_count": 49
+  },
+  {
+    "path": "reports/PHASE95_DAILY_CLEARANCE_REVENUE_ATTRIBUTION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 95: Daily Clearance Revenue Attribution Report",
+    "category": "phase_market",
+    "lines_count": 65
+  },
+  {
+    "path": "reports/PHASE96_MICRO_EDGE_CAUSAL_VERIFICATION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 96: Micro-Edge Causal Factorial Verification Report",
+    "category": "phase_market",
+    "lines_count": 39
+  },
+  {
+    "path": "reports/PHASE97_FIRST_DIVERGENCE_RECONSTRUCTION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 97: Symmetric-Game First-Divergence Reconstruction Report",
+    "category": "phase_market",
+    "lines_count": 62
+  },
+  {
+    "path": "reports/PHASE98_MICRO_COMPOUNDING_REPORT.md",
+    "title": "\ud83d\udcdc Phase 98: Two-Arm Micro-Compounding Causal Report",
+    "category": "phase_market",
+    "lines_count": 39
+  },
+  {
+    "path": "reports/PHASE99_ENGINE_TIE_RESOLUTION_REPORT.md",
+    "title": "\ud83d\udcdc Phase 99: Engine-Level Tie-Resolution & Seat Asymmetry Report",
+    "category": "phase_market",
+    "lines_count": 42
+  },
+  {
+    "path": "reports/PHASE99_SEAT_SWAP_BENCHMARK_REPORT.md",
+    "title": "\ud83d\udcdc Phase 99: Controlled Seat-Swap Benchmark Report",
+    "category": "phase_market",
+    "lines_count": 33
+  },
+  {
+    "path": "reports/PHASE_1_5_TARGETED_GAP_FORENSICS.md",
+    "title": "\ud83d\udd2c PHASE 1.5 TARGETED GAP FORENSICS REPORT",
+    "category": "phase_market",
+    "lines_count": 60
+  },
+  {
+    "path": "reports/PROJECT_STATE.md",
+    "title": "\ud83c\udfdb\ufe0f PROJECT STATE & RESEARCH REGISTRY",
+    "category": "other",
+    "lines_count": 57
+  },
+  {
+    "path": "reports/REPLAY_STATE_DIVERGENCE_AUDIT.md",
+    "title": "\ud83d\udd2c REPLAY STATE DIVERGENCE AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 62
+  },
+  {
+    "path": "reports/REPORT.md",
+    "title": "\ud83c\udf3e Kaggle Agriculture 2026 \u2014 Comprehensive Master Report",
+    "category": "other",
+    "lines_count": 82
+  },
+  {
+    "path": "reports/RESEARCH_CYCLE_10_META_AUDIT.md",
+    "title": "\ud83e\udde0 RESEARCH COUNCIL CYCLE #10: META-AUDIT & REAL MARKET ACTION QUEUE",
+    "category": "audit_governance",
+    "lines_count": 43
+  },
+  {
+    "path": "reports/RESEARCH_CYCLE_11_META_AUDIT.md",
+    "title": "\ud83e\udde0 RESEARCH COUNCIL CYCLE #11: META-AUDIT & ACTIVE LIQUIDITY ENGINE QUEUE",
+    "category": "audit_governance",
+    "lines_count": 46
+  },
+  {
+    "path": "reports/RESEARCH_CYCLE_2_META_FORENSIC.md",
+    "title": "\ud83e\udde0 RESEARCH CYCLE #2: META-FORENSIC & OPPONENT REFLEXIVITY REPORT",
+    "category": "replay_forensics",
+    "lines_count": 52
+  },
+  {
+    "path": "reports/RESEARCH_CYCLE_3_OPPONENT_INTERACTION.md",
+    "title": "\ud83e\udde0 RESEARCH CYCLE #3: OPPONENT INTERACTION & PUBLIC-STATE REFLEXIVITY REPORT",
+    "category": "ml_apex",
+    "lines_count": 41
+  },
+  {
+    "path": "reports/RESEARCH_CYCLE_4_META_AUDIT.md",
+    "title": "\ud83e\udde0 RESEARCH CYCLE #4: META-AUDIT & RANKED OPPORTUNITY QUEUE",
+    "category": "audit_governance",
+    "lines_count": 41
+  },
+  {
+    "path": "reports/RESEARCH_CYCLE_5_META_AUDIT.md",
+    "title": "\ud83e\udde0 RESEARCH CYCLE #5: META-AUDIT & WIN-CONDITION OPPORTUNITY QUEUE",
+    "category": "audit_governance",
+    "lines_count": 42
+  },
+  {
+    "path": "reports/RESEARCH_CYCLE_6_META_AUDIT.md",
+    "title": "\ud83e\udde0 RESEARCH CYCLE #6: META-AUDIT & ADAPTIVE OPPORTUNITY QUEUE",
+    "category": "audit_governance",
+    "lines_count": 41
+  },
+  {
+    "path": "reports/RESEARCH_CYCLE_7_META_AUDIT.md",
+    "title": "\ud83e\udde0 RESEARCH COUNCIL CYCLE #7: META-AUDIT & ADAPTIVE QUEUE",
+    "category": "audit_governance",
+    "lines_count": 46
+  },
+  {
+    "path": "reports/RESEARCH_CYCLE_8_META_AUDIT.md",
+    "title": "\ud83e\udde0 RESEARCH COUNCIL CYCLE #8: META-AUDIT & LIQUIDITY MANAGEMENT QUEUE",
+    "category": "audit_governance",
+    "lines_count": 47
+  },
+  {
+    "path": "reports/RESEARCH_CYCLE_9_META_AUDIT.md",
+    "title": "\ud83e\udde0 RESEARCH COUNCIL CYCLE #9: META-AUDIT & ACTIVE RUNTIME QUEUE",
+    "category": "audit_governance",
+    "lines_count": 47
+  },
+  {
+    "path": "reports/RESEARCH_META_AUDIT.md",
+    "title": "TASK B: RESEARCH META-AUDIT (EXP-0113 THROUGH EXP-0120)",
+    "category": "audit_governance",
+    "lines_count": 40
+  },
+  {
+    "path": "reports/RESEARCH_RECONSTRUCTION_AUDIT.md",
+    "title": "\ud83d\udd2c ULTIMATE KAGRICULTURE RESEARCH RECONSTRUCTION REPORT",
+    "category": "audit_governance",
+    "lines_count": 197
+  },
+  {
+    "path": "reports/REVENUE_BOTTLENECK_DECOMPOSITION.md",
+    "title": "\ud83d\udd2c REVENUE BUCKET DECOMPOSITION & BOTTLENECK ISOLATION",
+    "category": "other",
+    "lines_count": 39
+  },
+  {
+    "path": "reports/RULE6_OBSERVABLE_FEASIBILITY_SIMULATION.md",
+    "title": "\ud83d\udd2c OBSERVABLE RULE-6 FEASIBILITY & SIMULATION REPORT",
+    "category": "other",
+    "lines_count": 72
+  },
+  {
+    "path": "reports/SAME_BAND_PAIR_AND_TRIPLE_WHEAT_GLUT_FORENSICS.md",
+    "title": "\ud83d\udd2c SAME-BAND PAIR & TRIPLE WHEAT-GLUT FORENSICS REPORT",
+    "category": "replay_forensics",
+    "lines_count": 78
+  },
+  {
+    "path": "reports/SIMULATOR_INCIDENT_AUDIT_EXP0136.md",
+    "title": "\ud83d\udea8 SIMULATOR INCIDENT AUDIT: EXP-0136 ANIMAL LIFECYCLE & DEPLOYMENT GAP",
+    "category": "experiments",
+    "lines_count": 69
+  },
+  {
+    "path": "reports/SPATIAL_POLICY_2_FORENSIC.md",
+    "title": "\ud83d\udd2c SPATIAL_POLICY-2: PHASE 1 DISSECTION & PATH RECONCILIATION REPORT",
+    "category": "replay_forensics",
+    "lines_count": 39
+  },
+  {
+    "path": "reports/SPATIAL_POLICY_3_REPORT.md",
+    "title": "\ud83e\udde0 SPATIAL_POLICY-3: SEMANTIC TASK COORDINATOR REPORT",
+    "category": "other",
+    "lines_count": 42
+  },
+  {
+    "path": "reports/SPATIAL_POLICY_4_MACRO_REPORT.md",
+    "title": "\ud83e\udde0 SPATIAL_POLICY-4: MACRO SEMANTIC COORDINATOR ARCHITECTURE REPORT",
+    "category": "other",
+    "lines_count": 42
+  },
+  {
+    "path": "reports/SPATIAL_POLICY_5_ARCHITECTURE.md",
+    "title": "\ud83e\udde0 SPATIAL_POLICY-5: PURE CLOSED-LOOP RESEARCH ENGINE ARCHITECTURE",
+    "category": "other",
+    "lines_count": 43
+  },
+  {
+    "path": "reports/SPATIAL_POLICY_FORENSIC.md",
+    "title": "\ud83d\udd2c SPATIAL_POLICY-1: DYNAMIC WORKER ROUTING FORENSIC REPORT",
+    "category": "replay_forensics",
+    "lines_count": 43
+  },
+  {
+    "path": "reports/STRONG_OPPONENT_COMPETITIVE_REGISTRY.md",
+    "title": "\ud83d\udd2c STRONG OPPONENT COMPETITIVE REGISTRY & BENCHMARK MATRIX",
+    "category": "ml_apex",
+    "lines_count": 28
+  },
+  {
+    "path": "reports/STRONG_WIN_91284757_DISSECTION.md",
+    "title": "\ud83d\udd2c DEEP 4-WAY COMPARATIVE DISSECTION REPORT: STRONG WIN `91284757.json`",
+    "category": "replay_forensics",
+    "lines_count": 56
+  },
+  {
+    "path": "reports/SUPER_MATCH_91282058_DISSECTION.md",
+    "title": "\ud83d\udd2c DEEP DISSECTION: COMPETITIVE SUPER-MATCH (`91282058.json`)",
+    "category": "replay_forensics",
+    "lines_count": 61
+  },
+  {
+    "path": "reports/ULTIMATE_KAGGLE_SURVIVAL_GAUNTLET_REPORT.md",
+    "title": "\ud83d\udd2c ULTIMATE 12-TIER KAGGLE RESEARCH SURVIVAL GAUNTLET REPORT",
+    "category": "other",
+    "lines_count": 90
+  },
+  {
+    "path": "reports/V10_ECONOMIC_MPC_AUDIT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V10 ECONOMIC MPC AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 75
+  },
+  {
+    "path": "reports/V11_DISTRIBUTIONAL_MPC_AUDIT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V11 DISTRIBUTIONAL MPC AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 71
+  },
+  {
+    "path": "reports/V12_META_CONTROLLER_STRESS_AUDIT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V12 META-WEIGHT STRESS AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 76
+  },
+  {
+    "path": "reports/V13_FINAL_SUBMISSION_INTEGRITY_AUDIT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V13 FINAL SUBMISSION INTEGRITY REPORT",
+    "category": "audit_governance",
+    "lines_count": 45
+  },
+  {
+    "path": "reports/V13_GAME_THEORETIC_MPC_AUDIT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V13 GAME-THEORETIC MPC AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 76
+  },
+  {
+    "path": "reports/V13_GENERALIZATION_GAUNTLET_AUDIT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V13 GENERALIZATION GAUNTLET AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 67
+  },
+  {
+    "path": "reports/V4_VS_V3_EMPIRICAL_HEAD_TO_HEAD_AUDIT.md",
+    "title": "\ud83d\udd2c V4 VS V3 EMPIRICAL HEAD-TO-HEAD BENCHMARK AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 64
+  },
+  {
+    "path": "reports/V6_TRAJECTORY_AWARE_HEAD_TO_HEAD_AUDIT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V6 TRAJECTORY-AWARE AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 69
+  },
+  {
+    "path": "reports/V7_WEALTH_CEILING_BREAKER_AUDIT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V7 WEALTH CEILING BREAKER REPORT",
+    "category": "audit_governance",
+    "lines_count": 73
+  },
+  {
+    "path": "reports/V8_COUNTERFACTUAL_CEILING_UNLOCK_AUDIT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V8 COUNTERFACTUAL ENGINE AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 74
+  },
+  {
+    "path": "reports/V9_RECURSIVE_BOTTLENECK_AUDIT.md",
+    "title": "\ud83d\udd2c COMPETITIVE HYBRID V9 RECURSIVE BOTTLENECK AUDIT REPORT",
+    "category": "audit_governance",
+    "lines_count": 74
+  },
+  {
+    "path": "reports/step5b/CONTINUOUS_STRATEGY_CONTROL_FEASIBILITY.md",
+    "title": "Continuous Strategy-Control Feasibility Audit",
+    "category": "ml_apex",
+    "lines_count": 84
+  },
+  {
+    "path": "reports/step5b/PPO_KAGGLE_POSTMORTEM.md",
+    "title": "Step 5B PPO Kaggle Postmortem",
+    "category": "ml_apex",
+    "lines_count": 48
+  },
+  {
+    "path": "reports/step5b/PREMIUM_CONTROL_AUDIT.md",
+    "title": "PREMIUM Control Audit",
+    "category": "audit_governance",
+    "lines_count": 91
+  },
+  {
+    "path": "reports/step5b/STRATEGY_INTERFACE_DESIGN_AUDIT.md",
+    "title": "Step 5B Strategy Interface Design Audit",
+    "category": "audit_governance",
+    "lines_count": 148
+  },
+  {
+    "path": "reports/step5b/STRATEGY_PROFILE_TARGET_AUDIT.md",
+    "title": "PREMIUM / WHEAT_RUSH Profile Target Audit",
+    "category": "audit_governance",
+    "lines_count": 112
+  },
+  {
+    "path": "reports/step5b/STRATEGY_REWARD_DIAGNOSTIC.md",
+    "title": "Step 5B Frozen Strategy Reward Diagnostic",
+    "category": "ml_apex",
+    "lines_count": 675
+  },
+  {
+    "path": "reports/step5b/STRATEGY_SCHEDULE_DESIGN.md",
+    "title": "Step 5B Strategy Schedule Design",
+    "category": "ml_apex",
+    "lines_count": 31
+  },
+  {
+    "path": "reports/step5b/V18_STRATEGY_LAYER_DESIGN.md",
+    "title": "Fixed-v18 Strategy Layer Design",
+    "category": "ml_apex",
+    "lines_count": 54
+  },
+  {
+    "path": "reports/step5b/late_game_economy_audit/DIAGNOSTIC_SUMMARY.md",
+    "title": "Diagnostic-Only Historical Loss and Late-Game Economy Audit",
+    "category": "audit_governance",
+    "lines_count": 78
+  },
+  {
+    "path": "reports/step5b/learning_pilot_500/PPO_LEARNING_DYNAMICS_ANALYSIS.md",
+    "title": "Step 5B PPO Learning Dynamics Analysis",
+    "category": "ml_apex",
+    "lines_count": 148
+  },
+  {
+    "path": "reports/step5b/market_timing_diagnostic/MARKET_TIMING_DIAGNOSTIC.md",
+    "title": "Market Timing Diagnostic",
+    "category": "ml_apex",
+    "lines_count": 39
+  },
+  {
+    "path": "reports/step5b/milk_sell_counterfactual/MILK_SELL_COUNTERFACTUAL.md",
+    "title": "Milk Sell-Timing Counterfactual",
+    "category": "ml_apex",
+    "lines_count": 29
+  }
+]

@@ -15,12 +15,6 @@ Principles-First Observation-Driven Architecture:
    - Zero replay tapes, zero hardcoded August schedules.
 """
 from __future__ import annotations
-_OPP_STRAWBERRIES = 0
-_OPP_STRAWBERRIES_LOCKED = False
-_POTENTIAL_STRAWBERRY_RISK = False
-_FLOOD_CONFIRMED = False
-_FLOOD_CONFIRMED_DAY = None
-_PREV_STRAW_INV = 10000
 
 import math
 
@@ -93,13 +87,13 @@ DEFAULT_STRATEGY = {
     'livestock_strawberries': 34,
     'livestock_tomatoes': 0,
     'ongoing_harvest_threshold': 3,
-    'opening_animals': 2,
+    'opening_animals': 0,
     'opening_carrots': 2,
-    'opening_cows': 2,
+    'opening_cows': None,
     'opening_melon_day0_cap': None,
     'opening_melon_early_cap': None,
     'opening_melons': 9,
-    'opening_sheep': 0,
+    'opening_sheep': None,
     'opening_wheat': 10,
     'premium_animal_cap': 3,
     'premium_cash_reserve': 250,
@@ -403,35 +397,202 @@ def _evaluate_crop_scores(day, prices):
     return scores
 
 
+# --- RC3-A laboratory: market-saturation-aware marginal crop portfolio ---
+# RC2 remains untouched in the live submission.  This function is only for the
+# laboratory branch and can be swapped back out without changing Hands.
+
+_MARKET_CURVES = {
+    "WHEAT": {"base": 25, "I0": 10000, "T": 400, "below": ("sqrt", 0.80), "above": ("log", 0.20)},
+    "CARROT": {"base": 35, "I0": 10000, "T": 450, "below": ("log", 0.20), "above": ("sqrt", 0.70)},
+    "TOMATO": {"base": 60, "I0": 10000, "T": 200, "below": ("linear", 0.40), "above": ("sqrt", 0.60)},
+    "STRAWBERRY": {"base": 120, "I0": 10000, "T": 100, "below": ("sqrt", 0.70), "above": ("linear", 1.60)},
+    "MELON": {"base": 250, "I0": 10000, "T": 300, "below": ("log", 0.20), "above": ("sq", 3.60)},
+}
+
+
+def _curve_shape(name, x):
+    x = max(0.0, float(x))
+    if name == "linear":
+        return x
+    if name == "sq":
+        return x * x
+    if name == "sqrt":
+        return math.sqrt(x)
+    if name == "log":
+        return math.log1p(x)
+    if name == "log10":
+        return math.log10(1.0 + x)
+    return x
+
+
+def _rc3_market_price(item, inventory):
+    spec = _MARKET_CURVES[item]
+    base = float(spec["base"])
+    i0 = float(spec["I0"])
+    T = float(spec["T"])
+    side = "below" if float(inventory) < i0 else "above"
+    func, target = spec[side]
+    denom = _curve_shape(func, T)
+    amp = (target * base / denom) if denom > 0 else 0.0
+    delta = _curve_shape(func, abs(float(inventory) - i0))
+    raw = base + amp * delta if side == "below" else base - amp * delta
+    return max(1, int(round(raw)))
+
+
+# Live shared-market state used only by the RC3 laboratory planner.
+_RC3_LIVE_MARKET_INVENTORY = {}
+_RC3_LIVE_TOWN_SHOPS = []
+
+_RC3_SHOP_DEMAND = {
+    "BAKERY": {"EGG": 1, "WHEAT": 1},
+    "PIZZA_SHOP": {"MILK": 1, "TOMATO": 1, "WHEAT": 1},
+    "BRUNCH_SPOT": {"EGG": 1, "WHEAT": 1, "STRAWBERRY": 1},
+    "YARN_STORE": {"WOOL": 2},
+    "ICE_CREAM_SHOP": {"STRAWBERRY": 1, "MILK": 1, "WHEAT": 1},
+    "PET_CAFE": {"CARROT": 2},
+    "SMOOTHIE_SHOP": {"STRAWBERRY": 1, "MILK": 1},
+    "FARMERS_MARKET": {"WHEAT": 1, "CARROT": 1, "TOMATO": 1, "STRAWBERRY": 1},
+}
+
+
+def _rc3_market_inventory():
+    return _RC3_LIVE_MARKET_INVENTORY if isinstance(_RC3_LIVE_MARKET_INVENTORY, dict) else {}
+
+
+def _rc3_daily_town_demand(product):
+    """Estimate one game's daily town drain for a product from visible shop instances.
+
+    The default engine cadence is one town-center unit/day plus six shop ticks/day
+    (24 turns/day divided by four turns/shop tick). Single-product shop demands are
+    represented explicitly as 2x in the shop table above."""
+    product = str(product).upper()
+    daily = 1.0  # town center: one unit per non-fertilizer product per day
+    for shop in (_RC3_LIVE_TOWN_SHOPS or []):
+        demand = _RC3_SHOP_DEMAND.get(str(shop).upper(), {})
+        daily += 6.0 * float(demand.get(product, 0.0))
+    return daily
+
+
+def _rc3_projected_output_per_plot(crop, day):
+    spec = CROPS[crop]
+    remaining_days = max(1, 29 - day)
+    first = int(spec["first"])
+    max_day = int(spec["max_day"])
+    if remaining_days < first or day > int(spec.get("last_plant", 24)):
+        return 0.0
+    if spec["ongoing"]:
+        cycles = 1 + max(0, (remaining_days - first) // 2)
+        return float(cycles * spec["max_yield"])
+    cycles = max(1, remaining_days // max_day)
+    return float(cycles * spec["max_yield"])
+
+
+def _rc3_cost_per_plot(crop, day):
+    spec = CROPS[crop]
+    remaining_days = max(1, 29 - day)
+    first = int(spec["first"])
+    max_day = int(spec["max_day"])
+    if remaining_days < first or day > int(spec.get("last_plant", 24)):
+        return 1e9
+    labor_rate = 12.0
+    if spec["ongoing"]:
+        return float(spec["seed"]) + remaining_days * labor_rate
+    cycles = max(1, remaining_days // max_day)
+    active_days = cycles * max_day
+    return float(cycles * spec["seed"] + active_days * labor_rate)
+
+
+def _rc3_harvest_schedule(crop, day):
+    spec = CROPS[crop]
+    remaining_days = max(1, 29 - day)
+    first = int(spec["first"])
+    interval = int(spec["max_day"])
+    events = []
+    if spec["ongoing"]:
+        t = first
+        while t <= remaining_days:
+            events.append((t, int(spec["max_yield"])))
+            t += 2
+    else:
+        t = interval
+        while t <= remaining_days:
+            events.append((t, int(spec["max_yield"])))
+            t += interval
+    return events
+
+
+def _rc3_sell_batch(item, inventory, quantity):
+    """Exact per-unit sell revenue under the engine's pre-sell price rule."""
+    inv = int(round(inventory))
+    revenue = 0.0
+    for _ in range(max(0, int(quantity))):
+        p = float(_rc3_market_price(item, inv))
+        revenue += p
+        # At the floor the engine does not keep adding inventory, but the sale
+        # still pays the floor price.  For p>1, the unit enters market inventory.
+        if p > 1:
+            inv += 1
+    return revenue, inv
+
+
+def _rc3_projected_terminal_value(crop, n, day, market_inventory):
+    """Approximate net value by replaying crop harvests against town demand."""
+    n = int(n)
+    if n <= 0:
+        return 0.0
+    events = _rc3_harvest_schedule(crop, day)
+    if not events:
+        return -1e18
+
+    inv = float(market_inventory)
+    revenue = 0.0
+    event_by_day = {}
+    for rel_day, qty_per_plot in events:
+        event_by_day.setdefault(rel_day, 0)
+        event_by_day[rel_day] += qty_per_plot * n
+
+    # Advance one day at a time so the observed town sink gets time to refill
+    # premium markets before our next harvest.  This is a planning heuristic,
+    # not a claim of exact future market state.
+    for rel_day in range(1, max(k for k, _ in events) + 1):
+        demand = _rc3_daily_town_demand(crop)
+        inv = max(0.0, inv - demand)
+        qty = event_by_day.get(rel_day, 0)
+        if qty:
+            sale_rev, inv_after = _rc3_sell_batch(crop, inv, qty)
+            revenue += sale_rev
+            inv = float(inv_after)
+
+    cost = n * _rc3_cost_per_plot(crop, day)
+    return revenue - cost
+
+
+def _rc3_marginal_value(crop, next_n, day, market_inventory):
+    return (_rc3_projected_terminal_value(crop, next_n, day, market_inventory)
+            - _rc3_projected_terminal_value(crop, next_n - 1, day, market_inventory))
+
+
+
 def _crop_plan(day):
-    """Dynamic economic crop allocation derived from live prices and animal feed demands."""
+    """RC3-A: market-aware marginal portfolio with RC2 opening intact."""
     if day < int(STRATEGY.get("crop_transition_day", 5)):
         return OPENING_CROP_PLAN
 
     prices = _LATEST_PRICES
-    p_wheat = float(prices.get("WHEAT", 25.0) or 25.0)
     animal_plan = _animal_plan()
-    
-    # 1. Dynamic feed plot requirement derived from living herd & commercial town demand
+    market_inv = _rc3_market_inventory()
+    p_wheat = float(prices.get("WHEAT", 25.0) or 25.0)
+
+    # Preserve the RC2 feed requirement for the laboratory's first isolation.
     num_animals = len(animal_plan) if day >= 10 else (4 if day >= 6 else 2)
     feed_wheat_plots = max(4, math.ceil(num_animals / 1.5))
     surplus_wheat_plots = 3 if p_wheat >= 32.0 else 0
     total_wheat_plots = feed_wheat_plots + surplus_wheat_plots
-    
-    # 2. Evaluate competing cash crops (Terminal Horizon LTV)
-    crop_scores = _evaluate_crop_scores(day, prices)
-    # Sort non-wheat crops by terminal profitability
-    cash_candidates = [c for c in ("STRAWBERRY", "MELON", "CARROT", "TOMATO") if crop_scores.get(c, -999.0) > 0]
-    cash_candidates.sort(key=lambda c: crop_scores.get(c, -999.0), reverse=True)
-    primary_cash_crop = cash_candidates[0] if cash_candidates else "CARROT"
-    secondary_cash_crop = cash_candidates[1] if len(cash_candidates) > 1 else "CARROT"
 
-    # 3. Formulate tile plan
-    # Retain dedicated melon plots only as long as Melon has positive feasible horizon score
     plan = {}
-    if crop_scores.get("MELON", -999.0) > 0:
+    if _evaluate_crop_scores(day, prices).get("MELON", -999.0) > 0:
         plan = {pos: crop for pos, crop in OPENING_CROP_PLAN.items() if crop == "MELON"}
-        
+
     candidates = [
         (x, y)
         for y in range(10)
@@ -441,38 +602,38 @@ def _crop_plan(day):
         and (x, y) not in plan
     ]
     candidates.sort(key=lambda p: (abs(p[0] - 4.5) + abs(p[1] - 4.5), p[1], p[0]))
-    
-    # A. Allocate feed & commercial wheat plots
+
+    # Fixed feed wheat remains isolated in RC3-A; only commercial slots are
+    # subject to the new market-aware optimizer.
     for pos in candidates[:total_wheat_plots]:
         plan[pos] = "WHEAT"
-        
-    # B. Allocate primary cash crop (85% of remaining arable plots)
+
     rem = candidates[total_wheat_plots:]
-    primary_quota = max(0, int(len(rem) * 0.85))
+    cash_crops = ("STRAWBERRY", "MELON", "CARROT", "TOMATO")
+    counts = {c: 0 for c in cash_crops}
+    for _ in rem:
+        scored = []
+        for crop in cash_crops:
+            q = _rc3_projected_output_per_plot(crop, day)
+            if q <= 0:
+                continue
+            base_inv = float(market_inv.get(crop, _MARKET_CURVES[crop]["I0"]))
+            mv = _rc3_marginal_value(crop, counts[crop] + 1, day, base_inv)
+            # Current observed price remains a soft tie-breaker for near-equal
+            # curves, preventing numerical ties from becoming arbitrary.
+            spot = float(prices.get(crop, _MARKET_CURVES[crop]["base"]) or _MARKET_CURVES[crop]["base"])
+            scored.append((mv, spot, crop))
+        if not scored:
+            break
+        _, _, chosen = max(scored)
+        counts[chosen] += 1
 
-    # RC4.1-Clean: Forecast -> Realized Market Pressure -> Act (Policy C: 2-Plot Reservation)
-    if primary_cash_crop == "STRAWBERRY" and day >= 11:
-        if globals().get("_POTENTIAL_STRAWBERRY_RISK", False):
-            if globals().get("_FLOOD_CONFIRMED", False):
-                safe_quota = 10
-            else:
-                safe_quota = 24  # Minimal 2-plot optionality reservation
-            primary_quota = min(primary_quota, safe_quota)
-
-    for pos in rem[:primary_quota]:
-        plan[pos] = primary_cash_crop
-        
-    # C. Allocate remaining plots to diversification buffer (RC4.2 Hybrid: 1 Carrot + 1 Wheat after confirmation)
-    flex_rem = rem[primary_quota:]
-    if globals().get("_FLOOD_CONFIRMED", False) and len(flex_rem) >= 2:
-        plan[flex_rem[0]] = secondary_cash_crop
-        plan[flex_rem[1]] = "WHEAT"
-        for pos in flex_rem[2:]:
-            plan[pos] = secondary_cash_crop
-    else:
-        for pos in flex_rem:
-            plan[pos] = secondary_cash_crop
-        
+    idx = 0
+    for crop, count in counts.items():
+        for _ in range(count):
+            if idx < len(rem):
+                plan[rem[idx]] = crop
+                idx += 1
     return plan
 
 def _animal_plan():
@@ -586,9 +747,9 @@ def _animal_site_active(pos, day, unlocked):
     """Stage livestock growth so labour and feed can grow before the herd."""
     x, y = pos
     if x < 5 and y < 5:
-        return True
+        return day >= 4
     if x >= 5 and y < 5:
-        return "NE" in unlocked and day >= 6
+        return "NE" in unlocked and day >= 7
     if x < 5 and y >= 5:
         return "SW" in unlocked and day >= 9
     return False
@@ -693,11 +854,11 @@ def _build_tasks(obs, positions, inventories):
                     tasks.append(_task(urgent, (x, y), ["FEED"], "WHEAT", "feed", ev))
                 if int(tile.get("yield_units", 0)) > 0:
                     p_unit = p_milk if anim == "COW" else p_wool
-                    ev = int(tile.get("yield_units", 1)) * p_unit * 1.5
+                    ev = int(tile.get("yield_units", 1)) * p_unit * 0.95
                     tasks.append(_task(1, (x, y), ["HARVEST"], None, "harvest", ev))
                 if not tile.get("cared_today", False) and day < 29:
                     p_unit = p_milk if anim == "COW" else p_wool
-                    ev = p_unit * 1.5
+                    ev = p_unit * 0.95
                     tasks.append(_task(2, (x, y), ["CARE"], None, "care", ev))
                 if tile.get("fertilizer_available", False):
                     tasks.append(_task(4, (x, y), ["COLLECT_FERTILIZER"], None, "fertilizer", p_fert * 0.95))
@@ -989,11 +1150,14 @@ def _quadrant_crop_deficits(obs):
 
 def _hire_target(day):
     """Dynamic labor requirement sized to active workload (plants + animals)."""
-    if day <= 1: return 4
-    if day <= 4: return 5
-    if day <= 7: return 7
-    if day <= 11: return 9
-    if day <= 28: return 12
+    # Base labor ramp: smooth early ramp to prevent wage shock
+    if day == 0: return 2
+    if day == 1: return 2
+    if day <= 3: return 3
+    if day <= 6: return 5
+    if day <= 9: return 7
+    if day <= 14: return 9
+    if day <= 28: return 11
     return 6
 
 
@@ -1015,33 +1179,15 @@ def _safe_buy_price(price):
 
 
 def _observe_opponent(obs):
-    global _OPPONENT_STYLE, _EXPERT_EVIDENCE, _MARKET_ANIMAL_SHARE, _OPP_STRAWBERRIES, _OPP_STRAWBERRIES_LOCKED
-    global _POTENTIAL_STRAWBERRY_RISK, _FLOOD_CONFIRMED, _FLOOD_CONFIRMED_DAY, _PREV_STRAW_INV
+    global _OPPONENT_STYLE, _EXPERT_EVIDENCE, _MARKET_ANIMAL_SHARE
     day = int(_get(obs, "day", 0))
     hour = int(_get(obs, "hour", 0))
     if day == 0 and hour == 0:
         _OPPONENT_STYLE = None
         _EXPERT_EVIDENCE = {}
         _MARKET_ANIMAL_SHARE = None
-        _OPP_STRAWBERRIES = 0
-        _OPP_STRAWBERRIES_LOCKED = False
-        _POTENTIAL_STRAWBERRY_RISK = False
-        _FLOOD_CONFIRMED = False
-        _FLOOD_CONFIRMED_DAY = None
-        _PREV_STRAW_INV = 10000
     market = _get(obs, "market", {}) or {}
     prices = _get(market, "prices", {}) or {}
-    inventory = _get(market, "inventory", {}) or {}
-
-    # RC4.1-Clean: Stage 3 Realized Market Inventory Response (Threshold: 9,935 with ΔI > 0 on Day 15+)
-    inv_straw = int(inventory.get("STRAWBERRY", 10000))
-    delta_inv = inv_straw - _PREV_STRAW_INV
-    _PREV_STRAW_INV = inv_straw
-    if _POTENTIAL_STRAWBERRY_RISK and day >= 15 and not _FLOOD_CONFIRMED:
-        if inv_straw >= 9935 and delta_inv > 0:
-            _FLOOD_CONFIRMED = True
-            _FLOOD_CONFIRMED_DAY = day
-
     cow_roi = max(1.0, float(prices.get("MILK", 160))) / float(ANIMALS["COW"]["cost"])
     sheep_roi = max(1.0, float(prices.get("WOOL", 200))) / float(ANIMALS["SHEEP"]["cost"])
     sensitivity = max(0.1, float(STRATEGY.get("animal_price_sensitivity", 2.0)))
@@ -1057,14 +1203,6 @@ def _observe_opponent(obs):
     plants = sum(tile.get("kind") == "PLANT" for tile in tiles)
     wheat = sum(tile.get("crop") == "WHEAT" for tile in tiles)
     strawberries = sum(tile.get("crop") == "STRAWBERRY" for tile in tiles)
-    # Strict temporal boundary: Lock opponent strawberry exposure at Day 11 Hour 0!
-    if not globals().get("_OPP_STRAWBERRIES_LOCKED", False):
-        if day < 11 or (day == 11 and hour == 0):
-            _OPP_STRAWBERRIES = strawberries
-            if day == 11 and hour == 0 and _OPP_STRAWBERRIES >= 16:
-                _POTENTIAL_STRAWBERRY_RISK = True
-        else:
-            _OPP_STRAWBERRIES_LOCKED = True
     cows = sum(tile.get("animal") == "COW" for tile in tiles)
     sheep = sum(tile.get("animal") == "SHEEP" for tile in tiles)
     animals = sum(tile.get("animal") in ANIMALS for tile in tiles)
@@ -1093,7 +1231,7 @@ def _observe_opponent(obs):
 
 
 def _animal_purchase_cap():
-    return 4
+    return 2
 
 
 def _market_orders(obs):
@@ -1126,12 +1264,8 @@ def _market_orders(obs):
     for item in SELLABLE:
         quantity = int(shed.get(item, 0))
         if quantity > 0:
-            p = float(prices.get(item, 1))
-            # Protect against catastrophic fire-sale market dumps (< $25) before Day 28 liquidation
-            if day < 28 and p < 25.0:
-                continue
             orders.append(["SELL", item, quantity])
-            unit_val = p * 0.95
+            unit_val = float(prices.get(item, 1)) * 0.95
             budget += quantity * unit_val
             if item == "MILK": _MATCH_LEDGER["milk_revenue"] += quantity * unit_val
             elif item == "WOOL": _MATCH_LEDGER["wool_revenue"] += quantity * unit_val
@@ -1141,8 +1275,7 @@ def _market_orders(obs):
     counts = _asset_counts(obs)
     animal_count = sum(counts.values())
     wheat_shed = int(shed.get("WHEAT", 0))
-    # Two-Stage Graduated Wheat Liquidation (Day 28: 1 feed buffer, Day 29: full liquidation)
-    wheat_feed_buffer = 0 if day >= 29 else (animal_count if day >= 28 else (animal_count * 2 + 2))
+    wheat_feed_buffer = 0 if day >= 29 else (animal_count * 2 + 2)
     wheat_surplus = max(0, wheat_shed - wheat_feed_buffer)
     if wheat_surplus > 0 and len(orders) < MAX_ORDERS:
         orders.append(["SELL", "WHEAT", wheat_surplus])
@@ -1166,7 +1299,7 @@ def _market_orders(obs):
     target_hires = _hire_target(day)
     already = int(_get(farm, "hires_today", 0))
     hire_costs = _hire_costs(target_hires, already)
-    critical_target = min(target_hires, 4 if day <= 1 else 5 if day <= 4 else 7 if day <= 7 else 9 if day <= 11 else 12)
+    critical_target = min(target_hires, 2 if day <= 1 else 3 if day <= 4 else 5 if day <= 8 else 8 if day <= 14 else 10)
     critical_costs = _hire_costs(critical_target, already)
     hired_costs = 0
     for cost in critical_costs:
@@ -1207,7 +1340,7 @@ def _market_orders(obs):
     land_reserve = 800 if day <= 10 else 1200
     if len(unlocked) == 1 and day >= 6 and "NE" not in unlocked and budget >= 1000 + land_reserve:
         land_cost = 1000
-    elif len(unlocked) == 2 and day >= 9 and "SW" not in unlocked and budget >= 2000 + land_reserve:
+    elif len(unlocked) == 2 and day >= 10 and "SW" not in unlocked and budget >= 2000 + land_reserve:
         land_cost = 2000
 
     if land_cost > 0 and len(unlocked) < 3 and len(orders) < MAX_ORDERS:
@@ -1226,10 +1359,7 @@ def _market_orders(obs):
 
     remaining_animal_slots = _animal_purchase_cap()
     shed_animals = int(shed.get("COW", 0)) + int(shed.get("SHEEP", 0))
-    opp_money = float(_get(_get(obs, "farms", [])[1 - player], "money", 0))
     for animal in ("COW", "SHEEP"):
-        # Armored Horizon Gate: Never buy animals after Day 10 if rival has > $8,000 cash (market dump risk)
-        if day > 10 and opp_money > 8000: break
         needed = max(0, target_counts[animal] - counts[animal])
         if needed <= 0 or remaining_days < 7: continue
         
@@ -1270,7 +1400,11 @@ def agent(obs):
     try:
         global _LATEST_PRICES
         if isinstance(obs, dict):
-            _LATEST_PRICES = (obs.get("market", {}) or {}).get("prices", {}) or {}
+            market = (obs.get("market", {}) or {})
+            _LATEST_PRICES = market.get("prices", {}) or {}
+            global _RC3_LIVE_MARKET_INVENTORY, _RC3_LIVE_TOWN_SHOPS
+            _RC3_LIVE_MARKET_INVENTORY = market.get("inventory", {}) or {}
+            _RC3_LIVE_TOWN_SHOPS = ((obs.get("town", {}) or {}).get("unlocked_shops", []) or [])
         elif hasattr(obs, "market"):
             _LATEST_PRICES = getattr(obs.market, "prices", {}) or {}
         _observe_opponent(obs)

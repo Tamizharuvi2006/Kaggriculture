@@ -1115,8 +1115,8 @@ def _market_orders(obs):
     p_fert = float(prices.get("FERTILIZER", 40.0) or 40.0)
     fertilizer = int(shed.get("FERTILIZER", 0))
     
-    # If strawberry price < 60, fertilizing strawberries has lower ROI than selling fertilizer at $40-$50!
-    fert_reserve = min(fertilizer, len(_fertilizer_positions(obs))) if p_straw >= 70.0 and day <= 24 else 0
+    # Active Fertilizer Monetization: reserve up to 14 for 100% strawberry protection, monetize all surplus!
+    fert_reserve = min(fertilizer, min(14, len(_fertilizer_positions(obs)))) if p_straw >= 70.0 and day <= 24 else 0
     fert_sale = max(0, fertilizer - fert_reserve)
     if fert_sale > 0:
         orders.append(["SELL", "FERTILIZER", fert_sale])
@@ -1141,7 +1141,7 @@ def _market_orders(obs):
     counts = _asset_counts(obs)
     animal_count = sum(counts.values())
     wheat_shed = int(shed.get("WHEAT", 0))
-    # Two-Stage Graduated Wheat Liquidation (Day 28: 1 feed buffer, Day 29: full liquidation)
+    # Day 28-29 Wheat Liquidation: safe 2-day buffer during season, 1-day buffer on Day 28, 0 on Day 29!
     wheat_feed_buffer = 0 if day >= 29 else (animal_count if day >= 28 else (animal_count * 2 + 2))
     wheat_surplus = max(0, wheat_shed - wheat_feed_buffer)
     if wheat_surplus > 0 and len(orders) < MAX_ORDERS:
@@ -1226,10 +1226,19 @@ def _market_orders(obs):
 
     remaining_animal_slots = _animal_purchase_cap()
     shed_animals = int(shed.get("COW", 0)) + int(shed.get("SHEEP", 0))
-    opp_money = float(_get(_get(obs, "farms", [])[1 - player], "money", 0))
+    # Dynamic Herd Carrying Capacity check:
+    tiles = farm.get("tiles", [])
+    wheat_plots = sum(1 for r in tiles for t in r if isinstance(t, dict) and t.get("crop") == "WHEAT")
+    current_herd = counts["COW"] + counts["SHEEP"]
+    max_carrying_capacity = max(4, int(wheat_plots * 1.5))
+
     for animal in ("COW", "SHEEP"):
-        # Armored Horizon Gate: Never buy animals after Day 10 if rival has > $8,000 cash (market dump risk)
-        if day > 10 and opp_money > 8000: break
+        # Amortization Horizon: Hard cutoff after Day 11
+        if day > 11: break
+        # On Day 11: Ultra-Affluent Cow Gate (budget >= 10000, Cows only, herd <= capacity)
+        if day == 11:
+            if animal != "COW" or budget < 10000 or current_herd >= max_carrying_capacity:
+                continue
         needed = max(0, target_counts[animal] - counts[animal])
         if needed <= 0 or remaining_days < 7: continue
         

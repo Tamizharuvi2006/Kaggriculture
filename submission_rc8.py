@@ -476,7 +476,7 @@ def _crop_plan(day):
     return plan
 
 def _animal_plan():
-    return _build_animal_plan(8, 4)
+    return _build_animal_plan(8, 2)
 
 
 def _style_setting(base):
@@ -989,10 +989,10 @@ def _quadrant_crop_deficits(obs):
 
 def _hire_target(day):
     """Dynamic labor requirement sized to active workload (plants + animals)."""
-    if day <= 1: return 4
-    if day <= 4: return 5
+    if day <= 2: return 3
+    if day <= 5: return 5
     if day <= 7: return 7
-    if day <= 11: return 9
+    if day <= 10: return 9
     if day <= 28: return 12
     return 6
 
@@ -1127,8 +1127,8 @@ def _market_orders(obs):
         quantity = int(shed.get(item, 0))
         if quantity > 0:
             p = float(prices.get(item, 1))
-            # Protect against catastrophic fire-sale market dumps (< $25) before Day 28 liquidation
-            if day < 28 and p < 25.0:
+            # Protect against catastrophic $1 dumps before Day 28 liquidation
+            if day < 28 and p < 30.0:
                 continue
             orders.append(["SELL", item, quantity])
             unit_val = p * 0.95
@@ -1141,8 +1141,7 @@ def _market_orders(obs):
     counts = _asset_counts(obs)
     animal_count = sum(counts.values())
     wheat_shed = int(shed.get("WHEAT", 0))
-    # Two-Stage Graduated Wheat Liquidation (Day 28: 1 feed buffer, Day 29: full liquidation)
-    wheat_feed_buffer = 0 if day >= 29 else (animal_count if day >= 28 else (animal_count * 2 + 2))
+    wheat_feed_buffer = 0 if day >= 29 else (animal_count * 2 + 2)
     wheat_surplus = max(0, wheat_shed - wheat_feed_buffer)
     if wheat_surplus > 0 and len(orders) < MAX_ORDERS:
         orders.append(["SELL", "WHEAT", wheat_surplus])
@@ -1166,7 +1165,7 @@ def _market_orders(obs):
     target_hires = _hire_target(day)
     already = int(_get(farm, "hires_today", 0))
     hire_costs = _hire_costs(target_hires, already)
-    critical_target = min(target_hires, 4 if day <= 1 else 5 if day <= 4 else 7 if day <= 7 else 9 if day <= 11 else 12)
+    critical_target = min(target_hires, 3 if day <= 2 else 5 if day <= 5 else 7 if day <= 7 else 9 if day <= 10 else 12)
     critical_costs = _hire_costs(critical_target, already)
     hired_costs = 0
     for cost in critical_costs:
@@ -1204,10 +1203,10 @@ def _market_orders(obs):
 
     # === 4. ACCELERATED LAND EXPANSION (Max 3 Quadrants: NW, NE, SW) ===
     land_cost = 0
-    land_reserve = 800 if day <= 10 else 1200
-    if len(unlocked) == 1 and day >= 6 and "NE" not in unlocked and budget >= 1000 + land_reserve:
+    land_reserve = 1000
+    if len(unlocked) == 1 and day >= 8 and "NE" not in unlocked and budget >= 1000 + land_reserve:
         land_cost = 1000
-    elif len(unlocked) == 2 and day >= 9 and "SW" not in unlocked and budget >= 2000 + land_reserve:
+    elif len(unlocked) == 2 and day >= 10 and "SW" not in unlocked and budget >= 2000 + land_reserve:
         land_cost = 2000
 
     if land_cost > 0 and len(unlocked) < 3 and len(orders) < MAX_ORDERS:
@@ -1226,10 +1225,9 @@ def _market_orders(obs):
 
     remaining_animal_slots = _animal_purchase_cap()
     shed_animals = int(shed.get("COW", 0)) + int(shed.get("SHEEP", 0))
-    opp_money = float(_get(_get(obs, "farms", [])[1 - player], "money", 0))
     for animal in ("COW", "SHEEP"):
-        # Armored Horizon Gate: Never buy animals after Day 10 if rival has > $8,000 cash (market dump risk)
-        if day > 10 and opp_money > 8000: break
+        # Strict Amortization Rule: Never buy animals after Day 10 (need 18+ days to pay back!)
+        if day > 10: break
         needed = max(0, target_counts[animal] - counts[animal])
         if needed <= 0 or remaining_days < 7: continue
         

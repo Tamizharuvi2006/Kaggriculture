@@ -1126,12 +1126,8 @@ def _market_orders(obs):
     for item in SELLABLE:
         quantity = int(shed.get(item, 0))
         if quantity > 0:
-            p = float(prices.get(item, 1))
-            # Protect against catastrophic fire-sale market dumps (< $25) before Day 28 liquidation
-            if day < 28 and p < 25.0:
-                continue
             orders.append(["SELL", item, quantity])
-            unit_val = p * 0.95
+            unit_val = float(prices.get(item, 1)) * 0.95
             budget += quantity * unit_val
             if item == "MILK": _MATCH_LEDGER["milk_revenue"] += quantity * unit_val
             elif item == "WOOL": _MATCH_LEDGER["wool_revenue"] += quantity * unit_val
@@ -1141,8 +1137,7 @@ def _market_orders(obs):
     counts = _asset_counts(obs)
     animal_count = sum(counts.values())
     wheat_shed = int(shed.get("WHEAT", 0))
-    # Two-Stage Graduated Wheat Liquidation (Day 28: 1 feed buffer, Day 29: full liquidation)
-    wheat_feed_buffer = 0 if day >= 29 else (animal_count if day >= 28 else (animal_count * 2 + 2))
+    wheat_feed_buffer = 0 if day >= 29 else (animal_count * 2 + 2)
     wheat_surplus = max(0, wheat_shed - wheat_feed_buffer)
     if wheat_surplus > 0 and len(orders) < MAX_ORDERS:
         orders.append(["SELL", "WHEAT", wheat_surplus])
@@ -1226,10 +1221,7 @@ def _market_orders(obs):
 
     remaining_animal_slots = _animal_purchase_cap()
     shed_animals = int(shed.get("COW", 0)) + int(shed.get("SHEEP", 0))
-    opp_money = float(_get(_get(obs, "farms", [])[1 - player], "money", 0))
     for animal in ("COW", "SHEEP"):
-        # Armored Horizon Gate: Never buy animals after Day 10 if rival has > $8,000 cash (market dump risk)
-        if day > 10 and opp_money > 8000: break
         needed = max(0, target_counts[animal] - counts[animal])
         if needed <= 0 or remaining_days < 7: continue
         

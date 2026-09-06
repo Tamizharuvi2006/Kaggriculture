@@ -15,12 +15,6 @@ Principles-First Observation-Driven Architecture:
    - Zero replay tapes, zero hardcoded August schedules.
 """
 from __future__ import annotations
-_OPP_STRAWBERRIES = 0
-_OPP_STRAWBERRIES_LOCKED = False
-_POTENTIAL_STRAWBERRY_RISK = False
-_FLOOD_CONFIRMED = False
-_FLOOD_CONFIRMED_DAY = None
-_PREV_STRAW_INV = 10000
 
 import math
 
@@ -93,13 +87,13 @@ DEFAULT_STRATEGY = {
     'livestock_strawberries': 34,
     'livestock_tomatoes': 0,
     'ongoing_harvest_threshold': 3,
-    'opening_animals': 2,
+    'opening_animals': 0,
     'opening_carrots': 2,
-    'opening_cows': 2,
+    'opening_cows': None,
     'opening_melon_day0_cap': None,
     'opening_melon_early_cap': None,
     'opening_melons': 9,
-    'opening_sheep': 0,
+    'opening_sheep': None,
     'opening_wheat': 10,
     'premium_animal_cap': 3,
     'premium_cash_reserve': 250,
@@ -449,29 +443,12 @@ def _crop_plan(day):
     # B. Allocate primary cash crop (85% of remaining arable plots)
     rem = candidates[total_wheat_plots:]
     primary_quota = max(0, int(len(rem) * 0.85))
-
-    # RC4.1-Clean: Forecast -> Realized Market Pressure -> Act (Policy C: 2-Plot Reservation)
-    if primary_cash_crop == "STRAWBERRY" and day >= 11:
-        if globals().get("_POTENTIAL_STRAWBERRY_RISK", False):
-            if globals().get("_FLOOD_CONFIRMED", False):
-                safe_quota = 10
-            else:
-                safe_quota = 24  # Minimal 2-plot optionality reservation
-            primary_quota = min(primary_quota, safe_quota)
-
     for pos in rem[:primary_quota]:
         plan[pos] = primary_cash_crop
         
-    # C. Allocate remaining plots to diversification buffer (RC4.2 Hybrid: 1 Carrot + 1 Wheat after confirmation)
-    flex_rem = rem[primary_quota:]
-    if globals().get("_FLOOD_CONFIRMED", False) and len(flex_rem) >= 2:
-        plan[flex_rem[0]] = secondary_cash_crop
-        plan[flex_rem[1]] = "WHEAT"
-        for pos in flex_rem[2:]:
-            plan[pos] = secondary_cash_crop
-    else:
-        for pos in flex_rem:
-            plan[pos] = secondary_cash_crop
+    # C. Allocate remaining plots to secondary cash crop (diversification buffer)
+    for pos in rem[primary_quota:]:
+        plan[pos] = secondary_cash_crop
         
     return plan
 
@@ -586,9 +563,9 @@ def _animal_site_active(pos, day, unlocked):
     """Stage livestock growth so labour and feed can grow before the herd."""
     x, y = pos
     if x < 5 and y < 5:
-        return True
+        return day >= 4
     if x >= 5 and y < 5:
-        return "NE" in unlocked and day >= 6
+        return "NE" in unlocked and day >= 7
     if x < 5 and y >= 5:
         return "SW" in unlocked and day >= 9
     return False
@@ -693,11 +670,11 @@ def _build_tasks(obs, positions, inventories):
                     tasks.append(_task(urgent, (x, y), ["FEED"], "WHEAT", "feed", ev))
                 if int(tile.get("yield_units", 0)) > 0:
                     p_unit = p_milk if anim == "COW" else p_wool
-                    ev = int(tile.get("yield_units", 1)) * p_unit * 1.5
+                    ev = int(tile.get("yield_units", 1)) * p_unit * 0.95
                     tasks.append(_task(1, (x, y), ["HARVEST"], None, "harvest", ev))
                 if not tile.get("cared_today", False) and day < 29:
                     p_unit = p_milk if anim == "COW" else p_wool
-                    ev = p_unit * 1.5
+                    ev = p_unit * 0.95
                     tasks.append(_task(2, (x, y), ["CARE"], None, "care", ev))
                 if tile.get("fertilizer_available", False):
                     tasks.append(_task(4, (x, y), ["COLLECT_FERTILIZER"], None, "fertilizer", p_fert * 0.95))
@@ -989,11 +966,14 @@ def _quadrant_crop_deficits(obs):
 
 def _hire_target(day):
     """Dynamic labor requirement sized to active workload (plants + animals)."""
-    if day <= 1: return 4
-    if day <= 4: return 5
-    if day <= 7: return 7
-    if day <= 11: return 9
-    if day <= 28: return 12
+    # Base labor ramp: smooth early ramp to prevent wage shock
+    if day == 0: return 2
+    if day == 1: return 2
+    if day <= 3: return 3
+    if day <= 6: return 5
+    if day <= 9: return 7
+    if day <= 14: return 9
+    if day <= 28: return 11
     return 6
 
 
@@ -1015,33 +995,15 @@ def _safe_buy_price(price):
 
 
 def _observe_opponent(obs):
-    global _OPPONENT_STYLE, _EXPERT_EVIDENCE, _MARKET_ANIMAL_SHARE, _OPP_STRAWBERRIES, _OPP_STRAWBERRIES_LOCKED
-    global _POTENTIAL_STRAWBERRY_RISK, _FLOOD_CONFIRMED, _FLOOD_CONFIRMED_DAY, _PREV_STRAW_INV
+    global _OPPONENT_STYLE, _EXPERT_EVIDENCE, _MARKET_ANIMAL_SHARE
     day = int(_get(obs, "day", 0))
     hour = int(_get(obs, "hour", 0))
     if day == 0 and hour == 0:
         _OPPONENT_STYLE = None
         _EXPERT_EVIDENCE = {}
         _MARKET_ANIMAL_SHARE = None
-        _OPP_STRAWBERRIES = 0
-        _OPP_STRAWBERRIES_LOCKED = False
-        _POTENTIAL_STRAWBERRY_RISK = False
-        _FLOOD_CONFIRMED = False
-        _FLOOD_CONFIRMED_DAY = None
-        _PREV_STRAW_INV = 10000
     market = _get(obs, "market", {}) or {}
     prices = _get(market, "prices", {}) or {}
-    inventory = _get(market, "inventory", {}) or {}
-
-    # RC4.1-Clean: Stage 3 Realized Market Inventory Response (Threshold: 9,935 with ΔI > 0 on Day 15+)
-    inv_straw = int(inventory.get("STRAWBERRY", 10000))
-    delta_inv = inv_straw - _PREV_STRAW_INV
-    _PREV_STRAW_INV = inv_straw
-    if _POTENTIAL_STRAWBERRY_RISK and day >= 15 and not _FLOOD_CONFIRMED:
-        if inv_straw >= 9935 and delta_inv > 0:
-            _FLOOD_CONFIRMED = True
-            _FLOOD_CONFIRMED_DAY = day
-
     cow_roi = max(1.0, float(prices.get("MILK", 160))) / float(ANIMALS["COW"]["cost"])
     sheep_roi = max(1.0, float(prices.get("WOOL", 200))) / float(ANIMALS["SHEEP"]["cost"])
     sensitivity = max(0.1, float(STRATEGY.get("animal_price_sensitivity", 2.0)))
@@ -1057,14 +1019,6 @@ def _observe_opponent(obs):
     plants = sum(tile.get("kind") == "PLANT" for tile in tiles)
     wheat = sum(tile.get("crop") == "WHEAT" for tile in tiles)
     strawberries = sum(tile.get("crop") == "STRAWBERRY" for tile in tiles)
-    # Strict temporal boundary: Lock opponent strawberry exposure at Day 11 Hour 0!
-    if not globals().get("_OPP_STRAWBERRIES_LOCKED", False):
-        if day < 11 or (day == 11 and hour == 0):
-            _OPP_STRAWBERRIES = strawberries
-            if day == 11 and hour == 0 and _OPP_STRAWBERRIES >= 16:
-                _POTENTIAL_STRAWBERRY_RISK = True
-        else:
-            _OPP_STRAWBERRIES_LOCKED = True
     cows = sum(tile.get("animal") == "COW" for tile in tiles)
     sheep = sum(tile.get("animal") == "SHEEP" for tile in tiles)
     animals = sum(tile.get("animal") in ANIMALS for tile in tiles)
@@ -1093,7 +1047,7 @@ def _observe_opponent(obs):
 
 
 def _animal_purchase_cap():
-    return 4
+    return 2
 
 
 def _market_orders(obs):
@@ -1126,12 +1080,8 @@ def _market_orders(obs):
     for item in SELLABLE:
         quantity = int(shed.get(item, 0))
         if quantity > 0:
-            p = float(prices.get(item, 1))
-            # Protect against catastrophic fire-sale market dumps (< $25) before Day 28 liquidation
-            if day < 28 and p < 25.0:
-                continue
             orders.append(["SELL", item, quantity])
-            unit_val = p * 0.95
+            unit_val = float(prices.get(item, 1)) * 0.95
             budget += quantity * unit_val
             if item == "MILK": _MATCH_LEDGER["milk_revenue"] += quantity * unit_val
             elif item == "WOOL": _MATCH_LEDGER["wool_revenue"] += quantity * unit_val
@@ -1141,8 +1091,7 @@ def _market_orders(obs):
     counts = _asset_counts(obs)
     animal_count = sum(counts.values())
     wheat_shed = int(shed.get("WHEAT", 0))
-    # Two-Stage Graduated Wheat Liquidation (Day 28: 1 feed buffer, Day 29: full liquidation)
-    wheat_feed_buffer = 0 if day >= 29 else (animal_count if day >= 28 else (animal_count * 2 + 2))
+    wheat_feed_buffer = 0 if day >= 29 else (animal_count * 2 + 2)
     wheat_surplus = max(0, wheat_shed - wheat_feed_buffer)
     if wheat_surplus > 0 and len(orders) < MAX_ORDERS:
         orders.append(["SELL", "WHEAT", wheat_surplus])
@@ -1166,7 +1115,7 @@ def _market_orders(obs):
     target_hires = _hire_target(day)
     already = int(_get(farm, "hires_today", 0))
     hire_costs = _hire_costs(target_hires, already)
-    critical_target = min(target_hires, 4 if day <= 1 else 5 if day <= 4 else 7 if day <= 7 else 9 if day <= 11 else 12)
+    critical_target = min(target_hires, 2 if day <= 1 else 3 if day <= 4 else 5 if day <= 8 else 8 if day <= 14 else 10)
     critical_costs = _hire_costs(critical_target, already)
     hired_costs = 0
     for cost in critical_costs:
@@ -1204,10 +1153,10 @@ def _market_orders(obs):
 
     # === 4. ACCELERATED LAND EXPANSION (Max 3 Quadrants: NW, NE, SW) ===
     land_cost = 0
-    land_reserve = 800 if day <= 10 else 1200
+    land_reserve = 1100 if day <= 8 else (800 if day <= 10 else 1200)
     if len(unlocked) == 1 and day >= 6 and "NE" not in unlocked and budget >= 1000 + land_reserve:
         land_cost = 1000
-    elif len(unlocked) == 2 and day >= 9 and "SW" not in unlocked and budget >= 2000 + land_reserve:
+    elif len(unlocked) == 2 and day >= 10 and "SW" not in unlocked and budget >= 2000 + land_reserve:
         land_cost = 2000
 
     if land_cost > 0 and len(unlocked) < 3 and len(orders) < MAX_ORDERS:
@@ -1226,10 +1175,7 @@ def _market_orders(obs):
 
     remaining_animal_slots = _animal_purchase_cap()
     shed_animals = int(shed.get("COW", 0)) + int(shed.get("SHEEP", 0))
-    opp_money = float(_get(_get(obs, "farms", [])[1 - player], "money", 0))
     for animal in ("COW", "SHEEP"):
-        # Armored Horizon Gate: Never buy animals after Day 10 if rival has > $8,000 cash (market dump risk)
-        if day > 10 and opp_money > 8000: break
         needed = max(0, target_counts[animal] - counts[animal])
         if needed <= 0 or remaining_days < 7: continue
         
