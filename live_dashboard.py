@@ -29,10 +29,10 @@ OUTPUT_DIR = Path(r"D:\kaggriculture\reports\live_match_telemetry")
 LOSS_REGISTRY_PATH = OUTPUT_DIR / "loss_registry.json"
 
 DEFAULT_TRACKED_SUBS = [
-    56055306,  # RC15 Champion (Active Live Production Candidate 🏆)
+    56055353,  # RC18 (Realize Planted Strawberries 🍓)
+    56055306,  # RC15 Champion (Armored Horizon Gate 🏆)
     55992396,  # RC4.2-Hybrid (Previous Candidate 🚀)
     55979565,  # RC2 (Historical Control Baseline 🔒)
-    55935415,  # EXP212 Responder V6 (Previous)
 ]
 
 
