@@ -112,15 +112,23 @@ def benchmark_against_v41(cand_path: str, num_seeds: int = 10):
     v41_mean = float(np.mean(v41_scores))
     mean_delta = cand_mean - v41_mean
     
+    deltas = np.array([r["delta"] for r in results])
+    rng = np.random.default_rng(seed=42)
+    boot_means = [np.mean(rng.choice(deltas, size=len(deltas), replace=True)) for _ in range(1000)]
+    ci_low, ci_high = float(np.percentile(boot_means, 2.5)), float(np.percentile(boot_means, 97.5))
+    
+    passed = (wr >= 55.0 and mean_delta > 0 and ci_low > 0)
+
     print("=" * 88)
     print(f"GATE SUMMARY: {cand_name} vs V4.1 ({n} matches in {elapsed:.1f}s)")
     print(f"  Head-to-Head Record: {wins}W / {ties}T / {losses}L  (Win Rate: {wr:.1f}%)")
     print(f"  Candidate Wealth   : Mean ${cand_mean:,.0f} | Floor ${min(cand_scores):,d} | Ceiling ${max(cand_scores):,d}")
     print(f"  V4.1 Wealth        : Mean ${v41_mean:,.0f} | Floor ${min(v41_scores):,d} | Ceiling ${max(v41_scores):,d}")
-    print(f"  Net Mean Delta     : ${mean_delta:+,.0f} per match")
-    print(f"  DEPLOYMENT VERDICT : {'PASSED GATE (Competitive with V4.1)' if wr >= 55.0 and mean_delta > 0 else 'REJECTED (Inferior to V4.1 live baseline)'}")
+    print(f"  Net Mean Delta     : ${mean_delta:+,.0f} per match [95% Bootstrap CI: ${ci_low:+,.0f} to ${ci_high:+,.0f}]")
+    print(f"  DEPLOYMENT VERDICT : {'PASSED GATE (Strictly beats V4.1 with 95% confidence)' if passed else 'REJECTED (Does NOT strictly beat V4.1 baseline)'}")
     print("=" * 88)
-    return wr, mean_delta
+    return wr, mean_delta, (ci_low, ci_high)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run mandatory V4.1 benchmark on candidate bot.")
