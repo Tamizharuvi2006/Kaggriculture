@@ -19,7 +19,11 @@ TOURNAMENT_SEEDS = [
     953494806, 711226357, 1624303674, 1362511072, 529528835,
     198057751, 2088147978, 805234002, 1262472034, 1802332305,
     1396349514, 2038933214, 1098481434, 1294246960, 114674719,
-    1097619213, 1024364491, 1026490656, 1729007684, 1845173322
+    1097619213, 1024364491, 1026490656, 1729007684, 1845173322,
+    1383158606, 249081663, 63710184, 1602467581, 600620971,
+    535901256, 489341423, 309655412, 1591559892, 230106707,
+    1463201078, 1600571865, 1925941032, 1181165722, 196699713,
+    1278073012, 916070220, 78252793, 73989047, 211209005
 ]
 
 V41_PATH = r"D:\kaggriculture\baseline\kaitofukami-v18.py"
@@ -74,20 +78,20 @@ def _run_single_h2h(args):
         "delta": cand_score - v41_score,
     }
 
-def benchmark_against_v41(cand_path: str, num_seeds: int = 10):
+def benchmark_against_v41(cand_path: str, num_seeds: int = 10, start_seed: int = 0):
     if not os.path.exists(cand_path):
         raise FileNotFoundError(f"Candidate file not found: {cand_path}")
         
     cand_name = os.path.basename(cand_path)
     print("=" * 88)
-    print(f"MANDATORY V4.1 BENCHMARK GATE: {cand_name} vs V4.1 Clean (10 Workers, {num_seeds} Seeds, Seat Swap)")
+    print(f"MANDATORY V4.1 BENCHMARK GATE: {cand_name} vs V4.1 Clean (10 Workers, {num_seeds} Seeds [offset {start_seed}], Seat Swap)")
     print("=" * 88)
     
     tasks = []
-    seeds = TOURNAMENT_SEEDS[:num_seeds]
+    seeds = TOURNAMENT_SEEDS[start_seed:start_seed + num_seeds]
     for i, s in enumerate(seeds):
-        tasks.append((cand_path, 0, s, f"Seed_{i+1}_Seat0"))
-        tasks.append((cand_path, 1, s, f"Seed_{i+1}_Seat1"))
+        tasks.append((cand_path, 0, s, f"Seed_{start_seed + i + 1}_Seat0"))
+        tasks.append((cand_path, 1, s, f"Seed_{start_seed + i + 1}_Seat1"))
         
     t0 = time.time()
     with concurrent.futures.ProcessPoolExecutor(max_workers=10) as ex:
@@ -107,12 +111,12 @@ def benchmark_against_v41(cand_path: str, num_seeds: int = 10):
         print(f"{r['label']:<18} | {r['cand_seat']:<6} | ${r['cand_score']:>15,d} | ${r['v41_score']:>13,d} | ${r['delta']:>+11,d} | {res:<6}")
         
     n = len(results)
-    wr = (wins / n) * 100.0
+    wr = (wins + 0.5 * ties) / n * 100.0
     cand_mean = float(np.mean(cand_scores))
     v41_mean = float(np.mean(v41_scores))
     mean_delta = cand_mean - v41_mean
     
-    deltas = np.array([r["delta"] for r in results])
+    deltas = [r["delta"] for r in results]
     rng = np.random.default_rng(seed=42)
     boot_means = [np.mean(rng.choice(deltas, size=len(deltas), replace=True)) for _ in range(1000)]
     ci_low, ci_high = float(np.percentile(boot_means, 2.5)), float(np.percentile(boot_means, 97.5))
@@ -134,6 +138,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run mandatory V4.1 benchmark on candidate bot.")
     parser.add_argument("candidate", nargs="?", default=r"D:\kaggriculture\submission_rc18.py", help="Path to candidate script")
     parser.add_argument("--seeds", type=int, default=10, help="Number of tournament seeds to evaluate (default 10)")
+    parser.add_argument("--start_seed", type=int, default=0, help="Starting index of tournament seeds (default 0)")
     args = parser.parse_args()
     
-    benchmark_against_v41(args.candidate, num_seeds=args.seeds)
+    benchmark_against_v41(args.candidate, num_seeds=args.seeds, start_seed=args.start_seed)
